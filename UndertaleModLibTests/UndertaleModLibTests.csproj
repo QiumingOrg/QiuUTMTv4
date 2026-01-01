@@ -21,8 +21,4 @@
         </PackageReference>
     </ItemGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\UndertaleModLib\UndertaleModLib.csproj" />
-    </ItemGroup>
-
 </Project>

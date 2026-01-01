@@ -38,7 +38,6 @@
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\Underanalyzer\Underanalyzer\Underanalyzer.csproj" />
-        <ProjectReference Include="..\UndertaleModLib\UndertaleModLib.csproj" />
     </ItemGroup>
     <ItemGroup>
         <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">

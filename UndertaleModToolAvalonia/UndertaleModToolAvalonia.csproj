@@ -59,6 +59,6 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\QiuLibCore\QiuLibCore.csproj" />
-		<ProjectReference Include="..\UndertaleModLib\UndertaleModLib.csproj" />
+		<ProjectReference Include="..\QiuUndertaleModLib\UndertaleModLib.csproj" />
 	</ItemGroup>
 </Project>

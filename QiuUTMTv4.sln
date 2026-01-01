@@ -3,18 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndertaleModTool", "UndertaleModTool\UndertaleModTool.csproj", "{C703A485-DBFB-4601-8A26-42E64CCF812F}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndertaleModLib", "UndertaleModLib\UndertaleModLib.csproj", "{4781ADAC-9469-42C4-B357-4A0A157D7FCD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndertaleModTests", "UndertaleModTests\UndertaleModTests.csproj", "{0B51CE42-C047-4B07-A8C9-88F4E3EA6DBD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndertaleModCli", "UndertaleModCli\UndertaleModCli.csproj", "{CC5FDC60-A955-4D0C-B59F-8BD451778237}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndertaleModToolUpdater", "UndertaleModToolUpdater\UndertaleModToolUpdater.csproj", "{1E004B65-F3C8-4A62-B649-1465EA6A3B01}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndertaleModLibTests", "UndertaleModLibTests\UndertaleModLibTests.csproj", "{AAE3D4CA-0B6C-4928-AE86-066F5251F70A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Underanalyzer", "Underanalyzer\Underanalyzer\Underanalyzer.csproj", "{A171D18F-274E-427A-AFB3-D7A161F5B9CF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndertaleModToolAvalonia", "UndertaleModToolAvalonia\UndertaleModToolAvalonia.csproj", "{C7187D08-A0AF-4E70-91E0-B44C06ADE0C5}"
@@ -23,13 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndertaleModToolAvalonia.An
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndertaleModToolAvalonia.Desktop", "UndertaleModToolAvalonia.Desktop\UndertaleModToolAvalonia.Desktop.csproj", "{9205C3EE-2824-42F9-8DC7-2C5C13EA7227}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndertaleModToolAvalonia.iOS", "UndertaleModToolAvalonia.iOS\UndertaleModToolAvalonia.iOS.csproj", "{EC9E904A-519E-4F36-94B1-20826FB9DBDC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndertaleModToolAvalonia.Browser", "UndertaleModToolAvalonia.Browser\UndertaleModToolAvalonia.Browser.csproj", "{7578D520-337F-484E-8194-817C0AD070E6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QiuLibCore", "QiuLibCore\QiuLibCore.csproj", "{E796578F-A446-405E-B55A-3F512CDB842D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QiuSkiaBridge", "QiuSkiaBridge\QiuSkiaBridge.csproj", "{FBC4112C-FD39-4CD3-A033-CCEB32779F70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndertaleModLib", "QiuUndertaleModLib\UndertaleModLib.csproj", "{AE4C049C-1900-4C8D-B39F-AEF581F37597}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,45 +25,6 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C703A485-DBFB-4601-8A26-42E64CCF812F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C703A485-DBFB-4601-8A26-42E64CCF812F}.Debug|x64.ActiveCfg = Debug|x64
-		{C703A485-DBFB-4601-8A26-42E64CCF812F}.Debug|x64.Build.0 = Debug|x64
-		{C703A485-DBFB-4601-8A26-42E64CCF812F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C703A485-DBFB-4601-8A26-42E64CCF812F}.Release|x64.ActiveCfg = Release|x64
-		{C703A485-DBFB-4601-8A26-42E64CCF812F}.Release|x64.Build.0 = Release|x64
-		{4781ADAC-9469-42C4-B357-4A0A157D7FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4781ADAC-9469-42C4-B357-4A0A157D7FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4781ADAC-9469-42C4-B357-4A0A157D7FCD}.Debug|x64.ActiveCfg = Debug|x64
-		{4781ADAC-9469-42C4-B357-4A0A157D7FCD}.Debug|x64.Build.0 = Debug|x64
-		{4781ADAC-9469-42C4-B357-4A0A157D7FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4781ADAC-9469-42C4-B357-4A0A157D7FCD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4781ADAC-9469-42C4-B357-4A0A157D7FCD}.Release|x64.ActiveCfg = Release|x64
-		{4781ADAC-9469-42C4-B357-4A0A157D7FCD}.Release|x64.Build.0 = Release|x64
-		{0B51CE42-C047-4B07-A8C9-88F4E3EA6DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B51CE42-C047-4B07-A8C9-88F4E3EA6DBD}.Debug|x64.ActiveCfg = Debug|x64
-		{0B51CE42-C047-4B07-A8C9-88F4E3EA6DBD}.Debug|x64.Build.0 = Debug|x64
-		{0B51CE42-C047-4B07-A8C9-88F4E3EA6DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B51CE42-C047-4B07-A8C9-88F4E3EA6DBD}.Release|x64.ActiveCfg = Release|x64
-		{0B51CE42-C047-4B07-A8C9-88F4E3EA6DBD}.Release|x64.Build.0 = Release|x64
-		{CC5FDC60-A955-4D0C-B59F-8BD451778237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC5FDC60-A955-4D0C-B59F-8BD451778237}.Debug|x64.ActiveCfg = Debug|x64
-		{CC5FDC60-A955-4D0C-B59F-8BD451778237}.Debug|x64.Build.0 = Debug|x64
-		{CC5FDC60-A955-4D0C-B59F-8BD451778237}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC5FDC60-A955-4D0C-B59F-8BD451778237}.Release|x64.ActiveCfg = Release|Any CPU
-		{CC5FDC60-A955-4D0C-B59F-8BD451778237}.Release|x64.Build.0 = Release|Any CPU
-		{1E004B65-F3C8-4A62-B649-1465EA6A3B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E004B65-F3C8-4A62-B649-1465EA6A3B01}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{1E004B65-F3C8-4A62-B649-1465EA6A3B01}.Debug|x64.Build.0 = Debug|Any CPU
-		{1E004B65-F3C8-4A62-B649-1465EA6A3B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E004B65-F3C8-4A62-B649-1465EA6A3B01}.Release|x64.ActiveCfg = Release|Any CPU
-		{1E004B65-F3C8-4A62-B649-1465EA6A3B01}.Release|x64.Build.0 = Release|Any CPU
-		{AAE3D4CA-0B6C-4928-AE86-066F5251F70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AAE3D4CA-0B6C-4928-AE86-066F5251F70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AAE3D4CA-0B6C-4928-AE86-066F5251F70A}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{AAE3D4CA-0B6C-4928-AE86-066F5251F70A}.Debug|x64.Build.0 = Debug|Any CPU
-		{AAE3D4CA-0B6C-4928-AE86-066F5251F70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AAE3D4CA-0B6C-4928-AE86-066F5251F70A}.Release|x64.ActiveCfg = Release|Any CPU
-		{AAE3D4CA-0B6C-4928-AE86-066F5251F70A}.Release|x64.Build.0 = Release|Any CPU
 		{A171D18F-274E-427A-AFB3-D7A161F5B9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A171D18F-274E-427A-AFB3-D7A161F5B9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A171D18F-274E-427A-AFB3-D7A161F5B9CF}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -116,21 +63,6 @@ Global
 		{9205C3EE-2824-42F9-8DC7-2C5C13EA7227}.Release|x64.Build.0 = Release|Any CPU
 		{9205C3EE-2824-42F9-8DC7-2C5C13EA7227}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{9205C3EE-2824-42F9-8DC7-2C5C13EA7227}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{EC9E904A-519E-4F36-94B1-20826FB9DBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC9E904A-519E-4F36-94B1-20826FB9DBDC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{EC9E904A-519E-4F36-94B1-20826FB9DBDC}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{EC9E904A-519E-4F36-94B1-20826FB9DBDC}.Debug|x64.Build.0 = Debug|Any CPU
-		{EC9E904A-519E-4F36-94B1-20826FB9DBDC}.Debug|x64.Deploy.0 = Debug|Any CPU
-		{EC9E904A-519E-4F36-94B1-20826FB9DBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC9E904A-519E-4F36-94B1-20826FB9DBDC}.Release|x64.ActiveCfg = Release|Any CPU
-		{EC9E904A-519E-4F36-94B1-20826FB9DBDC}.Release|x64.Build.0 = Release|Any CPU
-		{EC9E904A-519E-4F36-94B1-20826FB9DBDC}.Release|x64.Deploy.0 = Release|Any CPU
-		{7578D520-337F-484E-8194-817C0AD070E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7578D520-337F-484E-8194-817C0AD070E6}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{7578D520-337F-484E-8194-817C0AD070E6}.Debug|x64.Build.0 = Debug|Any CPU
-		{7578D520-337F-484E-8194-817C0AD070E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7578D520-337F-484E-8194-817C0AD070E6}.Release|x64.ActiveCfg = Release|Any CPU
-		{7578D520-337F-484E-8194-817C0AD070E6}.Release|x64.Build.0 = Release|Any CPU
 		{E796578F-A446-405E-B55A-3F512CDB842D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E796578F-A446-405E-B55A-3F512CDB842D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E796578F-A446-405E-B55A-3F512CDB842D}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -147,6 +79,14 @@ Global
 		{FBC4112C-FD39-4CD3-A033-CCEB32779F70}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FBC4112C-FD39-4CD3-A033-CCEB32779F70}.Release|x64.ActiveCfg = Release|x64
 		{FBC4112C-FD39-4CD3-A033-CCEB32779F70}.Release|x64.Build.0 = Release|x64
+		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Debug|x64.ActiveCfg = Debug|x64
+		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Debug|x64.Build.0 = Debug|x64
+		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Release|x64.ActiveCfg = Release|x64
+		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
