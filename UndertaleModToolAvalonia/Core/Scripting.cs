@@ -81,7 +81,8 @@ public class Scripting
 
             try
             {
-                ScriptState<object?> state = await script.RunAsync(scripting);
+                var task=Task.Run(() => script.RunAsync(scripting));
+                ScriptState<object?> state = await task;
                 return state.ReturnValue;
             }
             catch (ScriptException e)

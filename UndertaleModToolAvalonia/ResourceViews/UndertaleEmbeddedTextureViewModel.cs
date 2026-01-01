@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using SkiaSharp;
 using UndertaleModLib;
 using UndertaleModLib.Models;
+using UndertaleModToolAvalonia.QiuIO;
 
 namespace UndertaleModToolAvalonia;
 
@@ -23,11 +24,11 @@ public partial class UndertaleEmbeddedTextureViewModel : IUndertaleResourceViewM
 
     public async void SaveImage()
     {
-        IStorageFile? file = await MainVM.View!.SaveFileDialog(new FilePickerSaveOptions()
+        IFile? file = await MainVM.View!.SaveFileDialog(new FilePickerSaveOptions()
         {
             Title = "Save image",
             FileTypeChoices = [
-               new FilePickerFileType("PNG files (.png)")
+                new FilePickerFileType("PNG files (.png)")
                 {
                     Patterns = ["*.png"],
                 },

@@ -1,9 +1,22 @@
 <Application xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              x:Class="UndertaleModToolAvalonia.App"
+             xmlns:u-semi="https://irihi.tech/ursa/themes/semi"
+             xmlns:semi="https://irihi.tech/semi"
              RequestedThemeVariant="Default">
-             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
+    <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
     <Application.Styles>
+        <Style Selector="Window">
+            <Setter Property="FontFamily" Value="{DynamicResource Unifont}"/>
+        </Style>
         <StyleInclude Source="/Styles.axaml" />
+        <semi:SemiTheme Locale="zh-CN" />
+        <u-semi:SemiTheme Locale="zh-CN" />
     </Application.Styles>
+    <Application.Resources>
+        <!-- 指定字体文件（#号后是字体名称，必须指定，否则不生效。） -->
+        <FontFamily x:Key="Unifont">avares://UndertaleModToolAvalonia/Assets/unifont.ttf#Unifont</FontFamily>
+        <!-- 指定字体文件夹（#号后是字体名称，必须指定，否则不生效。） -->
+        <!--<FontFamily x:Key="MiSans">avares://AvaloniaApplication1/fonts#MiSans</FontFamily>-->
+    </Application.Resources>
 </Application>

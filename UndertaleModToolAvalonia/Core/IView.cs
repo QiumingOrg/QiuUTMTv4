@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using Avalonia.Controls;
@@ -7,24 +8,46 @@ using Avalonia.Input;
 using Avalonia.Interactivity;
 using Avalonia.LogicalTree;
 using Avalonia.Platform.Storage;
+using Microsoft.Maui.Storage;
 using Prism.Commands;
+using UndertaleModToolAvalonia.QiuIO;
+using UTMTdrid;
 
 namespace UndertaleModToolAvalonia;
 
 public interface IView
 {
-    private UserControl View => (UserControl)this;
+    public UserControl View => (UserControl)this;
 
-    public async Task<IReadOnlyList<IStorageFile>> OpenFileDialog(FilePickerOpenOptions options)
+    public async Task<List<IFile>> OpenFileDialog(FilePickerOpenOptions options)
     {
+        if (OperatingSystem.IsAndroid())
+        {
+            QiuFuncMain.clearCallbacks();
+            var options1 = PickOptions.Default;
+            options1.PickerTitle = options.Title;
+            var fileResult = await FilePicker.Default.PickAsync(options1);
+            if (fileResult == null) return null;
+            var t = fileResult.FullPath;
+            return new List<IFile>{ new QiuStrongerFile(new FileInfo(t)) };
+        }
+
         TopLevel topLevel = TopLevel.GetTopLevel(View)!;
-        return await topLevel.StorageProvider.OpenFilePickerAsync(options);
+        return IFile.IStorageFileAToIFileA(await topLevel.StorageProvider.OpenFilePickerAsync(options));
     }
 
-    public async Task<IStorageFile?> SaveFileDialog(FilePickerSaveOptions options)
+    public async Task<IFile?> SaveFileDialog(FilePickerSaveOptions options)
     {
+        if (OperatingSystem.IsAndroid())
+        {
+            QiuFuncMain.clearCallbacks();
+            var t = await MAUIBridge.SaveFile((options.SuggestedFileName ?? "file")+(options.DefaultExtension??".bin"), CancellationToken.None);
+            if (t == null) return null;
+            return new QiuStrongerFile(new FileInfo(t));
+        }
+
         TopLevel topLevel = TopLevel.GetTopLevel(View)!;
-        return await topLevel.StorageProvider.SaveFilePickerAsync(options);
+        return IFile.IStorageFileToIFile(await topLevel.StorageProvider.SaveFilePickerAsync(options)); 
     }
 
     public async Task<IReadOnlyList<IStorageFolder>> OpenFolderDialog(FolderPickerOpenOptions options)

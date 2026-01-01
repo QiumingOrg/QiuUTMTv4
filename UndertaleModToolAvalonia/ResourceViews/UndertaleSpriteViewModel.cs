@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using PropertyChanged.SourceGenerator;
 using UndertaleModLib;
 using UndertaleModLib.Models;
+using UndertaleModToolAvalonia.QiuIO;
 
 namespace UndertaleModToolAvalonia;
 
@@ -68,7 +69,7 @@ public partial class UndertaleSpriteViewModel : IUndertaleResourceViewModel
         if (CollisionMasksSelected is null)
             return;
 
-        IReadOnlyList<IStorageFile> files = await MainVM.View!.OpenFileDialog(new FilePickerOpenOptions
+        List<IFile> files = await MainVM.View!.OpenFileDialog(new FilePickerOpenOptions
         {
             Title = "Import collision mask data",
             FileTypeFilter = binFileTypes,
@@ -92,7 +93,7 @@ public partial class UndertaleSpriteViewModel : IUndertaleResourceViewModel
         if (CollisionMasksSelected is null)
             return;
 
-        IStorageFile? file = await MainVM.View!.SaveFileDialog(new FilePickerSaveOptions()
+        IFile? file = await MainVM.View!.SaveFileDialog(new FilePickerSaveOptions()
         {
             Title = "Export collision mask data",
             FileTypeChoices = binFileTypes,

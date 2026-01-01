@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <LangVersion>11</LangVersion>
+        <OutputType>Library</OutputType>
+        <!-- AssemblyInfo -->
+        <AssemblyTitle>QiuSkiaBridge</AssemblyTitle>
+        <ProductName>QiuSkiaBridge</ProductName>
+        <Copyright>Copyright © GenOuka 2018-2025,licensed under MPL2.0</Copyright>
+        <DebugType>embedded</DebugType>
+        <Platforms>AnyCPU;x64</Platforms>
+        <NeutralLanguage>en</NeutralLanguage>
+        <ResourceLanguages>en</ResourceLanguages>
+        <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+        <!-- Suppress all missing XML comment warnings -->
+        <NoWarn>1591</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SkiaSharp" Version="3.119.0" />
+    </ItemGroup>
+
+</Project>

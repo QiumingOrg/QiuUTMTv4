@@ -5,9 +5,10 @@
              xmlns:l="clr-namespace:UndertaleModToolAvalonia"
              xmlns:undertale="clr-namespace:UndertaleModLib;assembly=UndertaleModLib"
              xmlns:undertalem="clr-namespace:UndertaleModLib.Models;assembly=UndertaleModLib"
+             xmlns:u="https://irihi.tech/ursa"
+             xmlns:resourceViews="clr-namespace:UndertaleModToolAvalonia.ResourceViews"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="UndertaleModToolAvalonia.MainView"
-             FontFamily="avares://UndertaleModToolAvalonia/Assets/unifont.ttf"
              x:DataType="l:MainViewModel">
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
@@ -17,18 +18,18 @@
 
     <UserControl.Resources>
         <ContextMenu x:Key="ListMenu">
-            <MenuItem Header="_Add" Click="ContextMenu_Add_Click" />
+            <MenuItem Header="添加" Click="ContextMenu_Add_Click" />
         </ContextMenu>
         <ContextMenu x:Key="SingleMenu">
-            <MenuItem Header="_Open" Click="ContextMenu_Open_Click" />
-            <MenuItem Header="Open in _new tab" Click="ContextMenu_OpenInNewTab_Click" />
+            <MenuItem Header="打开" Click="ContextMenu_Open_Click" />
+            <MenuItem Header="在新标签页打开" Click="ContextMenu_OpenInNewTab_Click" />
         </ContextMenu>
         <ContextMenu x:Key="ResourceMenu">
-            <MenuItem Header="_Open" Click="ContextMenu_Open_Click" />
-            <MenuItem Header="Open in _new tab" Click="ContextMenu_OpenInNewTab_Click" />
-            <MenuItem Header="_Copy name" Click="ContextMenu_CopyName_Click" />
-            <MenuItem Header="_Swap to position" Click="ContextMenu_Move_Click" />
-            <MenuItem Header="_Remove" Click="ContextMenu_Remove_Click" />
+            <MenuItem Header="打开" Click="ContextMenu_Open_Click" />
+            <MenuItem Header="在新标签页打开" Click="ContextMenu_OpenInNewTab_Click" />
+            <MenuItem Header="复制名称" Click="ContextMenu_CopyName_Click" />
+            <MenuItem Header="交换位置" Click="ContextMenu_Move_Click" />
+            <MenuItem Header="移除" Click="ContextMenu_Remove_Click" />
         </ContextMenu>
         <l:DataItemToNameConverter x:Key="DataItemToNameConverter" />
         <l:TreeDataGridItemToContextMenuConverter x:Key="TreeDataGridItemToContextMenuConverter"
@@ -44,29 +45,33 @@
                     <MenuItem Header="打开" Command="{Binding FileOpen}" />
                     <MenuItem Header="保存" Command="{Binding FileSave}" />
                     <MenuItem Header="关闭" Command="{Binding FileClose}" />
-                    <Separator />
-                    <MenuItem Header="临时运行游戏" IsEnabled="False" />
-                    <MenuItem Header="使用调试器运行游戏" IsEnabled="False" />
-                    <MenuItem Header="使用其他运行器运行游戏" IsEnabled="False" />
-                    <Separator />
-                    <MenuItem Header="生成偏移值图谱" IsEnabled="False" />
+                    <!-- <Separator /> -->
+                    <!-- <MenuItem Header="临时运行游戏" IsEnabled="False" /> -->
+                    <!-- <MenuItem Header="使用调试器运行游戏" IsEnabled="False" /> -->
+                    <!-- <MenuItem Header="使用其他运行器运行游戏" IsEnabled="False" /> -->
+                    <!-- <Separator /> -->
+                    <!-- <MenuItem Header="生成偏移值图谱" IsEnabled="False" /> -->
                     <Separator />
                     <MenuItem Header="设置" Command="{Binding FileSettings}" />
                     <MenuItem Header="退出" Command="{Binding FileExit}" />
                 </MenuItem>
-                <MenuItem Header="导入" IsEnabled="False">
-                </MenuItem>
-                <MenuItem Header="导出" IsEnabled="False">
-                </MenuItem>
+                <!-- <MenuItem Header="导入" IsEnabled="False"> -->
+                <!-- </MenuItem> -->
+                <!-- <MenuItem Header="导出" IsEnabled="False"> -->
+                <!-- </MenuItem> -->
                 <MenuItem Header="工具">
                     <MenuItem Header="搜索代码" Command="{Binding ToolsSearchInCode}" />
-                    <MenuItem Header="寻找没有引用的资源" IsEnabled="False" />
+                    <MenuItem Header="寻找未被引用的资源" IsEnabled="False" />
                 </MenuItem>
                 <MenuItem Header="脚本">
-                    <MenuItem Header="选择脚本运行" Command="{Binding ScriptsRunOtherScript}" />
+                    <MenuItem Header="内置脚本" ItemsSource="{Binding ScriptsSubMenuItems}" />
+                    <MenuItem Header="选择脚本文件运行" Command="{Binding ScriptsRunOtherScript}" />
                 </MenuItem>
                 <MenuItem Header="帮助">
-                    <MenuItem Header="_GitHub" Command="{Binding HelpGitHub}" />
+                    <MenuItem Header="_GitHub..." Command="{Binding HelpGitHub}" />
+                    <MenuItem Header="捐赠" Command="{Binding Donate}" />
+                    <MenuItem Header="QQ交流群..." Command="{Binding QQGroup}" />
+                    <MenuItem Header="哔哩哔哩..." Command="{Binding Bilibili}" />
                     <MenuItem Header="关于" Command="{Binding HelpAbout}" />
                 </MenuItem>
             </Menu>
@@ -141,7 +146,7 @@
                                 </Setter>
                                 <Setter Property="ContextMenu">
                                     <ContextMenu>
-                                        <MenuItem Header="Close tab" Click="TabMenu_Close_Click" />
+                                        <MenuItem Header="关闭标签页" Click="TabMenu_Close_Click" />
                                     </ContextMenu>
                                 </Setter>
                             </Style>
@@ -156,13 +161,19 @@
                                                 <TextBlock Text="{Binding Heading}" />
                                             </DataTemplate>
                                             <DataTemplate DataType="l:GeneralInfoViewModel">
-                                                <TextBlock Text="General info" />
+                                                <TextBlock Text="基本信息" />
                                             </DataTemplate>
                                             <DataTemplate DataType="l:GlobalInitScriptsViewModel">
-                                                <TextBlock Text="Global init scripts" />
+                                                <TextBlock Text="全局进入脚本" />
                                             </DataTemplate>
                                             <DataTemplate DataType="l:GameEndScriptsViewModel">
-                                                <TextBlock Text="Game End scripts" />
+                                                <TextBlock Text="游戏终止脚本" />
+                                            </DataTemplate>
+                                            <DataTemplate DataType="l:SearchInCodeViewModel">
+                                                <TextBlock Text="代码检索" />
+                                            </DataTemplate>
+                                            <DataTemplate DataType="l:SettingsViewModel">
+                                                <TextBlock Text="设置" />
                                             </DataTemplate>
                                             <!-- Resources -->
                                             <DataTemplate DataType="l:UndertaleAudioGroupViewModel">
@@ -256,13 +267,17 @@
                                                 <TextBlock
                                                     Text="{Binding ParticleSystemEmitter.Name.Content, StringFormat=Particle system emitter - {0}}" />
                                             </DataTemplate>
+                                            <DataTemplate DataType="resourceViews:DonateViewModel">
+                                                <TextBlock
+                                                    Text="捐赠" />
+                                            </DataTemplate>
                                         </ContentControl.DataTemplates>
                                     </ContentControl>
                                     <Button
                                         Command="{Binding $parent[l:MainView].((l:MainViewModel)DataContext).TabClose}"
                                         CommandParameter="{Binding .}"
                                         Classes="TransparentButton">
-                                        ❌
+                                        ×
                                     </Button>
                                 </StackPanel>
                             </DataTemplate>
@@ -375,6 +390,9 @@
                                             <DataTemplate DataType="l:SettingsViewModel">
                                                 <l:SettingsView />
                                             </DataTemplate>
+                                            <DataTemplate DataType="resourceViews:DonateViewModel">
+                                                <l:DonateView />
+                                            </DataTemplate>
                                         </ContentControl.DataTemplates>
                                     </ContentControl>
                                 </ScrollViewer>
@@ -385,40 +403,40 @@
             </Grid>
         </DockPanel>
         <StackPanel Name="TextInputBox" IsVisible="False" Background="Transparent" MaxHeight="600">
-            <StackPanel Margin="10" Background="Bisque">
-                <Border BorderBrush="Black"
+            <StackPanel Margin="10" Background="#DD262626">
+                <Border BorderBrush="#DD353535"
                         BorderThickness="2"
                         CornerRadius="3"
                         BoxShadow="5 5 10 0 DarkGray">
                     <ThemeVariantScope RequestedThemeVariant="Light">
                         <StackPanel VerticalAlignment="Center">
-                            <Border BorderBrush="Black"
+                            <Border BorderBrush="#DD353535"
                                     BorderThickness="2"
                                     CornerRadius="3"
                                     Padding="10" Margin="10">
-                                <TextBlock Name="TitleText" TextWrapping="Wrap" FontWeight="Bold" />
+                                <TextBlock Name="TitleText" TextWrapping="Wrap" FontWeight="Bold"  Foreground="#ffeeeeee" />
                             </Border>
-                            <Border BorderBrush="Black"
+                            <Border BorderBrush="#DD353535"
                                     BorderThickness="2"
                                     CornerRadius="3"
                                     Padding="10" Margin="10">
                                 <ScrollViewer MaxHeight="170">
                                     <StackPanel>
-                                        <TextBlock Name="MessageText" TextWrapping="Wrap" />
-                                        <TextBox Name="TextTextBox" />
-                                        <ProgressBar Name="TextBoxLoadingProgressBar" IsIndeterminate="True" />
+                                        <TextBlock Foreground="#ffeeeeee" Name="MessageText" TextWrapping="Wrap" />
+                                        <TextBox Foreground="#ffeeeeee" Name="TextTextBox" />
+                                        <ProgressBar Foreground="#ffc199ff" Name="TextBoxLoadingProgressBar" IsIndeterminate="True" />
                                     </StackPanel>
                                 </ScrollViewer>
                             </Border>
-                            <Border BorderBrush="Black"
+                            <Border BorderBrush="#DD353535"
                                     BorderThickness="2"
                                     CornerRadius="3"
                                     Padding="10" Margin="20">
                                 <StackPanel Orientation="Horizontal">
-                                    <Button Name="ButtonOk">确认</Button>
-                                    <Button Name="ButtonYes">是</Button>
-                                    <Button Name="ButtonNo">否</Button>
-                                    <Button Name="ButtonCancel">取消</Button>
+                                    <Button Name="ButtonOk"  Foreground="#ffeeeeee">确认</Button>
+                                    <Button Name="ButtonYes"  Foreground="#ffeeeeee">是</Button>
+                                    <Button Name="ButtonNo"  Foreground="#ffeeeeee">否</Button>
+                                    <Button Name="ButtonCancel"  Foreground="#ffeeeeee">取消</Button>
                                 </StackPanel>
                             </Border>
                         </StackPanel>

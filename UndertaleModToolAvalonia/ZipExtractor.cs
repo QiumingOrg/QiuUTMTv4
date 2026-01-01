@@ -4,12 +4,25 @@ using System.IO.Compression;
 
 public class ZipExtractor
 {
+    public static void CreateDirectory(string path)
+    {
+        DirectoryInfo info = new DirectoryInfo(path);
+        if (!info.Exists)
+        {
+            if (!info.Parent.Exists)
+            {
+                CreateDirectory(info.Parent.FullName);
+            }
+            info.Create();
+        }
+    }
     public static void ExtractZipStream(Stream zipStream, string baseDirectory)
     {
         // 确保基础目录存在
         if (!Directory.Exists(baseDirectory))
         {
-            Directory.CreateDirectory(baseDirectory);
+            //Directory.CreateDirectory(baseDirectory);
+            CreateDirectory(baseDirectory);
         }
 
         using (var archive = new ZipArchive(zipStream, ZipArchiveMode.Read, leaveOpen: false))
@@ -26,7 +39,7 @@ public class ZipExtractor
                 // 确保目录存在
                 if (!string.IsNullOrEmpty(directoryPath) && !Directory.Exists(directoryPath))
                 {
-                    Directory.CreateDirectory(directoryPath);
+                    CreateDirectory(directoryPath);
                 }
 
                 // 如果是文件（有文件名），则提取

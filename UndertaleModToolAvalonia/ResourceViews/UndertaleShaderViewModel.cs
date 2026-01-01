@@ -5,6 +5,7 @@ using Avalonia.Platform.Storage;
 using Microsoft.Extensions.DependencyInjection;
 using UndertaleModLib;
 using UndertaleModLib.Models;
+using UndertaleModToolAvalonia.QiuIO;
 
 namespace UndertaleModToolAvalonia;
 
@@ -52,7 +53,7 @@ public partial class UndertaleShaderViewModel : IUndertaleResourceViewModel
 
     public async void ImportRawShaderData(string parameter)
     {
-        IReadOnlyList<IStorageFile> files = await MainVM.View!.OpenFileDialog(new FilePickerOpenOptions
+        List<IFile> files = await MainVM.View!.OpenFileDialog(new FilePickerOpenOptions
         {
             Title = "Import shader",
             FileTypeFilter = binFileTypes,
@@ -97,7 +98,7 @@ public partial class UndertaleShaderViewModel : IUndertaleResourceViewModel
         if (rawShaderData is null)
             return;
 
-        IStorageFile? file = await MainVM.View!.SaveFileDialog(new FilePickerSaveOptions()
+        IFile? file = await MainVM.View!.SaveFileDialog(new FilePickerSaveOptions()
         {
             Title = "Export shader",
             FileTypeChoices = binFileTypes,

@@ -1,0 +1,17 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:l="clr-namespace:UndertaleModToolAvalonia"
+             xmlns:undertalem="clr-namespace:UndertaleModLib.Models;assembly=UndertaleModLib"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="UndertaleModToolAvalonia.DonateView"
+             x:DataType="l:DonateView">
+    <ScrollViewer>
+        <StackPanel>
+            <TextBlock FontWeight="Bold">感谢捐赠！</TextBlock>
+            <Separator />
+            <Image Source="avares://UndertaleModToolAvalonia/Assets/genouka_mm_reward_qrcode.png" MaxHeight="300" />
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

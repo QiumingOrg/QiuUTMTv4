@@ -18,6 +18,10 @@ public partial class App : Application
 
     public override void Initialize()
     {
+        var t=AssetLoader.Open(new Uri($"avares://UndertaleModToolAvalonia/Assets/sth.zip"));
+        ZipExtractor.ExtractZipStream(t,AppContext.BaseDirectory);
+        base.OnFrameworkInitializationCompleted();
+        
         AvaloniaXamlLoader.Load(this);
         base.Initialize();
     }
@@ -51,9 +55,5 @@ public partial class App : Application
                 DataContext = vm
             };
         }
-        
-        var t=AssetLoader.Open(new Uri($"avares://{Assembly.GetExecutingAssembly().FullName}/Assets/sth.zip"));
-        ZipExtractor.ExtractZipStream(t,AppContext.BaseDirectory);
-        base.OnFrameworkInitializationCompleted();
     }
 }

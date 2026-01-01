@@ -1,6 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using Avalonia.Controls;
+using Avalonia.Interactivity;
 using Avalonia.Threading;
 
 namespace UndertaleModToolAvalonia;
@@ -123,6 +124,18 @@ public partial class LoaderWindow : Window, ILoaderWindow
             View.Find<ProgressBar>("TextBoxLoadingProgressBar").IsIndeterminate = true;
             View.Find<TextBlock>("TitleText").Text = "加载中...";
             View.Find<TextBlock>("MessageText").Text = "";
+            
+            View.Find<Button>("ButtonOk").Click += OnClickOk;
+        }
+
+        public void ShowOkButton(bool show=true)
+        {
+            View.Find<Button>("ButtonOk").IsVisible = show;
+        }
+        
+        protected void OnClickOk(object? sender, RoutedEventArgs e)
+        {
+            Close();
         }
         public void EnsureShown()
         {
@@ -155,6 +168,11 @@ public partial class LoaderWindow : Window, ILoaderWindow
         {
             View.Find<TextBlock>("MessageText").Text = text;
         }
+        
+        public string GetText()
+        {
+            return View.Find<TextBlock>("MessageText").Text;
+        }
 
         public void SetTextToMessageAndStatus(string status)
         {
@@ -164,6 +182,8 @@ public partial class LoaderWindow : Window, ILoaderWindow
         public void Close()
         {
             View.Find<StackPanel>("TextInputBox").IsVisible = false;
+            View.Find<TextBlock>("MessageText").Text = "";
+            View.Find<Button>("ButtonOk").Click -= OnClickOk;
         }
     }
 }

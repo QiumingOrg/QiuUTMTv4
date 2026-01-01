@@ -8,9 +8,12 @@ using System.Linq;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
 using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Text.Encodings.Web;
+using System.Threading;
 using System.Threading.Tasks;
 using Avalonia;
+using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Platform.Storage;
 using Avalonia.Threading;
@@ -18,9 +21,15 @@ using DynamicData;
 using DynamicData.Alias;
 using DynamicData.Binding;
 using DynamicData.PLinq;
+using Microsoft.Maui.ApplicationModel;
+using Microsoft.Maui.Storage;
 using PropertyChanged.SourceGenerator;
 using UndertaleModLib;
 using UndertaleModLib.Models;
+using UndertaleModToolAvalonia.QiuIO;
+using UndertaleModToolAvalonia.ResourceViews;
+using UTMTdrid;
+using FilePickerFileType = Avalonia.Platform.Storage.FilePickerFileType;
 
 namespace UndertaleModToolAvalonia;
 
@@ -42,7 +51,7 @@ public partial class MainViewModel
     public Scripting Scripting = null!;
 
     // Window
-    public string Title => $"UTMAUnlimited - 秋冥 - v" +
+    public string Title => $"QiuUTMTv4 - 秋冥 - v" +
                            (Assembly.GetExecutingAssembly().GetName().Version?.ToString() ?? "?.?.?.?") +
                            $"{(Data?.GeneralInfo is not null ? " - " + Data.GeneralInfo.ToString() : "")}" +
                            $"{(DataPath is not null ? " [" + DataPath + "]" : "")}";
@@ -88,6 +97,8 @@ public partial class MainViewModel
     // Tabs
     public ObservableCollection<TabItemViewModel> Tabs { get; set; }
 
+    public ObservableCollection<MenuItem> ScriptsSubMenuItems { get; set; }
+
     [Notify] private TabItemViewModel? _TabSelected;
     [Notify] private int _TabSelectedIndex;
     [Notify] private string _TabSelectedResourceIdString = "None";
@@ -109,11 +120,13 @@ public partial class MainViewModel
         [
             new TabItemViewModel(new DescriptionViewModel(
                     "欢迎",
-                    "欢迎使用秋冥特制版本的Undertale Mod Tool！\n\n本项目基于Undertale Mod Tool Avalonia、GUTMT4A等项目开发\n\n哔哩哔哩:秋冥散雨_GenOuka"),
+                    "欢迎使用秋冥特制版本的Undertale Mod Tool！\n\n本项目基于很多项目开发，具体请查看关于界面和源代码\n\n哔哩哔哩:秋冥散雨_GenOuka"),
                 isSelected: true),
         ];
 
         Me = this;
+
+        GenerateScriptsSubMenuItems();
     }
 
     public static MainViewModel Me;
@@ -203,130 +216,130 @@ public partial class MainViewModel
             TreeDataGridData.Add(new()
             {
                 Value = Data,
-                Text = "Data",
+                Text = "数据文件(Data)",
                 Children =
                 [
-                    new() { Value = "GeneralInfo", Text = "General info" },
-                    new() { Value = "GlobalInitScripts", Text = "Global init scripts" },
-                    new() { Value = "GameEndScripts", Text = "Game End scripts" },
+                    new() { Value = "GeneralInfo", Text = "基本信息(GeneralInfo)" },
+                    new() { Value = "GlobalInitScripts", Text = "全局入口脚本(GlobalInitScripts)" },
+                    new() { Value = "GameEndScripts", Text = "游戏终止脚本(GameEndScripts)" },
                     new()
                     {
-                        Tag = "list", Value = "AudioGroups", Text = "Audio groups",
+                        Tag = "list", Value = "AudioGroups", Text = "音频组(AudioGroups)",
                         Children = MakeChildren(Data.AudioGroups)
                     },
                     new()
                     {
-                        Tag = "list", Value = "Sounds", Text = "Sounds",
+                        Tag = "list", Value = "Sounds", Text = "声音(Sounds)",
                         Children = MakeChildren(Data.Sounds)
                     },
                     new()
                     {
-                        Tag = "list", Value = "Sprites", Text = "Sprites",
+                        Tag = "list", Value = "Sprites", Text = "精灵(Sprites)",
                         Children = MakeChildren(Data.Sprites)
                     },
                     new()
                     {
-                        Tag = "list", Value = "Backgrounds", Text = "Backgrounds & Tile sets",
+                        Tag = "list", Value = "Backgrounds", Text = "背景 & 图块集(Backgrounds & Tiles)",
                         Children = MakeChildren(Data.Backgrounds)
                     },
                     new()
                     {
-                        Tag = "list", Value = "Paths", Text = "Paths",
+                        Tag = "list", Value = "Paths", Text = "路径(Paths)",
                         Children = MakeChildren(Data.Paths)
                     },
                     new()
                     {
-                        Tag = "list", Value = "Scripts", Text = "Scripts",
+                        Tag = "list", Value = "Scripts", Text = "脚本(Scripts)",
                         Children = MakeChildren(Data.Scripts)
                     },
                     new()
                     {
-                        Tag = "list", Value = "Shaders", Text = "Shaders",
+                        Tag = "list", Value = "Shaders", Text = "着色器(Shaders)",
                         Children = MakeChildren(Data.Shaders)
                     },
                     new()
                     {
-                        Tag = "list", Value = "Fonts", Text = "Fonts",
+                        Tag = "list", Value = "Fonts", Text = "字体(Fonts)",
                         Children = MakeChildren(Data.Fonts)
                     },
                     new()
                     {
-                        Tag = "list", Value = "Timelines", Text = "Timelines",
+                        Tag = "list", Value = "Timelines", Text = "时间线(Time lines)",
                         Children = MakeChildren(Data.Timelines)
                     },
                     new()
                     {
-                        Tag = "list", Value = "GameObjects", Text = "Game objects",
+                        Tag = "list", Value = "GameObjects", Text = "对象(Game Objects)",
                         Children = MakeChildren(Data.GameObjects)
                     },
                     new()
                     {
-                        Tag = "list", Value = "Rooms", Text = "Rooms",
+                        Tag = "list", Value = "Rooms", Text = "房间(Rooms)",
                         Children = MakeChildren(Data.Rooms)
                     },
                     new()
                     {
-                        Tag = "list", Value = "Extensions", Text = "Extensions",
+                        Tag = "list", Value = "Extensions", Text = "扩展(Extensions)",
                         Children = MakeChildren(Data.Extensions)
                     },
                     new()
                     {
-                        Tag = "list", Value = "TexturePageItems", Text = "Texture page items",
+                        Tag = "list", Value = "TexturePageItems", Text = "纹理页子项(Texture Page Items)",
                         Children = MakeChildren(Data.TexturePageItems)
                     },
                     new()
                     {
-                        Tag = "list", Value = "Code", Text = "Code",
+                        Tag = "list", Value = "Code", Text = "代码(Code)",
                         Children = MakeChildren(Data.Code)
                     },
                     new()
                     {
-                        Tag = "list", Value = "Variables", Text = "Variables",
+                        Tag = "list", Value = "Variables", Text = "变量(Variables)",
                         Children = MakeChildren(Data.Variables)
                     },
                     new()
                     {
-                        Tag = "list", Value = "Functions", Text = "Functions",
+                        Tag = "list", Value = "Functions", Text = "函数(Functions)",
                         Children = MakeChildren(Data.Functions)
                     },
                     new()
                     {
-                        Tag = "list", Value = "CodeLocals", Text = "Code locals",
+                        Tag = "list", Value = "CodeLocals", Text = "本地变量(CodeLocals)",
                         Children = MakeChildren(Data.CodeLocals)
                     },
                     new()
                     {
-                        Tag = "list", Value = "Strings", Text = "Strings",
+                        Tag = "list", Value = "Strings", Text = "字符串(Strings)",
                         Children = MakeChildren(Data.Strings)
                     },
                     new()
                     {
-                        Tag = "list", Value = "EmbeddedTextures", Text = "Embedded textures",
+                        Tag = "list", Value = "EmbeddedTextures", Text = "内嵌纹理(Embedded textures)",
                         Children = MakeChildren(Data.EmbeddedTextures)
                     },
                     new()
                     {
-                        Tag = "list", Value = "EmbeddedAudio", Text = "Embedded audio",
+                        Tag = "list", Value = "EmbeddedAudio", Text = "内嵌音频(Embedded audio)",
                         Children = MakeChildren(Data.EmbeddedAudio)
                     },
                     new()
                     {
-                        Tag = "list", Value = "TextureGroupInformation", Text = "Texture group information",
+                        Tag = "list", Value = "TextureGroupInformation", Text = "内嵌纹理(Texture group information)",
                         Children = MakeChildren(Data.TextureGroupInfo)
                     },
                     new()
                     {
-                        Tag = "list", Value = "EmbeddedImages", Text = "Embedded images",
+                        Tag = "list", Value = "EmbeddedImages", Text = "内嵌图像(Embedded images)",
                         Children = MakeChildren(Data.EmbeddedImages)
                     },
                     new()
                     {
-                        Tag = "list", Value = "ParticleSystems", Text = "Particle systems",
+                        Tag = "list", Value = "ParticleSystems", Text = "粒子系统(Particle systems)",
                         Children = MakeChildren(Data.ParticleSystems)
                     },
                     new()
                     {
-                        Tag = "list", Value = "ParticleSystemEmitters", Text = "Particle system emitters",
+                        Tag = "list", Value = "ParticleSystemEmitters", Text = "粒子系统发射器(Particle system emitters)",
                         Children = MakeChildren(Data.ParticleSystemEmitters)
                     },
                 ]
@@ -415,7 +428,7 @@ public partial class MainViewModel
         {
             w.EnsureShown();
             Console.WriteLine(e);
-            await ShowMessageDialog($"Error opening data file: {e.Message} \n {e.StackTrace}");
+            await ShowMessageDialog($"打开数据文件失败: {e.Message} \n {e.StackTrace}");
 
             return false;
         }
@@ -431,19 +444,19 @@ public partial class MainViewModel
         IsEnabled = false;
 
         ILoaderWindow w = View!.LoaderOpen();
-        w.SetText("Saving data file...");
+        w.SetText("保存数据文件中...");
 
         try
         {
             await Task.Run(() => UndertaleIO.Write(stream, Data,
-                message => { Dispatcher.UIThread.Post(() => w.SetText($"Saving data file... {message}")); }));
+                message => { Dispatcher.UIThread.Post(() => w.SetText($"保存数据文件中... {message}")); }));
 
             return true;
         }
         catch (Exception e)
         {
             w.EnsureShown();
-            await ShowMessageDialog($"Error saving data file: {e.Message}");
+            await ShowMessageDialog($"保存数据文件失败: {e.Message}");
         }
         finally
         {
@@ -493,7 +506,7 @@ public partial class MainViewModel
     // Menus
     public async void FileNew()
     {
-        if (await AskFileSave("Save data file before creating a new one?"))
+        if (await AskFileSave("创建新的文件前要先保存吗?"))
         {
             await NewData();
         }
@@ -501,7 +514,7 @@ public partial class MainViewModel
 
     public async void FileOpen()
     {
-        if (!await AskFileSave("Save data file before opening a new one?"))
+        if (!await AskFileSave("打开新的文件前要先保存吗?"))
             return;
 
         var files = await View!.OpenFileDialog(new FilePickerOpenOptions()
@@ -523,14 +536,82 @@ public partial class MainViewModel
         }
     }
 
+    public void DFS_ScriptMenu(MenuItem? root, string dir)
+    {
+        //var dir = Path.Combine(AppContext.BaseDirectory, "Scripts");
+        List<MenuItem> items = new List<MenuItem>();
+        foreach (var dir1 in Directory.GetDirectories(dir))
+        {
+            var info = new DirectoryInfo(dir1);
+            var dirM = new MenuItem
+            {
+                Header = info.Name
+            };
+            items.Add(dirM);
+            DFS_ScriptMenu(dirM, dir1);
+        }
+
+        foreach (var file in Directory.GetFiles(dir))
+        {
+            var info = new FileInfo(file);
+            if (info.Extension is ".csx")
+            {
+                var dirM = new MenuItem
+                {
+                    Header = info.Name
+                };
+                dirM.Click += async (e, r) =>
+                {
+                    await RunScript(file,new QiuStrongerFile(info));
+                };
+                items.Add(dirM);
+            }
+        }
+
+        if (root == null)
+        {
+            ScriptsSubMenuItems.Clear();
+            ScriptsSubMenuItems.AddRange(items);
+        }
+        else
+        {
+            root.ItemsSource = items;
+        }
+    }
+
+    public void GenerateScriptsSubMenuItems()
+    {
+        ScriptsSubMenuItems = [];
+        DFS_ScriptMenu(null, Path.Combine(AppContext.BaseDirectory, "Scripts"));
+        // var stream1 = Path.Combine(AppContext.BaseDirectory, "Scripts/scriptpath.txt");
+        // using var reader1 = new StreamReader(stream1);
+        // var contents1 = reader1.ReadToEnd();
+        // var list = contents1.Split(";;");
+        // foreach (var item in list)
+        // {
+        //     var path = Path.Combine(AppContext.BaseDirectory, "Scripts/" + item);
+        //     // using var reader = new StreamReader(stream);
+        //     // var contents = reader.ReadToEnd();
+        //     var menuItem22 = new MenuItem
+        //     {
+        //         Header = "菜单二二"
+        //     };
+        //     ScriptsSubMenuItems.Add(menuItem22);
+        //     // await Task.Run(async () =>
+        //     // {
+        //     //     ScriptsRunOtherScript();
+        //     // });
+        // }
+    }
+
     public async Task<bool> FileSave()
     {
         if (Data is null)
             return false;
 
-        IStorageFile? file = await View!.SaveFileDialog(new FilePickerSaveOptions()
+        IFile? file = await View!.SaveFileDialog(new FilePickerSaveOptions()
         {
-            Title = "Save data file",
+            Title = "保存文件",
             FileTypeChoices = dataFileTypes,
             DefaultExtension = ".win",
         });
@@ -545,7 +626,7 @@ public partial class MainViewModel
 
     public async void FileClose()
     {
-        if (!await AskFileSave("Save data file before closing?"))
+        if (!await AskFileSave("关闭文件前要保存吗?"))
             return;
 
         CloseData();
@@ -562,6 +643,10 @@ public partial class MainViewModel
         {
             desktop.Shutdown();
         }
+        else if (OperatingSystem.IsAndroid())
+        {
+            //TODO
+        }
     }
 
     public void ToolsSearchInCode()
@@ -573,7 +658,7 @@ public partial class MainViewModel
     {
         var files = await View!.OpenFileDialog(new FilePickerOpenOptions()
         {
-            Title = "Run script",
+            Title = "运行脚本",
             FileTypeFilter =
             [
                 new FilePickerFileType("C# scripts (.csx)")
@@ -590,28 +675,64 @@ public partial class MainViewModel
         if (files.Count != 1)
             return;
 
-        string text;
-        using (Stream stream = await files[0].OpenReadAsync())
-        {
-            using StreamReader streamReader = new(stream);
-            text = streamReader.ReadToEnd();
-        }
+        var file = files[0];
+        string? filePath = file.TryGetLocalPath();
+        await RunScript(filePath, file);
+    }
 
-        string? filePath = files[0].TryGetLocalPath();
+    private async Task RunScript(string? filePath, IFile file)
+    {
+        string text;
         if (filePath == null)
         {
-            var t = files[0].Path.AbsolutePath;
+            var t = file.Path.AbsolutePath;
             if (t.StartsWith("/document/primary%3A"))
             {
-                
-                t="/sdcard/"+System.Web.HttpUtility.UrlDecode(t.Substring("/document/primary%3A".Length));
+                t = "/sdcard/" + System.Web.HttpUtility.UrlDecode(t.Substring("/document/primary%3A".Length));
             }
+
             if (File.Exists(t)) filePath = t;
         }
 
-        await Scripting.RunScript(text, filePath);
+        if (Settings.EnableQiuUtmtV3ScriptEngine)
+        {
+            var loader = new LoaderWindow.LoaderWindowDroid(View.View);
+            Task.Run(() =>
+            {
+                var qf = new QiuFuncMain(FileSystem.Current.CacheDirectory + "/temp.data",
+                    Data, null,
+                    new FileInfo(FileSystem.Current.CacheDirectory),
+                    true, false);
+                try
+                {
+                    qf.RunCSharpFilePublic(filePath, (line =>
+                    {
+                        Dispatcher.UIThread.Post(() =>
+                        {
+                            if (loader != null)
+                                loader.SetText(line);
+                        });
+                    }), null);
+                    CommandTextBoxText = $"{Path.GetFileName(filePath) ?? "代码段"} 执行完成!";
+                }
+                catch (Exception e)
+                {
+                    CommandTextBoxText = $"{Path.GetFileName(filePath) ?? "代码段"} 执行异常!\n{e.Message}";
+                }
+            });
+            loader.ShowOkButton();
+        }
+        else
+        {
+            using (Stream stream = await file.OpenReadAsync())
+            {
+                using StreamReader streamReader = new(stream);
+                text = streamReader.ReadToEnd();
+            }
 
-        CommandTextBoxText = $"{Path.GetFileName(filePath) ?? "Script"} finished!";
+            await Scripting.RunScript(text, filePath);
+            CommandTextBoxText = $"{Path.GetFileName(filePath) ?? "代码段"} 执行完成!";
+        }
     }
 
     public async void HelpGitHub()
@@ -622,10 +743,26 @@ public partial class MainViewModel
     public async void HelpAbout()
     {
         await ShowMessageDialog(
-            $"UndertaleModTool v{Assembly.GetExecutingAssembly().GetName().Version?.ToString() ?? "?.?.?.?"} " +
-            $"by the Underminers team\n秋冥散雨_GenOuka 二次开发\nLicensed under the GNU General Public License Version 3.",
+            $"UndertaleModTool by the Underminers team\nUndertaleModToolAvalonia by luizzeroxis\nQiuUTMTv4 by 秋冥散雨_GenOuka\n\nLicensed under the GNU General Public License Version 3.",
             title: "关于");
     }
+    
+    public async void Donate()
+    {
+        TabItemViewModel tab = new(new DonateViewModel());
+        Tabs.Add(tab);
+        TabSelected = tab;
+    }
+    
+    public async void QQGroup()
+    {
+        await View!.LaunchUriAsync(new Uri("https://qm.qq.com/cgi-bin/qm/qr?k=jgxnT0-Op9FsJm-J2tgqvOnWa92hdoiY&jump_from=webapi&authKey=CLULWataQkeYLNjKC5Pko38y9M+ErvLb0R7GeJ/EcVBfXWn7EE7Oi0HThlAJrxBn"));
+    }
+    
+    public async void Bilibili()
+        {
+            await View!.LaunchUriAsync(new Uri("https://space.bilibili.com/3493116076100126"));
+        }
 
     public async void DataItemAdd(IList list)
     {

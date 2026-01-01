@@ -4,6 +4,7 @@ using Avalonia.Platform.Storage;
 using Microsoft.Extensions.DependencyInjection;
 using UndertaleModLib;
 using UndertaleModLib.Models;
+using UndertaleModToolAvalonia.QiuIO;
 
 namespace UndertaleModToolAvalonia;
 
@@ -22,7 +23,7 @@ public partial class UndertaleEmbeddedAudioViewModel : IUndertaleResourceViewMod
 
     public async void SaveAudio()
     {
-        IStorageFile? file = await MainVM.View!.SaveFileDialog(new FilePickerSaveOptions()
+        IFile? file = await MainVM.View!.SaveFileDialog(new FilePickerSaveOptions()
         {
             Title = "Save audio",
             FileTypeChoices = [
