@@ -44,7 +44,7 @@ jobs:
         cp ./SCRIPTS.md ./Publish/${{ matrix.os }}
         cp ./LICENSE.txt ./Publish/${{ matrix.os }}
     - name: Upload artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
           name: GUI-${{ matrix.os }}-${{ matrix.configuration }}-isBundled-${{ matrix.bundled }}-isSingleFile-${{ matrix.singlefile }}
           path: Publish/${{ matrix.os }}
