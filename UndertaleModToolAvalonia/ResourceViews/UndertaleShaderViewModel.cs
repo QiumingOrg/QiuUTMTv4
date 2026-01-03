@@ -53,13 +53,13 @@ public partial class UndertaleShaderViewModel : IUndertaleResourceViewModel
 
     public async void ImportRawShaderData(string parameter)
     {
-        List<IFile> files = await MainVM.View!.OpenFileDialog(new FilePickerOpenOptions
+        List<IFile>? files = await MainVM.View!.OpenFileDialog(new FilePickerOpenOptions
         {
             Title = "Import shader",
             FileTypeFilter = binFileTypes,
         });
 
-        if (files.Count != 1)
+        if (files is null||files.Count != 1)
             return;
 
         using Stream stream = await files[0].OpenReadAsync();

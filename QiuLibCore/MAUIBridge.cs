@@ -23,7 +23,7 @@ public class MAUIBridge
 
             return result;
         }
-        catch (Exception ex)
+        catch (Exception ignored)
         {
             // The user canceled or something went wrong
         }
@@ -32,11 +32,13 @@ public class MAUIBridge
     }
     public static async Task<string?> SaveFile(string? recommandName,CancellationToken cancellationToken)
     {
-        var tcs = new TaskCompletionSource<string>();
+        var tcs = new TaskCompletionSource<string?>();
         MainThread.BeginInvokeOnMainThread(async () =>
         {
             var stream = new MemoryStream();
+#pragma warning disable CA1416
             var result = await FileSaver.Default.SaveAsync(recommandName??"c.bin", stream, cancellationToken);
+#pragma warning restore CA1416
             if (result.IsSuccessful){
                 new FileInfo(result.FilePath).Delete();
                 tcs.SetResult(result.FilePath);
@@ -50,10 +52,12 @@ public class MAUIBridge
     }
     public static async Task<string?> PickFolder(CancellationToken cancellationToken)
     {
-        var tcs = new TaskCompletionSource<string>();
+        var tcs = new TaskCompletionSource<string?>();
         MainThread.BeginInvokeOnMainThread(async () =>
         {
+#pragma warning disable CA1416
             var result = await FolderPicker.Default.PickAsync(cancellationToken);
+#pragma warning restore CA1416
             if (result.IsSuccessful){
                 tcs.SetResult(result.Folder.Path);
             }
@@ -67,7 +71,7 @@ public class MAUIBridge
     public delegate Task<bool>  AskDialogImpt(string title, string message);
     public static AskDialogImpt? AskDialog { set; get; }
     
-    public delegate Task<string>  InputDialogImpt(string title, string messagem);
+    public delegate Task<string?>  InputDialogImpt(string title, string message);
     public static InputDialogImpt? InputDialog { set; get; }
     
     public delegate Task<bool>  HasRequiredStoragePermissionImpt();

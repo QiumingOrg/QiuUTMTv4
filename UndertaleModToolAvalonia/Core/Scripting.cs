@@ -273,7 +273,7 @@ public class ScriptGlobals : IScriptInterface
             ],
         })).Result;
 
-        if (files.Count != 1)
+        if (files is null||files.Count != 1)
             return null;
 
         return files[0].TryGetLocalPath();

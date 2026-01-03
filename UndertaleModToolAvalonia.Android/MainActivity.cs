@@ -31,7 +31,7 @@ namespace UndertaleModToolAvalonia.Android
             Com.Kongzue.Dialogx.DialogX.Init(Application);
             MAUIBridge.AskDialog = Bindme.dAskDialog;
             MAUIBridge.InputDialog = Bindme.dInputDialog;
-            MAUIBridge.HasRequiredStoragePermission = hasStoragePermission;
+            MAUIBridge.HasRequiredStoragePermission = HasStoragePermission;
             //MAUIBridge.AskDialog = async (title, message) => { return false; };
             //MAUIBridge.InputDialog = async (title, message) => { return null; };
             return base.CustomizeAppBuilder(builder)
@@ -48,22 +48,24 @@ namespace UndertaleModToolAvalonia.Android
         {
             if (Build.VERSION.SdkInt >= BuildVersionCodes.R)
             {
+#pragma warning disable CA1416
                 var result = Environment.IsExternalStorageManager;
                 if (!result)
                 {
                     var manage = Settings.ActionManageAppAllFilesAccessPermission;
                     Intent intent = new Intent(manage);
-                    Uri uri = Uri.Parse("package:" + AppInfo.Current.PackageName);
+                    Uri? uri = Uri.Parse("package:" + AppInfo.Current.PackageName);
                     intent.SetData(uri);
                     StartActivity(intent);
                 }
                 return result;
+#pragma warning restore CA1416
             }
 
             return true;
         }
 
-        public async Task<bool> hasStoragePermission()
+        public async Task<bool> HasStoragePermission()
         {
             var status = await Permissions.CheckStatusAsync<Permissions.StorageRead>();
             if (status != PermissionStatus.Granted)

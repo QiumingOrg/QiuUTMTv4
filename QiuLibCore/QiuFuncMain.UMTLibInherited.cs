@@ -449,13 +449,13 @@ public partial class QiuFuncMain : IScriptInterface
     }
 
     /// <inheritdoc/>
-    public string GetDecompiledText(string codeName, GlobalDecompileContext context = null, IDecompileSettings settings = null)
+    public string GetDecompiledText(string codeName, GlobalDecompileContext? context = null, IDecompileSettings? settings = null)
     {
         return GetDecompiledText(Data.Code.ByName(codeName), context, settings);
     }
 
     /// <inheritdoc/>
-    public string GetDecompiledText(UndertaleCode code, GlobalDecompileContext context = null, IDecompileSettings settings = null)
+    public string GetDecompiledText(UndertaleCode code, GlobalDecompileContext? context = null, IDecompileSettings? settings = null)
     {
         if (code.ParentEntry is not null)
             return $"// This code entry is a reference to an anonymous function within \"{code.ParentEntry.Name.Content}\", decompile that instead.";
@@ -574,7 +574,7 @@ public partial class QiuFuncMain : IScriptInterface
     }
 
     /// <inheritdoc/>
-    public async Task ClickableSearchOutput(string title, string query, int resultsCount, IDictionary<string, List<(int lineNum, string codeLine)>> resultsDict, bool editorDecompile, IEnumerable<string> failedList = null)
+    public async Task ClickableSearchOutput(string title, string query, int resultsCount, IDictionary<string, List<(int lineNum, string codeLine)>> resultsDict, bool editorDecompile, IEnumerable<string>? failedList = null)
     {
         await Task.Delay(1); //dummy await
 

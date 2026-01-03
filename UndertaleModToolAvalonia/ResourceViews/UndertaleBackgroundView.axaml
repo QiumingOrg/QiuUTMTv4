@@ -58,8 +58,8 @@
             <Label>Tile Count</Label>
             <TextBox Text="{Binding Background.GMS2TileCount}" />
 
-            <Label>Unknown Always Zero</Label>
-            <TextBox Text="{Binding Background.GMS2UnknownAlwaysZero}" />
+            <Label>Exported Sprite Index</Label>
+            <TextBox Text="{Binding Background.GMS2ExportedSpriteIndex}" />
 
             <Label>Frame Time (microseconds)</Label>
             <TextBox Text="{Binding Background.GMS2FrameLength}" />

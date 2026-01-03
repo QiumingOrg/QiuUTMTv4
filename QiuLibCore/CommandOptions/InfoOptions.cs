@@ -10,7 +10,7 @@ public class InfoOptions
 	/// <summary>
 	/// File path to the data file
 	/// </summary>
-	public FileInfo Datafile { get; set; }
+	public FileInfo? Datafile { get; set; }
 
 	/// <summary>
 	/// Determines if Cli should print out verbose logs

@@ -5,6 +5,7 @@ namespace UndertaleModToolAvalonia;
 
 public class GeneralInfoViewModel
 {
+    
     public UndertaleGeneralInfo GeneralInfo { get; set; }
     public UndertaleOptions Options { get; set; }
     public UndertaleLanguage Language { get; set; }

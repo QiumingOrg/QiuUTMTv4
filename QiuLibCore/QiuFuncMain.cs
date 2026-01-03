@@ -187,7 +187,7 @@ public partial class QiuFuncMain : IScriptInterface
         }
     }
     
-    public QiuFuncMain(FileInfo datafile, bool verbose, DirectoryInfo output = null)
+    public QiuFuncMain(FileInfo datafile, bool verbose, DirectoryInfo? output = null)
     {
         if (datafile == null) throw new ArgumentNullException(nameof(datafile));
 
@@ -939,7 +939,7 @@ public partial class QiuFuncMain : IScriptInterface
 
     public delegate void DelegateOutput(string line);
 
-    public bool RunCSharpFilePublic(string path, DelegateOutput callback, Page page)
+    public bool RunCSharpFilePublic(string path, DelegateOutput callback, Page? page)
     {
         string lines;
         try
@@ -959,7 +959,7 @@ public partial class QiuFuncMain : IScriptInterface
         return true;
     }
 
-    public void RunCSharpCodePublic2(DelegateOutput callback, Page page, string code, string scriptFile = null)
+    public void RunCSharpCodePublic2(DelegateOutput callback, Page page, string code, string? scriptFile = null)
     {
         Genouka_callback = callback;
         //this.MAUI_Page = page;
@@ -1036,7 +1036,7 @@ public partial class QiuFuncMain : IScriptInterface
     /// <param name="code">The C# string to execute</param>
     /// <param name="scriptFile">The path to the script file where <paramref name="code"/> was loaded from.
     /// Leave as null, if it wasn't executed from a script file.</param>
-    private void RunCSharpCode(string code, string scriptFile = null)
+    private void RunCSharpCode(string code, string? scriptFile = null)
     {
         if (Verbose)
             GenoukaUI_WriteLine($"Attempting to execute '1{scriptFile ?? code}'...");
@@ -1110,8 +1110,8 @@ public partial class QiuFuncMain : IScriptInterface
     /// <param name="messageHandler">Handler for messages</param>
     /// <returns></returns>
     /// <exception cref="FileNotFoundException">If the data file cannot be found</exception>
-    private static UndertaleData ReadDataFile(FileInfo datafile, WarningHandlerDelegate warningHandler = null,
-        MessageHandlerDelegate messageHandler = null)
+    private static UndertaleData ReadDataFile(FileInfo datafile, WarningHandlerDelegate? warningHandler = null,
+        MessageHandlerDelegate? messageHandler = null)
     {
         try
         {

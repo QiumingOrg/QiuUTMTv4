@@ -57,8 +57,9 @@
 	  <PackageReference Include="Xaml.Behaviors" Version="11.3.6.5" />
   </ItemGroup>
 
-	<ItemGroup>
-		<ProjectReference Include="..\QiuLibCore\QiuLibCore.csproj" />
-		<ProjectReference Include="..\QiuUndertaleModLib\UndertaleModLib.csproj" />
-	</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QiuLibCore\QiuLibCore.csproj" />
+    <ProjectReference Include="..\QiuSkiaBridge\QiuSkiaBridge.csproj" />
+    <ProjectReference Include="..\UndertaleModTool\UndertaleModLib\UndertaleModLib.csproj" />
+  </ItemGroup>
 </Project>

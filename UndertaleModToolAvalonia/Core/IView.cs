@@ -19,7 +19,7 @@ public interface IView
 {
     public UserControl View => (UserControl)this;
 
-    public async Task<List<IFile>> OpenFileDialog(FilePickerOpenOptions options)
+    public async Task<List<IFile>?> OpenFileDialog(FilePickerOpenOptions options)
     {
         if (OperatingSystem.IsAndroid())
         {
@@ -78,6 +78,7 @@ public interface IView
         bool yes = false, bool no = false, bool cancel = false)
     {
         TaskCompletionSource<int> tcs = new TaskCompletionSource<int>();
+#pragma warning disable CS8602 // 解引用可能出现空引用。
         View.Find<StackPanel>("TextInputBox").IsVisible = true;
         View.Find<TextBlock>("TitleText").Text = title ?? "对话框";
         View.Find<TextBlock>("MessageText").Text = message;
@@ -94,7 +95,7 @@ public interface IView
         View.Find<Button>("ButtonCancel").Click += OnClickCancel;
         View.Find<Button>("ButtonYes").Click += OnClickYes;
         View.Find<Button>("ButtonNo").Click += OnClickNo;
-
+#pragma warning restore CS8602 // 解引用可能出现空引用。
         void OnClickOk(object? sender, RoutedEventArgs e)
         {
             tcs.SetResult(1);

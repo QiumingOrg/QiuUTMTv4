@@ -69,13 +69,13 @@ public partial class UndertaleSpriteViewModel : IUndertaleResourceViewModel
         if (CollisionMasksSelected is null)
             return;
 
-        List<IFile> files = await MainVM.View!.OpenFileDialog(new FilePickerOpenOptions
+        List<IFile>? files = await MainVM.View!.OpenFileDialog(new FilePickerOpenOptions
         {
             Title = "Import collision mask data",
             FileTypeFilter = binFileTypes,
         });
 
-        if (files.Count != 1)
+        if (files is null||files.Count != 1)
             return;
 
         using Stream stream = await files[0].OpenReadAsync();

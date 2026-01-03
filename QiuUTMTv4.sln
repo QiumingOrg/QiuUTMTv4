@@ -13,9 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QiuLibCore", "QiuLibCore\Qi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QiuSkiaBridge", "QiuSkiaBridge\QiuSkiaBridge.csproj", "{FBC4112C-FD39-4CD3-A033-CCEB32779F70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndertaleModLib", "QiuUndertaleModLib\UndertaleModLib.csproj", "{AE4C049C-1900-4C8D-B39F-AEF581F37597}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Underanalyzer", "UndertaleModTool\Underanalyzer\Underanalyzer\Underanalyzer.csproj", "{2719FD87-8383-406C-81B0-C674FAD1913E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndertaleModLib", "UndertaleModTool\UndertaleModLib\UndertaleModLib.csproj", "{07B5151E-37D0-4C14-B831-6313758F0AC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,14 +71,6 @@ Global
 		{FBC4112C-FD39-4CD3-A033-CCEB32779F70}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FBC4112C-FD39-4CD3-A033-CCEB32779F70}.Release|x64.ActiveCfg = Release|x64
 		{FBC4112C-FD39-4CD3-A033-CCEB32779F70}.Release|x64.Build.0 = Release|x64
-		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Debug|x64.ActiveCfg = Debug|x64
-		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Debug|x64.Build.0 = Debug|x64
-		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Release|x64.ActiveCfg = Release|x64
-		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Release|x64.Build.0 = Release|x64
 		{2719FD87-8383-406C-81B0-C674FAD1913E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2719FD87-8383-406C-81B0-C674FAD1913E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2719FD87-8383-406C-81B0-C674FAD1913E}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -87,6 +79,14 @@ Global
 		{2719FD87-8383-406C-81B0-C674FAD1913E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2719FD87-8383-406C-81B0-C674FAD1913E}.Release|x64.ActiveCfg = Release|Any CPU
 		{2719FD87-8383-406C-81B0-C674FAD1913E}.Release|x64.Build.0 = Release|Any CPU
+		{07B5151E-37D0-4C14-B831-6313758F0AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B5151E-37D0-4C14-B831-6313758F0AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B5151E-37D0-4C14-B831-6313758F0AC9}.Debug|x64.ActiveCfg = Debug|x64
+		{07B5151E-37D0-4C14-B831-6313758F0AC9}.Debug|x64.Build.0 = Debug|x64
+		{07B5151E-37D0-4C14-B831-6313758F0AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B5151E-37D0-4C14-B831-6313758F0AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B5151E-37D0-4C14-B831-6313758F0AC9}.Release|x64.ActiveCfg = Release|x64
+		{07B5151E-37D0-4C14-B831-6313758F0AC9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

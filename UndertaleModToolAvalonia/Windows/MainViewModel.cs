@@ -172,7 +172,6 @@ public partial class MainViewModel
         {
             if (Data.GeneralInfo is not null)
                 Data.GeneralInfo.PropertyChanged += DataGeneralInfoChangedHandler;
-
             Data.ToolInfo.InstanceIdPrefix = () => Settings?.InstanceIdPrefix;
             Data.ToolInfo.DecompilerSettings = Settings?.DecompileSettings;
         }
@@ -525,8 +524,8 @@ public partial class MainViewModel
             Title = "Open data file",
             FileTypeFilter = dataFileTypes,
         });
-
-        if (files.Count != 1)
+        
+        if (files is null||files.Count != 1)
             return;
 
         CloseData();
@@ -680,7 +679,7 @@ public partial class MainViewModel
             ],
         });
 
-        if (files.Count != 1)
+        if (files is null||files.Count != 1)
             return;
 
         var file = files[0];
