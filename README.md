@@ -1,9 +1,9 @@
 # Qiuming Undertale Mod Tool For Android V4 (QiuUTMTv4)
-![GitHub Release](https://img.shields.io/github/v/release/GenOuka/QiuUTMTv4)
+![GitHub Release](https://img.shields.io/github/v/release/QiumingOrg/QiuUTMTv4)
 
 ---
 
-[下载发行版(Release)](https://github.com/Genouka/QiuUTMTv4/releases)|[反馈(Feedback)](https://github.com/Genouka/QiuUTMTv4/issues)|[文档(Document)](https://github.com/Genouka/QiuUTMTv4/wiki)
+[下载发行版(Release)](https://github.com/QiumingOrg/QiuUTMTv4/releases)|[反馈(Feedback)](https://github.com/QiumingOrg/QiuUTMTv4/issues)|[文档(Document)](https://github.com/QiumingOrg/QiuUTMTv4/wiki)
 
 [欢迎给我的哔哩哔哩给个三连支持！(My Biibili)](https://space.bilibili.com/3493116076100126)
 
