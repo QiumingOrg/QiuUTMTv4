@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Underanalyzer", "Underanalyzer\Underanalyzer\Underanalyzer.csproj", "{A171D18F-274E-427A-AFB3-D7A161F5B9CF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndertaleModToolAvalonia", "UndertaleModToolAvalonia\UndertaleModToolAvalonia.csproj", "{C7187D08-A0AF-4E70-91E0-B44C06ADE0C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndertaleModToolAvalonia.Android", "UndertaleModToolAvalonia.Android\UndertaleModToolAvalonia.Android.csproj", "{03E8D876-D21B-46B8-BC5D-C4324260C9D2}"
@@ -17,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QiuSkiaBridge", "QiuSkiaBri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndertaleModLib", "QiuUndertaleModLib\UndertaleModLib.csproj", "{AE4C049C-1900-4C8D-B39F-AEF581F37597}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Underanalyzer", "UndertaleModTool\Underanalyzer\Underanalyzer\Underanalyzer.csproj", "{2719FD87-8383-406C-81B0-C674FAD1913E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,14 +25,6 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A171D18F-274E-427A-AFB3-D7A161F5B9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A171D18F-274E-427A-AFB3-D7A161F5B9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A171D18F-274E-427A-AFB3-D7A161F5B9CF}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{A171D18F-274E-427A-AFB3-D7A161F5B9CF}.Debug|x64.Build.0 = Debug|Any CPU
-		{A171D18F-274E-427A-AFB3-D7A161F5B9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A171D18F-274E-427A-AFB3-D7A161F5B9CF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A171D18F-274E-427A-AFB3-D7A161F5B9CF}.Release|x64.ActiveCfg = Release|Any CPU
-		{A171D18F-274E-427A-AFB3-D7A161F5B9CF}.Release|x64.Build.0 = Release|Any CPU
 		{C7187D08-A0AF-4E70-91E0-B44C06ADE0C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C7187D08-A0AF-4E70-91E0-B44C06ADE0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7187D08-A0AF-4E70-91E0-B44C06ADE0C5}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -87,6 +79,14 @@ Global
 		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Release|x64.ActiveCfg = Release|x64
 		{AE4C049C-1900-4C8D-B39F-AEF581F37597}.Release|x64.Build.0 = Release|x64
+		{2719FD87-8383-406C-81B0-C674FAD1913E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2719FD87-8383-406C-81B0-C674FAD1913E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2719FD87-8383-406C-81B0-C674FAD1913E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2719FD87-8383-406C-81B0-C674FAD1913E}.Debug|x64.Build.0 = Debug|Any CPU
+		{2719FD87-8383-406C-81B0-C674FAD1913E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2719FD87-8383-406C-81B0-C674FAD1913E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2719FD87-8383-406C-81B0-C674FAD1913E}.Release|x64.ActiveCfg = Release|Any CPU
+		{2719FD87-8383-406C-81B0-C674FAD1913E}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
