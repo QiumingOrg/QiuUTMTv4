@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using Avalonia.Controls;
 using Avalonia.Controls.Presenters;
+using Avalonia.Input;
 using Avalonia.Interactivity;
 using Avalonia.LogicalTree;
 using Avalonia.VisualTree;
@@ -148,7 +149,10 @@ public partial class UndertaleRoomView : UserControl
                 // TODO: Move to view model
                 vm.Room.GameObjects.Remove(instance);
             }
-            else if (parentTreeViewItem?.DataContext is UndertaleRoom.Layer { LayerType: UndertaleRoom.LayerType.Instances } layer)
+            else if (parentTreeViewItem?.DataContext is UndertaleRoom.Layer
+                     {
+                         LayerType: UndertaleRoom.LayerType.Instances
+                     } layer)
             {
                 // TODO: Move to view model
                 // TODO: Remove from InstanceCreationOrderIDs
@@ -407,7 +411,9 @@ public partial class UndertaleRoomView : UserControl
 
                 if (where is UndertaleRoomViewModel.RoomItem { Tag: "GameObjects" })
                 {
-                    int index = selectedInstance is not null ? vm.Room.GameObjects.IndexOf(selectedInstance) : vm.Room.GameObjects.Count;
+                    int index = selectedInstance is not null
+                        ? vm.Room.GameObjects.IndexOf(selectedInstance)
+                        : vm.Room.GameObjects.Count;
 
                     UndertaleRoom.GameObject newInstance = instance.Clone();
                     newInstance.InstanceID = vm.MainVM.Data!.GeneralInfo.LastObj++;
@@ -416,7 +422,9 @@ public partial class UndertaleRoomView : UserControl
                 }
                 else if (where is UndertaleRoom.Layer { LayerType: UndertaleRoom.LayerType.Instances } layer)
                 {
-                    int index = selectedInstance is not null ? layer.InstancesData.Instances.IndexOf(selectedInstance) : layer.InstancesData.Instances.Count;
+                    int index = selectedInstance is not null
+                        ? layer.InstancesData.Instances.IndexOf(selectedInstance)
+                        : layer.InstancesData.Instances.Count;
 
                     UndertaleRoom.GameObject newInstance = instance.Clone();
                     newInstance.InstanceID = vm.MainVM.Data!.GeneralInfo.LastObj++;
@@ -465,5 +473,43 @@ public partial class UndertaleRoomView : UserControl
         }
 
         return null;
+    }
+
+    private int _gri0State1 = 0;
+
+    private void CollapseH_OnClick(object? sender, RoutedEventArgs e)
+    {
+        _gri0State1 = (_gri0State1 + 1) % 3;
+        switch (_gri0State1)
+        {
+            case 0:
+                Grid0.ColumnDefinitions = new ColumnDefinitions("1*,Auto,28");
+                break;
+            case 1:
+                Grid0.ColumnDefinitions = new ColumnDefinitions("0,Auto,1*");
+                break;
+            case 2:
+                Grid0.ColumnDefinitions = new ColumnDefinitions("2*,Auto,5*");
+                break;
+        }
+    }
+
+    private int _grid00State1 = 0;
+
+    private void CollapseV_OnClick(object? sender, RoutedEventArgs e)
+    {
+        _grid00State1 = (_grid00State1 + 1) % 3;
+        switch (_grid00State1)
+        {
+            case 0:
+                Grid00.RowDefinitions = new RowDefinitions("1*,Auto,0");
+                break;
+            case 1:
+                Grid00.RowDefinitions = new RowDefinitions("30,Auto,1*");
+                break;
+            case 2:
+                Grid00.RowDefinitions = new RowDefinitions("1*,Auto,1*");
+                break;
+        }
     }
 }

@@ -7,6 +7,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Input;
 using Avalonia.Input.GestureRecognizers;
+using Avalonia.Logging;
 using Avalonia.Media;
 using Avalonia.Platform;
 using Avalonia.Rendering.SceneGraph;
@@ -68,7 +69,6 @@ public class UndertaleRoomEditor : Control
         customDrawOperation = new CustomDrawOperation(this);
         ClipToBounds = true;
         Focusable = true;
-        //GestureRecognizers.Add(new PinchGestureRecognizer());
         GestureRecognizers.Add(new QiuGestureRecognizer(this));
     }
 
@@ -120,13 +120,17 @@ public class UndertaleRoomEditor : Control
         });
     }
 
+    
     protected override void OnPointerMoved(PointerEventArgs e)
     {
+        Logger.Sink.Log(LogEventLevel.Error,"OnPointerMoved",e,e.Pointer.Type.ToString()+e.GetPosition(this).ToString());
         mousePosition = e.GetPosition(this);
 
         if (moving)
         {
             Translation = mousePosition - movingStartMousePosition;
+            e.PreventGestureRecognition();
+            e.Handled = true;
         }
 
         Point roomMousePosition = (mousePosition - Translation) / Scaling;
@@ -204,11 +208,16 @@ public class UndertaleRoomEditor : Control
 
     protected override void OnPointerPressed(PointerPressedEventArgs e)
     {
+        Logger.Sink.Log(LogEventLevel.Error,"OnPointerPressed",e,e.Pointer.Type.ToString()+e.GetPosition(this).ToString());
+        if (e.ClickCount >= 2) return;
+        mousePosition = e.GetPosition(this);
         if (e.GetCurrentPoint(this).Properties.IsMiddleButtonPressed || 
             (vm?.PointerStatus == 0 && e.GetCurrentPoint(this).Properties.IsLeftButtonPressed))
         {
             this.Focus();
             moving = true;
+            e.Handled = true;
+            e.PreventGestureRecognition();
             movingStartMousePosition = mousePosition - Translation;
         }
         else if (e.GetCurrentPoint(this).Properties.IsLeftButtonPressed)
@@ -245,13 +254,7 @@ public class UndertaleRoomEditor : Control
 
     protected override void OnPointerReleased(PointerReleasedEventArgs e)
     {
-        moving = false;
-        movingItem = false;
-        settingTiles = false;
-    }
-
-    protected override void OnPointerCaptureLost(PointerCaptureLostEventArgs e)
-    {
+        Logger.Sink.Log(LogEventLevel.Error,"OnPointerReleased",e,e.Pointer.Type.ToString()+e.GetPosition(this).ToString());
         moving = false;
         movingItem = false;
         settingTiles = false;
@@ -952,7 +955,6 @@ public class UndertaleRoomEditor : Control
     public class QiuGestureRecognizer : GestureRecognizer
     {
         private UndertaleRoomEditor editor;
-        private bool status;
         private Point cachedPointer;
         public QiuGestureRecognizer(UndertaleRoomEditor editor)
         {
@@ -961,41 +963,24 @@ public class UndertaleRoomEditor : Control
 
         protected override void PointerPressed(PointerPressedEventArgs e)
         {
-            status = true;
-            editor.OnPointerReleased(new PointerReleasedEventArgs(e.Source,e.Pointer,null,e.GetPosition(editor),e.Timestamp,e.Properties,e.KeyModifiers,MouseButton.Left));
             editor.OnPointerPressed(e);
             e.PreventGestureRecognition();
         }
 
         protected override void PointerReleased(PointerReleasedEventArgs e)
         {
-            status = false;
-            cachedPointer = e.GetPosition(editor);
             editor.OnPointerReleased(e);
-            //e.PreventGestureRecognition();
+            e.PreventGestureRecognition();
         }
 
         protected override void PointerMoved(PointerEventArgs e)
         {
-            if (cachedPointer != null && e.Pointer.Type == PointerType.Touch)
-            {
-                var ee = e.GetPosition(editor);
-                if (ee == cachedPointer)
-                {
-                    editor.OnPointerReleased(new PointerReleasedEventArgs(e.Source,e.Pointer,null,ee,e.Timestamp,e.Properties,e.KeyModifiers,MouseButton.Left));
-                    editor.OnPointerPressed(new PointerPressedEventArgs(e.Source,e.Pointer,null,ee,e.Timestamp,e.Properties,e.KeyModifiers,1));
-                }
-                cachedPointer = ee;
-            }
-            if(status)
-                editor.OnPointerMoved(e);
+            editor.OnPointerMoved(e);
             e.PreventGestureRecognition();
         }
 
         protected override void PointerCaptureLost(IPointer pointer)
         {
-            status = false;
-            editor.OnPointerReleased(null);
         }
     }
 }

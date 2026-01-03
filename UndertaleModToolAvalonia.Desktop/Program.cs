@@ -1,5 +1,6 @@
 ﻿using Avalonia;
 using System;
+using Avalonia.Logging;
 
 namespace UndertaleModToolAvalonia.Desktop
 {

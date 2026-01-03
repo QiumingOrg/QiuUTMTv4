@@ -38,7 +38,6 @@ public partial class App : Application
         collection.AddSingleton<MainViewModel>();
 
         Services = collection.BuildServiceProvider();
-
         MainViewModel vm = Services.GetRequiredService<MainViewModel>();
         vm.Initialize();
 

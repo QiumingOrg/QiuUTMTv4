@@ -329,4 +329,23 @@ public partial class MainView : UserControl, IView
                 vm.CommandTextBoxText = result?.ToString() ?? "";
             }
     }
+    
+    private int _gri0State1 = 0;
+
+    private void AdjustView_OnClick(object? sender, RoutedEventArgs e)
+    {
+        _gri0State1 = (_gri0State1 + 1) % 3;
+        switch (_gri0State1)
+        {
+            case 0:
+                Grid0.ColumnDefinitions = new ColumnDefinitions("1*,Auto,0");
+                break;
+            case 1:
+                Grid0.ColumnDefinitions = new ColumnDefinitions("28,Auto,1*");
+                break;
+            case 2:
+                Grid0.ColumnDefinitions = new ColumnDefinitions("1*,Auto,3*");
+                break;
+        }
+    }
 }
