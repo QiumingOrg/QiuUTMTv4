@@ -585,25 +585,6 @@ public partial class MainViewModel
     {
         ScriptsSubMenuItems = [];
         DFS_ScriptMenu(null, Path.Combine(AppContext.BaseDirectory, "Scripts"));
-        // var stream1 = Path.Combine(AppContext.BaseDirectory, "Scripts/scriptpath.txt");
-        // using var reader1 = new StreamReader(stream1);
-        // var contents1 = reader1.ReadToEnd();
-        // var list = contents1.Split(";;");
-        // foreach (var item in list)
-        // {
-        //     var path = Path.Combine(AppContext.BaseDirectory, "Scripts/" + item);
-        //     // using var reader = new StreamReader(stream);
-        //     // var contents = reader.ReadToEnd();
-        //     var menuItem22 = new MenuItem
-        //     {
-        //         Header = "菜单二二"
-        //     };
-        //     ScriptsSubMenuItems.Add(menuItem22);
-        //     // await Task.Run(async () =>
-        //     // {
-        //     //     ScriptsRunOtherScript();
-        //     // });
-        // }
     }
 
     public async Task<bool> FileSave()
