@@ -14,6 +14,7 @@ using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Scripting;
 using Microsoft.CodeAnalysis.Scripting;
 using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json;
 using Underanalyzer.Decompiler;
 using UndertaleModLib;
 using UndertaleModLib.Decompiler;
@@ -51,14 +52,17 @@ public class Scripting
                     "UndertaleModLib.Compiler",
                     "UndertaleModLib.Decompiler",
                     "UndertaleModLib.Models",
-                    "UndertaleModLib.Scripting")
+                    "UndertaleModLib.Scripting",
+                    "UndertaleModLib.Util")
                 .AddReferences(
                     "System.Core",
                     "UndertaleModLib")
                 .AddReferences(typeof(UndertaleObject).GetTypeInfo().Assembly,
                     GetType().GetTypeInfo().Assembly,
+                    typeof(JsonConvert).GetTypeInfo().Assembly,
                     typeof(System.Text.RegularExpressions.Regex).GetTypeInfo().Assembly,
                     typeof(TextureWorker).GetTypeInfo().Assembly,
+                    typeof(TextureWorkerSkia).GetTypeInfo().Assembly,
                     typeof(ImageMagick.MagickImage).GetTypeInfo().Assembly,
                     typeof(Underanalyzer.Decompiler.DecompileContext).Assembly)
                 .WithFilePath(filePath)

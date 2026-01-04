@@ -642,6 +642,10 @@ public partial class MainViewModel
 
     public async void ScriptsRunOtherScript()
     {
+        if (OperatingSystem.IsAndroid())
+        {
+            if (!await MAUIBridge.HasRequiredStoragePermission()) return;
+        }
         var files = await View!.OpenFileDialog(new FilePickerOpenOptions()
         {
             Title = "运行脚本",
@@ -685,12 +689,12 @@ public partial class MainViewModel
             if (File.Exists(t)) filePath = t;
         }
 
-        if (Settings.EnableQiuUtmtV3ScriptEngine)
+        if (Settings.EnableQiuUtmtV3ScriptEngine&&!OperatingSystem.IsWindows())
         {
             var loader = new LoaderWindow.LoaderWindowDroid(View.View);
             Task.Run(() =>
             {
-                var qf = new QiuFuncMain(FileSystem.Current.CacheDirectory + "/temp.data",
+                var qf = new QiuFuncMain(file.TryGetLocalPath()??FileSystem.Current.CacheDirectory + "/temp.data",
                     Data, null,
                     new FileInfo(FileSystem.Current.CacheDirectory),
                     true, false);

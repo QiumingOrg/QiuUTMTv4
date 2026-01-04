@@ -16,6 +16,7 @@ using UndertaleModLib.Compiler;
 using UndertaleModLib.Decompiler;
 using UndertaleModLib.Models;
 using UndertaleModLib.Scripting;
+
 namespace UTMTdrid;
 
 // Everything that gets inherited (methods, attributes) from IScriptInterface gets put here
@@ -102,12 +103,15 @@ public partial class QiuFuncMain : IScriptInterface
     /// <inheritdoc/>
     public bool ScriptQuestion(string message)
     {
-        GenoukaUI_Write($"{message} (Y/N) ");
-        //bool isInputYes = MAUI_Page.DisplayAlert("Question?", "Would you like to play a game", "Yes", "No").Result;
-        bool isInputYes = MAUIBridge.AskDialog("询问",message).Result;
-        //bool isInputYes = Console.ReadKey(false).Key == ConsoleKey.Y;
-        GenoukaUI_WriteLine("");
-        return isInputYes;
+        if (MAUIBridge.AskDialog is not null)
+        {
+            GenoukaUI_Write($"{message} (Y/N) ");
+            bool isInputYes = MAUIBridge.AskDialog("询问", message).Result;
+            GenoukaUI_WriteLine("");
+            return isInputYes;
+        }
+
+        return SimpleTextInput("选择", message + "(Y/N)", "Y", false) == "Y";
     }
 
     /// <inheritdoc/>
@@ -118,13 +122,16 @@ public partial class QiuFuncMain : IScriptInterface
         GenoukaUI_WriteLine("[err]--------------------------------------------------");
         GenoukaUI_WriteLine("[err]----------------------ERROR!----------------------");
         GenoukaUI_WriteLine("[err]--------------------------------------------------");
-        GenoukaUI_WriteLine("[err]"+title);
+        GenoukaUI_WriteLine("[err]" + title);
         GenoukaUI_WriteLine("[err]--------------------------------------------------");
-        GenoukaUI_WriteLine("[err]"+error);
+        GenoukaUI_WriteLine("[err]" + error);
         GenoukaUI_WriteLine("[err]--------------------------------------------------");
         GenoukaUI_WriteLine("[err]----------------------ERROR!----------------------");
         GenoukaUI_WriteLine("[err]--------------------------------------------------");
-        if (IsInteractive) { Pause(); }
+        if (IsInteractive)
+        {
+            Pause();
+        }
     }
 
     /// <inheritdoc/>
@@ -155,9 +162,10 @@ public partial class QiuFuncMain : IScriptInterface
             //TODO: why useShellExecute on Windows, but not on the other OS?
             p = Process.Start(new ProcessStartInfo(url) { UseShellExecute = true }); // Works ok on windows
         }
-        else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux) || RuntimeInformation.IsOSPlatform(OSPlatform.FreeBSD))
+        else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux) ||
+                 RuntimeInformation.IsOSPlatform(OSPlatform.FreeBSD))
         {
-            p = Process.Start("xdg-open", url);  // Works ok on linux, should work on FreeBSD as it's very similar.
+            p = Process.Start("xdg-open", url); // Works ok on linux, should work on FreeBSD as it's very similar.
         }
         else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
         {
@@ -165,7 +173,8 @@ public partial class QiuFuncMain : IScriptInterface
         }
         else
         {
-            throw new InvalidOperationException("Unable to open the browser on this OS: " + RuntimeInformation.OSDescription);
+            throw new InvalidOperationException("Unable to open the browser on this OS: " +
+                                                RuntimeInformation.OSDescription);
         }
 
         p?.Dispose();
@@ -385,10 +394,10 @@ public partial class QiuFuncMain : IScriptInterface
             {
                 return null;
             }
+
             directoryInfo = new DirectoryInfo(path);
-        }
-        while (!directoryInfo.Exists);
-        
+        } while (!directoryInfo.Exists);
+
         return path;
     }
 
@@ -405,9 +414,9 @@ public partial class QiuFuncMain : IScriptInterface
             {
                 return null;
             }
+
             fileInfo = new FileInfo(path);
-        }
-        while (!fileInfo.Exists);
+        } while (!fileInfo.Exists);
 
         return path;
     }
@@ -433,7 +442,7 @@ public partial class QiuFuncMain : IScriptInterface
             // {
             //     result = MAUI_Page.DisplayPromptAsync("保存到文件", "选择的路径为"+dir+"\n输入文件名").Result;
             // }
-            result=MAUIBridge.SaveFile("file"+defaultExt,CancellationToken.None).Result;
+            result = MAUIBridge.SaveFile("file" + defaultExt, CancellationToken.None).Result;
             path = RemoveQuotes(result);
 
             if (Directory.Exists(path))
@@ -442,29 +451,32 @@ public partial class QiuFuncMain : IScriptInterface
                 path = null; // Ensuring that the loop will work correctly
                 throw new Exception("输入的文件已经存在，请另选路径");
             }
-        }
-        while (string.IsNullOrWhiteSpace(path));
+        } while (string.IsNullOrWhiteSpace(path));
 
         return path;
     }
 
     /// <inheritdoc/>
-    public string GetDecompiledText(string codeName, GlobalDecompileContext? context = null, IDecompileSettings? settings = null)
+    public string GetDecompiledText(string codeName, GlobalDecompileContext? context = null,
+        IDecompileSettings? settings = null)
     {
         return GetDecompiledText(Data.Code.ByName(codeName), context, settings);
     }
 
     /// <inheritdoc/>
-    public string GetDecompiledText(UndertaleCode code, GlobalDecompileContext? context = null, IDecompileSettings? settings = null)
+    public string GetDecompiledText(UndertaleCode code, GlobalDecompileContext? context = null,
+        IDecompileSettings? settings = null)
     {
         if (code.ParentEntry is not null)
-            return $"// This code entry is a reference to an anonymous function within \"{code.ParentEntry.Name.Content}\", decompile that instead.";
+            return
+                $"// This code entry is a reference to an anonymous function within \"{code.ParentEntry.Name.Content}\", decompile that instead.";
 
         GlobalDecompileContext decompileContext = context is null ? new(Data) : context;
         try
         {
             return code != null
-                ? new DecompileContext(decompileContext, code, settings ?? Data.ToolInfo.DecompilerSettings).DecompileToString()
+                ? new DecompileContext(decompileContext, code, settings ?? Data.ToolInfo.DecompilerSettings)
+                    .DecompileToString()
                 : "";
         }
         catch (Exception e)
@@ -483,11 +495,14 @@ public partial class QiuFuncMain : IScriptInterface
     public string GetDisassemblyText(UndertaleCode code)
     {
         if (code.ParentEntry is not null)
-            return $"; This code entry is a reference to an anonymous function within \"{code.ParentEntry.Name.Content}\", disassemble that instead.";
+            return
+                $"; This code entry is a reference to an anonymous function within \"{code.ParentEntry.Name.Content}\", disassemble that instead.";
 
         try
         {
-            return code != null ? code.Disassemble(Data.Variables, Data.CodeLocals?.For(code), Data.CodeLocals is null) : "";
+            return code != null
+                ? code.Disassemble(Data.Variables, Data.CodeLocals?.For(code), Data.CodeLocals is null)
+                : "";
         }
         catch (Exception e)
         {
@@ -496,22 +511,19 @@ public partial class QiuFuncMain : IScriptInterface
     }
 
     /// <inheritdoc/>
-    public string ScriptInputDialog(string titleText, string labelText, string defaultInputBoxText, string cancelButtonText, string submitButtonText, bool isMultiline, bool preventClose)
+    public string ScriptInputDialog(string titleText, string labelText, string defaultInputBoxText,
+        string cancelButtonText, string submitButtonText, bool isMultiline, bool preventClose)
     {
         // I'll ignore the cancelButtonText and submitButtonText as they don't have much use.
         return SimpleTextInput(titleText, labelText, defaultInputBoxText, isMultiline, preventClose);
     }
 
     /// <inheritdoc/>
-    public string SimpleTextInput(string title, string label, string defaultValue, bool allowMultiline, bool showDialog = true)
+    public string SimpleTextInput(string title, string label, string defaultValue, bool allowMultiline,
+        bool showDialog = true)
     {
-        // if (MAUI_Page != null)
-        // {
-        //     return MAUI_Page.DisplayPromptAsync(title, label,initialValue:defaultValue).Result;
-        // }
-        return MAUIBridge.InputDialog(title, label).Result;
-        // default value gets ignored, as it doesn't really have a use in CLI.
-        throw new NotImplementedException("Not yet implemented");
+        if (MAUIBridge.InputDialog is not null)
+            return MAUIBridge.InputDialog(title, label).Result;
         string result = "";
 
         GenoukaUI_WriteLine("-----------------------INPUT----------------------");
@@ -556,7 +568,6 @@ public partial class QiuFuncMain : IScriptInterface
                     else
                         result += keyInfo.KeyChar;
                 }
-
             } while (!isEnterWithoutShiftPressed);
         }
 
@@ -568,13 +579,18 @@ public partial class QiuFuncMain : IScriptInterface
     }
 
     /// <inheritdoc/>
-    public async Task ClickableSearchOutput(string title, string query, int resultsCount, IOrderedEnumerable<KeyValuePair<string, List<(int lineNum, string codeLine)>>> resultsDict, bool editorDecompile, IOrderedEnumerable<string> failedList = null)
+    public async Task ClickableSearchOutput(string title, string query, int resultsCount,
+        IOrderedEnumerable<KeyValuePair<string, List<(int lineNum, string codeLine)>>> resultsDict,
+        bool editorDecompile, IOrderedEnumerable<string> failedList = null)
     {
-        await ClickableSearchOutput(title, query, resultsCount, resultsDict.ToDictionary(pair => pair.Key, pair => pair.Value), editorDecompile, failedList);
+        await ClickableSearchOutput(title, query, resultsCount,
+            resultsDict.ToDictionary(pair => pair.Key, pair => pair.Value), editorDecompile, failedList);
     }
 
     /// <inheritdoc/>
-    public async Task ClickableSearchOutput(string title, string query, int resultsCount, IDictionary<string, List<(int lineNum, string codeLine)>> resultsDict, bool editorDecompile, IEnumerable<string>? failedList = null)
+    public async Task ClickableSearchOutput(string title, string query, int resultsCount,
+        IDictionary<string, List<(int lineNum, string codeLine)>> resultsDict, bool editorDecompile,
+        IEnumerable<string>? failedList = null)
     {
         await Task.Delay(1); //dummy await
 
@@ -589,10 +605,11 @@ public partial class QiuFuncMain : IScriptInterface
             if (failedArray.Length == 1)
                 GenoukaUI_WriteLine("[err]There is 1 code entry that encountered an error while searching:");
             else
-                GenoukaUI_WriteLine("[err]"+$"There are {failedArray.Length} code entries that encountered an error while searching");
+                GenoukaUI_WriteLine("[err]" +
+                                    $"There are {failedArray.Length} code entries that encountered an error while searching");
 
             foreach (string failedEntry in failedArray)
-                GenoukaUI_WriteLine("[err]"+failedEntry);
+                GenoukaUI_WriteLine("[err]" + failedEntry);
 
             Console.ResetColor();
             GenoukaUI_WriteLine("");
@@ -629,11 +646,14 @@ public partial class QiuFuncMain : IScriptInterface
             ScriptError(path + " does not exist!");
             return false;
         }
+
         try
         {
             CancellationTokenSource source = new CancellationTokenSource(100);
             CancellationToken token = source.Token;
-            CSharpScript.EvaluateAsync(File.ReadAllText(path, Encoding.UTF8), CliScriptOptions.WithFilePath(path).WithFileEncoding(Encoding.UTF8), this, typeof(IScriptInterface), token);
+            CSharpScript.EvaluateAsync(File.ReadAllText(path, Encoding.UTF8),
+                CliScriptOptions.WithFilePath(path).WithFileEncoding(Encoding.UTF8), this, typeof(IScriptInterface),
+                token);
         }
         catch (CompilationErrorException exc)
         {
@@ -651,6 +671,7 @@ public partial class QiuFuncMain : IScriptInterface
             ScriptErrorType = "";
             return true;
         }
+
         return true;
     }
 
@@ -703,6 +724,7 @@ public partial class QiuFuncMain : IScriptInterface
                     }
                 }
             }
+
             return objIndex;
         }
 
@@ -718,7 +740,8 @@ public partial class QiuFuncMain : IScriptInterface
             uint objIndex = 0;
             while (!objFound)
             {
-                string objectIndex = SimpleTextInput("Multiple objects were found. Select only one object below from the set, or, if none below match, some other object name:",
+                string objectIndex = SimpleTextInput(
+                    "Multiple objects were found. Select only one object below from the set, or, if none below match, some other object name:",
                     "Object enter box.", gameObjectNames, true).ToLower();
                 for (var i = 0; i < Data.GameObjects.Count; i++)
                 {
@@ -729,6 +752,7 @@ public partial class QiuFuncMain : IScriptInterface
                     }
                 }
             }
+
             return objIndex;
         }
 
@@ -764,6 +788,7 @@ public partial class QiuFuncMain : IScriptInterface
                 // Silently ignore, some values can be null along the way
             }
         }
+
         possibleValues = GetCollisionValueFromGUID(GetGUIDFromCodeName(codeName));
         return possibleValues;
     }
@@ -814,12 +839,12 @@ public partial class QiuFuncMain : IScriptInterface
         if (afterPrefix.LastIndexOf("_Collision_") != -1)
         {
             string s2 = "_Collision_";
-            return afterPrefix.Substring(afterPrefix.LastIndexOf("_Collision_") + s2.Length, afterPrefix.Length - (afterPrefix.LastIndexOf("_Collision_") + s2.Length));
+            return afterPrefix.Substring(afterPrefix.LastIndexOf("_Collision_") + s2.Length,
+                afterPrefix.Length - (afterPrefix.LastIndexOf("_Collision_") + s2.Length));
         }
         else
             return "Invalid";
     }
 
     #endregion
-
 }

@@ -147,7 +147,7 @@ public partial class QiuFuncMain : IScriptInterface
     /// Stub for QiuUTMTv4
     /// </summary>
     [DynamicDependency("DecompilerSettings", "ToolInfo", "UndertaleModLib")]
-    public QiuFuncMain(String fullname,UndertaleData data, FileInfo[] scripts, FileInfo output, bool verbose = false,
+    public QiuFuncMain(String fullname, UndertaleData data, FileInfo[] scripts, FileInfo output, bool verbose = false,
         bool interactive = false)
     {
         this.Verbose = verbose;
@@ -186,7 +186,7 @@ public partial class QiuFuncMain : IScriptInterface
             Debug.WriteLine(ee.Message);
         }
     }
-    
+
     public QiuFuncMain(FileInfo datafile, bool verbose, DirectoryInfo? output = null)
     {
         if (datafile == null) throw new ArgumentNullException(nameof(datafile));
@@ -966,34 +966,37 @@ public partial class QiuFuncMain : IScriptInterface
 
         //静态预检查脚本可能存在的问题
         string lintString = "";
-        if (code.Contains("System.Windows.Media"))
+        if (!OperatingSystem.IsWindows())
         {
-            lintString += "* [严重]包含仅限Windows可用的System.Windows.Media，强行运行可能会崩溃\n";
-        }
-
-        if (code.Contains("System.Windows.Forms"))
-        {
-            lintString += "* [警告]包含仅限Windows可用的System.Windows.Forms，强行运行可能会崩溃\n";
-        }
-
-        if (code.Contains("UndertaleModTool."))
-        {
-            lintString += "* [严重]这个脚本只支持在UndertaleModTool GUI运行\n";
-        }
-
-        if (code.Contains("TextureWorker") && !code.Contains("TextureWorkerSkia"))
-        {
-            lintString += "* [警告]这个脚本引用了不兼容的TextureWorker，请手动在代码中替换为TextureWorkerSkia即可解决\n";
-        }
-
-        if (lintString != "")
-        {
-            callback("***********************\n"+lintString+"\n***********************\n");
-            lintString += "发现该脚本存在以上问题，可能无法正常运行，是否要坚持运行？";
-            if (!MAUIBridge.AskDialog("预检查问题", lintString).Result)
+            if (code.Contains("System.Windows.Media"))
             {
-                callback("用户手动取消了运行该脚本\n");
-                return;
+                lintString += "* [严重]包含仅限Windows可用的System.Windows.Media，强行运行可能会崩溃\n";
+            }
+
+            if (code.Contains("System.Windows.Forms"))
+            {
+                lintString += "* [警告]包含仅限Windows可用的System.Windows.Forms，强行运行可能会崩溃\n";
+            }
+
+            if (code.Contains("UndertaleModTool."))
+            {
+                lintString += "* [严重]这个脚本只支持在UndertaleModTool GUI运行\n";
+            }
+
+            if (code.Contains("TextureWorker") && !code.Contains("TextureWorkerSkia"))
+            {
+                lintString += "* [警告]这个脚本引用了不兼容的TextureWorker，请手动在代码中替换为TextureWorkerSkia即可解决\n";
+            }
+
+            if (lintString != "")
+            {
+                callback("***********************\n" + lintString + "\n***********************\n");
+                lintString += "发现该脚本存在以上问题，可能无法正常运行，是否要坚持运行？";
+                if (!MAUIBridge.AskDialog("预检查问题", lintString).Result)
+                {
+                    callback("用户手动取消了运行该脚本\n");
+                    return;
+                }
             }
         }
 
