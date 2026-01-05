@@ -37,7 +37,7 @@ jobs:
       run: msbuild QiuUTMTv4.sln /t:Restore
 
     - name: Create the app package
-      run: cmd tool/action_build.bat
+      run: tool/action_build.bat
 
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
