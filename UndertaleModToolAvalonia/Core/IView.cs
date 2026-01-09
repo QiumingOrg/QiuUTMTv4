@@ -29,7 +29,7 @@ public interface IView
             var fileResult = await FilePicker.Default.PickAsync(options1);
             if (fileResult == null) return null;
             var t = fileResult.FullPath;
-            return new List<IFile>{ new QiuStrongerFile(new FileInfo(t)) };
+            return new List<IFile> { new QiuStrongerFile(new FileInfo(t)) };
         }
 
         TopLevel topLevel = TopLevel.GetTopLevel(View)!;
@@ -41,13 +41,14 @@ public interface IView
         if (OperatingSystem.IsAndroid())
         {
             QiuFuncMain.clearCallbacks();
-            var t = await MAUIBridge.SaveFile((options.SuggestedFileName ?? "file")+(options.DefaultExtension??".bin"), CancellationToken.None);
+            var t = await MAUIBridge.SaveFile(
+                (options.SuggestedFileName ?? "file") + (options.DefaultExtension ?? ".bin"), CancellationToken.None);
             if (t == null) return null;
             return new QiuStrongerFile(new FileInfo(t));
         }
 
         TopLevel topLevel = TopLevel.GetTopLevel(View)!;
-        return IFile.IStorageFileToIFile(await topLevel.StorageProvider.SaveFilePickerAsync(options)); 
+        return IFile.IStorageFileToIFile(await topLevel.StorageProvider.SaveFilePickerAsync(options));
     }
 
     public async Task<IReadOnlyList<IStorageFolder>> OpenFolderDialog(FolderPickerOpenOptions options)
@@ -221,19 +222,9 @@ public interface IView
 
     public async Task SettingsDialog()
     {
-        if (!OperatingSystem.IsWindows())
-        {
-            TabItemViewModel tab = new(new SettingsViewModel());
-            MainViewModel.Me.Tabs.Add(tab);
-            MainViewModel.Me.TabSelected = tab;
-            return;
-        }
-
-        Window window = View.FindLogicalAncestorOfType<Window>() ?? throw new InvalidOperationException();
-        await new SettingsWindow()
-        {
-            DataContext = new SettingsViewModel(),
-        }.ShowDialog(window);
+        TabItemViewModel tab = new(new SettingsViewModel());
+        MainViewModel.Me.Tabs.Add(tab);
+        MainViewModel.Me.TabSelected = tab;
     }
 
     public void SearchInCodeOpen()
