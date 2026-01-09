@@ -228,14 +228,14 @@
                                             </DataTemplate>
                                             <DataTemplate DataType="l:UndertaleTimelineViewModel">
                                                 <TextBlock
-                                                    Text="{Binding Timeline.Name.Content, StringFormat={x:Static assets:Strings.UndertaleTimelineViewModelHeading}}}" />
+                                                    Text="{Binding Timeline.Name.Content, StringFormat={x:Static assets:Strings.UndertaleTimelineViewModelHeading}}" />
                                             </DataTemplate>
                                             <DataTemplate DataType="l:UndertaleGameObjectViewModel">
                                                 <TextBlock
-                                                    Text="{Binding GameObject.Name.Content, StringFormat={x:Static assets:Strings.Game_object____0}}}" />
+                                                    Text="{Binding GameObject.Name.Content, StringFormat={x:Static assets:Strings.Game_object____0}}" />
                                             </DataTemplate>
                                             <DataTemplate DataType="l:UndertaleRoomViewModel">
-                                                <TextBlock Text="{Binding Room.Name.Content, StringFormat={x:Static assets:Strings.Room____0}}}" />
+                                                <TextBlock Text="{Binding Room.Name.Content, StringFormat={x:Static assets:Strings.Room____0}}" />
                                             </DataTemplate>
                                             <DataTemplate DataType="l:UndertaleExtensionViewModel">
                                                 <TextBlock
