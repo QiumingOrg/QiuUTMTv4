@@ -37,7 +37,7 @@ public partial class UndertaleResourceReferenceView : UserControl
 
         if (change.Property == ReferenceTypeProperty)
         {
-            this.Find<TextBox>("TextBox")!.Watermark = "(" + ReferenceType.Name + " reference)";
+            this.Find<TextBox>("TextBox")!.Watermark = String.Format(UndertaleModToolAvalonia.Assets.Strings.a_0__reference, ReferenceType.Name) ;
         }
     }
 

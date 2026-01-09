@@ -346,7 +346,7 @@
     <value>显示警告</value>
   </data>
   <data name="Named_instance_ID_prefix" xml:space="preserve">
-    <value>Named instance ID prefix:</value>
+    <value>命名实例 ID 前缀:</value>
   </data>
   <data name="If_enabled__color_constants_can_be" xml:space="preserve">
     <value>如果启用，颜色常量会格式化为#RRGGBB十六进制格式。</value>
@@ -355,114 +355,489 @@
     <value>如果启用，则所有语句后面都有分号。</value>
   </data>
   <data name="If_enabled__the_curly_braces_used" xml:space="preserve">
-    <value>If enabled, the curly braces used to open a block will be placed on the same line as the statement it belongs to, rather than placing the brace on its own line.</value>
+    <value>如果启用，用于打开块的花括号将与它所属的语句放在同一行上，而不是放在自己的行上。</value>
   </data>
   <data name="If_enabled__enum_declarations_identified" xml:space="preserve">
-    <value>If enabled, enum declarations identified during decompilation will always be printed to decompiled output.</value>
+    <value>如果启用，在反编译期间标识的枚举声明将始终打印到反编译输出。</value>
   </data>
   <data name="If_enabled__warnings_generated_during" xml:space="preserve">
-    <value>If enabled, warnings generated during decompilation will be printed as comments.</value>
+    <value>如果启用，则在反编译期间生成的警告将打印为注释。</value>
   </data>
   <data name="Prefix_used_for_named_instance_IDs" xml:space="preserve">
-    <value>Prefix used for named instance IDs when found by decompiler, and for compilation. Change this value if it conflicts with variable names.</value>
+    <value>反编译器找到命名实例 ID 时用于命名实例 ID 的前缀，以及用于编译的前缀。如果该值与变量名冲突，请更改该值。</value>
   </data>
   <data name="Indent_string" xml:space="preserve">
-    <value>Indent string:</value>
+    <value>缩进字符串:</value>
   </data>
   <data name="Remove_block_braces_if_single_line" xml:space="preserve">
-    <value>Remove block braces if single line</value>
+    <value>如果是单行，则移除花括号</value>
   </data>
   <data name="If_enabled__blocks_that_contain_a" xml:space="preserve">
-    <value>If enabled, blocks that contain a single line will have its braces removed, where possible. For if/else chains, all blocks must be single lines.</value>
+    <value>如果启用，则包含单行的块将在可能的情况下删除其花括号。对于if/else链，所有块都必须在单行。</value>
   </data>
   <data name="Enum_macro_declarations_at_top_of" xml:space="preserve">
-    <value>Enum/macro declarations at top of code</value>
+    <value>代码顶部的枚举/宏声明</value>
   </data>
   <data name="If_enabled__enums_and_macros_will" xml:space="preserve">
-    <value>If enabled, enums and macros will appear at the start (top) of decompiled output, rather than at the end (bottom).</value>
+    <value>如果启用，枚举和宏将出现在反编译输出的开头（顶部），而不是结尾（底部）。</value>
   </data>
   <data name="Allow_leftover_data_on_VM_stack" xml:space="preserve">
-    <value>Allow leftover data on VM stack</value>
+    <value>允许VM堆栈上有多余的数据</value>
   </data>
   <data name="If_enabled__data_left_over_on_the" xml:space="preserve">
-    <value>If enabled, data left over on the VM stack will be treated as a warning rather than an error.</value>
+    <value>如果启用，VM堆栈上剩余的数据将被视为警告而不是错误。</value>
   </data>
   <data name="Add_empty_lines" xml:space="preserve">
-    <value>Add empty lines:</value>
+    <value>添加空行:</value>
   </data>
   <data name="Select_specific_syntax_to_add_empty" xml:space="preserve">
-    <value>Select specific syntax to add empty lines before, after, or around.</value>
+    <value>选择特定语法以在前面、后面或周围添加空行。</value>
   </data>
   <data name="Around_branch_statements" xml:space="preserve">
-    <value>Around branch statements</value>
+    <value>围绕分支语句</value>
   </data>
   <data name="If_enabled__adds_an_empty_line_before" xml:space="preserve">
-    <value>If enabled, adds an empty line before and after branch statements.</value>
+    <value>如果启用，则在分支语句之前和之后添加空行。</value>
   </data>
   <data name="Before_switch_cases" xml:space="preserve">
-    <value>Before switch cases</value>
+    <value>在 switch 之前</value>
   </data>
   <data name="Around_function_declarations" xml:space="preserve">
-    <value>Around function declarations</value>
+    <value>围绕函数声明</value>
   </data>
   <data name="If_enabled__adds_an_empty_line_before1" xml:space="preserve">
-    <value>If enabled, adds an empty line before (a chain) of &amp;quot;case&amp;quot; entries in a switch statement.</value>
+    <value>如果启用，则在switch语句中的“case”条目（链）之前添加空行。</value>
   </data>
   <data name="If_enabled__adds_an_empty_line_before2" xml:space="preserve">
-    <value>If enabled, adds an empty line before and after a function declaration, even if it is anonymous.</value>
+    <value>如果启用，则在函数声明之前和之后添加空行，即使它是匿名的。</value>
   </data>
   <data name="After_local_variable_declarations" xml:space="preserve">
-    <value>After local variable declarations</value>
+    <value>在局部变量声明之后</value>
   </data>
   <data name="If_enabled__adds_an_empty_line_after" xml:space="preserve">
-    <value>If enabled, adds an empty line after block-scoped local variable declarations.</value>
+    <value>如果启用，则在块范围的局部变量声明后添加空行。</value>
   </data>
   <data name="After_switch_cases" xml:space="preserve">
-    <value>After switch cases</value>
+    <value>在 switch 之后</value>
   </data>
   <data name="If_enabled__adds_an_empty_line_after1" xml:space="preserve">
-    <value>If enabled, adds an empty line after (a chain) of &amp;quot;case&amp;quot; entries in a switch statement.</value>
+    <value>如果启用，则在switch语句中的"case"条目（链）之后添加空行。</value>
   </data>
   <data name="Around_static_initialization" xml:space="preserve">
-    <value>Around static initialization</value>
+    <value>围绕静态初始化</value>
   </data>
   <data name="If_enabled__adds_an_empty_line_before3" xml:space="preserve">
-    <value>If enabled, adds an empty line before and after static initialization, grouping together consecutive statics if possible.</value>
+    <value>如果启用，则在静态初始化之前和之后添加空行，如果可能，将连续静态分组在一起。</value>
   </data>
   <data name="Perform_cleanups" xml:space="preserve">
-    <value>Perform cleanups:</value>
+    <value>执行清理:</value>
   </data>
   <data name="Select_specific_cleanup_operations" xml:space="preserve">
-    <value>Select specific cleanup operations for the decompiler to perform. Disabling these may make code more ugly or &amp;quot;incorrect,&amp;quot; but can show underlying logic.</value>
+    <value>为反编译器选择要执行的特定清理操作。禁用这些操作可能会使代码更难看或"不正确"，但可能会破坏逻辑。</value>
   </data>
   <data name="Try_catch_finally_rewriting" xml:space="preserve">
-    <value>Try/catch/finally rewriting</value>
+    <value>重写 try/catch/finally</value>
   </data>
   <data name="If_enabled__compiler_generated_code" xml:space="preserve">
-    <value>If enabled, compiler-generated code and logic for try/catch/finally statements is rewritten to (attempt to) look like the original code.</value>
+    <value>如果启用，编译器生成的代码和try/catch/finally语句的逻辑将被尝试重写为与原始代码相似。</value>
   </data>
   <data name="Default_argument_values" xml:space="preserve">
-    <value>Default argument values</value>
+    <value>默认参数值</value>
   </data>
   <data name="If_enabled__syntax_for_default_named" xml:space="preserve">
-    <value>If enabled, syntax for default named function arguments will be used. Compiler-generated if statements are transformed to do this, maintaining accuracy.</value>
+    <value>如果启用，将使用默认命名函数参数的语法。如果语句被转换为执行此操作，则生成编译器，从而保持准确性。</value>
   </data>
   <data name="Scope_local_variable_declarations" xml:space="preserve">
-    <value>Scope local variable declarations</value>
+    <value>作用域局部变量声明</value>
   </data>
   <data name="If_enabled__local_variable_declarations" xml:space="preserve">
-    <value>If enabled, local variable declarations will be placed according to their scopes, which are detected based on usage in the code.</value>
+    <value>如果启用，局部变量声明将根据其范围放置，这些范围是根据代码中的用法检测的。</value>
   </data>
   <data name="Transform_else_into_continue" xml:space="preserve">
-    <value>Transform else into continue</value>
+    <value>将else转换为continue</value>
   </data>
   <data name="If_enabled__certain_usages_of__quot" xml:space="preserve">
-    <value>If enabled, certain usages of &amp;quot;else&amp;quot; inside of a loop can be transformed into &amp;quot;continue&amp;quot; statements, which can make code easier to read. This only happens if accuracy can be maintained.</value>
+    <value>如果启用，循环中“else”的某些用法可以转换为“continue”语句，这可以使代码更容易阅读。只有在能够保持准确性的情况下才会发生这种情况。</value>
   </data>
   <data name="If_enabled__certain_builtin_globals" xml:space="preserve">
-    <value>If enabled, certain builtin globals (such as &amp;quot;view_xview&amp;quot;), when detected to be used without an array accessor, will be printed as such, rather than using compiler-generated syntax.</value>
+    <value>如果启用，当检测到某些内置全局变量（如view_xview）在没有数组访问器的情况下使用时，将按原样打印，而不是使用编译器生成的语法。</value>
   </data>
   <data name="Builtin_array_variable_syntax" xml:space="preserve">
-    <value>Builtin array variable syntax</value>
+    <value>内置数组变量语法</value>
+  </data>
+  <data name="Thank_you_for_donation" xml:space="preserve">
+    <value>感谢捐赠！</value>
+  </data>
+  <data name="Script" xml:space="preserve">
+    <value>脚本</value>
+  </data>
+  <data name="General_info" xml:space="preserve">
+    <value>基本信息</value>
+  </data>
+  <data name="Disable_GMS_debugger" xml:space="preserve">
+    <value>禁用GMS调试器</value>
+  </data>
+  <data name="Bytecode_version" xml:space="preserve">
+    <value>字节码版本</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>文件名</value>
+  </data>
+  <data name="Config" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="Last_object_ID" xml:space="preserve">
+    <value>末位对象 ID</value>
+  </data>
+  <data name="Last_tile_ID" xml:space="preserve">
+    <value>末位瓦块 ID</value>
+  </data>
+  <data name="Game_ID" xml:space="preserve">
+    <value>游戏 ID</value>
+  </data>
+  <data name="DirectPlay_GUID" xml:space="preserve">
+    <value>DirectPlay GUID</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="Default_window_size" xml:space="preserve">
+    <value>默认窗口大小</value>
+  </data>
+  <data name="Flags" xml:space="preserve">
+    <value>标志</value>
+  </data>
+  <data name="License_MD5" xml:space="preserve">
+    <value>许可证的 MD5</value>
+  </data>
+  <data name="License_CRC32" xml:space="preserve">
+    <value>许可证的 CRC32</value>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>时间戳</value>
+  </data>
+  <data name="Display_name" xml:space="preserve">
+    <value>显示名称</value>
+  </data>
+  <data name="Active_targets" xml:space="preserve">
+    <value>活动目标</value>
+  </data>
+  <data name="Function_classifications" xml:space="preserve">
+    <value>函数分类</value>
+  </data>
+  <data name="Steam_AppID" xml:space="preserve">
+    <value>Steam AppID</value>
+  </data>
+  <data name="Debugger_port" xml:space="preserve">
+    <value>调试器端口</value>
+  </data>
+  <data name="Room_order" xml:space="preserve">
+    <value>房间次序</value>
+  </data>
+  <data name="Rooms" xml:space="preserve">
+    <value>房间</value>
+  </data>
+  <data name="Room" xml:space="preserve">
+    <value>房间</value>
+  </data>
+  <data name="FPS" xml:space="preserve">
+    <value>FPS(帧率)</value>
+  </data>
+  <data name="Allow_statistics" xml:space="preserve">
+    <value>允许数据收集</value>
+  </data>
+  <data name="Game_GUID" xml:space="preserve">
+    <value>游戏 GUID</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="Shader_extension_flag" xml:space="preserve">
+    <value>着色器扩展标志</value>
+  </data>
+  <data name="Shader_extension_version" xml:space="preserve">
+    <value>着色器扩展版本</value>
+  </data>
+  <data name="Scale" xml:space="preserve">
+    <value>缩放比例</value>
+  </data>
+  <data name="Window_color" xml:space="preserve">
+    <value>窗口颜色</value>
+  </data>
+  <data name="Color_depth" xml:space="preserve">
+    <value>颜色深度</value>
+  </data>
+  <data name="Resolution" xml:space="preserve">
+    <value>分辨率</value>
+  </data>
+  <data name="Frequency" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="Vertex_sync" xml:space="preserve">
+    <value>顶点(Vertex)同步</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>优先级</value>
+  </data>
+  <data name="Back_image" xml:space="preserve">
+    <value>背景图像</value>
+  </data>
+  <data name="Front_image" xml:space="preserve">
+    <value>前景图像</value>
+  </data>
+  <data name="Load_image" xml:space="preserve">
+    <value>加载图像</value>
+  </data>
+  <data name="Load_alpha" xml:space="preserve">
+    <value>加载透明度</value>
+  </data>
+  <data name="Constants" xml:space="preserve">
+    <value>常量</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="Language_count" xml:space="preserve">
+    <value>语言的数目</value>
+  </data>
+  <data name="Entry_count" xml:space="preserve">
+    <value>条目的数目</value>
+  </data>
+  <data name="Case_sensitive" xml:space="preserve">
+    <value>大小写敏感</value>
+  </data>
+  <data name="Regular_search" xml:space="preserve">
+    <value>使用正则表达式</value>
+  </data>
+  <data name="Search_in_Assembly" xml:space="preserve">
+    <value>在汇编中搜索</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="Open_in_new_tab" xml:space="preserve">
+    <value>在新标签页打开</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>透明</value>
+  </data>
+  <data name="Smooth" xml:space="preserve">
+    <value>平滑</value>
+  </data>
+  <data name="Preload" xml:space="preserve">
+    <value>预加载</value>
+  </data>
+  <data name="Texture" xml:space="preserve">
+    <value>纹理</value>
+  </data>
+  <data name="Unknown_Always_2" xml:space="preserve">
+    <value>未知(始终为2)</value>
+  </data>
+  <data name="Tile_Width" xml:space="preserve">
+    <value>图块宽度</value>
+  </data>
+  <data name="Tile_Height" xml:space="preserve">
+    <value>图块高度</value>
+  </data>
+  <data name="Output_Border_X" xml:space="preserve">
+    <value>X向间隔像素数目</value>
+  </data>
+  <data name="Output_Border_Y" xml:space="preserve">
+    <value>Y向间隔像素数目</value>
+  </data>
+  <data name="Tile_Columns" xml:space="preserve">
+    <value>瓦块列数</value>
+  </data>
+  <data name="Items_frames_per_tile" xml:space="preserve">
+    <value>每图块持有帧/物品数目</value>
+  </data>
+  <data name="Tile_Count" xml:space="preserve">
+    <value>瓦块数目</value>
+  </data>
+  <data name="Exported_Sprite_Index" xml:space="preserve">
+    <value>导出的精灵索引</value>
+  </data>
+  <data name="Frame_Time__microseconds" xml:space="preserve">
+    <value>每帧所占毫秒数</value>
+  </data>
+  <data name="Tile_IDs" xml:space="preserve">
+    <value>瓦块 ID</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>列表</value>
+  </data>
+  <data name="Tile_ID" xml:space="preserve">
+    <value>图块 ID</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Code_locals" xml:space="preserve">
+    <value>代码局部变量</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>索引</value>
+  </data>
+  <data name="ParentCode" xml:space="preserve">
+    <value>母对象</value>
+  </data>
+  <data name="Compile_and_decompile" xml:space="preserve">
+    <value>编译并反编译</value>
+  </data>
+  <data name="WAV_data__length" xml:space="preserve">
+    <value>WAV 数据, 长度: </value>
+  </data>
+  <data name="Save_audio" xml:space="preserve">
+    <value>保存音频</value>
+  </data>
+  <data name="Instance_type" xml:space="preserve">
+    <value>实例类型</value>
+  </data>
+  <data name="Name_string_ID" xml:space="preserve">
+    <value>名称字符串 ID</value>
+  </data>
+  <data name="VarID" xml:space="preserve">
+    <value>VarID</value>
+  </data>
+  <data name="Moments" xml:space="preserve">
+    <value>时刻</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>步</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>动作</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>代码</value>
+  </data>
+  <data name="Source_X_Y_W_H" xml:space="preserve">
+    <value>源 X/Y/宽/高</value>
+  </data>
+  <data name="Target_X_Y_W_H" xml:space="preserve">
+    <value>目标 X/Y/宽/高</value>
+  </data>
+  <data name="Bounding_size" xml:space="preserve">
+    <value>边界尺寸</value>
+  </data>
+  <data name="Save_image" xml:space="preserve">
+    <value>保存图像</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="Size_W_H" xml:space="preserve">
+    <value>尺寸 宽/高</value>
+  </data>
+  <data name="Margin_Left_Right_Bottom_Top" xml:space="preserve">
+    <value>外边距 左/右/下/上</value>
+  </data>
+  <data name="Bounding_box_mode" xml:space="preserve">
+    <value>精灵边界框模式</value>
+  </data>
+  <data name="Separation_mask_type" xml:space="preserve">
+    <value>分离遮罩类型</value>
+  </data>
+  <data name="Origin_X_Y" xml:space="preserve">
+    <value>精灵原点 X/Y</value>
+  </data>
+  <data name="Textures" xml:space="preserve">
+    <value>纹理</value>
+  </data>
+  <data name="Collision_masks" xml:space="preserve">
+    <value>碰撞遮罩</value>
+  </data>
+  <data name="Mask" xml:space="preserve">
+    <value>遮罩</value>
+  </data>
+  <data name="Collision_mask_entry" xml:space="preserve">
+    <value>(碰撞遮罩条目)</value>
+  </data>
+  <data name="Collision_mask_data" xml:space="preserve">
+    <value>碰撞遮罩数据</value>
+  </data>
+  <data name="Import_collision_mask_data" xml:space="preserve">
+    <value>导入碰撞遮罩数据</value>
+  </data>
+  <data name="Export_collision_mask_data" xml:space="preserve">
+    <value>导出碰撞遮罩数据</value>
+  </data>
+  <data name="Is_special_type" xml:space="preserve">
+    <value>是特殊类型</value>
+  </data>
+  <data name="SVersion" xml:space="preserve">
+    <value>特殊类型的版本</value>
+  </data>
+  <data name="SType" xml:space="preserve">
+    <value>特殊类型的类型</value>
+  </data>
+  <data name="Playback_speed" xml:space="preserve">
+    <value>播放速度</value>
+  </data>
+  <data name="Playback_speed_type" xml:space="preserve">
+    <value>播放速度的类型</value>
+  </data>
+  <data name="Embedded_textures" xml:space="preserve">
+    <value>内嵌纹理</value>
+  </data>
+  <data name="Group_name" xml:space="preserve">
+    <value>组名</value>
+  </data>
+  <data name="Embedded_texture" xml:space="preserve">
+    <value>内嵌纹理</value>
+  </data>
+  <data name="Sprites" xml:space="preserve">
+    <value>精灵</value>
+  </data>
+  <data name="Sprite" xml:space="preserve">
+    <value>精灵</value>
+  </data>
+  <data name="Spine_sprites" xml:space="preserve">
+    <value>骨骼精灵</value>
+  </data>
+  <data name="Fonts" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="Tilesets" xml:space="preserve">
+    <value>图块集</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>背景</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="a_0__reference" xml:space="preserve">
+    <value>({0} 的引用)</value>
+  </data>
+  <data name="UndertaleString_reference" xml:space="preserve">
+    <value>(UndertaleString 的引用)</value>
   </data>
 </root>

@@ -2,26 +2,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:strings="using:UndertaleModToolAvalonia.Assets"
              xmlns:l="clr-namespace:UndertaleModToolAvalonia"
              xmlns:undertalem="clr-namespace:UndertaleModLib.Models;assembly=UndertaleModLib"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="UndertaleModToolAvalonia.UndertaleVariableView"
-             x:DataType="l:UndertaleVariableViewModel">
+             x:DataType="l:UndertaleVariableViewModel" xmlns:strings1="clr-namespace:UndertaleModToolAvalonia.Assets" >
     <UserControl.Resources>
         <l:EnumTypeToValuesConverter x:Key="EnumTypeToValuesConverter" />
     </UserControl.Resources>
     <Grid l:AutoGridBehavior.Enable="True" ColumnDefinitions="1*,3*" Classes="PaddedProperties">
-        <Label>Name</Label>
+        <Label Content="{x:Static strings:Strings.Name}"></Label>
         <l:UndertaleStringReferenceView Reference="{Binding Variable.Name}" />
 
-        <Label>Instance type</Label>
+        <Label Content="{x:Static strings1:Strings.Instance_type}"></Label>
         <ComboBox ItemsSource="{Binding Source={x:Type undertalem:UndertaleInstruction+InstanceType}, Converter={StaticResource EnumTypeToValuesConverter}}"
                   SelectedItem="{Binding Variable.InstanceType}" />
 
-        <Label>VarID</Label>
+        <Label Content="{x:Static strings1:Strings.VarID}"></Label>
         <TextBox Text="{Binding Variable.VarID}" />
 
-        <Label>Name string ID</Label>
+        <Label Content="{x:Static strings1:Strings.Name_string_ID}"></Label>
         <TextBox Text="{Binding Variable.NameStringID}" />
     </Grid>
 </UserControl>

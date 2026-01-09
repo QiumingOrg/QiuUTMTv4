@@ -6,10 +6,10 @@
              xmlns:undertalem="clr-namespace:UndertaleModLib.Models;assembly=UndertaleModLib"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="UndertaleModToolAvalonia.GameEndScriptsView"
-             x:DataType="l:GameEndScriptsViewModel">
+             x:DataType="l:GameEndScriptsViewModel" xmlns:strings="clr-namespace:UndertaleModToolAvalonia.Assets" >
     <l:EditableDataGrid ItemsSource="{Binding GameEndScripts}" ItemFactory="{Binding CreateGlobalInit}" Classes="LeftPaddedProperties">
         <l:EditableDataGrid.Columns>
-            <DataGridTemplateColumn Header="Script" Width="1*">
+            <DataGridTemplateColumn Header="{x:Static strings:Strings.Script}" Width="1*">
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate DataType="undertalem:UndertaleGlobalInit">
                         <l:UndertaleResourceReferenceView Reference="{Binding Code}" ReferenceType="undertalem:UndertaleCode"/>

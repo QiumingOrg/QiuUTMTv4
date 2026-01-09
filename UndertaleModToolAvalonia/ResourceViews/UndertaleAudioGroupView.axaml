@@ -5,14 +5,14 @@
              xmlns:l="clr-namespace:UndertaleModToolAvalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="UndertaleModToolAvalonia.UndertaleAudioGroupView"
-             x:DataType="l:UndertaleAudioGroupViewModel">
+             x:DataType="l:UndertaleAudioGroupViewModel" xmlns:strings="clr-namespace:UndertaleModToolAvalonia.Assets" >
     <UserControl.Resources>
         <l:VersionCompareConverter x:Key="VersionCompareConverter" />
     </UserControl.Resources>
 
     <StackPanel Classes="PaddedProperties">
         <Grid l:AutoGridBehavior.Enable="True" ColumnDefinitions="1*,3*">
-            <Label>Name</Label>
+            <Label Content="{x:Static strings:Strings.Name}"></Label>
             <l:UndertaleStringReferenceView Reference="{Binding AudioGroup.Name}" />
         </Grid>
     
@@ -20,7 +20,7 @@
               IsVisible="{Binding $parent[l:MainView].((l:MainViewModel)DataContext).DataVersion,
               Converter={StaticResource VersionCompareConverter},
               ConverterParameter=GE2024.14}">
-            <Label>Path</Label>
+            <Label Content="{x:Static strings:Strings.Path}"></Label>
             <l:UndertaleStringReferenceView Reference="{Binding AudioGroup.Path}" />
         </Grid>
     </StackPanel>

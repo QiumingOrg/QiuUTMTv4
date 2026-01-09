@@ -6,16 +6,16 @@
              x:Class="UndertaleModToolAvalonia.SearchInCodeView"
         xmlns:l="clr-namespace:UndertaleModToolAvalonia"
         x:DataType="l:SearchInCodeViewModel"
-        Classes="SearchInCodeView">
+        Classes="SearchInCodeView" xmlns:strings="clr-namespace:UndertaleModToolAvalonia.Assets" >
     <Grid RowDefinitions="Auto,1*,Auto">
         <StackPanel Grid.Row="0">
             <TextBox Name="SearchTextTextBox" Text="{Binding SearchText}" AcceptsReturn="True"/>
             <StackPanel Orientation="Horizontal">
-                <CheckBox IsChecked="{Binding IsCaseSensitive}" Content="大小写敏感" />
-                <CheckBox IsChecked="{Binding IsRegexSearch}" Content="正则搜索" />
-                <CheckBox IsChecked="{Binding IsInAssembly}" Content="在汇编中搜索" />
+                <CheckBox IsChecked="{Binding IsCaseSensitive}" Content="{x:Static strings:Strings.Case_sensitive}" />
+                <CheckBox IsChecked="{Binding IsRegexSearch}" Content="{x:Static strings:Strings.Regular_search}" />
+                <CheckBox IsChecked="{Binding IsInAssembly}" Content="{x:Static strings:Strings.Search_in_Assembly}" />
             </StackPanel>
-            <Button Command="{Binding Search}" IsDefault="True" HorizontalAlignment="Right">搜索</Button>
+            <Button Command="{Binding Search}" IsDefault="True" HorizontalAlignment="Right" Content="{x:Static strings:Strings.Search}" />
         </StackPanel>
         <DataGrid Grid.Row="1" Name="ResultsDataGrid" ItemsSource="{Binding Results}" IsReadOnly="True" CanUserResizeColumns="True"
                   DoubleTapped="DataGrid_DoubleTapped">
@@ -23,15 +23,15 @@
                 <Style Selector="DataGridRow">
                     <Setter Property="ContextMenu">
                         <ContextMenu>
-                            <MenuItem Header="打开" Click="DataGridRow1_Open_Click"/>
-                            <MenuItem Header="打开于新标签页" Click="DataGridRow1_OpenInNewTab_Click"/>
+                            <MenuItem Header="{x:Static strings:Strings.Open}" Click="DataGridRow1_Open_Click"/>
+                            <MenuItem Header="{x:Static strings:Strings.Open_in_new_tab}" Click="DataGridRow1_OpenInNewTab_Click"/>
                         </ContextMenu>
                     </Setter>
                 </Style>
             </DataGrid.Styles>
             <DataGrid.Columns>
-                <DataGridTextColumn Header="位置" Binding="{Binding Location}" Width="Auto" />
-                <DataGridTextColumn Header="文本" Binding="{Binding Text}" Width="Auto" />
+                <DataGridTextColumn Header="{x:Static strings:Strings.Position}" Binding="{Binding Location}" Width="Auto" />
+                <DataGridTextColumn Header="{x:Static strings:Strings.Text}" Binding="{Binding Text}" Width="Auto" />
             </DataGrid.Columns>
         </DataGrid>
         <TextBlock Grid.Row="2" Text="{Binding StatusBarText}" Classes="StatusBar"/>

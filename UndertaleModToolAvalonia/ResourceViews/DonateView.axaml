@@ -6,10 +6,10 @@
              xmlns:undertalem="clr-namespace:UndertaleModLib.Models;assembly=UndertaleModLib"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="UndertaleModToolAvalonia.DonateView"
-             x:DataType="l:DonateView">
+             x:DataType="l:DonateView" xmlns:strings="clr-namespace:UndertaleModToolAvalonia.Assets" >
     <ScrollViewer>
         <StackPanel>
-            <TextBlock FontWeight="Bold">感谢捐赠！</TextBlock>
+            <TextBlock FontWeight="Bold" Text="{x:Static strings:Strings.Thank_you_for_donation}" />
             <Separator />
             <Image Source="avares://UndertaleModToolAvalonia/Assets/genouka_mm_reward_qrcode.png" MaxHeight="300" />
         </StackPanel>

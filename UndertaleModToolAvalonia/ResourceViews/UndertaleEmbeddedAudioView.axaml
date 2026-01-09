@@ -5,15 +5,15 @@
              xmlns:l="clr-namespace:UndertaleModToolAvalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="UndertaleModToolAvalonia.UndertaleEmbeddedAudioView"
-             x:DataType="l:UndertaleEmbeddedAudioViewModel">
+             x:DataType="l:UndertaleEmbeddedAudioViewModel" xmlns:strings="clr-namespace:UndertaleModToolAvalonia.Assets" >
     <StackPanel Classes="PaddedProperties">
         <StackPanel Orientation="Horizontal">
-            <TextBlock Text="WAV data, length: " />
+            <TextBlock Text="{x:Static strings:Strings.WAV_data__length}" />
             <TextBlock Text="{Binding EmbeddedAudio.Data.Length}" />
         </StackPanel>
 
         <StackPanel Orientation="Horizontal">
-            <Button Command="{Binding SaveAudio}">Save audio</Button>
+            <Button Command="{Binding SaveAudio}" Content="{x:Static strings:Strings.Save_audio}"></Button>
         </StackPanel>
 
         <!-- TODO: Import and play-->

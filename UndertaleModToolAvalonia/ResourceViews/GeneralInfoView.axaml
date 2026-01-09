@@ -7,45 +7,45 @@
              xmlns:undertalem="clr-namespace:UndertaleModLib.Models;assembly=UndertaleModLib"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="UndertaleModToolAvalonia.GeneralInfoView"
-             x:DataType="l:GeneralInfoViewModel">
+             x:DataType="l:GeneralInfoViewModel" xmlns:strings="clr-namespace:UndertaleModToolAvalonia.Assets" >
     <UserControl.Resources>
         <l:ByteArrayToStringConverter x:Key="ByteArrayToStringConverter" />
         <l:UndertaleColorToColorConverter x:Key="UndertaleColorToColorConverter" />
     </UserControl.Resources>
     <StackPanel Classes="PaddedProperties">
         <StackPanel IsVisible="{Binding GeneralInfo, Converter={x:Static ObjectConverters.IsNotNull}}">
-            <TextBlock FontWeight="Bold" Text="General info"/>
+            <TextBlock FontWeight="Bold" Text="{x:Static strings:Strings.General_info}"/>
             <Separator/>
 
             <Grid l:AutoGridBehavior.Enable="True" ColumnDefinitions="1*,3*">
-                <Label>Disable GMS debugger</Label>
+                <Label Content="{x:Static strings:Strings.Disable_GMS_debugger}"/>
                 <CheckBox IsChecked="{Binding GeneralInfo.IsDebuggerDisabled}"/>
 
-                <Label>Bytecode version</Label>
+                <Label Content="{x:Static strings:Strings.Bytecode_version}"/>
                 <TextBox Text="{Binding GeneralInfo.BytecodeVersion}"/>
 
-                <Label>FileName</Label>
+                <Label Content="{x:Static strings:Strings.FileName}"/>
                 <l:UndertaleStringReferenceView Reference="{Binding GeneralInfo.FileName}"/>
 
-                <Label>Config</Label>
+                <Label Content="{x:Static strings:Strings.Config}"/>
                 <l:UndertaleStringReferenceView Reference="{Binding GeneralInfo.Config}"/>
             
-                <Label>Last object ID</Label>
+                <Label Content="{x:Static strings:Strings.Last_object_ID}"/>
                 <TextBox Text="{Binding GeneralInfo.LastObj}"/>
 
-                <Label>Last tile ID</Label>
+                <Label Content="{x:Static strings:Strings.Last_tile_ID}"/>
                 <TextBox Text="{Binding GeneralInfo.LastTile}"/>
 
-                <Label>Game ID</Label>
+                <Label Content="{x:Static strings:Strings.Game_ID}"/>
                 <TextBox Text="{Binding GeneralInfo.GameID}"/>
 
-                <Label>DirectPlay GUID</Label>
+                <Label Content="{x:Static strings:Strings.DirectPlay_GUID}"/>
                 <TextBox Text="{Binding GeneralInfo.DirectPlayGuid}"/>
 
-                <Label>Name</Label>
+                <Label Content="{x:Static strings:Strings.Name}"/>
                 <l:UndertaleStringReferenceView Reference="{Binding GeneralInfo.Name}"/>
 
-                <Label>Version</Label>
+                <Label Content="{x:Static strings:Strings.Version}"/>
                 <Grid l:AutoGridBehavior.Enable="True" ColumnDefinitions="*,Auto,*,Auto,*,Auto,*">
                     <TextBox Text="{Binding GeneralInfo.Major}"/>
                     <TextBlock Text="."/>
@@ -56,47 +56,47 @@
                     <TextBox Text="{Binding GeneralInfo.Build}"/>
                 </Grid>
 
-                <Label>Default window size</Label>
+                <Label Content="{x:Static strings:Strings.Default_window_size}"/>
                 <Grid l:AutoGridBehavior.Enable="True" ColumnDefinitions="*,Auto,*">
                     <TextBox Text="{Binding GeneralInfo.DefaultWindowWidth}"/>
                     <TextBlock Text="x"/>
                     <TextBox Text="{Binding GeneralInfo.DefaultWindowHeight}"/>
                 </Grid>
 
-                <Label>Flags</Label>
+                <Label Content="{x:Static strings:Strings.Flags}"/>
                 <l:FlagsBoxView Value="{Binding GeneralInfo.Info}" />
 
-                <Label>License MD5</Label>
+                <Label Content="{x:Static strings:Strings.License_MD5}"/>
                 <TextBox Text="{Binding GeneralInfo.LicenseMD5, Converter={StaticResource ByteArrayToStringConverter}}" />
 
                 <!-- TODO: Format it as hex -->
-                <Label>License CRC32</Label>
+                <Label Content="{x:Static strings:Strings.License_CRC32}"/>
                 <TextBox Text="{Binding GeneralInfo.LicenseCRC32}" />
 
                 <!-- TODO: Format it as date -->
-                <Label>Timestamp</Label>
+                <Label Content="{x:Static strings:Strings.Timestamp}"/>
                 <TextBox Text="{Binding GeneralInfo.Timestamp}" />
 
-                <Label>Display name</Label>
+                <Label Content="{x:Static strings:Strings.Display_name}"/>
                 <l:UndertaleStringReferenceView Reference="{Binding GeneralInfo.DisplayName}" />
 
-                <Label>Active targets</Label>
+                <Label Content="{x:Static strings:Strings.Active_targets}"/>
                 <TextBox Text="{Binding GeneralInfo.ActiveTargets}" />
 
-                <Label>Function classifications</Label>
+                <Label Content="{x:Static strings:Strings.Function_classifications}"/>
                 <l:FlagsBoxView Value="{Binding GeneralInfo.FunctionClassifications}" />
 
-                <Label>Steam AppID</Label>
+                <Label Content="{x:Static strings:Strings.Steam_AppID}"/>
                 <TextBox Text="{Binding GeneralInfo.SteamAppID}" />
 
-                <Label>Debugger port</Label>
+                <Label Content="{x:Static strings:Strings.Debugger_port}"/>
                 <TextBox Text="{Binding GeneralInfo.DebuggerPort}" />
 
-                <Label>Room order</Label>
-                <Expander Header="Rooms">
+                <Label Content="{x:Static strings:Strings.Room_order}"/>
+                <Expander Header="{x:Static strings:Strings.Rooms}">
                     <l:EditableDataGrid ItemsSource="{Binding GeneralInfo.RoomOrder}" ItemFactory="{Binding CreateRoomOrderItem}" HeadersVisibility="None">
                         <l:EditableDataGrid.Columns>
-                            <DataGridTemplateColumn Header="Room" Width="1*">
+                            <DataGridTemplateColumn Header="{x:Static strings:Strings.Room}" Width="1*">
                                 <DataGridTemplateColumn.CellTemplate>
                                     <DataTemplate>
                                         <DataTemplate.DataType>
@@ -111,77 +111,77 @@
                 </Expander>
 
                 <!-- TODO: Make the following only visible if GMS2 -->
-                <Label>FPS</Label>
+                <Label Content="{x:Static strings:Strings.FPS}"/>
                 <TextBox Text="{Binding GeneralInfo.GMS2FPS}" />
 
-                <Label>Allow statistics</Label>
+                <Label Content="{x:Static strings:Strings.Allow_statistics}"/>
                 <CheckBox IsChecked="{Binding GeneralInfo.GMS2AllowStatistics}"/>
 
                 <!-- TODO: Convert to GUID -->
-                <Label>Game GUID</Label>
+                <Label Content="{x:Static strings:Strings.Game_GUID}"/>
                 <TextBox Text="{Binding GeneralInfo.GMS2GameGUID, Converter={StaticResource ByteArrayToStringConverter}}" />
             </Grid>
         </StackPanel>
 
         <StackPanel IsVisible="{Binding Options, Converter={x:Static ObjectConverters.IsNotNull}}">
-            <TextBlock FontWeight="Bold" Text="Options"/>
+            <TextBlock FontWeight="Bold" Text="{x:Static strings:Strings.Options}"/>
             <Separator/>
 
             <Grid l:AutoGridBehavior.Enable="True" ColumnDefinitions="1*,3*">
-                <Label>Shader extension flag</Label>
+                <Label Content="{x:Static strings:Strings.Shader_extension_flag}"/>
                 <TextBox Text="{Binding Options.ShaderExtensionFlag}"/>
 
-                <Label>Shader extension version</Label>
+                <Label Content="{x:Static strings:Strings.Shader_extension_version}"/>
                 <TextBox Text="{Binding Options.ShaderExtensionVersion}"/>
 
-                <Label>Flags</Label>
+                <Label Content="{x:Static strings:Strings.Flags}"/>
                 <l:FlagsBoxView Value="{Binding Options.Info}"/>
 
-                <Label>Scale</Label>
+                <Label Content="{x:Static strings:Strings.Scale}"/>
                 <TextBox Text="{Binding Options.Scale}"/>
 
-                <Label>Window color</Label>
+                <Label Content="{x:Static strings:Strings.Window_color}"/>
                 <ColorPicker Color="{Binding Options.WindowColor, Converter={StaticResource UndertaleColorToColorConverter}}" />
 
-                <Label>Color depth</Label>
+                <Label Content="{x:Static strings:Strings.Color_depth}"/>
                 <TextBox Text="{Binding Options.ColorDepth}"/>
 
-                <Label>Resolution</Label>
+                <Label Content="{x:Static strings:Strings.Resolution}"/>
                 <TextBox Text="{Binding Options.Resolution}"/>
 
-                <Label>Frequency</Label>
+                <Label Content="{x:Static strings:Strings.Frequency}"/>
                 <TextBox Text="{Binding Options.Frequency}"/>
 
-                <Label>Vertex sync</Label>
+                <Label Content="{x:Static strings:Strings.Vertex_sync}"/>
                 <TextBox Text="{Binding Options.VertexSync}"/>
 
-                <Label>Priority</Label>
+                <Label Content="{x:Static strings:Strings.Priority}"></Label>
                 <TextBox Text="{Binding Options.Priority}"/>
 
-                <Label>Back image</Label>
+                <Label Content="{x:Static strings:Strings.Back_image}"></Label>
                 <l:UndertaleResourceReferenceView Reference="{Binding Options.BackImage.Texture}" ReferenceType="{x:Type undertalem:UndertaleTexturePageItem}" />
 
-                <Label>Front image</Label>
+                <Label Content="{x:Static strings:Strings.Front_image}"></Label>
                 <l:UndertaleResourceReferenceView Reference="{Binding Options.FrontImage.Texture}" ReferenceType="{x:Type undertalem:UndertaleTexturePageItem}" />
 
-                <Label>Load image</Label>
+                <Label Content="{x:Static strings:Strings.Load_image}"></Label>
                 <l:UndertaleResourceReferenceView Reference="{Binding Options.LoadImage.Texture}" ReferenceType="{x:Type undertalem:UndertaleTexturePageItem}" />
 
-                <Label>Load alpha</Label>
+                <Label Content="{x:Static strings:Strings.Load_alpha}"></Label>
                 <TextBox Text="{Binding Options.LoadAlpha}" />
 
-                <Label>Constants</Label>
-                <Expander Header="Constants">
+                <Label Content="{x:Static strings:Strings.Constants}"></Label>
+                <Expander Header="{x:Static strings:Strings.Constants}">
                     <l:EditableDataGrid ItemsSource="{Binding Options.Constants}" ItemFactory="{Binding CreateConstant}">
                         <l:EditableDataGrid.Columns>
-                            <DataGridTemplateColumn Header="Name" Width="1*">
+                            <DataGridTemplateColumn Header="{x:Static strings:Strings.Name}" Width="1*">
                                 <DataGridTemplateColumn.CellTemplate>
                                     <DataTemplate DataType="{x:Type undertalem:UndertaleOptions+Constant}">
                                         <l:UndertaleStringReferenceView Reference="{Binding Name}" />
                                     </DataTemplate>
                                 </DataGridTemplateColumn.CellTemplate>
                             </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Value" Width="1*">
+                            <DataGridTemplateColumn Header="{x:Static strings:Strings.Value}" Width="1*">
                                 <DataGridTemplateColumn.CellTemplate>
                                     <DataTemplate DataType="{x:Type undertalem:UndertaleOptions+Constant}">
                                         <l:UndertaleStringReferenceView Reference="{Binding Value}" />
@@ -195,17 +195,17 @@
         </StackPanel>
 
         <StackPanel IsVisible="{Binding Language, Converter={x:Static ObjectConverters.IsNotNull}}">
-            <TextBlock FontWeight="Bold" Text="Language"/>
+            <TextBlock FontWeight="Bold" Text="{x:Static strings:Strings.Language}"/>
             <Separator/>
 
             <Grid l:AutoGridBehavior.Enable="True" ColumnDefinitions="1*,3*">
-                <Label>Unknown</Label>
+                <Label Content="{x:Static strings:Strings.Unknown}"></Label>
                 <TextBox Text="{Binding Language.Unknown1}"/>
                 
-                <Label>Language count</Label>
+                <Label Content="{x:Static strings:Strings.Language_count}"></Label>
                 <TextBox Text="{Binding Language.LanguageCount}"/>
                 
-                <Label>Entry count</Label>
+                <Label Content="{x:Static strings:Strings.Entry_count}"></Label>
                 <TextBox Text="{Binding Language.EntryCount}"/>
                 
                 <!-- TODO: Language editor -->
