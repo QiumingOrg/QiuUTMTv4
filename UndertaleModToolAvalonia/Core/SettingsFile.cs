@@ -28,6 +28,39 @@ public partial class SettingsFile
         MainVM = serviceProvider.GetRequiredService<MainViewModel>();
     }
 
+    public static SettingsFile LoadWithoutMainVM()
+    {
+
+        SettingsFile? settings = null;
+
+        string roamingAppData =
+            Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "QiuUTMTv4");
+
+        // Load Settings.json
+        string settingsPath = Path.Join(roamingAppData, "Settings.json");
+
+        if (File.Exists(settingsPath))
+        {
+            try
+            {
+                string json = File.ReadAllText(settingsPath);
+                settings = JsonSerializer.Deserialize<SettingsFile>(json, new JsonSerializerOptions()
+                {
+                    AllowTrailingCommas = true,
+                });
+
+                if (settings is not null)
+                {
+                    settings.Version = Assembly.GetExecutingAssembly().GetName().Version?.ToString() ?? "?.?.?.?";
+                }
+            }
+            catch (Exception e)
+            {}
+        }
+
+        return settings;
+    }
+
     public static SettingsFile Load(IServiceProvider serviceProvider)
     {
         MainViewModel mainVM = serviceProvider.GetRequiredService<MainViewModel>();
@@ -150,17 +183,23 @@ public partial class SettingsFile
     {
         if (App.Current is not null)
         {
-            CultureInfo culture = Language switch
-            {
-                LanguageValue.AutoDetect => Thread.CurrentThread.CurrentCulture,
-                LanguageValue.Zh => new CultureInfo("zh-CN", false),
-                LanguageValue.En => new CultureInfo("en", false),
-                _ => throw new NotImplementedException(),
-            };
+            CultureInfo culture = getCultureInfoFromSetting();
             Thread.CurrentThread.CurrentUICulture = Assets.Strings.Culture = culture;
             SemiTheme.OverrideLocaleResources(Application.Current, culture);
             //Console.WriteLine(culture);
+            Save();
         }
+    }
+
+    public CultureInfo getCultureInfoFromSetting()
+    {
+        return Language switch
+        {
+            LanguageValue.AutoDetect => Thread.CurrentThread.CurrentCulture,
+            LanguageValue.Zh => new CultureInfo("zh-CN", false),
+            LanguageValue.En => new CultureInfo("en", false),
+            _ => Thread.CurrentThread.CurrentCulture,
+        };
     }
 
     public bool OpenNewResourceAfterCreatingIt { get; set; } = false;
