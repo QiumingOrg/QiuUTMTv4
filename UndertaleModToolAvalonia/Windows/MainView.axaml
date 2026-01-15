@@ -18,18 +18,18 @@
 
     <UserControl.Resources>
         <ContextMenu x:Key="ListMenu">
-            <MenuItem Header="添加" Click="ContextMenu_Add_Click" />
+            <MenuItem Header="{x:Static assets:Strings.Add}" Click="ContextMenu_Add_Click" />
         </ContextMenu>
         <ContextMenu x:Key="SingleMenu">
-            <MenuItem Header="打开" Click="ContextMenu_Open_Click" />
-            <MenuItem Header="在新标签页打开" Click="ContextMenu_OpenInNewTab_Click" />
+            <MenuItem Header="{x:Static assets:Strings.Open}" Click="ContextMenu_Open_Click" />
+            <MenuItem Header="{x:Static assets:Strings.Open_in_new_tab}" Click="ContextMenu_OpenInNewTab_Click" />
         </ContextMenu>
         <ContextMenu x:Key="ResourceMenu">
-            <MenuItem Header="打开" Click="ContextMenu_Open_Click" />
-            <MenuItem Header="在新标签页打开" Click="ContextMenu_OpenInNewTab_Click" />
-            <MenuItem Header="复制名称" Click="ContextMenu_CopyName_Click" />
-            <MenuItem Header="交换位置" Click="ContextMenu_Move_Click" />
-            <MenuItem Header="移除" Click="ContextMenu_Remove_Click" />
+            <MenuItem Header="{x:Static assets:Strings.Open}" Click="ContextMenu_Open_Click" />
+            <MenuItem Header="{x:Static assets:Strings.Open_in_new_tab}" Click="ContextMenu_OpenInNewTab_Click" />
+            <MenuItem Header="{x:Static assets:Strings.Copy_name}" Click="ContextMenu_CopyName_Click" />
+            <MenuItem Header="{x:Static assets:Strings.Swap_position}" Click="ContextMenu_Move_Click" />
+            <MenuItem Header="{x:Static assets:Strings.Remove}" Click="ContextMenu_Remove_Click" />
         </ContextMenu>
         <l:DataItemToNameConverter x:Key="DataItemToNameConverter" />
         <l:TreeDataGridItemToContextMenuConverter x:Key="TreeDataGridItemToContextMenuConverter"

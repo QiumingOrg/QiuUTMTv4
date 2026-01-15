@@ -849,4 +849,37 @@
   <data name="Welcome_to_Qiumen_s_special_version" xml:space="preserve">
     <value>欢迎使用秋冥特制版本的Undertale Mod Tool！\n\n本项目基于很多项目开发，具体请查看关于界面和源代码\n\n哔哩哔哩:@秋冥散雨_GenOuka</value>
   </data>
+  <data name="Add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="Copy_name" xml:space="preserve">
+    <value>复制名称</value>
+  </data>
+  <data name="Swap_position" xml:space="preserve">
+    <value>交换位置</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="Saving" xml:space="preserve">
+    <value>保存数据文件中...</value>
+  </data>
+  <data name="Save_before_creating" xml:space="preserve">
+    <value>创建新的文件前要先保存吗?</value>
+  </data>
+  <data name="Save_before_opening" xml:space="preserve">
+    <value>打开新的文件前要先保存吗?</value>
+  </data>
+  <data name="Save_datafile" xml:space="preserve">
+    <value>保存文件</value>
+  </data>
+  <data name="Save_before_closing" xml:space="preserve">
+    <value>关闭文件前要保存吗?</value>
+  </data>
+  <data name="Run_Script" xml:space="preserve">
+    <value>运行脚本</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>关于</value>
+  </data>
 </root>

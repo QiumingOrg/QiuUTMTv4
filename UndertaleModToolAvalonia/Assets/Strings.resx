@@ -1057,4 +1057,48 @@
     <value>Welcome to Qiuming's special version of Undertale Mod Tool !\n\n This project is developed based on many projects. Please refer to the about interface and source code for details.  Bilibili:@秋冥散雨_GenOuka</value>
     <comment>Used in UndertaleModToolAvalonia\Windows\MainViewModel.cs document</comment>
   </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Copy_name" xml:space="preserve">
+    <value>Copy name</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Swap_position" xml:space="preserve">
+    <value>Swap position</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Saving" xml:space="preserve">
+    <value>Saving...</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainViewModel.cs document</comment>
+  </data>
+  <data name="Save_before_creating" xml:space="preserve">
+    <value>Save before creating?</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainViewModel.cs document</comment>
+  </data>
+  <data name="Save_before_opening" xml:space="preserve">
+    <value>Save before opening?</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainViewModel.cs document</comment>
+  </data>
+  <data name="Save_datafile" xml:space="preserve">
+    <value>Save datafile</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainViewModel.cs document</comment>
+  </data>
+  <data name="Save_before_closing" xml:space="preserve">
+    <value>Save before closing?</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainViewModel.cs document</comment>
+  </data>
+  <data name="Run_Script" xml:space="preserve">
+    <value>Run Script</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainViewModel.cs document</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainViewModel.cs document</comment>
+  </data>
 </root>

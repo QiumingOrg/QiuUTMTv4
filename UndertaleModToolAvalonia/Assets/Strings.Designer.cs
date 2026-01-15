@@ -97,6 +97,15 @@ namespace UndertaleModToolAvalonia.Assets {
         }
         
         /// <summary>
+        ///   查找类似 Add 的本地化字符串。
+        /// </summary>
+        public static string Add {
+            get {
+                return ResourceManager.GetString("Add", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Add empty lines: 的本地化字符串。
         /// </summary>
         public static string Add_empty_lines {
@@ -426,6 +435,15 @@ namespace UndertaleModToolAvalonia.Assets {
         public static string Content {
             get {
                 return ResourceManager.GetString("Content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Copy name 的本地化字符串。
+        /// </summary>
+        public static string Copy_name {
+            get {
+                return ResourceManager.GetString("Copy_name", resourceCulture);
             }
         }
         
@@ -1519,6 +1537,15 @@ namespace UndertaleModToolAvalonia.Assets {
         }
         
         /// <summary>
+        ///   查找类似 Remove 的本地化字符串。
+        /// </summary>
+        public static string Remove {
+            get {
+                return ResourceManager.GetString("Remove", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Remove block braces if single line 的本地化字符串。
         /// </summary>
         public static string Remove_block_braces_if_single_line {
@@ -1573,11 +1600,56 @@ namespace UndertaleModToolAvalonia.Assets {
         }
         
         /// <summary>
+        ///   查找类似 Run Script 的本地化字符串。
+        /// </summary>
+        public static string Run_Script {
+            get {
+                return ResourceManager.GetString("Run_Script", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Save audio 的本地化字符串。
         /// </summary>
         public static string Save_audio {
             get {
                 return ResourceManager.GetString("Save_audio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Save before closing? 的本地化字符串。
+        /// </summary>
+        public static string Save_before_closing {
+            get {
+                return ResourceManager.GetString("Save_before_closing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Save before creating? 的本地化字符串。
+        /// </summary>
+        public static string Save_before_creating {
+            get {
+                return ResourceManager.GetString("Save_before_creating", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Save before opening? 的本地化字符串。
+        /// </summary>
+        public static string Save_before_opening {
+            get {
+                return ResourceManager.GetString("Save_before_opening", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Save datafile 的本地化字符串。
+        /// </summary>
+        public static string Save_datafile {
+            get {
+                return ResourceManager.GetString("Save_datafile", resourceCulture);
             }
         }
         
@@ -1596,6 +1668,15 @@ namespace UndertaleModToolAvalonia.Assets {
         public static string SaveFileText {
             get {
                 return ResourceManager.GetString("SaveFileText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Saving... 的本地化字符串。
+        /// </summary>
+        public static string Saving {
+            get {
+                return ResourceManager.GetString("Saving", resourceCulture);
             }
         }
         
@@ -1839,6 +1920,15 @@ namespace UndertaleModToolAvalonia.Assets {
         public static string SVersion {
             get {
                 return ResourceManager.GetString("SVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Swap position 的本地化字符串。
+        /// </summary>
+        public static string Swap_position {
+            get {
+                return ResourceManager.GetString("Swap_position", resourceCulture);
             }
         }
         
