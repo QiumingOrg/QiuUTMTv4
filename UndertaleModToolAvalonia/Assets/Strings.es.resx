@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,250 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="FileText" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="NewFileText" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="OpenFileText" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="SaveFileText" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="CloseFileText" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="SettingsText" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="SettingsHeading" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="QuitText" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="ToolText" xml:space="preserve">
+    <value>Herramienta</value>
+  </data>
+  <data name="SearchCodeText" xml:space="preserve">
+    <value>Buscar Código</value>
+  </data>
+  <data name="ScriptText" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="InnerScriptText" xml:space="preserve">
+    <value>Script Interno</value>
+  </data>
+  <data name="ChooseScriptToRunText" xml:space="preserve">
+    <value>Selecciona un script para ejecutar…</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="DonateText" xml:space="preserve">
+    <value>Donar</value>
+  </data>
+  <data name="QQGroupText" xml:space="preserve">
+    <value>Grupo QQ…</value>
+  </data>
+  <data name="BilibiliText" xml:space="preserve">
+    <value>Bilibili…</value>
+  </data>
+  <data name="AboutText" xml:space="preserve">
+    <value>Acerca</value>
+  </data>
+  <data name="GithubText" xml:space="preserve">
+    <value>Github…</value>
+  </data>
+  <data name="FilterByCodeText" xml:space="preserve">
+    <value>Filtrar por nombre…</value>
+  </data>
+  <data name="CloseTabText" xml:space="preserve">
+    <value>Cerrar Pestaña</value>
+  </data>
+  <data name="GeneralInfoTabHeading" xml:space="preserve">
+    <value>Info General</value>
+  </data>
+  <data name="GlobalInitScriptsHeading" xml:space="preserve">
+    <value>Scripts Global Init</value>
+  </data>
+  <data name="GameEndScriptsHeading" xml:space="preserve">
+    <value>Scripts Game End</value>
+  </data>
+  <data name="SearchInCodeHeading" xml:space="preserve">
+    <value>Buscar En Código</value>
+  </data>
+  <data name="UndertaleAudioGroupViewModelHeading" xml:space="preserve">
+    <value>Grupo de audio - {0}</value>
+  </data>
+  <data name="UndertaleSoundViewModelHeading" xml:space="preserve">
+    <value>Sonido - {0}</value>
+  </data>
+  <data name="UndertaleSpriteViewModelHeading" xml:space="preserve">
+    <value>Sprite - {0}</value>
+  </data>
+  <data name="UndertaleBackgroundViewModelHeading" xml:space="preserve">
+    <value>Fondo - {0}</value>
+  </data>
+  <data name="UndertalePathViewModelHeading" xml:space="preserve">
+    <value>Ruta - {0}</value>
+  </data>
+  <data name="UndertaleScriptViewModelHeading" xml:space="preserve">
+    <value>Script - {0}</value>
+  </data>
+  <data name="UndertaleShaderViewModelHeading" xml:space="preserve">
+    <value>Shader - {0}</value>
+  </data>
+  <data name="UndertaleFontViewModelHeading" xml:space="preserve">
+    <value>Fuente - {0}</value>
+  </data>
+  <data name="UndertaleTimelineViewModelHeading" xml:space="preserve">
+    <value>Línea temporal - {0}</value>
+  </data>
+  <data name="Game_object____0" xml:space="preserve">
+    <value>Objeto - {0}</value>
+  </data>
+  <data name="Room____0" xml:space="preserve">
+    <value>Sala - {0}</value>
+  </data>
+  <data name="Extension____0" xml:space="preserve">
+    <value>Extensión - {0}</value>
+  </data>
+  <data name="Texture_page_item____0" xml:space="preserve">
+    <value>Elemento de la página de textura - {0}</value>
+  </data>
+  <data name="Code____0" xml:space="preserve">
+    <value>Código - {0}</value>
+  </data>
+  <data name="Variable____0" xml:space="preserve">
+    <value>Variable - {0}</value>
+  </data>
+  <data name="Function____0" xml:space="preserve">
+    <value>Función - {0}</value>
+  </data>
+  <data name="Code_locals____0" xml:space="preserve">
+    <value>Códigos locales - {0}</value>
+  </data>
+  <data name="String____0" xml:space="preserve">
+    <value>Cadena - {0}</value>
+  </data>
+  <data name="Embedded_texture____0" xml:space="preserve">
+    <value>Textura incrustada - {0}</value>
+  </data>
+  <data name="Embedded_audio____0" xml:space="preserve">
+    <value>Audio incrustado - {0}</value>
+  </data>
+  <data name="Texture_group_information____0" xml:space="preserve">
+    <value>Información del grupo de textura - {0}</value>
+  </data>
+  <data name="Embedded_image____0" xml:space="preserve">
+    <value>Imagen incrustada - {0}</value>
+  </data>
+  <data name="Particle_system____0" xml:space="preserve">
+    <value>Sistema de particulas - {0}</value>
+  </data>
+  <data name="Particle_system_emitter____0" xml:space="preserve">
+    <value>Emisor del sistema de particulas - {0}</value>
+  </data>
+  <data name="Donate" xml:space="preserve">
+    <value>Donar</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Language__Restart_to_apply" xml:space="preserve">
+    <value>🌏Idioma (Reinicia para aplicar)</value>
+  </data>
+  <data name="Auto_Detect" xml:space="preserve">
+    <value>Auto Detectar</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>Chino</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Inglés</value>
+  </data>
+  <data name="User_Interface" xml:space="preserve">
+    <value>Interfaz Del Usuario</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Tema:</value>
+  </data>
+  <data name="Follow_System" xml:space="preserve">
+    <value>Seguir el Sistema</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>Claro</value>
+  </data>
+  <data name="Dark" xml:space="preserve">
+    <value>Oscuro</value>
+  </data>
+  <data name="OpenNewResourceAfterCreatingIt" xml:space="preserve">
+    <value>Abrir recurso nuevo después de crear</value>
+  </data>
+  <data name="Enable_syntax_highlighting" xml:space="preserve">
+    <value>Activar resaltado de sintaxis</value>
+  </data>
+  <data name="Automatically_compile_and_decompile" xml:space="preserve">
+    <value>Compilar y decompilar código automáticamente en el enfoque perdido</value>
+  </data>
+  <data name="EnableRoomGridByDefault" xml:space="preserve">
+    <value>Activar la cuadrícula de la sala por predeterminado</value>
+  </data>
+  <data name="DefaultRoomGridSize" xml:space="preserve">
+    <value>Tamaño de la sala de cuadrícula predeterminada</value>
+  </data>
+  <data name="Script_Execution" xml:space="preserve">
+    <value>Ejecución de Script</value>
+  </data>
+  <data name="Use_QiuUTMTv3_Script_Engine_to_execute" xml:space="preserve">
+    <value>Usa el QiuUTMTv3 Script Engine para ejecutar scripts (recomendado, solo funciona en Android)</value>
+  </data>
+  <data name="Use_CSS_hex_color_literals" xml:space="preserve">
+    <value>Usar colores literales hex CSS</value>
+  </data>
+  <data name="Always_use_semicolons" xml:space="preserve">
+    <value>Siempre usar punto y coma</value>
+  </data>
+  <data name="Open_block_braces_on_same_line" xml:space="preserve">
+    <value>Llaves abiertas en la misma línea</value>
+  </data>
+  <data name="Create_enum_declarations" xml:space="preserve">
+    <value>Crear declaraciones enum</value>
+  </data>
+  <data name="Print_warnings" xml:space="preserve">
+    <value>Advertencias impresas</value>
+  </data>
+  <data name="Named_instance_ID_prefix" xml:space="preserve">
+    <value>Prefijo del ID de instancia nombrada:</value>
+  </data>
+  <data name="If_enabled__color_constants_can_be" xml:space="preserve">
+    <value>Si se activa, constantes de color pueden ser formateados en el formato hex #RRGGBB.</value>
+  </data>
+  <data name="If_enabled__all_statements_that_can" xml:space="preserve">
+    <value>Si se activa, todas las sentencias que tienen puntos y coma despues de ellos, los permitan.</value>
+  </data>
+  <data name="If_enabled__the_curly_braces_used" xml:space="preserve">
+    <value>Si se activa, las llaves de apertura que se usaron para abrir un bloque se colocarán en la misma línea que la sentencia a la que pertenecen, en lugar de colocar la apertura en su propia línea.</value>
+  </data>
+  <data name="If_enabled__enum_declarations_identified" xml:space="preserve">
+    <value>Si se activa, declaraciones enum identificadas durante decompilación siempre van a imprimirse en la salida decompilada.</value>
+  </data>
+  <data name="If_enabled__warnings_generated_during" xml:space="preserve">
+    <value>Si se activa, advertencias generadas durante decompilación van a estar impresas como comentarios.</value>
+  </data>
+  <data name="Prefix_used_for_named_instance_IDs" xml:space="preserve">
+    <value>Prefijo usado para las ID de instancias nombrada cuando se encuentran en el decompilador, y para compilación. Cambia este valor si entra en conflicto con nombres de variables.</value>
+  </data>
 </root>
