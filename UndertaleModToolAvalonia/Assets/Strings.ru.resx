@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,205 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="FileText" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="QuitText" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="SearchCodeText" xml:space="preserve">
+    <value>Поиск в коде</value>
+  </data>
+  <data name="BilibiliText" xml:space="preserve">
+    <value>Bilibili…</value>
+  </data>
+  <data name="UndertaleShaderViewModelHeading" xml:space="preserve">
+    <value>Шейдер - {0}</value>
+  </data>
+  <data name="UndertaleFontViewModelHeading" xml:space="preserve">
+    <value>Шрифт - {0}</value>
+  </data>
+  <data name="Code____0" xml:space="preserve">
+    <value>Код - {0}</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="SettingsText" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="SettingsHeading" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Code_Editor" xml:space="preserve">
+    <value>Редактор Кода</value>
+  </data>
+  <data name="Save_before_closing" xml:space="preserve">
+    <value>Сохранить перед закрытием?</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="Sprite" xml:space="preserve">
+    <value>Спрайт</value>
+  </data>
+  <data name="Sprites" xml:space="preserve">
+    <value>Спрайты</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Copy_name" xml:space="preserve">
+    <value>Скопировать имя</value>
+  </data>
+  <data name="SVersion" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="SType" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>Шаг</value>
+  </data>
+  <data name="Save_audio" xml:space="preserve">
+    <value>Сохранить аудио</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="CloseFileText" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="ToolText" xml:space="preserve">
+    <value>Инструмент</value>
+  </data>
+  <data name="NewFileText" xml:space="preserve">
+    <value>Новый</value>
+  </data>
+  <data name="OpenFileText" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="SaveFileText" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="Open_in_new_tab" xml:space="preserve">
+    <value>Открыть в новой вкладке</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Позиция</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Путь</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="Constants" xml:space="preserve">
+    <value>Постоянные</value>
+  </data>
+  <data name="Window_color" xml:space="preserve">
+    <value>Цвет окна</value>
+  </data>
+  <data name="ScriptText" xml:space="preserve">
+    <value>Скрипт</value>
+  </data>
+  <data name="CloseTabText" xml:space="preserve">
+    <value>Закрыть вкладку</value>
+  </data>
+  <data name="UndertaleSoundViewModelHeading" xml:space="preserve">
+    <value>Звук - {0}</value>
+  </data>
+  <data name="UndertaleSpriteViewModelHeading" xml:space="preserve">
+    <value>Спрайт - {0}</value>
+  </data>
+  <data name="UndertaleBackgroundViewModelHeading" xml:space="preserve">
+    <value>Фон - {0}</value>
+  </data>
+  <data name="UndertalePathViewModelHeading" xml:space="preserve">
+    <value>Путь - {0}</value>
+  </data>
+  <data name="UndertaleScriptViewModelHeading" xml:space="preserve">
+    <value>Скрипт - {0}</value>
+  </data>
+  <data name="Room____0" xml:space="preserve">
+    <value>Комната - {0}</value>
+  </data>
+  <data name="SearchInCodeHeading" xml:space="preserve">
+    <value>Поиск в Коде</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Thank_you_for_donation" xml:space="preserve">
+    <value>Спасибо за пожертвование!</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="Rooms" xml:space="preserve">
+    <value>Комнаты</value>
+  </data>
+  <data name="Room" xml:space="preserve">
+    <value>Комната</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Опции</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="Save_before_opening" xml:space="preserve">
+    <value>Сохранить перед открытием?</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Fonts" xml:space="preserve">
+    <value>Шрифты</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="Playback_speed" xml:space="preserve">
+    <value>Скорость воспроизведения</value>
+  </data>
+  <data name="Textures" xml:space="preserve">
+    <value>Текстуры</value>
+  </data>
+  <data name="Group_name" xml:space="preserve">
+    <value>Имя группы</value>
+  </data>
+  <data name="Size_W_H" xml:space="preserve">
+    <value>Ширина/Высота</value>
+  </data>
+  <data name="Save_image" xml:space="preserve">
+    <value>Сохранить изображение</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="Texture" xml:space="preserve">
+    <value>Текстура</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="Load_image" xml:space="preserve">
+    <value>Загрузить изображение</value>
+  </data>
 </root>
