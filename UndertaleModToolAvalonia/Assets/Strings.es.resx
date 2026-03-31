@@ -304,4 +304,7 @@
   <data name="Prefix_used_for_named_instance_IDs" xml:space="preserve">
     <value>Prefijo usado para las ID de instancias nombrada cuando se encuentran en el decompilador, y para compilación. Cambia este valor si entra en conflicto con nombres de variables.</value>
   </data>
+  <data name="TitleText" xml:space="preserve">
+    <value>QiuUTMTv4 - Qiu</value>
+  </data>
 </root>
