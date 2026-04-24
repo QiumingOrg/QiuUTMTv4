@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,775 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="TitleText" xml:space="preserve">
+    <value>QiuUTMTv4 - Qiuming</value>
+  </data>
+  <data name="FileText" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="NewFileText" xml:space="preserve">
+    <value>Baru</value>
+  </data>
+  <data name="OpenFileText" xml:space="preserve">
+    <value>Buka</value>
+  </data>
+  <data name="SaveFileText" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="CloseFileText" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="SettingsText" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="SettingsHeading" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="QuitText" xml:space="preserve">
+    <value>Keluar</value>
+  </data>
+  <data name="ToolText" xml:space="preserve">
+    <value>Alat</value>
+  </data>
+  <data name="SearchCodeText" xml:space="preserve">
+    <value>Cari Kode</value>
+  </data>
+  <data name="ScriptText" xml:space="preserve">
+    <value>Skrip</value>
+  </data>
+  <data name="InnerScriptText" xml:space="preserve">
+    <value>Skrip Dalam</value>
+  </data>
+  <data name="ChooseScriptToRunText" xml:space="preserve">
+    <value>Pilih skrip yang akan dijalankan…</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>Bantuan</value>
+  </data>
+  <data name="DonateText" xml:space="preserve">
+    <value>Donasi</value>
+  </data>
+  <data name="QQGroupText" xml:space="preserve">
+    <value>Grup QQ…</value>
+  </data>
+  <data name="BilibiliText" xml:space="preserve">
+    <value>Bilibili…</value>
+  </data>
+  <data name="AboutText" xml:space="preserve">
+    <value>Tentang</value>
+  </data>
+  <data name="GithubText" xml:space="preserve">
+    <value>Github…</value>
+  </data>
+  <data name="FilterByCodeText" xml:space="preserve">
+    <value>Urutkan dari nama…</value>
+  </data>
+  <data name="CloseTabText" xml:space="preserve">
+    <value>Tutup Tab</value>
+  </data>
+  <data name="GeneralInfoTabHeading" xml:space="preserve">
+    <value>Informasi Umum</value>
+  </data>
+  <data name="GlobalInitScriptsHeading" xml:space="preserve">
+    <value>Skrip Inisialisasi Global</value>
+  </data>
+  <data name="GameEndScriptsHeading" xml:space="preserve">
+    <value>Skrip Akhir Game</value>
+  </data>
+  <data name="SearchInCodeHeading" xml:space="preserve">
+    <value>Cari di Kode</value>
+  </data>
+  <data name="UndertaleAudioGroupViewModelHeading" xml:space="preserve">
+    <value>Grup audio - {0}</value>
+  </data>
+  <data name="UndertaleSoundViewModelHeading" xml:space="preserve">
+    <value>Suara - {0}</value>
+  </data>
+  <data name="UndertaleSpriteViewModelHeading" xml:space="preserve">
+    <value>Sprite - {0}</value>
+  </data>
+  <data name="UndertaleBackgroundViewModelHeading" xml:space="preserve">
+    <value>Latar belakang - {0}</value>
+  </data>
+  <data name="UndertalePathViewModelHeading" xml:space="preserve">
+    <value>Jalur - {0}</value>
+  </data>
+  <data name="UndertaleScriptViewModelHeading" xml:space="preserve">
+    <value>Skrip - {0}</value>
+  </data>
+  <data name="UndertaleShaderViewModelHeading" xml:space="preserve">
+    <value>Shader - {0}</value>
+  </data>
+  <data name="UndertaleFontViewModelHeading" xml:space="preserve">
+    <value>Gaya - {0}</value>
+  </data>
+  <data name="UndertaleTimelineViewModelHeading" xml:space="preserve">
+    <value>Garis waktu - {0}</value>
+  </data>
+  <data name="Game_object____0" xml:space="preserve">
+    <value>Objek game - {0}</value>
+  </data>
+  <data name="Room____0" xml:space="preserve">
+    <value>Ruangan - {0}</value>
+  </data>
+  <data name="Extension____0" xml:space="preserve">
+    <value>Ekstensi - {0}</value>
+  </data>
+  <data name="Texture_page_item____0" xml:space="preserve">
+    <value>Item halaman tekstur - {0}</value>
+  </data>
+  <data name="Code____0" xml:space="preserve">
+    <value>Kode - {0}</value>
+  </data>
+  <data name="Variable____0" xml:space="preserve">
+    <value>Variabel - {0}</value>
+  </data>
+  <data name="Function____0" xml:space="preserve">
+    <value>Fungsi - {0}</value>
+  </data>
+  <data name="Code_locals____0" xml:space="preserve">
+    <value>Kode lokal - {0}</value>
+  </data>
+  <data name="String____0" xml:space="preserve">
+    <value>String - {0}</value>
+  </data>
+  <data name="Embedded_texture____0" xml:space="preserve">
+    <value>Tekstur tertanam - {0}</value>
+  </data>
+  <data name="Embedded_audio____0" xml:space="preserve">
+    <value>Audio tertanam - {0}</value>
+  </data>
+  <data name="Texture_group_information____0" xml:space="preserve">
+    <value>Informasi grup tekstur - {0}</value>
+  </data>
+  <data name="Embedded_image____0" xml:space="preserve">
+    <value>Gambar tertanam - {0}</value>
+  </data>
+  <data name="Particle_system____0" xml:space="preserve">
+    <value>Sistem partikel - {0}</value>
+  </data>
+  <data name="Particle_system_emitter____0" xml:space="preserve">
+    <value>Pemancar sistem partikel - {0}</value>
+  </data>
+  <data name="Donate" xml:space="preserve">
+    <value>Donasi</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Oke</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ya</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Tidak</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="Language__Restart_to_apply" xml:space="preserve">
+    <value>🌏Bahasa (Mulai ulang untuk menerapkan)</value>
+  </data>
+  <data name="Auto_Detect" xml:space="preserve">
+    <value>Deteksi otomatis</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>China</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Inggris</value>
+  </data>
+  <data name="User_Interface" xml:space="preserve">
+    <value>Antarmuka Pengguna</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Tema:</value>
+  </data>
+  <data name="Follow_System" xml:space="preserve">
+    <value>Ikuti Sistem</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>Terang</value>
+  </data>
+  <data name="Dark" xml:space="preserve">
+    <value>Gelap</value>
+  </data>
+  <data name="OpenNewResourceAfterCreatingIt" xml:space="preserve">
+    <value>Buka resource baru setelah membuatnya</value>
+  </data>
+  <data name="Enable_syntax_highlighting" xml:space="preserve">
+    <value>Aktifkan penyorotan sintaks</value>
+  </data>
+  <data name="Automatically_compile_and_decompile" xml:space="preserve">
+    <value>Otomatis mengkompilasi dan mendekompilasi kode saat kehilangan fokus.</value>
+  </data>
+  <data name="EnableRoomGridByDefault" xml:space="preserve">
+    <value>Aktifkan grid ruangan secara default.</value>
+  </data>
+  <data name="DefaultRoomGridSize" xml:space="preserve">
+    <value>Ukuran grid ruangan default</value>
+  </data>
+  <data name="Script_Execution" xml:space="preserve">
+    <value>Eksekusi Skrip</value>
+  </data>
+  <data name="Use_QiuUTMTv3_Script_Engine_to_execute" xml:space="preserve">
+    <value>Gunakan QiuUTMTv3 Script Engine untuk mengeksekusi skrip (disarankan, hanya bekerja di Android)</value>
+  </data>
+  <data name="Use_CSS_hex_color_literals" xml:space="preserve">
+    <value>Gunakan literal warna heks CSS</value>
+  </data>
+  <data name="Always_use_semicolons" xml:space="preserve">
+    <value>Selalu gunakan titik koma</value>
+  </data>
+  <data name="Open_block_braces_on_same_line" xml:space="preserve">
+    <value>Buka tanda kurung balok di garis yang sama</value>
+  </data>
+  <data name="Create_enum_declarations" xml:space="preserve">
+    <value>Buat deklarasi enum</value>
+  </data>
+  <data name="Print_warnings" xml:space="preserve">
+    <value>Tampilkan peringatan</value>
+  </data>
+  <data name="Named_instance_ID_prefix" xml:space="preserve">
+    <value>Awalan ID instansi bernama:</value>
+  </data>
+  <data name="If_enabled__color_constants_can_be" xml:space="preserve">
+    <value>Jika diaktifkan, konstanta warna dapat diformat dalam format heks #RRGGBB.</value>
+  </data>
+  <data name="If_enabled__all_statements_that_can" xml:space="preserve">
+    <value>Jika diaktifkan, semua pernyataan yang dapat diawali dengan titik koma akan diaktifkan.</value>
+  </data>
+  <data name="If_enabled__the_curly_braces_used" xml:space="preserve">
+    <value>Jika diaktifkan, tanda kurung kurawal yang digunakan untuk membuka blok akan ditempatkan pada baris yang sama dengan pernyataan yang bersangkutan, alih-alih menempatkan tanda kurung kurawal pada baris tersendiri.</value>
+  </data>
+  <data name="If_enabled__enum_declarations_identified" xml:space="preserve">
+    <value>Jika diaktifkan, deklarasi enum yang diidentifikasi selama dekompilasi akan selalu dicetak ke output hasil dekompilasi.</value>
+  </data>
+  <data name="If_enabled__warnings_generated_during" xml:space="preserve">
+    <value>Jika diaktifkan, peringatan yang dihasilkan selama dekompilasi akan dicetak sebagai komentar.</value>
+  </data>
+  <data name="Prefix_used_for_named_instance_IDs" xml:space="preserve">
+    <value>Awalan yang digunakan untuk ID instansi bernama saat ditemukan oleh dekompiler, dan untuk kompilasi. Ubah nilai ini jika bertentangan dengan nama variabel.</value>
+  </data>
+  <data name="Indent_string" xml:space="preserve">
+    <value>String Inden:</value>
+  </data>
+  <data name="Remove_block_braces_if_single_line" xml:space="preserve">
+    <value>Hapus kurung blok jika berupa baris tunggal</value>
+  </data>
+  <data name="If_enabled__blocks_that_contain_a" xml:space="preserve">
+    <value>Jika diaktifkan, blok yang berisi satu baris akan dihilangkan tanda kurungnya, jika memungkinkan. Untuk rantai if/else, semua blok harus berupa satu baris.</value>
+  </data>
+  <data name="Enum_macro_declarations_at_top_of" xml:space="preserve">
+    <value>Deklarasi enumerasi/makro di bagian atas kode</value>
+  </data>
+  <data name="If_enabled__enums_and_macros_will" xml:space="preserve">
+    <value>Jika diaktifkan, enumerasi dan makro akan muncul di awal (atas) output yang didekompilasi, bukan di akhir (bawah).</value>
+  </data>
+  <data name="Allow_leftover_data_on_VM_stack" xml:space="preserve">
+    <value>Izinkan sisa data pada tumpukan VM</value>
+  </data>
+  <data name="If_enabled__data_left_over_on_the" xml:space="preserve">
+    <value>Jika diaktifkan, data yang tersisa di tumpukan VM akan diperlakukan sebagai peringatan, bukan kesalahan.</value>
+  </data>
+  <data name="Add_empty_lines" xml:space="preserve">
+    <value>Tambahkan baris kosong:</value>
+  </data>
+  <data name="Select_specific_syntax_to_add_empty" xml:space="preserve">
+    <value>Pilih sintaks tertentu untuk menambahkan baris kosong sebelum, sesudah, atau di sekitarnya.</value>
+  </data>
+  <data name="Around_branch_statements" xml:space="preserve">
+    <value>Di sekitar pernyataan cabang</value>
+  </data>
+  <data name="If_enabled__adds_an_empty_line_before" xml:space="preserve">
+    <value>Jika diaktifkan, akan menambahkan baris kosong sebelum dan sesudah pernyataan percabangan.</value>
+  </data>
+  <data name="Before_switch_cases" xml:space="preserve">
+    <value>Sebelum pindah ke kasus lain</value>
+  </data>
+  <data name="Around_function_declarations" xml:space="preserve">
+    <value>Di sekitar deklarasi fungsi</value>
+  </data>
+  <data name="If_enabled__adds_an_empty_line_before1" xml:space="preserve">
+    <value>Jika diaktifkan, akan menambahkan baris kosong sebelum (rangkaian) entri "case" dalam pernyataan pindah.</value>
+  </data>
+  <data name="If_enabled__adds_an_empty_line_before2" xml:space="preserve">
+    <value>Jika diaktifkan, akan menambahkan baris kosong sebelum dan sesudah deklarasi fungsi, bahkan jika fungsi tersebut anonim.</value>
+  </data>
+  <data name="After_local_variable_declarations" xml:space="preserve">
+    <value>Setelah deklarasi variabel lokal</value>
+  </data>
+  <data name="If_enabled__adds_an_empty_line_after" xml:space="preserve">
+    <value>Jika diaktifkan, akan menambahkan baris kosong setelah deklarasi variabel lokal yang tercakup dalam blok.</value>
+  </data>
+  <data name="After_switch_cases" xml:space="preserve">
+    <value>Setelah berpindah kasus</value>
+  </data>
+  <data name="If_enabled__adds_an_empty_line_after1" xml:space="preserve">
+    <value>Jika diaktifkan, akan menambahkan baris kosong setelah (rangkaian) entri "case" dalam pernyataan pindah.</value>
+  </data>
+  <data name="Around_static_initialization" xml:space="preserve">
+    <value>Sekitar inisialisasi statis</value>
+  </data>
+  <data name="If_enabled__adds_an_empty_line_before3" xml:space="preserve">
+    <value>Jika diaktifkan, akan menambahkan baris kosong sebelum dan sesudah inisialisasi statis, mengelompokkan statis yang berurutan jika memungkinkan.</value>
+  </data>
+  <data name="Perform_cleanups" xml:space="preserve">
+    <value>Lakukan pembersihan:</value>
+  </data>
+  <data name="Select_specific_cleanup_operations" xml:space="preserve">
+    <value>Pilih operasi pembersihan spesifik yang akan dilakukan oleh dekompiler. Menonaktifkan operasi ini dapat membuat kode menjadi lebih jelek atau "tidak benar," tetapi dapat menunjukkan logika yang mendasarinya.</value>
+  </data>
+  <data name="Try_catch_finally_rewriting" xml:space="preserve">
+    <value>Menulis ulang try/catch/finally</value>
+  </data>
+  <data name="If_enabled__compiler_generated_code" xml:space="preserve">
+    <value>Jika diaktifkan, kode dan logika yang dihasilkan oleh kompiler untuk pernyataan try/catch/finally akan ditulis ulang agar (berusaha) terlihat seperti kode aslinya.</value>
+  </data>
+  <data name="Default_argument_values" xml:space="preserve">
+    <value>Nilai argumen default</value>
+  </data>
+  <data name="If_enabled__syntax_for_default_named" xml:space="preserve">
+    <value>Jika diaktifkan, sintaks untuk argumen fungsi bernama default akan digunakan. Pernyataan jika yang dihasilkan oleh kompiler diubah untuk melakukan hal ini, dengan tetap menjaga keakuratan.</value>
+  </data>
+  <data name="Scope_local_variable_declarations" xml:space="preserve">
+    <value>Cakupi deklarasi variabel lokal</value>
+  </data>
+  <data name="If_enabled__local_variable_declarations" xml:space="preserve">
+    <value>Jika diaktifkan, deklarasi variabel lokal akan ditempatkan sesuai dengan cakupannya, yang dideteksi berdasarkan penggunaannya dalam kode.</value>
+  </data>
+  <data name="Transform_else_into_continue" xml:space="preserve">
+    <value>Ubah else ke continue</value>
+  </data>
+  <data name="If_enabled__certain_usages_of__quot" xml:space="preserve">
+    <value>Jika diaktifkan, penggunaan tertentu dari "else" di dalam sebuah loop dapat diubah menjadi pernyataan "continue", yang dapat membuat kode lebih mudah dibaca. Ini hanya terjadi jika akurasi dapat dipertahankan.</value>
+  </data>
+  <data name="If_enabled__certain_builtin_globals" xml:space="preserve">
+    <value>Jika diaktifkan, beberapa variabel global bawaan (seperti "view_xview"), ketika terdeteksi digunakan tanpa aksesori array, akan dicetak apa adanya, alih-alih menggunakan sintaks yang dihasilkan oleh kompiler.</value>
+  </data>
+  <data name="Builtin_array_variable_syntax" xml:space="preserve">
+    <value>Sintaks variabel array bawaan</value>
+  </data>
+  <data name="Thank_you_for_donation" xml:space="preserve">
+    <value>Terima kasih atas donasinya!</value>
+  </data>
+  <data name="Script" xml:space="preserve">
+    <value>Skrip</value>
+  </data>
+  <data name="General_info" xml:space="preserve">
+    <value>Informasi umum</value>
+  </data>
+  <data name="Disable_GMS_debugger" xml:space="preserve">
+    <value>Nonaktifkan debugger GMS</value>
+  </data>
+  <data name="Bytecode_version" xml:space="preserve">
+    <value>Versi bytecode</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>NamaBerkas</value>
+  </data>
+  <data name="Config" xml:space="preserve">
+    <value>Konfigurasi</value>
+  </data>
+  <data name="Last_object_ID" xml:space="preserve">
+    <value>ID objek terakhir</value>
+  </data>
+  <data name="Last_tile_ID" xml:space="preserve">
+    <value>ID ubin terakhir</value>
+  </data>
+  <data name="Game_ID" xml:space="preserve">
+    <value>ID game</value>
+  </data>
+  <data name="DirectPlay_GUID" xml:space="preserve">
+    <value>GUID DirectPlay</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nama</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Versi</value>
+  </data>
+  <data name="Default_window_size" xml:space="preserve">
+    <value>Ukuran jendela default</value>
+  </data>
+  <data name="Flags" xml:space="preserve">
+    <value>Bendera</value>
+  </data>
+  <data name="License_MD5" xml:space="preserve">
+    <value>Lisensi MD5</value>
+  </data>
+  <data name="License_CRC32" xml:space="preserve">
+    <value>Lisensi CRC32</value>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>Stempel waktu</value>
+  </data>
+  <data name="Display_name" xml:space="preserve">
+    <value>Nama tampilan</value>
+  </data>
+  <data name="Active_targets" xml:space="preserve">
+    <value>Target yang aktif</value>
+  </data>
+  <data name="Function_classifications" xml:space="preserve">
+    <value>Klasifikasi fungsi</value>
+  </data>
+  <data name="Steam_AppID" xml:space="preserve">
+    <value>Steam AppID</value>
+  </data>
+  <data name="Debugger_port" xml:space="preserve">
+    <value>Port debugger</value>
+  </data>
+  <data name="Room_order" xml:space="preserve">
+    <value>Urutan ruangan</value>
+  </data>
+  <data name="Rooms" xml:space="preserve">
+    <value>Ruangan</value>
+  </data>
+  <data name="Room" xml:space="preserve">
+    <value>Ruangan</value>
+  </data>
+  <data name="FPS" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="Allow_statistics" xml:space="preserve">
+    <value>Izinkan statistik</value>
+  </data>
+  <data name="Game_GUID" xml:space="preserve">
+    <value>GUID game</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="Shader_extension_flag" xml:space="preserve">
+    <value>Bendera ekstensi shader</value>
+  </data>
+  <data name="Shader_extension_version" xml:space="preserve">
+    <value>Versi ekstensi shader</value>
+  </data>
+  <data name="Scale" xml:space="preserve">
+    <value>Ukuran</value>
+  </data>
+  <data name="Window_color" xml:space="preserve">
+    <value>Warna jendela</value>
+  </data>
+  <data name="Color_depth" xml:space="preserve">
+    <value>Kedalaman warna</value>
+  </data>
+  <data name="Resolution" xml:space="preserve">
+    <value>Resolusi</value>
+  </data>
+  <data name="Frequency" xml:space="preserve">
+    <value>Frekuensi</value>
+  </data>
+  <data name="Vertex_sync" xml:space="preserve">
+    <value>Sinkronisasi titik puncak</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Prioritas</value>
+  </data>
+  <data name="Back_image" xml:space="preserve">
+    <value>Gambar belakang</value>
+  </data>
+  <data name="Front_image" xml:space="preserve">
+    <value>Gambar depan</value>
+  </data>
+  <data name="Load_image" xml:space="preserve">
+    <value>Muat gambar</value>
+  </data>
+  <data name="Load_alpha" xml:space="preserve">
+    <value>Muat alfa</value>
+  </data>
+  <data name="Constants" xml:space="preserve">
+    <value>Konstan</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Nilai</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Tidak diketahui</value>
+  </data>
+  <data name="Language_count" xml:space="preserve">
+    <value>Jumlah bahasa</value>
+  </data>
+  <data name="Entry_count" xml:space="preserve">
+    <value>Jumlah entri</value>
+  </data>
+  <data name="Case_sensitive" xml:space="preserve">
+    <value>Kepekaan kapital</value>
+  </data>
+  <data name="Regular_search" xml:space="preserve">
+    <value>gunakan ekspresi reguler · </value>
+  </data>
+  <data name="Search_in_Assembly" xml:space="preserve">
+    <value>Cari di Perakitan</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Cari</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Buka</value>
+  </data>
+  <data name="Open_in_new_tab" xml:space="preserve">
+    <value>Buka di tab baru</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Posisi</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Teks</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Jalur</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>Transparan</value>
+  </data>
+  <data name="Smooth" xml:space="preserve">
+    <value>Halus</value>
+  </data>
+  <data name="Preload" xml:space="preserve">
+    <value>Awal muat</value>
+  </data>
+  <data name="Texture" xml:space="preserve">
+    <value>Tekstur</value>
+  </data>
+  <data name="Unknown_Always_2" xml:space="preserve">
+    <value>Tidak diketahui Selalu 2</value>
+  </data>
+  <data name="Tile_Width" xml:space="preserve">
+    <value>Lebar Ubin</value>
+  </data>
+  <data name="Tile_Height" xml:space="preserve">
+    <value>Tinggi Ubin</value>
+  </data>
+  <data name="Output_Border_X" xml:space="preserve">
+    <value>Output Border X</value>
+  </data>
+  <data name="Output_Border_Y" xml:space="preserve">
+    <value>Output Border Y</value>
+  </data>
+  <data name="Tile_Columns" xml:space="preserve">
+    <value>Kolom Ubin</value>
+  </data>
+  <data name="Items_frames_per_tile" xml:space="preserve">
+    <value>Item/frame per ubin</value>
+  </data>
+  <data name="Tile_Count" xml:space="preserve">
+    <value>Jumlah Ubin</value>
+  </data>
+  <data name="Exported_Sprite_Index" xml:space="preserve">
+    <value>Indeks Sprite yang Diekspor</value>
+  </data>
+  <data name="Frame_Time__microseconds" xml:space="preserve">
+    <value>Waktu Frame (mikrodetik)</value>
+  </data>
+  <data name="Tile_IDs" xml:space="preserve">
+    <value>ID Ubin</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="Tile_ID" xml:space="preserve">
+    <value>ID Ubin</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Gambar</value>
+  </data>
+  <data name="Code_locals" xml:space="preserve">
+    <value>Kode lokal</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Indeks</value>
+  </data>
+  <data name="ParentCode" xml:space="preserve">
+    <value>Induk</value>
+  </data>
+  <data name="Compile_and_decompile" xml:space="preserve">
+    <value>Kompilasi dan dikompilasi</value>
+  </data>
+  <data name="WAV_data__length" xml:space="preserve">
+    <value>Data WAV, panjang: · </value>
+  </data>
+  <data name="Save_audio" xml:space="preserve">
+    <value>Simpan audio</value>
+  </data>
+  <data name="Instance_type" xml:space="preserve">
+    <value>Tipe instansi</value>
+  </data>
+  <data name="Name_string_ID" xml:space="preserve">
+    <value>ID nama string</value>
+  </data>
+  <data name="VarID" xml:space="preserve">
+    <value>IDvariabel</value>
+  </data>
+  <data name="Moments" xml:space="preserve">
+    <value>Momen</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>Langkah</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Aksi</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kode</value>
+  </data>
+  <data name="Source_X_Y_W_H" xml:space="preserve">
+    <value>Sumber X/Y/Lebar/Tinggi</value>
+  </data>
+  <data name="Target_X_Y_W_H" xml:space="preserve">
+    <value>Target X/Y/Lebar/Tinggi</value>
+  </data>
+  <data name="Bounding_size" xml:space="preserve">
+    <value>Ukuran batas</value>
+  </data>
+  <data name="Save_image" xml:space="preserve">
+    <value>Simpan gambar</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Konten</value>
+  </data>
+  <data name="Size_W_H" xml:space="preserve">
+    <value>Ukuran Lebar/Tinggi</value>
+  </data>
+  <data name="Margin_Left_Right_Bottom_Top" xml:space="preserve">
+    <value>Margin Kiri/Kanan/Bawah/Atas</value>
+  </data>
+  <data name="Bounding_box_mode" xml:space="preserve">
+    <value>Mode kotak pembatas</value>
+  </data>
+  <data name="Separation_mask_type" xml:space="preserve">
+    <value>Tipe masker terpisah</value>
+  </data>
+  <data name="Origin_X_Y" xml:space="preserve">
+    <value>Asal X/Y</value>
+  </data>
+  <data name="Textures" xml:space="preserve">
+    <value>Tekstur</value>
+  </data>
+  <data name="Collision_masks" xml:space="preserve">
+    <value>Masker tabrakan</value>
+  </data>
+  <data name="Mask" xml:space="preserve">
+    <value>Masker</value>
+  </data>
+  <data name="Collision_mask_entry" xml:space="preserve">
+    <value>(Entri masker tabrakan)</value>
+  </data>
+  <data name="Collision_mask_data" xml:space="preserve">
+    <value>Data masker tabrakan</value>
+  </data>
+  <data name="Import_collision_mask_data" xml:space="preserve">
+    <value>Impor data masker tabrakan</value>
+  </data>
+  <data name="Export_collision_mask_data" xml:space="preserve">
+    <value>Ekspor data masker tabrakan</value>
+  </data>
+  <data name="Is_special_type" xml:space="preserve">
+    <value>Adalah tipe spesial</value>
+  </data>
+  <data name="SVersion" xml:space="preserve">
+    <value>Versi</value>
+  </data>
+  <data name="SType" xml:space="preserve">
+    <value>Tipe</value>
+  </data>
+  <data name="Playback_speed" xml:space="preserve">
+    <value>Kecepatan pemutaran</value>
+  </data>
+  <data name="Playback_speed_type" xml:space="preserve">
+    <value>Tipe kecepatan pemutaran</value>
+  </data>
+  <data name="Embedded_textures" xml:space="preserve">
+    <value>Tekstur tertanam</value>
+  </data>
+  <data name="Group_name" xml:space="preserve">
+    <value>Nama grup</value>
+  </data>
+  <data name="Embedded_texture" xml:space="preserve">
+    <value>Tekstur tertanam</value>
+  </data>
+  <data name="Sprites" xml:space="preserve">
+    <value>Sprite</value>
+  </data>
+  <data name="Sprite" xml:space="preserve">
+    <value>Sprite</value>
+  </data>
+  <data name="Spine_sprites" xml:space="preserve">
+    <value>Sprite tulang belakang</value>
+  </data>
+  <data name="Fonts" xml:space="preserve">
+    <value>Gaya</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Gaya</value>
+  </data>
+  <data name="Tilesets" xml:space="preserve">
+    <value>Kumpulan ubin</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Latar belakang</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Impor</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Ekspor</value>
+  </data>
+  <data name="a_0__reference" xml:space="preserve">
+    <value>(referensi {0})</value>
+  </data>
+  <data name="UndertaleString_reference" xml:space="preserve">
+    <value>(Referensi UndertaleString)</value>
+  </data>
+  <data name="Find_unused_assets" xml:space="preserve">
+    <value>Temukan aset yang tidak digunakan</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Selamat datang!</value>
+  </data>
+  <data name="Welcome_to_Qiumen_s_special_version" xml:space="preserve">
+    <value>Selamat datang di versi spesial Undertale Mod Tool karya Qiuming!\n\n Proyek ini dikembangkan berdasarkan banyak proyek. Silakan lihat antarmuka tentang dan kode sumber untuk detailnya. · · Bilibili:@秋明Sanyu_GenOuka</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Tambahkan</value>
+  </data>
+  <data name="Copy_name" xml:space="preserve">
+    <value>Salin nama</value>
+  </data>
+  <data name="Swap_position" xml:space="preserve">
+    <value>Tukar posisi</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="Saving" xml:space="preserve">
+    <value>Menyimpan...</value>
+  </data>
+  <data name="Save_before_creating" xml:space="preserve">
+    <value>Simpan sebelum membuat?</value>
+  </data>
+  <data name="Save_before_opening" xml:space="preserve">
+    <value>Simpan sebelum membuka?</value>
+  </data>
+  <data name="Save_datafile" xml:space="preserve">
+    <value>Simpan file data</value>
+  </data>
+  <data name="Save_before_closing" xml:space="preserve">
+    <value>Simpan sebelum menutup?</value>
+  </data>
+  <data name="Run_Script" xml:space="preserve">
+    <value>Jalankan Skrip</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Tentang</value>
+  </data>
+  <data name="Code_Editor" xml:space="preserve">
+    <value>Editor Kode</value>
+  </data>
+  <data name="Use_SoraEditor_as_code_editor__Only" xml:space="preserve">
+    <value>Gunakan SoraEditor sebagai editor kode (Hanya desain untuk Android)</value>
+  </data>
 </root>
