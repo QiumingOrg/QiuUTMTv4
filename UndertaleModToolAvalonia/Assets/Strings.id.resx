@@ -134,7 +134,7 @@
     <value>Skrip Akhir Game</value>
   </data>
   <data name="SearchInCodeHeading" xml:space="preserve">
-    <value>Cari di Kode</value>
+    <value>Cari Kode</value>
   </data>
   <data name="UndertaleAudioGroupViewModelHeading" xml:space="preserve">
     <value>Grup audio - {0}</value>
