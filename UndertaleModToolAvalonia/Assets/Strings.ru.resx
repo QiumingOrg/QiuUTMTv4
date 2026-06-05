@@ -259,4 +259,750 @@
   <data name="Load_image" xml:space="preserve">
     <value>Загрузить изображение</value>
   </data>
+  <data name="TitleText" xml:space="preserve">
+    <value>QiuUTMTv4 - Qiuming</value>
+  </data>
+  <data name="InnerScriptText" xml:space="preserve">
+    <value>Inner Script</value>
+  </data>
+  <data name="ChooseScriptToRunText" xml:space="preserve">
+    <value>Choose a script to run…</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="DonateText" xml:space="preserve">
+    <value>Donate</value>
+  </data>
+  <data name="QQGroupText" xml:space="preserve">
+    <value>QQ Group…</value>
+  </data>
+  <data name="AboutText" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="GithubText" xml:space="preserve">
+    <value>Github…</value>
+  </data>
+  <data name="FilterByCodeText" xml:space="preserve">
+    <value>Filter by name…</value>
+  </data>
+  <data name="GeneralInfoTabHeading" xml:space="preserve">
+    <value>General Info</value>
+  </data>
+  <data name="GlobalInitScriptsHeading" xml:space="preserve">
+    <value>Global Init Scripts</value>
+  </data>
+  <data name="GameEndScriptsHeading" xml:space="preserve">
+    <value>Game End Scripts</value>
+  </data>
+  <data name="UndertaleAudioGroupViewModelHeading" xml:space="preserve">
+    <value>Audio group - {0}</value>
+  </data>
+  <data name="UndertaleTimelineViewModelHeading" xml:space="preserve">
+    <value>Timeline - {0}</value>
+  </data>
+  <data name="Game_object____0" xml:space="preserve">
+    <value>Game object - {0}</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Extension____0" xml:space="preserve">
+    <value>Extension - {0}}</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Texture_page_item____0" xml:space="preserve">
+    <value>Texture page item - {0}</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Variable____0" xml:space="preserve">
+    <value>Variable - {0}</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Function____0" xml:space="preserve">
+    <value>Function - {0}</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Code_locals____0" xml:space="preserve">
+    <value>Code locals - {0}</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="String____0" xml:space="preserve">
+    <value>String - {0}</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Embedded_texture____0" xml:space="preserve">
+    <value>Embedded texture - {0}</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Embedded_audio____0" xml:space="preserve">
+    <value>Embedded audio - {0}</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Texture_group_information____0" xml:space="preserve">
+    <value>Texture group information - {0}</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Embedded_image____0" xml:space="preserve">
+    <value>Embedded image - {0}</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Particle_system____0" xml:space="preserve">
+    <value>Particle system - {0}</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Particle_system_emitter____0" xml:space="preserve">
+    <value>Particle system emitter - {0}</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Donate" xml:space="preserve">
+    <value>Donate</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Language__Restart_to_apply" xml:space="preserve">
+    <value>🌏Language (Restart to apply)</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Auto_Detect" xml:space="preserve">
+    <value>Auto Detect</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>Chinese</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="User_Interface" xml:space="preserve">
+    <value>User Interface</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Theme:</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Follow_System" xml:space="preserve">
+    <value>Follow System</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>Light</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Dark" xml:space="preserve">
+    <value>Dark</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="OpenNewResourceAfterCreatingIt" xml:space="preserve">
+    <value>Open new resource after create it</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Enable_syntax_highlighting" xml:space="preserve">
+    <value>Enable syntax highlighting</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Automatically_compile_and_decompile" xml:space="preserve">
+    <value>Automatically compile and decompile code on lost focus</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="EnableRoomGridByDefault" xml:space="preserve">
+    <value>Enable room grid by default</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="DefaultRoomGridSize" xml:space="preserve">
+    <value>Default room grid size</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Script_Execution" xml:space="preserve">
+    <value>Script Execution</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Use_QiuUTMTv3_Script_Engine_to_execute" xml:space="preserve">
+    <value>Use QiuUTMTv3 Script Engine to execute scripts (recommend, only work on Android)</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Use_CSS_hex_color_literals" xml:space="preserve">
+    <value>Use CSS hex color literals</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Always_use_semicolons" xml:space="preserve">
+    <value>Always use semicolons</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Open_block_braces_on_same_line" xml:space="preserve">
+    <value>Open block braces on same line</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Create_enum_declarations" xml:space="preserve">
+    <value>Create enum declarations</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Print_warnings" xml:space="preserve">
+    <value>Print warnings</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Named_instance_ID_prefix" xml:space="preserve">
+    <value>Named instance ID prefix:</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__color_constants_can_be" xml:space="preserve">
+    <value>If enabled, color constants can be formatted in the #RRGGBB hex format.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__all_statements_that_can" xml:space="preserve">
+    <value>If enabled, all statements that can have a semicolon after them will.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__the_curly_braces_used" xml:space="preserve">
+    <value>If enabled, the curly braces used to open a block will be placed on the same line as the statement it belongs to, rather than placing the brace on its own line.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__enum_declarations_identified" xml:space="preserve">
+    <value>If enabled, enum declarations identified during decompilation will always be printed to decompiled output.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__warnings_generated_during" xml:space="preserve">
+    <value>If enabled, warnings generated during decompilation will be printed as comments.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Prefix_used_for_named_instance_IDs" xml:space="preserve">
+    <value>Prefix used for named instance IDs when found by decompiler, and for compilation. Change this value if it conflicts with variable names.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Indent_string" xml:space="preserve">
+    <value>Indent string:</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Remove_block_braces_if_single_line" xml:space="preserve">
+    <value>Remove block braces if single line</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__blocks_that_contain_a" xml:space="preserve">
+    <value>If enabled, blocks that contain a single line will have its braces removed, where possible. For if/else chains, all blocks must be single lines.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Enum_macro_declarations_at_top_of" xml:space="preserve">
+    <value>Enum/macro declarations at top of code</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__enums_and_macros_will" xml:space="preserve">
+    <value>If enabled, enums and macros will appear at the start (top) of decompiled output, rather than at the end (bottom).</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Allow_leftover_data_on_VM_stack" xml:space="preserve">
+    <value>Allow leftover data on VM stack</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__data_left_over_on_the" xml:space="preserve">
+    <value>If enabled, data left over on the VM stack will be treated as a warning rather than an error.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Add_empty_lines" xml:space="preserve">
+    <value>Add empty lines:</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Select_specific_syntax_to_add_empty" xml:space="preserve">
+    <value>Select specific syntax to add empty lines before, after, or around.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Around_branch_statements" xml:space="preserve">
+    <value>Around branch statements</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__adds_an_empty_line_before" xml:space="preserve">
+    <value>If enabled, adds an empty line before and after branch statements.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Before_switch_cases" xml:space="preserve">
+    <value>Before switch cases</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Around_function_declarations" xml:space="preserve">
+    <value>Around function declarations</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__adds_an_empty_line_before1" xml:space="preserve">
+    <value>If enabled, adds an empty line before (a chain) of "case" entries in a switch statement.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__adds_an_empty_line_before2" xml:space="preserve">
+    <value>If enabled, adds an empty line before and after a function declaration, even if it is anonymous.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="After_local_variable_declarations" xml:space="preserve">
+    <value>After local variable declarations</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__adds_an_empty_line_after" xml:space="preserve">
+    <value>If enabled, adds an empty line after block-scoped local variable declarations.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="After_switch_cases" xml:space="preserve">
+    <value>After switch cases</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__adds_an_empty_line_after1" xml:space="preserve">
+    <value>If enabled, adds an empty line after (a chain) of &amp;quot;case&amp;quot; entries in a switch statement.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Around_static_initialization" xml:space="preserve">
+    <value>Around static initialization</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__adds_an_empty_line_before3" xml:space="preserve">
+    <value>If enabled, adds an empty line before and after static initialization, grouping together consecutive statics if possible.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Perform_cleanups" xml:space="preserve">
+    <value>Perform cleanups:</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Select_specific_cleanup_operations" xml:space="preserve">
+    <value>Select specific cleanup operations for the decompiler to perform. Disabling these may make code more ugly or &amp;quot;incorrect,&amp;quot; but can show underlying logic.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Try_catch_finally_rewriting" xml:space="preserve">
+    <value>Try/catch/finally rewriting</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__compiler_generated_code" xml:space="preserve">
+    <value>If enabled, compiler-generated code and logic for try/catch/finally statements is rewritten to (attempt to) look like the original code.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Default_argument_values" xml:space="preserve">
+    <value>Default argument values</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__syntax_for_default_named" xml:space="preserve">
+    <value>If enabled, syntax for default named function arguments will be used. Compiler-generated if statements are transformed to do this, maintaining accuracy.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Scope_local_variable_declarations" xml:space="preserve">
+    <value>Scope local variable declarations</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__local_variable_declarations" xml:space="preserve">
+    <value>If enabled, local variable declarations will be placed according to their scopes, which are detected based on usage in the code.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Transform_else_into_continue" xml:space="preserve">
+    <value>Transform else into continue</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__certain_usages_of__quot" xml:space="preserve">
+    <value>If enabled, certain usages of &amp;quot;else&amp;quot; inside of a loop can be transformed into &amp;quot;continue&amp;quot; statements, which can make code easier to read. This only happens if accuracy can be maintained.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="If_enabled__certain_builtin_globals" xml:space="preserve">
+    <value>If enabled, certain builtin globals (such as &amp;quot;view_xview&amp;quot;), when detected to be used without an array accessor, will be printed as such, rather than using compiler-generated syntax.</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Builtin_array_variable_syntax" xml:space="preserve">
+    <value>Builtin array variable syntax</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
+  <data name="Script" xml:space="preserve">
+    <value>Script</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GameEndScriptsView.axaml document</comment>
+  </data>
+  <data name="General_info" xml:space="preserve">
+    <value>General info</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Disable_GMS_debugger" xml:space="preserve">
+    <value>Disable GMS debugger</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Bytecode_version" xml:space="preserve">
+    <value>Bytecode version</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>FileName</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Config" xml:space="preserve">
+    <value>Config</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Last_object_ID" xml:space="preserve">
+    <value>Last object ID</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Last_tile_ID" xml:space="preserve">
+    <value>Last tile ID</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Game_ID" xml:space="preserve">
+    <value>Game ID</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="DirectPlay_GUID" xml:space="preserve">
+    <value>DirectPlay GUID</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Default_window_size" xml:space="preserve">
+    <value>Default window size</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Flags" xml:space="preserve">
+    <value>Flags</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="License_MD5" xml:space="preserve">
+    <value>License MD5</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="License_CRC32" xml:space="preserve">
+    <value>License CRC32</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>Timestamp</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Display_name" xml:space="preserve">
+    <value>Display name</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Active_targets" xml:space="preserve">
+    <value>Active targets</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Function_classifications" xml:space="preserve">
+    <value>Function classifications</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Steam_AppID" xml:space="preserve">
+    <value>Steam AppID</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Debugger_port" xml:space="preserve">
+    <value>Debugger port</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Room_order" xml:space="preserve">
+    <value>Room order</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="FPS" xml:space="preserve">
+    <value>FPS</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Allow_statistics" xml:space="preserve">
+    <value>Allow statistics</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Game_GUID" xml:space="preserve">
+    <value>Game GUID</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Shader_extension_flag" xml:space="preserve">
+    <value>Shader extension flag</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Shader_extension_version" xml:space="preserve">
+    <value>Shader extension version</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Scale" xml:space="preserve">
+    <value>Scale</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Color_depth" xml:space="preserve">
+    <value>Color depth</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Resolution" xml:space="preserve">
+    <value>Resolution</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Frequency" xml:space="preserve">
+    <value>Frequency</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Vertex_sync" xml:space="preserve">
+    <value>Vertex sync</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Priority</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Back_image" xml:space="preserve">
+    <value>Back image</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Front_image" xml:space="preserve">
+    <value>Front image</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Load_alpha" xml:space="preserve">
+    <value>Load alpha</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unknown</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Language_count" xml:space="preserve">
+    <value>Language count</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Entry_count" xml:space="preserve">
+    <value>Entry count</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\GeneralInfoView.axaml document</comment>
+  </data>
+  <data name="Case_sensitive" xml:space="preserve">
+    <value>Case sensitive</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SearchInCodeView.axaml document</comment>
+  </data>
+  <data name="Regular_search" xml:space="preserve">
+    <value>use regular expression </value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SearchInCodeView.axaml document</comment>
+  </data>
+  <data name="Search_in_Assembly" xml:space="preserve">
+    <value>Search in Assembly</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SearchInCodeView.axaml document</comment>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>Transparent</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="Smooth" xml:space="preserve">
+    <value>Smooth</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="Preload" xml:space="preserve">
+    <value>Preload</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="Unknown_Always_2" xml:space="preserve">
+    <value>Unknown Always 2</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="Tile_Width" xml:space="preserve">
+    <value>Tile Width</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="Tile_Height" xml:space="preserve">
+    <value>Tile Height</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="Output_Border_X" xml:space="preserve">
+    <value>Output Border X</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="Output_Border_Y" xml:space="preserve">
+    <value>Output Border Y</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="Tile_Columns" xml:space="preserve">
+    <value>Tile Columns</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="Items_frames_per_tile" xml:space="preserve">
+    <value>Items/frames per tile</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="Tile_Count" xml:space="preserve">
+    <value>Tile Count</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="Exported_Sprite_Index" xml:space="preserve">
+    <value>Exported Sprite Index</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="Frame_Time__microseconds" xml:space="preserve">
+    <value>Frame Time (microseconds)</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="Tile_IDs" xml:space="preserve">
+    <value>Tile IDs</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>List</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="Tile_ID" xml:space="preserve">
+    <value>Tile ID</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleBackgroundView.axaml document</comment>
+  </data>
+  <data name="Code_locals" xml:space="preserve">
+    <value>Code locals</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleCodeLocalsView.axaml document</comment>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Index</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleCodeLocalsView.axaml document</comment>
+  </data>
+  <data name="ParentCode" xml:space="preserve">
+    <value>Parent</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleCodeView.axaml document</comment>
+  </data>
+  <data name="Compile_and_decompile" xml:space="preserve">
+    <value>Compile and decompile</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleCodeView.axaml document</comment>
+  </data>
+  <data name="WAV_data__length" xml:space="preserve">
+    <value>WAV data, length: </value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleEmbeddedAudioView.axaml document</comment>
+  </data>
+  <data name="Instance_type" xml:space="preserve">
+    <value>Instance type</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleVariableView.axaml document</comment>
+  </data>
+  <data name="Name_string_ID" xml:space="preserve">
+    <value>Name string ID</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleVariableView.axaml document</comment>
+  </data>
+  <data name="VarID" xml:space="preserve">
+    <value>VarID</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleVariableView.axaml document</comment>
+  </data>
+  <data name="Moments" xml:space="preserve">
+    <value>Moments</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleTimelineView.axaml document</comment>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Actions</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleTimelineView.axaml document</comment>
+  </data>
+  <data name="Source_X_Y_W_H" xml:space="preserve">
+    <value>Source X/Y/W/H</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleTexturePageItemView.axaml document</comment>
+  </data>
+  <data name="Target_X_Y_W_H" xml:space="preserve">
+    <value>Target X/Y/W/H</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleTexturePageItemView.axaml document</comment>
+  </data>
+  <data name="Bounding_size" xml:space="preserve">
+    <value>Bounding size</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleTexturePageItemView.axaml document</comment>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Content</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleStringView.axaml document</comment>
+  </data>
+  <data name="Margin_Left_Right_Bottom_Top" xml:space="preserve">
+    <value>Margin Left/Right/Bottom/Top</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleSpriteView.axaml document</comment>
+  </data>
+  <data name="Bounding_box_mode" xml:space="preserve">
+    <value>Bounding box mode</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleSpriteView.axaml document</comment>
+  </data>
+  <data name="Separation_mask_type" xml:space="preserve">
+    <value>Separation mask type</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleSpriteView.axaml document</comment>
+  </data>
+  <data name="Origin_X_Y" xml:space="preserve">
+    <value>Origin X/Y</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleSpriteView.axaml document</comment>
+  </data>
+  <data name="Collision_masks" xml:space="preserve">
+    <value>Collision masks</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleSpriteView.axaml document</comment>
+  </data>
+  <data name="Mask" xml:space="preserve">
+    <value>Mask</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleSpriteView.axaml document</comment>
+  </data>
+  <data name="Collision_mask_entry" xml:space="preserve">
+    <value>(Collision mask entry)</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleSpriteView.axaml document</comment>
+  </data>
+  <data name="Collision_mask_data" xml:space="preserve">
+    <value>Collision mask data</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleSpriteView.axaml document</comment>
+  </data>
+  <data name="Import_collision_mask_data" xml:space="preserve">
+    <value>Import collision mask data</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleSpriteView.axaml document</comment>
+  </data>
+  <data name="Export_collision_mask_data" xml:space="preserve">
+    <value>Export collision mask data</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleSpriteView.axaml document</comment>
+  </data>
+  <data name="Is_special_type" xml:space="preserve">
+    <value>Is special type</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleSpriteView.axaml document</comment>
+  </data>
+  <data name="Playback_speed_type" xml:space="preserve">
+    <value>Playback speed type</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleSpriteView.axaml document</comment>
+  </data>
+  <data name="Embedded_textures" xml:space="preserve">
+    <value>Embedded textures</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleTextureGroupInfoView.axaml document</comment>
+  </data>
+  <data name="Embedded_texture" xml:space="preserve">
+    <value>Embedded texture</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleTextureGroupInfoView.axaml document</comment>
+  </data>
+  <data name="Spine_sprites" xml:space="preserve">
+    <value>Spine sprites</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleTextureGroupInfoView.axaml document</comment>
+  </data>
+  <data name="Tilesets" xml:space="preserve">
+    <value>Tilesets</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleTextureGroupInfoView.axaml document</comment>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Background</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\UndertaleTextureGroupInfoView.axaml document</comment>
+  </data>
+  <data name="a_0__reference" xml:space="preserve">
+    <value>({0} reference)</value>
+    <comment>Used in UndertaleModToolAvalonia\Controls\UndertaleResourceReferenceView.axaml.cs document</comment>
+  </data>
+  <data name="UndertaleString_reference" xml:space="preserve">
+    <value>(UndertaleString reference)</value>
+    <comment>Used in UndertaleModToolAvalonia\Controls\UndertaleStringReferenceView.axaml.cs document</comment>
+  </data>
+  <data name="Find_unused_assets" xml:space="preserve">
+    <value>Find unused assets</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome!</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainViewModel.cs document</comment>
+  </data>
+  <data name="Welcome_to_Qiumen_s_special_version" xml:space="preserve">
+    <value>Welcome to Qiuming's special version of Undertale Mod Tool !\n\n This project is developed based on many projects. Please refer to the about interface and source code for details.  Bilibili:@秋冥散雨_GenOuka</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainViewModel.cs document</comment>
+  </data>
+  <data name="Swap_position" xml:space="preserve">
+    <value>Swap position</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainView.axaml document</comment>
+  </data>
+  <data name="Saving" xml:space="preserve">
+    <value>Saving...</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainViewModel.cs document</comment>
+  </data>
+  <data name="Save_before_creating" xml:space="preserve">
+    <value>Save before creating?</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainViewModel.cs document</comment>
+  </data>
+  <data name="Save_datafile" xml:space="preserve">
+    <value>Save datafile</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainViewModel.cs document</comment>
+  </data>
+  <data name="Run_Script" xml:space="preserve">
+    <value>Run Script</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainViewModel.cs document</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+    <comment>Used in UndertaleModToolAvalonia\Windows\MainViewModel.cs document</comment>
+  </data>
+  <data name="Use_SoraEditor_as_code_editor__Only" xml:space="preserve">
+    <value>Use SoraEditor as code editor (Only design for Android)</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
 </root>
