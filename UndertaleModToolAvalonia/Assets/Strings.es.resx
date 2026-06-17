@@ -1001,4 +1001,8 @@
     <value>Use SoraEditor as code editor (Only design for Android)</value>
     <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
   </data>
+  <data name="Japanese" xml:space="preserve">
+    <value>Japanese</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
 </root>

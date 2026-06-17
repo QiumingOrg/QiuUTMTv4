@@ -829,4 +829,8 @@
   <data name="Use_SoraEditor_as_code_editor__Only" xml:space="preserve">
     <value>Gunakan SoraEditor sebagai editor kode (Hanya desain untuk Android)</value>
   </data>
+  <data name="Japanese" xml:space="preserve">
+    <value>Japanese</value>
+    <comment>Used in UndertaleModToolAvalonia\ResourceViews\SettingsView.axaml document</comment>
+  </data>
 </root>
