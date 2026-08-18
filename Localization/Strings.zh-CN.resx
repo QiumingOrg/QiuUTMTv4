@@ -6053,7 +6053,8 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Editor_ConstantsMenu" xml:space="preserve">
     <value>常量</value>
   </data>
-  <data name="Editor_SymbolSearch" xml:space="preserve">符号 ({0})</data>
+  <data name="Editor_SymbolSearch" xml:space="preserve">符号 ({0})<value>符号 ({0})</value>
+  </data>
   <data name="Editor_EmbeddedAudioIDOnAudioGroup" xml:space="preserve">
     <value>音频组文件中的嵌入音频 ID</value>
   </data>
