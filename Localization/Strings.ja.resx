@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,442 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Common_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Common_Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="Common_Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Common_Open" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="Common_Export" xml:space="preserve">
+    <value>エクスポート</value>
+  </data>
+  <data name="Common_Import" xml:space="preserve">
+    <value>インポート</value>
+  </data>
+  <data name="Common_Play" xml:space="preserve">
+    <value>プレイ</value>
+  </data>
+  <data name="Common_Stop" xml:space="preserve">
+    <value>ストップ</value>
+  </data>
+  <data name="Common_None" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="Common_Done" xml:space="preserve">
+    <value>終わる</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Common_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Common_Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="Common_No" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="Common_Error" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="Common_Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Common_DoubleClickToAdd" xml:space="preserve">
+    <value>ダブルクリックで追加</value>
+  </data>
+  <data name="Common_FilterByName" xml:space="preserve">
+    <value>名前で絞り込む...</value>
+  </data>
+  <data name="Common_Search" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="Common_Copy" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="Common_Undo" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="Common_Redo" xml:space="preserve">
+    <value>やり直し</value>
+  </data>
+  <data name="Common_Cut" xml:space="preserve">
+    <value>切り取る</value>
+  </data>
+  <data name="Common_SelectAll" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="Common_CopyAll" xml:space="preserve">
+    <value>すべてコピー</value>
+  </data>
+  <data name="Common_OpenInNewTab" xml:space="preserve">
+    <value>新しいタブで開く</value>
+  </data>
+  <data name="Common_Transparent" xml:space="preserve">
+    <value>透明</value>
+  </data>
+  <data name="Common_Smooth" xml:space="preserve">
+    <value>スムーズ</value>
+  </data>
+  <data name="Common_Preload" xml:space="preserve">
+    <value>プリロード</value>
+  </data>
+  <data name="Common_Texture" xml:space="preserve">
+    <value>テクスチャー</value>
+  </data>
+  <data name="Common_Scale" xml:space="preserve">
+    <value>スケール</value>
+  </data>
+  <data name="Common_List" xml:space="preserve">
+    <value>リスト</value>
+  </data>
+  <data name="Common_Code" xml:space="preserve">
+    <value>コード</value>
+  </data>
+  <data name="Common_Flags" xml:space="preserve">
+    <value>フラグ</value>
+  </data>
+  <data name="Common_Type" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="Common_Size" xml:space="preserve">
+    <value>サイズ</value>
+  </data>
+  <data name="Common_Position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Common_Definition" xml:space="preserve">
+    <value>定義</value>
+  </data>
+  <data name="Common_Enabled" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="Common_Visible" xml:space="preserve">
+    <value>表示中</value>
+  </data>
+  <data name="Common_Color" xml:space="preserve">
+    <value>カラー</value>
+  </data>
+  <data name="Common_Speed" xml:space="preserve">
+    <value>スピード</value>
+  </data>
+  <data name="Common_Depth" xml:space="preserve">
+    <value>深さ</value>
+  </data>
+  <data name="Common_Rotation" xml:space="preserve">
+    <value>回転</value>
+  </data>
+  <data name="Common_Kind" xml:space="preserve">
+    <value>お問い合わせ</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="Common_Auto" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="Common_NA" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="Menu_File" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="Menu_Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="Menu_Edit_GoToDefinition" xml:space="preserve">
+    <value>定義する</value>
+  </data>
+  <data name="Menu_Edit_FindReferences" xml:space="preserve">
+    <value>すべての参照を見つける</value>
+  </data>
+  <data name="Menu_Edit_FindSymbol" xml:space="preserve">
+    <value>シンボルを探す</value>
+  </data>
+  <data name="Menu_Edit_Find" xml:space="preserve">
+    <value>探す</value>
+  </data>
+  <data name="Menu_Edit_Replace" xml:space="preserve">
+    <value>置き換える</value>
+  </data>
+  <data name="Menu_File_New" xml:space="preserve">
+    <value>新規</value>
+  </data>
+  <data name="Menu_File_Open" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="Menu_File_RecentFiles" xml:space="preserve">
+    <value>最近のファイル</value>
+  </data>
+  <data name="Menu_File_RecentFiles_None" xml:space="preserve">
+    <value>最近のファイルはありません</value>
+  </data>
+  <data name="Menu_File_RecentFiles_Clear" xml:space="preserve">
+    <value>最近のファイルリストをクリアする</value>
+  </data>
+  <data name="Menu_File_Save" xml:space="preserve">
+    <value>セーブ</value>
+  </data>
+  <data name="Menu_File_TempRun" xml:space="preserve">
+    <value>Tempでゲームを実行する</value>
+  </data>
+  <data name="Menu_File_RunGMSDebugger" xml:space="preserve">
+    <value>GMS _debugger でゲームを実行する</value>
+  </data>
+  <data name="Menu_File_RunOtherRunner" xml:space="preserve">
+    <value>他の起動媒体ででゲームを起動する</value>
+  </data>
+  <data name="Menu_File_GenerateOffsetMap" xml:space="preserve">
+    <value>オフセットのマップを生成する</value>
+  </data>
+  <data name="Menu_File_Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Menu_File_Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="Menu_Scripts" xml:space="preserve">
+    <value>スクリプト</value>
+  </data>
+  <data name="Menu_Scripts_Loading" xml:space="preserve">
+    <value>(...ロード中...)</value>
+  </data>
+  <data name="Menu_Find" xml:space="preserve">
+    <value>探す</value>
+  </data>
+  <data name="Menu_Find_SearchInCode" xml:space="preserve">
+    <value>コードを検索</value>
+  </data>
+  <data name="Menu_Find_UnreferencedAssets" xml:space="preserve">
+    <value>参照されていないアセットを検索する</value>
+  </data>
+  <data name="Menu_Project" xml:space="preserve">
+    <value>プロジェクト</value>
+  </data>
+  <data name="Menu_Project_New" xml:space="preserve">
+    <value>新しいプロジェクト</value>
+  </data>
+  <data name="Menu_Project_Open" xml:space="preserve">
+    <value>プロジェクトを開く</value>
+  </data>
+  <data name="Menu_Project_Save" xml:space="preserve">
+    <value>プロジェクトを保存</value>
+  </data>
+  <data name="Menu_Project_ViewUnexportedAssets" xml:space="preserve">
+    <value>エクスポートされていないアセットを表示する</value>
+  </data>
+  <data name="Menu_Project_Close" xml:space="preserve">
+    <value>プロジェクトを閉じる</value>
+  </data>
+  <data name="Menu_Help" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="Menu_Help_GitHub" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="Menu_Help_CheckForUpdates" xml:space="preserve">
+    <value>アップデートをチェック</value>
+  </data>
+  <data name="Menu_Help_About" xml:space="preserve">
+    <value>概要</value>
+  </data>
+  <data name="Tree_Data" xml:space="preserve">
+    <value>データ</value>
+  </data>
+  <data name="Tree_GeneralInfo" xml:space="preserve">
+    <value>一般情報</value>
+  </data>
+  <data name="Tree_GlobalInit" xml:space="preserve">
+    <value>グローバルスクリプト</value>
+  </data>
+  <data name="Tree_GameEndScripts" xml:space="preserve">
+    <value>ゲーム終了時のスクリプト</value>
+  </data>
+  <data name="Tree_AudioGroups" xml:space="preserve">
+    <value>オーディオグループ</value>
+  </data>
+  <data name="Tree_Sounds" xml:space="preserve">
+    <value>サウンド</value>
+  </data>
+  <data name="Tree_Sprites" xml:space="preserve">
+    <value>スプライト</value>
+  </data>
+  <data name="Tree_BackgroundsTilesets" xml:space="preserve">
+    <value>バックグラウンドとタイルセット</value>
+  </data>
+  <data name="Tree_Tilesets" xml:space="preserve">
+    <value>タイルセット</value>
+  </data>
+  <data name="Tree_Paths" xml:space="preserve">
+    <value>パス</value>
+  </data>
+  <data name="Tree_Scripts" xml:space="preserve">
+    <value>スクリプト</value>
+  </data>
+  <data name="Tree_Shaders" xml:space="preserve">
+    <value>シェーダー</value>
+  </data>
+  <data name="Tree_Fonts" xml:space="preserve">
+    <value>フォント</value>
+  </data>
+  <data name="Tree_Timelines" xml:space="preserve">
+    <value>タイムライン</value>
+  </data>
+  <data name="Tree_GameObjects" xml:space="preserve">
+    <value>ゲームオブジェクト</value>
+  </data>
+  <data name="Tree_Rooms" xml:space="preserve">
+    <value>ルーム</value>
+  </data>
+  <data name="Tree_Extensions" xml:space="preserve">
+    <value>拡張機能</value>
+  </data>
+  <data name="Tree_TexturePageItems" xml:space="preserve">
+    <value>テクスチャページアイテム</value>
+  </data>
+  <data name="Tree_Code" xml:space="preserve">
+    <value>コード</value>
+  </data>
+  <data name="Tree_Variables" xml:space="preserve">
+    <value>定義</value>
+  </data>
+  <data name="Tree_Functions" xml:space="preserve">
+    <value>関数</value>
+  </data>
+  <data name="Tree_CodeLocals" xml:space="preserve">
+    <value>コードのローカル変数</value>
+  </data>
+  <data name="Tree_Strings" xml:space="preserve">
+    <value>文字列</value>
+  </data>
+  <data name="Tree_EmbeddedTextures" xml:space="preserve">
+    <value>埋め込みテクスチャ</value>
+  </data>
+  <data name="Tree_EmbeddedAudio" xml:space="preserve">
+    <value>埋め込み音声</value>
+  </data>
+  <data name="Tree_TextureGroupInfo" xml:space="preserve">
+    <value>テクスチャグループ情報</value>
+  </data>
+  <data name="Tree_EmbeddedImages" xml:space="preserve">
+    <value>埋め込み画像</value>
+  </data>
+  <data name="Tree_ParticleSystems" xml:space="preserve">
+    <value>パーティクルシステム</value>
+  </data>
+  <data name="Tree_ParticleSystemEmitters" xml:space="preserve">
+    <value>パーティクルシステムエミッター</value>
+  </data>
+  <data name="Tab_Welcome" xml:space="preserve">
+    <value>ようこそ！</value>
+  </data>
+  <data name="Tab_Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="Tab_CloseOtherTabs" xml:space="preserve">
+    <value>他のタブを閉じる</value>
+  </data>
+  <data name="Tab_CloseAllTabs" xml:space="preserve">
+    <value>すべてのタブを閉じる</value>
+  </data>
+  <data name="Tab_DetachToNewWindow" xml:space="preserve">
+    <value>新しいウィンドウで開く</value>
+  </data>
+  <data name="Settings_Title" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Settings_GMS14Path" xml:space="preserve">
+    <value>GameMakerStudio 1.4のパス</value>
+  </data>
+  <data name="Settings_GMS14Path_Tooltip" xml:space="preserve">
+    <value>.exe ではなく Studio ランナーを使用する場合、またはデバッガーでゲームを実行する場合にのみ必要です。</value>
+  </data>
+  <data name="Settings_GMS2RuntimesPath" xml:space="preserve">
+    <value>GameMaker Studio 2 のランタイムのパス：</value>
+  </data>
+  <data name="Settings_GMS2RuntimesPath_Tooltip" xml:space="preserve">
+    <value>.exe ではなく Studio ランナーを使用して GMS2 ゲームを実行したい場合にのみ必要です。</value>
+  </data>
+  <data name="Settings_AssetOrderSwapping" xml:space="preserve">
+    <value>アセットの順序入れ替えを有効にする</value>
+  </data>
+  <data name="Settings_AssetOrderSwapping_Tooltip" xml:space="preserve">
+    <value>アセットタブ内のアセットをリスト内の別の位置にドラッグ＆ドロップできるかどうかを切り替えます。デフォルトでは無効になっています。</value>
+  </data>
+  <data name="Settings_AutoFileAssociation" xml:space="preserve">
+    <value>GameMakerのデータファイルを自動的に関連付ける</value>
+  </data>
+  <data name="Settings_AutoFileAssociation_Tooltip" xml:space="preserve">
+    <value>ファイルの自動関連付け。デフォルトで有効になっています。</value>
+  </data>
+  <data name="Settings_ShowDebuggerOption" xml:space="preserve">
+    <value>「GMSデバッガーでゲームを実行」というファイルオプションを表示する</value>
+  </data>
+  <data name="Settings_ShowDebuggerOption_Tooltip" xml:space="preserve">
+    <value>「File」メニューのオプションを表示するかどうか。 デフォルトでは無効になっています.</value>
+  </data>
+  <data name="Settings_RememberWindowPlacements" xml:space="preserve">
+    <value>最後に表示したウィンドウの位置とサイズを記憶する</value>
+  </data>
+  <data name="Settings_RememberWindowPlacements_Tooltip" xml:space="preserve">
+    <value>新しいツールインスタンスを起動する際に、ウィンドウの位置とサイズを復元するかどうか。デフォルトでは無効になっています。</value>
+  </data>
+  <data name="Settings_WarnOnClose" xml:space="preserve">
+    <value>閉じる前に保存するよう警告する</value>
+  </data>
+  <data name="Settings_ShowNullEntries_Tooltip" xml:space="preserve">
+    <value>リソースツリーにnullエントリを表示するかどうか。GM 2024.11以降のゲームでは、通常、コンパイラによって削除された未使用のアセットがnullエントリとして表示されます。GUIでのサポートが限られているため、デフォルトでは無効になっています。</value>
+  </data>
+  <data name="Settings_Language" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="Settings_LanguageToolTip" xml:space="preserve">
+    <value>アプリケーションの言語を選択してください。</value>
+  </data>
+  <data name="Msg_UnexportedAssetsNewProject" xml:space="preserve">
+    <value>現在のプロジェクトには、エクスポート対象としてマークされたアセットがあります。新しいプロジェクトを作成し、エクスポートされていない変更をすべて破棄しますか？</value>
+  </data>
+  <data name="Msg_UnsupportedTexturesTitle" xml:space="preserve">
+    <value>サポートされていないテクスチャ</value>
+  </data>
+  <data name="Msg_YYCTitle" xml:space="preserve">
+    <value>YYC</value>
+  </data>
+  <data name="Room_AutoSizeTooltip" xml:space="preserve">
+    <value>部屋のサイズに基づいてタイルマップのサイズを自動的に設定する</value>
+  </data>
+  <data name="Room_TileHint2" xml:space="preserve">
+    <value>マスクデータが無効です！</value>
+  </data>
+  <data name="Settings_AutoFileAssociationToolTip" xml:space="preserve">
+    <value>GameMakerのデータファイル形式をUndertaleModToolに自動的に関連付けるかどうか。</value>
+  </data>
+  <data name="Settings_EnableDarkModeToolTip" xml:space="preserve">
+    <value>ダークモードのテーマを有効にするかどうか.</value>
+  </data>
+  <data name="Settings_GMLSettings" xml:space="preserve">
+    <value>GMLコンパイラ/デコンパイラの設定</value>
+  </data>
+  <data name="Settings_GMS1PathToolTip" xml:space="preserve">
+    <value>GameMaker: Studio 1.4のインストールディレクトリのパス.</value>
+  </data>
+  <data name="Settings_GMS2Path" xml:space="preserve">
+    <value>GameMaker Studio 2ランタイムパス:</value>
+  </data>
+  <data name="Settings_GridHeightToolTip" xml:space="preserve">
+    <value>ルームエディタにおいて、グローバルグリッドの高さを上書きするかどうか。</value>
+  </data>
 </root>
