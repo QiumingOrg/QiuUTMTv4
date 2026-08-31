@@ -496,4 +496,208 @@
   <data name="Settings_GridHeightToolTip" xml:space="preserve">
     <value>ルームエディタにおいて、グローバルグリッドの高さを上書きするかどうか。</value>
   </data>
+  <data name="Settings_WarnOnClose_Tooltip" xml:space="preserve">
+    <value>閉じる前に保存するよう警告を表示します。デフォルトで有効になっています。</value>
+  </data>
+  <data name="Settings_TempRunMessage" xml:space="preserve">
+    <value>一時的な実行に関する警告</value>
+  </data>
+  <data name="Settings_TempRunMessage_Tooltip" xml:space="preserve">
+    <value>一時的な実行に関する警告を表示します。デフォルトで有効になっています。</value>
+  </data>
+  <data name="Settings_ShowNullEntries" xml:space="preserve">
+    <value>リソースツリー内のnullエントリを表示する</value>
+  </data>
+  <data name="Settings_RecompileAllCodeSources" xml:space="preserve">
+    <value>プロジェクトデータファイルを保存する際に、すべてのGMLソースを再コンパイルする</value>
+  </data>
+  <data name="Settings_RecompileAllCodeSources_Tooltip" xml:space="preserve">
+    <value>データファイル（一時的な実行を含む）を保存するたびに、現在読み込まれているプロジェクトに含まれるすべてのGMLソースコードを再コンパイルするかどうかを指定します（プロジェクトが読み込まれている場合）。デフォルトでは無効になっています。</value>
+  </data>
+  <data name="Settings_EnableDarkMode" xml:space="preserve">
+    <value>ダークモードを有効にする</value>
+  </data>
+  <data name="Settings_EnableDarkMode_Tooltip" xml:space="preserve">
+    <value>プログラムのインターフェースをダークモードにします。デフォルトでは無効になっています。</value>
+  </data>
+  <data name="Settings_TransparencyGridColors" xml:space="preserve">
+    <value>透明度グリッドの色：</value>
+  </data>
+  <data name="Settings_GMLCompilerSettings" xml:space="preserve">
+    <value>GMLコンパイラ/デコンパイラの設定</value>
+  </data>
+  <data name="Settings_EnableAssetOrderSwapping_Tooltip" xml:space="preserve">
+    <value>アセットタブ内のアセットをドラッグ＆ドロップしてリスト内の異なる位置に移動できる機能を切り替えます。デフォルトでは無効になっています。   </value>
+  </data>
+  <data name="Settings_GlobalGridWidth" xml:space="preserve">
+    <value>グローバルグリッド幅</value>
+  </data>
+  <data name="Settings_GlobalGridWidth_Tooltip" xml:space="preserve">
+    <value>このオプションを有効にすると、その部屋で最もよく使用されているタイルの幅に基づいて自動的に割り当てられる部屋のグリッド幅の設定が、全体として上書きされます。</value>
+  </data>
+  <data name="Settings_GlobalGridHeight" xml:space="preserve">
+    <value>グローバルグリッドの高さ</value>
+  </data>
+  <data name="Settings_GlobalGridHeight_Tooltip" xml:space="preserve">
+    <value>このオプションは、部屋の中で最もよく使われるタイルの高さに基づいて部屋のグリッド高さを自動的に割り当てる設定を、全体的に上書きします。</value>
+  </data>
+  <data name="Settings_GlobalGridThickness" xml:space="preserve">
+    <value>グローバルグリッドの厚さ</value>
+  </data>
+  <data name="Settings_GlobalGridThickness_Tooltip" xml:space="preserve">
+    <value>このオプションは、部屋のグリッドの厚さの自動割り当てをグローバルにオーバーライドします.</value>
+  </data>
+  <data name="Settings_OpenAppDataFolder" xml:space="preserve">
+    <value>アプリケーションデータフォルダを開く</value>
+  </data>
+  <data name="Settings_ClearRecentFiles" xml:space="preserve">
+    <value>最近使用したファイルをクリアする</value>
+  </data>
+  <data name="Settings_ClearRecentFiles_None" xml:space="preserve">
+    <value>削除するファイルはありません.</value>
+  </data>
+  <data name="Settings_ClearRecentFiles_Confirm" xml:space="preserve">
+    <value>最近のファイルリストをクリアしたいですか?</value>
+  </data>
+  <data name="Settings_UpdateApp" xml:space="preserve">
+    <value>最新のコミットにアプリを更新する</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>起動時に自動的に更新をチェック</value>
+  </data>
+  <data name="Settings_CheckForUpdatesToolTip" xml:space="preserve">
+    <value>アプリ起動時に UndertaleModTool の新しいバージョンを自動的にチェックします.</value>
+  </data>
+  <data name="Msg_UpdateAvailable" xml:space="preserve">
+    <value>UndertaleModToolの新しいバージョンが利用可能です。 更新したいですか?</value>
+  </data>
+  <data name="Msg_UpToDate" xml:space="preserve">
+    <value>最新情報.</value>
+  </data>
+  <data name="Msg_ExtractingUpdate" xml:space="preserve">
+    <value>抽出の更新...</value>
+  </data>
+  <data name="Msg_UpdateNotSupported" xml:space="preserve">
+    <value>このプラットフォームでは、自動更新はサポートされていません.</value>
+  </data>
+  <data name="GML_Title" xml:space="preserve">
+    <value>設定 - GMLコンパイラ/デコンパイラ</value>
+  </data>
+  <data name="GML_GeneralSettings" xml:space="preserve">
+    <value>一般設定（コンパイラ＆デコンパイラ）</value>
+  </data>
+  <data name="GML_GeneralSettings_Tooltip" xml:space="preserve">
+    <value>コンパイラとデコンパイラの両方に適用される設定で、GMLコードの編集を簡素化します。</value>
+  </data>
+  <data name="GML_UseCSSHexColors" xml:space="preserve">
+    <value>CSSの16進数カラーリテラルを使用する</value>
+  </data>
+  <data name="GML_UseCSSHexColors_Tooltip" xml:space="preserve">
+    <value>有効にすると、カラー定数を#RRGGBBの16進数形式でフォーマットします。</value>
+  </data>
+  <data name="GML_NamedInstanceIDPrefix" xml:space="preserve">
+    <value>名前付きインスタンスIDプレフィクス:</value>
+  </data>
+  <data name="GML_EnumMacroDeclarationsAtTop_Tooltip" xml:space="preserve">
+    <value>有効にすると、列挙型とマクロがデコンパイル出力の先頭（上部）に表示されます。</value>
+  </data>
+  <data name="GML_PrintWarnings" xml:space="preserve">
+    <value>警告を表示</value>
+  </data>
+  <data name="GML_DecompilerSettings" xml:space="preserve">
+    <value>デコンパイラ設定</value>
+  </data>
+  <data name="GML_DecompilerSettings_Tooltip" xml:space="preserve">
+    <value>GML逆コンパイラのみに適用され、GMLコンパイルには影響しない設定です。また、すべてのスクリプトに適用されるわけではありません。</value>
+  </data>
+  <data name="GML_AlwaysUseSemicolons" xml:space="preserve">
+    <value>セミコロンは常に使用してください</value>
+  </data>
+  <data name="GML_InstanceIdPrefix" xml:space="preserve">
+    <value>名前付きインスタンスIDプレフィックス:</value>
+  </data>
+  <data name="GML_InstanceIdPrefix_Tooltip" xml:space="preserve">
+    <value>逆コンパイラが名前付きインスタンスIDを検出する際、およびコンパイル時に使用される接頭辞。変数名と競合する場合は、この値を変更してください。</value>
+  </data>
+  <data name="GML_AlwaysUseSemicolons_Tooltip" xml:space="preserve">
+    <value>この設定を有効にすると、文の後にセミコロンを付けることができるすべての文にセミコロンが付加されます。</value>
+  </data>
+  <data name="GML_IndentationStyle" xml:space="preserve">
+    <value>インデントスタイル:</value>
+  </data>
+  <data name="GML_IndentationStyle_Tooltip" xml:space="preserve">
+    <value>逆コンパイルされたコードを印刷する際に使用するインデントのスタイル。</value>
+  </data>
+  <data name="GML_OpenBlockBraceOnSameLine" xml:space="preserve">
+    <value>同じ行に開いたブロック括弧</value>
+  </data>
+  <data name="GML_OpenBlockBraceOnSameLine_Tooltip" xml:space="preserve">
+    <value>この機能を有効にすると、ブロックの開始を示す中括弧は、別行に配置されるのではなく、その中括弧が属する文と同じ行に配置されます。</value>
+  </data>
+  <data name="GML_RemoveSingleLineBlockBraces" xml:space="preserve">
+    <value>ブロック括弧が1行の場合は削除してください</value>
+  </data>
+  <data name="GML_RemoveSingleLineBlockBraces_Tooltip" xml:space="preserve">
+    <value>有効にすると、単一行を含むブロックは、可能な限り中括弧が削除されます。if/else文の連鎖では、すべてのブロックが単一行である必要があります。</value>
+  </data>
+  <data name="GML_CreateEnumDeclarations" xml:space="preserve">
+    <value>列挙型の宣言を作成する</value>
+  </data>
+  <data name="GML_CreateEnumDeclarations_Tooltip" xml:space="preserve">
+    <value>有効にすると、デコンパイル中に識別された列挙型宣言が常にデコンパイル出力に表示されます。</value>
+  </data>
+  <data name="GML_EnumMacroDeclarationsAtTop" xml:space="preserve">
+    <value>コード先頭に列挙型/マクロ宣言を配置</value>
+  </data>
+  <data name="GML_PrintWarnings_Tooltip" xml:space="preserve">
+    <value>有効にすると、デコンパイル中に生成された警告がコメントとして出力されます。</value>
+  </data>
+  <data name="GML_AllowLeftoverDataOnStack" xml:space="preserve">
+    <value>VMスタックに残余データを許可</value>
+  </data>
+  <data name="GML_AllowLeftoverDataOnStack_Tooltip" xml:space="preserve">
+    <value>有効にすると、VMスタックに残ったデータはエラーではなく警告として扱われます。</value>
+  </data>
+  <data name="GML_AddEmptyLines" xml:space="preserve">
+    <value>空行を追加:</value>
+  </data>
+  <data name="GML_AddEmptyLines_Tooltip" xml:space="preserve">
+    <value>空行を追加する前後の特定の構文を選択します。</value>
+  </data>
+  <data name="GML_EmptyLineAroundBranchStatements" xml:space="preserve">
+    <value>分岐ステートメントの前後</value>
+  </data>
+  <data name="GML_EmptyLineAroundBranchStatements_Tooltip" xml:space="preserve">
+    <value>有効にすると、分岐ステートメントの前後に空行が追加されます。</value>
+  </data>
+  <data name="GML_EmptyLineAfterBlockLocals" xml:space="preserve">
+    <value>ローカル変数宣言の後</value>
+  </data>
+  <data name="GML_EmptyLineAfterBlockLocals_Tooltip" xml:space="preserve">
+    <value>有効にすると、ブロックスコープのローカル変数宣言の後に空行が追加されます。</value>
+  </data>
+  <data name="GML_EmptyLineBeforeSwitchCases" xml:space="preserve">
+    <value>switch caseの前</value>
+  </data>
+  <data name="GML_EmptyLineBeforeSwitchCases_Tooltip" xml:space="preserve">
+    <value>有効にすると、switchステートメントの"case"エントリ（チェーン）の前に空行が追加されます。</value>
+  </data>
+  <data name="GML_EmptyLineAfterSwitchCases" xml:space="preserve">
+    <value>switch caseの後</value>
+  </data>
+  <data name="GML_EmptyLineAfterSwitchCases_Tooltip" xml:space="preserve">
+    <value>有効にすると、switchステートメントの"case"エントリ（チェーン）の前に空行が追加されます。</value>
+  </data>
+  <data name="GML_EmptyLineAroundFunctionDeclarations" xml:space="preserve">
+    <value>Around function declarations</value>
+  </data>
+  <data name="GML_EmptyLineAroundFunctionDeclarations_Tooltip" xml:space="preserve">
+    <value>有効にすると、関数宣言の前後に空行が追加されます。匿名関数であっても同様です。</value>
+  </data>
+  <data name="GML_EmptyLineAroundStaticInitialization" xml:space="preserve">
+    <value>静的初期化について</value>
+  </data>
+  <data name="GML_EmptyLineAroundStaticInitialization_Tooltip" xml:space="preserve">
+    <value>有効にすると、静的初期化の前後に空行を追加し、可能であれば連続する静的変数をまとめてグループ化します。</value>
+  </data>
 </root>
