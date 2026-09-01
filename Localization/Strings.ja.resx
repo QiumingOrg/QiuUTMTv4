@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Common_Name" xml:space="preserve">
-    <value>Name</value>
+    <value>名前</value>
   </data>
   <data name="Common_Close" xml:space="preserve">
     <value>閉じる</value>
@@ -416,7 +416,7 @@
     <value>設定</value>
   </data>
   <data name="Settings_GMS14Path" xml:space="preserve">
-    <value>GameMakerStudio 1.4のパス</value>
+    <value>GameMakerStudio 1.4のパス:</value>
   </data>
   <data name="Settings_GMS14Path_Tooltip" xml:space="preserve">
     <value>.exe ではなく Studio ランナーを使用する場合、またはデバッガーでゲームを実行する場合にのみ必要です。</value>
@@ -699,5 +699,413 @@
   </data>
   <data name="GML_EmptyLineAroundStaticInitialization_Tooltip" xml:space="preserve">
     <value>有効にすると、静的初期化の前後に空行を追加し、可能であれば連続する静的変数をまとめてグループ化します。</value>
+  </data>
+  <data name="GML_PerformCleanups" xml:space="preserve">
+    <value>クリーンアップを実行する：</value>
+  </data>
+  <data name="GML_PerformCleanups_Tooltip" xml:space="preserve">
+    <value>デコンパイラが実行するクリーンアップ処理を個別に選択します。これらの処理を無効にすると、コードの見栄えが悪くなったり「不正確」になったりする場合がありますが、その代わりに、コードの根底にあるロジックが明らかになることがあります。</value>
+  </data>
+  <data name="GML_CleanupTryCatchFinally" xml:space="preserve">
+    <value>try/catch/finally の書き換え</value>
+  </data>
+  <data name="GML_CleanupTryCatchFinally_Tooltip" xml:space="preserve">
+    <value>このオプションを有効にすると、try/catch/finally 文に対してコンパイラが生成したコードやロジックが、元のコードのように見えるよう（なるよう）書き換えられます。</value>
+  </data>
+  <data name="GML_CleanupElseToContinue" xml:space="preserve">
+    <value>elseをcontinueに変換する</value>
+  </data>
+  <data name="GML_CleanupElseToContinue_Tooltip" xml:space="preserve">
+    <value>この機能を有効にすると、ループ内の「else」の特定の使い方が「continue」文に変換されることがあり、これによりコードの可読性が向上します。ただし、これは正確性が維持できる場合にのみ行われます。</value>
+  </data>
+  <data name="GML_CleanupDefaultArgumentValues" xml:space="preserve">
+    <value>デフォルトの引数値</value>
+  </data>
+  <data name="GML_CleanupDefaultArgumentValues_Tooltip" xml:space="preserve">
+    <value>有効にすると、デフォルトの名前付き関数引数の構文が使用されます。コンパイラによって生成されたif文は、正確性を維持しながらこの処理を行うように変換されます。</value>
+  </data>
+  <data name="GML_CleanupBuiltinArrayVariables" xml:space="preserve">
+    <value>組み込み配列変数の構文</value>
+  </data>
+  <data name="GML_CleanupBuiltinArrayVariables_Tooltip" xml:space="preserve">
+    <value>このオプションを有効にすると、特定の組み込みグローバル変数（「view_xview」など）が、配列アクセサなしで使用されていると検出された場合、コンパイラが生成した構文ではなく、そのままの形で出力されます。</value>
+  </data>
+  <data name="GML_CleanupLocalVarDeclarations" xml:space="preserve">
+    <value>ローカル変数の宣言の範囲</value>
+  </data>
+  <data name="GML_CleanupLocalVarDeclarations_Tooltip" xml:space="preserve">
+    <value>この機能を有効にすると、ローカル変数の宣言は、コード内での使用状況に基づいて検出されたスコープに応じて配置されます。</value>
+  </data>
+  <data name="GML_InferFunctionArgumentTypes" xml:space="preserve">
+    <value>スクリプトの引数の型を推測する</value>
+  </data>
+  <data name="GML_InferFunctionArgumentTypes_Tooltip" xml:space="preserve">
+    <value>この機能を有効にすると、デコンパイラは、argument0 などの引数が各スクリプト内でどのように流れていくかを分析し、呼び出し箇所で整数リテラルを名前付き定数（列挙型、アセット、色など）に展開することで、ユーザースクリプトの引数の型を推測しようとします。</value>
+  </data>
+  <data name="GML_ReverseInferVariableTypes" xml:space="preserve">
+    <value>変数の型を逆推論する</value>
+  </data>
+  <data name="GML_ReverseInferVariableTypes_Tooltip" xml:space="preserve">
+    <value>このオプションを有効にすると、推論された引数の型が、それらの引数から代入された変数に逆方向に伝播されるため、それらの変数に代入されたリテラル（色など）も展開されます。</value>
+  </data>
+  <data name="GML_InlinePropagateVariableTypes" xml:space="preserve">
+    <value>変数型をインラインで展開する</value>
+  </data>
+  <data name="GML_InlinePropagateVariableTypes_Tooltip" xml:space="preserve">
+    <value>この機能を有効にすると、型が既知の引数が変数に代入された際、その変数の型がその場で登録され、その後その変数に代入されるリテラル（例：色）が展開されます。</value>
+  </data>
+  <data name="GML_RestoreToDefaults" xml:space="preserve">
+    <value>デフォルト設定に戻す</value>
+  </data>
+  <data name="Editor_GeneralInfo" xml:space="preserve">
+    <value>一般情報</value>
+  </data>
+  <data name="Editor_Options" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="Editor_Language" xml:space="preserve">
+    <value>言語 (?)</value>
+  </data>
+  <data name="Editor_DisableGMSDebugger" xml:space="preserve">
+    <value>GMSデバッガを無効化</value>
+  </data>
+  <data name="Editor_BytecodeVersion" xml:space="preserve">
+    <value>バイトコードのバージョン</value>
+  </data>
+  <data name="Editor_FileName" xml:space="preserve">
+    <value>ファイルネーム</value>
+  </data>
+  <data name="Editor_Config" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Editor_LastObjectID" xml:space="preserve">
+    <value>最後のオブジェクトID</value>
+  </data>
+  <data name="Editor_LastTileID" xml:space="preserve">
+    <value>最後のタイルのID</value>
+  </data>
+  <data name="Editor_GameID" xml:space="preserve">
+    <value>ゲームID</value>
+  </data>
+  <data name="Editor_DirectPlayGUID" xml:space="preserve">
+    <value>ダイレクトプレイ GUID</value>
+  </data>
+  <data name="Editor_Version" xml:space="preserve">
+    <value>バージョン</value>
+  </data>
+  <data name="Editor_DefaultWindowSize" xml:space="preserve">
+    <value>デフォルトのウィンドウサイズ</value>
+  </data>
+  <data name="Editor_LicenseMD5" xml:space="preserve">
+    <value>ライセンス MD5</value>
+  </data>
+  <data name="Editor_LicenseCRC32" xml:space="preserve">
+    <value>ライセンス CRC32</value>
+  </data>
+  <data name="Editor_Timestamp" xml:space="preserve">
+    <value>タイムスタンプ</value>
+  </data>
+  <data name="Editor_TimestampTooltip" xml:space="preserve">
+    <value>(ローカルタイム、GMT+0 を参照するホバー)</value>
+  </data>
+  <data name="Editor_DisplayName" xml:space="preserve">
+    <value>表示名</value>
+  </data>
+  <data name="Editor_ActiveTargets" xml:space="preserve">
+    <value>アクティブターゲット</value>
+  </data>
+  <data name="Editor_FunctionClassifications" xml:space="preserve">
+    <value>関数の分類</value>
+  </data>
+  <data name="Editor_SteamAppID" xml:space="preserve">
+    <value>SteamアプリのID</value>
+  </data>
+  <data name="Editor_DebuggerPort" xml:space="preserve">
+    <value>デバッガーポート</value>
+  </data>
+  <data name="Editor_RoomOrder" xml:space="preserve">
+    <value>ルーム順序</value>
+  </data>
+  <data name="Editor_SyncWithRoomList" xml:space="preserve">
+    <value>部屋リストと同期</value>
+  </data>
+  <data name="Editor_FPS" xml:space="preserve">
+    <value>FPSについて</value>
+  </data>
+  <data name="Editor_AllowStatistics" xml:space="preserve">
+    <value>統計を許可</value>
+  </data>
+  <data name="Editor_GameGUID" xml:space="preserve">
+    <value>ゲーム GUID</value>
+  </data>
+  <data name="Editor_ShaderExtensionFlag" xml:space="preserve">
+    <value>シェーダー拡張フラグ</value>
+  </data>
+  <data name="Editor_ShaderExtensionVersion" xml:space="preserve">
+    <value>シェーダー拡張バージョン</value>
+  </data>
+  <data name="Editor_WindowColor" xml:space="preserve">
+    <value>ウィンドウカラー</value>
+  </data>
+  <data name="Editor_ColorDepth" xml:space="preserve">
+    <value>色の深さ</value>
+  </data>
+  <data name="Editor_Resolution" xml:space="preserve">
+    <value>解像度</value>
+  </data>
+  <data name="Editor_Frequency" xml:space="preserve">
+    <value>周波数</value>
+  </data>
+  <data name="Editor_VertexSync" xml:space="preserve">
+    <value>Vertexの同期</value>
+  </data>
+  <data name="Editor_Priority" xml:space="preserve">
+    <value>優先度</value>
+  </data>
+  <data name="Editor_BackImage" xml:space="preserve">
+    <value>背景画像</value>
+  </data>
+  <data name="Editor_FrontImage" xml:space="preserve">
+    <value>フロント画像</value>
+  </data>
+  <data name="Editor_LoadImage" xml:space="preserve">
+    <value>読み込み画像</value>
+  </data>
+  <data name="Editor_LoadAlpha" xml:space="preserve">
+    <value>読み込みアルファ</value>
+  </data>
+  <data name="Editor_Constants" xml:space="preserve">
+    <value>定数</value>
+  </data>
+  <data name="Editor_Unknown" xml:space="preserve">
+    <value>不明</value>
+  </data>
+  <data name="Editor_LanguageCount" xml:space="preserve">
+    <value>言語のカウント</value>
+  </data>
+  <data name="Editor_EntryCount" xml:space="preserve">
+    <value>エントリー数</value>
+  </data>
+  <data name="Editor_LanguageNote" xml:space="preserve">
+    <value>注意:現在使用していない言語なので、エディタはまだ作成されていません。</value>
+  </data>
+  <data name="Editor_Sprite_Width" xml:space="preserve">
+    <value>幅:</value>
+  </data>
+  <data name="Editor_Sprite_Height" xml:space="preserve">
+    <value>高さ:</value>
+  </data>
+  <data name="Editor_Sprite_Margin" xml:space="preserve">
+    <value>マージン</value>
+  </data>
+  <data name="Editor_Sprite_Left" xml:space="preserve">
+    <value>左:</value>
+  </data>
+  <data name="Editor_Sprite_Right" xml:space="preserve">
+    <value>右:</value>
+  </data>
+  <data name="Editor_Sprite_Bottom" xml:space="preserve">
+    <value>下:</value>
+  </data>
+  <data name="Editor_Sprite_Top" xml:space="preserve">
+    <value>頂点:</value>
+  </data>
+  <data name="Editor_Sprite_BoundingBoxMode" xml:space="preserve">
+    <value>バウンディングボックスモード</value>
+  </data>
+  <data name="Editor_Sprite_SepMasks" xml:space="preserve">
+    <value>セプマスク</value>
+  </data>
+  <data name="Editor_Sprite_Origin" xml:space="preserve">
+    <value>起源の場所</value>
+  </data>
+  <data name="Editor_Sprite_Textures" xml:space="preserve">
+    <value>テクスチャ</value>
+  </data>
+  <data name="Editor_Sprite_ExportAllFrames" xml:space="preserve">
+    <value>すべてのフレームをエクスポート（Spineスプライトの場合はSpineデータをエクスポートする</value>
+  </data>
+  <data name="Editor_Sprite_CollisionMasks" xml:space="preserve">
+    <value>コリジョンマスク</value>
+  </data>
+  <data name="Editor_Sprite_InvalidMaskData" xml:space="preserve">
+    <value>マスクデータが無効です！</value>
+  </data>
+  <data name="Editor_Sprite_ImportMask" xml:space="preserve">
+    <value>マスクをインポート</value>
+  </data>
+  <data name="Editor_Sprite_ExportMask" xml:space="preserve">
+    <value>マスクをエクスポート</value>
+  </data>
+  <data name="Editor_Sprite_IsSpecialType" xml:space="preserve">
+    <value>特殊なタイプですか？</value>
+  </data>
+  <data name="Editor_Sprite_Version" xml:space="preserve">
+    <value>バージョン</value>
+  </data>
+  <data name="Editor_Sprite_PlaybackSpeed" xml:space="preserve">
+    <value>再生速度</value>
+  </data>
+  <data name="Editor_Sprite_PlaybackSpeedType" xml:space="preserve">
+    <value>再生速度のタイプ</value>
+  </data>
+  <data name="Editor_Sound_File" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="Editor_Sound_Effects" xml:space="preserve">
+    <value>エフェクト</value>
+  </data>
+  <data name="Editor_Sound_Volume" xml:space="preserve">
+    <value>ボリューム</value>
+  </data>
+  <data name="Editor_Sound_Pitch" xml:space="preserve">
+    <value>ピッチ</value>
+  </data>
+  <data name="Editor_Sound_AudioGroup" xml:space="preserve">
+    <value>オーディオグループ</value>
+  </data>
+  <data name="Editor_Sound_AudioFile" xml:space="preserve">
+    <value>オーディオファイル</value>
+  </data>
+  <data name="Editor_Sound_PreloadOld" xml:space="preserve">
+    <value>プリロード（旧型オーディオシステム）</value>
+  </data>
+  <data name="Editor_BG_TileWidth" xml:space="preserve">
+    <value>タイルの幅</value>
+  </data>
+  <data name="Editor_BG_TileHeight" xml:space="preserve">
+    <value>タイルの高さ</value>
+  </data>
+  <data name="Editor_BG_TileSeparationX" xml:space="preserve">
+    <value>タイルの分離 X</value>
+  </data>
+  <data name="Editor_BG_TileSeparationY" xml:space="preserve">
+    <value>タイルの分離 Y</value>
+  </data>
+  <data name="Editor_BG_OutputBorderX" xml:space="preserve">
+    <value>出力ボーダー X</value>
+  </data>
+  <data name="Editor_BG_OutputBorderY" xml:space="preserve">
+    <value>出力ボーダー Y</value>
+  </data>
+  <data name="Editor_BG_TileColumns" xml:space="preserve">
+    <value>タイルの列</value>
+  </data>
+  <data name="Editor_BG_ItemsPerTile" xml:space="preserve">
+    <value>1タイルあたりのアイテム数／フレーム数</value>
+  </data>
+  <data name="Editor_BG_TileCount" xml:space="preserve">
+    <value>タイル数</value>
+  </data>
+  <data name="Editor_BG_ExportedSprite" xml:space="preserve">
+    <value>エクスポートされたスプライト（GM 2023.8以降）</value>
+  </data>
+  <data name="Editor_BG_FrameTime" xml:space="preserve">
+    <value>フレーム時間（マイクロ秒）</value>
+  </data>
+  <data name="Editor_BG_TileIDs" xml:space="preserve">
+    <value>タイルID</value>
+  </data>
+  <data name="Editor_BG_GMTilesetVersion" xml:space="preserve">
+    <value>GM タイルセットのバージョン</value>
+  </data>
+  <data name="Editor_BG_ClickTileHint" xml:space="preserve">
+    <value>ヒント：下のタイル領域のいずれかをクリックすると、上のIDがハイライト表示されます。</value>
+  </data>
+  <data name="Editor_Code_LocalsCount" xml:space="preserve">
+    <value>ローカル数</value>
+  </data>
+  <data name="Editor_Code_ArgumentsCount" xml:space="preserve">
+    <value>引数のカウント</value>
+  </data>
+  <data name="Editor_Code_Offset" xml:space="preserve">
+    <value>オフセット</value>
+  </data>
+  <data name="Editor_Code_ParentEntry" xml:space="preserve">
+    <value>両親のエントリ</value>
+  </data>
+  <data name="Editor_Code_DecompileTab" xml:space="preserve">
+    <value>Decompiled</value>
+  </data>
+  <data name="Editor_Code_DisassemblyTab" xml:space="preserve">
+    <value>Disassembly</value>
+  </data>
+  <data name="Editor_GameObj_Sprite" xml:space="preserve">
+    <value>スプライト</value>
+  </data>
+  <data name="Editor_GameObj_Visible" xml:space="preserve">
+    <value>表示されている</value>
+  </data>
+  <data name="Editor_GameObj_Solid" xml:space="preserve">
+    <value>ソリッド</value>
+  </data>
+  <data name="Editor_GameObj_Depth" xml:space="preserve">
+    <value>深さ</value>
+  </data>
+  <data name="Editor_GameObj_Persistent" xml:space="preserve">
+    <value>持続的</value>
+  </data>
+  <data name="Editor_GameObj_Parent" xml:space="preserve">
+    <value>親</value>
+  </data>
+  <data name="Editor_GameObj_TextureMaskId" xml:space="preserve">
+    <value>テクスチャマスクID</value>
+  </data>
+  <data name="Editor_GameObj_UsesPhysics" xml:space="preserve">
+    <value>物理を使用する</value>
+  </data>
+  <data name="Editor_GameObj_IsSensor" xml:space="preserve">
+    <value>センサー</value>
+  </data>
+  <data name="Editor_GameObj_CollisionShape" xml:space="preserve">
+    <value>衝突形状</value>
+  </data>
+  <data name="Editor_GameObj_Physics" xml:space="preserve">
+    <value>物理</value>
+  </data>
+  <data name="Editor_GameObj_Density" xml:space="preserve">
+    <value>密度</value>
+  </data>
+  <data name="Editor_GameObj_Restitution" xml:space="preserve">
+    <value>返還</value>
+  </data>
+  <data name="Editor_GameObj_Group" xml:space="preserve">
+    <value>グループ</value>
+  </data>
+  <data name="Editor_GameObj_LinearDamping" xml:space="preserve">
+    <value>リニアダンピング</value>
+  </data>
+  <data name="Editor_GameObj_AngularDamping" xml:space="preserve">
+    <value>角型ダンピング</value>
+  </data>
+  <data name="Editor_GameObj_Friction" xml:space="preserve">
+    <value>フリクション</value>
+  </data>
+  <data name="Editor_GameObj_IsAwake" xml:space="preserve">
+    <value>Awake</value>
+  </data>
+  <data name="Editor_GameObj_IsKinematic" xml:space="preserve">
+    <value>運動的</value>
+  </data>
+  <data name="Editor_GameObj_PhysicsShapeVertices" xml:space="preserve">
+    <value>物理形状の頂点</value>
+  </data>
+  <data name="Editor_GameObj_Events" xml:space="preserve">
+    <value>イベント</value>
+  </data>
+  <data name="Editor_GameObj_SubtypeID" xml:space="preserve">
+    <value>サブタイプID</value>
+  </data>
+  <data name="Editor_GameObj_Actions" xml:space="preserve">
+    <value>アクション</value>
+  </data>
+  <data name="Editor_Font_DisplayName" xml:space="preserve">
+    <value>表示名</value>
+  </data>
+  <data name="Editor_Font_FontSize" xml:space="preserve">
+    <value>フォントサイズ</value>
+  </data>
+  <data name="Editor_Font_Bold" xml:space="preserve">
+    <value>ボールド</value>
   </data>
 </root>
