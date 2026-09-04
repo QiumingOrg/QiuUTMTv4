@@ -425,7 +425,7 @@
     <value>GameMaker Studio 2 のランタイムのパス：</value>
   </data>
   <data name="Settings_GMS2RuntimesPath_Tooltip" xml:space="preserve">
-    <value>.exe ではなく Studio ランナーを使用して GMS2 ゲームを実行したい場合にのみ必要です。</value>
+    <value>exeファイルではなくStudioランナーを使用して GMS2 ゲームを実行したい場合にのみ必要です</value>
   </data>
   <data name="Settings_AssetOrderSwapping" xml:space="preserve">
     <value>アセットの順序入れ替えを有効にする</value>
@@ -458,7 +458,7 @@
     <value>リソースツリーにnullエントリを表示するかどうか。GM 2024.11以降のゲームでは、通常、コンパイラによって削除された未使用のアセットがnullエントリとして表示されます。GUIでのサポートが限られているため、デフォルトでは無効になっています。</value>
   </data>
   <data name="Settings_Language" xml:space="preserve">
-    <value>言語</value>
+    <value>言語:</value>
   </data>
   <data name="Settings_LanguageToolTip" xml:space="preserve">
     <value>アプリケーションの言語を選択してください。</value>
@@ -1049,7 +1049,7 @@
     <value>親</value>
   </data>
   <data name="Editor_GameObj_TextureMaskId" xml:space="preserve">
-    <value>テクスチャマスクID</value>
+    <value>テクスチャマスクid</value>
   </data>
   <data name="Editor_GameObj_UsesPhysics" xml:space="preserve">
     <value>物理を使用する</value>
@@ -1082,7 +1082,7 @@
     <value>フリクション</value>
   </data>
   <data name="Editor_GameObj_IsAwake" xml:space="preserve">
-    <value>Awake</value>
+    <value>起動中</value>
   </data>
   <data name="Editor_GameObj_IsKinematic" xml:space="preserve">
     <value>運動的</value>
@@ -1094,7 +1094,7 @@
     <value>イベント</value>
   </data>
   <data name="Editor_GameObj_SubtypeID" xml:space="preserve">
-    <value>サブタイプID</value>
+    <value>サブタイプ ID</value>
   </data>
   <data name="Editor_GameObj_Actions" xml:space="preserve">
     <value>アクション</value>
@@ -1127,7 +1127,7 @@
     <value>アセンダーオフセット</value>
   </data>
   <data name="Editor_Font_SDFSpread" xml:space="preserve">
-    <value>SDFスプレッド値</value>
+    <value>SDF 伝播値</value>
   </data>
   <data name="Editor_Font_LineHeight" xml:space="preserve">
     <value>行の高さ</value>
@@ -1170,15 +1170,15 @@
   </data>
   <data name="Editor_Font_GlyphSortNote" xml:space="preserve">
     <value>グリフは昇順で指定する必要があることに注意してください。
-
 以下のボタンを押して、適切に並べ替えてください。</value>
   </data>
   <data name="Editor_Font_SortGlyphs" xml:space="preserve">
     <value>グリフを並べ替える</value>
   </data>
   <data name="Editor_Font_UpdateRangeNote" xml:space="preserve">
-    <value>また、新しい文字を追加した場合、または既存のグリフの文字を変更した場合は、フォント範囲を更新する必要があります。
-更新するには、下のボタンを押してください。</value>
+    <value>また、新しい文字を追加したり、既存のグリフの
+文字を変更したりした場合は、フォント範囲を更新する必要があります。
+更新するには、下のボタンをクリックしてください。</value>
   </data>
   <data name="Editor_Font_UpdateRange" xml:space="preserve">
     <value>更新範囲</value>
@@ -1214,7 +1214,7 @@
     <value>GLSL 頂点ソース</value>
   </data>
   <data name="Editor_Shader_GLSLFragment" xml:space="preserve">
-    <value>GLSLフラグメントソース</value>
+    <value>GLSL フラグメントソース</value>
   </data>
   <data name="Room_Backgrounds" xml:space="preserve">
     <value>バックグラウンド</value>
@@ -1289,7 +1289,7 @@
     <value>オブジェクトを追跡</value>
   </data>
   <data name="Room_InstanceID" xml:space="preserve">
-    <value>インスタンスID</value>
+    <value>インスタンス ID</value>
   </data>
   <data name="Room_CreationCodeObj" xml:space="preserve">
     <value>オブジェクト作成コード</value>
@@ -1307,14 +1307,14 @@
     <value>ソース</value>
   </data>
   <data name="Room_TileSelectHint" xml:space="preserve">
-    <value>ヒント：タイルをクリックすると、そのタイルを選択できます。
+    <value>ヒント: タイルをクリックすると、そのタイルを選択できます。
 タイルの領域を選択するには、ALT キーを押したままにします。</value>
   </data>
   <data name="Room_LayerName" xml:space="preserve">
     <value>レイヤー名</value>
   </data>
   <data name="Room_LayerID" xml:space="preserve">
-    <value>レイヤーID</value>
+    <value>レイヤー id</value>
   </data>
   <data name="Room_LayerType" xml:space="preserve">
     <value>レイヤータイプ</value>
@@ -1347,7 +1347,7 @@
     <value>アニメーション速度</value>
   </data>
   <data name="Room_SaveAsPNG" xml:space="preserve">
-    <value>PNGとして保存</value>
+    <value>PNG として保存</value>
   </data>
   <data name="Room_CopyObject" xml:space="preserve">
     <value>オブジェクトをコピー</value>
@@ -1437,7 +1437,7 @@
     <value>パーティクルシステム形式</value>
   </data>
   <data name="Room_TileGMS1Format" xml:space="preserve">
-    <value>{1}枚中{0}枚目 (UndertaleRoom+Tile)</value>
+    <value>{1} 枚中 {0} 枚目 (UndertaleRoom+Tile)</value>
   </data>
   <data name="Msg_WelcomeTitle" xml:space="preserve">
     <value>UndertaleModToolへようこそ！</value>
@@ -1471,10 +1471,10 @@
     <value>このアセットはエクスポート対象としてマークされています。</value>
   </data>
   <data name="Msg_ObjectIDTooltip" xml:space="preserve">
-    <value>これは、現在開かれているアセット、アイテム、またはオブジェクトのID（インデックス）です。0から始まります。</value>
+    <value>これは、現在開かれているアセット、アイテム、またはオブジェクトの ID（インデックス）です。0 から始まります。</value>
   </data>
   <data name="Msg_FirstTimeSetup" xml:space="preserve">
-    <value>初回設定：GameMakerのデータファイル（.winなど）をUndertaleModToolに関連付けますか？</value>
+    <value>初回設定：GameMaker のデータファイル（.win など）を UndertaleModTool に関連付けますか？</value>
   </data>
   <data name="Msg_FileAssociations" xml:space="preserve">
     <value>ファイルの関連付け</value>
@@ -1565,7 +1565,7 @@
     <value>インスタンスタイプ</value>
   </data>
   <data name="Editor_Variable_VarID" xml:space="preserve">
-    <value>VarID</value>
+    <value>変数 ID</value>
   </data>
   <data name="Editor_Variable_NameStringID" xml:space="preserve">
     <value>名前文字列 ID</value>
@@ -1648,8 +1648,8 @@
     <value>引数の型</value>
   </data>
   <data name="Editor_ExtFunc_KindRunnerNote" xml:space="preserve">
-    <value>ランナーは 'Kind' の値をまったく気にしません。
-ただし 'ID' は重要なので、重複がないことを確認してください。</value>
+    <value>ランナーは "Kind" の値をまったく気にしません。
+ただし "ID" は重要なので、重複がないことを確認してください。</value>
   </data>
   <data name="Editor_AudioGroup_Path" xml:space="preserve">
     <value>パス（GM 2024.14+）</value>
@@ -1729,7 +1729,7 @@
     <value>ゲーム実行ファイル名または場所が null です</value>
   </data>
   <data name="Msg_FailedFindGameExePath" xml:space="preserve">
-    <value>有効なゲーム実行ファイルのパスを見つけられませんでした。ディレクトリを抜けました。</value>
+    <value>有効なゲーム実行ファイルのパスが見つかりませんでした。ディレクトリの範囲外です</value>
   </data>
   <data name="Msg_CannotFindGameExePath" xml:space="preserve">
     <value>ゲーム実行ファイルのパスが見つかりません。期待値: {0}</value>
@@ -1849,9 +1849,9 @@
     <value>{0} を削除しますか？</value>
   </data>
   <data name="Msg_DeleteObjectShiftNote" xml:space="preserve">
-    <value>{0} を削除しますか？
+    <value>{0}を削除しますか？
 
-コードはしばしばオブジェクトを ID で参照するため、この操作により他の項目が上にずれて壊れる可能性があります。</value>
+コードではオブジェクトをIDで参照することが多いため、この操作を行うと他の項目が上にずれてしまい、不具合が発生する可能性がありますのでご注意ください！</value>
   </data>
   <data name="Msg_InvalidIdentifierAddAutoName" xml:space="preserve">
     <value>アセット名 "{0}" は有効な識別子ではありません。自動生成の名前を使って新しいアセットを追加しますか？</value>
@@ -1963,7 +1963,7 @@
     <value>新しいプロジェクト</value>
   </data>
   <data name="Cmd_OpenProject" xml:space="preserve">
-    <value>Open project</value>
+    <value>プロジェクトを開く</value>
   </data>
   <data name="Cmd_SaveProject" xml:space="preserve">
     <value>プロジェクトを保存</value>
@@ -2226,7 +2226,7 @@
     <value>不明</value>
   </data>
   <data name="Common_UndertaleModTool" xml:space="preserve">
-    <value>UndertaleModTool</value>
+    <value>Undertaleモッドツール</value>
   </data>
   <data name="Common_Create" xml:space="preserve">
     <value>作成</value>
@@ -2283,7 +2283,7 @@
     <value>新しいアセットレイヤー</value>
   </data>
   <data name="Editor_NewExtensionFile" xml:space="preserve">
-    <value>NewExtensionFile{0}.dll</value>
+    <value>新しい拡張機能ファイル{0}.dll</value>
   </data>
   <data name="Editor_NewExtensionOption" xml:space="preserve">
     <value>拡張機能オプション{0}</value>
@@ -2673,7 +2673,7 @@ UndertaleModToolを終了すると、
     <value>オブジェクト「{0}」をハイライトできません - オブジェクト一覧に含まれる要素が見つかりません。</value>
   </data>
   <data name="Msg_HTTPError" xml:space="preserve">
-    <value>HTTP error - {0}.</value>
+    <value>HTTP エラー - {0}.</value>
   </data>
   <data name="Msg_CheckInternetConnection" xml:space="preserve">
     <value>インターネット接続を確認してください。</value>
@@ -2974,7 +2974,7 @@ DISASSEMBLY FAILED!
     <value>新しいバージョンのダウンロード中...</value>
   </data>
   <data name="Msg_LinePrefix" xml:space="preserve">
-    <value>Line </value>
+    <value>行 </value>
   </data>
   <data name="Setup_FileAssociationQuestion" xml:space="preserve">
     <value>初回セットアップ: GameMaker のデータファイル（.win など）を UndertaleModTool に関連付けますか？</value>
@@ -3020,7 +3020,7 @@ DISASSEMBLY FAILED!
     <value>(空の {0} 参照)</value>
   </data>
   <data name="Ctrl_StringRefToolTip" xml:space="preserve">
-    <value>これは文字列の参照です。ここで値を変更すると、参照されているすべての値のうち、この値のみが編集されます。または、左側のツリーから別の文字列インスタンスをドラッグ＆ドロップして、参照先を変更することもできます。</value>
+    <value>これは文字列の参照です。ここで値を変更すると、参照されているすべての値のうち、この値のみが編集されます。または、左側のツリーから別の文字列インスタンスをドラッグ＆ドロップして、参照先を変更することもできます</value>
   </data>
   <data name="Ctrl_Null" xml:space="preserve">
     <value>（null）</value>
@@ -3084,19 +3084,19 @@ data.win を開くように言ったのに、新しいファイルを作るな�
     <value>ページ項目 {0}</value>
   </data>
   <data name="DefaultName_EmbeddedSound" xml:space="preserve">
-    <value>EmbeddedSound {0}</value>
+    <value>埋め込みサウンド {0}</value>
   </data>
   <data name="DefaultName_Texture" xml:space="preserve">
-    <value>Texture {0}</value>
+    <value>テクスチャ {0}</value>
   </data>
   <data name="DefaultName_String" xml:space="preserve">
-    <value>string{0}</value>
+    <value>文字列{0}</value>
   </data>
   <data name="Status_DefaultNewName" xml:space="preserve">
-    <value>New</value>
+    <value>新規</value>
   </data>
   <data name="Status_DefaultModSuffix" xml:space="preserve">
-    <value> Mod</value>
+    <value> モッド</value>
   </data>
   <data name="Editor_EmitterName" xml:space="preserve">
     <value>名前</value>
@@ -3105,34 +3105,34 @@ data.win を開くように言ったのに、新しいファイルを作るな�
     <value>有効</value>
   </data>
   <data name="Editor_EmitMode" xml:space="preserve">
-    <value>Emit mode</value>
+    <value>発生モード</value>
   </data>
   <data name="Editor_EmitCount" xml:space="preserve">
-    <value>Emit count</value>
+    <value>発生数</value>
   </data>
   <data name="Editor_EmitRelative" xml:space="preserve">
-    <value>Emit relative</value>
+    <value>相対発生</value>
   </data>
   <data name="Editor_DelayMinMax" xml:space="preserve">
-    <value>Delay min|max</value>
+    <value>遅延 min|max</value>
   </data>
   <data name="Editor_DelayMeasuredIn" xml:space="preserve">
-    <value>Delay measured in:</value>
+    <value>遅延の単位:</value>
   </data>
   <data name="Editor_IntervalMinMax" xml:space="preserve">
-    <value>Interval min|max</value>
+    <value>間隔 min|max</value>
   </data>
   <data name="Editor_IntervalMeasuredIn" xml:space="preserve">
-    <value>Interval measured in:</value>
+    <value>間隔の単位:</value>
   </data>
   <data name="Editor_Distribution" xml:space="preserve">
-    <value>Distribution</value>
+    <value>分布</value>
   </data>
   <data name="Editor_Shape" xml:space="preserve">
-    <value>Shape</value>
+    <value>形状</value>
   </data>
   <data name="Editor_RegionXYWidthHeight" xml:space="preserve">
-    <value>Region X|Y|Width|Height</value>
+    <value>領域 X|Y|幅|高さ</value>
   </data>
   <data name="Editor_Rotation" xml:space="preserve">
     <value>回転</value>
@@ -3141,108 +3141,108 @@ data.win を開くように言ったのに、新しいファイルを作るな�
     <value>スプライト</value>
   </data>
   <data name="Editor_SpriteFrameIndex" xml:space="preserve">
-    <value>Sprite frame index</value>
+    <value>スプライトフレームインデックス</value>
   </data>
   <data name="Editor_AnimateSprite" xml:space="preserve">
-    <value>Animate sprite</value>
+    <value>スプライトをアニメーション</value>
   </data>
   <data name="Editor_StretchSprite" xml:space="preserve">
-    <value>Stretch sprite</value>
+    <value>スプライトを伸縮</value>
   </data>
   <data name="Editor_Random" xml:space="preserve">
-    <value>Random</value>
+    <value>ランダム</value>
   </data>
   <data name="Editor_Texture" xml:space="preserve">
     <value>テクスチャ</value>
   </data>
   <data name="Editor_StartColor" xml:space="preserve">
-    <value>Start color</value>
+    <value>開始色</value>
   </data>
   <data name="Editor_MiddleColor" xml:space="preserve">
-    <value>Middle color</value>
+    <value>中間色</value>
   </data>
   <data name="Editor_EndColor" xml:space="preserve">
-    <value>End color</value>
+    <value>終了色</value>
   </data>
   <data name="Editor_AdditiveColorBlend" xml:space="preserve">
-    <value>Additive color blend</value>
+    <value>加算カラー合成</value>
   </data>
   <data name="Editor_LifetimeMinMax" xml:space="preserve">
-    <value>Lifetime min|max</value>
+    <value>寿命 min|max</value>
   </data>
   <data name="Editor_ScaleXY" xml:space="preserve">
-    <value>Scale X|Y</value>
+    <value>拡大率 X|Y</value>
   </data>
   <data name="Editor_SizeHint" xml:space="preserve">
-    <value>Hint: Prior to GM 2023.8, these "Size" values were not split by x and y.
-UndertaleModTool represents this by averaging the values.
-For best results, enter the same value in both fields.</value>
+    <value>ヒント: GM 2023.8 以前では、「サイズ」値は X と Y に分割されていません。
+UndertaleModTool はこれを平均化して処理します。
+最良の結果を得るには、両方の欄に同じ値を入力してください。</value>
   </data>
   <data name="Editor_SizeMin" xml:space="preserve">
-    <value>Size min</value>
+    <value>最小サイズ</value>
   </data>
   <data name="Editor_SizeMax" xml:space="preserve">
-    <value>Size max</value>
+    <value>最大サイズ</value>
   </data>
   <data name="Editor_SizeIncrease" xml:space="preserve">
-    <value>Size increase</value>
+    <value>サイズの増加</value>
   </data>
   <data name="Editor_SizeWiggle" xml:space="preserve">
-    <value>Size wiggle</value>
+    <value>サイズの揺れ</value>
   </data>
   <data name="Editor_SpeedMinMax" xml:space="preserve">
-    <value>Speed min|max</value>
+    <value>速度 min|max</value>
   </data>
   <data name="Editor_SpeedIncreaseWiggle" xml:space="preserve">
-    <value>Speed increase|wiggle</value>
+    <value>速度の増加|揺れ</value>
   </data>
   <data name="Editor_GravityForceDirection" xml:space="preserve">
-    <value>Gravity force|direction</value>
+    <value>重力の強さ|方向</value>
   </data>
   <data name="Editor_DirectionMinMax" xml:space="preserve">
-    <value>Direction min|max</value>
+    <value>方向 min|max</value>
   </data>
   <data name="Editor_DirectionIncreaseWiggle" xml:space="preserve">
-    <value>Direction increase|wiggle</value>
+    <value>方向の増加|揺れ</value>
   </data>
   <data name="Editor_OrientationMinMax" xml:space="preserve">
-    <value>Orientation min|max</value>
+    <value>向き min|max</value>
   </data>
   <data name="Editor_OrientationIncreaseWiggle" xml:space="preserve">
-    <value>Orientation increase|wiggle</value>
+    <value>向きの増加|揺れ</value>
   </data>
   <data name="Editor_IsOrientationRelative" xml:space="preserve">
-    <value>Is orientation relative</value>
+    <value>向きが相対的か</value>
   </data>
   <data name="Editor_SpawnOnDeath" xml:space="preserve">
-    <value>Spawn on death</value>
+    <value>死亡時に生成</value>
   </data>
   <data name="Editor_SpawnOnDeathCount" xml:space="preserve">
-    <value>Spawn on death count</value>
+    <value>死亡時生成数</value>
   </data>
   <data name="Editor_SpawnOnUpdate" xml:space="preserve">
-    <value>Spawn on update</value>
+    <value>更新時に生成</value>
   </data>
   <data name="Editor_SpawnOnUpdateCount" xml:space="preserve">
-    <value>Spawn on update count</value>
+    <value>更新時生成数</value>
   </data>
   <data name="Editor_LocalVariables" xml:space="preserve">
-    <value>Local variables</value>
+    <value>ローカル変数</value>
   </data>
   <data name="Editor_Index" xml:space="preserve">
-    <value>Index</value>
+    <value>インデックス</value>
   </data>
   <data name="Editor_Variables" xml:space="preserve">
     <value>変数</value>
   </data>
   <data name="Editor_InstGlobalVarCount" xml:space="preserve">
-    <value>Instance/global variable count</value>
+    <value>インスタンス/グローバル変数の数</value>
   </data>
   <data name="Editor_InstGlobalVarCountAgain" xml:space="preserve">
-    <value>Instance/global variable count (again)</value>
+    <value>インスタンス/グローバル変数の数（再度）</value>
   </data>
   <data name="Editor_MaxLocalVarCount" xml:space="preserve">
-    <value>Max local variable count</value>
+    <value>最大ローカル変数数</value>
   </data>
   <data name="Editor_ExtFuncExternalName" xml:space="preserve">
     <value>外部名</value>
@@ -3270,68 +3270,68 @@ For best results, enter the same value in both fields.</value>
     <value>関数</value>
   </data>
   <data name="Editor_GlobalInitScripts" xml:space="preserve">
-    <value>Global initialization scripts</value>
+    <value>グローバル初期化スクリプト</value>
   </data>
   <data name="Editor_GameEndScripts" xml:space="preserve">
     <value>ゲーム終了スクリプト</value>
   </data>
   <data name="Tile_EditTitle" xml:space="preserve">
-    <value>Edit Tile Data</value>
+    <value>タイルデータを編集</value>
   </data>
   <data name="Tile_MirrorX" xml:space="preserve">
-    <value>Mirror the brush around the X axis (X)</value>
+    <value>ブラシを X 軸で反転（X）</value>
   </data>
   <data name="Tile_FlipY" xml:space="preserve">
-    <value>Flip the brush around the Y axis (Y/Z)</value>
+    <value>ブラシを Y 軸で反転（Y/Z）</value>
   </data>
   <data name="Tile_Rotate90" xml:space="preserve">
-    <value>Rotate the brush 90 degrees (Q, R)</value>
+    <value>ブラシを 90 度回転（Q、R）</value>
   </data>
   <data name="Tile_ShowRoomBehind" xml:space="preserve">
-    <value>Show the rest of the room behind the tilemap (P)</value>
+    <value>タイルマップの背後の部屋を表示（P）</value>
   </data>
   <data name="Tile_EnableTiling" xml:space="preserve">
-    <value>Enable the "tiling" behavior when using multi-tile brushes (B)</value>
+    <value>マルチタイルブラシ使用時に「タイリング」動作を有効化（B）</value>
   </data>
   <data name="Tile_ShowGrid" xml:space="preserve">
-    <value>Show the tile grid (G)</value>
+    <value>タイルグリッドを表示（G）</value>
   </data>
   <data name="Tile_Undo" xml:space="preserve">
-    <value>Undo (Ctrl+Z)</value>
+    <value>元に戻す（Ctrl+Z）</value>
   </data>
   <data name="Tile_Redo" xml:space="preserve">
-    <value>Redo (Ctrl+Y, Ctrl+Shift+Z)</value>
+    <value>やり直す（Ctrl+Y、Ctrl+Shift+Z）</value>
   </data>
   <data name="Tile_TilesetColumns" xml:space="preserve">
-    <value>Tileset columns</value>
+    <value>タイルセットの列数</value>
   </data>
   <data name="Tile_TilesetColumnsToolTip" xml:space="preserve">
-    <value>Number of columns to use for the tile palette. Adjust if the tileset looks broken.
-Persists when the tile editor is closed, but not when the file is saved and reopened.</value>
+    <value>タイルパレットに使用する列数。タイルセットが壊れているように見える場合は調整してください。
+タイルエディターを閉じても保持されますが、ファイルを保存して再度開いたときには保持されません。</value>
   </data>
   <data name="Tile_ControlsHint" xml:space="preserve">
-    <value>Ctrl+LMB: Fill (+Shift: Global)    Alt+LMB: Pick    MMB: Scroll/Pick</value>
+    <value>Ctrl+LMB: 塗りつぶし（+Shift: 全体）    Alt+LMB: 選択    MMB: スクロール/選択</value>
   </data>
   <data name="Tile_Cancel" xml:space="preserve">
     <value>キャンセル</value>
   </data>
   <data name="Tile_Apply" xml:space="preserve">
-    <value>Apply</value>
+    <value>適用</value>
   </data>
   <data name="Tile_Preview" xml:space="preserve">
-    <value>Preview</value>
+    <value>プレビュー</value>
   </data>
   <data name="Tile_BrushTiling" xml:space="preserve">
-    <value>Brush Tiling</value>
+    <value>ブラシのタイリング</value>
   </data>
   <data name="Tile_Grid" xml:space="preserve">
-    <value>Grid</value>
+    <value>グリッド</value>
   </data>
   <data name="Glyph_EditTitle" xml:space="preserve">
-    <value>Edit a font glyph rectangle</value>
+    <value>フォントグリフ矩形を編集</value>
   </data>
   <data name="Glyph_GetHelp" xml:space="preserve">
-    <value>Get help</value>
+    <value>ヘルプを表示</value>
   </data>
   <data name="Ctrl_OpenReferencedObject" xml:space="preserve">
     <value>参照先オブジェクトを開く</value>
@@ -3340,13 +3340,13 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>これはオブジェクト参照です。左側のツリーから対応する型のオブジェクトをドラッグ＆ドロップして変更してください！</value>
   </data>
   <data name="Ctrl_CreateNewCode" xml:space="preserve">
-    <value>Create new code entry</value>
+    <value>新しいコードエントリを作成</value>
   </data>
   <data name="Ctrl_RemoveReference" xml:space="preserve">
     <value>参照を削除</value>
   </data>
   <data name="Ctrl_AddInPlaceUnimplemented" xml:space="preserve">
-    <value>Add in place (unimplemented)</value>
+    <value>その場に追加（未実装）</value>
   </data>
   <data name="RefType_Sprites" xml:space="preserve">
     <value>スプライト</value>
@@ -3367,13 +3367,13 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>ゲームオブジェクト</value>
   </data>
   <data name="RefType_GameObjectsChildren" xml:space="preserve">
-    <value>Game objects (children)</value>
+    <value>ゲームオブジェクト（子要素）</value>
   </data>
   <data name="RefType_CodeEntries" xml:space="preserve">
-    <value>Code entries</value>
+    <value>コードエントリ</value>
   </data>
   <data name="RefType_CodeEntriesNameAndContents" xml:space="preserve">
-    <value>Code entries (name &amp; contents)</value>
+    <value>コードエントリ（名前と内容）</value>
   </data>
   <data name="RefType_Functions" xml:space="preserve">
     <value>関数</value>
@@ -3412,19 +3412,19 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>拡張機能</value>
   </data>
   <data name="RefType_ExtensionOptions" xml:space="preserve">
-    <value>Extension options</value>
+    <value>拡張機能オプション</value>
   </data>
   <data name="RefType_ExtensionFiles" xml:space="preserve">
-    <value>Extension files</value>
+    <value>拡張ファイル</value>
   </data>
   <data name="RefType_ExtensionFunctions" xml:space="preserve">
-    <value>Extension functions</value>
+    <value>拡張関数</value>
   </data>
   <data name="RefType_GeneralInfo" xml:space="preserve">
     <value>一般情報</value>
   </data>
   <data name="RefType_GameOptionsConstants" xml:space="preserve">
-    <value>Game options constants</value>
+    <value>ゲームオプション定数</value>
   </data>
   <data name="RefType_Rooms" xml:space="preserve">
     <value>部屋</value>
@@ -3436,85 +3436,85 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>ローカル変数</value>
   </data>
   <data name="RefType_Languages" xml:space="preserve">
-    <value>Languages</value>
+    <value>言語</value>
   </data>
   <data name="RefType_TextureGroups" xml:space="preserve">
-    <value>Texture groups</value>
+    <value>テクスチャグループ</value>
   </data>
   <data name="RefType_EmbeddedImages" xml:space="preserve">
     <value>埋め込み画像</value>
   </data>
   <data name="RefType_RoomTiles" xml:space="preserve">
-    <value>Room tiles</value>
+    <value>ルームタイル</value>
   </data>
   <data name="RefType_RoomSpriteInstances" xml:space="preserve">
-    <value>Room sprite instances</value>
+    <value>ルームスプライトインスタンス</value>
   </data>
   <data name="RefType_RoomBackgroundLayers" xml:space="preserve">
-    <value>Room background layers</value>
+    <value>ルーム背景レイヤー</value>
   </data>
   <data name="RefType_RoomBackgrounds" xml:space="preserve">
-    <value>Room backgrounds</value>
+    <value>ルーム背景</value>
   </data>
   <data name="RefType_RoomTileLayers" xml:space="preserve">
-    <value>Room tile layers</value>
+    <value>ルームタイルレイヤー</value>
   </data>
   <data name="RefType_RoomTileLayer" xml:space="preserve">
-    <value>Room tile layer</value>
+    <value>ルームタイルレイヤー</value>
   </data>
   <data name="RefType_RoomLayers" xml:space="preserve">
-    <value>Room layers</value>
+    <value>ルームレイヤー</value>
   </data>
   <data name="RefType_RoomObjectInstance" xml:space="preserve">
-    <value>Room object instance</value>
+    <value>ルームオブジェクトインスタンス</value>
   </data>
   <data name="RefType_RoomObjectInstancesCreationCode" xml:space="preserve">
-    <value>Room object instances (creation code)</value>
+    <value>ルームオブジェクトインスタンス（作成コード）</value>
   </data>
   <data name="RefType_RoomObjectInstancesCreationOrPreCreateCode" xml:space="preserve">
-    <value>Room object instances (creation or pre create code)</value>
+    <value>ルームオブジェクトインスタンス（作成コードまたは事前作成コード）</value>
   </data>
   <data name="RefType_RoomSequenceInstances" xml:space="preserve">
-    <value>Room sequence instances</value>
+    <value>ルームシーケンスインスタンス</value>
   </data>
   <data name="RefType_RoomParticleSystemInstances" xml:space="preserve">
-    <value>Room particle system instances</value>
+    <value>ルームパーティクルシステムインスタンス</value>
   </data>
   <data name="RefType_RoomParticleSystemInstance" xml:space="preserve">
-    <value>Room particle system instance</value>
+    <value>ルームパーティクルシステムインスタンス</value>
   </data>
   <data name="RefType_RoomEffectProperties" xml:space="preserve">
-    <value>Room effect properties</value>
+    <value>ルームエフェクトのプロパティ</value>
   </data>
   <data name="RefType_AnimationCurves" xml:space="preserve">
-    <value>Animation curves</value>
+    <value>アニメーションカーブ</value>
   </data>
   <data name="RefType_AnimationCurveChannels" xml:space="preserve">
-    <value>Animation curve channels</value>
+    <value>アニメーションカーブチャンネル</value>
   </data>
   <data name="RefType_Sequences" xml:space="preserve">
-    <value>Sequences</value>
+    <value>シーケンス</value>
   </data>
   <data name="RefType_SequenceTracks" xml:space="preserve">
-    <value>Sequence tracks</value>
+    <value>シーケンストラック</value>
   </data>
   <data name="RefType_SequenceStringKeyframes" xml:space="preserve">
-    <value>Sequence string keyframes</value>
+    <value>シーケンス文字列キーフレーム</value>
   </data>
   <data name="RefType_SequenceTextKeyframes" xml:space="preserve">
-    <value>Sequence text keyframes</value>
+    <value>シーケンステキストキーフレーム</value>
   </data>
   <data name="RefType_SequenceBroadcastMessages" xml:space="preserve">
-    <value>Sequence broadcast messages</value>
+    <value>シーケンス放送メッセージ</value>
   </data>
   <data name="RefType_SequenceMoments" xml:space="preserve">
-    <value>Sequence moments</value>
+    <value>シーケンスモーメント</value>
   </data>
   <data name="RefType_SequenceInstanceKeyframes" xml:space="preserve">
-    <value>Sequence instance keyframes</value>
+    <value>シーケンスインスタンスキーフレーム</value>
   </data>
   <data name="RefType_SequenceObjectInstanceKeyframes" xml:space="preserve">
-    <value>Sequence object instance keyframes</value>
+    <value>シーケンスオブジェクトインスタンスキーフレーム</value>
   </data>
   <data name="RefType_ParticleSystems" xml:space="preserve">
     <value>パーティクルシステム</value>
@@ -3523,31 +3523,31 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>パーティクルシステムエミッター</value>
   </data>
   <data name="RefType_FilterEffects" xml:space="preserve">
-    <value>Filter effects</value>
+    <value>フィルター効果</value>
   </data>
   <data name="RefType_GlobalInit" xml:space="preserve">
-    <value>Global init scripts</value>
+    <value>グローバル初期化スクリプト</value>
   </data>
   <data name="RefType_GameEndScripts" xml:space="preserve">
     <value>ゲーム終了スクリプト</value>
   </data>
   <data name="RefType_GlobalInitAndGameEndScripts" xml:space="preserve">
-    <value>Global init &amp; Game End scripts</value>
+    <value>グローバル初期化とゲーム終了スクリプト</value>
   </data>
   <data name="RefType_Assets" xml:space="preserve">
-    <value>Assets</value>
+    <value>アセット</value>
   </data>
   <data name="Msg_PleaseWait" xml:space="preserve">
     <value>しばらくお待ちください...</value>
   </data>
   <data name="RuntimePicker_GameEXE" xml:space="preserve">
-    <value>Game EXE</value>
+    <value>ゲーム EXE</value>
   </data>
   <data name="RuntimePicker_GMS14Version" xml:space="preserve">
     <value>1.4.xxx</value>
   </data>
   <data name="RuntimePicker_UnableToFindRuntime" xml:space="preserve">
-    <value>Unable to find game EXE or any installed Studio runtime</value>
+    <value>ゲーム EXE またはインストール済みの Studio ランタイムが見つかりません</value>
   </data>
   <data name="LoaderDialog_ProgressFormat" xml:space="preserve">
     <value>{0}/{1}</value>
@@ -3556,16 +3556,16 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>{0}/{1}: {2}</value>
   </data>
   <data name="ProjectAssets_NoEditorForType" xml:space="preserve">
-    <value>The type of this object doesn't have an editor/viewer.</value>
+    <value>このオブジェクトの種類にはエディター/ビューアがありません。</value>
   </data>
   <data name="Common_Paste" xml:space="preserve">
-    <value>Paste</value>
+    <value>貼り付け</value>
   </data>
   <data name="Common_Continue" xml:space="preserve">
     <value>続行</value>
   </data>
   <data name="Common_Value" xml:space="preserve">
-    <value>Value</value>
+    <value>値</value>
   </data>
   <data name="Common_Remove" xml:space="preserve">
     <value>削除</value>
@@ -3577,94 +3577,94 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>_プロジェクトを閉じる</value>
   </data>
   <data name="Tab_Untitled" xml:space="preserve">
-    <value>Untitled</value>
+    <value>名称未設定</value>
   </data>
   <data name="Tab_AudioGroup" xml:space="preserve">
-    <value>Audio Group</value>
+    <value>オーディオグループ</value>
   </data>
   <data name="Tab_Sound" xml:space="preserve">
-    <value>Sound</value>
+    <value>サウンド</value>
   </data>
   <data name="Tab_Sprite" xml:space="preserve">
     <value>スプライト</value>
   </data>
   <data name="Tab_Background" xml:space="preserve">
-    <value>Background</value>
+    <value>背景</value>
   </data>
   <data name="Tab_Path" xml:space="preserve">
     <value>パス</value>
   </data>
   <data name="Tab_Script" xml:space="preserve">
-    <value>Script</value>
+    <value>スクリプト</value>
   </data>
   <data name="Tab_Shader" xml:space="preserve">
-    <value>Shader</value>
+    <value>シェーダー</value>
   </data>
   <data name="Tab_Font" xml:space="preserve">
-    <value>Font</value>
+    <value>フォント</value>
   </data>
   <data name="Tab_Timeline" xml:space="preserve">
-    <value>Timeline</value>
+    <value>タイムライン</value>
   </data>
   <data name="Tab_GameObject" xml:space="preserve">
-    <value>Game Object</value>
+    <value>ゲームオブジェクト</value>
   </data>
   <data name="Tab_Room" xml:space="preserve">
-    <value>Room</value>
+    <value>ルーム</value>
   </data>
   <data name="Tab_Extension" xml:space="preserve">
-    <value>Extension</value>
+    <value>拡張機能</value>
   </data>
   <data name="Tab_TexturePageItem" xml:space="preserve">
-    <value>Texture Page Item</value>
+    <value>テクスチャページアイテム</value>
   </data>
   <data name="Tab_Code" xml:space="preserve">
     <value>コード</value>
   </data>
   <data name="Tab_Variable" xml:space="preserve">
-    <value>Variable</value>
+    <value>変数</value>
   </data>
   <data name="Tab_Function" xml:space="preserve">
-    <value>Function</value>
+    <value>関数</value>
   </data>
   <data name="Tab_CodeLocals" xml:space="preserve">
-    <value>Code Locals</value>
+    <value>コードローカル</value>
   </data>
   <data name="Tab_EmbeddedTexture" xml:space="preserve">
-    <value>Embedded Texture</value>
+    <value>埋め込みテクスチャ</value>
   </data>
   <data name="Tab_EmbeddedAudio" xml:space="preserve">
-    <value>Embedded Audio</value>
+    <value>埋め込みオーディオ</value>
   </data>
   <data name="Tab_TextureGroupInfo" xml:space="preserve">
-    <value>Texture Group info</value>
+    <value>テクスチャグループ情報</value>
   </data>
   <data name="Tab_EmbeddedImage" xml:space="preserve">
-    <value>Embedded Image</value>
+    <value>埋め込み画像</value>
   </data>
   <data name="Tab_Sequence" xml:space="preserve">
-    <value>Sequence</value>
+    <value>シーケンス</value>
   </data>
   <data name="Tab_AnimationCurve" xml:space="preserve">
-    <value>Animation Curve</value>
+    <value>アニメーションカーブ</value>
   </data>
   <data name="Tab_ParticleSystem" xml:space="preserve">
-    <value>Particle System</value>
+    <value>パーティクルシステム</value>
   </data>
   <data name="Tab_ParticleSystemEmitter" xml:space="preserve">
-    <value>Particle System Emitter</value>
+    <value>パーティクルシステムエミッター</value>
   </data>
   <data name="Tab_String" xml:space="preserve">
-    <value>String</value>
+    <value>文字列</value>
   </data>
   <data name="Tab_ExtensionFile" xml:space="preserve">
-    <value>Extension File</value>
+    <value>拡張ファイル</value>
   </data>
   <data name="Tab_ExtensionFunction" xml:space="preserve">
-    <value>Extension Function</value>
+    <value>拡張関数</value>
   </data>
   <data name="Tab_VariablesOverview" xml:space="preserve">
-    <value>Variables overview</value>
+    <value>変数の概要</value>
   </data>
   <data name="Tab_GeneralInfo" xml:space="preserve">
     <value>一般情報</value>
@@ -3673,7 +3673,7 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>グローバル初期化</value>
   </data>
   <data name="Tab_GameEnd" xml:space="preserve">
-    <value>Game End</value>
+    <value>ゲーム終了</value>
   </data>
   <data name="Tab_EmptyString" xml:space="preserve">
     <value>（空文字列）</value>
@@ -3826,7 +3826,7 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>親</value>
   </data>
   <data name="Editor_TextureMaskId" xml:space="preserve">
-    <value>テクスチャマスク ID</value>
+    <value>テクスチャマスク id</value>
   </data>
   <data name="Editor_UsesPhysics" xml:space="preserve">
     <value>物理演算を使用</value>
@@ -3901,16 +3901,16 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>上:</value>
   </data>
   <data name="Editor_ErrorsFound" xml:space="preserve">
-    <value>Compilation errors ({0})</value>
+    <value>コンパイルエラー ({0})</value>
   </data>
   <data name="Editor_NoReferences" xml:space="preserve">
-    <value>No references found for "{0}"</value>
+    <value>「{0}」の参照は見つかりませんでした</value>
   </data>
   <data name="Editor_ReferencesFound" xml:space="preserve">
-    <value>References to "{0}" ({1})</value>
+    <value>「{0}」の参照 ({1})</value>
   </data>
   <data name="Editor_FindSymbol" xml:space="preserve">
-    <value>Find symbol</value>
+    <value>シンボルを検索</value>
   </data>
   <data name="Editor_Transparent" xml:space="preserve">
     <value>透明</value>
@@ -3925,7 +3925,7 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>境界ボックスモード</value>
   </data>
   <data name="Editor_SepMasks" xml:space="preserve">
-    <value>SepMasks</value>
+    <value>分離マスク</value>
   </data>
   <data name="Editor_Origin" xml:space="preserve">
     <value>原点</value>
@@ -4073,8 +4073,9 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>範囲を更新</value>
   </data>
   <data name="Editor_UpdateRangeNote" xml:space="preserve">
-    <value>また、新しい文字を追加した場合や既存のグリフの文字を変更した場合は、
-フォントの範囲も更新する必要があります。下のボタンを押してください。</value>
+    <value>また、新しい文字を追加したり、既存のグリフの
+文字を変更したりした場合は、フォント範囲を更新する必要があります。
+更新するには、下のボタンをクリックしてください。</value>
   </data>
   <data name="Editor_VersionLabel" xml:space="preserve">
     <value>バージョン</value>
@@ -4125,7 +4126,7 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>ヒント: 下の任意のタイル領域をクリックすると、上の ID が強調表示されます。</value>
   </data>
   <data name="Room_NewSprite" xml:space="preserve">
-    <value>New sprite</value>
+    <value>新しいスプライト</value>
   </data>
   <data name="Room_CreationCodeLabel" xml:space="preserve">
     <value>生成コード</value>
@@ -4147,13 +4148,13 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>自動</value>
   </data>
   <data name="Room_AutoTooltip" xml:space="preserve">
-    <value>Automatically determined</value>
+    <value>自動で決定</value>
   </data>
   <data name="Room_NoName" xml:space="preserve">
-    <value>(no name)</value>
+    <value>（名前なし）</value>
   </data>
   <data name="Msg_FileAssociationsQuestion" xml:space="preserve">
-    <value>Do you want to associate UndertaleModTool with GameMaker data files?</value>
+    <value>UndertaleModTool を GameMaker のデータファイルに関連付けますか？</value>
   </data>
   <data name="Msg_Warning" xml:space="preserve">
     <value>警告</value>
@@ -4162,13 +4163,13 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>エラー</value>
   </data>
   <data name="Msg_UndertaleModTool" xml:space="preserve">
-    <value>UndertaleModTool</value>
+    <value>Undertaleモッドツール</value>
   </data>
   <data name="Dialog_GMLSettings" xml:space="preserve">
     <value>設定 - GML コンパイラ/デコンパイラ</value>
   </data>
   <data name="Dialog_ClickableTextOutput" xml:space="preserve">
-    <value>Clickable text output</value>
+    <value>クリック可能なテキスト出力</value>
   </data>
   <data name="Filter_GameMakerDataFiles" xml:space="preserve">
     <value>GameMaker のデータファイル（.win、.unx、.ios、.droid、audiogroup*.dat）</value>
@@ -4231,7 +4232,7 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>すべてコピー</value>
   </data>
   <data name="StringUpdate_Title" xml:space="preserve">
-    <value>String reference edited</value>
+    <value>文字列参照が編集されました</value>
   </data>
   <data name="StringUpdate_Message" xml:space="preserve">
     <value>文字列参照を編集しました。どうしますか？</value>
@@ -4273,11 +4274,11 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>検索</value>
   </data>
   <data name="FindRef_ReferencesOf" xml:space="preserve">
-    <value>References of</value>
+    <value>参照元</value>
   </data>
   <data name="FindRef_SearchResultsFor" xml:space="preserve">
-    <value>The search results for the game object
-"".
+    <value>ゲームオブジェクトの検索結果
+"。
 </value>
   </data>
   <data name="TileEditor_Edit" xml:space="preserve">
@@ -4290,19 +4291,19 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>インポート</value>
   </data>
   <data name="GlyphRect_EditTitle" xml:space="preserve">
-    <value>Edit glyph rectangle</value>
+    <value>グリフ矩形を編集</value>
   </data>
   <data name="Common_False" xml:space="preserve">
-    <value>False</value>
+    <value>false</value>
   </data>
   <data name="Common_Welcome" xml:space="preserve">
     <value>ようこそ！</value>
   </data>
   <data name="Editor_2Spaces" xml:space="preserve">
-    <value>2 spaces</value>
+    <value>2スペース</value>
   </data>
   <data name="Editor_4Spaces" xml:space="preserve">
-    <value>4 spaces</value>
+    <value>4スペース</value>
   </data>
   <data name="Editor_ActionsCodeEntries" xml:space="preserve">
     <value>アクション（コードエントリ）</value>
@@ -4314,7 +4315,7 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>クラス名</value>
   </data>
   <data name="Editor_ClickTileRegionHint" xml:space="preserve">
-    <value>Hint: You can click on any tile region below to select it and edit its properties.</value>
+    <value>ヒント: 下のタイル領域をクリックして選択し、そのプロパティを編集できます。</value>
   </data>
   <data name="Editor_Code" xml:space="preserve">
     <value>コード</value>
@@ -4329,10 +4330,10 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>深度</value>
   </data>
   <data name="Editor_DrawOrder" xml:space="preserve">
-    <value>Draw order</value>
+    <value>描画順</value>
   </data>
   <data name="Editor_Emitters" xml:space="preserve">
-    <value>Emitters</value>
+    <value>エミッター</value>
   </data>
   <data name="Editor_ExportAllFramesOrSpine" xml:space="preserve">
     <value>すべてのフレームをエクスポート（Spine スプライトの場合は Spine データ）</value>
@@ -4359,7 +4360,7 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>GLSL 頂点シェーダーソース</value>
   </data>
   <data name="Editor_GlyphHint" xml:space="preserve">
-    <value>Hint: You can click on any glyph rectangle below to select it and edit its properties, or double-click to add a new glyph.</value>
+    <value>ヒント: 下のグリフ矩形をクリックして選択し、そのプロパティを編集できます。ダブルクリックで新しいグリフを追加できます。</value>
   </data>
   <data name="Editor_GroupName" xml:space="preserve">
     <value>グループ名</value>
@@ -4383,14 +4384,14 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>モーメント</value>
   </data>
   <data name="Editor_NewExtensionFunction" xml:space="preserve">
-    <value>new_extension_function_{0}</value>
+    <value>new_extension_function_{0} は、</value>
   </data>
   <data name="Editor_NewExtensionFunctionExt" xml:space="preserve">
-    <value>new_extension_function_{0}_ext</value>
+    <value>new_extension_function_{0} は、</value>
   </data>
   <data name="Editor_OffsetTooltip" xml:space="preserve">
-    <value>The number of pixels to horizontally offset the rendering of the glyph.
-It's highlighed in blue on the texture above.</value>
+    <value>グリフの描画を水平方向にずらすピクセル数です。
+青でハイライト表示されます。</value>
   </data>
   <data name="Editor_PathGM2024" xml:space="preserve">
     <value>パス（GM 2024.14+）</value>
@@ -4414,7 +4415,7 @@ It's highlighed in blue on the texture above.</value>
     <value>速度</value>
   </data>
   <data name="Editor_SpineSprites" xml:space="preserve">
-    <value>Spine Sprites</value>
+    <value>Spine スプライト</value>
   </data>
   <data name="Editor_Sprites" xml:space="preserve">
     <value>スプライト</value>
@@ -4423,7 +4424,7 @@ It's highlighed in blue on the texture above.</value>
     <value>ステップ</value>
   </data>
   <data name="Editor_Tabs" xml:space="preserve">
-    <value>Tabs</value>
+    <value>タブ</value>
   </data>
   <data name="Editor_TextureGroup" xml:space="preserve">
     <value>テクスチャグループ</value>
@@ -4432,35 +4433,35 @@ It's highlighed in blue on the texture above.</value>
     <value>範囲を更新</value>
   </data>
   <data name="Editor_UpdateRangeNote2" xml:space="preserve">
-    <value>Updates the range of the currently displayed glyphs to match the font texture.</value>
+    <value>現在表示中のグリフ範囲をフォントテクスチャに合わせて更新します。</value>
   </data>
   <data name="Filter_ScriptFiles" xml:space="preserve">
-    <value>Scripts (.csx)</value>
+    <value>スクリプト (.csx)</value>
   </data>
   <data name="Main_About" xml:space="preserve">
-    <value>About</value>
+    <value>概要</value>
   </data>
   <data name="Main_BackgroundsTileSets" xml:space="preserve">
     <value>背景とタイルセット</value>
   </data>
   <data name="Main_Downloading" xml:space="preserve">
-    <value>Downloading</value>
+    <value>ダウンロード中</value>
   </data>
   <data name="Main_Generating" xml:space="preserve">
-    <value>Generating</value>
+    <value>生成中</value>
   </data>
   <data name="Main_Loading" xml:space="preserve">
     <value>読み込み中</value>
   </data>
   <data name="Main_RunningScript" xml:space="preserve">
-    <value>Running {0} ...</value>
+    <value>{0} を実行中...</value>
   </data>
   <data name="Main_TileSets" xml:space="preserve">
     <value>タイルセット</value>
   </data>
   <data name="Msg_32BitOSWarning" xml:space="preserve">
-    <value>Your operating system is 32-bit.
-The 32-bit (x86) version of UndertaleModTool is obsolete.</value>
+    <value>このオペレーティングシステムは 32 ビットです。
+UndertaleModTool の 32 ビット (x86) 版は非推奨です。</value>
   </data>
   <data name="Msg_CantCopyToClipboard" xml:space="preserve">
     <value>このエラーにより項目名をクリップボードにコピーできません:
@@ -4473,13 +4474,13 @@ The 32-bit (x86) version of UndertaleModTool is obsolete.</value>
     <value>ゲーム実行ファイルのパスが見つかりません。期待値: {0}</value>
   </data>
   <data name="Msg_CantFindGameExeAt" xml:space="preserve">
-    <value>Cannot find game executable path, expected to find it at: {0}</value>
+    <value>ゲーム実行ファイルのパスが見つかりません。ここにあると想定していました: {0}</value>
   </data>
   <data name="Msg_CantFindGamePath" xml:space="preserve">
     <value>ゲームのパスが見つかりません。次の場所にあるはずです: {0}</value>
   </data>
   <data name="Msg_CantHighlightListNotFound" xml:space="preserve">
-    <value>Can't highlight the object "{0}" - element with object list not found.</value>
+    <value>オブジェクト「{0}」をハイライトできません。オブジェクト一覧内の要素が見つかりません。</value>
   </data>
   <data name="Msg_ChooseProjectName" xml:space="preserve">
     <value>プロジェクト名を選択</value>
@@ -4497,20 +4498,20 @@ The 32-bit (x86) version of UndertaleModTool is obsolete.</value>
     <value>{0} を削除しますか？</value>
   </data>
   <data name="Msg_EmptyTypeReference" xml:space="preserve">
-    <value>(empty {0} reference)</value>
+    <value>（空の {0} 参照）</value>
   </data>
   <data name="Msg_ErrorWhileOpeningFile" xml:space="preserve">
     <value>ファイルを開く際にエラーが発生しました - "{0}"。</value>
   </data>
   <data name="Msg_FailedPlayAudioNoPlayback" xml:space="preserve">
-    <value>Failed to play audio!
-No options for playback worked.</value>
+    <value>音声を再生できませんでした。
+再生に利用できる方法がありませんでした。</value>
   </data>
   <data name="Msg_FailedToFindArtifact" xml:space="preserve">
     <value>成果物が見つかりませんでした！</value>
   </data>
   <data name="Msg_FailedToLoadProject" xml:space="preserve">
-    <value>Failed to load project</value>
+    <value>プロジェクトの読み込みに失敗しました</value>
   </data>
   <data name="Msg_FailedToOpenBrowser" xml:space="preserve">
     <value>ブラウザーを開けませんでした！
@@ -4521,28 +4522,28 @@ No options for playback worked.</value>
 {0}</value>
   </data>
   <data name="Msg_FailedToSaveProject" xml:space="preserve">
-    <value>Failed to save project</value>
+    <value>プロジェクトの保存に失敗しました</value>
   </data>
   <data name="Msg_FileExistsOverwrite" xml:space="preserve">
-    <value>File "{0}" already exists. Overwrite?</value>
+    <value>ファイル "{0}" はすでに存在します。上書きしますか？</value>
   </data>
   <data name="Msg_GameExePathEscaped" xml:space="preserve">
-    <value>有効なゲーム実行ファイルのパスを見つけられませんでした。ディレクトリを抜けました。</value>
+    <value>有効なゲーム実行ファイルのパスが見つかりませんでした。ディレクトリの範囲外です</value>
   </data>
   <data name="Msg_GeneralInfoNull" xml:space="preserve">
-    <value>Cannot determine GameMaker version - "General Info" is null.</value>
+    <value>GameMaker のバージョンを特定できません - "General Info" が null です。</value>
   </data>
   <data name="Msg_InvalidName" xml:space="preserve">
-    <value>Invalid name</value>
+    <value>無効な名前</value>
   </data>
   <data name="Msg_InvalidNameRegex" xml:space="preserve">
-    <value>The search term is not a valid regex pattern.</value>
+    <value>検索語は有効な正規表現ではありません。</value>
   </data>
   <data name="Msg_LayerInstancesEmpty" xml:space="preserve">
     <value>レイヤー "{0}" のインスタンス一覧は空ですが、そのレイヤーにはインスタンス ID が存在します。</value>
   </data>
   <data name="Msg_LineWithContent" xml:space="preserve">
-    <value>Line {0}: {1}</value>
+    <value>行 {0}: {1}</value>
   </data>
   <data name="Msg_LoadDataFileFirst" xml:space="preserve">
     <value>まず data.win ファイルを読み込んでください</value>
@@ -4551,21 +4552,21 @@ No options for playback worked.</value>
     <value>読み込み中に警告が発生しました。保存時にデータ損失が発生する可能性が高いです！</value>
   </data>
   <data name="Msg_ManyStringsSelectedWarning" xml:space="preserve">
-    <value>You have selected the "Strings" when there are a lot of strings.
-That could make the search process noticeably longer.
-Do you want to proceed?</value>
+    <value>文字列が多数選択されています。
+そのまま検索を続行すると処理がかなり遅くなる可能性があります。
+続行しますか？</value>
   </data>
   <data name="Msg_NoReferencesFound" xml:space="preserve">
-    <value>No references found.</value>
+    <value>参照は見つかりませんでした。</value>
   </data>
   <data name="Msg_NoUnreferencedAssetsFound" xml:space="preserve">
-    <value>No unreferenced assets found.</value>
+    <value>未使用アセットは見つかりませんでした。</value>
   </data>
   <data name="Msg_OneCodeEntryError" xml:space="preserve">
-    <value>One code entry matched the filter.</value>
+    <value>1 件のコードエントリがフィルターに一致しました。</value>
   </data>
   <data name="Msg_PathNotExist" xml:space="preserve">
-    <value>Path {0} does not exist, cannot search for files!</value>
+    <value>パス {0} が存在しません。ファイルを検索できません！</value>
   </data>
   <data name="Msg_ProjectCurrentlyOpen" xml:space="preserve">
     <value>プロジェクトが開いています。別のデータファイルを開いて未保存の変更を破棄しますか？</value>
@@ -4578,19 +4579,19 @@ Do you want to proceed?</value>
     <value>プロジェクトが開いています。別のデータファイルを開いて未保存の変更を破棄しますか？</value>
   </data>
   <data name="Msg_ReferencesOfAsset" xml:space="preserve">
-    <value>The references of game object "{0}"</value>
+    <value>ゲームオブジェクト "{0}" の参照</value>
   </data>
   <data name="Msg_ResultsInCodeEntries" xml:space="preserve">
-    <value>Results in code entries</value>
+    <value>コードエントリ内の結果</value>
   </data>
   <data name="Msg_ResultsSavedSuccessfully" xml:space="preserve">
-    <value>Results saved successfully.</value>
+    <value>結果を保存しました。</value>
   </data>
   <data name="Msg_RunOtherScript" xml:space="preserve">
-    <value>Run other script...</value>
+    <value>他のスクリプトを実行...</value>
   </data>
   <data name="Msg_ScriptMessage" xml:space="preserve">
-    <value>Script message</value>
+    <value>スクリプトメッセージ</value>
   </data>
   <data name="Msg_ScriptQuestion" xml:space="preserve">
     <value>スクリプトの質問</value>
@@ -4600,29 +4601,29 @@ Do you want to proceed?</value>
 保存しようとしているデータファイルが破損する可能性があります。</value>
   </data>
   <data name="Msg_SearchResultsErrorCount" xml:space="preserve">
-    <value>({0} errors)</value>
+    <value>({0} 件のエラー)</value>
   </data>
   <data name="Msg_SearchResultsSummary" xml:space="preserve">
-    <value>Found {2} result{1} in {0} code entries.</value>
+    <value>{0} 件のコードエントリの中で {2} 件の結果を見つけました{1}。</value>
   </data>
   <data name="Msg_TilesetWrongParameters" xml:space="preserve">
-    <value>Tileset of "{0}" tile layer has wrong parameters (tile size, output border, etc.).
-It can't be displayed.</value>
+    <value>「{0}」タイルレイヤーのタイルセットのパラメータが不正です（タイルサイズ、出力境界など）。
+表示できません。</value>
   </data>
   <data name="Msg_UnexportedAssetsOpenProject" xml:space="preserve">
-    <value>There are assets marked to be exported in the current project - open another new project and discard all unexported changes?</value>
+    <value>現在のプロジェクトには、エクスポート対象としてマークされたアセットがあります。別の新しいプロジェクトを開いて、未エクスポートの変更を破棄しますか？</value>
   </data>
   <data name="Msg_UnhandledException" xml:space="preserve">
-    <value>Unhandled exception</value>
+    <value>未処理の例外</value>
   </data>
   <data name="Crash_FullLogNote" xml:space="preserve">
-    <value>Full details in the crash log:</value>
+    <value>詳細はクラッシュログをご覧ください:</value>
   </data>
   <data name="Msg_UnknownIndentStyle" xml:space="preserve">
-    <value>Unknown indent style</value>
+    <value>不明なインデント形式</value>
   </data>
   <data name="Msg_UnreferencedGameAssets" xml:space="preserve">
-    <value>Unreferenced game assets</value>
+    <value>未参照のゲームアセット</value>
   </data>
   <data name="Msg_UnsupportedBytecodeVersionTitle" xml:space="preserve">
     <value>サポートされていないバイトコードのバージョン</value>
@@ -4655,109 +4656,109 @@ It can't be displayed.</value>
     <value>スプライト</value>
   </data>
   <data name="Room_TileHint1" xml:space="preserve">
-    <value>Hint: You can click on any tile region below to select it and edit its properties.</value>
+    <value>ヒント: 下の任意のタイル領域をクリックして選択し、そのプロパティを編集できます。</value>
   </data>
   <data name="Room_Visible" xml:space="preserve">
     <value>表示</value>
   </data>
   <data name="Settings_AssetOrderSwappingToolTip" xml:space="preserve">
-    <value>Whether to allow changing the order of assets by dragging and dropping them in the tree view.</value>
+    <value>ツリー表示でドラッグアンドドロップしてアセットの順序を変更できるようにするかどうか。</value>
   </data>
   <data name="Settings_GMS1Path" xml:space="preserve">
     <value>GameMaker: Studio 1.4 のパス:</value>
   </data>
   <data name="Settings_GMS2PathToolTip" xml:space="preserve">
-    <value>The path to the GameMaker Studio 2 runtimes directory.</value>
+    <value>GameMaker Studio 2 ランタイムのディレクトリへのパス。</value>
   </data>
   <data name="Settings_RecompileOnSaveToolTip" xml:space="preserve">
-    <value>Whether to recompile all GML code sources when saving a project data file.</value>
+    <value>プロジェクトデータファイルを保存するときに、すべての GML コードソースを再コンパイルするかどうか。</value>
   </data>
   <data name="Settings_ChangeTracking" xml:space="preserve">
-    <value>Track code changes</value>
+    <value>コード変更を追跡</value>
   </data>
   <data name="Settings_ChangeTrackingToolTip" xml:space="preserve">
-    <value>Whether to track and highlight modified code entries in the resource tree and code editor.</value>
+    <value>リソースツリーとコードエディタで、変更されたコードエントリを追跡してハイライトするかどうか。</value>
   </data>
   <data name="TabTitle_AnimationCurve" xml:space="preserve">
-    <value>Animation Curve</value>
+    <value>アニメーションカーブ</value>
   </data>
   <data name="TabTitle_AudioGroup" xml:space="preserve">
-    <value>Audio Group</value>
+    <value>オーディオグループ</value>
   </data>
   <data name="TabTitle_Code" xml:space="preserve">
     <value>コード</value>
   </data>
   <data name="TabTitle_CodeLocals" xml:space="preserve">
-    <value>Code Locals</value>
+    <value>コードローカル</value>
   </data>
   <data name="TabTitle_EmbeddedImage" xml:space="preserve">
-    <value>Embedded Image</value>
+    <value>埋め込み画像</value>
   </data>
   <data name="TabTitle_EmbeddedTexture" xml:space="preserve">
-    <value>Embedded Texture</value>
+    <value>埋め込みテクスチャ</value>
   </data>
   <data name="TabTitle_Extension" xml:space="preserve">
-    <value>Extension</value>
+    <value>拡張機能</value>
   </data>
   <data name="TabTitle_ExtensionFile" xml:space="preserve">
-    <value>Extension file</value>
+    <value>拡張ファイル</value>
   </data>
   <data name="TabTitle_ExtensionFunction" xml:space="preserve">
-    <value>Extension function</value>
+    <value>拡張関数</value>
   </data>
   <data name="TabTitle_Font" xml:space="preserve">
-    <value>Font</value>
+    <value>フォント</value>
   </data>
   <data name="TabTitle_Function" xml:space="preserve">
-    <value>Function</value>
+    <value>関数</value>
   </data>
   <data name="TabTitle_GameEnd" xml:space="preserve">
-    <value>Game End</value>
+    <value>ゲーム終了</value>
   </data>
   <data name="TabTitle_GameObject" xml:space="preserve">
-    <value>Game Object</value>
+    <value>ゲームオブジェクト</value>
   </data>
   <data name="TabTitle_GeneralInfo" xml:space="preserve">
-    <value>General Info</value>
+    <value>一般情報</value>
   </data>
   <data name="TabTitle_GlobalInit" xml:space="preserve">
-    <value>Global Init</value>
+    <value>グローバル初期化</value>
   </data>
   <data name="TabTitle_ParticleSystemEmitter" xml:space="preserve">
-    <value>Particle System Emitter</value>
+    <value>パーティクルシステムエミッター</value>
   </data>
   <data name="TabTitle_Room" xml:space="preserve">
-    <value>Room</value>
+    <value>ルーム</value>
   </data>
   <data name="TabTitle_Script" xml:space="preserve">
-    <value>Script</value>
+    <value>スクリプト</value>
   </data>
   <data name="TabTitle_Sequence" xml:space="preserve">
-    <value>Sequence</value>
+    <value>シーケンス</value>
   </data>
   <data name="TabTitle_Shader" xml:space="preserve">
-    <value>Shader</value>
+    <value>シェーダー</value>
   </data>
   <data name="TabTitle_Sound" xml:space="preserve">
-    <value>Sound</value>
+    <value>サウンド</value>
   </data>
   <data name="TabTitle_Sprite" xml:space="preserve">
     <value>スプライト</value>
   </data>
   <data name="TabTitle_String" xml:space="preserve">
-    <value>String</value>
+    <value>文字列</value>
   </data>
   <data name="TabTitle_Timeline" xml:space="preserve">
-    <value>Timeline</value>
+    <value>タイムライン</value>
   </data>
   <data name="TabTitle_VariablesOverview" xml:space="preserve">
-    <value>Variables Overview</value>
+    <value>変数の概要</value>
   </data>
   <data name="Common_True" xml:space="preserve">
-    <value>True</value>
+    <value>true</value>
   </data>
   <data name="Common_Untitled" xml:space="preserve">
-    <value>Untitled</value>
+    <value>名称未設定</value>
   </data>
   <data name="Common_Version" xml:space="preserve">
     <value>バージョン</value>
@@ -4766,13 +4767,13 @@ It can't be displayed.</value>
     <value>コンパイラエラー</value>
   </data>
   <data name="Dialog_ReferencesOfAsset" xml:space="preserve">
-    <value>The references of game object</value>
+    <value>ゲームオブジェクトの参照</value>
   </data>
   <data name="Dialog_Searching" xml:space="preserve">
-    <value>Searching</value>
+    <value>検索中</value>
   </data>
   <data name="Dialog_UnreferencedGameAssets" xml:space="preserve">
-    <value>Unreferenced game assets</value>
+    <value>未参照のゲームアセット</value>
   </data>
   <data name="Editor_AddNewExtensionOption" xml:space="preserve">
     <value>新しい拡張オプションを追加</value>
@@ -4799,13 +4800,13 @@ It can't be displayed.</value>
     <value>生成済みミップ</value>
   </data>
   <data name="Editor_GlyphSortNote1" xml:space="preserve">
-    <value>Note that the glyphs need to be specified in ascending order.</value>
+    <value>注意: グリフは昇順で指定する必要があります。</value>
   </data>
   <data name="Editor_GlyphSortNote2" xml:space="preserve">
     <value>グリフを並べ替える</value>
   </data>
   <data name="Editor_PathPreviewNote" xml:space="preserve">
-    <value>TODO: The preview doesn't update live, but it will after switching to another tab and back.</value>
+    <value>TODO: プレビューはリアルタイムで更新されませんが、別のタブに切り替えて戻ると更新されます。</value>
   </data>
   <data name="Editor_Points" xml:space="preserve">
     <value>ポイント</value>
@@ -4817,29 +4818,29 @@ It can't be displayed.</value>
     <value>空のグリフの領域を選択</value>
   </data>
   <data name="Editor_ShiftTooltip" xml:space="preserve">
-    <value>The number of pixels to shift right when advancing to the next character.
-It's highlighed in green on the texture above.</value>
+    <value>次の文字に進む際に、右方向にシフトするピクセル数。
+上のテクスチャでは、これが緑色で強調表示されています。</value>
   </data>
   <data name="Editor_TextureFailedToLoad" xml:space="preserve">
     <value>警告: テクスチャの読み込みに失敗しました！</value>
   </data>
   <data name="Editor_TextureMouseInteractableHint" xml:space="preserve">
-    <value>Hint: This image is mouse interactable. You can click on it to select the corresponding texture page item.</value>
+    <value>ヒント: この画像はマウス操作可能です。クリックして対応するテクスチャページアイテムを選択できます。</value>
   </data>
   <data name="Editor_TexturePages" xml:space="preserve">
     <value>テクスチャページ</value>
   </data>
   <data name="Editor_Tilesets" xml:space="preserve">
-    <value>Tilesets</value>
+    <value>タイルセット</value>
   </data>
   <data name="Editor_Type" xml:space="preserve">
     <value>種類</value>
   </data>
   <data name="Editor_UpdateRangeNote3" xml:space="preserve">
-    <value>Note: the glyphs need to be specified in ascending order for this to work correctly.</value>
+    <value>注意: 正しく動作させるには、グリフは昇順で指定する必要があります。</value>
   </data>
   <data name="Editor_Value" xml:space="preserve">
-    <value>Value</value>
+    <value>値</value>
   </data>
   <data name="Editor_VertexShaderAttributes" xml:space="preserve">
     <value>頂点シェーダー属性</value>
@@ -4848,7 +4849,7 @@ It's highlighed in green on the texture above.</value>
     <value>x</value>
   </data>
   <data name="Main_DownloadingNewVersion" xml:space="preserve">
-    <value>Downloading new version...</value>
+    <value>新しいバージョンをダウンロード中...</value>
   </data>
   <data name="Main_ExpandListToEdit" xml:space="preserve">
     <value>項目を編集するには左側のリストを展開してください</value>
@@ -4857,7 +4858,7 @@ It's highlighed in green on the texture above.</value>
     <value>ID: {0}</value>
   </data>
   <data name="Main_LoadingEllipsis" xml:space="preserve">
-    <value>Loading...</value>
+    <value>読み込み中...</value>
   </data>
   <data name="Main_LoadingPleaseWait" xml:space="preserve">
     <value>読み込み中です。しばらくお待ちください...</value>
@@ -4873,7 +4874,7 @@ data.win を開くように言ったのに、新しいファイルを作るな�
     <value>保存中です。しばらくお待ちください...</value>
   </data>
   <data name="Main_ScriptFinished" xml:space="preserve">
-    <value>{0} finished!</value>
+    <value>{0} が完了しました！</value>
   </data>
   <data name="Menu_FindAllReferences" xml:space="preserve">
     <value>すべての参照を検索</value>
@@ -4888,40 +4889,40 @@ data.win を開くように言ったのに、新しいファイルを作るな�
     <value>新しいタブで開く</value>
   </data>
   <data name="Msg_32BitProcessOn64BitOS" xml:space="preserve">
-    <value>Detected 32-bit (x86) version of UndertaleModTool on an 64-bit operating system.
-It's highly recommended to use the 64-bit version instead.
-Do you wish to download it?</value>
+    <value>64ビットのオペレーティングシステム上で、32ビット（x86）版のUndertaleModToolが検出されました。
+代わりに64ビット版を使用することを強くお勧めします。
+ダウンロードしますか？</value>
   </data>
   <data name="Msg_AudioFailure" xml:space="preserve">
     <value>オーディオエラー</value>
   </data>
   <data name="Msg_CantOpenResultsWhileInProgress" xml:space="preserve">
-    <value>Can't open the results while the search is still in progress.</value>
+    <value>検索が進行中の間は結果を開けません。</value>
   </data>
   <data name="Msg_CantSearchWhileInProgress" xml:space="preserve">
-    <value>Can't start a new search while one is still in progress.</value>
+    <value>検索が進行中の間は新しい検索を開始できません。</value>
   </data>
   <data name="Msg_CantSearchYYC" xml:space="preserve">
-    <value>Cannot search in YYC compiled games.</value>
+    <value>YYC コンパイル済みゲームでは検索できません。</value>
   </data>
   <data name="Msg_ChildFileEscaped" xml:space="preserve">
     <value>子データファイルを開けませんでした。ディレクトリを抜けました。</value>
   </data>
   <data name="Msg_ChooseNewProjectName" xml:space="preserve">
-    <value>Choose a name for the new project</value>
+    <value>新しいプロジェクト名を選択してください</value>
   </data>
   <data name="Msg_CodeEntries" xml:space="preserve">
-    <value>Code entries</value>
+    <value>コードエントリ</value>
   </data>
   <data name="Msg_DeleteItemConfirmWithWarning" xml:space="preserve">
-    <value>Delete {0}?
-Note that the code often references objects by ID, so this operation is likely to break stuff because other items will shift up!</value>
+    <value>{0}を削除しますか？
+コードではオブジェクトをIDで参照することが多いため、この操作を行うと他の項目が上にずれてしまい、不具合が発生する可能性がありますのでご注意ください！</value>
   </data>
   <data name="Msg_DisableDebuggerQuestion" xml:space="preserve">
     <value>ゲームでデバッガーが有効になっています。ゲームを実行するために無効にしますか？</value>
   </data>
   <data name="Msg_DragDropAType" xml:space="preserve">
-    <value>(drag &amp; drop a {0})</value>
+    <value>（{0} をドラッグ＆ドロップ）</value>
   </data>
   <data name="Msg_ErrorWhileParsingLine" xml:space="preserve">
     <value>行 {0} の解析中にエラーが発生しました - "{1}"。</value>
@@ -4934,10 +4935,10 @@ Note that the code often references objects by ID, so this operation is likely t
 {0}</value>
   </data>
   <data name="Msg_FailedToChooseOutputFileName" xml:space="preserve">
-    <value>Failed to choose the output file name.</value>
+    <value>出力ファイル名の選択に失敗しました。</value>
   </data>
   <data name="Msg_FailedToCreateProject" xml:space="preserve">
-    <value>Failed to create new project</value>
+    <value>新しいプロジェクトの作成に失敗しました</value>
   </data>
   <data name="Msg_FailedToFetchBuild" xml:space="preserve">
     <value>最新ビルドの取得に失敗しました！
@@ -4948,7 +4949,7 @@ Note that the code often references objects by ID, so this operation is likely t
 検出されたアクション名 - {0}</value>
   </data>
   <data name="Msg_GeneratingResultList" xml:space="preserve">
-    <value>Generating the result list...</value>
+    <value>結果リストを生成中...</value>
   </data>
   <data name="Msg_GMSDebuggerSaveWarning" xml:space="preserve">
     <value>このゲームは GameMaker Studio のデバッグモードで保存されています。デバッガーが起動していない限り、通常のランタイムは読み込み後に停止します。"Disable Debugger" のチェックを外して保存することで無効にできます。</value>
@@ -4963,34 +4964,34 @@ Note that the code often references objects by ID, so this operation is likely t
     <value>無効な色文字列</value>
   </data>
   <data name="Msg_InvalidRegex" xml:space="preserve">
-    <value>Invalid regex</value>
+    <value>無効な正規表現</value>
   </data>
   <data name="Msg_Line" xml:space="preserve">
-    <value>Line </value>
+    <value>行 </value>
   </data>
   <data name="Msg_MultipleCodeEntriesError" xml:space="preserve">
-    <value>Multiple code entries matched the filter.</value>
+    <value>複数のコードエントリがフィルターに一致しました。</value>
   </data>
   <data name="Msg_NoCodeEntriesMatchFilter" xml:space="preserve">
-    <value>No code entries matched the filter.</value>
+    <value>フィルターに一致するコードエントリはありません。</value>
   </data>
   <data name="Msg_NoDataWinLoaded" xml:space="preserve">
-    <value>No data file is currently loaded!</value>
+    <value>現在ロード中のデータファイルはありません！</value>
   </data>
   <data name="Msg_NoResultsToExport" xml:space="preserve">
-    <value>No results to export.</value>
+    <value>エクスポートする結果がありません。</value>
   </data>
   <data name="Msg_NoScriptsFound" xml:space="preserve">
-    <value>No scripts found!</value>
+    <value>スクリプトが見つかりませんでした！</value>
   </data>
   <data name="Msg_ObjectReferenceIsStale" xml:space="preserve">
-    <value>The reference of game object "{0}" is stale (the referenced object was deleted).</value>
+    <value>ゲームオブジェクト "{0}" の参照が古くなっています（参照先のオブジェクトが削除されています）。</value>
   </data>
   <data name="Msg_ObjectReferenceNoEditor" xml:space="preserve">
-    <value>The type of this object doesn't have an editor/viewer.</value>
+    <value>このオブジェクトの種類にはエディター/ビューアがありません。</value>
   </data>
   <data name="Msg_ObjectReferencesAreStale" xml:space="preserve">
-    <value>The references of game object "{0}" are stale (some referenced objects were deleted).</value>
+    <value>ゲームオブジェクト "{0}" の参照が古くなっています（一部の参照先オブジェクトが削除されています）。</value>
   </data>
   <data name="Msg_ObjectReferencesWindowError" xml:space="preserve">
     <value>オブジェクト参照関連ウィンドウでエラーが発生しました。
@@ -4999,7 +5000,7 @@ GitHub で報告してください。
 {0}</value>
   </data>
   <data name="Msg_OpenedProject" xml:space="preserve">
-    <value>Opened project "{0}".</value>
+    <value>プロジェクト「{0}」を開きました。</value>
   </data>
   <data name="Msg_OpenProjectFile" xml:space="preserve">
     <value>プロジェクトファイルを開く</value>
@@ -5009,10 +5010,10 @@ GitHub で報告してください。
 アプリケーションを再起動することを強くおすすめします。</value>
   </data>
   <data name="Msg_ProjectAlreadyOpen" xml:space="preserve">
-    <value>Project already open</value>
+    <value>既に開いているプロジェクト</value>
   </data>
   <data name="Msg_ResultsIn" xml:space="preserve">
-    <value>Results in</value>
+    <value>結果</value>
   </data>
   <data name="Msg_RoomCaptionFormat" xml:space="preserve">
     <value>{0}: {1}x{2}</value>
@@ -5021,11 +5022,11 @@ GitHub で報告してください。
     <value>選択中のランタイムはデバッグをサポートしていません。</value>
   </data>
   <data name="Msg_RunWithDebuggerQuestion" xml:space="preserve">
-    <value>Are you sure that you want to run the game with GMS debugger?
-If you want to enable a debug mode in some game, then you need to use one of the scripts.</value>
+    <value>GMSデバッガーを使ってゲームを実行してもよろしいですか？
+特定のゲームでデバッグモードを有効にしたい場合は、スクリプトのいずれかを使用する必要があります。</value>
   </data>
   <data name="Msg_SavedProjectSuccessfully" xml:space="preserve">
-    <value>Saved project successfully.</value>
+    <value>プロジェクトの保存に成功しました。</value>
   </data>
   <data name="Msg_ScriptError" xml:space="preserve">
     <value>スクリプトエラー</value>
@@ -5034,7 +5035,7 @@ If you want to enable a debug mode in some game, then you need to use one of the
     <value>スクリプト警告</value>
   </data>
   <data name="Msg_SelectedObjectNotUndertaleResource" xml:space="preserve">
-    <value>The selected object is not an "UndertaleResource".</value>
+    <value>選択されたオブジェクトは「UndertaleResource」ではありません。</value>
   </data>
   <data name="Msg_StopProgressBarFailed" xml:space="preserve">
     <value>進行状況バー更新タスクの停止に失敗しました。
