@@ -830,7 +830,7 @@
     <value>部屋リストと同期</value>
   </data>
   <data name="Editor_FPS" xml:space="preserve">
-    <value>FPSについて</value>
+    <value>FPS</value>
   </data>
   <data name="Editor_AllowStatistics" xml:space="preserve">
     <value>統計を許可</value>
@@ -1283,7 +1283,7 @@
     <value>ポートの位置とサイズ</value>
   </data>
   <data name="Room_Border" xml:space="preserve">
-    <value>境界線</value>
+    <value>ボーダー</value>
   </data>
   <data name="Room_FollowsObject" xml:space="preserve">
     <value>オブジェクトを追跡</value>
@@ -2226,7 +2226,7 @@
     <value>不明</value>
   </data>
   <data name="Common_UndertaleModTool" xml:space="preserve">
-    <value>Undertaleモッドツール</value>
+    <value>UndertaleModTool</value>
   </data>
   <data name="Common_Create" xml:space="preserve">
     <value>作成</value>
@@ -2944,7 +2944,7 @@ UndertaleModToolを終了すると、
     <value>選択されたオブジェクトは「UndertaleResource」ではありません。</value>
   </data>
   <data name="Msg_TilesetWrongParams" xml:space="preserve">
-    <value>「{0}」タイルレイヤーのタイルセットのパラメータ（タイルサイズ、出力枠など）が正しくありません。
+    <value>「{0}」タイルレイヤーのタイルセットのパラメータ（タイルサイズ、出力ボーダーなど）が正しくありません。
 表示できません。</value>
   </data>
   <data name="Msg_ErrorRenderingTileLayer" xml:space="preserve">
@@ -4099,10 +4099,10 @@ UndertaleModTool はこれを平均化して処理します。
     <value>タイル間隔 Y</value>
   </data>
   <data name="Editor_OutputBorderX" xml:space="preserve">
-    <value>出力境界 X</value>
+    <value>出力ボーダー X</value>
   </data>
   <data name="Editor_OutputBorderY" xml:space="preserve">
-    <value>出力境界 Y</value>
+    <value>出力ボーダー Y</value>
   </data>
   <data name="Editor_TileColumns" xml:space="preserve">
     <value>タイル列数</value>
@@ -4163,7 +4163,7 @@ UndertaleModTool はこれを平均化して処理します。
     <value>エラー</value>
   </data>
   <data name="Msg_UndertaleModTool" xml:space="preserve">
-    <value>Undertaleモッドツール</value>
+    <value>UndertaleModTool</value>
   </data>
   <data name="Dialog_GMLSettings" xml:space="preserve">
     <value>設定 - GML コンパイラ/デコンパイラ</value>
@@ -4278,7 +4278,7 @@ UndertaleModTool はこれを平均化して処理します。
   </data>
   <data name="FindRef_SearchResultsFor" xml:space="preserve">
     <value>ゲームオブジェクトの検索結果
-"。
+""。
 </value>
   </data>
   <data name="TileEditor_Edit" xml:space="preserve">
@@ -4384,10 +4384,10 @@ UndertaleModTool はこれを平均化して処理します。
     <value>モーメント</value>
   </data>
   <data name="Editor_NewExtensionFunction" xml:space="preserve">
-    <value>new_extension_function_{0} は、</value>
+    <value>新しい_拡張_関数_{0}</value>
   </data>
   <data name="Editor_NewExtensionFunctionExt" xml:space="preserve">
-    <value>new_extension_function_{0} は、</value>
+    <value>新しい_拡張_関数_{0}_ext</value>
   </data>
   <data name="Editor_OffsetTooltip" xml:space="preserve">
     <value>グリフの描画を水平方向にずらすピクセル数です。
@@ -4607,7 +4607,7 @@ UndertaleModTool の 32 ビット (x86) 版は非推奨です。</value>
     <value>{0} 件のコードエントリの中で {2} 件の結果を見つけました{1}。</value>
   </data>
   <data name="Msg_TilesetWrongParameters" xml:space="preserve">
-    <value>「{0}」タイルレイヤーのタイルセットのパラメータが不正です（タイルサイズ、出力境界など）。
+    <value>「{0}」タイルレイヤーのタイルセットのパラメータが不正です（タイルサイズ、出力ボーダーなど）。
 表示できません。</value>
   </data>
   <data name="Msg_UnexportedAssetsOpenProject" xml:space="preserve">
@@ -6218,7 +6218,7 @@ GitHub で報告してください。
     <value>保存用にプロジェクトで指定されたデータファイルに保存しますか？</value>
   </data>
   <data name="Msg_AboutUndertaleModTool" xml:space="preserve">
-    <value>Undertaleモッドツール </value>
+    <value>UndertaleModTool v{0} </value>
   </data>
   <data name="Msg_NewMod" xml:space="preserve">
     <value>新規</value>
