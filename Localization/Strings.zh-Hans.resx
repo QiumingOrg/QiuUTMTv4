@@ -6063,7 +6063,7 @@ UndertaleModTool的32位（x86）版本已过时。</value>
     <value>此代码条目是对 </value>
   </data>
   <data name="Editor_Code_AnonymousFunctionAfter" xml:space="preserve">
-    <value> 中匿名函数的引用，请在此查看。</value>
+    <value>中匿名函数的引用，请在此查看。</value>
   </data>
   <data name="Msg_SaveDataFileBeforeOpeningNew" xml:space="preserve">
     <value>打开新文件前是否保存数据文件？</value>
@@ -6483,13 +6483,13 @@ UndertaleModTool的32位（x86）版本已过时。</value>
     <value>将所有房间导出为 PNG...</value>
   </data>
   <data name="Settings_BackgroundImage" xml:space="preserve">
-    <value>自定义背景图片：</value>
+    <value>自定义背景图片： </value>
   </data>
   <data name="Settings_BackgroundOpacity" xml:space="preserve">
-    <value>背景透明度：</value>
+    <value>背景透明度： </value>
   </data>
   <data name="Settings_BackgroundStretchMode" xml:space="preserve">
-    <value>背景图片的拉伸模式：</value>
+    <value>背景图片的拉伸模式： </value>
   </data>
   <data name="Settings_BackgroundBrowse" xml:space="preserve">
     <value>浏览</value>
