@@ -59,7 +59,7 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -1778,7 +1778,7 @@
     <value>您的操作系统是32位的。
 UndertaleModTool的32位（x86）版本已过时。
 如果您希望继续使用32位版本的UndertaleModTool，请使用GitHub Actions工件，如果没有GitHub账户则使用Nightly构建，或自行编译UTMT。
-如有任何问题或更多信息，请在Underminers Discord服务器中询问。</value>
+</value>
   </data>
   <data name="Msg_NotEnoughSpace" xml:space="preserve">
     <value>系统驱动器 {0} 空间不足 - 至少需要500 MB。</value>
@@ -2212,8 +2212,7 @@ UndertaleModTool的32位（x86）版本已过时。
   </data>
   <data name="FindRef_ResultsFor" xml:space="preserve">
     <value>游戏对象的搜索结果
-""。
-</value>
+""。</value>
   </data>
   <data name="FindRef_CopyNameToClipboard" xml:space="preserve">
     <value>复制名称到剪贴板</value>
@@ -3710,7 +3709,7 @@ UndertaleModTool 通过取平均值来表示。
     <value>启用资源顺序交换</value>
   </data>
   <data name="Settings_EnableAssetOrderSwapping_Tooltip" xml:space="preserve">
-    <value>切换在资源标签页中拖放资源到列表中不同位置的功能。默认禁用。</value>
+    <value>切换在资源标签页中拖放资源到列表中不同位置的功能。默认禁用。   </value>
   </data>
   <data name="Settings_WarnTempRun" xml:space="preserve">
     <value>警告临时运行</value>
@@ -5670,7 +5669,7 @@ UndertaleModTool的32位（x86）版本已过时。</value>
     <value>父项</value>
   </data>
   <data name="Common_EmbeddedAudioLength" xml:space="preserve">
-    <value>WAV 数据，长度：</value>
+    <value>WAV 数据，长度： </value>
   </data>
   <data name="Common_View" xml:space="preserve">
     <value>视图</value>

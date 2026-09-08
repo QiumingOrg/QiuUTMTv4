@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common_Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="Common_Close" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Deletar</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="Common_Open" xml:space="preserve">
+    <value>Abri</value>
+  </data>
+  <data name="Common_Export" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="Common_Import" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="Common_Play" xml:space="preserve">
+    <value>Jogar</value>
+  </data>
+  <data name="Common_Stop" xml:space="preserve">
+    <value>Parar</value>
+  </data>
+  <data name="Common_None" xml:space="preserve">
+    <value>Nada</value>
+  </data>
+  <data name="Common_Done" xml:space="preserve">
+    <value>Feito</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Common_OK" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Common_Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="Common_No" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="Common_Error" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="Common_Warning" xml:space="preserve">
+    <value>Aviso</value>
+  </data>
+  <data name="Common_DoubleClickToAdd" xml:space="preserve">
+    <value>Toque duplo para adicionar</value>
+  </data>
+  <data name="Common_FilterByName" xml:space="preserve">
+    <value>Filtrar pelo nome...</value>
+  </data>
+  <data name="Common_Search" xml:space="preserve">
+    <value>Pesquisar</value>
+  </data>
+  <data name="Common_Copy" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="Common_Undo" xml:space="preserve">
+    <value>Desfazer</value>
+  </data>
+  <data name="Common_Redo" xml:space="preserve">
+    <value>Refazer</value>
+  </data>
+  <data name="Common_Cut" xml:space="preserve">
+    <value>Corte</value>
+  </data>
+  <data name="Common_SelectAll" xml:space="preserve">
+    <value>Selecionar tudo</value>
+  </data>
+  <data name="Common_CopyAll" xml:space="preserve">
+    <value>Copiar tudo</value>
+  </data>
+  <data name="Common_OpenInNewTab" xml:space="preserve">
+    <value>Abrir em uma nova aba</value>
+  </data>
+  <data name="Common_Transparent" xml:space="preserve">
+    <value>Transparência</value>
+  </data>
+  <data name="Common_Smooth" xml:space="preserve">
+    <value>Suave</value>
+  </data>
+  <data name="Common_Preload" xml:space="preserve">
+    <value>Per-carregar</value>
+  </data>
+  <data name="Common_Texture" xml:space="preserve">
+    <value>Textura</value>
+  </data>
+  <data name="Common_Scale" xml:space="preserve">
+    <value>Escala</value>
+  </data>
+  <data name="Common_List" xml:space="preserve">
+    <value>Lista</value>
+  </data>
+  <data name="Common_Code" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="Common_Flags" xml:space="preserve">
+    <value>Bandeiras</value>
+  </data>
+  <data name="Common_Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="Common_Size" xml:space="preserve">
+    <value>Tamanho</value>
+  </data>
+  <data name="Common_Position" xml:space="preserve">
+    <value>Posição</value>
+  </data>
+  <data name="Common_Definition" xml:space="preserve">
+    <value>Definição</value>
+  </data>
+  <data name="Common_Enabled" xml:space="preserve">
+    <value>Ativado</value>
+  </data>
+  <data name="Common_Visible" xml:space="preserve">
+    <value>Visível</value>
+  </data>
+  <data name="Common_Color" xml:space="preserve">
+    <value>Cor</value>
+  </data>
+  <data name="Common_Speed" xml:space="preserve">
+    <value>Velocidade</value>
+  </data>
+  <data name="Common_Depth" xml:space="preserve">
+    <value>Profundidade</value>
+  </data>
+  <data name="Common_Rotation" xml:space="preserve">
+    <value>Rotação</value>
+  </data>
+  <data name="Common_Kind" xml:space="preserve">
+    <value>Espécie</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Edita</value>
+  </data>
+  <data name="Common_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Common_NA" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="Menu_File" xml:space="preserve">
+    <value>_arquivo</value>
+  </data>
+  <data name="Menu_Edit" xml:space="preserve">
+    <value>_editar</value>
+  </data>
+  <data name="Menu_Edit_GoToDefinition" xml:space="preserve">
+    <value>_Ir para definição</value>
+  </data>
+  <data name="Menu_Edit_FindReferences" xml:space="preserve">
+    <value>Encontrar _todas as referências</value>
+  </data>
+  <data name="Menu_Edit_FindSymbol" xml:space="preserve">
+    <value>_Encontrar símbolo</value>
+  </data>
+  <data name="Menu_Edit_Find" xml:space="preserve">
+    <value>_encontrar</value>
+  </data>
+  <data name="Menu_Edit_Replace" xml:space="preserve">
+    <value>_Substituir</value>
+  </data>
+  <data name="Menu_File_New" xml:space="preserve">
+    <value>_Novo</value>
+  </data>
+  <data name="Menu_File_Open" xml:space="preserve">
+    <value>_Abrir</value>
+  </data>
+  <data name="Menu_File_RecentFiles" xml:space="preserve">
+    <value>Arquivos _recentes</value>
+  </data>
+  <data name="Menu_File_RecentFiles_None" xml:space="preserve">
+    <value>Nenhum arquivo recente</value>
+  </data>
+  <data name="Menu_File_RecentFiles_Clear" xml:space="preserve">
+    <value>Limpar lista de arquivos recentes</value>
+  </data>
+  <data name="Menu_File_Save" xml:space="preserve">
+    <value>_salvar</value>
+  </data>
+  <data name="Menu_File_TempRun" xml:space="preserve">
+    <value>_temp rodar jogo</value>
+  </data>
+  <data name="Menu_File_RunGMSDebugger" xml:space="preserve">
+    <value>Execute o jogo no _depurador GMS</value>
+  </data>
+  <data name="Menu_File_RunOtherRunner" xml:space="preserve">
+    <value>Rodar jogo com outro Runner</value>
+  </data>
+  <data name="Menu_File_GenerateOffsetMap" xml:space="preserve">
+    <value>Gerar mapa o_offset</value>
+  </data>
+  <data name="Menu_File_Settings" xml:space="preserve">
+    <value>C_onfigurações</value>
+  </data>
+  <data name="Menu_File_Close" xml:space="preserve">
+    <value>_Fechar</value>
+  </data>
+  <data name="Menu_Scripts" xml:space="preserve">
+    <value>_Scripts</value>
+  </data>
+  <data name="Menu_Scripts_Loading" xml:space="preserve">
+    <value>(...Carregando...)</value>
+  </data>
+  <data name="Menu_Find" xml:space="preserve">
+    <value>_Encontrar</value>
+  </data>
+  <data name="Menu_Find_SearchInCode" xml:space="preserve">
+    <value>_Pesquisar no código</value>
+  </data>
+  <data name="Menu_Find_UnreferencedAssets" xml:space="preserve">
+    <value>Encontre _ativos não referenciados</value>
+  </data>
+  <data name="Menu_Project" xml:space="preserve">
+    <value>_projeto</value>
+  </data>
+  <data name="Menu_Project_New" xml:space="preserve">
+    <value>_Novo projeto</value>
+  </data>
+  <data name="Menu_Project_Open" xml:space="preserve">
+    <value>_Abrir projeto</value>
+  </data>
+  <data name="Menu_Project_Save" xml:space="preserve">
+    <value>_salvar projeto</value>
+  </data>
+  <data name="Menu_Project_ViewUnexportedAssets" xml:space="preserve">
+    <value>_Visualizar ativos não exportado</value>
+  </data>
+  <data name="Menu_Project_Close" xml:space="preserve">
+    <value>_fechar projeto</value>
+  </data>
+  <data name="Menu_Help" xml:space="preserve">
+    <value>_ajuda</value>
+  </data>
+  <data name="Menu_Help_GitHub" xml:space="preserve">
+    <value>_Github</value>
+  </data>
+  <data name="Menu_Help_CheckForUpdates" xml:space="preserve">
+    <value>Verifique se há atualizações</value>
+  </data>
+  <data name="Menu_Help_About" xml:space="preserve">
+    <value>_Sobre</value>
+  </data>
+  <data name="Tree_Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Tree_GeneralInfo" xml:space="preserve">
+    <value>Informações geral</value>
+  </data>
+  <data name="Tree_GlobalInit" xml:space="preserve">
+    <value>global init</value>
+  </data>
+  <data name="Tree_GameEndScripts" xml:space="preserve">
+    <value>Scripts de fim de jogo</value>
+  </data>
+  <data name="Tree_AudioGroups" xml:space="preserve">
+    <value>Grupos de áudio</value>
+  </data>
+  <data name="Tree_Sounds" xml:space="preserve">
+    <value>Sons</value>
+  </data>
+  <data name="Tree_Sprites" xml:space="preserve">
+    <value>sprites</value>
+  </data>
+  <data name="Tree_BackgroundsTilesets" xml:space="preserve">
+    <value>Fundos e Tile sets</value>
+  </data>
+  <data name="Tree_Tilesets" xml:space="preserve">
+    <value>Tile set</value>
+  </data>
+  <data name="Tree_Paths" xml:space="preserve">
+    <value>Caminhos</value>
+  </data>
+  <data name="Tree_Scripts" xml:space="preserve">
+    <value>scripts</value>
+  </data>
+  <data name="Tree_Shaders" xml:space="preserve">
+    <value>shaders</value>
+  </data>
+  <data name="Tree_Fonts" xml:space="preserve">
+    <value>Fontes</value>
+  </data>
+  <data name="Tree_Timelines" xml:space="preserve">
+    <value>Linhas do Tempo</value>
+  </data>
+  <data name="Tree_GameObjects" xml:space="preserve">
+    <value>Objetos do jogo</value>
+  </data>
+  <data name="Tree_Rooms" xml:space="preserve">
+    <value>Salas</value>
+  </data>
+  <data name="Tree_Extensions" xml:space="preserve">
+    <value>Extensões</value>
+  </data>
+  <data name="Tree_TexturePageItems" xml:space="preserve">
+    <value>Itens da página de textura</value>
+  </data>
+  <data name="Tree_Code" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="Tree_Variables" xml:space="preserve">
+    <value>Variáveis</value>
+  </data>
+  <data name="Tree_Functions" xml:space="preserve">
+    <value>Funções</value>
+  </data>
+  <data name="Tree_CodeLocals" xml:space="preserve">
+    <value>Códigos locais</value>
+  </data>
+  <data name="Tree_Strings" xml:space="preserve">
+    <value>Cordas</value>
+  </data>
+  <data name="Tree_EmbeddedTextures" xml:space="preserve">
+    <value>Texturas incorporadas</value>
+  </data>
+  <data name="Tree_EmbeddedAudio" xml:space="preserve">
+    <value>Áudio incorporado</value>
+  </data>
+  <data name="Tree_TextureGroupInfo" xml:space="preserve">
+    <value>Informações do grupo de textura</value>
+  </data>
+  <data name="Tree_EmbeddedImages" xml:space="preserve">
+    <value>Imagens incorporadas</value>
+  </data>
+  <data name="Tree_ParticleSystems" xml:space="preserve">
+    <value>Sistemas de partículas</value>
+  </data>
+  <data name="Tree_ParticleSystemEmitters" xml:space="preserve">
+    <value>Emissores de sistema de partículas</value>
+  </data>
+  <data name="Tab_Welcome" xml:space="preserve">
+    <value>Bem-vindo!</value>
+  </data>
+  <data name="Tab_Close" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="Tab_CloseOtherTabs" xml:space="preserve">
+    <value>Fechar outras abas</value>
+  </data>
+  <data name="Tab_CloseAllTabs" xml:space="preserve">
+    <value>Fechar todas as abas</value>
+  </data>
+  <data name="Tab_DetachToNewWindow" xml:space="preserve">
+    <value>Abrir em nova janela</value>
+  </data>
+  <data name="Settings_Title" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="Settings_GMS14Path" xml:space="preserve">
+    <value>Gamemaker: Studio 1.4 path:</value>
+  </data>
+  <data name="Settings_GMS14Path_Tooltip" xml:space="preserve">
+    <value>Necessário apenas se você quiser usar o executor do Studio em vez do .exe ou executar o jogo em modo de depuração.</value>
+  </data>
+  <data name="Settings_GMS2RuntimesPath" xml:space="preserve">
+    <value>Caminho dos runtimes do GameMaker Studio 2:</value>
+  </data>
+  <data name="Settings_GMS2RuntimesPath_Tooltip" xml:space="preserve">
+    <value>Necessário apenas se você quiser executar jogos do GMS2 usando o executor do Studio em vez do arquivo .exe</value>
+  </data>
+  <data name="Settings_AssetOrderSwapping" xml:space="preserve">
+    <value>Habilitar troca de ordens de ativos</value>
+  </data>
+  <data name="Settings_AssetOrderSwapping_Tooltip" xml:space="preserve">
+    <value>Alterna a funcionalidade de arrastar e soltar elementos nas abas de elementos para diferentes posições na lista. Desativado por padrão.</value>
+  </data>
+  <data name="Settings_AutoFileAssociation" xml:space="preserve">
+    <value>Associar automaticamente o arquivo de dados do GameMaker</value>
+  </data>
+  <data name="Settings_AutoFileAssociation_Tooltip" xml:space="preserve">
+    <value>Associação automática de arquivos. Ativada por padrão.</value>
+  </data>
+  <data name="Settings_ShowDebuggerOption" xml:space="preserve">
+    <value>Exibir a opção de arquivo "Executar jogo no depurador GMS"</value>
+  </data>
+  <data name="Settings_ShowDebuggerOption_Tooltip" xml:space="preserve">
+    <value>Indica se a opção deve ser exibida no menu "Arquivo". Desativada por padrão.</value>
+  </data>
+  <data name="Settings_RememberWindowPlacements" xml:space="preserve">
+    <value>Lembre-se da última posição e tamanho da janela</value>
+  </data>
+  <data name="Settings_RememberWindowPlacements_Tooltip" xml:space="preserve">
+    <value>Ativar ou desativar a restauração da posição e do tamanho da janela ao iniciar uma nova instância da ferramenta. Desativado por padrão.</value>
+  </data>
+  <data name="Settings_WarnOnClose" xml:space="preserve">
+    <value>Avise sobre salvar antes de fechar</value>
+  </data>
+  <data name="Settings_WarnOnClose_Tooltip" xml:space="preserve">
+    <value>Exibir aviso sobre o salvamento antes de fechar. Ativado por padrão.</value>
+  </data>
+  <data name="Settings_TempRunMessage" xml:space="preserve">
+    <value>Aviso sobre funcionamento em temperatura elevada</value>
+  </data>
+  <data name="Settings_TempRunMessage_Tooltip" xml:space="preserve">
+    <value>Avisar sobre execução temporária. Ativado por padrão.</value>
+  </data>
+  <data name="Settings_ShowNullEntries" xml:space="preserve">
+    <value>Exibir entradas nulas na árvore de recursos</value>
+  </data>
+  <data name="Settings_ShowNullEntries_Tooltip" xml:space="preserve">
+    <value>Indica se devem ser exibidas entradas nulas na árvore de recursos, que em jogos GM 2024.11+ geralmente representam recursos não utilizados removidos pelo compilador. Desativado por padrão devido ao suporte limitado na interface gráfica.</value>
+  </data>
+  <data name="Settings_RecompileAllCodeSources" xml:space="preserve">
+    <value>Recompile todo o código-fonte GML ao salvar um arquivo de dados do projeto</value>
+  </data>
+  <data name="Settings_RecompileAllCodeSources_Tooltip" xml:space="preserve">
+    <value>Indica se todo o código-fonte GML incluído no projeto atualmente carregado deve ser recompilado, caso haja algum, sempre que um arquivo de dados for salvo (incluindo execuções temporárias). Desativado por padrão.</value>
+  </data>
+  <data name="Settings_EnableDarkMode" xml:space="preserve">
+    <value>Ativar o modo escuro</value>
+  </data>
+  <data name="Settings_EnableDarkMode_Tooltip" xml:space="preserve">
+    <value>Escurece a interface do programa. Desativado por padrão.</value>
+  </data>
+  <data name="Settings_TransparencyGridColors" xml:space="preserve">
+    <value>Cores da grade de transparência:</value>
+  </data>
+  <data name="Settings_GMLCompilerSettings" xml:space="preserve">
+    <value>Configurações do compilador/descompilador GML</value>
+  </data>
+  <data name="Settings_GlobalGridWidth" xml:space="preserve">
+    <value>Largura da grade global</value>
+  </data>
+  <data name="Settings_GlobalGridWidth_Tooltip" xml:space="preserve">
+    <value>Esta opção substitui globalmente a atribuição automática da largura da grade de uma sala com base na largura do bloco mais usado nessa sala.</value>
+  </data>
+  <data name="Settings_GlobalGridHeight" xml:space="preserve">
+    <value>Altura da grade global</value>
+  </data>
+  <data name="Settings_GlobalGridHeight_Tooltip" xml:space="preserve">
+    <value>Esta opção substitui globalmente a atribuição automática da altura da grade de uma sala com base na altura do bloco mais usado nessa sala.</value>
+  </data>
+  <data name="Settings_GlobalGridThickness" xml:space="preserve">
+    <value>Espessura da grade global</value>
+  </data>
+  <data name="Settings_GlobalGridThickness_Tooltip" xml:space="preserve">
+    <value>Esta opção substitui globalmente a atribuição automática da espessura da grade de uma sala.</value>
+  </data>
+  <data name="Settings_OpenAppDataFolder" xml:space="preserve">
+    <value>Abra a pasta de dados do aplicativo</value>
+  </data>
+  <data name="Settings_ClearRecentFiles" xml:space="preserve">
+    <value>Limpar arquivos recentes</value>
+  </data>
+  <data name="Settings_ClearRecentFiles_None" xml:space="preserve">
+    <value>Não há arquivos recentes para limpar.</value>
+  </data>
+  <data name="Settings_ClearRecentFiles_Confirm" xml:space="preserve">
+    <value>Tem certeza de que deseja limpar a lista de arquivos recentes?</value>
+  </data>
+  <data name="Settings_UpdateApp" xml:space="preserve">
+    <value>Atualize o aplicativo para a versão mais recente</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Verificar atualizações automaticamente na inicialização</value>
+  </data>
+  <data name="Settings_CheckForUpdatesToolTip" xml:space="preserve">
+    <value>Verifica automaticamente se há uma nova versão do UndertaleModTool ao iniciar o aplicativo.</value>
+  </data>
+  <data name="Msg_UpdateAvailable" xml:space="preserve">
+    <value>Uma nova versão do UndertaleModTool está disponível. Deseja atualizar agora?</value>
+  </data>
+  <data name="Msg_UpToDate" xml:space="preserve">
+    <value>Você está atualizado.</value>
+  </data>
+  <data name="Msg_ExtractingUpdate" xml:space="preserve">
+    <value>Extraindo atualização...</value>
+  </data>
+  <data name="Msg_UpdateNotSupported" xml:space="preserve">
+    <value>Atualizações automáticas não são suportadas nesta plataforma.</value>
+  </data>
+  <data name="GML_Title" xml:space="preserve">
+    <value>Configurações - Compilador/descompilador GML</value>
+  </data>
+  <data name="GML_GeneralSettings" xml:space="preserve">
+    <value>Configurações gerais (compilador e descompilador)</value>
+  </data>
+  <data name="GML_GeneralSettings_Tooltip" xml:space="preserve">
+    <value>Configurações que se aplicam tanto ao compilador quanto ao descompilador, para simplificar a edição do código GML.</value>
+  </data>
+  <data name="GML_UseCSSHexColors" xml:space="preserve">
+    <value>Use literais de cores hexadecimais em CSS</value>
+  </data>
+  <data name="GML_UseCSSHexColors_Tooltip" xml:space="preserve">
+    <value>Se ativada, a opção permite formatar as constantes de cor no formato hexadecimal #RRGGBB.</value>
+  </data>
+  <data name="GML_InstanceIdPrefix" xml:space="preserve">
+    <value>Prefixo de ID de instância nomeada:</value>
+  </data>
+  <data name="GML_InstanceIdPrefix_Tooltip" xml:space="preserve">
+    <value>Prefixo usado para IDs de instâncias nomeadas quando encontradas pelo descompilador e para compilação. Altere este valor se houver conflito com nomes de variáveis.</value>
+  </data>
+  <data name="GML_DecompilerSettings" xml:space="preserve">
+    <value>Configurações do descompilador</value>
+  </data>
+  <data name="GML_DecompilerSettings_Tooltip" xml:space="preserve">
+    <value>Configurações que se aplicam exclusivamente ao descompilador GML e não afetam a compilação de GML. Elas não se aplicam a todos os scripts.</value>
+  </data>
+  <data name="GML_AlwaysUseSemicolons" xml:space="preserve">
+    <value>Use sempre ponto e vírgula</value>
+  </data>
+  <data name="GML_AlwaysUseSemicolons_Tooltip" xml:space="preserve">
+    <value>Se ativado, todas as instruções que podem ser seguidas por um ponto e vírgula serão.</value>
+  </data>
+  <data name="GML_IndentationStyle" xml:space="preserve">
+    <value>Estilo de recuo:</value>
+  </data>
+  <data name="GML_IndentationStyle_Tooltip" xml:space="preserve">
+    <value>Estilo de indentação a ser usado na impressão do código descompilado.</value>
+  </data>
+  <data name="GML_OpenBlockBraceOnSameLine" xml:space="preserve">
+    <value>Chaves de bloco abertas na mesma linha</value>
+  </data>
+  <data name="GML_OpenBlockBraceOnSameLine_Tooltip" xml:space="preserve">
+    <value>Se ativada, a opção fará com que as chaves usadas para abrir um bloco sejam colocadas na mesma linha da instrução à qual pertencem, em vez de serem colocadas em uma linha separada.</value>
+  </data>
+  <data name="GML_RemoveSingleLineBlockBraces" xml:space="preserve">
+    <value>Remova as chaves se a linha for única</value>
+  </data>
+  <data name="GML_RemoveSingleLineBlockBraces_Tooltip" xml:space="preserve">
+    <value>Se ativada, a opção removerá as chaves de blocos que contêm uma única linha, sempre que possível. Para cadeias if/else, todos os blocos devem ser linhas únicas.</value>
+  </data>
+  <data name="GML_CreateEnumDeclarations" xml:space="preserve">
+    <value>Criar declarações de enumeração</value>
+  </data>
+  <data name="GML_CreateEnumDeclarations_Tooltip" xml:space="preserve">
+    <value>Se ativada, as declarações de enumeração identificadas durante a descompilação serão sempre impressas na saída descompilada.</value>
+  </data>
+  <data name="GML_EnumMacroDeclarationsAtTop" xml:space="preserve">
+    <value>Declarações de enumeração/macro no início do código</value>
+  </data>
+  <data name="GML_EnumMacroDeclarationsAtTop_Tooltip" xml:space="preserve">
+    <value>Se ativada, a opção fará com que enums e macros apareçam no início (parte superior) da saída descompilada, em vez de no final (parte inferior).</value>
+  </data>
+  <data name="GML_PrintWarnings" xml:space="preserve">
+    <value>Imprimir avisos</value>
+  </data>
+</root>
