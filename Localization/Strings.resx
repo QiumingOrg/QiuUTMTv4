@@ -597,6 +597,12 @@
   <data name="Msg_UpdateNotSupported" xml:space="preserve">
     <value>Automatic updates are not supported on this platform.</value>
   </data>
+  <data name="Msg_AndroidInstallPermission" xml:space="preserve">
+    <value>Installing updates requires the "install unknown apps" permission for this app. Please grant it in the opened system settings and try again.</value>
+  </data>
+  <data name="Msg_UpdatePackageMissing" xml:space="preserve">
+    <value>No installable package was found in the downloaded build. The releases page will be opened instead.</value>
+  </data>
   <data name="GML_Title" xml:space="preserve">
     <value>Settings - GML compiler/decompiler</value>
   </data>
@@ -4701,6 +4707,18 @@ It can't be displayed.</value>
   <data name="Settings_ChangeTrackingToolTip" xml:space="preserve">
     <value>Whether to track and highlight modified code entries in the resource tree and code editor.</value>
   </data>
+  <data name="Settings_ShowEditorPointerInfo" xml:space="preserve">
+    <value>Show pointer info in editors</value>
+  </data>
+  <data name="Settings_ShowEditorPointerInfoToolTip" xml:space="preserve">
+    <value>Whether to display the exact file offset (pointer) of the currently selected object above its editor. Hidden by default.</value>
+  </data>
+  <data name="Editor_PointerInfo" xml:space="preserve">
+    <value>Pointer:</value>
+  </data>
+  <data name="Editor_PointerInfoToolTip" xml:space="preserve">
+    <value>The exact file offset of this object, shown in hexadecimal.</value>
+  </data>
   <data name="TabTitle_AnimationCurve" xml:space="preserve">
     <value>Animation Curve</value>
   </data>
@@ -5099,6 +5117,24 @@ It's highly recommended to restart the application.</value>
   <data name="Settings_EnableDarkModeToolTip" xml:space="preserve">
     <value>Whether to enable the dark mode theme.</value>
   </data>
+  <data name="Settings_CodeEditorTheme" xml:space="preserve">
+    <value>Code editor theme:</value>
+  </data>
+  <data name="Settings_CodeEditorThemeToolTip" xml:space="preserve">
+    <value>Whether the code editor uses a light or dark theme, independently of the main app dark mode setting.</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_FollowApp" xml:space="preserve">
+    <value>Follow app theme</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_Light" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_Dark" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_InverseApp" xml:space="preserve">
+    <value>Opposite of app theme</value>
+  </data>
   <data name="Settings_GMLSettings" xml:space="preserve">
     <value>GML compiler/decompiler settings</value>
   </data>
@@ -5128,6 +5164,12 @@ It's highly recommended to restart the application.</value>
   </data>
   <data name="Settings_RememberWindowPlacementsToolTip" xml:space="preserve">
     <value>Whether to remember the last window position and size.</value>
+  </data>
+  <data name="Settings_CodeEditorShowCutCopyPaste" xml:space="preserve">
+    <value>Show Cut/Copy/Paste in code editor context menu</value>
+  </data>
+  <data name="Settings_CodeEditorShowCutCopyPasteToolTip" xml:space="preserve">
+    <value>Whether the code editor context menu shows the Cut, Copy and Paste commands.</value>
   </data>
   <data name="Settings_ShowDebuggerOptionToolTip" xml:space="preserve">
     <value>Whether to show the "Run game under GMS debugger" option in the File menu.</value>
@@ -5268,10 +5310,10 @@ It's highly recommended to restart the application.</value>
     <value>Check for functions with possibly mismatched argument counts</value>
   </data>
   <data name="Editor_ArgMismatchTooFew" xml:space="preserve">
-    <value>Possible argument count mismatch: &quot;{0}&quot; requires at least {1}, but {2} were provided</value>
+    <value>Possible argument count mismatch: "{0}" requires at least {1}, but {2} were provided</value>
   </data>
   <data name="Editor_ArgMismatchTooMany" xml:space="preserve">
-    <value>Possible argument count mismatch: &quot;{0}&quot; expects {1} argument(s), but {2} were provided</value>
+    <value>Possible argument count mismatch: "{0}" expects {1} argument(s), but {2} were provided</value>
   </data>
   <data name="Editor_WarningsFound" xml:space="preserve">
     <value>Warnings found: {0}</value>
@@ -5798,6 +5840,9 @@ It's highly recommended to restart the application.</value>
   <data name="Settings_EnableSelectAnyLayerByDefault" xml:space="preserve">
     <value>Enable selection of any layer by default</value>
   </data>
+  <data name="Settings_ShowRoomEditorDebugInfo" xml:space="preserve">
+    <value>Show room editor debug information</value>
+  </data>
   <data name="Settings_EnableProjectBackup" xml:space="preserve">
     <value>Enable backup and restoring of files in the destination folder of projects</value>
   </data>
@@ -6156,7 +6201,7 @@ It's highly recommended to restart the application.</value>
     <value>About</value>
   </data>
   <data name="Msg_AboutBody1" xml:space="preserve">
-    <value>by the Underminers team</value>
+    <value>by the Underminers team,luizzeroxis,Genouka</value>
   </data>
   <data name="Msg_AboutBody2" xml:space="preserve">
     <value>Licensed under the GNU General Public License Version 3.</value>
@@ -6279,7 +6324,8 @@ It's highly recommended to restart the application.</value>
     <value>Save to the project's designated data file for saving?</value>
   </data>
   <data name="Msg_AboutUndertaleModTool" xml:space="preserve">
-    <value>UndertaleModTool v{0} </value>
+    <value>QiuUTMTv5 v{0} </value>
+    <comment>Only used in Avalonia</comment>
   </data>
   <data name="Msg_NewMod" xml:space="preserve">
     <value>New</value>

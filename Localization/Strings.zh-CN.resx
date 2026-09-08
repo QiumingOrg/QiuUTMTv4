@@ -597,6 +597,12 @@
   <data name="Msg_UpdateNotSupported" xml:space="preserve">
     <value>此平台不支持自动更新。</value>
   </data>
+  <data name="Msg_AndroidInstallPermission" xml:space="preserve">
+    <value>安装更新需要允许本应用“安装未知应用”。请在打开的系统设置中授权后重试。</value>
+  </data>
+  <data name="Msg_UpdatePackageMissing" xml:space="preserve">
+    <value>在下载的更新中未找到可安装的安装包，即将打开发布页面。</value>
+  </data>
   <data name="GML_Title" xml:space="preserve">
     <value>设置 - GML 编译器/反编译器</value>
   </data>
@@ -4701,6 +4707,18 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Settings_ChangeTrackingToolTip" xml:space="preserve">
     <value>是否在资源树和代码编辑器中追踪并高亮显示已修改的代码条目。</value>
   </data>
+  <data name="Settings_ShowEditorPointerInfo" xml:space="preserve">
+    <value>在编辑器中显示指针信息</value>
+  </data>
+  <data name="Settings_ShowEditorPointerInfoToolTip" xml:space="preserve">
+    <value>是否在当前对象编辑器的上方显示其确切的文件偏移量（指针）。默认隐藏。</value>
+  </data>
+  <data name="Editor_PointerInfo" xml:space="preserve">
+    <value>指针：</value>
+  </data>
+  <data name="Editor_PointerInfoToolTip" xml:space="preserve">
+    <value>此对象在文件中的确切偏移量，以十六进制显示。</value>
+  </data>
   <data name="TabTitle_AnimationCurve" xml:space="preserve">
     <value>动画曲线</value>
   </data>
@@ -5099,6 +5117,24 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Settings_EnableDarkModeToolTip" xml:space="preserve">
     <value>是否启用暗色模式主题。</value>
   </data>
+  <data name="Settings_CodeEditorTheme" xml:space="preserve">
+    <value>代码编辑器主题：</value>
+  </data>
+  <data name="Settings_CodeEditorThemeToolTip" xml:space="preserve">
+    <value>代码编辑器使用亮色还是暗色主题，可独立于主程序的暗色模式设置。</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_FollowApp" xml:space="preserve">
+    <value>跟随程序主题</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_Light" xml:space="preserve">
+    <value>亮色</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_Dark" xml:space="preserve">
+    <value>暗色</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_InverseApp" xml:space="preserve">
+    <value>与程序主题相反</value>
+  </data>
   <data name="Settings_GMLSettings" xml:space="preserve">
     <value>GML 编译器/反编译器设置</value>
   </data>
@@ -5128,6 +5164,12 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   </data>
   <data name="Settings_RememberWindowPlacementsToolTip" xml:space="preserve">
     <value>是否记住上次窗口位置和大小。</value>
+  </data>
+  <data name="Settings_CodeEditorShowCutCopyPaste" xml:space="preserve">
+    <value>在代码编辑器右键菜单中显示剪切、复制和粘贴</value>
+  </data>
+  <data name="Settings_CodeEditorShowCutCopyPasteToolTip" xml:space="preserve">
+    <value>是否在代码编辑器的右键菜单中显示"剪切"、"复制"和"粘贴"命令。</value>
   </data>
   <data name="Settings_ShowDebuggerOptionToolTip" xml:space="preserve">
     <value>是否在文件菜单中显示"在 GMS 调试器下运行游戏"选项。</value>
@@ -5268,10 +5310,10 @@ UndertaleModTool的32位（x86）版本已过时。</value>
     <value>自动检查参数数量可能不匹配的函数</value>
   </data>
   <data name="Editor_ArgMismatchTooFew" xml:space="preserve">
-    <value>可能参数数量不匹配：&quot;{0}&quot; 至少需要 {1} 个参数，但只提供了 {2} 个</value>
+    <value>可能参数数量不匹配："{0}" 至少需要 {1} 个参数，但只提供了 {2} 个</value>
   </data>
   <data name="Editor_ArgMismatchTooMany" xml:space="preserve">
-    <value>可能参数数量不匹配：&quot;{0}&quot; 期望 {1} 个参数，但提供了 {2} 个</value>
+    <value>可能参数数量不匹配："{0}" 期望 {1} 个参数，但提供了 {2} 个</value>
   </data>
   <data name="Editor_WarningsFound" xml:space="preserve">
     <value>发现警告：{0} 条</value>
@@ -5510,30 +5552,6 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="ErrorDialog_CopyAll" xml:space="preserve">
     <value>全部复制</value>
   </data>
-  <data name="Settings_BackgroundImage" xml:space="preserve">
-    <value>自定义背景图片：</value>
-  </data>
-  <data name="Settings_BackgroundOpacity" xml:space="preserve">
-    <value>背景透明度：</value>
-  </data>
-  <data name="Settings_BackgroundStretchMode" xml:space="preserve">
-    <value>拉伸模式：</value>
-  </data>
-  <data name="Settings_BackgroundBrowse" xml:space="preserve">
-    <value>浏览</value>
-  </data>
-  <data name="Settings_BackgroundClear" xml:space="preserve">
-    <value>清除</value>
-  </data>
-  <data name="Settings_BackgroundSelectTitle" xml:space="preserve">
-    <value>选择背景图片</value>
-  </data>
-  <data name="Settings_BackgroundImageFilter" xml:space="preserve">
-    <value>图片文件 (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff|所有文件 (*.*)|*.*</value>
-  </data>
-  <data name="Tab_SelectOnList" xml:space="preserve">
-    <value>在列表中选中</value>
-  </data>
   <data name="Menu_Import" xml:space="preserve">
     <value>导入(_I)</value>
   </data>
@@ -5554,6 +5572,9 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   </data>
   <data name="Common_Sort" xml:space="preserve">
     <value>排序</value>
+  </data>
+  <data name="Tab_SelectOnList" xml:space="preserve">
+    <value>在列表中选中</value>
   </data>
   <data name="Common_Actions" xml:space="preserve">
     <value>操作</value>
@@ -5654,15 +5675,6 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Common_View" xml:space="preserve">
     <value>视图</value>
   </data>
-  <data name="Common_V" xml:space="preserve">
-    <value>V</value>
-  </data>
-  <data name="Common_Message" xml:space="preserve">
-    <value>消息。</value>
-  </data>
-  <data name="Tree_AnimationCurves" xml:space="preserve">
-    <value>动画曲线</value>
-  </data>
   <data name="Room_AddGameObjectInstance" xml:space="preserve">
     <value>添加游戏对象实例(_A)</value>
   </data>
@@ -5759,81 +5771,6 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Room_NewPathLayer" xml:space="preserve">
     <value>新路径图层</value>
   </data>
-  <data name="Room_EffectEnabled" xml:space="preserve">
-    <value>效果已启用</value>
-  </data>
-  <data name="Room_EffectType" xml:space="preserve">
-    <value>效果类型</value>
-  </data>
-  <data name="Room_EffectProperties" xml:space="preserve">
-    <value>效果属性</value>
-  </data>
-  <data name="Room_Size" xml:space="preserve">
-    <value>大小</value>
-  </data>
-  <data name="Room_TileSetColumns" xml:space="preserve">
-    <value>图瓦集列数</value>
-  </data>
-  <data name="Room_Properties" xml:space="preserve">
-    <value>属性</value>
-  </data>
-  <data name="Room_Scale" xml:space="preserve">
-    <value>缩放</value>
-  </data>
-  <data name="Room_X" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="Room_Y" xml:space="preserve">
-    <value>Y</value>
-  </data>
-  <data name="Room_Font" xml:space="preserve">
-    <value>字体</value>
-  </data>
-  <data name="Room_ScaleX" xml:space="preserve">
-    <value>缩放 X</value>
-  </data>
-  <data name="Room_ScaleY" xml:space="preserve">
-    <value>缩放 Y</value>
-  </data>
-  <data name="Room_OriginX" xml:space="preserve">
-    <value>原点 X</value>
-  </data>
-  <data name="Room_OriginY" xml:space="preserve">
-    <value>原点 Y</value>
-  </data>
-  <data name="Room_Text" xml:space="preserve">
-    <value>文本</value>
-  </data>
-  <data name="Room_Alignment" xml:space="preserve">
-    <value>对齐</value>
-  </data>
-  <data name="Room_CharSpacing" xml:space="preserve">
-    <value>字符间距</value>
-  </data>
-  <data name="Room_LineSpacing" xml:space="preserve">
-    <value>行间距</value>
-  </data>
-  <data name="Room_FrameWidth" xml:space="preserve">
-    <value>帧宽度</value>
-  </data>
-  <data name="Room_FrameHeight" xml:space="preserve">
-    <value>帧高度</value>
-  </data>
-  <data name="Room_Wrap" xml:space="preserve">
-    <value>换行</value>
-  </data>
-  <data name="Room_ParagraphSpacing" xml:space="preserve">
-    <value>段落间距</value>
-  </data>
-  <data name="Room_WrapMode" xml:space="preserve">
-    <value>换行模式</value>
-  </data>
-  <data name="Room_Origin" xml:space="preserve">
-    <value>原点</value>
-  </data>
-  <data name="Room_BackgroundNotSet" xml:space="preserve">
-    <value>(未设置背景)</value>
-  </data>
   <data name="Search_Title" xml:space="preserve">
     <value>在代码中搜索</value>
   </data>
@@ -5866,15 +5803,6 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   </data>
   <data name="Search_NullName" xml:space="preserve">
     <value>&lt;空名称&gt;</value>
-  </data>
-  <data name="Search_Asset" xml:space="preserve">
-    <value>资源</value>
-  </data>
-  <data name="Search_Location" xml:space="preserve">
-    <value>位置</value>
-  </data>
-  <data name="Search_Text" xml:space="preserve">
-    <value>文本</value>
   </data>
   <data name="FindRefs_Title" xml:space="preserve">
     <value>查找引用</value>
@@ -5912,6 +5840,9 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Settings_EnableSelectAnyLayerByDefault" xml:space="preserve">
     <value>默认允许选择任意图层</value>
   </data>
+  <data name="Settings_ShowRoomEditorDebugInfo" xml:space="preserve">
+    <value>显示房间编辑器调试信息</value>
+  </data>
   <data name="Settings_EnableProjectBackup" xml:space="preserve">
     <value>在项目目标文件夹中启用文件备份与恢复</value>
   </data>
@@ -5939,11 +5870,29 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="GML_Interface" xml:space="preserve">
     <value>界面</value>
   </data>
-  <data name="GML_GML" xml:space="preserve">
-    <value>GML</value>
+  <data name="Search_Asset" xml:space="preserve">
+    <value>资源</value>
+  </data>
+  <data name="Search_Location" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Search_Text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="Common_Message" xml:space="preserve">
+    <value>消息。</value>
   </data>
   <data name="GML_IndentString" xml:space="preserve">
     <value>缩进字符串：</value>
+  </data>
+  <data name="GML_GML" xml:space="preserve">
+    <value>GML</value>
+  </data>
+  <data name="Tree_AnimationCurves" xml:space="preserve">
+    <value>动画曲线</value>
+  </data>
+  <data name="Common_V" xml:space="preserve">
+    <value>V</value>
   </data>
   <data name="AnimCurve_GraphType" xml:space="preserve">
     <value>图形类型</value>
@@ -6032,6 +5981,117 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Editor_GlobalSpaceParticles" xml:space="preserve">
     <value>全局空间粒子</value>
   </data>
+  <data name="RefTooltip_AddResource" xml:space="preserve">
+    <value>新建一个此类型的资源并在此引用它。</value>
+  </data>
+  <data name="RefTooltip_OpenCurrentTab" xml:space="preserve">
+    <value>在当前标签页中打开资源。</value>
+  </data>
+  <data name="RefTooltip_OpenNewTab" xml:space="preserve">
+    <value>在新标签页中打开资源。</value>
+  </data>
+  <data name="RefTooltip_RemoveReference" xml:space="preserve">
+    <value>移除对此资源的引用。</value>
+  </data>
+  <data name="RefTooltip_NullResourceReference" xml:space="preserve">
+    <value>空资源引用</value>
+  </data>
+  <data name="RefTooltip_AddString" xml:space="preserve">
+    <value>新建一个字符串并在此引用它。</value>
+  </data>
+  <data name="RefTooltip_OpenStringCurrentTab" xml:space="preserve">
+    <value>在当前标签页中打开字符串资源。</value>
+  </data>
+  <data name="RefTooltip_OpenStringNewTab" xml:space="preserve">
+    <value>在新标签页中打开字符串资源。</value>
+  </data>
+  <data name="RefTooltip_NullStringReference" xml:space="preserve">
+    <value>空字符串引用</value>
+  </data>
+  <data name="RefTooltip_Add" xml:space="preserve">
+    <value>新建一个此类型的资源并在此引用它。</value>
+  </data>
+  <data name="Room_EffectEnabled" xml:space="preserve">
+    <value>效果已启用</value>
+  </data>
+  <data name="Room_EffectType" xml:space="preserve">
+    <value>效果类型</value>
+  </data>
+  <data name="Room_EffectProperties" xml:space="preserve">
+    <value>效果属性</value>
+  </data>
+  <data name="Room_Size" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="Room_TileSetColumns" xml:space="preserve">
+    <value>图瓦集列数</value>
+  </data>
+  <data name="Room_Properties" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="Room_Scale" xml:space="preserve">
+    <value>缩放</value>
+  </data>
+  <data name="Room_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Room_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Room_Font" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="Room_ScaleX" xml:space="preserve">
+    <value>缩放 X</value>
+  </data>
+  <data name="Room_ScaleY" xml:space="preserve">
+    <value>缩放 Y</value>
+  </data>
+  <data name="Room_OriginX" xml:space="preserve">
+    <value>原点 X</value>
+  </data>
+  <data name="Room_OriginY" xml:space="preserve">
+    <value>原点 Y</value>
+  </data>
+  <data name="Room_Text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="Room_Alignment" xml:space="preserve">
+    <value>对齐</value>
+  </data>
+  <data name="Room_CharSpacing" xml:space="preserve">
+    <value>字符间距</value>
+  </data>
+  <data name="Room_LineSpacing" xml:space="preserve">
+    <value>行间距</value>
+  </data>
+  <data name="Room_FrameWidth" xml:space="preserve">
+    <value>帧宽度</value>
+  </data>
+  <data name="Room_FrameHeight" xml:space="preserve">
+    <value>帧高度</value>
+  </data>
+  <data name="Room_Wrap" xml:space="preserve">
+    <value>换行</value>
+  </data>
+  <data name="Room_ParagraphSpacing" xml:space="preserve">
+    <value>段落间距</value>
+  </data>
+  <data name="Room_WrapMode" xml:space="preserve">
+    <value>换行模式</value>
+  </data>
+  <data name="Room_Origin" xml:space="preserve">
+    <value>原点</value>
+  </data>
+  <data name="Room_BackgroundNotSet" xml:space="preserve">
+    <value>(未设置背景)</value>
+  </data>
+  <data name="Editor_EmbeddedAudioIDOnAudioGroup" xml:space="preserve">
+    <value>音频组文件中的嵌入音频 ID</value>
+  </data>
+  <data name="Editor_AudioLength" xml:space="preserve">
+    <value>音频长度</value>
+  </data>
   <data name="Editor_Sprite_ExportAllTexturesAsPNGs" xml:space="preserve">
     <value>将所有纹理导出为 PNG</value>
   </data>
@@ -6064,136 +6124,6 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   </data>
   <data name="Editor_Code_AnonymousFunctionAfter" xml:space="preserve">
     <value> 中匿名函数的引用，请在此查看。</value>
-  </data>
-  <data name="Editor_ColorSuffix" xml:space="preserve">
-    <value>(颜色)</value>
-  </data>
-  <data name="Editor_NumberSuffix" xml:space="preserve">
-    <value>(数字)</value>
-  </data>
-  <data name="Editor_ConstantsMenu" xml:space="preserve">
-    <value>常量</value>
-  </data>
-  <data name="Editor_SymbolSearch" xml:space="preserve">符号 ({0})</data>
-  <data name="Editor_EmbeddedAudioIDOnAudioGroup" xml:space="preserve">
-    <value>音频组文件中的嵌入音频 ID</value>
-  </data>
-  <data name="Editor_AudioLength" xml:space="preserve">
-    <value>音频长度</value>
-  </data>
-  <data name="RefTooltip_AddResource" xml:space="preserve">
-    <value>新建一个此类型的资源并在此引用它。</value>
-  </data>
-  <data name="RefTooltip_OpenCurrentTab" xml:space="preserve">
-    <value>在当前标签页中打开资源。</value>
-  </data>
-  <data name="RefTooltip_OpenNewTab" xml:space="preserve">
-    <value>在新标签页中打开资源。</value>
-  </data>
-  <data name="RefTooltip_RemoveReference" xml:space="preserve">
-    <value>移除对此资源的引用。</value>
-  </data>
-  <data name="RefTooltip_NullResourceReference" xml:space="preserve">
-    <value>空资源引用</value>
-  </data>
-  <data name="RefTooltip_AddString" xml:space="preserve">
-    <value>新建一个字符串并在此引用它。</value>
-  </data>
-  <data name="RefTooltip_OpenStringCurrentTab" xml:space="preserve">
-    <value>在当前标签页中打开字符串资源。</value>
-  </data>
-  <data name="RefTooltip_OpenStringNewTab" xml:space="preserve">
-    <value>在新标签页中打开字符串资源。</value>
-  </data>
-  <data name="RefTooltip_NullStringReference" xml:space="preserve">
-    <value>空字符串引用</value>
-  </data>
-  <data name="RefTooltip_Add" xml:space="preserve">
-    <value>新建一个此类型的资源并在此引用它。</value>
-  </data>
-  <data name="RefTooltip_ObjRefPlaceholder" xml:space="preserve">
-    <value>({0} 引用)</value>
-  </data>
-  <data name="RefTooltip_StringRefPlaceholder" xml:space="preserve">
-    <value>(字符串引用)</value>
-  </data>
-  <data name="RefType_AllFiles" xml:space="preserve">
-    <value>所有文件</value>
-  </data>
-  <data name="RefType_BinFiles" xml:space="preserve">
-    <value>BIN 文件 (.bin)</value>
-  </data>
-  <data name="RefType_GameMakerDataFiles" xml:space="preserve">
-    <value>GameMaker 数据文件 (.win, .unx, .ios, .droid, audiogroup*.dat)</value>
-  </data>
-  <data name="RefType_PngFiles" xml:space="preserve">
-    <value>PNG 文件 (.png)</value>
-  </data>
-  <data name="RefType_QoiFiles" xml:space="preserve">
-    <value>QOI 文件 (.qoi)</value>
-  </data>
-  <data name="RefType_Bz2Files" xml:space="preserve">
-    <value>BZ2 文件 (.bz2)</value>
-  </data>
-  <data name="RefType_WavFiles" xml:space="preserve">
-    <value>WAV 文件 (.wav)</value>
-  </data>
-  <data name="RefType_CSFiles" xml:space="preserve">
-    <value>C# 脚本 (.csx)</value>
-  </data>
-  <data name="RefType_JsonFiles" xml:space="preserve">
-    <value>JSON 文件 (.json)</value>
-  </data>
-  <data name="Msg_ImportAudio" xml:space="preserve">
-    <value>导入音频</value>
-  </data>
-  <data name="Msg_ExportAudio" xml:space="preserve">
-    <value>导出音频</value>
-  </data>
-  <data name="Msg_ImportImage" xml:space="preserve">
-    <value>导入图像</value>
-  </data>
-  <data name="Msg_ExportImage" xml:space="preserve">
-    <value>导出图像</value>
-  </data>
-  <data name="Msg_ExportImageAsPNG" xml:space="preserve">
-    <value>导出图像为 PNG</value>
-  </data>
-  <data name="Msg_ImportShader" xml:space="preserve">
-    <value>导入着色器</value>
-  </data>
-  <data name="Msg_ExportShader" xml:space="preserve">
-    <value>导出着色器</value>
-  </data>
-  <data name="Msg_LoadImageWithoutPadding" xml:space="preserve">
-    <value>加载无内边距图像</value>
-  </data>
-  <data name="Msg_SaveImageWithPadding" xml:space="preserve">
-    <value>保存图像{0}内边距</value>
-  </data>
-  <data name="Msg_LoadImageError" xml:space="preserve">
-    <value>加载图像出错</value>
-  </data>
-  <data name="Msg_SaveImageError" xml:space="preserve">
-    <value>保存图像出错</value>
-  </data>
-  <data name="Msg_ExportAllTexturesToFolder" xml:space="preserve">
-    <value>将所有纹理导出到文件夹</value>
-  </data>
-  <data name="Msg_ReplaceExistingFiles" xml:space="preserve">
-    <value>以下文件已存在。是否替换它们？</value>
-  </data>
-  <data name="Msg_ErrorCreateFile" xml:space="preserve">
-    <value>错误：无法创建文件"{0}"</value>
-  </data>
-  <data name="Msg_ImportCollisionMaskData" xml:space="preserve">
-    <value>导入碰撞遮罩数据</value>
-  </data>
-  <data name="Msg_ExportCollisionMaskData" xml:space="preserve">
-    <value>导出碰撞遮罩数据</value>
-  </data>
-  <data name="Msg_SaveImageTitle" xml:space="preserve">
-    <value>保存图像</value>
   </data>
   <data name="Msg_SaveDataFileBeforeOpeningNew" xml:space="preserve">
     <value>打开新文件前是否保存数据文件？</value>
@@ -6270,11 +6200,8 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Msg_AboutTitle" xml:space="preserve">
     <value>关于</value>
   </data>
-  <data name="Msg_AboutUndertaleModTool" xml:space="preserve">
-    <value>UndertaleModTool v{0} </value>
-  </data>
   <data name="Msg_AboutBody1" xml:space="preserve">
-    <value>由 Underminers 团队开发</value>
+    <value>由 Underminers 团队、luizzeroxis、Genouka 开发</value>
   </data>
   <data name="Msg_AboutBody2" xml:space="preserve">
     <value>根据 GNU 通用公共许可证第 3 版授权。</value>
@@ -6296,18 +6223,6 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   </data>
   <data name="Msg_None" xml:space="preserve">
     <value>无</value>
-  </data>
-  <data name="Msg_NewMod" xml:space="preserve">
-    <value>新建</value>
-  </data>
-  <data name="Msg_SelectDirectory" xml:space="preserve">
-    <value>选择目录</value>
-  </data>
-  <data name="Msg_LoadFile" xml:space="preserve">
-    <value>加载文件</value>
-  </data>
-  <data name="Msg_SaveFile" xml:space="preserve">
-    <value>保存文件</value>
   </data>
   <data name="Msg_ScriptCompilationError" xml:space="preserve">
     <value>脚本编译错误</value>
@@ -6407,6 +6322,117 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   </data>
   <data name="Msg_SaveToProjectDataFileQuestion" xml:space="preserve">
     <value>保存到项目指定的数据文件？</value>
+  </data>
+  <data name="Msg_AboutUndertaleModTool" xml:space="preserve">
+    <value>QiuUTMTv5 v{0} </value>
+  </data>
+  <data name="Msg_NewMod" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="Msg_SelectDirectory" xml:space="preserve">
+    <value>选择目录</value>
+  </data>
+  <data name="Msg_LoadFile" xml:space="preserve">
+    <value>加载文件</value>
+  </data>
+  <data name="Msg_SaveFile" xml:space="preserve">
+    <value>保存文件</value>
+  </data>
+  <data name="Editor_ColorSuffix" xml:space="preserve">
+    <value>(颜色)</value>
+  </data>
+  <data name="Editor_NumberSuffix" xml:space="preserve">
+    <value>(数字)</value>
+  </data>
+  <data name="Editor_ConstantsMenu" xml:space="preserve">
+    <value>常量</value>
+  </data>
+  <data name="Editor_SymbolSearch" xml:space="preserve">
+    <value>符号 ({0})</value>
+  </data>
+  <data name="RefTooltip_ObjRefPlaceholder" xml:space="preserve">
+    <value>({0} 引用)</value>
+  </data>
+  <data name="RefTooltip_StringRefPlaceholder" xml:space="preserve">
+    <value>(字符串引用)</value>
+  </data>
+  <data name="RefType_AllFiles" xml:space="preserve">
+    <value>所有文件</value>
+  </data>
+  <data name="RefType_BinFiles" xml:space="preserve">
+    <value>BIN 文件 (.bin)</value>
+  </data>
+  <data name="RefType_GameMakerDataFiles" xml:space="preserve">
+    <value>GameMaker 数据文件 (.win, .unx, .ios, .droid, audiogroup*.dat)</value>
+  </data>
+  <data name="RefType_PngFiles" xml:space="preserve">
+    <value>PNG 文件 (.png)</value>
+  </data>
+  <data name="RefType_QoiFiles" xml:space="preserve">
+    <value>QOI 文件 (.qoi)</value>
+  </data>
+  <data name="RefType_Bz2Files" xml:space="preserve">
+    <value>BZ2 文件 (.bz2)</value>
+  </data>
+  <data name="RefType_WavFiles" xml:space="preserve">
+    <value>WAV 文件 (.wav)</value>
+  </data>
+  <data name="RefType_CSFiles" xml:space="preserve">
+    <value>C# 脚本 (.csx)</value>
+  </data>
+  <data name="RefType_JsonFiles" xml:space="preserve">
+    <value>JSON 文件 (.json)</value>
+  </data>
+  <data name="Msg_ImportAudio" xml:space="preserve">
+    <value>导入音频</value>
+  </data>
+  <data name="Msg_ExportAudio" xml:space="preserve">
+    <value>导出音频</value>
+  </data>
+  <data name="Msg_ImportImage" xml:space="preserve">
+    <value>导入图像</value>
+  </data>
+  <data name="Msg_ExportImage" xml:space="preserve">
+    <value>导出图像</value>
+  </data>
+  <data name="Msg_ExportImageAsPNG" xml:space="preserve">
+    <value>导出图像为 PNG</value>
+  </data>
+  <data name="Msg_ImportShader" xml:space="preserve">
+    <value>导入着色器</value>
+  </data>
+  <data name="Msg_ExportShader" xml:space="preserve">
+    <value>导出着色器</value>
+  </data>
+  <data name="Msg_LoadImageWithoutPadding" xml:space="preserve">
+    <value>加载无内边距图像</value>
+  </data>
+  <data name="Msg_SaveImageWithPadding" xml:space="preserve">
+    <value>保存图像{0}内边距</value>
+  </data>
+  <data name="Msg_LoadImageError" xml:space="preserve">
+    <value>加载图像出错</value>
+  </data>
+  <data name="Msg_SaveImageError" xml:space="preserve">
+    <value>保存图像出错</value>
+  </data>
+  <data name="Msg_ExportAllTexturesToFolder" xml:space="preserve">
+    <value>将所有纹理导出到文件夹</value>
+  </data>
+  <data name="Msg_ReplaceExistingFiles" xml:space="preserve">
+    <value>以下文件已存在。是否替换它们？</value>
+  </data>
+  <data name="Msg_ErrorCreateFile" xml:space="preserve">
+    <value>错误：无法创建文件"{0}"</value>
+  </data>
+  <data name="Msg_ImportCollisionMaskData" xml:space="preserve">
+    <value>导入碰撞遮罩数据</value>
+  </data>
+  <data name="Msg_ExportCollisionMaskData" xml:space="preserve">
+    <value>导出碰撞遮罩数据</value>
+  </data>
+  <data name="Msg_SaveImageTitle" xml:space="preserve">
+    <value>保存图像</value>
   </data>
   <data name="GML_AutoInfer" xml:space="preserve">
     <value>自动推断：</value>
@@ -6515,5 +6541,26 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   </data>
   <data name="Menu_Export_AllRoomsToPNG" xml:space="preserve">
     <value>将所有房间导出为 PNG...</value>
+  </data>
+  <data name="Settings_BackgroundImage" xml:space="preserve">
+    <value>自定义背景图片：</value>
+  </data>
+  <data name="Settings_BackgroundOpacity" xml:space="preserve">
+    <value>背景透明度：</value>
+  </data>
+  <data name="Settings_BackgroundStretchMode" xml:space="preserve">
+    <value>拉伸模式：</value>
+  </data>
+  <data name="Settings_BackgroundBrowse" xml:space="preserve">
+    <value>浏览</value>
+  </data>
+  <data name="Settings_BackgroundClear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="Settings_BackgroundSelectTitle" xml:space="preserve">
+    <value>选择背景图片</value>
+  </data>
+  <data name="Settings_BackgroundImageFilter" xml:space="preserve">
+    <value>图片文件 (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff|所有文件 (*.*)|*.*</value>
   </data>
 </root>
