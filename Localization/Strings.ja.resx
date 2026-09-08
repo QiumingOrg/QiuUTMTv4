@@ -6436,4 +6436,70 @@ GitHub で報告してください。
   <data name="Menu_Export_AllRoomsToPNG" xml:space="preserve">
     <value>すべてのルームをPNGとしてエクスポート...</value>
   </data>
+  <data name="Msg_AndroidInstallPermission" xml:space="preserve">
+    <value>Installing updates requires the "install unknown apps" permission for this app. Please grant it in the opened system settings and try again.</value>
+  </data>
+  <data name="Msg_UpdatePackageMissing" xml:space="preserve">
+    <value>No installable package was found in the downloaded build. The releases page will be opened instead.</value>
+  </data>
+  <data name="Settings_ShowEditorPointerInfo" xml:space="preserve">
+    <value>Show pointer info in editors</value>
+  </data>
+  <data name="Settings_ShowEditorPointerInfoToolTip" xml:space="preserve">
+    <value>Whether to display the exact file offset (pointer) of the currently selected object above its editor. Hidden by default.</value>
+  </data>
+  <data name="Editor_PointerInfo" xml:space="preserve">
+    <value>Pointer:</value>
+  </data>
+  <data name="Editor_PointerInfoToolTip" xml:space="preserve">
+    <value>The exact file offset of this object, shown in hexadecimal.</value>
+  </data>
+  <data name="Settings_CodeEditorTheme" xml:space="preserve">
+    <value>Code editor theme:</value>
+  </data>
+  <data name="Settings_CodeEditorThemeToolTip" xml:space="preserve">
+    <value>Whether the code editor uses a light or dark theme, independently of the main app dark mode setting.</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_FollowApp" xml:space="preserve">
+    <value>Follow app theme</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_Light" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_Dark" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_InverseApp" xml:space="preserve">
+    <value>Opposite of app theme</value>
+  </data>
+  <data name="Settings_CodeEditorShowCutCopyPaste" xml:space="preserve">
+    <value>Show Cut/Copy/Paste in code editor context menu</value>
+  </data>
+  <data name="Settings_CodeEditorShowCutCopyPasteToolTip" xml:space="preserve">
+    <value>Whether the code editor context menu shows the Cut, Copy and Paste commands.</value>
+  </data>
+  <data name="Settings_ShowRoomEditorDebugInfo" xml:space="preserve">
+    <value>Show room editor debug information</value>
+  </data>
+  <data name="Settings_BackgroundBrowse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="Settings_BackgroundClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Settings_BackgroundImage" xml:space="preserve">
+    <value>Custom background image: </value>
+  </data>
+  <data name="Settings_BackgroundImageFilter" xml:space="preserve">
+    <value>Image File (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff|Any File (*.*)|*.*</value>
+  </data>
+  <data name="Settings_BackgroundOpacity" xml:space="preserve">
+    <value>Background opacity: </value>
+  </data>
+  <data name="Settings_BackgroundSelectTitle" xml:space="preserve">
+    <value>Select a background image</value>
+  </data>
+  <data name="Settings_BackgroundStretchMode" xml:space="preserve">
+    <value>Background  image stretch mode: </value>
+  </data>
 </root>
