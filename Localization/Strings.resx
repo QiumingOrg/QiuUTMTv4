@@ -6543,4 +6543,25 @@ It's highly recommended to restart the application.</value>
   <data name="Menu_Export_AllRoomsToPNG" xml:space="preserve">
     <value>Export all rooms to PNG...</value>
   </data>
+  <data name="Settings_BackgroundBrowse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="Settings_BackgroundClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Settings_BackgroundImage" xml:space="preserve">
+    <value>Custom background image: </value>
+  </data>
+  <data name="Settings_BackgroundImageFilter" xml:space="preserve">
+    <value>Image File (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff|Any File (*.*)|*.*</value>
+  </data>
+  <data name="Settings_BackgroundOpacity" xml:space="preserve">
+    <value>Background opacity: </value>
+  </data>
+  <data name="Settings_BackgroundSelectTitle" xml:space="preserve">
+    <value>Select a background image</value>
+  </data>
+  <data name="Settings_BackgroundStretchMode" xml:space="preserve">
+    <value>Background  image stretch mode: </value>
+  </data>
 </root>
