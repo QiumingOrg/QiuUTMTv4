@@ -6436,4 +6436,70 @@ GitHub で報告してください。
   <data name="Menu_Export_AllRoomsToPNG" xml:space="preserve">
     <value>すべてのルームをPNGとしてエクスポート...</value>
   </data>
+  <data name="Msg_AndroidInstallPermission" xml:space="preserve">
+    <value>アップデートをインストールするには、このアプリに対して「不明なアプリのインストール」の権限が必要です。開いているシステム設定でこの権限を許可してから、もう一度お試しください。</value>
+  </data>
+  <data name="Msg_UpdatePackageMissing" xml:space="preserve">
+    <value>ダウンロードしたビルドには、インストール可能なパッケージが見つかりませんでした。代わりに、リリースページが開かれます。</value>
+  </data>
+  <data name="Settings_ShowEditorPointerInfo" xml:space="preserve">
+    <value>エディタでポインタ情報を表示する</value>
+  </data>
+  <data name="Settings_ShowEditorPointerInfoToolTip" xml:space="preserve">
+    <value>現在選択されているオブジェクトの正確なファイルオフセット（ポインタ）を、そのエディタの上に表示するかどうか。デフォルトでは非表示になっています。</value>
+  </data>
+  <data name="Editor_PointerInfo" xml:space="preserve">
+    <value>ポインター:</value>
+  </data>
+  <data name="Editor_PointerInfoToolTip" xml:space="preserve">
+    <value>このオブジェクトの正確なファイルのオフセットは、16進数で示されます。</value>
+  </data>
+  <data name="Settings_CodeEditorTheme" xml:space="preserve">
+    <value>Code editor theme:</value>
+  </data>
+  <data name="Settings_CodeEditorThemeToolTip" xml:space="preserve">
+    <value>コードエディタがライトテーマを使用するかダークテーマを使用するかは、メインアプリのダークモード設定とは無関係です。</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_FollowApp" xml:space="preserve">
+    <value>アプリテーマのフォロー</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_Light" xml:space="preserve">
+    <value>ライト</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_Dark" xml:space="preserve">
+    <value>ダーク</value>
+  </data>
+  <data name="Settings_CodeEditorTheme_InverseApp" xml:space="preserve">
+    <value>アプリテーマの反対</value>
+  </data>
+  <data name="Settings_CodeEditorShowCutCopyPaste" xml:space="preserve">
+    <value>コードエディタコンテキストメニューでカット/コピー/ペーストを表示</value>
+  </data>
+  <data name="Settings_CodeEditorShowCutCopyPasteToolTip" xml:space="preserve">
+    <value>コードエディタのコンテクストメニューが[カット]、 [コピー]、 [貼り付け] コマンドを表示するかどうか.</value>
+  </data>
+  <data name="Settings_ShowRoomEditorDebugInfo" xml:space="preserve">
+    <value>ルームエディタのデバッグ情報を表示する</value>
+  </data>
+  <data name="Settings_BackgroundBrowse" xml:space="preserve">
+    <value>閲覧する</value>
+  </data>
+  <data name="Settings_BackgroundClear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="Settings_BackgroundImage" xml:space="preserve">
+    <value>カスタム背景画像: </value>
+  </data>
+  <data name="Settings_BackgroundImageFilter" xml:space="preserve">
+    <value>画像ファイル(*.png、*.jpg、*.jpeg、*.bmp、*.gif、*.tiff)|*.png、*.jpg、*.jpeg、*.bmp、*.gif、*.tiff| 任意のファイル(*.*)|*。 * 必須</value>
+  </data>
+  <data name="Settings_BackgroundOpacity" xml:space="preserve">
+    <value>背景の不透明度: </value>
+  </data>
+  <data name="Settings_BackgroundSelectTitle" xml:space="preserve">
+    <value>背景画像を選択</value>
+  </data>
+  <data name="Settings_BackgroundStretchMode" xml:space="preserve">
+    <value>背景画像ストレッチモード: </value>
+  </data>
 </root>
