@@ -569,7 +569,7 @@
     <value>アプリ起動時に UndertaleModTool の新しいバージョンを自動的にチェックします.</value>
   </data>
   <data name="Msg_UpdateAvailable" xml:space="preserve">
-    <value>UndertaleModToolの新しいバージョンが利用可能です。 更新したいですか?</value>
+    <value>UndertaleModToolの新しいバージョンが利用可能です。 更新しますか?</value>
   </data>
   <data name="Msg_UpToDate" xml:space="preserve">
     <value>最新情報.</value>

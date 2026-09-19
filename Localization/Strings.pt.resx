@@ -605,46 +605,46 @@
     <value>Imprimir avisos</value>
   </data>
   <data name="Msg_AndroidInstallPermission" xml:space="preserve">
-    <value>Installing updates requires the "install unknown apps" permission for this app. Please grant it in the opened system settings and try again.</value>
+    <value>A instalação de atualizações requer a permissão "Instalar aplicativos desconhecidos" para este aplicativo. Conceda a permissão nas configurações do sistema e tente novamente.</value>
   </data>
   <data name="Msg_UpdatePackageMissing" xml:space="preserve">
-    <value>No installable package was found in the downloaded build. The releases page will be opened instead.</value>
+    <value>Nenhum pacote instalável foi encontrado na versão baixada. A página de versões será aberta.</value>
   </data>
   <data name="GML_PrintWarnings_Tooltip" xml:space="preserve">
-    <value>If enabled, warnings generated during decompilation will be printed as comments.</value>
+    <value>Se ativada, a opção exibirá os avisos gerados durante a descompilação como comentários.</value>
   </data>
   <data name="GML_AllowLeftoverDataOnStack" xml:space="preserve">
-    <value>Allow leftover data on VM stack</value>
+    <value>Permitir dados remanescentes na pilha da VM</value>
   </data>
   <data name="GML_AllowLeftoverDataOnStack_Tooltip" xml:space="preserve">
-    <value>If enabled, data left over on the VM stack will be treated as a warning rather than an error.</value>
+    <value>Se ativada, a opção tratará os dados remanescentes na pilha da máquina virtual como um aviso, e não como um erro.</value>
   </data>
   <data name="GML_AddEmptyLines" xml:space="preserve">
-    <value>Add empty lines:</value>
+    <value>Adicionar linhas em branco:</value>
   </data>
   <data name="GML_AddEmptyLines_Tooltip" xml:space="preserve">
-    <value>Select specific syntax to add empty lines before, after, or around.</value>
+    <value>Selecione a sintaxe específica para adicionar linhas em branco antes, depois ou ao redor.</value>
   </data>
   <data name="GML_EmptyLineAroundBranchStatements" xml:space="preserve">
-    <value>Around branch statements</value>
+    <value>Em torno de declarações de ramificação</value>
   </data>
   <data name="GML_EmptyLineAroundBranchStatements_Tooltip" xml:space="preserve">
-    <value>If enabled, adds an empty line before and after branch statements.</value>
+    <value>Se ativado, adiciona uma linha em branco antes e depois das instruções de ramificação.</value>
   </data>
   <data name="GML_EmptyLineAfterBlockLocals" xml:space="preserve">
-    <value>After local variable declarations</value>
+    <value>Após declarações de variáveis locais</value>
   </data>
   <data name="GML_EmptyLineAfterBlockLocals_Tooltip" xml:space="preserve">
-    <value>If enabled, adds an empty line after block-scoped local variable declarations.</value>
+    <value>Se ativado, adiciona uma linha em branco após as declarações de variáveis locais com escopo de bloco.</value>
   </data>
   <data name="GML_EmptyLineBeforeSwitchCases" xml:space="preserve">
-    <value>Before switch cases</value>
+    <value>Antes de trocar as capas</value>
   </data>
   <data name="GML_EmptyLineBeforeSwitchCases_Tooltip" xml:space="preserve">
-    <value>If enabled, adds an empty line before (a chain) of "case" entries in a switch statement.</value>
+    <value>Se ativado, adiciona uma linha em branco antes (de uma cadeia) de entradas "case" em uma instrução switch.</value>
   </data>
   <data name="GML_EmptyLineAfterSwitchCases" xml:space="preserve">
-    <value>After switch cases</value>
+    <value>Após a troca de casos</value>
   </data>
   <data name="GML_EmptyLineAfterSwitchCases_Tooltip" xml:space="preserve">
     <value>If enabled, adds an empty line after (a chain) of "case" entries in a switch statement.</value>
