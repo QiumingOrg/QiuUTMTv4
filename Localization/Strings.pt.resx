@@ -68,13 +68,13 @@
     <value>Adicionar</value>
   </data>
   <data name="Common_Delete" xml:space="preserve">
-    <value>Deletar</value>
+    <value>Excluir</value>
   </data>
   <data name="Common_Save" xml:space="preserve">
     <value>Salva</value>
   </data>
   <data name="Common_Open" xml:space="preserve">
-    <value>Abri</value>
+    <value>Abrir</value>
   </data>
   <data name="Common_Export" xml:space="preserve">
     <value>Exportar</value>
@@ -245,10 +245,10 @@
     <value>Limpar lista de arquivos recentes</value>
   </data>
   <data name="Menu_File_Save" xml:space="preserve">
-    <value>_salvar</value>
+    <value>_Salvar</value>
   </data>
   <data name="Menu_File_TempRun" xml:space="preserve">
-    <value>_temp rodar jogo</value>
+    <value>_Temp rodar jogo</value>
   </data>
   <data name="Menu_File_RunGMSDebugger" xml:space="preserve">
     <value>Execute o jogo no _depurador GMS</value>
@@ -278,7 +278,7 @@
     <value>_Pesquisar no código</value>
   </data>
   <data name="Menu_Find_UnreferencedAssets" xml:space="preserve">
-    <value>Encontre _ativos não referenciados</value>
+    <value>Encontre _assets não referenciados</value>
   </data>
   <data name="Menu_Project" xml:space="preserve">
     <value>_projeto</value>
@@ -293,7 +293,7 @@
     <value>_salvar projeto</value>
   </data>
   <data name="Menu_Project_ViewUnexportedAssets" xml:space="preserve">
-    <value>_Visualizar ativos não exportado</value>
+    <value>_Visualizar asset não exportado</value>
   </data>
   <data name="Menu_Project_Close" xml:space="preserve">
     <value>_fechar projeto</value>
@@ -335,13 +335,13 @@
     <value>Fundos e Tile sets</value>
   </data>
   <data name="Tree_Tilesets" xml:space="preserve">
-    <value>Tile set</value>
+    <value>Tile sets</value>
   </data>
   <data name="Tree_Paths" xml:space="preserve">
     <value>Caminhos</value>
   </data>
   <data name="Tree_Scripts" xml:space="preserve">
-    <value>scripts</value>
+    <value>Scripts</value>
   </data>
   <data name="Tree_Shaders" xml:space="preserve">
     <value>shaders</value>
@@ -431,7 +431,7 @@
     <value>Habilitar troca de ordens de ativos</value>
   </data>
   <data name="Settings_AssetOrderSwapping_Tooltip" xml:space="preserve">
-    <value>Alterna a funcionalidade de arrastar e soltar elementos nas abas de elementos para diferentes posições na lista. Desativado por padrão.</value>
+    <value>Alterna a funcionalidade de arrastar e soltar assets nas abas de assets para diferentes posições na lista. Desativado por padrão.</value>
   </data>
   <data name="Settings_AutoFileAssociation" xml:space="preserve">
     <value>Associar automaticamente o arquivo de dados do GameMaker</value>
@@ -491,13 +491,13 @@
     <value>Largura da grade global</value>
   </data>
   <data name="Settings_GlobalGridWidth_Tooltip" xml:space="preserve">
-    <value>Esta opção substitui globalmente a atribuição automática da largura da grade de uma sala com base na largura do bloco mais usado nessa sala.</value>
+    <value>Esta opção substitui globalmente a atribuição automática da largura da grade de uma sala com base na largura do tile mais usado nessa sala.</value>
   </data>
   <data name="Settings_GlobalGridHeight" xml:space="preserve">
     <value>Altura da grade global</value>
   </data>
   <data name="Settings_GlobalGridHeight_Tooltip" xml:space="preserve">
-    <value>Esta opção substitui globalmente a atribuição automática da altura da grade de uma sala com base na altura do bloco mais usado nessa sala.</value>
+    <value>Esta opção substitui globalmente a atribuição automática da altura da grade de uma sala com base na altura do tile mais usado nessa sala.</value>
   </data>
   <data name="Settings_GlobalGridThickness" xml:space="preserve">
     <value>Espessura da grade global</value>
@@ -647,76 +647,76 @@
     <value>Após a troca de casos</value>
   </data>
   <data name="GML_EmptyLineAfterSwitchCases_Tooltip" xml:space="preserve">
-    <value>If enabled, adds an empty line after (a chain) of "case" entries in a switch statement.</value>
+    <value>Se ativado, adiciona uma linha em branco após (uma sequência de) entradas 'case' em um comando switch.</value>
   </data>
   <data name="GML_EmptyLineAroundFunctionDeclarations" xml:space="preserve">
-    <value>Around function declarations</value>
+    <value>Ao redor de declarações de funções</value>
   </data>
   <data name="GML_EmptyLineAroundFunctionDeclarations_Tooltip" xml:space="preserve">
-    <value>If enabled, adds an empty line before and after a function declaration, even if it is anonymous.</value>
+    <value>Se ativado, adiciona uma linha em branco antes e depois de uma declaração de função, mesmo que ela seja anónima.</value>
   </data>
   <data name="GML_EmptyLineAroundStaticInitialization" xml:space="preserve">
-    <value>Around static initialization</value>
+    <value>Ao redor da inicialização estática</value>
   </data>
   <data name="GML_EmptyLineAroundStaticInitialization_Tooltip" xml:space="preserve">
-    <value>If enabled, adds an empty line before and after static initialization, grouping together consecutive statics if possible.</value>
+    <value>Se ativado, adiciona uma linha em branco antes e depois da inicialização estática, agrupando estáticas consecutivas, se possível.</value>
   </data>
   <data name="GML_PerformCleanups" xml:space="preserve">
-    <value>Perform cleanups:</value>
+    <value>Realizar limpezas:</value>
   </data>
   <data name="GML_PerformCleanups_Tooltip" xml:space="preserve">
-    <value>Select specific cleanup operations for the decompiler to perform. Disabling these may make code more ugly or "incorrect," but can show underlying logic.</value>
+    <value>Seleciona operações de limpeza específicas para o descompilador executar. Desativá-las pode tornar o código mais feio ou 'incorreto', mas pode mostrar a lógica subjacente.</value>
   </data>
   <data name="GML_CleanupTryCatchFinally" xml:space="preserve">
-    <value>Try/catch/finally rewriting</value>
+    <value>Reescrita de try/catch/finally</value>
   </data>
   <data name="GML_CleanupTryCatchFinally_Tooltip" xml:space="preserve">
-    <value>If enabled, compiler-generated code and logic for try/catch/finally statements is rewritten to (attempt to) look like the original code.</value>
+    <value>Se ativado, o código e a lógica gerados pelo compilador para instruções try/catch/finally são reescritos para (tentar) se parecerem com o código original.</value>
   </data>
   <data name="GML_CleanupElseToContinue" xml:space="preserve">
-    <value>Transform else into continue</value>
+    <value>Transformar else em continue</value>
   </data>
   <data name="GML_CleanupElseToContinue_Tooltip" xml:space="preserve">
-    <value>If enabled, certain usages of "else" inside of a loop can be transformed into "continue" statements, which can make code easier to read. This only happens if accuracy can be maintained.</value>
+    <value>Se ativado, determinados usos de 'else' dentro de um loop podem ser transformados em instruções 'continue', o que pode tornar o código mais fácil de ler. Isso só acontece se a precisão puder ser mantida.</value>
   </data>
   <data name="GML_CleanupDefaultArgumentValues" xml:space="preserve">
-    <value>Default argument values</value>
+    <value>Valores de argumentos padrão</value>
   </data>
   <data name="GML_CleanupDefaultArgumentValues_Tooltip" xml:space="preserve">
-    <value>If enabled, syntax for default named function arguments will be used. Compiler-generated if statements are transformed to do this, maintaining accuracy.</value>
+    <value>Se ativado, será utilizada a sintaxe para argumentos de funções nomeados padrão. As instruções 'if' geradas pelo compilador são transformadas para fazer isso, mantendo a precisão.</value>
   </data>
   <data name="GML_CleanupBuiltinArrayVariables" xml:space="preserve">
-    <value>Builtin array variable syntax</value>
+    <value>Sintaxe de variáveis de array integradas</value>
   </data>
   <data name="GML_CleanupBuiltinArrayVariables_Tooltip" xml:space="preserve">
-    <value>If enabled, certain builtin globals (such as "view_xview"), when detected to be used without an array accessor, will be printed as such, rather than using compiler-generated syntax.</value>
+    <value>Se ativado, determinadas variáveis globais integradas (como 'view_xview'), quando detetadas a serem utilizadas sem um acessor de array, serão exibidas como tal, em vez de utilizarem a sintaxe gerada pelo compilador.</value>
   </data>
   <data name="GML_CleanupLocalVarDeclarations" xml:space="preserve">
-    <value>Scope local variable declarations</value>
+    <value>Delimitar declarações de variáveis locais</value>
   </data>
   <data name="GML_CleanupLocalVarDeclarations_Tooltip" xml:space="preserve">
-    <value>If enabled, local variable declarations will be placed according to their scopes, which are detected based on usage in the code.</value>
+    <value>Se ativado, as declarações de variáveis locais serão posicionadas de acordo com os seus escopos, que são detetados com base no uso no código.</value>
   </data>
   <data name="GML_InferFunctionArgumentTypes" xml:space="preserve">
-    <value>Infer script argument types</value>
+    <value>Inferir tipos de argumentos de script</value>
   </data>
   <data name="GML_InferFunctionArgumentTypes_Tooltip" xml:space="preserve">
-    <value>If enabled, the decompiler will attempt to infer the types of user script arguments by analyzing how arguments such as argument0 flow through each script, expanding integer literals into named constants (enums, assets, colors, etc.) at call sites.</value>
+    <value>Se ativado, o descompilador tentará inferir os tipos de argumentos de scripts de utilizadores analisando como os argumentos, tais como argument0, fluem por cada script, expandindo literais inteiros em constantes nomeadas (enums, assets, cores, etc.) nos locais de chamada.</value>
   </data>
   <data name="GML_ReverseInferVariableTypes" xml:space="preserve">
-    <value>Reverse-infer variable types</value>
+    <value>Inferir tipos de variáveis de forma inversa</value>
   </data>
   <data name="GML_ReverseInferVariableTypes_Tooltip" xml:space="preserve">
-    <value>If enabled, inferred argument types are propagated back onto variables that were assigned from those arguments, so that literals assigned to those variables (e.g. colors) are also expanded.</value>
+    <value>Se ativado, os tipos de argumentos inferidos são propagados de volta para as variáveis que receberam atribuições desses argumentos, para que os literais atribuídos a essas variáveis (por exemplo, cores) também sejam expandidos.</value>
   </data>
   <data name="GML_InlinePropagateVariableTypes" xml:space="preserve">
-    <value>Propagate variable types inline</value>
+    <value>Propagar tipos de variáveis inline</value>
   </data>
   <data name="GML_InlinePropagateVariableTypes_Tooltip" xml:space="preserve">
-    <value>If enabled, when an argument with a known type is assigned to a variable, the variable's type is registered on the spot, expanding literals assigned to it later (e.g. colors).</value>
+    <value>Se ativado, quando um argumento com um tipo conhecido é atribuído a uma variável, o tipo da variável é registado imediatamente, expandindo os literais atribuídos a ela mais tarde (por exemplo, cores).</value>
   </data>
   <data name="GML_RestoreToDefaults" xml:space="preserve">
-    <value>Restore to defaults</value>
+    <value>Restaurar predefinições</value>
   </data>
   <data name="Editor_GeneralInfo" xml:space="preserve">
     <value>General info</value>
@@ -725,178 +725,178 @@
     <value>Options</value>
   </data>
   <data name="Editor_Language" xml:space="preserve">
-    <value>Language (?)</value>
+    <value>Idioma (?)</value>
   </data>
   <data name="Editor_DisableGMSDebugger" xml:space="preserve">
-    <value>Disable GMS debugger</value>
+    <value>Desativar o depurador do GMS</value>
   </data>
   <data name="Editor_BytecodeVersion" xml:space="preserve">
-    <value>Bytecode version</value>
+    <value>Versão do bytecode</value>
   </data>
   <data name="Editor_FileName" xml:space="preserve">
-    <value>FileName</value>
+    <value>Nome do arquivo</value>
   </data>
   <data name="Editor_Config" xml:space="preserve">
-    <value>Config</value>
+    <value>Configuração</value>
   </data>
   <data name="Editor_LastObjectID" xml:space="preserve">
-    <value>Last object ID</value>
+    <value>ID do último objeto</value>
   </data>
   <data name="Editor_LastTileID" xml:space="preserve">
-    <value>Last tile ID</value>
+    <value>ID do último tile</value>
   </data>
   <data name="Editor_GameID" xml:space="preserve">
-    <value>Game ID</value>
+    <value>ID do jogo</value>
   </data>
   <data name="Editor_DirectPlayGUID" xml:space="preserve">
-    <value>DirectPlay GUID</value>
+    <value>GUID do DirectPlay</value>
   </data>
   <data name="Editor_Version" xml:space="preserve">
-    <value>Version</value>
+    <value>Versão</value>
   </data>
   <data name="Editor_DefaultWindowSize" xml:space="preserve">
-    <value>Default window size</value>
+    <value>Tamanho padrão da janela</value>
   </data>
   <data name="Editor_LicenseMD5" xml:space="preserve">
-    <value>License MD5</value>
+    <value>MD5 da licença</value>
   </data>
   <data name="Editor_LicenseCRC32" xml:space="preserve">
-    <value>License CRC32</value>
+    <value>CRC32 da licença</value>
   </data>
   <data name="Editor_Timestamp" xml:space="preserve">
-    <value>Timestamp</value>
+    <value>Carimbo de data/hora</value>
   </data>
   <data name="Editor_TimestampTooltip" xml:space="preserve">
-    <value>(local time, hover to see GMT+0)</value>
+    <value>(horário local, passe o cursor para ver o GMT+0)</value>
   </data>
   <data name="Editor_DisplayName" xml:space="preserve">
-    <value>Display name</value>
+    <value>Nome de exibição</value>
   </data>
   <data name="Editor_ActiveTargets" xml:space="preserve">
-    <value>Active targets</value>
+    <value>Alvos ativos</value>
   </data>
   <data name="Editor_FunctionClassifications" xml:space="preserve">
-    <value>Function classifications</value>
+    <value>Classificações de funções</value>
   </data>
   <data name="Editor_SteamAppID" xml:space="preserve">
-    <value>Steam AppID</value>
+    <value>AppID da Steam</value>
   </data>
   <data name="Editor_DebuggerPort" xml:space="preserve">
-    <value>Debugger port</value>
+    <value>Porta do depurador</value>
   </data>
   <data name="Editor_RoomOrder" xml:space="preserve">
-    <value>Room order</value>
+    <value>Ordem das salas</value>
   </data>
   <data name="Editor_SyncWithRoomList" xml:space="preserve">
-    <value>Sync with room list</value>
+    <value>Sincronizar com a lista de salas</value>
   </data>
   <data name="Editor_FPS" xml:space="preserve">
     <value>FPS</value>
   </data>
   <data name="Editor_AllowStatistics" xml:space="preserve">
-    <value>Allow statistics</value>
+    <value>Permitir estatísticas</value>
   </data>
   <data name="Editor_GameGUID" xml:space="preserve">
-    <value>Game GUID</value>
+    <value>GUID do jogo</value>
   </data>
   <data name="Editor_ShaderExtensionFlag" xml:space="preserve">
-    <value>Shader Extension Flag</value>
+    <value>Flag de extensão de shader</value>
   </data>
   <data name="Editor_ShaderExtensionVersion" xml:space="preserve">
-    <value>Shader Extension Version</value>
+    <value>Versão da extensão de shader</value>
   </data>
   <data name="Editor_WindowColor" xml:space="preserve">
-    <value>Window color</value>
+    <value>Cor da janela</value>
   </data>
   <data name="Editor_ColorDepth" xml:space="preserve">
-    <value>Color depth</value>
+    <value>Profundidade de cor</value>
   </data>
   <data name="Editor_Resolution" xml:space="preserve">
-    <value>Resolution</value>
+    <value>Resolução</value>
   </data>
   <data name="Editor_Frequency" xml:space="preserve">
     <value>Frequency</value>
   </data>
   <data name="Editor_VertexSync" xml:space="preserve">
-    <value>Vertex sync</value>
+    <value>VSync</value>
   </data>
   <data name="Editor_Priority" xml:space="preserve">
-    <value>Priority</value>
+    <value>Prioridade</value>
   </data>
   <data name="Editor_BackImage" xml:space="preserve">
-    <value>Back image</value>
+    <value>Imagem de fundo</value>
   </data>
   <data name="Editor_FrontImage" xml:space="preserve">
-    <value>Front image</value>
+    <value>Imagem frontal</value>
   </data>
   <data name="Editor_LoadImage" xml:space="preserve">
-    <value>Load image</value>
+    <value>Carregar imagem</value>
   </data>
   <data name="Editor_LoadAlpha" xml:space="preserve">
-    <value>Load alpha</value>
+    <value>Carregar alfa</value>
   </data>
   <data name="Editor_Constants" xml:space="preserve">
-    <value>Constants</value>
+    <value>Constantes</value>
   </data>
   <data name="Editor_Unknown" xml:space="preserve">
-    <value>Unknown</value>
+    <value>Desconhecido</value>
   </data>
   <data name="Editor_LanguageCount" xml:space="preserve">
-    <value>Language count</value>
+    <value>Contagem de idiomas</value>
   </data>
   <data name="Editor_EntryCount" xml:space="preserve">
-    <value>Entry count</value>
+    <value>Contagem de entradas</value>
   </data>
   <data name="Editor_LanguageNote" xml:space="preserve">
-    <value>Note: the languages currently don't seem used, and so the editor for them has not yet been made.</value>
+    <value>Nota: os idiomas atualmente não parecem estar em uso, e por isso o editor para eles ainda não foi criado.</value>
   </data>
   <data name="Editor_Sprite_Width" xml:space="preserve">
-    <value>Width:</value>
+    <value>Largura:</value>
   </data>
   <data name="Editor_Sprite_Height" xml:space="preserve">
-    <value>Height:</value>
+    <value>Altura:</value>
   </data>
   <data name="Editor_Sprite_Margin" xml:space="preserve">
-    <value>Margin</value>
+    <value>Margem</value>
   </data>
   <data name="Editor_Sprite_Left" xml:space="preserve">
-    <value>Left:</value>
+    <value>Esquerda:</value>
   </data>
   <data name="Editor_Sprite_Right" xml:space="preserve">
     <value>Right:</value>
   </data>
   <data name="Editor_Sprite_Bottom" xml:space="preserve">
-    <value>Bottom:</value>
+    <value>Inferior:</value>
   </data>
   <data name="Editor_Sprite_Top" xml:space="preserve">
     <value>Top:</value>
   </data>
   <data name="Editor_Sprite_BoundingBoxMode" xml:space="preserve">
-    <value>Bounding box mode</value>
+    <value>Modo de caixa delimitadora</value>
   </data>
   <data name="Editor_Sprite_SepMasks" xml:space="preserve">
-    <value>SepMasks</value>
+    <value>Máscaras separadas</value>
   </data>
   <data name="Editor_Sprite_Origin" xml:space="preserve">
-    <value>Origin</value>
+    <value>Origem</value>
   </data>
   <data name="Editor_Sprite_Textures" xml:space="preserve">
-    <value>Textures</value>
+    <value>Texturas</value>
   </data>
   <data name="Editor_Sprite_ExportAllFrames" xml:space="preserve">
-    <value>Export all frames (or Spine data if this is a Spine sprite)</value>
+    <value>Exportar todos os quadros (ou dados do Spine se este for um sprite do Spine)</value>
   </data>
   <data name="Editor_Sprite_CollisionMasks" xml:space="preserve">
-    <value>Collision masks</value>
+    <value>Máscaras de colisão</value>
   </data>
   <data name="Editor_Sprite_InvalidMaskData" xml:space="preserve">
-    <value>Invalid mask data!</value>
+    <value>Dados de máscara inválidos!</value>
   </data>
   <data name="Editor_Sprite_ImportMask" xml:space="preserve">
-    <value>Import mask</value>
+    <value>Importar máscara</value>
   </data>
   <data name="Editor_Sprite_ExportMask" xml:space="preserve">
-    <value>Export mask</value>
+    <value>Exportar máscara</value>
   </data>
   <data name="Editor_Sprite_IsSpecialType" xml:space="preserve">
     <value>Is special type?</value>
@@ -905,43 +905,43 @@
     <value>Version</value>
   </data>
   <data name="Editor_Sprite_PlaybackSpeed" xml:space="preserve">
-    <value>Playback speed</value>
+    <value>Velocidade de reprodução</value>
   </data>
   <data name="Editor_Sprite_PlaybackSpeedType" xml:space="preserve">
-    <value>Playback speed type</value>
+    <value>Tipo de velocidade de reprodução</value>
   </data>
   <data name="Editor_Sound_File" xml:space="preserve">
     <value>File</value>
   </data>
   <data name="Editor_Sound_Effects" xml:space="preserve">
-    <value>Effects</value>
+    <value>Efeitos</value>
   </data>
   <data name="Editor_Sound_Volume" xml:space="preserve">
     <value>Volume</value>
   </data>
   <data name="Editor_Sound_Pitch" xml:space="preserve">
-    <value>Pitch</value>
+    <value>Altura</value>
   </data>
   <data name="Editor_Sound_AudioGroup" xml:space="preserve">
-    <value>Audio group</value>
+    <value>Grupo de áudio</value>
   </data>
   <data name="Editor_Sound_AudioFile" xml:space="preserve">
     <value>Audio file</value>
   </data>
   <data name="Editor_Sound_PreloadOld" xml:space="preserve">
-    <value>Preload (old audio system)</value>
+    <value>Pré-carregar (sistema de áudio antigo)</value>
   </data>
   <data name="Editor_BG_TileWidth" xml:space="preserve">
-    <value>Tile Width</value>
+    <value>Largura do tile</value>
   </data>
   <data name="Editor_BG_TileHeight" xml:space="preserve">
-    <value>Tile Height</value>
+    <value>Altura do tile</value>
   </data>
   <data name="Editor_BG_TileSeparationX" xml:space="preserve">
-    <value>Tile Separation X</value>
+    <value>Separação de tiles X</value>
   </data>
   <data name="Editor_BG_TileSeparationY" xml:space="preserve">
-    <value>Tile Separation Y</value>
+    <value>Separação de tiles Y</value>
   </data>
   <data name="Editor_BG_OutputBorderX" xml:space="preserve">
     <value>Output Border X</value>
@@ -950,46 +950,46 @@
     <value>Output Border Y</value>
   </data>
   <data name="Editor_BG_TileColumns" xml:space="preserve">
-    <value>Tile Columns</value>
+    <value>Colunas de tiles</value>
   </data>
   <data name="Editor_BG_ItemsPerTile" xml:space="preserve">
-    <value>Items/frames per tile</value>
+    <value>Itens/quadros por tile</value>
   </data>
   <data name="Editor_BG_TileCount" xml:space="preserve">
-    <value>Tile Count</value>
+    <value>Contagem de tiles</value>
   </data>
   <data name="Editor_BG_ExportedSprite" xml:space="preserve">
-    <value>Exported Sprite (GM 2023.8+)</value>
+    <value>Sprite exportada (GM 2023.8+)</value>
   </data>
   <data name="Editor_BG_FrameTime" xml:space="preserve">
-    <value>Frame Time (microseconds)</value>
+    <value>Tempo de quadro (microssegundos)</value>
   </data>
   <data name="Editor_BG_TileIDs" xml:space="preserve">
-    <value>Tile IDs</value>
+    <value>IDs de tiles</value>
   </data>
   <data name="Editor_BG_GMTilesetVersion" xml:space="preserve">
-    <value>GM Tileset Version</value>
+    <value>Versão do conjunto de tiles do GM</value>
   </data>
   <data name="Editor_BG_ClickTileHint" xml:space="preserve">
-    <value>Hint: You can click on any tile region below to highlight its ID above.</value>
+    <value>Dica: Você pode clicar em qualquer região de tile abaixo para destacar seu ID acima.</value>
   </data>
   <data name="Editor_Code_LocalsCount" xml:space="preserve">
-    <value>Locals count</value>
+    <value>Contagem de locais</value>
   </data>
   <data name="Editor_Code_ArgumentsCount" xml:space="preserve">
-    <value>Arguments count</value>
+    <value>Contagem de argumentos</value>
   </data>
   <data name="Editor_Code_Offset" xml:space="preserve">
     <value>Offset</value>
   </data>
   <data name="Editor_Code_ParentEntry" xml:space="preserve">
-    <value>Parent entry</value>
+    <value>Entrada pai</value>
   </data>
   <data name="Editor_Code_DecompileTab" xml:space="preserve">
-    <value>Decompiled</value>
+    <value>Descompilado</value>
   </data>
   <data name="Editor_Code_DisassemblyTab" xml:space="preserve">
-    <value>Disassembly</value>
+    <value>Desmontagem</value>
   </data>
   <data name="Editor_GameObj_Sprite" xml:space="preserve">
     <value>Sprite</value>
@@ -998,121 +998,121 @@
     <value>Visible</value>
   </data>
   <data name="Editor_GameObj_Solid" xml:space="preserve">
-    <value>Solid</value>
+    <value>Sólido</value>
   </data>
   <data name="Editor_GameObj_Depth" xml:space="preserve">
-    <value>Depth</value>
+    <value>Profundidade</value>
   </data>
   <data name="Editor_GameObj_Persistent" xml:space="preserve">
-    <value>Persistent</value>
+    <value>Persistente</value>
   </data>
   <data name="Editor_GameObj_Parent" xml:space="preserve">
-    <value>Parent</value>
+    <value>Pai</value>
   </data>
   <data name="Editor_GameObj_TextureMaskId" xml:space="preserve">
-    <value>Texture mask id</value>
+    <value>ID da máscara de textura</value>
   </data>
   <data name="Editor_GameObj_UsesPhysics" xml:space="preserve">
-    <value>Uses physics</value>
+    <value>Utiliza física</value>
   </data>
   <data name="Editor_GameObj_IsSensor" xml:space="preserve">
-    <value>Is sensor</value>
+    <value>É sensor</value>
   </data>
   <data name="Editor_GameObj_CollisionShape" xml:space="preserve">
-    <value>Collision shape</value>
+    <value>Forma de colisão</value>
   </data>
   <data name="Editor_GameObj_Physics" xml:space="preserve">
-    <value>Physics</value>
+    <value>Física</value>
   </data>
   <data name="Editor_GameObj_Density" xml:space="preserve">
-    <value>Density</value>
+    <value>Densidade</value>
   </data>
   <data name="Editor_GameObj_Restitution" xml:space="preserve">
-    <value>Restitution</value>
+    <value>Restituição</value>
   </data>
   <data name="Editor_GameObj_Group" xml:space="preserve">
-    <value>Group</value>
+    <value>Grupo</value>
   </data>
   <data name="Editor_GameObj_LinearDamping" xml:space="preserve">
-    <value>Linear damping</value>
+    <value>Amortecimento linear</value>
   </data>
   <data name="Editor_GameObj_AngularDamping" xml:space="preserve">
-    <value>Angular damping</value>
+    <value>Amortecimento angular</value>
   </data>
   <data name="Editor_GameObj_Friction" xml:space="preserve">
-    <value>Friction</value>
+    <value>Atrito</value>
   </data>
   <data name="Editor_GameObj_IsAwake" xml:space="preserve">
-    <value>Is awake</value>
+    <value>Acordado</value>
   </data>
   <data name="Editor_GameObj_IsKinematic" xml:space="preserve">
-    <value>Is kinematic</value>
+    <value>Cinemático</value>
   </data>
   <data name="Editor_GameObj_PhysicsShapeVertices" xml:space="preserve">
-    <value>Physics shape vertices</value>
+    <value>Vértices da física</value>
   </data>
   <data name="Editor_GameObj_Events" xml:space="preserve">
     <value>Events</value>
   </data>
   <data name="Editor_GameObj_SubtypeID" xml:space="preserve">
-    <value>Subtype ID</value>
+    <value>ID do subtipo</value>
   </data>
   <data name="Editor_GameObj_Actions" xml:space="preserve">
     <value>Actions</value>
   </data>
   <data name="Editor_Font_DisplayName" xml:space="preserve">
-    <value>Display name</value>
+    <value>Nome de exibição</value>
   </data>
   <data name="Editor_Font_FontSize" xml:space="preserve">
-    <value>Font size</value>
+    <value>Tamanho da fonte</value>
   </data>
   <data name="Editor_Font_Bold" xml:space="preserve">
-    <value>Bold</value>
+    <value>Negrito</value>
   </data>
   <data name="Editor_Font_Italic" xml:space="preserve">
     <value>Italic</value>
   </data>
   <data name="Editor_Font_Range" xml:space="preserve">
-    <value>Range</value>
+    <value>Intervalo</value>
   </data>
   <data name="Editor_Font_Charset" xml:space="preserve">
     <value>Charset</value>
   </data>
   <data name="Editor_Font_AntiAliasing" xml:space="preserve">
-    <value>Anti Aliasing</value>
+    <value>Antisserrilhamento</value>
   </data>
   <data name="Editor_Font_Ascender" xml:space="preserve">
-    <value>Ascender</value>
+    <value>Ascendente</value>
   </data>
   <data name="Editor_Font_AscenderOffset" xml:space="preserve">
-    <value>Ascender offset</value>
+    <value>Deslocamento ascendente</value>
   </data>
   <data name="Editor_Font_SDFSpread" xml:space="preserve">
-    <value>SDF spread value</value>
+    <value>Dispersão SDF</value>
   </data>
   <data name="Editor_Font_LineHeight" xml:space="preserve">
-    <value>Line height</value>
+    <value>Altura da linha</value>
   </data>
   <data name="Editor_Font_ClickGlyphHint" xml:space="preserve">
-    <value>Hint: You can click on any glyph here to highlight it in the "Glyphs".</value>
+    <value>Dica: Você pode clicar em qualquer glifo aqui para destacá-lo em "Glifos".</value>
   </data>
   <data name="Editor_Font_EditSelectedGlyphRectangle" xml:space="preserve">
-    <value>Edit a selected glyph rectangle</value>
+    <value>Editar retângulo do glifo selecionado</value>
   </data>
   <data name="Editor_Font_SelectRegionEmptyGlyph" xml:space="preserve">
-    <value>Select a region of an empty glyph</value>
+    <value>Selecionar uma região de um glifo vazio</value>
   </data>
   <data name="Editor_Font_CreateEmptyGlyph" xml:space="preserve">
-    <value>Create an empty glyph</value>
+    <value>Criar glifo vazio</value>
   </data>
   <data name="Editor_Font_Glyphs" xml:space="preserve">
-    <value>Glyphs:</value>
+    <value>Glifos:</value>
   </data>
   <data name="Editor_Font_Char" xml:space="preserve">
-    <value>Char</value>
+    <value>Caractere</value>
   </data>
   <data name="Editor_Font_SourcePositionSize" xml:space="preserve">
-    <value>Source position/size</value>
+    <value>Posição/tamanho de origem</value>
   </data>
   <data name="Editor_Font_Shift" xml:space="preserve">
     <value>Shift</value>
@@ -1124,82 +1124,79 @@
     <value>Kerning</value>
   </data>
   <data name="Editor_Font_PreceedingChar" xml:space="preserve">
-    <value>Preceeding char</value>
+    <value>Caractere anterior</value>
   </data>
   <data name="Editor_Font_AddShift" xml:space="preserve">
     <value>Add. shift</value>
   </data>
   <data name="Editor_Font_GlyphSortNote" xml:space="preserve">
-    <value>Note that the glyphs need to be specified in ascending order.
-Press the button below to sort them appropriately.</value>
+    <value>Observação: Os glifos precisam ser especificados em ordem ascendente. Pressione o botão abaixo para ordená-los adequadamente.</value>
   </data>
   <data name="Editor_Font_SortGlyphs" xml:space="preserve">
-    <value>Sort glyphs</value>
+    <value>Ordenar glifos</value>
   </data>
   <data name="Editor_Font_UpdateRangeNote" xml:space="preserve">
-    <value>Also, if you have added new characters or changed the character
-of an existing glyph, you should update the font range.
-Press the button below to do that.</value>
+    <value>Além disso, se você adicionou novos caracteres ou alterou o caractere de um glifo existente, deve atualizar o intervalo da fonte. Pressione o botão abaixo para fazer isso.</value>
   </data>
   <data name="Editor_Font_UpdateRange" xml:space="preserve">
-    <value>Update range</value>
+    <value>Atualizar intervalo</value>
   </data>
   <data name="Editor_Font_GoBack" xml:space="preserve">
-    <value>Go back</value>
+    <value>Voltar</value>
   </data>
   <data name="Editor_Path_Smooth" xml:space="preserve">
-    <value>Smooth</value>
+    <value>Suavizar</value>
   </data>
   <data name="Editor_Path_Closed" xml:space="preserve">
-    <value>Closed</value>
+    <value>Fechado</value>
   </data>
   <data name="Editor_Path_Precision" xml:space="preserve">
-    <value>Precision</value>
+    <value>Precisão</value>
   </data>
   <data name="Editor_Path_Points" xml:space="preserve">
     <value>Points</value>
   </data>
   <data name="Editor_Path_TodoPreview" xml:space="preserve">
-    <value>TODO: The preview doesn't update live, I know, just close and reopen the object for now</value>
+    <value>TODO: A pré-visualização não é atualizada em tempo real, eu sei, apenas feche e reabra o objeto por enquanto.</value>
   </data>
   <data name="Editor_Script_Code" xml:space="preserve">
     <value>Code</value>
   </data>
   <data name="Editor_Shader_GLSLESVertex" xml:space="preserve">
-    <value>GLSL ES vertex source</value>
+    <value>Código-fonte vertex GLSL ES</value>
   </data>
   <data name="Editor_Shader_GLSLESFragment" xml:space="preserve">
-    <value>GLSL ES fragment source</value>
+    <value>Código-fonte de fragmento GLSL ES</value>
   </data>
   <data name="Editor_Shader_GLSLVertex" xml:space="preserve">
-    <value>GLSL vertex source</value>
+    <value>Código-fonte de vértice GLSL</value>
   </data>
   <data name="Editor_Shader_GLSLFragment" xml:space="preserve">
-    <value>GLSL fragment source</value>
+    <value>Código-fonte de fragmento GLSL</value>
   </data>
   <data name="Editor_Shader_HLSL9Vertex" xml:space="preserve">
-    <value>HLSL9 vertex source</value>
+    <value>Código-fonte de vértice HLSL9</value>
   </data>
   <data name="Editor_Shader_HLSL9Fragment" xml:space="preserve">
-    <value>HLSL9 fragment source</value>
+    <value>Código-fonte de fragmento HLSL9</value>
   </data>
   <data name="Editor_Shader_VertexShaderAttributes" xml:space="preserve">
-    <value>Vertex shader attributes</value>
+    <value>Atributos do shader de vértices</value>
   </data>
   <data name="Editor_Timeline_Moments" xml:space="preserve">
-    <value>Moments</value>
+    <value>Momentos</value>
   </data>
   <data name="Editor_Timeline_Step" xml:space="preserve">
-    <value>Step</value>
+    <value>Passo</value>
   </data>
   <data name="Editor_Timeline_ActionsCodeEntries" xml:space="preserve">
-    <value>Actions (Code Entries)</value>
+    <value>Ações (Entradas de código)</value>
   </data>
   <data name="Editor_Variable_InstanceType" xml:space="preserve">
-    <value>Instance type</value>
+    <value>Tipo de instância</value>
   </data>
   <data name="Editor_Variable_VarID" xml:space="preserve">
-    <value>VarID</value>
+    <value>ID da variável</value>
   </data>
   <data name="Editor_Variable_NameStringID" xml:space="preserve">
     <value>Name string ID</value>
@@ -1211,66 +1208,66 @@ Press the button below to do that.</value>
     <value>Content</value>
   </data>
   <data name="Editor_TexPageItem_SourcePositionSize" xml:space="preserve">
-    <value>Source position/size</value>
+    <value>Posição/tamanho de origem</value>
   </data>
   <data name="Editor_TexPageItem_TargetPositionSize" xml:space="preserve">
-    <value>Target position/size</value>
+    <value>Posição/tamanho de destino</value>
   </data>
   <data name="Editor_TexPageItem_BoundingSize" xml:space="preserve">
-    <value>Bounding size</value>
+    <value>Tamanho delimitador</value>
   </data>
   <data name="Editor_TexPageItem_FindAllReferences" xml:space="preserve">
-    <value>Find all references to this page item</value>
+    <value>Encontrar todas as referências a este item de página</value>
   </data>
   <data name="Editor_EmbeddedTex_Scaled" xml:space="preserve">
-    <value>Scaled</value>
+    <value>Redimensionado</value>
   </data>
   <data name="Editor_EmbeddedTex_GeneratedMips" xml:space="preserve">
-    <value>Generated mips</value>
+    <value>Mips gerados</value>
   </data>
   <data name="Editor_EmbeddedTex_TextureFailedToLoad" xml:space="preserve">
-    <value>Warning: Texture failed to load!</value>
+    <value>Aviso: Falha ao carregar a textura!</value>
   </data>
   <data name="Editor_EmbeddedTex_MouseHint" xml:space="preserve">
-    <value>Hint: This image is mouse interactable (3 mouse buttons and mouse wheel).</value>
+    <value>Dica: Esta imagem é interativa com o cursor (3 botões e roda do mouse).</value>
   </data>
   <data name="Editor_EmbeddedAudio_DataBytes" xml:space="preserve">
     <value>{0} data, {1} bytes</value>
   </data>
   <data name="Editor_EmbeddedImage_Texture" xml:space="preserve">
-    <value>Texture</value>
+    <value>Textura</value>
   </data>
   <data name="Editor_Extension_ClassName" xml:space="preserve">
-    <value>Class Name</value>
+    <value>Nome da classe</value>
   </data>
   <data name="Editor_Extension_Files" xml:space="preserve">
     <value>Files</value>
   </data>
   <data name="Editor_Extension_AddNewFile" xml:space="preserve">
-    <value>Add new extension file</value>
+    <value>Adicionar novo arquivo de extensão</value>
   </data>
   <data name="Editor_Extension_ProductID" xml:space="preserve">
-    <value>Product ID</value>
+    <value>ID do produto</value>
   </data>
   <data name="Editor_Extension_ThingsToNote" xml:space="preserve">
-    <value>THINGS TO NOTE:
-- Keep in mind that .gml files are either not present, or will be empty. (e.g. no functions)
-  Because they are prebaked into GML scripts. That is completely normal.</value>
+    <value>COISAS A OBSERVAR:
+- Tenha em mente que os arquivos .gml ou não estão presentes, ou estarão vazios. (por exemplo, sem funções)
+  Porque eles são pré-compilados nos scripts GML. Isso é completamente normal.</value>
   </data>
   <data name="Editor_Extension_AddNewOption" xml:space="preserve">
-    <value>Add new extension option</value>
+    <value>Adicionar nova opção de extensão</value>
   </data>
   <data name="Editor_ExtFile_CleanupFunction" xml:space="preserve">
-    <value>Cleanup function name</value>
+    <value>Nome da função de limpeza</value>
   </data>
   <data name="Editor_ExtFile_InitFunction" xml:space="preserve">
-    <value>Init function name</value>
+    <value>Nome da função de inicialização</value>
   </data>
   <data name="Editor_ExtFile_Functions" xml:space="preserve">
-    <value>Functions</value>
+    <value>Funções</value>
   </data>
   <data name="Editor_ExtFunc_ExternalName" xml:space="preserve">
-    <value>External Name</value>
+    <value>Nome externo</value>
   </data>
   <data name="Editor_ExtFunc_ID" xml:space="preserve">
     <value>ID</value>
@@ -1279,23 +1276,23 @@ Press the button below to do that.</value>
     <value>Return Type</value>
   </data>
   <data name="Editor_ExtFunc_ArgumentTypes" xml:space="preserve">
-    <value>Argument Types</value>
+    <value>Tipos de argumentos</value>
   </data>
   <data name="Editor_ExtFunc_KindRunnerNote" xml:space="preserve">
-    <value>Runner literally doesn't care about the 'Kind' value.
-The 'ID' does matter though, so make sure you don't have any overlaps.</value>
+    <value>O Runner não quer saber minimamente do valor "Kind".
+No entanto, o "ID" é importante, por isso certifique-se de que não existem sobreposições.</value>
   </data>
   <data name="Editor_AudioGroup_Path" xml:space="preserve">
-    <value>Path (GM 2024.14+)</value>
+    <value>Caminho (GM 2024.14+)</value>
   </data>
   <data name="Editor_TexGroup_TextureGroup" xml:space="preserve">
-    <value>Texture Group</value>
+    <value>Grupo de texturas</value>
   </data>
   <data name="Editor_TexGroup_GroupName" xml:space="preserve">
-    <value>Group Name</value>
+    <value>Nome do grupo</value>
   </data>
   <data name="Editor_TexGroup_TexturePages" xml:space="preserve">
-    <value>Texture Pages</value>
+    <value>Páginas de texturas</value>
   </data>
   <data name="Editor_TexGroup_Sprites" xml:space="preserve">
     <value>Sprites</value>
@@ -1304,594 +1301,594 @@ The 'ID' does matter though, so make sure you don't have any overlaps.</value>
     <value>Spine Sprites</value>
   </data>
   <data name="Editor_TexGroup_Fonts" xml:space="preserve">
-    <value>Fonts</value>
+    <value>Fontes</value>
   </data>
   <data name="Editor_TexGroup_Tilesets" xml:space="preserve">
-    <value>Tilesets</value>
+    <value>Conjunto de tiles</value>
   </data>
   <data name="Room_Backgrounds" xml:space="preserve">
-    <value>Backgrounds</value>
+    <value>Fundos</value>
   </data>
   <data name="Room_Views" xml:space="preserve">
     <value>Views</value>
   </data>
   <data name="Room_GameObjects" xml:space="preserve">
-    <value>Game objects</value>
+    <value>Objetos de jogo</value>
   </data>
   <data name="Room_Tiles" xml:space="preserve">
     <value>Tiles</value>
   </data>
   <data name="Room_Layers" xml:space="preserve">
-    <value>Layers</value>
+    <value>Camadas</value>
   </data>
   <data name="Room_Caption" xml:space="preserve">
-    <value>Caption</value>
+    <value>Título</value>
   </data>
   <data name="Room_Persistent" xml:space="preserve">
-    <value>Persistent</value>
+    <value>Persistente</value>
   </data>
   <data name="Room_BackgroundColor" xml:space="preserve">
-    <value>Background color</value>
+    <value>Cor de fundo</value>
   </data>
   <data name="Room_DrawBackgroundColor" xml:space="preserve">
-    <value>Draw background color</value>
+    <value>Desenhar cor de fundo</value>
   </data>
   <data name="Room_CreationCode" xml:space="preserve">
     <value>Creation Code</value>
   </data>
   <data name="Room_World" xml:space="preserve">
-    <value>World</value>
+    <value>Mundo</value>
   </data>
   <data name="Room_TopLeftRightBottom" xml:space="preserve">
-    <value>Top/Left/Right/Bottom</value>
+    <value>Superior/Esquerda/Direita/Inferior</value>
   </data>
   <data name="Room_Gravity" xml:space="preserve">
-    <value>Gravity</value>
+    <value>Gravidade</value>
   </data>
   <data name="Room_GridWidth" xml:space="preserve">
-    <value>Grid Width</value>
+    <value>Largura da malha</value>
   </data>
   <data name="Room_GridHeight" xml:space="preserve">
-    <value>Grid Height</value>
+    <value>Altura da malha</value>
   </data>
   <data name="Room_GridThickness" xml:space="preserve">
-    <value>Grid Thickness</value>
+    <value>Espessura da malha</value>
   </data>
   <data name="Room_Foreground" xml:space="preserve">
-    <value>Foreground</value>
+    <value>Primeiro plano</value>
   </data>
   <data name="Room_Tiling" xml:space="preserve">
-    <value>Tiling</value>
+    <value>Repetição</value>
   </data>
   <data name="Room_Stretch" xml:space="preserve">
-    <value>Stretch</value>
+    <value>Esticar</value>
   </data>
   <data name="Room_View" xml:space="preserve">
-    <value>View</value>
+    <value>Visualização</value>
   </data>
   <data name="Room_PosSize" xml:space="preserve">
-    <value>Pos/size</value>
+    <value>Pos./Tamanho</value>
   </data>
   <data name="Room_PortPosSize" xml:space="preserve">
-    <value>Port pos/size</value>
+    <value>Pos./Tam. da porta</value>
   </data>
   <data name="Room_Border" xml:space="preserve">
     <value>Border</value>
   </data>
   <data name="Room_FollowsObject" xml:space="preserve">
-    <value>Follows object</value>
+    <value>Seguir objeto</value>
   </data>
   <data name="Room_InstanceID" xml:space="preserve">
-    <value>Instance ID</value>
+    <value>ID da instância</value>
   </data>
   <data name="Room_CreationCodeObj" xml:space="preserve">
     <value>Creation code</value>
   </data>
   <data name="Room_PreCreateCode" xml:space="preserve">
-    <value>Pre Create code</value>
+    <value>Código pré-criação</value>
   </data>
   <data name="Room_FrameIndex" xml:space="preserve">
-    <value>Frame index</value>
+    <value>Índice de frame</value>
   </data>
   <data name="Room_ImageSpeed" xml:space="preserve">
-    <value>Image speed</value>
+    <value>Velocidade da imagem</value>
   </data>
   <data name="Room_Source" xml:space="preserve">
     <value>Source</value>
   </data>
   <data name="Room_TileSelectHint" xml:space="preserve">
-    <value>Hint: You can select a tile by clicking on it.
-To select a region of tile, hold down ALT.</value>
+    <value>Dica: você pode selecionar um tile clicando nele.
+Para selecionar uma região de tiles, mantenha a tecla ALT pressionada.</value>
   </data>
   <data name="Room_LayerName" xml:space="preserve">
-    <value>Layer name</value>
+    <value>Nome da camada</value>
   </data>
   <data name="Room_LayerID" xml:space="preserve">
-    <value>Layer id</value>
+    <value>ID da camada</value>
   </data>
   <data name="Room_LayerType" xml:space="preserve">
-    <value>Layer type</value>
+    <value>Tipo de camada</value>
   </data>
   <data name="Room_LayerDepth" xml:space="preserve">
-    <value>Depth</value>
+    <value>Profundidade</value>
   </data>
   <data name="Room_Offset" xml:space="preserve">
     <value>Offset</value>
   </data>
   <data name="Room_EmptyLayerData" xml:space="preserve">
-    <value>Empty layer data.</value>
+    <value>Dados da camada vazios.</value>
   </data>
   <data name="Room_ContainsGameObjects" xml:space="preserve">
-    <value>Contains GameObject instances, listed in the tree on the left</value>
+    <value>Contém instâncias de objetos de jogo, listadas na árvore à esquerda</value>
   </data>
   <data name="Room_ContainsLegacyTiles" xml:space="preserve">
-    <value>Contains legacy tiles and sprites, listed in the tree on the left</value>
+    <value>Contém tiles e sprites legados, listados na árvore à esquerda</value>
   </data>
   <data name="Room_TileSet" xml:space="preserve">
-    <value>Tile set</value>
+    <value>Conjunto de tiles</value>
   </data>
   <data name="Room_TileData" xml:space="preserve">
-    <value>Tile data</value>
+    <value>Dados de tiles</value>
   </data>
   <data name="Room_FirstFrame" xml:space="preserve">
-    <value>First frame</value>
+    <value>Primeiro quadro</value>
   </data>
   <data name="Room_AnimationSpeed" xml:space="preserve">
-    <value>Animation speed</value>
+    <value>Velocidade da animação</value>
   </data>
   <data name="Room_SaveAsPNG" xml:space="preserve">
-    <value>Save as PNG</value>
+    <value>Salvar como PNG</value>
   </data>
   <data name="Room_CopyObject" xml:space="preserve">
-    <value>Copy object</value>
+    <value>Copiar objeto</value>
   </data>
   <data name="Room_DeleteObject" xml:space="preserve">
-    <value>Delete object</value>
+    <value>Excluir objeto</value>
   </data>
   <data name="Room_CopyTile" xml:space="preserve">
-    <value>Copy tile</value>
+    <value>Copiar tile</value>
   </data>
   <data name="Room_DeleteTile" xml:space="preserve">
-    <value>Delete tile</value>
+    <value>Excluir tile</value>
   </data>
   <data name="Room_CopySpriteInstance" xml:space="preserve">
-    <value>Copy sprite instance</value>
+    <value>Copiar instância de sprite</value>
   </data>
   <data name="Room_DeleteSpriteInstance" xml:space="preserve">
-    <value>Delete sprite instance</value>
+    <value>Excluir instância de sprite</value>
   </data>
   <data name="Room_CopyParticleSystemInstance" xml:space="preserve">
-    <value>Copy particle system instance</value>
+    <value>Copiar instância de sistema de partículas</value>
   </data>
   <data name="Room_DeleteParticleSystemInstance" xml:space="preserve">
-    <value>Delete particle system instance</value>
+    <value>Excluir instância de sistema de partículas</value>
   </data>
   <data name="Room_DeleteBackground" xml:space="preserve">
-    <value>Delete background</value>
+    <value>Excluir plano de fundo</value>
   </data>
   <data name="Room_DisableView" xml:space="preserve">
-    <value>Disable view</value>
+    <value>Desabilitar visualização</value>
   </data>
   <data name="Room_NewObjectInstance" xml:space="preserve">
-    <value>New object instance</value>
+    <value>Nova instância de objeto</value>
   </data>
   <data name="Room_PasteObjectInstance" xml:space="preserve">
-    <value>Paste object instance</value>
+    <value>Colar instância de objeto</value>
   </data>
   <data name="Room_NewTile" xml:space="preserve">
-    <value>New tile</value>
+    <value>Novo tile</value>
   </data>
   <data name="Room_PasteTile" xml:space="preserve">
-    <value>Paste tile</value>
+    <value>Colar tile</value>
   </data>
   <data name="Room_NewGMS1Tile" xml:space="preserve">
-    <value>New tile</value>
+    <value>Novo tile</value>
   </data>
   <data name="Room_NewInstancesLayer" xml:space="preserve">
-    <value>New Instances layer</value>
+    <value>Nova camada de instâncias</value>
   </data>
   <data name="Room_NewTilesLayer" xml:space="preserve">
-    <value>New Tiles layer</value>
+    <value>Nova camada de tiles</value>
   </data>
   <data name="Room_NewBackgroundLayer" xml:space="preserve">
-    <value>New Background layer</value>
+    <value>Nova camada de plano de fundo</value>
   </data>
   <data name="Room_NewAssetsLayer" xml:space="preserve">
-    <value>New Assets layer</value>
+    <value>Nova camada de assets</value>
   </data>
   <data name="Room_NewGMS2ObjectInstance" xml:space="preserve">
-    <value>New object instance</value>
+    <value>Nova instância de objeto</value>
   </data>
   <data name="Room_DeleteLayer" xml:space="preserve">
-    <value>Delete layer</value>
+    <value>Excluir camada</value>
   </data>
   <data name="Room_NewLegacyTile" xml:space="preserve">
-    <value>New legacy tile</value>
+    <value>Novo tile legado</value>
   </data>
   <data name="Room_NewSpriteInstance" xml:space="preserve">
-    <value>New sprite instance</value>
+    <value>Nova instância de sprite</value>
   </data>
   <data name="Room_PasteAsset" xml:space="preserve">
-    <value>Paste asset</value>
+    <value>Colar ativo</value>
   </data>
   <data name="Room_MoveItemUp" xml:space="preserve">
-    <value>Move item up (-)</value>
+    <value>Mover item para cima (-)</value>
   </data>
   <data name="Room_MoveItemDown" xml:space="preserve">
-    <value>Move item down (+)</value>
+    <value>Mover item para baixo (+)</value>
   </data>
   <data name="Room_TileFormat" xml:space="preserve">
-    <value>Tile {0} of {1}</value>
+    <value>Tile {0} de {1}</value>
   </data>
   <data name="Room_SpriteFormat" xml:space="preserve">
-    <value>Sprite {0} of {1}</value>
+    <value>Sprite {0} de {1}</value>
   </data>
   <data name="Room_ParticleSystemFormat" xml:space="preserve">
-    <value>Particle system {0} of {1}</value>
+    <value>Sistema de partículas {0} de {1}</value>
   </data>
   <data name="Room_TileGMS1Format" xml:space="preserve">
-    <value>Tile {0} of {1} (UndertaleRoom+Tile)</value>
+    <value>Tile {0} de {1} (UndertaleRoom+Tile)</value>
   </data>
   <data name="Msg_WelcomeTitle" xml:space="preserve">
-    <value>Welcome to UndertaleModTool!</value>
+    <value>Bem-vindo ao UndertaleModTool!</value>
   </data>
   <data name="Msg_WelcomeDescription" xml:space="preserve">
-    <value>Open a data.win file to get started, then double click on the items on the left to view them.</value>
+    <value>Abra um arquivo data.win para começar e, em seguida, clique duas vezes nos itens à esquerda para visualizá-los.</value>
   </data>
   <data name="Msg_WelcomeDescriptionLoaded" xml:space="preserve">
-    <value>Double click on the items on the left to view them!</value>
+    <value>Clique duas vezes nos itens à esquerda para visualizá-los!</value>
   </data>
   <data name="Msg_WelcomeDescriptionNoData" xml:space="preserve">
-    <value>Open data.win file to get started, then double click on the items on the left to view them</value>
+    <value>Abra o arquivo data.win para começar e, em seguida, clique duas vezes nos itens à esquerda para visualizá-los</value>
   </data>
   <data name="Msg_NewFileDescription" xml:space="preserve">
-    <value>New file created, have fun making a game out of nothing
-I TOLD YOU to open a data.win, not create a new file! :P</value>
+    <value>Novo arquivo criado, divirta-se criando um jogo do nada
+EU TE DISSE para abrir um data.win, não para criar um novo arquivo! :P</value>
   </data>
   <data name="Msg_ExpandListToEdit" xml:space="preserve">
-    <value>Expand the list on the left to edit items</value>
+    <value>Expanda a lista à esquerda para editar os itens</value>
   </data>
   <data name="Msg_LoadDataFirst" xml:space="preserve">
-    <value>Load data.win file first</value>
+    <value>Carregue o arquivo data.win primeiro</value>
   </data>
   <data name="Msg_NoGameLoaded" xml:space="preserve">
-    <value>No game loaded</value>
+    <value>Nenhum jogo carregado</value>
   </data>
   <data name="Msg_MarkedForExport" xml:space="preserve">
-    <value>Marked for export:</value>
+    <value>Marcado para exportação:</value>
   </data>
   <data name="Msg_MarkedForExportTooltip" xml:space="preserve">
-    <value>Whether the currently open asset is marked to be exported to the currently open project, the next time it is saved.</value>
+    <value>Se o ativo atualmente aberto está marcado para ser exportado para o projeto atualmente aberto na próxima vez que for salvo.</value>
   </data>
   <data name="Msg_ObjectIDTooltip" xml:space="preserve">
-    <value>This is an ID (index) of the currently open asset, item, or object. It starts from 0.</value>
+    <value>Este é o ID (índice) do ativo, item ou objeto atualmente aberto. Ele começa em 0.</value>
   </data>
   <data name="Msg_FirstTimeSetup" xml:space="preserve">
-    <value>First-time setup: Would you like to associate GameMaker data files (like .win) with UndertaleModTool?</value>
+    <value>Configuração inicial: Deseja associar os arquivos de dados do GameMaker (como .win) ao UndertaleModTool?</value>
   </data>
   <data name="Msg_FileAssociations" xml:space="preserve">
-    <value>File associations</value>
+    <value>Associações de arquivos</value>
   </data>
   <data name="Msg_Loading" xml:space="preserve">
-    <value>Loading</value>
+    <value>Carregando</value>
   </data>
   <data name="Msg_LoadingPleaseWait" xml:space="preserve">
-    <value>Loading, please wait...</value>
+    <value>Carregando, por favor aguarde...</value>
   </data>
   <data name="Msg_Saving" xml:space="preserve">
-    <value>Saving</value>
+    <value>Salvando</value>
   </data>
   <data name="Msg_SavingPleaseWait" xml:space="preserve">
-    <value>Saving, please wait...</value>
+    <value>Salvando, por favor aguarde...</value>
   </data>
   <data name="Msg_DecompileWait" xml:space="preserve">
-    <value>Decompiling, please wait... This can take a while on complex scripts.</value>
+    <value>Descompilando, por favor aguarde... Isso pode demorar um pouco em scripts complexos.</value>
   </data>
   <data name="Msg_CompilingWait" xml:space="preserve">
-    <value>Compiling, please wait...</value>
+    <value>Compilando, por favor aguarde...</value>
   </data>
   <data name="Msg_GeneratingDebuggerData" xml:space="preserve">
-    <value>Generating debugger data...</value>
+    <value>Gerando dados do depurador...</value>
   </data>
   <data name="Msg_RecompilingGMLWait" xml:space="preserve">
-    <value>Recompiling GML code, please wait...</value>
+    <value>Recompilando código GML, por favor aguarde...</value>
   </data>
   <data name="Msg_SavingDataFileWait" xml:space="preserve">
-    <value>Saving data file, please wait...</value>
+    <value>Salvando arquivo de dados, por favor aguarde...</value>
   </data>
   <data name="Msg_ScriptInProgress" xml:space="preserve">
     <value>Script in progress...</value>
   </data>
   <data name="Msg_ScriptPleaseWait" xml:space="preserve">
-    <value>Please wait...</value>
+    <value>Por favor aguarde...</value>
   </data>
   <data name="Msg_LoadError" xml:space="preserve">
-    <value>An error occurred while trying to load:
+    <value>Ocorreu um erro ao tentar carregar:
 {0}</value>
   </data>
   <data name="Msg_RecentFileNotFound" xml:space="preserve">
-    <value>The recent file was not found:
+    <value>O arquivo recente não foi encontrado:
 {0}
-It will be removed from the recent files list.</value>
+Ele será removido da lista de arquivos recentes.</value>
   </data>
   <data name="Msg_SaveError" xml:space="preserve">
-    <value>An error occurred while trying to save:
+    <value>Ocorreu um erro ao tentar salvar:
 {0}</value>
   </data>
   <data name="Msg_RecompileError" xml:space="preserve">
-    <value>An error occurred while trying to recompile code sources:
+    <value>Ocorreu um erro ao tentar recompilar as fontes de código:
 {0}</value>
   </data>
   <data name="Msg_CodeEditorSaveError" xml:space="preserve">
-    <value>The changes in code editor weren't saved due to some error in "SaveCodeChanges()".</value>
+    <value>As alterações no editor de código não foram salvas devido a algum erro em "SaveCodeChanges()".</value>
   </data>
   <data name="Msg_ErrorsDuringLoading" xml:space="preserve">
-    <value>Errors occurred during loading. High chance of data loss! Proceed at your own risk.</value>
+    <value>Ocorreu um erro durante o carregamento. Alta chance de perda de dados! Prosseguir por sua conta e risco.</value>
   </data>
   <data name="Msg_FailedLoadSettings" xml:space="preserve">
-    <value>Failed to load settings.json! Using default values.
+    <value>Falha ao carregar settings.json! Usando valores padrão.
 {0}</value>
   </data>
   <data name="Msg_FailedSaveSettings" xml:space="preserve">
-    <value>Failed to save settings.json!
+    <value>Falha ao salvar settings.json!
 {0}</value>
   </data>
   <data name="Msg_LoadingWarning" xml:space="preserve">
-    <value>Loading warning</value>
+    <value>Aviso de carregamento</value>
   </data>
   <data name="Msg_LoadingProblems" xml:space="preserve">
-    <value>Loading problems</value>
+    <value>Problemas de carregamento</value>
   </data>
   <data name="Msg_WarningsDuringLoading" xml:space="preserve">
-    <value>Warnings occurred during loading. Data loss will likely occur when trying to save!</value>
+    <value>Ocorreram avisos durante o carregamento. É provável que ocorra perda de dados ao tentar salvar!</value>
   </data>
   <data name="Msg_UnsupportedBytecodeVersion" xml:space="preserve">
-    <value>Only bytecode versions 13 to 17 are supported for now, you are trying to load {0}. A lot of code is disabled and will likely break something. Saving/exporting is disabled.</value>
+    <value>Apenas versões de bytecode de 13 a 17 são suportadas no momento, você está tentando carregar {0}. Muito código está desativado e provavelmente quebrará alguma coisa. O salvamento/exportação está desativado.</value>
   </data>
   <data name="Msg_YYC" xml:space="preserve">
-    <value>This game uses YYC (YoYo Compiler), which means the code is embedded into the game executable. This configuration is currently not fully supported; continue at your own risk.</value>
+    <value>Este jogo usa YYC (YoYo Compiler), o que significa que o código está embutido no executável do jogo. Esta configuração não é totalmente suportada no momento; continue por sua conta e risco.</value>
   </data>
   <data name="Msg_GMSDebugger" xml:space="preserve">
-    <value>This game is set to run with the GameMaker Studio debugger and the normal runtime will simply hang after loading if the debugger is not running. You can turn this off in General Info by checking the "Disable Debugger" box and saving.</value>
+    <value>Este jogo está configurado para ser executado com o depurador do GameMaker Studio e a execução normal simplesmente travará após o carregamento se o depurador não estiver em execução. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
   </data>
   <data name="Msg_UnsupportedTextures" xml:space="preserve">
-    <value>This game contains texture(s) with unknown or unsupported image formats. These will save/load, but will not display in editors, and many operations will fail regarding them. Proceed with caution.</value>
+    <value>Este jogo contém textura(s) com formatos de imagem desconhecidos ou não suportados. Elas serão salvas/carregadas, mas não serão exibidas nos editores, e muitas operações falharão em relação a elas. Proceda com cautela.</value>
   </data>
   <data name="Msg_SavingInDebugMode" xml:space="preserve">
-    <value>You are saving the game in GameMaker Studio debug mode. Unless the debugger is running, the normal runtime will simply hang after loading. You can turn this off in General Info by checking the "Disable Debugger" box and saving.</value>
+    <value>Você está salvando o jogo no modo de depuração do GameMaker Studio. A menos que o depurador esteja em execução, a execução normal simplesmente travará após o carregamento. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
   </data>
   <data name="Msg_UpdaterDidntExit" xml:space="preserve">
-    <value>UndertaleModToolUpdater app didn't exit.
-Can't delete its temp folder.</value>
+    <value>O aplicativo UndertaleModToolUpdater não foi encerrado.
+Não é possível excluir sua pasta temporária.</value>
   </data>
   <data name="Msg_UpdaterTempFolderError" xml:space="preserve">
-    <value>The updater temp folder can't be deleted.
-Error - {0}.</value>
+    <value>A pasta temporária do atualizador não pode ser excluída.
+Erro - {0}.</value>
   </data>
   <data name="Msg_ItemNameNull" xml:space="preserve">
     <value>Item name is null.</value>
   </data>
   <data name="Msg_SaveFailedCannotRun" xml:space="preserve">
-    <value>Save failed, cannot run.</value>
+    <value>Falha ao salvar, não é possível executar.</value>
   </data>
   <data name="Msg_FileMustBeSavedToRun" xml:space="preserve">
-    <value>The file must be saved in order to be run.</value>
+    <value>O arquivo precisa ser salvo para poder ser executado.</value>
   </data>
   <data name="Msg_YouMustSaveToRun" xml:space="preserve">
-    <value>You must save your changes to run.</value>
+    <value>Você deve salvar suas alterações para executar.</value>
   </data>
   <data name="Msg_UseDebuggerOption" xml:space="preserve">
-    <value>Use the "Run game using debugger" option to run this game.</value>
+    <value>Use a opção "Executar jogo usando o depurador" para executar este jogo.</value>
   </data>
   <data name="Msg_NothingToRun" xml:space="preserve">
-    <value>Nothing to run!</value>
+    <value>Nada para executar!</value>
   </data>
   <data name="Msg_NullGameExeName" xml:space="preserve">
-    <value>Null game executable name or location</value>
+    <value>Nome ou localização do executável do jogo nulos</value>
   </data>
   <data name="Msg_FailedFindGameExePath" xml:space="preserve">
-    <value>Failed to find valid game executable path; escaped directory</value>
+    <value>Falha ao encontrar o caminho válido do executável do jogo; diretório escapado.</value>
   </data>
   <data name="Msg_CannotFindGameExePath" xml:space="preserve">
-    <value>Cannot find game executable path, expected: {0}</value>
+    <value>Não foi possível encontrar o caminho do executável do jogo, esperado: {0}</value>
   </data>
   <data name="Msg_CannotFindDataFilePath" xml:space="preserve">
-    <value>Cannot find data file path, expected: {0}</value>
+    <value>Não foi possível encontrar o caminho do arquivo de dados, esperado: {0}</value>
   </data>
   <data name="Msg_CannotFindGamePath" xml:space="preserve">
-    <value>Cannot find game path, expected to find it at: {0}</value>
+    <value>Não foi possível encontrar o caminho do jogo, esperado em: {0}</value>
   </data>
   <data name="Msg_FailedOpenChildFile" xml:space="preserve">
-    <value>Failed to open child data file; escaped directory.</value>
+    <value>Falha ao abrir o arquivo de dados secundário; diretório escapado.</value>
   </data>
   <data name="Msg_SelectedRuntimeNoDebug" xml:space="preserve">
-    <value>The selected runtime does not support debugging.</value>
+    <value>O ambiente de execução selecionado não oferece suporte à depuração.</value>
   </data>
   <data name="Msg_FailedOpenBrowser" xml:space="preserve">
-    <value>Failed to open browser!
+    <value>Falha ao abrir o navegador!
 {0}</value>
   </data>
   <data name="Msg_FailedOpenFolder" xml:space="preserve">
-    <value>Failed to open folder!
+    <value>Falha ao abrir a pasta!
 {0}</value>
   </data>
   <data name="Msg_32BitOS" xml:space="preserve">
-    <value>Your operating system is 32-bit.
+    <value>Seu sistema operacional é de 32 bits.
 </value>
   </data>
   <data name="Msg_NotEnoughSpace" xml:space="preserve">
-    <value>Not enough space on the system drive {0} - at least 500 MB is required.</value>
+    <value>Espaço insuficiente na unidade de sistema {0} - são necessários pelo menos 500 MB.</value>
   </data>
   <data name="Msg_FailedFetchLatestBuild" xml:space="preserve">
-    <value>Failed to fetch latest build!
+    <value>Falha ao buscar a compilação mais recente!
 {0}</value>
   </data>
   <data name="Msg_FailedFindLatestBuild" xml:space="preserve">
-    <value>Failed to find latest build!
-Detected action name - {0}</value>
+    <value>Falha ao encontrar a compilação mais recente!
+Nome da ação detectada - {0}</value>
   </data>
   <data name="Msg_AlreadyUpToDate" xml:space="preserve">
-    <value>UndertaleModTool is already up to date.
-Update anyway?</value>
+    <value>O UndertaleModTool já está atualizado.
+Atualizar mesmo assim?</value>
   </data>
   <data name="Msg_32BitOn64Bit" xml:space="preserve">
-    <value>Detected 32-bit (x86) version of UndertaleModTool on an 64-bit operating system.
+    <value>Versão de 32 bits (x86) do UndertaleModTool detectada em um sistema operacional de 64 bits.
 </value>
   </data>
   <data name="Msg_FailedFindArtifact" xml:space="preserve">
-    <value>Failed to find the artifact!</value>
+    <value>Falha ao encontrar o artefato!</value>
   </data>
   <data name="Msg_UpdaterNotFound" xml:space="preserve">
-    <value>Updater not found! Aborting update, report this to the devs!
-Location checked: {0}</value>
+    <value>Atualizador não encontrado! Cancelando a atualização, informe isto aos desenvolvedores!
+Local verificado: {0}</value>
   </data>
   <data name="Msg_CantCopyUpdater" xml:space="preserve">
-    <value>Can't copy the updater app to the temporary folder.
+    <value>Não foi possível copiar o aplicativo de atualização para a pasta temporária.
 {0}</value>
   </data>
   <data name="Msg_FailedDownloadNewVersion" xml:space="preserve">
-    <value>Failed to download new version of UndertaleModTool.
-Error - {0}.</value>
+    <value>Falha ao baixar a nova versão do UndertaleModTool.
+Erro - {0}.</value>
   </data>
   <data name="Msg_CantCopyItemName" xml:space="preserve">
-    <value>Can't copy the item name to clipboard due to this error:
+    <value>Não foi possível copiar o nome do item para a área de transferência devido a este erro:
 {0}</value>
   </data>
   <data name="Msg_ErrorInObjectReferencesWindow" xml:space="preserve">
-    <value>An error occurred in the object references related window.
+    <value>Ocorreu um erro na janela relacionada às referências de objetos.
 </value>
   </data>
   <data name="Msg_ErrorAddingMenuItem" xml:space="preserve">
-    <value>An error occurred while trying to add the menu item. No action has been taken.
+    <value>Ocorreu um erro ao tentar adicionar o item de menu. Nenhuma ação foi tomada.
 
-Error:
+Erro:
 
 {0}</value>
   </data>
   <data name="Msg_ScriptFileDoesntExist" xml:space="preserve">
-    <value>The script file doesn't exist.</value>
+    <value>O arquivo de script não existe.</value>
   </data>
   <data name="Msg_CantFindCodeEntry" xml:space="preserve">
-    <value>Can't find code entry "{0}".
-(probably, different game data was loaded)</value>
+    <value>Não foi possível encontrar a entrada de código "{0}".
+(provavelmente, dados de jogo diferentes foram carregados)</value>
   </data>
   <data name="Msg_StoppingProgressBarFailed" xml:space="preserve">
-    <value>Stopping the progress bar updater task is failed.
-It's highly recommended to restart the application.</value>
+    <value>Falha ao interromper a tarefa de atualização da barra de progresso.
+É altamente recomendável reiniciar o aplicativo.</value>
   </data>
   <data name="Msg_ProjectOpenMakeNew" xml:space="preserve">
-    <value>Warning: you currently have a project open.
-Are you sure you want to make a new project?</value>
+    <value>Aviso: você atualmente tem um projeto aberto.
+Tem certeza de que deseja criar um novo projeto?</value>
   </data>
   <data name="Msg_RunAsScript" xml:space="preserve">
-    <value>Run {0} as a script?</value>
+    <value>Executar {0} como um script?</value>
   </data>
   <data name="Msg_OpenAsDataFile" xml:space="preserve">
     <value>Open {0} as a data file?</value>
   </data>
   <data name="Msg_SaveToProjectDataFile" xml:space="preserve">
-    <value>Save to the project's designated data file for saving?</value>
+    <value>Salvar no arquivo de dados designado do projeto para salvamento?</value>
   </data>
   <data name="Msg_ProjectOpenOpenAnother" xml:space="preserve">
-    <value>A project is currently open - open another data file and discard all unsaved changes?</value>
+    <value>Um projeto está aberto atualmente - deseja abrir outro arquivo de dados e descartar todas as alterações não salvas?</value>
   </data>
   <data name="Msg_AssetsMarkedForExportQuit" xml:space="preserve">
-    <value>There are assets marked to be exported in the current project.
-Really quit?</value>
+    <value>Há assets marcados para serem exportados no projeto atual.
+Deseja realmente sair?</value>
   </data>
   <data name="Msg_SaveBeforeQuitting" xml:space="preserve">
-    <value>Save changes before quitting?</value>
+    <value>Deseja salvar as alterações antes de sair?</value>
   </data>
   <data name="Msg_ScriptStillRunSaveAnyway" xml:space="preserve">
-    <value>Script still runs. Save anyway?
-It can corrupt the data file that you'll save.</value>
+    <value>O script ainda está em execução. Deseja salvar mesmo assim?
+Isso pode corromper o arquivo de dados que você vai salvar.</value>
   </data>
   <data name="Msg_DeleteObject" xml:space="preserve">
     <value>Delete {0}?</value>
   </data>
   <data name="Msg_DeleteObjectShiftNote" xml:space="preserve">
-    <value>Delete {0}?
+    <value>Excluir {0}?
 
-Note that the code often references objects by ID, so this operation is likely to break stuff because other items will shift up!</value>
+Observe que o código frequentemente referencia objetos por ID, portanto, é provável que esta operação cause falhas, pois outros itens serão deslocados para cima!</value>
   </data>
   <data name="Msg_InvalidIdentifierAddAutoName" xml:space="preserve">
-    <value>Asset name "{0}" is not a valid identifier. Add a new asset using an auto-generated name instead?</value>
+    <value>O nome do ativo "{0}" não é um identificador válido. Deseja adicionar um novo ativo usando um nome gerado automaticamente?</value>
   </data>
   <data name="Msg_AddToRoomOrderList" xml:space="preserve">
-    <value>Add the new room to the end of the room order list?</value>
+    <value>Deseja adicionar a nova sala ao final da lista de ordem de salas?</value>
   </data>
   <data name="Msg_DebuggerEnabledDisableToRun" xml:space="preserve">
-    <value>The game has the debugger enabled. Would you like to disable it so the game will run?</value>
+    <value>O depurador do jogo está ativado. Deseja desativá-lo para que o jogo possa ser executado?</value>
   </data>
   <data name="Msg_SaveChangesFirst" xml:space="preserve">
-    <value>Save changes first?</value>
+    <value>Deseja salvar as alterações primeiro?</value>
   </data>
   <data name="Msg_RunGMSDebuggerConfirm" xml:space="preserve">
-    <value>Are you sure that you want to run the game with GMS debugger?
+    <value>Tem certeza de que deseja executar o jogo com o depurador do GMS?
 </value>
   </data>
   <data name="Dialog_Confirmation" xml:space="preserve">
-    <value>Confirmation</value>
+    <value>Confirmação</value>
   </data>
   <data name="Dialog_LoadError" xml:space="preserve">
-    <value>Load error</value>
+    <value>Erro de carregamento</value>
   </data>
   <data name="Dialog_SaveError" xml:space="preserve">
-    <value>Save error</value>
+    <value>Erro de salvamento</value>
   </data>
   <data name="Dialog_RecompileError" xml:space="preserve">
-    <value>Recompile error</value>
+    <value>Erro de recompilação</value>
   </data>
   <data name="Dialog_ScriptCompileError" xml:space="preserve">
-    <value>Script compile error</value>
+    <value>Erro de compilação de script</value>
   </data>
   <data name="Dialog_ScriptError" xml:space="preserve">
     <value>Script error</value>
   </data>
   <data name="Dialog_ScriptWarning" xml:space="preserve">
-    <value>Script warning</value>
+    <value>Aviso de script</value>
   </data>
   <data name="Dialog_ScriptQuestion" xml:space="preserve">
     <value>Script Question</value>
   </data>
   <data name="Dialog_RunError" xml:space="preserve">
-    <value>Run error</value>
+    <value>Erro de execução</value>
   </data>
   <data name="Dialog_UnsupportedBytecodeVersion" xml:space="preserve">
-    <value>Unsupported bytecode version</value>
+    <value>Versão de bytecode não suportada</value>
   </data>
   <data name="Dialog_YYC" xml:space="preserve">
     <value>YYC</value>
   </data>
   <data name="Dialog_GMSDebugger" xml:space="preserve">
-    <value>GMS Debugger</value>
+    <value>Depurador do GMS</value>
   </data>
   <data name="Dialog_UnsupportedTextures" xml:space="preserve">
-    <value>Unsupported textures</value>
+    <value>Texturas não suportadas</value>
   </data>
   <data name="Dialog_ProjectCurrentlyOpen" xml:space="preserve">
-    <value>Project currently open</value>
+    <value>Projeto aberto no momento</value>
   </data>
   <data name="Dialog_Settings" xml:space="preserve">
-    <value>Settings</value>
+    <value>Configurações</value>
   </data>
   <data name="Dialog_DebugData" xml:space="preserve">
     <value>Debug data</value>
   </data>
   <data name="Dialog_StringReferenceChanged" xml:space="preserve">
-    <value>String reference changed</value>
+    <value>Referência de string alterada</value>
   </data>
   <data name="Dialog_RuntimePicker" xml:space="preserve">
-    <value>Runtime picker</value>
+    <value>Seletor de runtime</value>
   </data>
   <data name="Dialog_SearchInCode" xml:space="preserve">
-    <value>Search in code</value>
+    <value>Pesquisar no código</value>
   </data>
   <data name="Dialog_UnexportedProjectAssets" xml:space="preserve">
-    <value>Unexported project assets</value>
+    <value>Assets do projeto não exportados</value>
   </data>
   <data name="Dialog_FindReferencesTypes" xml:space="preserve">
-    <value>The types of references</value>
+    <value>Os tipos de referências</value>
   </data>
   <data name="Dialog_FindReferencesResults" xml:space="preserve">
     <value>The references of game object ""</value>
@@ -1930,7 +1927,7 @@ Note that the code often references objects by ID, so this operation is likely t
     <value>Save project</value>
   </data>
   <data name="Cmd_ViewProjectAssets" xml:space="preserve">
-    <value>View project assets</value>
+    <value>Ver assets do projeto</value>
   </data>
   <data name="Cmd_CloseProject" xml:space="preserve">
     <value>Close project</value>
@@ -1954,10 +1951,10 @@ Note that the code often references objects by ID, so this operation is likely t
     <value>Rotate the brush 90 degrees counterclockwise</value>
   </data>
   <data name="Cmd_ToggleTileGrid" xml:space="preserve">
-    <value>Toggle the tile grid</value>
+    <value>Alternar malha de tiles</value>
   </data>
   <data name="Cmd_ToggleBrushTiling" xml:space="preserve">
-    <value>Toggle the "tiling" behavior on multi-tile brushes</value>
+    <value>Alternar o comportamento de "repetição" em pincéis de múltiplos tiles</value>
   </data>
   <data name="Cmd_ToggleRoomPreview" xml:space="preserve">
     <value>Toggle the room preview</value>
@@ -2125,19 +2122,19 @@ Note that the code often references objects by ID, so this operation is likely t
     <value>Default text with hyperlinks.</value>
   </data>
   <data name="ProjectAssets_Description1" xml:space="preserve">
-    <value>Below is a list of all assets currently waiting to be exported to disk for the current project, once it is next saved.</value>
+    <value>Abaixo encontra-se uma lista de todos os assets atualmente à espera de serem exportados para o disco para o projeto atual, assim que este for guardado da próxima vez.</value>
   </data>
   <data name="ProjectAssets_Description2" xml:space="preserve">
-    <value>To quickly add or remove assets from being part of the project, you can drag and drop assets here, or delete them.</value>
+    <value>Para adicionar ou remover rapidamente assets do projeto, você pode arrastar e soltar assets aqui, ou excluí-los.</value>
   </data>
   <data name="ProjectAssets_NameColumn" xml:space="preserve">
-    <value>Name</value>
+    <value>Nome</value>
   </data>
   <data name="ProjectAssets_AssetTypeColumn" xml:space="preserve">
-    <value>Asset Type</value>
+    <value>Tipo de asset</value>
   </data>
   <data name="ProjectAssets_UnmarkForExport" xml:space="preserve">
-    <value>Unmark for export</value>
+    <value>Desmarcar para exportação</value>
   </data>
   <data name="FindRef_WhereToSearch" xml:space="preserve">
     <value>Where to search the references?</value>
@@ -2235,13 +2232,13 @@ Use one of the search scripts in the "Find" menu if necessary.</value>
     <value>New Instances Layer</value>
   </data>
   <data name="Editor_NewTilesLayer" xml:space="preserve">
-    <value>New Tiles Layer</value>
+    <value>Nova camada de tiles</value>
   </data>
   <data name="Editor_NewBackgroundLayer" xml:space="preserve">
     <value>New Background Layer</value>
   </data>
   <data name="Editor_NewAssetsLayer" xml:space="preserve">
-    <value>New Assets Layer</value>
+    <value>Nova camada de assets</value>
   </data>
   <data name="Editor_NewExtensionFile" xml:space="preserve">
     <value>NewExtensionFile{0}.dll</value>
@@ -2495,7 +2492,7 @@ You can use the button on the left to fix that.</value>
     <value>Invalid date time format.</value>
   </data>
   <data name="Msg_FindAllTileReferences" xml:space="preserve">
-    <value>Find all references of this tile</value>
+    <value>Encontrar todas as referências deste tile</value>
   </data>
   <data name="Msg_ReferencesWindowError" xml:space="preserve">
     <value>An error occurred in the object references related window.
@@ -2504,7 +2501,7 @@ Please report this on GitHub.
 {0}</value>
   </data>
   <data name="Msg_CannotFindTileIdListScrollViewer" xml:space="preserve">
-    <value>Cannot find the tile ID list scroll viewer.</value>
+    <value>Não foi possível encontrar o painel de rolagem da lista de IDs de tiles.</value>
   </data>
   <data name="Msg_FindAllPageItemReferences" xml:space="preserve">
     <value>Find all references to this page item</value>
@@ -2519,7 +2516,7 @@ Please report this on GitHub.
     <value>Please select a layer.</value>
   </data>
   <data name="Msg_SelectAssetsLayer" xml:space="preserve">
-    <value>Please select an assets layer.</value>
+    <value>Selecione uma camada de assets.</value>
   </data>
   <data name="Msg_SelectInstanceLayer" xml:space="preserve">
     <value>Please select an instance layer.</value>
@@ -2544,7 +2541,7 @@ You probably should change the depth of the new layer.</value>
     <value>Can't change the object position - no list for the selected object was found.</value>
   </data>
   <data name="Msg_TileDataEmpty" xml:space="preserve">
-    <value>Tile data is empty.</value>
+    <value>Os dados dos tiles estão vazios.</value>
   </data>
   <data name="Msg_ErrorSavingFile" xml:space="preserve">
     <value>Error while saving the file - "{0}".</value>
@@ -2553,16 +2550,16 @@ You probably should change the depth of the new layer.</value>
     <value>Exported file path: {0}</value>
   </data>
   <data name="Msg_TileDataSizeCantBeZero" xml:space="preserve">
-    <value>Tile data size can't be zero.</value>
+    <value>O tamanho dos dados dos tiles não pode ser zero.</value>
   </data>
   <data name="Msg_ErrorOpeningFile" xml:space="preserve">
     <value>Error while opening file - "{0}".</value>
   </data>
   <data name="Msg_FileLineCountMismatch" xml:space="preserve">
-    <value>Error - selected file line count doesn't match tile layer height.</value>
+    <value>Erro - A contagem de linhas do arquivo selecionado não corresponde à altura da camada de tiles.</value>
   </data>
   <data name="Msg_WasDataExportedFromTiled" xml:space="preserve">
-    <value>Was the data exported from "Tiled"?</value>
+    <value>Os dados foram exportados do "Tiled"?</value>
   </data>
   <data name="Msg_FileHasInvalidData" xml:space="preserve">
     <value>The file has invalid data.</value>
@@ -2647,7 +2644,7 @@ Error - {1}</value>
     <value>UndertaleModTool will now close to finish the update.</value>
   </data>
   <data name="Msg_EmptyDirectoryWarning" xml:space="preserve">
-    <value>Currently, the destination data file's directory is empty. You will likely want to copy all other game files to the destination directory, so that external assets can be loaded correctly (both in-game and in this tool), and so the game can be started.</value>
+    <value>Atualmente, o diretório do arquivo de dados de destino está vazio. Provavelmente você vai querer copiar todos os outros arquivos de jogo para o diretório de destino, para que os assets externos possam ser carregados corretamente (tanto no jogo quanto nesta ferramenta), e para que o jogo possa ser iniciado.</value>
   </data>
   <data name="Msg_SameDirectoryWarning" xml:space="preserve">
     <value>The destination data file is in the same directory as the source data file. This may permanently overwrite external data files. Proceed?</value>
@@ -2733,11 +2730,11 @@ Are you sure you want to make a new project?</value>
 It can corrupt the data file that you'll save.</value>
   </data>
   <data name="Msg_UnexportedAssetsQuit" xml:space="preserve">
-    <value>There are assets marked to be exported in the current project.
-Really quit?</value>
+    <value>Há assets marcados para exportação no projeto atual.
+Deseja realmente sair?</value>
   </data>
   <data name="Msg_UnexportedAssetsCloseProject" xml:space="preserve">
-    <value>There are assets marked to be exported in the current project. Really close?</value>
+    <value>Há assets marcados para exportação no projeto atual. Deseja realmente fechar?</value>
   </data>
   <data name="Msg_RunScriptQuestion" xml:space="preserve">
     <value>Run {0} as a script?</value>
@@ -3350,16 +3347,16 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>Audio groups</value>
   </data>
   <data name="RefType_Sounds" xml:space="preserve">
-    <value>Sounds</value>
+    <value>Sons</value>
   </data>
   <data name="RefType_Fonts" xml:space="preserve">
-    <value>Fonts</value>
+    <value>Fontes</value>
   </data>
   <data name="RefType_TileSets" xml:space="preserve">
-    <value>Tile sets</value>
+    <value>Conjunto de blocos</value>
   </data>
   <data name="RefType_Paths" xml:space="preserve">
-    <value>Paths</value>
+    <value>Caminhos</value>
   </data>
   <data name="RefType_Scripts" xml:space="preserve">
     <value>Scripts</value>
@@ -3368,40 +3365,40 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>Shaders</value>
   </data>
   <data name="RefType_Timelines" xml:space="preserve">
-    <value>Timelines</value>
+    <value>Linhas do tempo</value>
   </data>
   <data name="RefType_Extensions" xml:space="preserve">
-    <value>Extensions</value>
+    <value>Extensões</value>
   </data>
   <data name="RefType_ExtensionOptions" xml:space="preserve">
-    <value>Extension options</value>
+    <value>Opções da extensão</value>
   </data>
   <data name="RefType_ExtensionFiles" xml:space="preserve">
-    <value>Extension files</value>
+    <value>Arquivos da extensão</value>
   </data>
   <data name="RefType_ExtensionFunctions" xml:space="preserve">
-    <value>Extension functions</value>
+    <value>Funções da extensão</value>
   </data>
   <data name="RefType_GeneralInfo" xml:space="preserve">
-    <value>General info</value>
+    <value>Informações gerais</value>
   </data>
   <data name="RefType_GameOptionsConstants" xml:space="preserve">
-    <value>Game options constants</value>
+    <value>Constantes de opções do jogo</value>
   </data>
   <data name="RefType_Rooms" xml:space="preserve">
-    <value>Rooms</value>
+    <value>Salas</value>
   </data>
   <data name="RefType_Code" xml:space="preserve">
-    <value>Code</value>
+    <value>Código</value>
   </data>
   <data name="RefType_CodeLocals" xml:space="preserve">
-    <value>Code locals</value>
+    <value>Locais de código</value>
   </data>
   <data name="RefType_Languages" xml:space="preserve">
-    <value>Languages</value>
+    <value>Idiomas</value>
   </data>
   <data name="RefType_TextureGroups" xml:space="preserve">
-    <value>Texture groups</value>
+    <value>Grupos de texturas</value>
   </data>
   <data name="RefType_EmbeddedImages" xml:space="preserve">
     <value>Embedded images</value>
@@ -5548,25 +5545,25 @@ It's highly recommended to restart the application.</value>
     <value>Asset type</value>
   </data>
   <data name="Common_Property" xml:space="preserve">
-    <value>Property</value>
+    <value>Propriedade</value>
   </data>
   <data name="Common_BezierX0" xml:space="preserve">
-    <value>Bezier X0</value>
+    <value>Bézier X0</value>
   </data>
   <data name="Common_BezierY0" xml:space="preserve">
-    <value>Bezier Y0</value>
+    <value>Bézier Y0</value>
   </data>
   <data name="Common_BezierX1" xml:space="preserve">
-    <value>Bezier X1</value>
+    <value>Bézier X1</value>
   </data>
   <data name="Common_BezierY1" xml:space="preserve">
-    <value>Bezier Y1</value>
+    <value>Bézier Y1</value>
   </data>
   <data name="Common_TileID" xml:space="preserve">
-    <value>Tile ID</value>
+    <value>ID do bloco</value>
   </data>
   <data name="Common_EmbeddedTexture" xml:space="preserve">
-    <value>Embedded texture</value>
+    <value>Textura embutida</value>
   </data>
   <data name="Common_W" xml:space="preserve">
     <value>W</value>
@@ -5575,22 +5572,22 @@ It's highly recommended to restart the application.</value>
     <value>H</value>
   </data>
   <data name="Common_New" xml:space="preserve">
-    <value>New</value>
+    <value>Novo</value>
   </data>
   <data name="Common_Mask" xml:space="preserve">
-    <value>Mask</value>
+    <value>Máscara</value>
   </data>
   <data name="Common_CollisionMaskEntry" xml:space="preserve">
-    <value>(Collision mask entry)</value>
+    <value>(Entrada de máscara de colisão)</value>
   </data>
   <data name="Common_CopyName" xml:space="preserve">
-    <value>_Copy name</value>
+    <value>_Copiar nome</value>
   </data>
   <data name="Common_FindReferences" xml:space="preserve">
-    <value>_Find references to resource</value>
+    <value>_Localizar referências ao recurso</value>
   </data>
   <data name="Common_SwapToPosition" xml:space="preserve">
-    <value>_Swap to position</value>
+    <value>_Trocar para posição</value>
   </data>
   <data name="Common_GML" xml:space="preserve">
     <value>GML</value>
@@ -5599,67 +5596,67 @@ It's highly recommended to restart the application.</value>
     <value>ASM</value>
   </data>
   <data name="Common_CompileAndDecompile" xml:space="preserve">
-    <value>Compile and decompile</value>
+    <value>Compilar e descompilar</value>
   </data>
   <data name="Common_NotCompiled" xml:space="preserve">
-    <value>Not compiled</value>
+    <value>Não compilado</value>
   </data>
   <data name="Common_Compiled" xml:space="preserve">
-    <value>Compiled</value>
+    <value>Compilado</value>
   </data>
   <data name="Common_Parent" xml:space="preserve">
-    <value>Parent</value>
+    <value>Pai</value>
   </data>
   <data name="Common_EmbeddedAudioLength" xml:space="preserve">
-    <value>WAV data, length: </value>
+    <value>Dados WAV, comprimento: </value>
   </data>
   <data name="Common_View" xml:space="preserve">
-    <value>View</value>
+    <value>Visualização</value>
   </data>
   <data name="Room_AddGameObjectInstance" xml:space="preserve">
-    <value>_Add game object instance</value>
+    <value>_Adicionar instância de objeto de jogo</value>
   </data>
   <data name="Room_PasteGameObjectInstance" xml:space="preserve">
-    <value>_Paste game object instance</value>
+    <value>_Colar instância de objeto de jogo</value>
   </data>
   <data name="Room_CopyGameObjectInstance" xml:space="preserve">
-    <value>_Copy game object instance</value>
+    <value>_Copiar instância de objeto de jogo</value>
   </data>
   <data name="Room_DeleteGameObjectInstance" xml:space="preserve">
-    <value>_Remove game object instance</value>
+    <value>_Remover instância de objeto de jogo</value>
   </data>
   <data name="Room_AddTile" xml:space="preserve">
-    <value>_Add tile</value>
+    <value>_Adicionar bloco</value>
   </data>
   <data name="Room_AddBackgroundLayer" xml:space="preserve">
-    <value>_Add background layer</value>
+    <value>_Adicionar camada de fundo</value>
   </data>
   <data name="Room_AddInstancesLayer" xml:space="preserve">
-    <value>_Add instances layer</value>
+    <value>_Adicionar camada de instâncias</value>
   </data>
   <data name="Room_AddTilesLayer" xml:space="preserve">
-    <value>_Add tiles layer</value>
+    <value>_Adicionar camada de blocos</value>
   </data>
   <data name="Room_AddPathLayer" xml:space="preserve">
-    <value>_Add path layer</value>
+    <value>_Adicionar camada de caminho</value>
   </data>
   <data name="Room_AddAssetsLayer" xml:space="preserve">
-    <value>_Add assets layer</value>
+    <value>_Adicionar camada de ativos</value>
   </data>
   <data name="Room_AddEffectLayer" xml:space="preserve">
-    <value>_Add effect layer</value>
+    <value>_Adicionar camada de efeito</value>
   </data>
   <data name="Room_ToggleVisibility" xml:space="preserve">
-    <value>Toggle _visibility</value>
+    <value>Alternar _visibilidade</value>
   </data>
   <data name="Room_AddLegacyTileInstance" xml:space="preserve">
-    <value>_Add legacy tile instance</value>
+    <value>_Adicionar instância de bloco legada</value>
   </data>
   <data name="Room_AddSpriteInstance" xml:space="preserve">
-    <value>_Add sprite instance</value>
+    <value>_Adicionar instância de sprite</value>
   </data>
   <data name="Room_AddSequenceInstance" xml:space="preserve">
-    <value>_Add sequence instance</value>
+    <value>_Adicionar instância de sequência</value>
   </data>
   <data name="Room_AddParticleSystemInstance" xml:space="preserve">
     <value>_Add particle system instance</value>
