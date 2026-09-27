@@ -2395,108 +2395,108 @@ Use um dos scripts de pesquisa no menu "Localizar" se necessário.</value>
     <comment>Should the transparent pixel margins be removed from the exported images? (If you need to export them as-is, please select No.)</comment>
   </data>
   <data name="Msg_SpineSpriteWarning" xml:space="preserve">
-    <value>This seems to be a Spine sprite, .json and .atlas files will be exported together with the frames. PLEASE EDIT THEM CAREFULLY! SOME MANUAL EDITING OF THE JSON MAY BE REQUIRED! THE DATA IS EXPORTED AS-IS.</value>
+    <value>Este parece ser um sprite do Spine, os arquivos .json e .atlas serão exportados junto com os frames. EDITE-OS COM CUIDADO! PODE SER NECESSÁRIA ALGUMA EDIÇÃO MANUAL DO JSON! OS DADOS SÃO EXPORTADOS COMO ESTÃO.</value>
   </data>
   <data name="Msg_TexturePageDimensionsNotPowerOf2" xml:space="preserve">
-    <value>WARNING: Texture page dimensions are not powers of 2. Sprite blurring is very likely in-game.</value>
+    <value>AVISO: As dimensões da página de textura não são potências de 2. É muito provável que ocorra desfoque de sprite no jogo.</value>
   </data>
   <data name="Msg_TextureConvertedToPNG" xml:space="preserve">
-    <value>{0} was converted into PNG format since we don't support converting images into DDS format. This might have performance issues in the game.</value>
+    <value>{0} foi convertido para o formato PNG, pois não oferecemos suporte à conversão de imagens para o formato DDS. Isso pode causar problemas de desempenho no jogo.</value>
   </data>
   <data name="Msg_FailedToPlayAudio" xml:space="preserve">
-    <value>Failed to play audio!
+    <value>Falha ao reproduzir o áudio!
 {0}</value>
   </data>
   <data name="Msg_FailedToPlayAudioNotWavOgg" xml:space="preserve">
-    <value>Failed to play audio!
-Not a WAV or OGG.</value>
+    <value>Falha ao reproduzir o áudio!
+Não é um arquivo WAV ou OGG.</value>
   </data>
   <data name="Msg_ImportNonAudioWarning" xml:space="preserve">
-    <value>Warning: File being imported is not a WAV or OGG. Import anyway?
+    <value>AVISO: O arquivo que está sendo importado não é um WAV ou OGG. Deseja importar mesmo assim?
 
-This may corrupt the sound.</value>
+Isso pode corromper o som.</value>
   </data>
   <data name="Msg_ImportFormatMismatchWarning" xml:space="preserve">
-    <value>Warning: Filetype being imported does not match existing filetype. Import anyway?
+    <value>AVISO: O tipo de arquivo que está sendo importado não corresponde ao tipo existente. Deseja importar mesmo assim?
 
-This may corrupt the sound, unless sound asset compression settings are adjusted as well.</value>
+Isso pode corromper o som, a menos que as configurações de compactação do ativo de som também sejam ajustadas.</value>
   </data>
   <data name="Msg_InvalidBooleanValue" xml:space="preserve">
-    <value>Invalid boolean value</value>
+    <value>Valor booleano inválido</value>
   </data>
   <data name="Msg_InvalidNumberString" xml:space="preserve">
-    <value>Invalid number string</value>
+    <value>Valor numérico inválido</value>
   </data>
   <data name="Msg_EnableGMSDebugger" xml:space="preserve">
-    <value>Are you sure that you want to enable GMS debugger?
-If you want to enable a debug mode in some game, then you need to use one of the scripts.</value>
+    <value>Tem certeza de que deseja ativar o depurador do GMS?
+Se você quiser ativar o modo de depuração em algum jogo, precisará usar um dos scripts.</value>
   </data>
   <data name="Msg_CodeEntryReference" xml:space="preserve">
-    <value>This code entry is a reference to an anonymous function within {0}, view it there.</value>
+    <value>Esta entrada de código é uma referência a uma função anônima dentro de {0}, visualize-a lá.</value>
   </data>
   <data name="Msg_DuplicateKeyInTextdata" xml:space="preserve">
-    <value>There is a duplicate key in textdata_en, being {0}. This may cause errors in the comment display of text.</value>
+    <value>Há uma chave duplicada em textdata_en, sendo {0}. Isso pode causar erros na exibição de comentários de texto.</value>
   </data>
   <data name="Msg_UnknownErrorInTextdata" xml:space="preserve">
-    <value>Unknown error in textdata_en. This may cause errors in the comment display of text.</value>
+    <value>Erro desconhecido em textdata_en. Isso pode causar erros na exibição de comentários de texto.</value>
   </data>
   <data name="Msg_FailedToParseLangFile" xml:space="preserve">
-    <value>Failed to parse language file: {0}</value>
+    <value>Falha ao analisar o arquivo de idioma: {0}</value>
   </data>
   <data name="Msg_LocalizationFetchError" xml:space="preserve">
     <value>&lt;localization fetch error&gt;</value>
   </data>
   <data name="Msg_DecompilingPleaseWait" xml:space="preserve">
-    <value>Decompiling, please wait... This can take a while on complex scripts.</value>
+    <value>Descompilando, aguarde... Isso pode demorar um pouco em scripts complexos.</value>
   </data>
   <data name="Msg_CompilingPleaseWait" xml:space="preserve">
-    <value>Compiling, please wait...</value>
+    <value>Compilando, aguarde...</value>
   </data>
   <data name="Msg_EditingDisassemblyProjectWarning" xml:space="preserve">
-    <value>Editing disassembly while in an open project (even through scripts) can cause desyncs with source code in the project.
+    <value>Editar a descompilação com um projeto aberto (mesmo através de scripts) pode causar dessincronizações com o código-fonte no projeto.
 
-The source code will not change unless you directly modify it, or if you remove the code asset from the project entirely.</value>
+O código-fonte não mudará a menos que você o modifique diretamente ou remova completamente o ativo de código do projeto.</value>
   </data>
   <data name="Msg_GlyphsSortedSuccessfully" xml:space="preserve">
-    <value>The glyphs were sorted successfully.</value>
+    <value>Os glifos foram classificados com sucesso.</value>
   </data>
   <data name="Msg_RangeUpdatedSuccessfully" xml:space="preserve">
-    <value>The range was updated successfully.</value>
+    <value>O intervalo foi atualizado com sucesso.</value>
   </data>
   <data name="Msg_CannotFindGlyphsScrollViewer" xml:space="preserve">
-    <value>Cannot find the glyphs table scroll viewer.</value>
+    <value>Não foi possível encontrar o visualizador de rolagem da tabela de glifos.</value>
   </data>
   <data name="Msg_NoGlyphSelected" xml:space="preserve">
-    <value>No glyph selected.</value>
+    <value>Nenhum glifo selecionado.</value>
   </data>
   <data name="Msg_FontHasNoTexture" xml:space="preserve">
-    <value>The font has no texture.</value>
+    <value>A fonte não possui textura.</value>
   </data>
   <data name="Msg_GlyphRectEditorError" xml:space="preserve">
-    <value>An error occurred in the glyph rectangle editor window.
-Please report this on GitHub.
+    <value>Ocorreu um erro na janela do editor de retângulos de glifos.
+Por favor, relate isso no GitHub.
 
 {0}</value>
   </data>
   <data name="Msg_LastGlyphZeroSize" xml:space="preserve">
-    <value>The last glyph has zero size.
-You can use the button on the left to fix that.</value>
+    <value>O último glifo tem tamanho zero.
+Você pode usar o botão à esquerda para corrigir isso.</value>
   </data>
   <data name="Msg_CharCodeExceedsMax" xml:space="preserve">
-    <value>The character code is greater than the maximum (65535)</value>
+    <value>O código do caractere é maior que o máximo (65535).</value>
   </data>
   <data name="Msg_ValueIsNotString" xml:space="preserve">
-    <value>The value is not a string.</value>
+    <value>O valor não é uma string.</value>
   </data>
   <data name="Msg_InvalidDateTimeFormat" xml:space="preserve">
-    <value>Invalid date time format.</value>
+    <value>Formato de data e hora inválido.</value>
   </data>
   <data name="Msg_FindAllTileReferences" xml:space="preserve">
     <value>Encontrar todas as referências deste tile</value>
   </data>
   <data name="Msg_ReferencesWindowError" xml:space="preserve">
-    <value>An error occurred in the object references related window.
-Please report this on GitHub.
+    <value>Ocorreu um erro na janela relacionada a referências de objetos.
+Por favor, relate isso no GitHub.
 
 {0}</value>
   </data>
@@ -2504,56 +2504,56 @@ Please report this on GitHub.
     <value>Não foi possível encontrar o painel de rolagem da lista de IDs de tiles.</value>
   </data>
   <data name="Msg_FindAllPageItemReferences" xml:space="preserve">
-    <value>Find all references to this page item</value>
+    <value>Encontrar todas as referências a este item de página</value>
   </data>
   <data name="Msg_EmptyInstancesListWarning" xml:space="preserve">
-    <value>The instances list of layer "{0}" is empty, but the layer has the instances ID.</value>
+    <value>A lista de instâncias da camada "{0}" está vazia, mas a camada possui o ID das instâncias.</value>
   </data>
   <data name="Msg_NoEmptyRoomBackgrounds" xml:space="preserve">
-    <value>No empty room backgrounds.</value>
+    <value>Nenhum plano de fundo de sala vazio.</value>
   </data>
   <data name="Msg_SelectLayer" xml:space="preserve">
-    <value>Please select a layer.</value>
+    <value>Por favor, selecione uma camada.</value>
   </data>
   <data name="Msg_SelectAssetsLayer" xml:space="preserve">
     <value>Selecione uma camada de assets.</value>
   </data>
   <data name="Msg_SelectInstanceLayer" xml:space="preserve">
-    <value>Please select an instance layer.</value>
+    <value>Por favor, selecione uma camada de instâncias.</value>
   </data>
   <data name="Msg_RoomIsNull" xml:space="preserve">
-    <value>Room is null.</value>
+    <value>A sala é nula.</value>
   </data>
   <data name="Msg_MaxLayerDepthReached" xml:space="preserve">
-    <value>Warning - the maximum layer depth is reached.
-You probably should change the depth of the new layer.</value>
+    <value>Aviso - a profundidade máxima da camada foi atingida.
+Você provavelmente deve alterar a profundidade da nova camada.</value>
   </data>
   <data name="Msg_LayersDontSupportFeature" xml:space="preserve">
-    <value>Layers don't support this feature currently, change the layer depths instead.</value>
+    <value>As camadas não suportam este recurso atualmente, altere as profundidades das camadas.</value>
   </data>
   <data name="Msg_ViewsDontSupportFeature" xml:space="preserve">
-    <value>Views don't support this feature.</value>
+    <value>As câmeras não suportam este recurso.</value>
   </data>
   <data name="Msg_BackgroundsDontSupportFeature" xml:space="preserve">
-    <value>Backgrounds don't support this feature.</value>
+    <value>Os planos de fundo não suportam este recurso.</value>
   </data>
   <data name="Msg_CantChangeObjectPosition" xml:space="preserve">
-    <value>Can't change the object position - no list for the selected object was found.</value>
+    <value>Não é possível alterar a posição do objeto — nenhuma lista foi encontrada para o objeto selecionado.</value>
   </data>
   <data name="Msg_TileDataEmpty" xml:space="preserve">
     <value>Os dados dos tiles estão vazios.</value>
   </data>
   <data name="Msg_ErrorSavingFile" xml:space="preserve">
-    <value>Error while saving the file - "{0}".</value>
+    <value>Erro ao salvar o arquivo - "{0}".</value>
   </data>
   <data name="Msg_ExportedFilePath" xml:space="preserve">
-    <value>Exported file path: {0}</value>
+    <value>Caminho do arquivo exportado: {0}</value>
   </data>
   <data name="Msg_TileDataSizeCantBeZero" xml:space="preserve">
     <value>O tamanho dos dados dos tiles não pode ser zero.</value>
   </data>
   <data name="Msg_ErrorOpeningFile" xml:space="preserve">
-    <value>Error while opening file - "{0}".</value>
+    <value>Erro ao abrir o arquivo - "{0}".</value>
   </data>
   <data name="Msg_FileLineCountMismatch" xml:space="preserve">
     <value>Erro - A contagem de linhas do arquivo selecionado não corresponde à altura da camada de tiles.</value>
@@ -2562,104 +2562,104 @@ You probably should change the depth of the new layer.</value>
     <value>Os dados foram exportados do "Tiled"?</value>
   </data>
   <data name="Msg_FileHasInvalidData" xml:space="preserve">
-    <value>The file has invalid data.</value>
+    <value>O arquivo contém dados inválidos.</value>
   </data>
   <data name="Msg_ErrorParsingLine" xml:space="preserve">
-    <value>Error while parsing line {0} - "{1}".</value>
+    <value>Erro ao analisar a linha {0} - "{1}".</value>
   </data>
   <data name="Msg_LineLengthNotEqualTileWidth" xml:space="preserve">
-    <value>Length of line {0} is not equal to the tile data width.</value>
+    <value>O comprimento da linha {0} não é igual à largura dos dados de tiles.</value>
   </data>
   <data name="Msg_ImportedSuccessfully" xml:space="preserve">
-    <value>Imported successfully.</value>
+    <value>Importado com sucesso.</value>
   </data>
   <data name="Msg_LayerMustHaveTileset" xml:space="preserve">
-    <value>The layer must have a tileset set!</value>
+    <value>A camada deve ter um conjunto de tiles definido!</value>
   </data>
   <data name="Msg_LayerSizeMustBeLargerBoth" xml:space="preserve">
-    <value>The layer's horizontal and vertical size must be larger than 0 tiles!
-(Use the Auto button to set the tilemap size based on the room size.)</value>
+    <value>O tamanho horizontal e vertical da camada deve ser maior que 0 tiles!
+(Use o botão "Auto" para definir o tamanho do mapa de tiles com base no tamanho da sala.)</value>
   </data>
   <data name="Msg_LayerHorizontalSizeMustBeLarger" xml:space="preserve">
-    <value>The layer's horizontal size must be larger than 0 tiles!
-(Use the Auto button to set the tilemap size based on the room size.)</value>
+    <value>O tamanho horizontal da camada deve ser maior que 0 tiles!
+(Use o botão "Auto" para definir o tamanho do mapa de tiles com base no tamanho da sala.)</value>
   </data>
   <data name="Msg_LayerVerticalSizeMustBeLarger" xml:space="preserve">
-    <value>The layer's vertical size must be larger than 0 tiles!
-(Use the Auto button to set the tilemap size based on the room size.)</value>
+    <value>O tamanho vertical da camada deve ser maior que 0 tiles!
+(Use o botão "Auto" para definir o tamanho do mapa de tiles com base no tamanho da sala.)</value>
   </data>
   <data name="Msg_RoomFlagsMustContainIsGMS2" xml:space="preserve">
-    <value>Room flags of GMS 2+ games must contain the "IsGMS2" flag, otherwise the game will crash when loading that room.</value>
+    <value>As room flags de jogos do GMS 2+ devem conter a flag "IsGMS2", caso contrário o jogo irá travar ao carregar essa sala.</value>
   </data>
   <data name="Msg_RoomFlagsMustContainGM2024_13" xml:space="preserve">
-    <value>Room flags of GM 2024.13+ games must contain the "IsGM2024_13" flag, otherwise the game will crash when loading that room.</value>
+    <value>As room flags de jogos do GM 2024.13+ devem conter a flag "IsGM2024_13", caso contrário o jogo irá travar ao carregar essa sala.</value>
   </data>
   <data name="Msg_ErrorGeneratingTileRectangles" xml:space="preserve">
-    <value>An error occurred while generating "Rectangles" for tile layer {0}.
+    <value>Ocorreu um erro ao gerar "Retângulos" para a camada de tiles {0}.
 
 {1}</value>
   </data>
   <data name="Msg_ScriptDoesNotExist" xml:space="preserve">
-    <value>{0} does not exist!</value>
+    <value>{0} não existe!</value>
   </data>
   <data name="Msg_ScriptErrorWithType" xml:space="preserve">
-    <value>An error of type "{0}" occurred. The error is:
+    <value>Ocorreu um erro do tipo "{0}". O erro é:
 
 {1}</value>
   </data>
   <data name="Msg_ScriptCompileError" xml:space="preserve">
-    <value>Script compile error</value>
+    <value>Erro de compilação de script</value>
   </data>
   <data name="Msg_TempRunWarning" xml:space="preserve">
-    <value>WARNING:
-Temp running the game does not permanently 
-save your changes. Please "Save" the game
-to save your changes. Closing UndertaleModTool
-without using the "Save" option can
-result in loss of work.</value>
+    <value>AVISO:
+Executar o jogo temporariamente não salva 
+suas alterações permanentemente. Use "Salvar"
+para salvar suas alterações. Fechar o UndertaleModTool
+sem usar a opção "Salvar" pode
+resultar na perda do seu trabalho.</value>
   </data>
   <data name="Msg_NoDataFileLoaded" xml:space="preserve">
-    <value>No data file is currently loaded!</value>
+    <value>Nenhum arquivo de dados está carregado no momento!</value>
   </data>
   <data name="Msg_CantHighlightNull" xml:space="preserve">
-    <value>Can't highlight the object - it's null or isn't an UndertaleResource.</value>
+    <value>Não é possível destacar o objeto - ele é nulo ou não é um UndertaleResource.</value>
   </data>
   <data name="Msg_CantHighlightError" xml:space="preserve">
-    <value>Can't highlight the object "{0}".
-Error - {1}</value>
+    <value>Não é possível destacar o objeto "{0}".
+Erro - {1}</value>
   </data>
   <data name="Msg_CantHighlightNotFound" xml:space="preserve">
-    <value>Can't highlight the object "{0}" - element with object list not found.</value>
+    <value>Não é possível destacar o objeto "{0}" - elemento com a lista de objetos não encontrado.</value>
   </data>
   <data name="Msg_HTTPError" xml:space="preserve">
     <value>HTTP error - {0}.</value>
   </data>
   <data name="Msg_CheckInternetConnection" xml:space="preserve">
-    <value>Check your internet connection.</value>
+    <value>Verifique sua conexão com a internet.</value>
   </data>
   <data name="Msg_DownloadedMB" xml:space="preserve">
-    <value>Downloaded MB: {0}</value>
+    <value>MB baixados: {0}</value>
   </data>
   <data name="Msg_WillCloseToUpdate" xml:space="preserve">
-    <value>UndertaleModTool will now close to finish the update.</value>
+    <value>O UndertaleModTool será fechado agora para concluir a atualização.</value>
   </data>
   <data name="Msg_EmptyDirectoryWarning" xml:space="preserve">
     <value>Atualmente, o diretório do arquivo de dados de destino está vazio. Provavelmente você vai querer copiar todos os outros arquivos de jogo para o diretório de destino, para que os assets externos possam ser carregados corretamente (tanto no jogo quanto nesta ferramenta), e para que o jogo possa ser iniciado.</value>
   </data>
   <data name="Msg_SameDirectoryWarning" xml:space="preserve">
-    <value>The destination data file is in the same directory as the source data file. This may permanently overwrite external data files. Proceed?</value>
+    <value>O arquivo de dados de destino está no mesmo diretório que o arquivo de dados de origem. Isso pode sobrescrever permanentemente arquivos de dados externos. Deseja continuar?</value>
   </data>
   <data name="Msg_SameDirectoryWarningTitle" xml:space="preserve">
-    <value>Destination in same directory</value>
+    <value>Destino no mesmo diretório</value>
   </data>
   <data name="Msg_ChooseDestinationDataFile" xml:space="preserve">
-    <value>Choose destination data file</value>
+    <value>Escolher o arquivo de dados de destino</value>
   </data>
   <data name="Msg_CodeRefDecompile" xml:space="preserve">
-    <value>// This code entry is a reference to an anonymous function within "{0}", decompile that instead.</value>
+    <value>// Esta entrada de código é uma referência a uma função anônima dentro de "{0}", descompile-a em vez disso.</value>
   </data>
   <data name="Msg_CodeRefDisassemble" xml:space="preserve">
-    <value>; This code entry is a reference to an anonymous function within "{0}", disassemble that instead.</value>
+    <value>; Esta entrada de código é uma referência a uma função anônima dentro de "{0}", desmonte-a em vez disso.</value>
   </data>
   <data name="Msg_DecompileFailed" xml:space="preserve">
     <value>/*
@@ -2676,58 +2676,58 @@ DISASSEMBLY FAILED!
 */</value>
   </data>
   <data name="Msg_FailedFindGameExe" xml:space="preserve">
-    <value>Cannot find game executable path, expected: {0}</value>
+    <value>Não foi possível encontrar o caminho do executável do jogo, esperado: {0}</value>
   </data>
   <data name="Msg_FailedFindDataFile" xml:space="preserve">
-    <value>Cannot find data file path, expected: {0}</value>
+    <value>Não foi possível encontrar o caminho do arquivo de dados, esperado: {0}</value>
   </data>
   <data name="Msg_FailedFindGamePath" xml:space="preserve">
-    <value>Cannot find game path, expected to find it at: {0}</value>
+    <value>Não foi possível encontrar o caminho do jogo, esperado encontrá-lo em: {0}</value>
   </data>
   <data name="Msg_SaveFailedCantRun" xml:space="preserve">
-    <value>Save failed, cannot run.</value>
+    <value>Falha ao salvar, não é possível executar.</value>
   </data>
   <data name="Msg_DebuggerEnabledRun" xml:space="preserve">
-    <value>The game has the debugger enabled. Would you like to disable it so the game will run?</value>
+    <value>O jogo está com o depurador ativado. Deseja desativá-lo para que o jogo possa ser executado?</value>
   </data>
   <data name="Msg_MustSaveToRun" xml:space="preserve">
-    <value>You must save your changes to run.</value>
+    <value>Você deve salvar suas alterações para executar.</value>
   </data>
   <data name="Msg_UseDebuggerRunOption" xml:space="preserve">
-    <value>Use the "Run game using debugger" option to run this game.</value>
+    <value>Use a opção "Executar jogo usando o depurador" para rodar este jogo.</value>
   </data>
   <data name="Msg_RuntimeNoDebug" xml:space="preserve">
-    <value>The selected runtime does not support debugging.</value>
+    <value>O tempo de execução selecionado não suporta depuração.</value>
   </data>
   <data name="Msg_UpdaterAppWontExit" xml:space="preserve">
-    <value>UndertaleModToolUpdater app didn't exit.
-Can't delete its temp folder.</value>
+    <value>O app UndertaleModToolUpdater não foi encerrado.
+Não é possível excluir sua pasta temporária.</value>
   </data>
   <data name="Msg_ErrorMessageMissing" xml:space="preserve">
-    <value>(error message is missing)</value>
+    <value>(a mensagem de erro está ausente)</value>
   </data>
   <data name="Msg_NewProjectConfirm" xml:space="preserve">
-    <value>Warning: you currently have a project open.
-Are you sure you want to make a new project?</value>
+    <value>Aviso: você atualmente tem um projeto aberto.
+Tem certeza de que deseja criar um novo projeto?</value>
   </data>
   <data name="Msg_InvalidAssetName" xml:space="preserve">
-    <value>Asset name "{0}" is not a valid identifier. Add a new asset using an auto-generated name instead?</value>
+    <value>O nome de asset "{0}" não é um identificador válido. Adicionar um novo asset usando um nome gerado automaticamente?</value>
   </data>
   <data name="Msg_AddToRoomOrderListTitle" xml:space="preserve">
-    <value>Add to room order list</value>
+    <value>Adicionar à lista de ordem das salas</value>
   </data>
   <data name="Msg_DeleteConfirm" xml:space="preserve">
     <value>Delete {0}?</value>
   </data>
   <data name="Msg_DeleteShiftWarning" xml:space="preserve">
-    <value>Note that the code often references objects by ID, so this operation is likely to break stuff because other items will shift up!</value>
+    <value>Note que o código frequentemente referencia objetos por ID, então esta operação provavelmente vai quebrar as coisas, pois outros itens serão deslocados para cima!</value>
   </data>
   <data name="Msg_SaveBeforeQuit" xml:space="preserve">
-    <value>Save changes before quitting?</value>
+    <value>Deseja salvar as alterações antes de sair?</value>
   </data>
   <data name="Msg_ScriptStillRunSave" xml:space="preserve">
-    <value>Script still runs. Save anyway?
-It can corrupt the data file that you'll save.</value>
+    <value>O script ainda está em execução. Deseja salvar mesmo assim?
+Isso pode corromper o arquivo de dados que você vai salvar.</value>
   </data>
   <data name="Msg_UnexportedAssetsQuit" xml:space="preserve">
     <value>Há assets marcados para exportação no projeto atual.
@@ -2737,140 +2737,140 @@ Deseja realmente sair?</value>
     <value>Há assets marcados para exportação no projeto atual. Deseja realmente fechar?</value>
   </data>
   <data name="Msg_RunScriptQuestion" xml:space="preserve">
-    <value>Run {0} as a script?</value>
+    <value>Deseja executar {0} como um script?</value>
   </data>
   <data name="Msg_OpenDataFileQuestion" xml:space="preserve">
     <value>Open {0} as a data file?</value>
   </data>
   <data name="Msg_ProjectOpenDiscardChanges" xml:space="preserve">
-    <value>A project is currently open - open another data file and discard all unsaved changes?</value>
+    <value>Um projeto está aberto no momento - deseja abrir outro arquivo de dados e descartar todas as alterações não salvas?</value>
   </data>
   <data name="Msg_NewProjectDiscardUnexported" xml:space="preserve">
-    <value>There are assets marked to be exported in the current project - create a new project and discard all unexported changes?</value>
+    <value>Há assets marcados para exportação no projeto atual - deseja criar um novo projeto e descartar todas as alterações não exportadas?</value>
   </data>
   <data name="Msg_OpenProjectDiscardUnexported" xml:space="preserve">
-    <value>There are assets marked to be exported in the current project - open another new project and discard all unexported changes?</value>
+    <value>Há assets marcados para exportação no projeto atual - deseja abrir um novo projeto e descartar todas as alterações não exportadas?</value>
   </data>
   <data name="Msg_ClipboardCopyError" xml:space="preserve">
-    <value>Can't copy the item name to clipboard due to this error:
+    <value>Não foi possível copiar o nome do asset para a área de transferência devido a este erro:
 {0}.
-You probably should try again.</value>
+Você provavelmente deveria tentar novamente.</value>
   </data>
   <data name="Msg_AddMenuItemError" xml:space="preserve">
-    <value>An error occurred while trying to add the menu item. No action has been taken.
+    <value>Ocorreu um erro ao tentar adicionar o item de menu. Nenhuma ação foi realizada.
 
-Error:
+Erro:
 
 {0}</value>
   </data>
   <data name="Msg_ScriptFileNotExist" xml:space="preserve">
-    <value>The script file doesn't exist.</value>
+    <value>O arquivo de script não existe.</value>
   </data>
   <data name="Msg_RunningScript" xml:space="preserve">
-    <value>Running {0} ...</value>
+    <value>Executando {0} ...</value>
   </data>
   <data name="Msg_ScriptFinished" xml:space="preserve">
-    <value>{0} finished!</value>
+    <value>{0} concluído!</value>
   </data>
   <data name="Msg_CodeEntryNotFound" xml:space="preserve">
-    <value>Can't find code entry "{0}".
-(probably, different game data was loaded)</value>
+    <value>Não foi possível encontrar a entrada de código "{0}".
+(provavelmente, dados de jogo diferentes foram carregados)</value>
   </data>
   <data name="Msg_FailedFetchBuild" xml:space="preserve">
-    <value>Failed to fetch latest build!
+    <value>Falha ao buscar a versão mais recente!
 {0}</value>
   </data>
   <data name="Msg_FailedFindBuild" xml:space="preserve">
-    <value>Failed to find latest build!
-Detected action name - {0}</value>
+    <value>Falha ao encontrar a versão mais recente!
+Nome da ação detectada - {0}</value>
   </data>
   <data name="Msg_FailedToDownload" xml:space="preserve">
-    <value>Failed to download new version of UndertaleModTool.
-Error - {0}.</value>
+    <value>Falha ao baixar a nova versão do UndertaleModTool.
+Erro - {0}.</value>
   </data>
   <data name="Msg_NullGameExe" xml:space="preserve">
-    <value>Null game executable name or location</value>
+    <value>Nome ou local do executável do jogo nulo</value>
   </data>
   <data name="Msg_CodeEditorSaveFailed" xml:space="preserve">
-    <value>The changes in code editor weren't saved due to some error in "SaveCodeChanges()".</value>
+    <value>As alterações no editor de código não foram salvas devido a algum erro em "SaveCodeChanges()".</value>
   </data>
   <data name="Msg_BytecodeVersionUnsupported" xml:space="preserve">
-    <value>Only bytecode versions 13 to 17 are supported for now, you are trying to load {0}. A lot of code is disabled and will likely break something. Saving/exporting is disabled.</value>
+    <value>Apenas versões de bytecode de 13 a 17 são suportadas por enquanto, você está tentando carregar {0}. Muito código está desativado e provavelmente causará falhas. A ação de salvar/exportar está desativada.</value>
   </data>
   <data name="Msg_YYCGame" xml:space="preserve">
-    <value>This game uses YYC (YoYo Compiler), which means the code is embedded into the game executable. This configuration is currently not fully supported; continue at your own risk.</value>
+    <value>Este jogo usa YYC (YoYo Compiler), o que significa que o código está embutido no executável do jogo. No momento, esta configuração não é totalmente suportada; continue por sua conta e risco.</value>
   </data>
   <data name="Msg_GMSDebuggerEnabled" xml:space="preserve">
-    <value>This game is set to run with the GameMaker Studio debugger and the normal runtime will simply hang after loading if the debugger is not running. You can turn this off in General Info by checking the "Disable Debugger" box and saving.</value>
+    <value>Este jogo está configurado para ser executado com o depurador do GameMaker Studio e o tempo de execução normal simplesmente travará após o carregamento se o depurador não estiver em execução. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
   </data>
   <data name="Msg_SavingGMSDebugMode" xml:space="preserve">
-    <value>You are saving the game in GameMaker Studio debug mode. Unless the debugger is running, the normal runtime will simply hang after loading. You can turn this off in General Info by checking the "Disable Debugger" box and saving.</value>
+    <value>Você está salvando o jogo no modo de depuração do GameMaker Studio. A menos que o depurador esteja em execução, o tempo de execução normal simplesmente travará após o carregamento. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
   </data>
   <data name="Msg_FailedCreateProject" xml:space="preserve">
-    <value>Failed to create new project</value>
+    <value>Falha ao criar novo projeto</value>
   </data>
   <data name="Msg_ErrorCreatingProject" xml:space="preserve">
-    <value>Error occurred when creating new project:
+    <value>Ocorreu um erro ao criar o novo projeto:
 {0}</value>
   </data>
   <data name="Msg_ErrorLoadingProject" xml:space="preserve">
-    <value>Error occurred when loading project:
+    <value>Ocorreu um erro ao carregar o projeto:
 {0}</value>
   </data>
   <data name="Msg_ErrorSavingProject" xml:space="preserve">
-    <value>Error occurred when saving project:
+    <value>Ocorreu um erro ao salvar o projeto:
 {0}</value>
   </data>
   <data name="Msg_FailedLoadProject" xml:space="preserve">
-    <value>Failed to load project</value>
+    <value>Falha ao carregar o projeto</value>
   </data>
   <data name="Msg_FailedSaveProject" xml:space="preserve">
-    <value>Failed to save project</value>
+    <value>Falha ao salvar o projeto</value>
   </data>
   <data name="Msg_ProjectCreated" xml:space="preserve">
-    <value>Project "{0}" created successfully!</value>
+    <value>Projeto "{0}" criado com sucesso!</value>
   </data>
   <data name="Msg_ProjectOpened" xml:space="preserve">
-    <value>Opened project "{0}".</value>
+    <value>Projeto "{0}" aberto com sucesso!</value>
   </data>
   <data name="Msg_ProjectSaved" xml:space="preserve">
-    <value>Saved project successfully.</value>
+    <value>Projeto salvo com sucesso.</value>
   </data>
   <data name="Msg_ProjectCreationFailed" xml:space="preserve">
-    <value>Project creation failed.</value>
+    <value>A criação do projeto falhou.</value>
   </data>
   <data name="Msg_ProjectFailedToOpen" xml:space="preserve">
-    <value>Project failed to open.</value>
+    <value>Falha ao abrir o projeto.</value>
   </data>
   <data name="Msg_ProjectFailedToSave" xml:space="preserve">
-    <value>Project failed to save.</value>
+    <value>Falha ao salvar o projeto.</value>
   </data>
   <data name="Msg_ProjectClosed" xml:space="preserve">
-    <value>Project closed.</value>
+    <value>Projeto fechado.</value>
   </data>
   <data name="Msg_CancelledNewProject" xml:space="preserve">
-    <value>Cancelled new project creation.</value>
+    <value>Criação de novo projeto cancelada.</value>
   </data>
   <data name="Msg_RecompilingGML" xml:space="preserve">
-    <value>Recompiling GML code, please wait...</value>
+    <value>Recompilando código GML, por favor aguarde...</value>
   </data>
   <data name="Msg_SavingDataFile" xml:space="preserve">
-    <value>Saving data file, please wait...</value>
+    <value>Salvando arquivo de dados, por favor aguarde...</value>
   </data>
   <data name="Msg_ChooseNewAssetName" xml:space="preserve">
-    <value>Choose new {0} name</value>
+    <value>Escolher novo nome para {0}</value>
   </data>
   <data name="Msg_NameOfNewAsset" xml:space="preserve">
-    <value>Name of new asset:</value>
+    <value>Nome do novo asset:</value>
   </data>
   <data name="Msg_SearchingInProgress" xml:space="preserve">
-    <value>Searching in progress...</value>
+    <value>Pesquisa em andamento...</value>
   </data>
   <data name="Msg_Assets" xml:space="preserve">
     <value>Assets</value>
   </data>
   <data name="Msg_CannotDetermineGMVersion" xml:space="preserve">
-    <value>Cannot determine GameMaker version - "General Info" is null.</value>
+    <value>Não foi possível determinar a versão do GameMaker — "Informações Gerais" é nulo.</value>
   </data>
   <data name="Msg_CannotGetSourceTypes" xml:space="preserve">
     <value>Cannot get the source types for object of type "{0}".</value>
@@ -6205,7 +6205,7 @@ It's highly recommended to restart the application.</value>
     <value>(null)</value>
   </data>
   <data name="Msg_DecompilingGML" xml:space="preserve">
-    <value>Decompiling to GML...</value>
+    <value>Descompilando para GML...</value>
   </data>
   <data name="Msg_CompilingGML" xml:space="preserve">
     <value>Compiling from GML...</value>
