@@ -1891,64 +1891,64 @@ Observe que o código frequentemente referencia objetos por ID, portanto, é pro
     <value>Os tipos de referências</value>
   </data>
   <data name="Dialog_FindReferencesResults" xml:space="preserve">
-    <value>The references of game object ""</value>
+    <value>As referências do objeto de jogo ""</value>
   </data>
   <data name="Filter_DataFiles" xml:space="preserve">
-    <value>GameMaker data files (.win, .unx, .ios, .droid, audiogroup*.dat)</value>
+    <value>Arquivos de dados do GameMaker(.win, .unx, .ios, .droid, audiogroup*.dat)</value>
   </data>
   <data name="Filter_MainDataFiles" xml:space="preserve">
-    <value>GameMaker main data files (.win, .unx, .ios, .droid)</value>
+    <value>Arquivos de dados principais do GameMaker (.win, .unx, .ios, .droid)</value>
   </data>
   <data name="Cmd_CloseCurrentTab" xml:space="preserve">
-    <value>Close current tab</value>
+    <value>Fechar aba atual</value>
   </data>
   <data name="Cmd_CloseAllTabs" xml:space="preserve">
-    <value>Close all tabs</value>
+    <value>Fechar todas as abas</value>
   </data>
   <data name="Cmd_RestoreLastClosedTab" xml:space="preserve">
-    <value>Restore last closed tab</value>
+    <value>Restaurar última aba fechada</value>
   </data>
   <data name="Cmd_SwitchToNextTab" xml:space="preserve">
-    <value>Switch to the next tab</value>
+    <value>Alternar para a próxima aba</value>
   </data>
   <data name="Cmd_SwitchToPrevTab" xml:space="preserve">
-    <value>Switch to the previous tab</value>
+    <value>Alternar para a aba anterior</value>
   </data>
   <data name="Cmd_SearchInCode" xml:space="preserve">
-    <value>Search in code</value>
+    <value>Pesquisar no código</value>
   </data>
   <data name="Cmd_NewProject" xml:space="preserve">
-    <value>New project</value>
+    <value>Novo projeto</value>
   </data>
   <data name="Cmd_OpenProject" xml:space="preserve">
     <value>Open project</value>
   </data>
   <data name="Cmd_SaveProject" xml:space="preserve">
-    <value>Save project</value>
+    <value>Salvar projeto</value>
   </data>
   <data name="Cmd_ViewProjectAssets" xml:space="preserve">
     <value>Ver assets do projeto</value>
   </data>
   <data name="Cmd_CloseProject" xml:space="preserve">
-    <value>Close project</value>
+    <value>Fechar projeto</value>
   </data>
   <data name="Cmd_CompileCode" xml:space="preserve">
-    <value>Compile code</value>
+    <value>Compilar código</value>
   </data>
   <data name="Cmd_AlternatePaste" xml:space="preserve">
-    <value>Alternate paste command</value>
+    <value>Comando de colar alternativo</value>
   </data>
   <data name="Cmd_MirrorBrush" xml:space="preserve">
-    <value>Mirror the brush</value>
+    <value>Espelhar o pincel</value>
   </data>
   <data name="Cmd_FlipBrush" xml:space="preserve">
-    <value>Flip the brush</value>
+    <value>Inverter o pincel</value>
   </data>
   <data name="Cmd_RotateBrushCW" xml:space="preserve">
-    <value>Rotate the brush 90 degrees clockwise</value>
+    <value>Girar o pincel 90 graus no sentido horário</value>
   </data>
   <data name="Cmd_RotateBrushCCW" xml:space="preserve">
-    <value>Rotate the brush 90 degrees counterclockwise</value>
+    <value>Girar o pincel 90 graus no sentido anti-horário</value>
   </data>
   <data name="Cmd_ToggleTileGrid" xml:space="preserve">
     <value>Alternar malha de tiles</value>
@@ -1957,85 +1957,85 @@ Observe que o código frequentemente referencia objetos por ID, portanto, é pro
     <value>Alternar o comportamento de "repetição" em pincéis de múltiplos tiles</value>
   </data>
   <data name="Cmd_ToggleRoomPreview" xml:space="preserve">
-    <value>Toggle the room preview</value>
+    <value>Alternar a pré-visualização da sala</value>
   </data>
   <data name="Cmd_Undo" xml:space="preserve">
-    <value>Undoes actions</value>
+    <value>Desfaz ações</value>
   </data>
   <data name="Cmd_Redo" xml:space="preserve">
-    <value>Redoes actions</value>
+    <value>Refaz ações</value>
   </data>
   <data name="Status_Back" xml:space="preserve">
-    <value>Back</value>
+    <value>Voltar</value>
   </data>
   <data name="Status_Forward" xml:space="preserve">
-    <value>Forward</value>
+    <value>Avançar</value>
   </data>
   <data name="Ctrl_Remove" xml:space="preserve">
-    <value>Remove</value>
+    <value>Remover</value>
   </data>
   <data name="DebugData_Question" xml:space="preserve">
-    <value>The debugger is enabled. Do you want to generate debugger data?</value>
+    <value>O depurador está ativado. Deseja gerar dados do depurador?</value>
   </data>
   <data name="DebugData_Decompile" xml:space="preserve">
-    <value>Decompiled</value>
+    <value>Descompilado</value>
   </data>
   <data name="DebugData_DecompileDesc" xml:space="preserve">
-    <value>Decompile whole source code when saving for display in the debugger</value>
+    <value>Descompilar todo o código-fonte ao salvar para exibição no depurador</value>
   </data>
   <data name="DebugData_NoBreakpointNote" xml:space="preserve">
-    <value>NOTE: no breakpoint support yet! Except for the script entry point</value>
+    <value>NOTA: suporte a pontos de interrupção ainda não disponível! Exceto para o ponto de entrada do script</value>
   </data>
   <data name="DebugData_DisassemblyPartial" xml:space="preserve">
-    <value>Disassembly, partial breakpoints</value>
+    <value>Desmontagem, pontos de interrupção parciais</value>
   </data>
   <data name="DebugData_DisassemblyPartialDesc" xml:space="preserve">
-    <value>Full disassembly, but you can set breakpoints only on B, BR, BT, POP, POPZ, RET and EXIT. This is still a lot more than that poor GM:S debugger was designed to handle, so allow up to 5 minutes for it to load the data file (yes, seriously)</value>
+    <value>Desmontagem completa, mas você pode definir pontos de interrupção apenas em B, BR, BT, POP, POPZ, RET e EXIT. Isso ainda é muito mais do que aquele pobre depurador do GM:S foi projetado para suportar, então permita até 5 minutos para ele carregar o arquivo de dados (sim, sério)</value>
   </data>
   <data name="DebugData_DisassemblyFull" xml:space="preserve">
-    <value>Disassembly, full breakpoints</value>
+    <value>Desmontagem, pontos de interrupção completos</value>
   </data>
   <data name="DebugData_DisassemblyFullDesc" xml:space="preserve">
-    <value>Gave up after like 15 minutes of waiting, don't even try this</value>
+    <value>Desistiu após cerca de 15 minutos de espera, nem tente isso</value>
   </data>
   <data name="DebugData_NoDebugData" xml:space="preserve">
     <value>No debug data</value>
   </data>
   <data name="StringUpdate_Question" xml:space="preserve">
-    <value>You edited a string reference! What do you want to do?</value>
+    <value>Você editou uma referência de string! O que você deseja fazer?</value>
   </data>
   <data name="StringUpdate_ChangeOnlyThisValue" xml:space="preserve">
-    <value>Change only this one value</value>
+    <value>Alterar apenas este único valor</value>
   </data>
   <data name="StringUpdate_ChangeAllOccurrences" xml:space="preserve">
-    <value>Change all occurrences of this value</value>
+    <value>Alterar todas as ocorrências deste valor</value>
   </data>
   <data name="StringUpdate_AbortChange" xml:space="preserve">
-    <value>Abort the change</value>
+    <value>Abortar a alteração</value>
   </data>
   <data name="RuntimePicker_SelectRuntime" xml:space="preserve">
-    <value>Select the runtime you want to use</value>
+    <value>Selecione o Runtime que deseja usar</value>
   </data>
   <data name="RuntimePicker_Version" xml:space="preserve">
     <value>Version</value>
   </data>
   <data name="RuntimePicker_Path" xml:space="preserve">
-    <value>Path</value>
+    <value>Caminho</value>
   </data>
   <data name="RuntimePicker_Continue" xml:space="preserve">
-    <value>Continue</value>
+    <value>Continuar</value>
   </data>
   <data name="SearchInCode_CaseSensitive" xml:space="preserve">
-    <value>Case sensitive</value>
+    <value>Diferenciar maiúsculas de minúsculas</value>
   </data>
   <data name="SearchInCode_RegexSearch" xml:space="preserve">
-    <value>Regex search</value>
+    <value>Pesquisa por Regex</value>
   </data>
   <data name="SearchInCode_MultilineRegex" xml:space="preserve">
-    <value>Multiline regex</value>
+    <value>Regex multilinha</value>
   </data>
   <data name="SearchInCode_InAssembly" xml:space="preserve">
-    <value>In assembly</value>
+    <value>Em assembly</value>
   </data>
   <data name="SearchInCode_FilterByCodeName" xml:space="preserve">
     <value>Filter by code name</value>
@@ -2050,76 +2050,76 @@ Observe que o código frequentemente referencia objetos por ID, portanto, é pro
     <value>Text</value>
   </data>
   <data name="SearchInCode_WholeWord" xml:space="preserve">
-    <value>Match whole word</value>
+    <value>Coincidir palavra inteira</value>
   </data>
   <data name="SearchInCode_ReplaceWith" xml:space="preserve">
-    <value>Replace with</value>
+    <value>Substituir por</value>
   </data>
   <data name="SearchInCode_Replace" xml:space="preserve">
-    <value>Replace</value>
+    <value>Substituir</value>
   </data>
   <data name="SearchInCode_ReplaceAll" xml:space="preserve">
-    <value>Replace All</value>
+    <value>Substituir tudo</value>
   </data>
   <data name="SearchInCode_PinWindow" xml:space="preserve">
-    <value>Keep window on top</value>
+    <value>Manter janela no topo</value>
   </data>
   <data name="Msg_CantReplaceInAssembly" xml:space="preserve">
-    <value>Replace is not supported in assembly mode.</value>
+    <value>Substituir não é suportado no modo assembly.</value>
   </data>
   <data name="Msg_NoResultSelected" xml:space="preserve">
-    <value>Please select a search result to replace.</value>
+    <value>Selecione um resultado de pesquisa para substituir.</value>
   </data>
   <data name="Msg_NoResultsToReplace" xml:space="preserve">
-    <value>There are no search results to replace.</value>
+    <value>Não há resultados de pesquisa para substituir.</value>
   </data>
   <data name="Msg_ConfirmReplace" xml:space="preserve">
-    <value>Are you sure you want to replace in "{0}"?</value>
+    <value>Tem certeza de que deseja substituir em "{0}"?</value>
   </data>
   <data name="Msg_ConfirmReplaceAll" xml:space="preserve">
-    <value>Are you sure you want to replace all matches in {0} code entries?</value>
+    <value>Tem certeza de que deseja substituir todas as correspondências em {0} entradas de código?</value>
   </data>
   <data name="Msg_ReplaceComplete" xml:space="preserve">
-    <value>Replaced in {0} code entries.</value>
+    <value>Substituído em {0} entradas de código.</value>
   </data>
   <data name="Msg_ReplaceError" xml:space="preserve">
-    <value>Error during replacement: {0}</value>
+    <value>Erro durante a substituição: {0}</value>
   </data>
   <data name="Dialog_Replacing" xml:space="preserve">
-    <value>Replacing...</value>
+    <value>Substituindo...</value>
   </data>
   <data name="EditorSearch_ToggleReplace" xml:space="preserve">
-    <value>Toggle Replace</value>
+    <value>Alternar substituição</value>
   </data>
   <data name="EditorSearch_FindNext" xml:space="preserve">
-    <value>Find Next</value>
+    <value>Localizar próxima</value>
   </data>
   <data name="EditorSearch_FindPrevious" xml:space="preserve">
-    <value>Find Previous</value>
+    <value>Localizar anterior</value>
   </data>
   <data name="EditorSearch_MatchCase" xml:space="preserve">
-    <value>Match Case</value>
+    <value>Diferenciar maiúsculas de minúsculas</value>
   </data>
   <data name="EditorSearch_WholeWord" xml:space="preserve">
-    <value>Match Whole Word</value>
+    <value>Coincidir palavra inteira</value>
   </data>
   <data name="EditorSearch_UseRegex" xml:space="preserve">
-    <value>Use Regular Expression</value>
+    <value>Usar expressão regular</value>
   </data>
   <data name="EditorSearch_Replace" xml:space="preserve">
-    <value>Replace</value>
+    <value>Substituir</value>
   </data>
   <data name="EditorSearch_ReplaceAll" xml:space="preserve">
-    <value>Replace All</value>
+    <value>Substituir tudo</value>
   </data>
   <data name="ClickableOutput_WindowTitle" xml:space="preserve">
-    <value>ClickableTextOutput</value>
+    <value>Saída de Texto Clicável</value>
   </data>
   <data name="ClickableOutput_DisplayingResults" xml:space="preserve">
-    <value>Displaying the results, please wait...</value>
+    <value>Exibindo os resultados, por favor aguarde...</value>
   </data>
   <data name="ClickableOutput_DefaultText" xml:space="preserve">
-    <value>Default text with hyperlinks.</value>
+    <value>Texto padrão com hiperlinks.</value>
   </data>
   <data name="ProjectAssets_Description1" xml:space="preserve">
     <value>Abaixo encontra-se uma lista de todos os assets atualmente à espera de serem exportados para o disco para o projeto atual, assim que este for guardado da próxima vez.</value>
@@ -2137,42 +2137,42 @@ Observe que o código frequentemente referencia objetos por ID, portanto, é pro
     <value>Desmarcar para exportação</value>
   </data>
   <data name="FindRef_WhereToSearch" xml:space="preserve">
-    <value>Where to search the references?</value>
+    <value>Onde pesquisar as referências?</value>
   </data>
   <data name="FindRef_SelectAll" xml:space="preserve">
-    <value>Select all</value>
+    <value>Selecionar tudo</value>
   </data>
   <data name="FindRef_DeselectAll" xml:space="preserve">
-    <value>Deselect all</value>
+    <value>Desmarcar tudo</value>
   </data>
   <data name="FindRef_ResultsFor" xml:space="preserve">
-    <value>The search results for the game object
+    <value>Os resultados da pesquisa para o objeto de jogo
 "".</value>
   </data>
   <data name="FindRef_CopyNameToClipboard" xml:space="preserve">
-    <value>Copy name to clipboard</value>
+    <value>Copiar nome para a área de transferência</value>
   </data>
   <data name="FindRef_FindAllReferences" xml:space="preserve">
-    <value>Find all references</value>
+    <value>Encontrar todas as referências</value>
   </data>
   <data name="FindRef_NoteMayNotBeComplete" xml:space="preserve">
-    <value>Note: the results may be not 100% complete.
-Use one of the search scripts in the "Find" menu if necessary.</value>
+    <value>Nota: os resultados podem não estar 100% completos.
+Use um dos scripts de pesquisa no menu "Localizar" se necessário.</value>
   </data>
   <data name="FindRef_ExportResults" xml:space="preserve">
-    <value>Export results</value>
+    <value>Exportar resultados</value>
   </data>
   <data name="Common_Back" xml:space="preserve">
-    <value>Back</value>
+    <value>Voltar</value>
   </data>
   <data name="Common_Forward" xml:space="preserve">
-    <value>Forward</value>
+    <value>Avançar</value>
   </data>
   <data name="Common_Width" xml:space="preserve">
-    <value>Width</value>
+    <value>Largura</value>
   </data>
   <data name="Common_Height" xml:space="preserve">
-    <value>Height</value>
+    <value>Altura</value>
   </data>
   <data name="Common_X" xml:space="preserve">
     <value>X</value>
@@ -2181,37 +2181,37 @@ Use one of the search scripts in the "Find" menu if necessary.</value>
     <value>Y</value>
   </data>
   <data name="Common_Unknown" xml:space="preserve">
-    <value>Unknown</value>
+    <value>Desconhecido</value>
   </data>
   <data name="Common_UndertaleModTool" xml:space="preserve">
     <value>UndertaleModTool</value>
   </data>
   <data name="Common_Create" xml:space="preserve">
-    <value>Create</value>
+    <value>Criar</value>
   </data>
   <data name="Common_OpenReferencedObject" xml:space="preserve">
-    <value>Open referenced object</value>
+    <value>Abrir objeto referenciado</value>
   </data>
   <data name="Common_RemoveReference" xml:space="preserve">
-    <value>Remove reference</value>
+    <value>Remover referência</value>
   </data>
   <data name="Common_ObjectRefToolTip" xml:space="preserve">
-    <value>This is an object reference. Drag and drop an object of matching type from the tree on the left to change it!</value>
+    <value>Esta é uma referência de objeto. Arraste e solte um objeto do tipo correspondente da árvore à esquerda para alterá-la!</value>
   </data>
   <data name="Common_FindAllReferences" xml:space="preserve">
-    <value>Find all references</value>
+    <value>Encontrar todas as referências</value>
   </data>
   <data name="Common_CopyNameToClipboard" xml:space="preserve">
-    <value>Copy name to clipboard</value>
+    <value>Copiar nome para a área de transferência</value>
   </data>
   <data name="Common_Null" xml:space="preserve">
-    <value>(null)</value>
+    <value>(nulo)</value>
   </data>
   <data name="Common_Empty" xml:space="preserve">
-    <value>(empty)</value>
+    <value>(vazio)</value>
   </data>
   <data name="Common_EmptyString" xml:space="preserve">
-    <value>(empty string)</value>
+    <value>(string vazia)</value>
   </data>
   <data name="Common_ColorFormatAABBGGRR" xml:space="preserve">
     <value>#AABBGGRR</value>
@@ -2220,76 +2220,76 @@ Use one of the search scripts in the "Find" menu if necessary.</value>
     <value>#BBGGRR</value>
   </data>
   <data name="Common_InvalidColorString" xml:space="preserve">
-    <value>Invalid color string</value>
+    <value>String de cor inválida</value>
   </data>
   <data name="Editor_GameObjects" xml:space="preserve">
-    <value>Game objects</value>
+    <value>Objetos do jogo</value>
   </data>
   <data name="Editor_GameObjectsAllLayers" xml:space="preserve">
-    <value>Game objects (from all layers)</value>
+    <value>Objetos do jogo (de todas as camadas)</value>
   </data>
   <data name="Editor_NewInstancesLayer" xml:space="preserve">
-    <value>New Instances Layer</value>
+    <value>Nova camada de instâncias</value>
   </data>
   <data name="Editor_NewTilesLayer" xml:space="preserve">
     <value>Nova camada de tiles</value>
   </data>
   <data name="Editor_NewBackgroundLayer" xml:space="preserve">
-    <value>New Background Layer</value>
+    <value>Nova camada de plano de fundo</value>
   </data>
   <data name="Editor_NewAssetsLayer" xml:space="preserve">
     <value>Nova camada de assets</value>
   </data>
   <data name="Editor_NewExtensionFile" xml:space="preserve">
-    <value>NewExtensionFile{0}.dll</value>
+    <value>NovoArquivoDeExtensão{0}.dll</value>
   </data>
   <data name="Editor_NewExtensionOption" xml:space="preserve">
-    <value>extensionOption{0}</value>
+    <value>opçãoDeExtensão{0}</value>
   </data>
   <data name="Editor_RemoveTextureEntry" xml:space="preserve">
-    <value>Remove texture entry</value>
+    <value>Remover entrada de textura</value>
   </data>
   <data name="Editor_OpenTextureEntry" xml:space="preserve">
-    <value>Open texture entry</value>
+    <value>Abrir entrada de textura</value>
   </data>
   <data name="Editor_Constant" xml:space="preserve">
-    <value>Constant</value>
+    <value>Constante</value>
   </data>
   <data name="Editor_Number" xml:space="preserve">
-    <value>Number</value>
+    <value>Número</value>
   </data>
   <data name="Editor_GMT0" xml:space="preserve">
     <value>GMT+0: {0}</value>
   </data>
   <data name="Editor_KerningOfGlyph" xml:space="preserve">
-    <value>Kerning of glyph '{0}' (code - {1}):</value>
+    <value>Espaçamento (kerning) do glifo '{0}' (code - {1}):</value>
   </data>
   <data name="Editor_InstancesLayer" xml:space="preserve">
-    <value>Instances layer</value>
+    <value>Camada de instâncias</value>
   </data>
   <data name="Editor_Color" xml:space="preserve">
-    <value>{0} (color)</value>
+    <value>{0} (cor)</value>
   </data>
   <data name="Editor_ConstantLabel" xml:space="preserve">
-    <value>{0} (constant)</value>
+    <value>{0} (constante)</value>
   </data>
   <data name="Editor_NumberLabel" xml:space="preserve">
-    <value>{0} (number)</value>
+    <value>{0} (número)</value>
   </data>
   <data name="Editor_ResourceIdLabel" xml:space="preserve">
-    <value>Resource ID: {0}</value>
+    <value>ID do recurso: {0}</value>
   </data>
   <data name="Editor_InferredTypeLabel" xml:space="preserve">
-    <value>{0} (inferred type)</value>
+    <value>{0} (tipo inferido)</value>
   </data>
   <data name="Editor_ArgValueLabel" xml:space="preserve">
     <value>{0} → {1}</value>
   </data>
   <data name="Editor_ArgTypesLabel" xml:space="preserve">
-    <value>Argument types: {0}</value>
+    <value>Tipos de argumento: {0}</value>
   </data>
   <data name="Editor_ArgTypesInferredLabel" xml:space="preserve">
-    <value>Argument types (inferred): {0}</value>
+    <value>Tipos de argumento (inferidos): {0}</value>
   </data>
   <data name="Room_Horizontal" xml:space="preserve">
     <value>Horizontal</value>
@@ -2298,100 +2298,100 @@ Use one of the search scripts in the "Find" menu if necessary.</value>
     <value>Vertical</value>
   </data>
   <data name="FileFilter_PNG" xml:space="preserve">
-    <value>PNG files (.png)</value>
+    <value>Arquivos PNG (.png)</value>
   </data>
   <data name="FileFilter_WAV" xml:space="preserve">
-    <value>WAV files</value>
+    <value>Arquivos WAV</value>
   </data>
   <data name="FileFilter_OGG" xml:space="preserve">
-    <value>OGG files</value>
+    <value>Arquivos OGG</value>
   </data>
   <data name="FileFilter_CSV" xml:space="preserve">
-    <value>CSV table</value>
+    <value>Tabela CSV</value>
   </data>
   <data name="FileFilter_AllFiles" xml:space="preserve">
-    <value>All files</value>
+    <value>Todos os arquivos</value>
   </data>
   <data name="FileFilter_TextFiles" xml:space="preserve">
-    <value>Text files (.txt)</value>
+    <value>Arquivos de texto (.txt)</value>
   </data>
   <data name="Dialog_Decompileing" xml:space="preserve">
-    <value>Decompiling</value>
+    <value>Descompilando</value>
   </data>
   <data name="Dialog_Compiling" xml:space="preserve">
-    <value>Compiling</value>
+    <value>Compilando</value>
   </data>
   <data name="Dialog_CompileError" xml:space="preserve">
-    <value>Compiler error</value>
+    <value>Erro do compilador</value>
   </data>
   <data name="Dialog_AssemblerError" xml:space="preserve">
-    <value>Assembler error</value>
+    <value>Erro de assembler</value>
   </data>
   <data name="Dialog_FailedToExportFile" xml:space="preserve">
-    <value>Failed to export file</value>
+    <value>Falha ao exportar o arquivo</value>
   </data>
   <data name="Dialog_FailedToExportSprite" xml:space="preserve">
-    <value>Failed to export sprite</value>
+    <value>Falha ao exportar o sprite</value>
   </data>
   <data name="Dialog_FailedToImportFile" xml:space="preserve">
-    <value>Failed to import file</value>
+    <value>Falha ao importar o arquivo</value>
   </data>
   <data name="Dialog_FormatMismatch" xml:space="preserve">
-    <value>Format mismatch</value>
+    <value>Incompatibilidade de formato</value>
   </data>
   <data name="Dialog_SpineWarning" xml:space="preserve">
-    <value>Spine warning</value>
+    <value>Aviso do Spine</value>
   </data>
   <data name="Dialog_UnexpectedTextureDimensions" xml:space="preserve">
-    <value>Unexpected texture dimensions</value>
+    <value>Dimensões de textura inesperadas</value>
   </data>
   <data name="Dialog_UnknownFormat" xml:space="preserve">
-    <value>Unknown format</value>
+    <value>Formato desconhecido</value>
   </data>
   <data name="Dialog_AudioFailure" xml:space="preserve">
-    <value>Audio failure</value>
+    <value>Falha de áudio</value>
   </data>
   <data name="Dialog_ChooseSourceDataFile" xml:space="preserve">
-    <value>Choose source data file</value>
+    <value>Escolher arquivo de dados de origem</value>
   </data>
   <data name="Dialog_ChooseDestDataFile" xml:space="preserve">
-    <value>Choose destination data file</value>
+    <value>Escolher arquivo de dados de destino</value>
   </data>
   <data name="Dialog_OpenProjectFile" xml:space="preserve">
-    <value>Open project file</value>
+    <value>Abrir arquivo de projeto</value>
   </data>
   <data name="Dialog_ChooseProjectName" xml:space="preserve">
-    <value>Choose project name</value>
+    <value>Escolher nome do projeto</value>
   </data>
   <data name="Dialog_ScriptInProgress" xml:space="preserve">
-    <value>Script in progress...</value>
+    <value>Script em andamento...</value>
   </data>
   <data name="Msg_LoadErrorDetail" xml:space="preserve">
-    <value>An error occurred while trying to load:
+    <value>Ocorreu um erro ao tentar carregar:
 {0}</value>
   </data>
   <data name="Msg_SaveErrorDetail" xml:space="preserve">
-    <value>An error occurred while trying to save:
+    <value>Ocorreu um erro ao tentar salvar:
 {0}</value>
   </data>
   <data name="Msg_RecompileErrorDetail" xml:space="preserve">
-    <value>An error occurred while trying to recompile code sources:
+    <value>Ocorreu um erro ao tentar recompilar as fontes de código:
 {0}</value>
   </data>
   <data name="Msg_FailedToExportFile" xml:space="preserve">
-    <value>Failed to export file: {0}</value>
+    <value>Falha ao exportar arquivo: {0}</value>
   </data>
   <data name="Msg_FailedToExportSprite" xml:space="preserve">
-    <value>Failed to export: {0}</value>
+    <value>Falha ao exportar: {0}</value>
   </data>
   <data name="Msg_FailedToImportFile" xml:space="preserve">
-    <value>Failed to import file: {0}</value>
+    <value>Falha ao importar arquivo: {0}</value>
   </data>
   <data name="Msg_NoFramesToExport" xml:space="preserve">
-    <value>No frames to export</value>
+    <value>Nenhum frame para exportar</value>
   </data>
   <data name="Msg_IncludePadding" xml:space="preserve">
-    <value>Include padding?</value>
+    <value>Incluir preenchimento?</value>
     <comment>Should the transparent pixel margins be removed from the exported images? (If you need to export them as-is, please select No.)</comment>
   </data>
   <data name="Msg_SpineSpriteWarning" xml:space="preserve">
