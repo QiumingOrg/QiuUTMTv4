@@ -338,13 +338,13 @@
     <value>Tile sets</value>
   </data>
   <data name="Tree_Paths" xml:space="preserve">
-    <value>Caminhos</value>
+    <value>Paths</value>
   </data>
   <data name="Tree_Scripts" xml:space="preserve">
     <value>Scripts</value>
   </data>
   <data name="Tree_Shaders" xml:space="preserve">
-    <value>shaders</value>
+    <value>Shaders</value>
   </data>
   <data name="Tree_Fonts" xml:space="preserve">
     <value>Fontes</value>
@@ -416,7 +416,7 @@
     <value>Configurações</value>
   </data>
   <data name="Settings_GMS14Path" xml:space="preserve">
-    <value>Gamemaker: Studio 1.4 path:</value>
+    <value>Caminho do GameMaker: Studio 1.4</value>
   </data>
   <data name="Settings_GMS14Path_Tooltip" xml:space="preserve">
     <value>Necessário apenas se você quiser usar o executor do Studio em vez do .exe ou executar o jogo em modo de depuração.</value>
@@ -428,7 +428,7 @@
     <value>Necessário apenas se você quiser executar jogos do GMS2 usando o executor do Studio em vez do arquivo .exe</value>
   </data>
   <data name="Settings_AssetOrderSwapping" xml:space="preserve">
-    <value>Habilitar troca de ordens de ativos</value>
+    <value>Habilitar troca de ordens de assets</value>
   </data>
   <data name="Settings_AssetOrderSwapping_Tooltip" xml:space="preserve">
     <value>Alterna a funcionalidade de arrastar e soltar assets nas abas de assets para diferentes posições na lista. Desativado por padrão.</value>
@@ -467,7 +467,7 @@
     <value>Exibir entradas nulas na árvore de recursos</value>
   </data>
   <data name="Settings_ShowNullEntries_Tooltip" xml:space="preserve">
-    <value>Indica se devem ser exibidas entradas nulas na árvore de recursos, que em jogos GM 2024.11+ geralmente representam recursos não utilizados removidos pelo compilador. Desativado por padrão devido ao suporte limitado na interface gráfica.</value>
+    <value>Indica se devem ser exibidas entradas nulas na árvore de recursos, que em jogos GM 2024.11+ geralmente representam assets não utilizados removidos pelo compilador. Desativado por padrão devido ao suporte limitado na interface gráfica.</value>
   </data>
   <data name="Settings_RecompileAllCodeSources" xml:space="preserve">
     <value>Recompile todo o código-fonte GML ao salvar um arquivo de dados do projeto</value>
@@ -884,7 +884,7 @@
     <value>Texturas</value>
   </data>
   <data name="Editor_Sprite_ExportAllFrames" xml:space="preserve">
-    <value>Exportar todos os quadros (ou dados do Spine se este for um sprite do Spine)</value>
+    <value>Exportar todos os frames (ou dados do Spine se este for um sprite do Spine)</value>
   </data>
   <data name="Editor_Sprite_CollisionMasks" xml:space="preserve">
     <value>Máscaras de colisão</value>
@@ -953,7 +953,7 @@
     <value>Colunas de tiles</value>
   </data>
   <data name="Editor_BG_ItemsPerTile" xml:space="preserve">
-    <value>Itens/quadros por tile</value>
+    <value>Itens/frames por tile</value>
   </data>
   <data name="Editor_BG_TileCount" xml:space="preserve">
     <value>Contagem de tiles</value>
@@ -962,13 +962,13 @@
     <value>Sprite exportada (GM 2023.8+)</value>
   </data>
   <data name="Editor_BG_FrameTime" xml:space="preserve">
-    <value>Tempo de quadro (microssegundos)</value>
+    <value>Tempo de frame (microssegundos)</value>
   </data>
   <data name="Editor_BG_TileIDs" xml:space="preserve">
     <value>IDs de tiles</value>
   </data>
   <data name="Editor_BG_GMTilesetVersion" xml:space="preserve">
-    <value>Versão do conjunto de tiles do GM</value>
+    <value>Versão do Tileset do GM</value>
   </data>
   <data name="Editor_BG_ClickTileHint" xml:space="preserve">
     <value>Dica: Você pode clicar em qualquer região de tile abaixo para destacar seu ID acima.</value>
@@ -989,7 +989,7 @@
     <value>Descompilado</value>
   </data>
   <data name="Editor_Code_DisassemblyTab" xml:space="preserve">
-    <value>Desmontagem</value>
+    <value>Disassembly</value>
   </data>
   <data name="Editor_GameObj_Sprite" xml:space="preserve">
     <value>Sprite</value>
@@ -1085,7 +1085,7 @@
     <value>Ascendente</value>
   </data>
   <data name="Editor_Font_AscenderOffset" xml:space="preserve">
-    <value>Deslocamento ascendente</value>
+    <value>Offset do ascender</value>
   </data>
   <data name="Editor_Font_SDFSpread" xml:space="preserve">
     <value>Dispersão SDF</value>
@@ -1181,7 +1181,7 @@
     <value>Código-fonte de fragmento HLSL9</value>
   </data>
   <data name="Editor_Shader_VertexShaderAttributes" xml:space="preserve">
-    <value>Atributos do shader de vértices</value>
+    <value>Atributos do Vertex shader</value>
   </data>
   <data name="Editor_Timeline_Moments" xml:space="preserve">
     <value>Momentos</value>
@@ -1283,7 +1283,7 @@
 No entanto, o "ID" é importante, por isso certifique-se de que não existem sobreposições.</value>
   </data>
   <data name="Editor_AudioGroup_Path" xml:space="preserve">
-    <value>Caminho (GM 2024.14+)</value>
+    <value>Path (GM 2024.14+)</value>
   </data>
   <data name="Editor_TexGroup_TextureGroup" xml:space="preserve">
     <value>Grupo de texturas</value>
@@ -1304,7 +1304,7 @@ No entanto, o "ID" é importante, por isso certifique-se de que não existem sob
     <value>Fontes</value>
   </data>
   <data name="Editor_TexGroup_Tilesets" xml:space="preserve">
-    <value>Conjunto de tiles</value>
+    <value>Tilesets</value>
   </data>
   <data name="Room_Backgrounds" xml:space="preserve">
     <value>Fundos</value>
@@ -1425,13 +1425,13 @@ Para selecionar uma região de tiles, mantenha a tecla ALT pressionada.</value>
     <value>Contém tiles e sprites legados, listados na árvore à esquerda</value>
   </data>
   <data name="Room_TileSet" xml:space="preserve">
-    <value>Conjunto de tiles</value>
+    <value>Tile set</value>
   </data>
   <data name="Room_TileData" xml:space="preserve">
     <value>Dados de tiles</value>
   </data>
   <data name="Room_FirstFrame" xml:space="preserve">
-    <value>Primeiro quadro</value>
+    <value>Primeiro frame</value>
   </data>
   <data name="Room_AnimationSpeed" xml:space="preserve">
     <value>Velocidade da animação</value>
@@ -1509,7 +1509,7 @@ Para selecionar uma região de tiles, mantenha a tecla ALT pressionada.</value>
     <value>Nova instância de sprite</value>
   </data>
   <data name="Room_PasteAsset" xml:space="preserve">
-    <value>Colar ativo</value>
+    <value>Colar asset</value>
   </data>
   <data name="Room_MoveItemUp" xml:space="preserve">
     <value>Mover item para cima (-)</value>
@@ -1558,10 +1558,10 @@ EU TE DISSE para abrir um data.win, não para criar um novo arquivo! :P</value>
     <value>Marcado para exportação:</value>
   </data>
   <data name="Msg_MarkedForExportTooltip" xml:space="preserve">
-    <value>Se o ativo atualmente aberto está marcado para ser exportado para o projeto atualmente aberto na próxima vez que for salvo.</value>
+    <value>Se o asset atualmente aberto está marcado para ser exportado para o projeto atualmente aberto na próxima vez que for salvo.</value>
   </data>
   <data name="Msg_ObjectIDTooltip" xml:space="preserve">
-    <value>Este é o ID (índice) do ativo, item ou objeto atualmente aberto. Ele começa em 0.</value>
+    <value>Este é o ID (índice) do asset, item ou objeto atualmente aberto. Ele começa em 0.</value>
   </data>
   <data name="Msg_FirstTimeSetup" xml:space="preserve">
     <value>Configuração inicial: Deseja associar os arquivos de dados do GameMaker (como .win) ao UndertaleModTool?</value>
@@ -1649,13 +1649,13 @@ Ele será removido da lista de arquivos recentes.</value>
     <value>Este jogo usa YYC (YoYo Compiler), o que significa que o código está embutido no executável do jogo. Esta configuração não é totalmente suportada no momento; continue por sua conta e risco.</value>
   </data>
   <data name="Msg_GMSDebugger" xml:space="preserve">
-    <value>Este jogo está configurado para ser executado com o depurador do GameMaker Studio e a execução normal simplesmente travará após o carregamento se o depurador não estiver em execução. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
+    <value>Este jogo está configurado para ser executado com o depurador do GameMaker Studio e o runtime normal simplesmente travará após o carregamento se o depurador não estiver em execução. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
   </data>
   <data name="Msg_UnsupportedTextures" xml:space="preserve">
     <value>Este jogo contém textura(s) com formatos de imagem desconhecidos ou não suportados. Elas serão salvas/carregadas, mas não serão exibidas nos editores, e muitas operações falharão em relação a elas. Proceda com cautela.</value>
   </data>
   <data name="Msg_SavingInDebugMode" xml:space="preserve">
-    <value>Você está salvando o jogo no modo de depuração do GameMaker Studio. A menos que o depurador esteja em execução, a execução normal simplesmente travará após o carregamento. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
+    <value>Você está salvando o jogo no modo de depuração do GameMaker Studio. A menos que o depurador esteja em execução, o runtime normal simplesmente travará após o carregamento. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
   </data>
   <data name="Msg_UpdaterDidntExit" xml:space="preserve">
     <value>O aplicativo UndertaleModToolUpdater não foi encerrado.
@@ -1687,7 +1687,7 @@ Erro - {0}.</value>
     <value>Nome ou localização do executável do jogo nulos</value>
   </data>
   <data name="Msg_FailedFindGameExePath" xml:space="preserve">
-    <value>Falha ao encontrar o caminho válido do executável do jogo; diretório escapado.</value>
+    <value>Falha ao encontrar o caminho válido do executável do jogo; diretório fora do permitido.</value>
   </data>
   <data name="Msg_CannotFindGameExePath" xml:space="preserve">
     <value>Não foi possível encontrar o caminho do executável do jogo, esperado: {0}</value>
@@ -1702,7 +1702,7 @@ Erro - {0}.</value>
     <value>Falha ao abrir o arquivo de dados secundário; diretório escapado.</value>
   </data>
   <data name="Msg_SelectedRuntimeNoDebug" xml:space="preserve">
-    <value>O ambiente de execução selecionado não oferece suporte à depuração.</value>
+    <value>O runtime selecionado não oferece suporte à depuração.</value>
   </data>
   <data name="Msg_FailedOpenBrowser" xml:space="preserve">
     <value>Falha ao abrir o navegador!
@@ -1812,7 +1812,7 @@ Isso pode corromper o arquivo de dados que você vai salvar.</value>
 Observe que o código frequentemente referencia objetos por ID, portanto, é provável que esta operação cause falhas, pois outros itens serão deslocados para cima!</value>
   </data>
   <data name="Msg_InvalidIdentifierAddAutoName" xml:space="preserve">
-    <value>O nome do ativo "{0}" não é um identificador válido. Deseja adicionar um novo ativo usando um nome gerado automaticamente?</value>
+    <value>O nome do asset "{0}" não é um identificador válido. Deseja adicionar um novo asset usando um nome gerado automaticamente?</value>
   </data>
   <data name="Msg_AddToRoomOrderList" xml:space="preserve">
     <value>Deseja adicionar a nova sala ao final da lista de ordem de salas?</value>
@@ -1987,13 +1987,13 @@ Observe que o código frequentemente referencia objetos por ID, portanto, é pro
     <value>NOTA: suporte a pontos de interrupção ainda não disponível! Exceto para o ponto de entrada do script</value>
   </data>
   <data name="DebugData_DisassemblyPartial" xml:space="preserve">
-    <value>Desmontagem, pontos de interrupção parciais</value>
+    <value>Disassembly, pontos de interrupção parciais</value>
   </data>
   <data name="DebugData_DisassemblyPartialDesc" xml:space="preserve">
-    <value>Desmontagem completa, mas você pode definir pontos de interrupção apenas em B, BR, BT, POP, POPZ, RET e EXIT. Isso ainda é muito mais do que aquele pobre depurador do GM:S foi projetado para suportar, então permita até 5 minutos para ele carregar o arquivo de dados (sim, sério)</value>
+    <value>Disassembly completa, mas você pode definir pontos de interrupção apenas em B, BR, BT, POP, POPZ, RET e EXIT. Isso ainda é muito mais do que aquele pobre depurador do GM:S foi projetado para suportar, então permita até 5 minutos para ele carregar o arquivo de dados (sim, sério)</value>
   </data>
   <data name="DebugData_DisassemblyFull" xml:space="preserve">
-    <value>Desmontagem, pontos de interrupção completos</value>
+    <value>Disassembly, pontos de interrupção completos</value>
   </data>
   <data name="DebugData_DisassemblyFullDesc" xml:space="preserve">
     <value>Desistiu após cerca de 15 minutos de espera, nem tente isso</value>
@@ -2017,7 +2017,7 @@ Observe que o código frequentemente referencia objetos por ID, portanto, é pro
     <value>Selecione o Runtime que deseja usar</value>
   </data>
   <data name="RuntimePicker_Version" xml:space="preserve">
-    <value>Version</value>
+    <value>Versão</value>
   </data>
   <data name="RuntimePicker_Path" xml:space="preserve">
     <value>Caminho</value>
@@ -2419,7 +2419,7 @@ Isso pode corromper o som.</value>
   <data name="Msg_ImportFormatMismatchWarning" xml:space="preserve">
     <value>AVISO: O tipo de arquivo que está sendo importado não corresponde ao tipo existente. Deseja importar mesmo assim?
 
-Isso pode corromper o som, a menos que as configurações de compactação do ativo de som também sejam ajustadas.</value>
+Isso pode corromper o som, a menos que as configurações de compactação do asset de som também sejam ajustadas.</value>
   </data>
   <data name="Msg_InvalidBooleanValue" xml:space="preserve">
     <value>Valor booleano inválido</value>
@@ -2453,9 +2453,9 @@ Se você quiser ativar o modo de depuração em algum jogo, precisará usar um d
     <value>Compilando, aguarde...</value>
   </data>
   <data name="Msg_EditingDisassemblyProjectWarning" xml:space="preserve">
-    <value>Editar a descompilação com um projeto aberto (mesmo através de scripts) pode causar dessincronizações com o código-fonte no projeto.
+    <value>Editar o disassembly enquanto há um projeto aberto (mesmo através de scripts) pode causar dessincronização com o código-fonte do projeto.
 
-O código-fonte não mudará a menos que você o modifique diretamente ou remova completamente o ativo de código do projeto.</value>
+O código-fonte não mudará a menos que você o modifique diretamente ou remova completamente o asset de código do projeto.</value>
   </data>
   <data name="Msg_GlyphsSortedSuccessfully" xml:space="preserve">
     <value>Os glifos foram classificados com sucesso.</value>
@@ -2574,7 +2574,7 @@ Você provavelmente deve alterar a profundidade da nova camada.</value>
     <value>Importado com sucesso.</value>
   </data>
   <data name="Msg_LayerMustHaveTileset" xml:space="preserve">
-    <value>A camada deve ter um conjunto de tiles definido!</value>
+    <value>A camada deve ter um tileset definido!</value>
   </data>
   <data name="Msg_LayerSizeMustBeLargerBoth" xml:space="preserve">
     <value>O tamanho horizontal e vertical da camada deve ser maior que 0 tiles!
@@ -2670,7 +2670,7 @@ DECOMPILER FAILED!
   </data>
   <data name="Msg_DisassemblyFailed" xml:space="preserve">
     <value>/*
-DISASSEMBLY FAILED!
+DISASSEMBLY FALHOU!
 
 {0}
 */</value>
@@ -2697,7 +2697,7 @@ DISASSEMBLY FAILED!
     <value>Use a opção "Executar jogo usando o depurador" para rodar este jogo.</value>
   </data>
   <data name="Msg_RuntimeNoDebug" xml:space="preserve">
-    <value>O tempo de execução selecionado não suporta depuração.</value>
+    <value>O runtime selecionado não suporta depuração.</value>
   </data>
   <data name="Msg_UpdaterAppWontExit" xml:space="preserve">
     <value>O app UndertaleModToolUpdater não foi encerrado.
@@ -2801,10 +2801,10 @@ Erro - {0}.</value>
     <value>Este jogo usa YYC (YoYo Compiler), o que significa que o código está embutido no executável do jogo. No momento, esta configuração não é totalmente suportada; continue por sua conta e risco.</value>
   </data>
   <data name="Msg_GMSDebuggerEnabled" xml:space="preserve">
-    <value>Este jogo está configurado para ser executado com o depurador do GameMaker Studio e o tempo de execução normal simplesmente travará após o carregamento se o depurador não estiver em execução. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
+    <value>Este jogo está configurado para ser executado com o depurador do GameMaker Studio e o runtime normal simplesmente travará após o carregamento se o depurador não estiver em execução. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
   </data>
   <data name="Msg_SavingGMSDebugMode" xml:space="preserve">
-    <value>Você está salvando o jogo no modo de depuração do GameMaker Studio. A menos que o depurador esteja em execução, o tempo de execução normal simplesmente travará após o carregamento. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
+    <value>Você está salvando o jogo no modo de depuração do GameMaker Studio. A menos que o depurador esteja em execução, o runtime normal simplesmente travará após o carregamento. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
   </data>
   <data name="Msg_FailedCreateProject" xml:space="preserve">
     <value>Falha ao criar novo projeto</value>
@@ -2873,246 +2873,246 @@ Erro - {0}.</value>
     <value>Não foi possível determinar a versão do GameMaker — "Informações Gerais" é nulo.</value>
   </data>
   <data name="Msg_CannotGetSourceTypes" xml:space="preserve">
-    <value>Cannot get the source types for object of type "{0}".</value>
+    <value>Não foi possível obter os tipos de origem para o objeto do tipo "{0}".</value>
   </data>
   <data name="Msg_AtLeastOneTypeSelected" xml:space="preserve">
-    <value>At least one type should be selected.</value>
+    <value>Pelo menos um tipo deve ser selecionado.</value>
   </data>
   <data name="Msg_StringsSearchWarning" xml:space="preserve">
-    <value>You have selected the "Strings" when there are a lot of strings.
-That could make the search process noticeably longer.
-Do you want to proceed?</value>
+    <value>Você selecionou "Strings" quando há muitas strings.
+Isso pode tornar o processo de pesquisa visivelmente mais longo.
+Deseja continuar?</value>
   </data>
   <data name="Msg_FailedFindAudioFile" xml:space="preserve">
-    <value>Failed to find audio file.</value>
+    <value>Falha ao encontrar o arquivo de áudio.</value>
   </data>
   <data name="Msg_FailedFindAudioGroupFile" xml:space="preserve">
-    <value>Failed to find audio group file.</value>
+    <value>Falha ao encontrar o arquivo de grupo de áudio.</value>
   </data>
   <data name="Msg_FailedPlayAudioNoOptions" xml:space="preserve">
-    <value>Failed to play audio!
-No options for playback worked.</value>
+    <value>Falha ao reproduzir o áudio!
+Nenhuma opção de reprodução funcionou.</value>
   </data>
   <data name="Msg_CodeEntryRoomExists" xml:space="preserve">
-    <value>Code entry for room already exists; reusing it.</value>
+    <value>Entrada de código para a room já existe; reutilizando-a.</value>
   </data>
   <data name="Msg_AddingNotSupported" xml:space="preserve">
-    <value>Adding not supported in this situation.</value>
+    <value>Adição não suportada nesta situação.</value>
   </data>
   <data name="Msg_NotUndertaleResource" xml:space="preserve">
-    <value>The selected object is not an "UndertaleResource".</value>
+    <value>O objeto selecionado não é um "UndertaleResource".</value>
   </data>
   <data name="Msg_TilesetWrongParams" xml:space="preserve">
-    <value>Tileset of "{0}" tile layer has wrong parameters (tile size, output border, etc.).
-It can't be displayed.</value>
+    <value>O tileset da camada de tiles "{0}" possui parâmetros incorretos (tamanho do tile, borda de saída, etc.).
+Ele não pode ser exibido.</value>
   </data>
   <data name="Msg_ErrorRenderingTileLayer" xml:space="preserve">
-    <value>An error occurred while rendering tile layer "{0}".
+    <value>Ocorreu um erro ao renderizar a camada de tiles "{0}".
 
 {1}</value>
   </data>
   <data name="Msg_ObjectTypeNoEditor" xml:space="preserve">
-    <value>The type of this object doesn't have an editor/viewer.</value>
+    <value>O tipo deste objeto não possui um editor/visualizador.</value>
   </data>
   <data name="Msg_UnableToFindRuntime" xml:space="preserve">
-    <value>Unable to find game EXE or any installed Studio runtime</value>
+    <value>Não foi possível encontrar o EXE do jogo ou nenhum runtime do Studio instalado.</value>
   </data>
   <data name="Msg_RunError" xml:space="preserve">
-    <value>Run error</value>
+    <value>Erro de execução</value>
   </data>
   <data name="Msg_GameExE" xml:space="preserve">
-    <value>Game EXE</value>
+    <value>Jogo EXE</value>
   </data>
   <data name="Msg_Generating" xml:space="preserve">
-    <value>Generating</value>
+    <value>Gerando</value>
   </data>
   <data name="Msg_Downloading" xml:space="preserve">
-    <value>Downloading</value>
+    <value>Baixando</value>
   </data>
   <data name="Msg_DownloadingNewVersion" xml:space="preserve">
-    <value>Downloading new version...</value>
+    <value>Baixando nova versão...</value>
   </data>
   <data name="Msg_LinePrefix" xml:space="preserve">
     <value>Line </value>
   </data>
   <data name="Setup_FileAssociationQuestion" xml:space="preserve">
-    <value>First-time setup: Would you like to associate GameMaker data files (like .win) with UndertaleModTool?</value>
+    <value>Configuração inicial: Deseja associar arquivos de dados do GameMaker (como .win) ao UndertaleModTool?</value>
   </data>
   <data name="Setup_FileAssociations" xml:space="preserve">
-    <value>File associations</value>
+    <value>Associações de arquivos</value>
   </data>
   <data name="Setup_FileAssociationsCheck" xml:space="preserve">
-    <value>Associate GameMaker data files (such as .win, .unx, .ios, .droid) with UndertaleModTool</value>
+    <value>Associar arquivos de dados do GameMaker (como .win, .unx, .ios, .droid) ao UndertaleModTool</value>
   </data>
   <data name="Setup_Finish" xml:space="preserve">
-    <value>Finish</value>
+    <value>Concluído</value>
   </data>
   <data name="Setup_Language" xml:space="preserve">
-    <value>Language</value>
+    <value>Idioma</value>
   </data>
   <data name="Setup_Welcome" xml:space="preserve">
-    <value>Welcome to UndertaleModTool! Configure your preferences before you start.</value>
+    <value>Bem-vindo ao UndertaleModTool! Configure suas preferências antes de começar.</value>
   </data>
   <data name="Setup_WindowTitle" xml:space="preserve">
-    <value>First-time setup</value>
+    <value>Configuração inicial</value>
   </data>
   <data name="Settings_RemoveFileAssociations" xml:space="preserve">
-    <value>Remove current file associations, if they exist?</value>
+    <value>Remover as associações de arquivos atuais, caso existam?</value>
   </data>
   <data name="Settings_FileAssociations" xml:space="preserve">
-    <value>File associations</value>
+    <value>Associações de arquivos</value>
   </data>
   <data name="Settings_UnassociationFailed" xml:space="preserve">
-    <value>Unassociation failed</value>
+    <value>Falha ao desassociar</value>
   </data>
   <data name="Settings_DarkModeMsgBoxWarning" xml:space="preserve">
-    <value>The message boxes (like this one) aren't compatible with the dark mode.
-This will be fixed in future versions.</value>
+    <value>As caixas de mensagem (como esta) não são compatíveis com o modo escuro.
+Isso será corrigido em versões futuras.</value>
   </data>
   <data name="Ctrl_Welcome" xml:space="preserve">
-    <value>Welcome!</value>
+    <value>Bem-vindo!</value>
   </data>
   <data name="Ctrl_ObjRefDragDrop" xml:space="preserve">
-    <value>(drag &amp; drop a {0})</value>
+    <value>(arraste e solte um {0})</value>
   </data>
   <data name="Ctrl_ObjRefEmpty" xml:space="preserve">
-    <value>(empty {0} reference)</value>
+    <value>(referência {0} vazia)</value>
   </data>
   <data name="Ctrl_StringRefToolTip" xml:space="preserve">
-    <value>This is a string reference. Change the value here to edit this just this value of all referenced values, or drag and drop another string instance from the tree on the left to change the reference</value>
+    <value>Esta é uma referência de string. Altere o valor aqui para editar apenas este valor entre todos os valores referenciados, ou arraste e solte outra instância de string da árvore à esquerda para alterar a referência.</value>
   </data>
   <data name="Ctrl_Null" xml:space="preserve">
     <value>(null)</value>
   </data>
   <data name="Ctrl_Empty" xml:space="preserve">
-    <value>(empty)</value>
+    <value>(vazio)</value>
   </data>
   <data name="Main_WelcomeHeading" xml:space="preserve">
-    <value>Welcome to UndertaleModTool!</value>
+    <value>Bem-vindo ao UndertaleModTool!</value>
   </data>
   <data name="Main_WelcomeDescription" xml:space="preserve">
-    <value>Open a data.win file to get started, then double click on the items on the left to view them.</value>
+    <value>Abra um arquivo data.win para começar e, em seguida, clique duas vezes nos itens à esquerda para visualizá-los.</value>
   </data>
   <data name="Main_WelcomeDescription2" xml:space="preserve">
-    <value>New file created, have fun making a game out of nothing
-I TOLD YOU to open a data.win, not create a new file! :P</value>
+    <value>Novo arquivo criado, divirta-se criando um jogo do nada
+EU TE DISSE para abrir um data.win, não para criar um novo arquivo! :P</value>
   </data>
   <data name="Main_DoubleClickToView" xml:space="preserve">
-    <value>Double click on the items on the left to view them</value>
+    <value>Clique duas vezes nos itens à esquerda para visualizá-los.</value>
   </data>
   <data name="Main_DoubleClickToView2" xml:space="preserve">
-    <value>Double click on the items on the left to view them!</value>
+    <value>Clique duas vezes nos itens à esquerda para visualizá-los!</value>
   </data>
   <data name="Main_OpenDataWinToStart" xml:space="preserve">
-    <value>Open data.win file to get started</value>
+    <value>Abra o arquivo data.win para começar</value>
   </data>
   <data name="Main_FallbackNoGameLoaded" xml:space="preserve">
-    <value>No game loaded</value>
+    <value>Nenhum jogo carregado</value>
   </data>
   <data name="Main_MarkedForExport" xml:space="preserve">
-    <value>Marked for export:</value>
+    <value>Marcado para exportação:</value>
   </data>
   <data name="Main_MarkedForExportToolTip" xml:space="preserve">
-    <value>Whether the currently open asset is marked to be exported to the currently open project, the next time it is saved.</value>
+    <value>Indica se o asset atualmente aberto está marcado para ser exportado para o projeto atualmente aberto na próxima vez que for salvo.</value>
   </data>
   <data name="Main_ObjectIdToolTip" xml:space="preserve">
-    <value>This is an ID (index) of the currently open asset, item, or object. It starts from 0.</value>
+    <value>Este é um ID (índice) do asset, item ou objeto atualmente aberto. Ele começa em 0.</value>
   </data>
   <data name="Menu_File_RunDebugger" xml:space="preserve">
-    <value>Run game under GMS _debugger</value>
+    <value>Executar o jogo sob o depurador do GMS</value>
   </data>
   <data name="Menu_Project_ViewUnexported" xml:space="preserve">
-    <value>_View unexported assets</value>
+    <value>_Ver assets não exportados</value>
   </data>
   <data name="Cmd_RestoreClosedTab" xml:space="preserve">
-    <value>Restore last closed tab</value>
+    <value>Restaurar última aba fechada</value>
   </data>
   <data name="Filter_AllFiles" xml:space="preserve">
-    <value>All files</value>
+    <value>Todos os arquivos</value>
   </data>
   <data name="Filter_Scripts" xml:space="preserve">
     <value>Scripts (.csx)</value>
   </data>
   <data name="Filter_TextFiles" xml:space="preserve">
-    <value>Text files (.txt)</value>
+    <value>Arquivos de texto (.txt)</value>
   </data>
   <data name="Filter_ProjectFiles" xml:space="preserve">
-    <value>UndertaleModTool project files (.json)</value>
+    <value>Arquivos de projeto do UndertaleModTool (.json)</value>
   </data>
   <data name="DefaultName_PageItem" xml:space="preserve">
-    <value>PageItem {0}</value>
+    <value>Item da página {0}</value>
   </data>
   <data name="DefaultName_EmbeddedSound" xml:space="preserve">
-    <value>EmbeddedSound {0}</value>
+    <value>Som incorporado {0}</value>
   </data>
   <data name="DefaultName_Texture" xml:space="preserve">
-    <value>Texture {0}</value>
+    <value>Textura {0}</value>
   </data>
   <data name="DefaultName_String" xml:space="preserve">
     <value>string{0}</value>
   </data>
   <data name="Status_DefaultNewName" xml:space="preserve">
-    <value>New</value>
+    <value>Novo</value>
   </data>
   <data name="Status_DefaultModSuffix" xml:space="preserve">
     <value> Mod</value>
   </data>
   <data name="Editor_EmitterName" xml:space="preserve">
-    <value>Name</value>
+    <value>Nome</value>
   </data>
   <data name="Editor_Enabled" xml:space="preserve">
-    <value>Enabled</value>
+    <value>Ativado</value>
   </data>
   <data name="Editor_EmitMode" xml:space="preserve">
-    <value>Emit mode</value>
+    <value>Modo de emissão</value>
   </data>
   <data name="Editor_EmitCount" xml:space="preserve">
-    <value>Emit count</value>
+    <value>Contagem de emissão</value>
   </data>
   <data name="Editor_EmitRelative" xml:space="preserve">
-    <value>Emit relative</value>
+    <value>Emissão relativa</value>
   </data>
   <data name="Editor_DelayMinMax" xml:space="preserve">
-    <value>Delay min|max</value>
+    <value>Delay mín|máx</value>
   </data>
   <data name="Editor_DelayMeasuredIn" xml:space="preserve">
-    <value>Delay measured in:</value>
+    <value>Delay medido em:</value>
   </data>
   <data name="Editor_IntervalMinMax" xml:space="preserve">
-    <value>Interval min|max</value>
+    <value>Intervalo mín|máx</value>
   </data>
   <data name="Editor_IntervalMeasuredIn" xml:space="preserve">
-    <value>Interval measured in:</value>
+    <value>Intervalo medido em:</value>
   </data>
   <data name="Editor_Distribution" xml:space="preserve">
     <value>Distribution</value>
   </data>
   <data name="Editor_Shape" xml:space="preserve">
-    <value>Shape</value>
+    <value>Forma</value>
   </data>
   <data name="Editor_RegionXYWidthHeight" xml:space="preserve">
-    <value>Region X|Y|Width|Height</value>
+    <value>Região X|Y|Largura|Altura</value>
   </data>
   <data name="Editor_Rotation" xml:space="preserve">
-    <value>Rotation</value>
+    <value>Rotação</value>
   </data>
   <data name="Editor_Sprite" xml:space="preserve">
     <value>Sprite</value>
   </data>
   <data name="Editor_SpriteFrameIndex" xml:space="preserve">
-    <value>Sprite frame index</value>
+    <value>Índice de sprite frame</value>
   </data>
   <data name="Editor_AnimateSprite" xml:space="preserve">
-    <value>Animate sprite</value>
+    <value>Animar sprite</value>
   </data>
   <data name="Editor_StretchSprite" xml:space="preserve">
-    <value>Stretch sprite</value>
+    <value>Esticar sprite</value>
   </data>
   <data name="Editor_Random" xml:space="preserve">
-    <value>Random</value>
+    <value>Aleatório</value>
   </data>
   <data name="Editor_Texture" xml:space="preserve">
-    <value>Texture</value>
+    <value>Textura</value>
   </data>
   <data name="Editor_StartColor" xml:space="preserve">
     <value>Start color</value>
@@ -3124,66 +3124,64 @@ I TOLD YOU to open a data.win, not create a new file! :P</value>
     <value>End color</value>
   </data>
   <data name="Editor_AdditiveColorBlend" xml:space="preserve">
-    <value>Additive color blend</value>
+    <value>Mistura de cores aditiva</value>
   </data>
   <data name="Editor_LifetimeMinMax" xml:space="preserve">
-    <value>Lifetime min|max</value>
+    <value>Tempo de vida mín|máx</value>
   </data>
   <data name="Editor_ScaleXY" xml:space="preserve">
-    <value>Scale X|Y</value>
+    <value>Escala X|Y</value>
   </data>
   <data name="Editor_SizeHint" xml:space="preserve">
-    <value>Hint: Prior to GM 2023.8, these "Size" values were not split by x and y.
-UndertaleModTool represents this by averaging the values.
-For best results, enter the same value in both fields.</value>
+    <value>Dica: Antes do GM 2023.8, estes valores de "Tamanho" não eram divididos por X e Y. O UndertaleModTool representa isso fazendo a média dos valores. Para melhores resultados, insira o mesmo valor em ambos os campos.</value>
   </data>
   <data name="Editor_SizeMin" xml:space="preserve">
-    <value>Size min</value>
+    <value>Tamanho mín</value>
   </data>
   <data name="Editor_SizeMax" xml:space="preserve">
-    <value>Size max</value>
+    <value>Tamanho máx</value>
   </data>
   <data name="Editor_SizeIncrease" xml:space="preserve">
-    <value>Size increase</value>
+    <value>Aumento de tamanho</value>
   </data>
   <data name="Editor_SizeWiggle" xml:space="preserve">
-    <value>Size wiggle</value>
+    <value>Oscilação de tamanho</value>
   </data>
   <data name="Editor_SpeedMinMax" xml:space="preserve">
-    <value>Speed min|max</value>
+    <value>Velocidade mín|máx</value>
   </data>
   <data name="Editor_SpeedIncreaseWiggle" xml:space="preserve">
-    <value>Speed increase|wiggle</value>
+    <value>Aumento|Oscilação de velocidade</value>
   </data>
   <data name="Editor_GravityForceDirection" xml:space="preserve">
-    <value>Gravity force|direction</value>
+    <value>Força|Direção da gravidade</value>
   </data>
   <data name="Editor_DirectionMinMax" xml:space="preserve">
     <value>Direction min|max</value>
   </data>
   <data name="Editor_DirectionIncreaseWiggle" xml:space="preserve">
-    <value>Direction increase|wiggle</value>
+    <value>Aumento|Oscilação de direção</value>
   </data>
   <data name="Editor_OrientationMinMax" xml:space="preserve">
     <value>Orientation min|max</value>
   </data>
   <data name="Editor_OrientationIncreaseWiggle" xml:space="preserve">
-    <value>Orientation increase|wiggle</value>
+    <value>Aumento|Oscilação de orientação</value>
   </data>
   <data name="Editor_IsOrientationRelative" xml:space="preserve">
-    <value>Is orientation relative</value>
+    <value>Orientação é relativa</value>
   </data>
   <data name="Editor_SpawnOnDeath" xml:space="preserve">
-    <value>Spawn on death</value>
+    <value>Gerar ao morrer</value>
   </data>
   <data name="Editor_SpawnOnDeathCount" xml:space="preserve">
-    <value>Spawn on death count</value>
+    <value>Quantidade gerada ao morrer</value>
   </data>
   <data name="Editor_SpawnOnUpdate" xml:space="preserve">
-    <value>Spawn on update</value>
+    <value>Gerar ao atualizar</value>
   </data>
   <data name="Editor_SpawnOnUpdateCount" xml:space="preserve">
-    <value>Spawn on update count</value>
+    <value>Quantidade gerada ao atualizar</value>
   </data>
   <data name="Editor_LocalVariables" xml:space="preserve">
     <value>Local variables</value>
@@ -3195,16 +3193,16 @@ For best results, enter the same value in both fields.</value>
     <value>Variables</value>
   </data>
   <data name="Editor_InstGlobalVarCount" xml:space="preserve">
-    <value>Instance/global variable count</value>
+    <value>Quantidade de variáveis de instância/globais</value>
   </data>
   <data name="Editor_InstGlobalVarCountAgain" xml:space="preserve">
-    <value>Instance/global variable count (again)</value>
+    <value>Quantidade de variáveis de instância/globais (de novo)</value>
   </data>
   <data name="Editor_MaxLocalVarCount" xml:space="preserve">
-    <value>Max local variable count</value>
+    <value>Máx. de variáveis locais</value>
   </data>
   <data name="Editor_ExtFuncExternalName" xml:space="preserve">
-    <value>External Name</value>
+    <value>Nome externo</value>
   </data>
   <data name="Editor_ID" xml:space="preserve">
     <value>ID</value>
@@ -3213,60 +3211,60 @@ For best results, enter the same value in both fields.</value>
     <value>Return Type</value>
   </data>
   <data name="Editor_ArgumentTypes" xml:space="preserve">
-    <value>Argument Types</value>
+    <value>Tipos de argumentos</value>
   </data>
   <data name="Editor_ExtFunc_KindNote" xml:space="preserve">
-    <value>Runner literally doesn't care about the 'Kind' value.
-The 'ID' does matter though, so make sure you don't have any overlaps.</value>
+    <value>O Runner literalmente não se importa com o valor do 'Kind'.
+O 'ID' importa, no entanto, então certifique-se de que não haja sobreposições.</value>
   </data>
   <data name="Editor_CleanupFunctionName" xml:space="preserve">
-    <value>Cleanup function name</value>
+    <value>Nome da função de limpeza</value>
   </data>
   <data name="Editor_InitFunctionName" xml:space="preserve">
-    <value>Init function name</value>
+    <value>Nome da função de inicialização</value>
   </data>
   <data name="Editor_Functions" xml:space="preserve">
-    <value>Functions</value>
+    <value>Funções</value>
   </data>
   <data name="Editor_GlobalInitScripts" xml:space="preserve">
-    <value>Global initialization scripts</value>
+    <value>Scripts de inicialização global</value>
   </data>
   <data name="Editor_GameEndScripts" xml:space="preserve">
-    <value>Game End scripts</value>
+    <value>Scripts de fim de jogo</value>
   </data>
   <data name="Tile_EditTitle" xml:space="preserve">
-    <value>Edit Tile Data</value>
+    <value>Editar dados de Tile</value>
   </data>
   <data name="Tile_MirrorX" xml:space="preserve">
-    <value>Mirror the brush around the X axis (X)</value>
+    <value>Espelhar o pincel no eixo X (X)</value>
   </data>
   <data name="Tile_FlipY" xml:space="preserve">
-    <value>Flip the brush around the Y axis (Y/Z)</value>
+    <value>Inverter o pincel no eixo Y (Y/Z)</value>
   </data>
   <data name="Tile_Rotate90" xml:space="preserve">
-    <value>Rotate the brush 90 degrees (Q, R)</value>
+    <value>Girar o pincel 90 graus (Q, R)</value>
   </data>
   <data name="Tile_ShowRoomBehind" xml:space="preserve">
-    <value>Show the rest of the room behind the tilemap (P)</value>
+    <value>Mostrar o restante da sala atrás do mapa de tiles (P)</value>
   </data>
   <data name="Tile_EnableTiling" xml:space="preserve">
-    <value>Enable the "tiling" behavior when using multi-tile brushes (B)</value>
+    <value>Ativar o comportamento de repetição ao usar pincéis de múltiplos tiles (B)</value>
   </data>
   <data name="Tile_ShowGrid" xml:space="preserve">
-    <value>Show the tile grid (G)</value>
+    <value>Mostrar grade de tiles (G)</value>
   </data>
   <data name="Tile_Undo" xml:space="preserve">
-    <value>Undo (Ctrl+Z)</value>
+    <value>Desfazer (Ctrl+Z)</value>
   </data>
   <data name="Tile_Redo" xml:space="preserve">
-    <value>Redo (Ctrl+Y, Ctrl+Shift+Z)</value>
+    <value>Refazer (Ctrl+Y, Ctrl+Shift+Z)</value>
   </data>
   <data name="Tile_TilesetColumns" xml:space="preserve">
-    <value>Tileset columns</value>
+    <value>Colunas do tileset</value>
   </data>
   <data name="Tile_TilesetColumnsToolTip" xml:space="preserve">
-    <value>Number of columns to use for the tile palette. Adjust if the tileset looks broken.
-Persists when the tile editor is closed, but not when the file is saved and reopened.</value>
+    <value>Número de colunas a usar para a paleta de tiles. Ajuste se o tileset parecer corrompido.
+Persiste quando o editor de tiles é fechado, mas não quando o arquivo é salvo e reaberto.</value>
   </data>
   <data name="Tile_ControlsHint" xml:space="preserve">
     <value>Ctrl+LMB: Fill (+Shift: Global)    Alt+LMB: Pick    MMB: Scroll/Pick</value>
@@ -3281,7 +3279,7 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>Preview</value>
   </data>
   <data name="Tile_BrushTiling" xml:space="preserve">
-    <value>Brush Tiling</value>
+    <value>Repetição do pincel</value>
   </data>
   <data name="Tile_Grid" xml:space="preserve">
     <value>Grid</value>
@@ -3353,7 +3351,7 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>Fontes</value>
   </data>
   <data name="RefType_TileSets" xml:space="preserve">
-    <value>Conjunto de blocos</value>
+    <value>Tile sets</value>
   </data>
   <data name="RefType_Paths" xml:space="preserve">
     <value>Caminhos</value>
@@ -3458,10 +3456,10 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>Sequence tracks</value>
   </data>
   <data name="RefType_SequenceStringKeyframes" xml:space="preserve">
-    <value>Sequence string keyframes</value>
+    <value>Quadros-chave de string da Sequence</value>
   </data>
   <data name="RefType_SequenceTextKeyframes" xml:space="preserve">
-    <value>Sequence text keyframes</value>
+    <value>Quadros-chave de texto da Sequence</value>
   </data>
   <data name="RefType_SequenceBroadcastMessages" xml:space="preserve">
     <value>Sequence broadcast messages</value>
@@ -3470,10 +3468,10 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>Sequence moments</value>
   </data>
   <data name="RefType_SequenceInstanceKeyframes" xml:space="preserve">
-    <value>Sequence instance keyframes</value>
+    <value>Quadros-chave de instância da Sequence</value>
   </data>
   <data name="RefType_SequenceObjectInstanceKeyframes" xml:space="preserve">
-    <value>Sequence object instance keyframes</value>
+    <value>Quadros-chave de instância de objeto da Sequence</value>
   </data>
   <data name="RefType_ParticleSystems" xml:space="preserve">
     <value>Particle systems</value>
@@ -3500,13 +3498,13 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>Please wait...</value>
   </data>
   <data name="RuntimePicker_GameEXE" xml:space="preserve">
-    <value>Game EXE</value>
+    <value>Jogo EXE</value>
   </data>
   <data name="RuntimePicker_GMS14Version" xml:space="preserve">
     <value>1.4.xxx</value>
   </data>
   <data name="RuntimePicker_UnableToFindRuntime" xml:space="preserve">
-    <value>Unable to find game EXE or any installed Studio runtime</value>
+    <value>Impossível encontrar o EXE do jogo ou qualquer runtime do Studio instalado</value>
   </data>
   <data name="LoaderDialog_ProgressFormat" xml:space="preserve">
     <value>{0}/{1}</value>
@@ -3515,7 +3513,7 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>{0}/{1}: {2}</value>
   </data>
   <data name="ProjectAssets_NoEditorForType" xml:space="preserve">
-    <value>The type of this object doesn't have an editor/viewer.</value>
+    <value>O tipo deste objeto não possui um editor/visualizador.</value>
   </data>
   <data name="Common_Paste" xml:space="preserve">
     <value>Paste</value>
@@ -3641,10 +3639,10 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>Open in new tab</value>
   </data>
   <data name="Settings_EnableAssetOrderSwapping" xml:space="preserve">
-    <value>Enable asset order swapping</value>
+    <value>Ativar a troca de ordem dos assets</value>
   </data>
   <data name="Settings_EnableAssetOrderSwapping_Tooltip" xml:space="preserve">
-    <value>Toggles dragging &amp; dropping assets in the asset tabs to different positions in the list. Disabled by default.   </value>
+    <value>Alterna a capacidade de arrastar e soltar assets nas abas de assets para diferentes posições na lista. Desativado por padrão.   </value>
   </data>
   <data name="Settings_WarnTempRun" xml:space="preserve">
     <value>Warn about temp running</value>
@@ -3746,10 +3744,10 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>If enabled, syntax for default named function arguments will be used. Compiler-generated if statements are transformed to do this, maintaining accuracy.</value>
   </data>
   <data name="GML_BuiltinArrayVariableSyntax" xml:space="preserve">
-    <value>Builtin array variable syntax</value>
+    <value>Sintaxe de variável de array embutida</value>
   </data>
   <data name="GML_BuiltinArrayVariableSyntax_Tooltip" xml:space="preserve">
-    <value>If enabled, certain builtin globals (such as "view_xview"), when detected to be used without an array accessor, will be printed as such, rather than using compiler-generated syntax.</value>
+    <value>Se ativado, certas globais embutidas (como "view_xview"), quando detectadas sendo usadas sem um acessor de array, serão impressas como tal, em vez de usar a sintaxe gerada pelo compilador.</value>
   </data>
   <data name="GML_ScopeLocalVarDeclarations" xml:space="preserve">
     <value>Scope local variable declarations</value>
@@ -3905,7 +3903,7 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>Textures</value>
   </data>
   <data name="Editor_ExportAllFrames" xml:space="preserve">
-    <value>Export all frames (or Spine data if this is a Spine sprite)</value>
+    <value>Exportar todos os frames (ou dados do Spine se este for um sprite do Spine)</value>
   </data>
   <data name="Editor_CollisionMasks" xml:space="preserve">
     <value>Collision masks</value>
@@ -3983,7 +3981,7 @@ Persists when the tile editor is closed, but not when the file is saved and reop
     <value>Ascender</value>
   </data>
   <data name="Editor_AscenderOffset" xml:space="preserve">
-    <value>Ascender offset</value>
+    <value>Offset do ascender</value>
   </data>
   <data name="Editor_SDFSpreadValue" xml:space="preserve">
     <value>SDF spread value</value>
@@ -4049,7 +4047,7 @@ Press the button below to do that.</value>
     <value>List</value>
   </data>
   <data name="Editor_GMTilesetVersion" xml:space="preserve">
-    <value>GM Tileset Version</value>
+    <value>Versão do tileset do GM</value>
   </data>
   <data name="Editor_TileWidth" xml:space="preserve">
     <value>Tile Width</value>
@@ -4073,7 +4071,7 @@ Press the button below to do that.</value>
     <value>Tile Columns</value>
   </data>
   <data name="Editor_ItemsPerTile" xml:space="preserve">
-    <value>Items/frames per tile</value>
+    <value>Itens/frames por tile</value>
   </data>
   <data name="Editor_TileCount" xml:space="preserve">
     <value>Tile Count</value>
@@ -4082,7 +4080,7 @@ Press the button below to do that.</value>
     <value>Exported Sprite (GM 2023.8+)</value>
   </data>
   <data name="Editor_FrameTime" xml:space="preserve">
-    <value>Frame Time (microseconds)</value>
+    <value>Frame Time (microssegundos)</value>
   </data>
   <data name="Editor_TileIDs" xml:space="preserve">
     <value>Tile IDs</value>
@@ -4161,10 +4159,10 @@ To select a region of tile, hold down ALT.</value>
     <value>Marked for export:</value>
   </data>
   <data name="Ctrl_MarkedForExport_Tooltip" xml:space="preserve">
-    <value>Whether the currently open asset is marked to be exported to the currently open project, the next time it is saved.</value>
+    <value>Indica se o asset atualmente aberto está marcado para ser exportado para o projeto aberto no momento, na próxima vez que for salvo.</value>
   </data>
   <data name="Ctrl_ObjectID_Tooltip" xml:space="preserve">
-    <value>This is an ID (index) of the currently open asset, item, or object. It starts from 0.</value>
+    <value>Este é o ID (índice) do asset, item ou objeto atualmente aberto. Ele começa em 0.</value>
   </data>
   <data name="Search_CaseSensitive" xml:space="preserve">
     <value>Case sensitive</value>
@@ -4203,7 +4201,7 @@ To select a region of tile, hold down ALT.</value>
     <value>You edited a string reference! What do you want to do?</value>
   </data>
   <data name="RuntimePicker_Title" xml:space="preserve">
-    <value>Runtime picker</value>
+    <value>Seletor de runtime</value>
   </data>
   <data name="DebugData_Title" xml:space="preserve">
     <value>Debug data</value>
@@ -4221,16 +4219,16 @@ To select a region of tile, hold down ALT.</value>
     <value>NOTE: no breakpoint support yet! Except for the script entry point</value>
   </data>
   <data name="DebugData_DisassemblyPartialBreakpoints" xml:space="preserve">
-    <value>Disassembly, partial breakpoints</value>
+    <value>Disassembly, breakpoints parciais.</value>
   </data>
   <data name="DebugData_DisassemblyPartialDescription" xml:space="preserve">
-    <value>Full disassembly, but you can set breakpoints only on B, BR, BT, POP, POPZ, RET and EXIT. This is still a lot more than that poor GM:S debugger was designed to handle, so allow up to 5 minutes for it to load the data file (yes, seriously)</value>
+    <value>Disassembly completa, mas você pode definir breakpoints apenas em B, BR, BT, POP, POPZ, RET e EXIT. Isso ainda é muito mais do que aquele pobre depurador do GM:S foi projetado para aguentar, então permita até 5 minutos para ele carregar o arquivo de dados (sério mesmo)</value>
   </data>
   <data name="DebugData_DisassemblyFullBreakpoints" xml:space="preserve">
-    <value>Disassembly, full breakpoints</value>
+    <value>Disassembly, breakpoints completos</value>
   </data>
   <data name="DebugData_DisassemblyFullDescription" xml:space="preserve">
-    <value>Gave up after like 15 minutes of waiting, don't even try this</value>
+    <value>Desistiu após cerca de 15 minutos de espera, nem tente isso</value>
   </data>
   <data name="ClickableOutput_CopyAll" xml:space="preserve">
     <value>Copy all</value>
@@ -4301,7 +4299,7 @@ To select a region of tile, hold down ALT.</value>
     <value>Emitters</value>
   </data>
   <data name="Editor_ExportAllFramesOrSpine" xml:space="preserve">
-    <value>Export all frames (or Spine data if this is a Spine sprite)</value>
+    <value>Exportar todos os frames (ou dados do Spine se este for um sprite do Spine)</value>
   </data>
   <data name="Editor_Files" xml:space="preserve">
     <value>Files</value>
@@ -4310,7 +4308,7 @@ To select a region of tile, hold down ALT.</value>
     <value>Fonts</value>
   </data>
   <data name="Editor_FrameTimeMicroseconds" xml:space="preserve">
-    <value>Frame Time (microseconds)</value>
+    <value>Frame Time (microssegundos)</value>
   </data>
   <data name="Editor_GLSLESFragmentSource" xml:space="preserve">
     <value>GLSL ES fragment source</value>
@@ -4337,7 +4335,7 @@ To select a region of tile, hold down ALT.</value>
     <value>HLSL9 vertex source</value>
   </data>
   <data name="Editor_ItemsFramesPerTile" xml:space="preserve">
-    <value>Items/frames per tile</value>
+    <value>Itens/frames por tile</value>
   </data>
   <data name="Editor_Kind" xml:space="preserve">
     <value>Kind</value>
@@ -4355,8 +4353,8 @@ To select a region of tile, hold down ALT.</value>
     <value>new_extension_function_{0}_ext</value>
   </data>
   <data name="Editor_OffsetTooltip" xml:space="preserve">
-    <value>The number of pixels to horizontally offset the rendering of the glyph.
-It's highlighed in blue on the texture above.</value>
+    <value>O número de pixels para deslocar horizontalmente a renderização do glyph.
+Está destacado em azul na textura acima.</value>
   </data>
   <data name="Editor_PathGM2024" xml:space="preserve">
     <value>Path (GM 2024.14+)</value>
@@ -4407,7 +4405,7 @@ It's highlighed in blue on the texture above.</value>
     <value>About</value>
   </data>
   <data name="Main_BackgroundsTileSets" xml:space="preserve">
-    <value>Backgrounds &amp; Tile sets</value>
+    <value>Planos de fundo e tilesets</value>
   </data>
   <data name="Main_Downloading" xml:space="preserve">
     <value>Downloading</value>
@@ -4433,16 +4431,16 @@ The 32-bit (x86) version of UndertaleModTool is obsolete.</value>
 {0}</value>
   </data>
   <data name="Msg_CantFindDataFile" xml:space="preserve">
-    <value>Cannot find data file path, expected: {0}</value>
+    <value>Não foi possível encontrar o caminho do arquivo de dados, esperado: {0}</value>
   </data>
   <data name="Msg_CantFindGameExe" xml:space="preserve">
-    <value>Cannot find game executable path, expected: {0}</value>
+    <value>Não foi possível encontrar o caminho do executável do jogo, esperado: {0}</value>
   </data>
   <data name="Msg_CantFindGameExeAt" xml:space="preserve">
-    <value>Cannot find game executable path, expected to find it at: {0}</value>
+    <value>Não foi possível encontrar o caminho do executável do jogo, esperava-se encontrá-lo em: {0}</value>
   </data>
   <data name="Msg_CantFindGamePath" xml:space="preserve">
-    <value>Cannot find game path, expected to find it at: {0}</value>
+    <value>Não foi possível encontrar o caminho do jogo, esperava-se encontrá-lo em: {0}</value>
   </data>
   <data name="Msg_CantHighlightListNotFound" xml:space="preserve">
     <value>Can't highlight the object "{0}" - element with object list not found.</value>
@@ -4493,7 +4491,7 @@ No options for playback worked.</value>
     <value>File "{0}" already exists. Overwrite?</value>
   </data>
   <data name="Msg_GameExePathEscaped" xml:space="preserve">
-    <value>Failed to find valid game executable path; escaped directory</value>
+    <value>Falha ao encontrar um caminho de executável de jogo válido; diretório fora do permitido</value>
   </data>
   <data name="Msg_GeneralInfoNull" xml:space="preserve">
     <value>Cannot determine GameMaker version - "General Info" is null.</value>
@@ -4525,13 +4523,13 @@ Do you want to proceed?</value>
     <value>No references found.</value>
   </data>
   <data name="Msg_NoUnreferencedAssetsFound" xml:space="preserve">
-    <value>No unreferenced assets found.</value>
+    <value>Nenhum asset não referenciado foi encontrado.</value>
   </data>
   <data name="Msg_OneCodeEntryError" xml:space="preserve">
     <value>One code entry matched the filter.</value>
   </data>
   <data name="Msg_PathNotExist" xml:space="preserve">
-    <value>Path {0} does not exist, cannot search for files!</value>
+    <value>O caminho {0} não existe, não é possível procurar por arquivos!</value>
   </data>
   <data name="Msg_ProjectCurrentlyOpen" xml:space="preserve">
     <value>A project is currently open - open another data file and discard all unsaved changes?</value>
@@ -4544,7 +4542,7 @@ Are you sure you want to make a new project?</value>
     <value>A project is currently open - open another data file and discard all unsaved changes?</value>
   </data>
   <data name="Msg_ReferencesOfAsset" xml:space="preserve">
-    <value>The references of game object "{0}"</value>
+    <value>As referências do objeto de jogo "{0}"</value>
   </data>
   <data name="Msg_ResultsInCodeEntries" xml:space="preserve">
     <value>Results in code entries</value>
@@ -4573,11 +4571,11 @@ It can corrupt the data file that you'll save.</value>
     <comment>The {1} is used for 's' suffix</comment>
   </data>
   <data name="Msg_TilesetWrongParameters" xml:space="preserve">
-    <value>Tileset of "{0}" tile layer has wrong parameters (tile size, output border, etc.).
-It can't be displayed.</value>
+    <value>O tileset da camada de tiles "{0}" possui parâmetros incorretos (tamanho do tile, borda de saída, etc.).
+Ele não pode ser exibido.</value>
   </data>
   <data name="Msg_UnexportedAssetsOpenProject" xml:space="preserve">
-    <value>There are assets marked to be exported in the current project - open another new project and discard all unexported changes?</value>
+    <value>Há assets marcados para exportação no projeto atual - deseja abrir outro projeto novo e descartar todas as alterações não exportadas?</value>
   </data>
   <data name="Msg_UnhandledException" xml:space="preserve">
     <value>Unhandled exception</value>
@@ -4589,7 +4587,7 @@ It can't be displayed.</value>
     <value>Unknown indent style</value>
   </data>
   <data name="Msg_UnreferencedGameAssets" xml:space="preserve">
-    <value>Unreferenced game assets</value>
+    <value>Assets do jogo não referenciados</value>
   </data>
   <data name="Msg_UnsupportedBytecodeVersionTitle" xml:space="preserve">
     <value>Unsupported bytecode version</value>
@@ -4628,13 +4626,13 @@ It can't be displayed.</value>
     <value>Visible</value>
   </data>
   <data name="Settings_AssetOrderSwappingToolTip" xml:space="preserve">
-    <value>Whether to allow changing the order of assets by dragging and dropping them in the tree view.</value>
+    <value>Define se é permitido alterar a ordem dos assets arrastando e soltando na exibição em árvore.</value>
   </data>
   <data name="Settings_GMS1Path" xml:space="preserve">
     <value>GameMaker: Studio 1.4 path:</value>
   </data>
   <data name="Settings_GMS2PathToolTip" xml:space="preserve">
-    <value>The path to the GameMaker Studio 2 runtimes directory.</value>
+    <value>O caminho para o diretório de runtimes do GameMaker Studio 2.</value>
   </data>
   <data name="Settings_RecompileOnSaveToolTip" xml:space="preserve">
     <value>Whether to recompile all GML code sources when saving a project data file.</value>
@@ -4649,13 +4647,13 @@ It can't be displayed.</value>
     <value>Show pointer info in editors</value>
   </data>
   <data name="Settings_ShowEditorPointerInfoToolTip" xml:space="preserve">
-    <value>Whether to display the exact file offset (pointer) of the currently selected object above its editor. Hidden by default.</value>
+    <value>Define se o offset exato do arquivo (ponteiro) do objeto selecionado será exibido acima do editor. Oculto por padrão.</value>
   </data>
   <data name="Editor_PointerInfo" xml:space="preserve">
     <value>Pointer:</value>
   </data>
   <data name="Editor_PointerInfoToolTip" xml:space="preserve">
-    <value>The exact file offset of this object, shown in hexadecimal.</value>
+    <value>O offset exato do arquivo deste objeto, exibido em hexadecimal.</value>
   </data>
   <data name="TabTitle_AnimationCurve" xml:space="preserve">
     <value>Animation Curve</value>
@@ -4745,13 +4743,13 @@ It can't be displayed.</value>
     <value>Compiler error</value>
   </data>
   <data name="Dialog_ReferencesOfAsset" xml:space="preserve">
-    <value>The references of game object</value>
+    <value>As referências do objeto de jogo</value>
   </data>
   <data name="Dialog_Searching" xml:space="preserve">
     <value>Searching</value>
   </data>
   <data name="Dialog_UnreferencedGameAssets" xml:space="preserve">
-    <value>Unreferenced game assets</value>
+    <value>Assets de jogo não referenciados</value>
   </data>
   <data name="Editor_AddNewExtensionOption" xml:space="preserve">
     <value>Add new extension option</value>
@@ -4784,7 +4782,7 @@ It can't be displayed.</value>
     <value>Sort glyphs</value>
   </data>
   <data name="Editor_PathPreviewNote" xml:space="preserve">
-    <value>TODO: The preview doesn't update live, but it will after switching to another tab and back.</value>
+    <value>TODO: A pré-visualização não atualiza em tempo real, mas atualizará ao trocar de aba e voltar.</value>
   </data>
   <data name="Editor_Points" xml:space="preserve">
     <value>Points</value>
@@ -4821,7 +4819,7 @@ It's highlighed in green on the texture above.</value>
     <value>Value</value>
   </data>
   <data name="Editor_VertexShaderAttributes" xml:space="preserve">
-    <value>Vertex shader attributes</value>
+    <value>Atributos de vertex shader</value>
   </data>
   <data name="Editor_WindowSizeSeparator" xml:space="preserve">
     <value>x</value>
@@ -4930,13 +4928,13 @@ Detected action name - {0}</value>
     <value>Generating the result list...</value>
   </data>
   <data name="Msg_GMSDebuggerSaveWarning" xml:space="preserve">
-    <value>You are saving the game in GameMaker Studio debug mode. Unless the debugger is running, the normal runtime will simply hang after loading. You can turn this off in General Info by checking the "Disable Debugger" box and saving.</value>
+    <value>Você está salvando o jogo no modo de depuração do GameMaker Studio. A menos que o depurador esteja em execução, o runtime normal simplesmente travará após o carregamento. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
   </data>
   <data name="Msg_GMSDebuggerTitle" xml:space="preserve">
     <value>GMS Debugger</value>
   </data>
   <data name="Msg_GMSDebuggerWarning" xml:space="preserve">
-    <value>This game is set to run with the GameMaker Studio debugger and the normal runtime will simply hang after loading if the debugger is not running. You can turn this off in General Info by checking the "Disable Debugger" box and saving.</value>
+    <value>Este jogo está configurado para ser executado com o depurador do GameMaker Studio e o runtime normal simplesmente travará após o carregamento se o depurador não estiver em execução. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
   </data>
   <data name="Msg_InvalidColorString" xml:space="preserve">
     <value>Invalid color string</value>
@@ -4997,7 +4995,7 @@ It's highly recommended to restart the application.</value>
     <value>{0}: {1}x{2}</value>
   </data>
   <data name="Msg_RuntimeNoDebugging" xml:space="preserve">
-    <value>The selected runtime does not support debugging.</value>
+    <value>O runtime selecionado não suporta depuração.</value>
   </data>
   <data name="Msg_RunWithDebuggerQuestion" xml:space="preserve">
     <value>Are you sure that you want to run the game with GMS debugger?
@@ -5035,7 +5033,7 @@ It's highly recommended to restart the application.</value>
     <value>Too many code lines to display.</value>
   </data>
   <data name="Msg_UnexportedAssetsNewProject" xml:space="preserve">
-    <value>There are assets marked to be exported in the current project - create a new project and discard all unexported changes?</value>
+    <value>Há assets marcados para exportação no projeto atual - deseja criar um novo projeto e descartar todas as alterações não exportadas?</value>
   </data>
   <data name="Msg_UnsupportedTexturesTitle" xml:space="preserve">
     <value>Unsupported textures</value>
@@ -5077,10 +5075,10 @@ It's highly recommended to restart the application.</value>
     <value>GML compiler/decompiler settings</value>
   </data>
   <data name="Settings_GMS1PathToolTip" xml:space="preserve">
-    <value>The path to the GameMaker: Studio 1.4 installation directory.</value>
+    <value>O caminho para o diretório de instalação do GameMaker: Studio 1.4.</value>
   </data>
   <data name="Settings_GMS2Path" xml:space="preserve">
-    <value>GameMaker Studio 2 runtimes path:</value>
+    <value>Caminho dos runtimes do GameMaker Studio 2:</value>
   </data>
   <data name="Settings_GridHeightToolTip" xml:space="preserve">
     <value>Whether to override the global grid height for the room editor.</value>
@@ -5542,7 +5540,7 @@ It's highly recommended to restart the application.</value>
     <value>Emitter</value>
   </data>
   <data name="Common_AssetType" xml:space="preserve">
-    <value>Asset type</value>
+    <value>Tipo de asset</value>
   </data>
   <data name="Common_Property" xml:space="preserve">
     <value>Propriedade</value>
@@ -5638,10 +5636,10 @@ It's highly recommended to restart the application.</value>
     <value>_Adicionar camada de blocos</value>
   </data>
   <data name="Room_AddPathLayer" xml:space="preserve">
-    <value>_Adicionar camada de caminho</value>
+    <value>_Adicionar camada de Path</value>
   </data>
   <data name="Room_AddAssetsLayer" xml:space="preserve">
-    <value>_Adicionar camada de ativos</value>
+    <value>_Adicionar camada de assets</value>
   </data>
   <data name="Room_AddEffectLayer" xml:space="preserve">
     <value>_Adicionar camada de efeito</value>
@@ -5671,7 +5669,7 @@ It's highly recommended to restart the application.</value>
     <value>_Remove text item instance</value>
   </data>
   <data name="Room_DeleteAssetInstance" xml:space="preserve">
-    <value>_Remove asset instance</value>
+    <value>_Remover instância de asset</value>
   </data>
   <data name="Room_LegacyTiles" xml:space="preserve">
     <value>Legacy tiles</value>
@@ -5698,7 +5696,7 @@ It's highly recommended to restart the application.</value>
     <value>Path.</value>
   </data>
   <data name="Room_ContainsAssets" xml:space="preserve">
-    <value>Contains assets, listed in the tree</value>
+    <value>Contém assets, listados na árvore</value>
   </data>
   <data name="Room_ContainsInstances" xml:space="preserve">
     <value>Contains GameObject instances, listed in the tree</value>
@@ -5707,7 +5705,7 @@ It's highly recommended to restart the application.</value>
     <value>New Effect layer</value>
   </data>
   <data name="Room_NewPathLayer" xml:space="preserve">
-    <value>New Path layer</value>
+    <value>Nova camada de Path</value>
   </data>
   <data name="Search_Title" xml:space="preserve">
     <value>Search in code</value>
@@ -5752,13 +5750,13 @@ It's highly recommended to restart the application.</value>
     <value>&lt;unknown&gt;</value>
   </data>
   <data name="ProjectAssets_Title" xml:space="preserve">
-    <value>Unexported project assets</value>
+    <value>Assets de projeto não exportados</value>
   </data>
   <data name="ProjectAssets_Desc1" xml:space="preserve">
-    <value>Below is a list of all assets currently waiting to be exported to disk for the current project, once it is next saved.</value>
+    <value>Abaixo está uma lista de todos os assets aguardando para serem exportados para o disco no projeto atual, na próxima vez que ele for salvo.</value>
   </data>
   <data name="ProjectAssets_Desc2" xml:space="preserve">
-    <value>To quickly add or remove assets from being part of the project, you can drag and drop assets here, or delete them.</value>
+    <value>Para adicionar ou remover rapidamente assets do projeto, você pode arrastar e soltar assets aqui, ou excluí-los.</value>
   </data>
   <data name="Settings_StartMaximized" xml:space="preserve">
     <value>Start maximized</value>
@@ -5848,28 +5846,28 @@ It's highly recommended to restart the application.</value>
     <value>Iterations</value>
   </data>
   <data name="Editor_Shader_HLSL11Vertex" xml:space="preserve">
-    <value>HLSL11 vertex data</value>
+    <value>Dados de vertex do HLSL11</value>
   </data>
   <data name="Editor_Shader_HLSL11Pixel" xml:space="preserve">
-    <value>HLSL11 pixel data</value>
+    <value>Dados de pixel do HLSL11</value>
   </data>
   <data name="Editor_Shader_PSSLVertex" xml:space="preserve">
-    <value>PSSL vertex data</value>
+    <value>Dados de vertex do PSSL</value>
   </data>
   <data name="Editor_Shader_PSSLPixel" xml:space="preserve">
-    <value>PSSL pixel data</value>
+    <value>Dados de pixel do PSSL</value>
   </data>
   <data name="Editor_Shader_CgPSVitaVertex" xml:space="preserve">
-    <value>Cg_PSVita vertex data</value>
+    <value>Dados de vertex do Cg_PSVita</value>
   </data>
   <data name="Editor_Shader_CgPSVitaPixel" xml:space="preserve">
-    <value>Cg_PSVita pixel data</value>
+    <value>Dados de pixel do Cg_PSVita</value>
   </data>
   <data name="Editor_Shader_CgPS3Vertex" xml:space="preserve">
-    <value>Cg_PS3 vertex data</value>
+    <value>Dados de vertex do Cg_PS3</value>
   </data>
   <data name="Editor_Shader_CgPS3Pixel" xml:space="preserve">
-    <value>Cg_PS3 pixel data</value>
+    <value>Dados de pixel do Cg_PS3</value>
   </data>
   <data name="Editor_ExportAsPNG" xml:space="preserve">
     <value>Export image as PNG</value>
@@ -5962,7 +5960,7 @@ It's highly recommended to restart the application.</value>
     <value>Size</value>
   </data>
   <data name="Room_TileSetColumns" xml:space="preserve">
-    <value>Tile set columns</value>
+    <value>Colunas do tileset</value>
   </data>
   <data name="Room_Properties" xml:space="preserve">
     <value>Properties</value>
@@ -6004,10 +6002,10 @@ It's highly recommended to restart the application.</value>
     <value>Line spacing</value>
   </data>
   <data name="Room_FrameWidth" xml:space="preserve">
-    <value>Frame width</value>
+    <value>Largura do frame</value>
   </data>
   <data name="Room_FrameHeight" xml:space="preserve">
-    <value>Frame height</value>
+    <value>Altura do frame</value>
   </data>
   <data name="Room_Wrap" xml:space="preserve">
     <value>Wrap</value>
@@ -6034,7 +6032,7 @@ It's highly recommended to restart the application.</value>
     <value>Export all textures as PNGs</value>
   </data>
   <data name="Editor_Sprite_EnableNineSlice" xml:space="preserve">
-    <value>Enable nine slice</value>
+    <value>Ativar nine slice</value>
   </data>
   <data name="Editor_Sprite_LeftTileMode" xml:space="preserve">
     <value>Left tile mode</value>
@@ -6148,7 +6146,7 @@ It's highly recommended to restart the application.</value>
     <value>Informational version: {0}</value>
   </data>
   <data name="Msg_NewAssetName" xml:space="preserve">
-    <value>Name of new asset:</value>
+    <value>Nome do novo asset:</value>
   </data>
   <data name="Msg_AddRoomToEnd" xml:space="preserve">
     <value>Add the new room to the end of the room order list?</value>
@@ -6229,28 +6227,28 @@ It's highly recommended to restart the application.</value>
     <value>ASM compilation error - UndertaleModToolAvalonia v{0}</value>
   </data>
   <data name="Msg_EditingDisassemblyWarning1" xml:space="preserve">
-    <value>Editing disassembly while in an open project (even through scripts) can cause desyncs with source code in the project.</value>
+    <value>Editando disassembly enquanto há um projeto aberto (mesmo através de scripts) pode causar dessincronizações com o código-fonte no projeto.</value>
   </data>
   <data name="Msg_EditingDisassemblyWarning2" xml:space="preserve">
-    <value>The source code will not change unless you directly modify it, or if you remove the code asset from the project entirely.</value>
+    <value>O código-fonte não mudará a menos que você o modifique diretamente, ou remova o asset do código do projeto por completo.</value>
   </data>
   <data name="Msg_ErrorCreateSettings" xml:space="preserve">
     <value>Error when creating settings file:</value>
   </data>
   <data name="Msg_SaveProjectBeforeClosing" xml:space="preserve">
-    <value>There are assets marked to be exported in the current project. Save project before closing it?</value>
+    <value>Há assets marcados para exportação no projeto atual. Deseja salvar o projeto antes de fechá-lo?</value>
   </data>
   <data name="Msg_SaveProjectBeforeCreating" xml:space="preserve">
-    <value>There are assets marked to be exported in the current project. Save project before creating a new one?</value>
+    <value>Há assets marcados para exportação no projeto atual. Deseja salvar o projeto antes de criar um novo?</value>
   </data>
   <data name="Msg_SaveProjectBeforeOpening" xml:space="preserve">
-    <value>There are assets marked to be exported in the current project. Save project before opening a new one?</value>
+    <value>Há assets marcados para exportação no projeto atual. Deseja salvar o projeto antes de abrir um novo?</value>
   </data>
   <data name="Msg_SaveProjectBeforeReloading" xml:space="preserve">
-    <value>There are assets marked to be exported in the current project. Save project before reloading?</value>
+    <value>Há assets marcados para exportação no projeto atual. Deseja salvar o projeto antes de recarregá-lo?</value>
   </data>
   <data name="Msg_SaveProjectBeforeQuitting" xml:space="preserve">
-    <value>There are assets marked to be exported in the current project. Save project before quitting?</value>
+    <value>Há assets marcados para exportação no projeto atual. Deseja salvar o projeto antes de sair?</value>
   </data>
   <data name="Msg_SaveBeforeCreatingNew" xml:space="preserve">
     <value>Save data file before creating a new one?</value>
@@ -6338,10 +6336,10 @@ It's highly recommended to restart the application.</value>
     <value>Export image as PNG</value>
   </data>
   <data name="Msg_ImportShader" xml:space="preserve">
-    <value>Import shader</value>
+    <value>Importar shader</value>
   </data>
   <data name="Msg_ExportShader" xml:space="preserve">
-    <value>Export shader</value>
+    <value>Exportar shader</value>
   </data>
   <data name="Msg_LoadImageWithoutPadding" xml:space="preserve">
     <value>Load image without padding</value>
@@ -6389,7 +6387,7 @@ It's highly recommended to restart the application.</value>
     <value>Import all embedded textures...</value>
   </data>
   <data name="Menu_Import_AllTilesets" xml:space="preserve">
-    <value>Import all tilesets...</value>
+    <value>Importar todos os tilesets...</value>
   </data>
   <data name="Menu_Import_AllStrings" xml:space="preserve">
     <value>Import all strings...</value>
@@ -6413,7 +6411,7 @@ It's highly recommended to restart the application.</value>
     <value>Import collision masks...</value>
   </data>
   <data name="Menu_Import_Shaders" xml:space="preserve">
-    <value>Import shaders...</value>
+    <value>Importar shaders...</value>
   </data>
   <data name="Menu_Import_Sounds" xml:space="preserve">
     <value>Import sounds...</value>
@@ -6437,7 +6435,7 @@ It's highly recommended to restart the application.</value>
     <value>Export all textures (grouped)...</value>
   </data>
   <data name="Menu_Export_AllTilesets" xml:space="preserve">
-    <value>Export all tilesets...</value>
+    <value>Exportar todos os tilesets...</value>
   </data>
   <data name="Menu_Export_AllMasks" xml:space="preserve">
     <value>Export all collision masks...</value>
@@ -6449,7 +6447,7 @@ It's highly recommended to restart the application.</value>
     <value>Export all fonts...</value>
   </data>
   <data name="Menu_Export_AllShaders" xml:space="preserve">
-    <value>Export all shaders...</value>
+    <value>Exportar todos os shaders...</value>
   </data>
   <data name="Menu_Export_AllSounds" xml:space="preserve">
     <value>Export all sounds...</value>
