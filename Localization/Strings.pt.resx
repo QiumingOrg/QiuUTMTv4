@@ -332,7 +332,7 @@
     <value>sprites</value>
   </data>
   <data name="Tree_BackgroundsTilesets" xml:space="preserve">
-    <value>Fundos e Tile sets</value>
+    <value>Backgrounds e Tile sets</value>
   </data>
   <data name="Tree_Tilesets" xml:space="preserve">
     <value>Tile sets</value>
@@ -362,7 +362,7 @@
     <value>Extensões</value>
   </data>
   <data name="Tree_TexturePageItems" xml:space="preserve">
-    <value>Itens da página de textura</value>
+    <value>Texture page items</value>
   </data>
   <data name="Tree_Code" xml:space="preserve">
     <value>Código</value>
@@ -386,16 +386,16 @@
     <value>Áudio incorporado</value>
   </data>
   <data name="Tree_TextureGroupInfo" xml:space="preserve">
-    <value>Informações do grupo de textura</value>
+    <value>Informações do texture group</value>
   </data>
   <data name="Tree_EmbeddedImages" xml:space="preserve">
     <value>Imagens incorporadas</value>
   </data>
   <data name="Tree_ParticleSystems" xml:space="preserve">
-    <value>Sistemas de partículas</value>
+    <value>Particle systems</value>
   </data>
   <data name="Tree_ParticleSystemEmitters" xml:space="preserve">
-    <value>Emissores de sistema de partículas</value>
+    <value>Particle system emitters</value>
   </data>
   <data name="Tab_Welcome" xml:space="preserve">
     <value>Bem-vindo!</value>
@@ -1286,13 +1286,13 @@ No entanto, o "ID" é importante, por isso certifique-se de que não existem sob
     <value>Path (GM 2024.14+)</value>
   </data>
   <data name="Editor_TexGroup_TextureGroup" xml:space="preserve">
-    <value>Grupo de texturas</value>
+    <value>Texture Group</value>
   </data>
   <data name="Editor_TexGroup_GroupName" xml:space="preserve">
     <value>Nome do grupo</value>
   </data>
   <data name="Editor_TexGroup_TexturePages" xml:space="preserve">
-    <value>Páginas de texturas</value>
+    <value>Texture Pages</value>
   </data>
   <data name="Editor_TexGroup_Sprites" xml:space="preserve">
     <value>Sprites</value>
@@ -1307,7 +1307,7 @@ No entanto, o "ID" é importante, por isso certifique-se de que não existem sob
     <value>Tilesets</value>
   </data>
   <data name="Room_Backgrounds" xml:space="preserve">
-    <value>Fundos</value>
+    <value>Backgrounds</value>
   </data>
   <data name="Room_Views" xml:space="preserve">
     <value>Views</value>
@@ -1328,10 +1328,10 @@ No entanto, o "ID" é importante, por isso certifique-se de que não existem sob
     <value>Persistente</value>
   </data>
   <data name="Room_BackgroundColor" xml:space="preserve">
-    <value>Cor de fundo</value>
+    <value>Cor do background</value>
   </data>
   <data name="Room_DrawBackgroundColor" xml:space="preserve">
-    <value>Desenhar cor de fundo</value>
+    <value>Desenhar cor do background</value>
   </data>
   <data name="Room_CreationCode" xml:space="preserve">
     <value>Creation Code</value>
@@ -1458,13 +1458,13 @@ Para selecionar uma região de tiles, mantenha a tecla ALT pressionada.</value>
     <value>Excluir instância de sprite</value>
   </data>
   <data name="Room_CopyParticleSystemInstance" xml:space="preserve">
-    <value>Copiar instância de sistema de partículas</value>
+    <value>Copiar instância do Particle System</value>
   </data>
   <data name="Room_DeleteParticleSystemInstance" xml:space="preserve">
-    <value>Excluir instância de sistema de partículas</value>
+    <value>Excluir instância do Particle System</value>
   </data>
   <data name="Room_DeleteBackground" xml:space="preserve">
-    <value>Excluir plano de fundo</value>
+    <value>Excluir background</value>
   </data>
   <data name="Room_DisableView" xml:space="preserve">
     <value>Desabilitar visualização</value>
@@ -1491,7 +1491,7 @@ Para selecionar uma região de tiles, mantenha a tecla ALT pressionada.</value>
     <value>Nova camada de tiles</value>
   </data>
   <data name="Room_NewBackgroundLayer" xml:space="preserve">
-    <value>Nova camada de plano de fundo</value>
+    <value>Nova camada de background</value>
   </data>
   <data name="Room_NewAssetsLayer" xml:space="preserve">
     <value>Nova camada de assets</value>
@@ -1524,7 +1524,7 @@ Para selecionar uma região de tiles, mantenha a tecla ALT pressionada.</value>
     <value>Sprite {0} de {1}</value>
   </data>
   <data name="Room_ParticleSystemFormat" xml:space="preserve">
-    <value>Sistema de partículas {0} de {1}</value>
+    <value>Particle System {0} de {1}</value>
   </data>
   <data name="Room_TileGMS1Format" xml:space="preserve">
     <value>Tile {0} de {1} (UndertaleRoom+Tile)</value>
@@ -2235,7 +2235,7 @@ Use um dos scripts de pesquisa no menu "Localizar" se necessário.</value>
     <value>Nova camada de tiles</value>
   </data>
   <data name="Editor_NewBackgroundLayer" xml:space="preserve">
-    <value>Nova camada de plano de fundo</value>
+    <value>Nova camada de background</value>
   </data>
   <data name="Editor_NewAssetsLayer" xml:space="preserve">
     <value>Nova camada de assets</value>
@@ -2398,7 +2398,7 @@ Use um dos scripts de pesquisa no menu "Localizar" se necessário.</value>
     <value>Este parece ser um sprite do Spine, os arquivos .json e .atlas serão exportados junto com os frames. EDITE-OS COM CUIDADO! PODE SER NECESSÁRIA ALGUMA EDIÇÃO MANUAL DO JSON! OS DADOS SÃO EXPORTADOS COMO ESTÃO.</value>
   </data>
   <data name="Msg_TexturePageDimensionsNotPowerOf2" xml:space="preserve">
-    <value>AVISO: As dimensões da página de textura não são potências de 2. É muito provável que ocorra desfoque de sprite no jogo.</value>
+    <value>AVISO: As dimensões da texture page não são potências de 2. É muito provável que ocorra desfoque de sprite no jogo.</value>
   </data>
   <data name="Msg_TextureConvertedToPNG" xml:space="preserve">
     <value>{0} foi convertido para o formato PNG, pois não oferecemos suporte à conversão de imagens para o formato DDS. Isso pode causar problemas de desempenho no jogo.</value>
@@ -2510,7 +2510,7 @@ Por favor, relate isso no GitHub.
     <value>A lista de instâncias da camada "{0}" está vazia, mas a camada possui o ID das instâncias.</value>
   </data>
   <data name="Msg_NoEmptyRoomBackgrounds" xml:space="preserve">
-    <value>Nenhum plano de fundo de sala vazio.</value>
+    <value>Nenhum backgrounds de sala vazio.</value>
   </data>
   <data name="Msg_SelectLayer" xml:space="preserve">
     <value>Por favor, selecione uma camada.</value>
@@ -2535,7 +2535,7 @@ Você provavelmente deve alterar a profundidade da nova camada.</value>
     <value>As câmeras não suportam este recurso.</value>
   </data>
   <data name="Msg_BackgroundsDontSupportFeature" xml:space="preserve">
-    <value>Os planos de fundo não suportam este recurso.</value>
+    <value>Os backgrounds não suportam este recurso.</value>
   </data>
   <data name="Msg_CantChangeObjectPosition" xml:space="preserve">
     <value>Não é possível alterar a posição do objeto — nenhuma lista foi encontrada para o objeto selecionado.</value>
@@ -3267,43 +3267,43 @@ O 'ID' importa, no entanto, então certifique-se de que não haja sobreposiçõe
 Persiste quando o editor de tiles é fechado, mas não quando o arquivo é salvo e reaberto.</value>
   </data>
   <data name="Tile_ControlsHint" xml:space="preserve">
-    <value>Ctrl+LMB: Fill (+Shift: Global)    Alt+LMB: Pick    MMB: Scroll/Pick</value>
+    <value>Ctrl+Clique esquerdo: Preencher (+Shift: Global)   Alt+Clique esquerdo: Conta-gotas   Clique do meio: Rolar/Conta-gotas</value>
   </data>
   <data name="Tile_Cancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Cancelar</value>
   </data>
   <data name="Tile_Apply" xml:space="preserve">
-    <value>Apply</value>
+    <value>Aplicar</value>
   </data>
   <data name="Tile_Preview" xml:space="preserve">
-    <value>Preview</value>
+    <value>Pré-visualização</value>
   </data>
   <data name="Tile_BrushTiling" xml:space="preserve">
     <value>Repetição do pincel</value>
   </data>
   <data name="Tile_Grid" xml:space="preserve">
-    <value>Grid</value>
+    <value>Grade</value>
   </data>
   <data name="Glyph_EditTitle" xml:space="preserve">
-    <value>Edit a font glyph rectangle</value>
+    <value>Editar o retângulo do glifo da fonte</value>
   </data>
   <data name="Glyph_GetHelp" xml:space="preserve">
     <value>Get help</value>
   </data>
   <data name="Ctrl_OpenReferencedObject" xml:space="preserve">
-    <value>Open referenced object</value>
+    <value>Abrir objeto referenciado</value>
   </data>
   <data name="Ctrl_ObjRefToolTip" xml:space="preserve">
-    <value>This is an object reference. Drag and drop an object of matching type from the tree on the left to change it!</value>
+    <value>Esta é uma referência de objeto. Arraste e solte um objeto do tipo correspondente a partir da árvore à esquerda para alterá-la!</value>
   </data>
   <data name="Ctrl_CreateNewCode" xml:space="preserve">
-    <value>Create new code entry</value>
+    <value>Criar nova entrada de código</value>
   </data>
   <data name="Ctrl_RemoveReference" xml:space="preserve">
-    <value>Remove reference</value>
+    <value>Remover referência</value>
   </data>
   <data name="Ctrl_AddInPlaceUnimplemented" xml:space="preserve">
-    <value>Add in place (unimplemented)</value>
+    <value>Adicionar no local (não implementado)</value>
   </data>
   <data name="RefType_Sprites" xml:space="preserve">
     <value>Sprites</value>
@@ -3312,7 +3312,7 @@ Persiste quando o editor de tiles é fechado, mas não quando o arquivo é salvo
     <value>Backgrounds</value>
   </data>
   <data name="RefType_EmbeddedTextures" xml:space="preserve">
-    <value>Embedded textures</value>
+    <value>Texturas incorporadas</value>
   </data>
   <data name="RefType_TexturePageItems" xml:space="preserve">
     <value>Texture page items</value>
@@ -3321,28 +3321,28 @@ Persiste quando o editor de tiles é fechado, mas não quando o arquivo é salvo
     <value>Strings</value>
   </data>
   <data name="RefType_GameObjects" xml:space="preserve">
-    <value>Game objects</value>
+    <value>Objetos do jogo</value>
   </data>
   <data name="RefType_GameObjectsChildren" xml:space="preserve">
-    <value>Game objects (children)</value>
+    <value>Objetos do jogo (filhos)</value>
   </data>
   <data name="RefType_CodeEntries" xml:space="preserve">
-    <value>Code entries</value>
+    <value>Entradas de código</value>
   </data>
   <data name="RefType_CodeEntriesNameAndContents" xml:space="preserve">
-    <value>Code entries (name &amp; contents)</value>
+    <value>Entradas de código (nome e conteúdo)</value>
   </data>
   <data name="RefType_Functions" xml:space="preserve">
-    <value>Functions</value>
+    <value>Funções</value>
   </data>
   <data name="RefType_Variables" xml:space="preserve">
     <value>Variables</value>
   </data>
   <data name="RefType_EmbeddedAudio" xml:space="preserve">
-    <value>Embedded audio</value>
+    <value>Áudio incorporado</value>
   </data>
   <data name="RefType_AudioGroups" xml:space="preserve">
-    <value>Audio groups</value>
+    <value>Grupos de áudio</value>
   </data>
   <data name="RefType_Sounds" xml:space="preserve">
     <value>Sons</value>
@@ -3396,64 +3396,64 @@ Persiste quando o editor de tiles é fechado, mas não quando o arquivo é salvo
     <value>Idiomas</value>
   </data>
   <data name="RefType_TextureGroups" xml:space="preserve">
-    <value>Grupos de texturas</value>
+    <value>Texture groups</value>
   </data>
   <data name="RefType_EmbeddedImages" xml:space="preserve">
-    <value>Embedded images</value>
+    <value>Imagens incorporadas</value>
   </data>
   <data name="RefType_RoomTiles" xml:space="preserve">
-    <value>Room tiles</value>
+    <value>Tiles da sala</value>
   </data>
   <data name="RefType_RoomSpriteInstances" xml:space="preserve">
-    <value>Room sprite instances</value>
+    <value>Instâncias de sprite da sala</value>
   </data>
   <data name="RefType_RoomBackgroundLayers" xml:space="preserve">
-    <value>Room background layers</value>
+    <value>Camadas de background da sala</value>
   </data>
   <data name="RefType_RoomBackgrounds" xml:space="preserve">
-    <value>Room backgrounds</value>
+    <value>Backgrounds da sala</value>
   </data>
   <data name="RefType_RoomTileLayers" xml:space="preserve">
-    <value>Room tile layers</value>
+    <value>Camadas de tile da sala</value>
   </data>
   <data name="RefType_RoomTileLayer" xml:space="preserve">
-    <value>Room tile layer</value>
+    <value>Camada de tile da sala</value>
   </data>
   <data name="RefType_RoomLayers" xml:space="preserve">
-    <value>Room layers</value>
+    <value>Camadas da sala</value>
   </data>
   <data name="RefType_RoomObjectInstance" xml:space="preserve">
-    <value>Room object instance</value>
+    <value>Instância de objeto da sala</value>
   </data>
   <data name="RefType_RoomObjectInstancesCreationCode" xml:space="preserve">
-    <value>Room object instances (creation code)</value>
+    <value>Instâncias de objeto da sala (código de criação)</value>
   </data>
   <data name="RefType_RoomObjectInstancesCreationOrPreCreateCode" xml:space="preserve">
-    <value>Room object instances (creation or pre create code)</value>
+    <value>Instâncias de objeto da sala (código de criação ou pré-criação)</value>
   </data>
   <data name="RefType_RoomSequenceInstances" xml:space="preserve">
-    <value>Room sequence instances</value>
+    <value>Instâncias de Sequence da sala</value>
   </data>
   <data name="RefType_RoomParticleSystemInstances" xml:space="preserve">
-    <value>Room particle system instances</value>
+    <value>Instâncias de particle system da sala</value>
   </data>
   <data name="RefType_RoomParticleSystemInstance" xml:space="preserve">
-    <value>Room particle system instance</value>
+    <value>Instância de particle system da sala</value>
   </data>
   <data name="RefType_RoomEffectProperties" xml:space="preserve">
-    <value>Room effect properties</value>
+    <value>Propriedades de efeito da sala</value>
   </data>
   <data name="RefType_AnimationCurves" xml:space="preserve">
     <value>Animation curves</value>
   </data>
   <data name="RefType_AnimationCurveChannels" xml:space="preserve">
-    <value>Animation curve channels</value>
+    <value>Animation curve canais</value>
   </data>
   <data name="RefType_Sequences" xml:space="preserve">
     <value>Sequences</value>
   </data>
   <data name="RefType_SequenceTracks" xml:space="preserve">
-    <value>Sequence tracks</value>
+    <value>Faixas de Sequence</value>
   </data>
   <data name="RefType_SequenceStringKeyframes" xml:space="preserve">
     <value>Quadros-chave de string da Sequence</value>
@@ -3462,10 +3462,10 @@ Persiste quando o editor de tiles é fechado, mas não quando o arquivo é salvo
     <value>Quadros-chave de texto da Sequence</value>
   </data>
   <data name="RefType_SequenceBroadcastMessages" xml:space="preserve">
-    <value>Sequence broadcast messages</value>
+    <value>Mensagens de broadcast da Sequence</value>
   </data>
   <data name="RefType_SequenceMoments" xml:space="preserve">
-    <value>Sequence moments</value>
+    <value>Momentos da Sequence</value>
   </data>
   <data name="RefType_SequenceInstanceKeyframes" xml:space="preserve">
     <value>Quadros-chave de instância da Sequence</value>
@@ -3480,22 +3480,22 @@ Persiste quando o editor de tiles é fechado, mas não quando o arquivo é salvo
     <value>Particle system emitters</value>
   </data>
   <data name="RefType_FilterEffects" xml:space="preserve">
-    <value>Filter effects</value>
+    <value>Efeitos de filtro</value>
   </data>
   <data name="RefType_GlobalInit" xml:space="preserve">
-    <value>Global init scripts</value>
+    <value>Scripts de inicialização global</value>
   </data>
   <data name="RefType_GameEndScripts" xml:space="preserve">
-    <value>Game End scripts</value>
+    <value>Scripts de fim de jogo</value>
   </data>
   <data name="RefType_GlobalInitAndGameEndScripts" xml:space="preserve">
-    <value>Global init &amp; Game End scripts</value>
+    <value>Scripts de inicialização global e fim de jogo</value>
   </data>
   <data name="RefType_Assets" xml:space="preserve">
     <value>Assets</value>
   </data>
   <data name="Msg_PleaseWait" xml:space="preserve">
-    <value>Please wait...</value>
+    <value>Aguarde...</value>
   </data>
   <data name="RuntimePicker_GameEXE" xml:space="preserve">
     <value>Jogo EXE</value>
@@ -3516,28 +3516,28 @@ Persiste quando o editor de tiles é fechado, mas não quando o arquivo é salvo
     <value>O tipo deste objeto não possui um editor/visualizador.</value>
   </data>
   <data name="Common_Paste" xml:space="preserve">
-    <value>Paste</value>
+    <value>Colar</value>
   </data>
   <data name="Common_Continue" xml:space="preserve">
-    <value>Continue</value>
+    <value>Continuar</value>
   </data>
   <data name="Common_Value" xml:space="preserve">
-    <value>Value</value>
+    <value>Valor</value>
   </data>
   <data name="Common_Remove" xml:space="preserve">
-    <value>Remove</value>
+    <value>Remover</value>
   </data>
   <data name="Menu_File_TempRunGame" xml:space="preserve">
-    <value>_Temp run game</value>
+    <value>_Rodar jogo temporário</value>
   </data>
   <data name="Menu_Project_CloseProject" xml:space="preserve">
-    <value>_Close project</value>
+    <value>_Fechar projeto</value>
   </data>
   <data name="Tab_Untitled" xml:space="preserve">
-    <value>Untitled</value>
+    <value>Sem título</value>
   </data>
   <data name="Tab_AudioGroup" xml:space="preserve">
-    <value>Audio Group</value>
+    <value>Grupo de áudio</value>
   </data>
   <data name="Tab_Sound" xml:space="preserve">
     <value>Sound</value>
@@ -3561,13 +3561,13 @@ Persiste quando o editor de tiles é fechado, mas não quando o arquivo é salvo
     <value>Font</value>
   </data>
   <data name="Tab_Timeline" xml:space="preserve">
-    <value>Timeline</value>
+    <value>Linha do tempo</value>
   </data>
   <data name="Tab_GameObject" xml:space="preserve">
-    <value>Game Object</value>
+    <value>Objeto de jogo</value>
   </data>
   <data name="Tab_Room" xml:space="preserve">
-    <value>Room</value>
+    <value>Sala</value>
   </data>
   <data name="Tab_Extension" xml:space="preserve">
     <value>Extension</value>
@@ -3585,19 +3585,19 @@ Persiste quando o editor de tiles é fechado, mas não quando o arquivo é salvo
     <value>Function</value>
   </data>
   <data name="Tab_CodeLocals" xml:space="preserve">
-    <value>Code Locals</value>
+    <value>Variáveis locais</value>
   </data>
   <data name="Tab_EmbeddedTexture" xml:space="preserve">
-    <value>Embedded Texture</value>
+    <value>Textura incorporada</value>
   </data>
   <data name="Tab_EmbeddedAudio" xml:space="preserve">
-    <value>Embedded Audio</value>
+    <value>Áudio incorporado</value>
   </data>
   <data name="Tab_TextureGroupInfo" xml:space="preserve">
-    <value>Texture Group info</value>
+    <value>Informações do Texture Group</value>
   </data>
   <data name="Tab_EmbeddedImage" xml:space="preserve">
-    <value>Embedded Image</value>
+    <value>Imagem incorporada</value>
   </data>
   <data name="Tab_Sequence" xml:space="preserve">
     <value>Sequence</value>
@@ -3621,22 +3621,22 @@ Persiste quando o editor de tiles é fechado, mas não quando o arquivo é salvo
     <value>Extension Function</value>
   </data>
   <data name="Tab_VariablesOverview" xml:space="preserve">
-    <value>Variables overview</value>
+    <value>Visão geral das variáveis</value>
   </data>
   <data name="Tab_GeneralInfo" xml:space="preserve">
     <value>General info</value>
   </data>
   <data name="Tab_GlobalInit" xml:space="preserve">
-    <value>Global init</value>
+    <value>Inicialização global</value>
   </data>
   <data name="Tab_GameEnd" xml:space="preserve">
-    <value>Game End</value>
+    <value>Fim de jogo</value>
   </data>
   <data name="Tab_EmptyString" xml:space="preserve">
-    <value>(empty string)</value>
+    <value>(string vazia)</value>
   </data>
   <data name="Tab_OpenInNewTab" xml:space="preserve">
-    <value>Open in new tab</value>
+    <value>Abrir em uma nova aba</value>
   </data>
   <data name="Settings_EnableAssetOrderSwapping" xml:space="preserve">
     <value>Ativar a troca de ordem dos assets</value>
@@ -3645,103 +3645,103 @@ Persiste quando o editor de tiles é fechado, mas não quando o arquivo é salvo
     <value>Alterna a capacidade de arrastar e soltar assets nas abas de assets para diferentes posições na lista. Desativado por padrão.   </value>
   </data>
   <data name="Settings_WarnTempRun" xml:space="preserve">
-    <value>Warn about temp running</value>
+    <value>Avisar sobre execução temporária</value>
   </data>
   <data name="Settings_WarnTempRun_Tooltip" xml:space="preserve">
-    <value>Warn about temp running. Enabled by default.</value>
+    <value>Avisar sobre execução temporária. Ativado por padrão.</value>
   </data>
   <data name="Settings_RecompileAllOnProjectSave" xml:space="preserve">
-    <value>Recompile all source GML when saving a project data file</value>
+    <value>Recompilar todo o GML de origem ao salvar um arquivo de dados do projeto</value>
   </data>
   <data name="Settings_RecompileAllOnProjectSave_Tooltip" xml:space="preserve">
-    <value>Whether to recompile all GML source code included in the currently-loaded project, if one is loaded, whenever saving a data file (including temp runs). Disabled by default.</value>
+    <value>Define se todo o código-fonte GML incluído no projeto atualmente carregado será recompilado, caso haja um carregado, sempre que um arquivo de dados for salvo (incluindo execuções temporárias). Desativado por padrão.</value>
   </data>
   <data name="Settings_GMLCompilerDecompilerSettings" xml:space="preserve">
-    <value>GML compiler/decompiler settings</value>
+    <value>Configurações do compilador/descompilador GML</value>
   </data>
   <data name="Settings_UpdateAppToLatestCommit" xml:space="preserve">
-    <value>Update app to latest commit</value>
+    <value>Atualizar aplicativo para o commit mais recente</value>
   </data>
   <data name="GML_SettingsTitle" xml:space="preserve">
-    <value>Settings - GML compiler/decompiler</value>
+    <value>Configurações - Compilador/descompilador GML</value>
   </data>
   <data name="GML_UseCSSHexColorLiterals" xml:space="preserve">
-    <value>Use CSS hex color literals</value>
+    <value>Usar literais de cores hexadecimais do CSS</value>
   </data>
   <data name="GML_UseCSSHexColorLiterals_Tooltip" xml:space="preserve">
-    <value>If enabled, color constants can be formatted in the #RRGGBB hex format.</value>
+    <value>Se ativado, as constantes de cores podem ser formatadas no formato hexadecimal #RRGGBB.</value>
   </data>
   <data name="GML_NamedInstanceIDPrefix" xml:space="preserve">
-    <value>Named instance ID prefix:</value>
+    <value>Prefixo de ID de instância nomeada:</value>
   </data>
   <data name="GML_NamedInstanceIDPrefix_Tooltip" xml:space="preserve">
-    <value>Prefix used for named instance IDs when found by decompiler, and for compilation. Change this value if it conflicts with variable names.</value>
+    <value>Prefixo usado para IDs de instâncias nomeadas ao serem encontradas pelo descompilador e para compilação. Altere este valor se ele entrar em conflito com nomes de variáveis.</value>
   </data>
   <data name="GML_OpenBlockBracesOnSameLine" xml:space="preserve">
-    <value>Open block braces on same line</value>
+    <value>Abrir chaves de bloco na mesma linha</value>
   </data>
   <data name="GML_OpenBlockBracesOnSameLine_Tooltip" xml:space="preserve">
-    <value>If enabled, the curly braces used to open a block will be placed on the same line as the statement it belongs to, rather than placing the brace on its own line.</value>
+    <value>Se ativado, as chaves usadas para abrir um bloco serão colocadas na mesma linha da instrução à qual pertencem, em vez de serem colocadas em uma linha separada.</value>
   </data>
   <data name="GML_RemoveBlockBracesIfSingleLine" xml:space="preserve">
-    <value>Remove block braces if single line</value>
+    <value>Remover chaves de bloco se estiver em uma única linha</value>
   </data>
   <data name="GML_RemoveBlockBracesIfSingleLine_Tooltip" xml:space="preserve">
-    <value>If enabled, blocks that contain a single line will have its braces removed, where possible. For if/else chains, all blocks must be single lines.</value>
+    <value>Se ativado, os blocos que contêm uma única linha terão suas chaves removidas, quando possível. Para estruturas if/else, todos os blocos devem ter uma única linha.</value>
   </data>
   <data name="GML_AroundBranchStatements" xml:space="preserve">
-    <value>Around branch statements</value>
+    <value>Ao redor das instruções de desvio</value>
   </data>
   <data name="GML_AroundBranchStatements_Tooltip" xml:space="preserve">
-    <value>If enabled, adds an empty line before and after branch statements.</value>
+    <value>Se ativado, adiciona uma linha vazia antes e depois das instruções de desvio.</value>
   </data>
   <data name="GML_AfterLocalVarDeclarations" xml:space="preserve">
-    <value>After local variable declarations</value>
+    <value>Após as declarações de variáveis locais</value>
   </data>
   <data name="GML_AfterLocalVarDeclarations_Tooltip" xml:space="preserve">
-    <value>If enabled, adds an empty line after block-scoped local variable declarations.</value>
+    <value>Se ativado, adiciona uma linha vazia após as declarações de variáveis locais com escopo de bloco.</value>
   </data>
   <data name="GML_BeforeSwitchCases" xml:space="preserve">
-    <value>Before switch cases</value>
+    <value>Antes dos casos do switch</value>
   </data>
   <data name="GML_BeforeSwitchCases_Tooltip" xml:space="preserve">
-    <value>If enabled, adds an empty line before (a chain) of "case" entries in a switch statement.</value>
+    <value>Se ativado, adiciona uma linha vazia antes de (uma sequência) de entradas "case" em uma instrução switch.</value>
   </data>
   <data name="GML_AfterSwitchCases" xml:space="preserve">
-    <value>After switch cases</value>
+    <value>Após os casos do switch</value>
   </data>
   <data name="GML_AfterSwitchCases_Tooltip" xml:space="preserve">
-    <value>If enabled, adds an empty line after (a chain) of "case" entries in a switch statement.</value>
+    <value>Se ativado, adiciona uma linha vazia após (uma sequência) de entradas "case" em uma instrução switch.</value>
   </data>
   <data name="GML_AroundFunctionDeclarations" xml:space="preserve">
-    <value>Around function declarations</value>
+    <value>Ao redor das declarações de funções</value>
   </data>
   <data name="GML_AroundFunctionDeclarations_Tooltip" xml:space="preserve">
-    <value>If enabled, adds an empty line before and after a function declaration, even if it is anonymous.</value>
+    <value>Se ativado, adiciona uma linha vazia antes e depois de uma declaração de função, mesmo que ela seja anônima.</value>
   </data>
   <data name="GML_AroundStaticInitialization" xml:space="preserve">
-    <value>Around static initialization</value>
+    <value>Ao redor da inicialização estática</value>
   </data>
   <data name="GML_AroundStaticInitialization_Tooltip" xml:space="preserve">
-    <value>If enabled, adds an empty line before and after static initialization, grouping together consecutive statics if possible.</value>
+    <value>Se ativado, adiciona uma linha vazia antes e depois da inicialização estática, agrupando as inicializações estáticas consecutivas, quando possível.</value>
   </data>
   <data name="GML_TryCatchFinallyRewriting" xml:space="preserve">
-    <value>Try/catch/finally rewriting</value>
+    <value>Try/catch/finally reescrita</value>
   </data>
   <data name="GML_TryCatchFinallyRewriting_Tooltip" xml:space="preserve">
-    <value>If enabled, compiler-generated code and logic for try/catch/finally statements is rewritten to (attempt to) look like the original code.</value>
+    <value>Se ativado, o código e a lógica gerados pelo compilador para instruções try/catch/finally são reescritos para (tentar) se parecer com o código original.</value>
   </data>
   <data name="GML_TransformElseToContinue" xml:space="preserve">
-    <value>Transform else into continue</value>
+    <value>Transformar else em continue</value>
   </data>
   <data name="GML_TransformElseToContinue_Tooltip" xml:space="preserve">
-    <value>If enabled, certain usages of "else" inside of a loop can be transformed into "continue" statements, which can make code easier to read. This only happens if accuracy can be maintained.</value>
+    <value>Se ativado, certos usos de "else" dentro de um loop podem ser transformados em instruções "continue", o que pode tornar o código mais fácil de ler. Isso só acontece se a precisão puder ser mantida.</value>
   </data>
   <data name="GML_DefaultArgumentValues" xml:space="preserve">
-    <value>Default argument values</value>
+    <value>Valores padrão dos argumentos</value>
   </data>
   <data name="GML_DefaultArgumentValues_Tooltip" xml:space="preserve">
-    <value>If enabled, syntax for default named function arguments will be used. Compiler-generated if statements are transformed to do this, maintaining accuracy.</value>
+    <value>Se ativado, a sintaxe para argumentos de função nomeados padrão será utilizada. As instruções if geradas pelo compilador são transformadas para fazer isso, preservando a precisão.</value>
   </data>
   <data name="GML_BuiltinArrayVariableSyntax" xml:space="preserve">
     <value>Sintaxe de variável de array embutida</value>
@@ -3750,28 +3750,28 @@ Persiste quando o editor de tiles é fechado, mas não quando o arquivo é salvo
     <value>Se ativado, certas globais embutidas (como "view_xview"), quando detectadas sendo usadas sem um acessor de array, serão impressas como tal, em vez de usar a sintaxe gerada pelo compilador.</value>
   </data>
   <data name="GML_ScopeLocalVarDeclarations" xml:space="preserve">
-    <value>Scope local variable declarations</value>
+    <value>Declarações de variáveis com escopo local</value>
   </data>
   <data name="GML_ScopeLocalVarDeclarations_Tooltip" xml:space="preserve">
-    <value>If enabled, local variable declarations will be placed according to their scopes, which are detected based on usage in the code.</value>
+    <value>Se ativado, as declarações de variáveis locais serão colocadas de acordo com seus escopos, que são detectados com base no uso no código.</value>
   </data>
   <data name="Editor_Name" xml:space="preserve">
     <value>Name</value>
   </data>
   <data name="Editor_LocalsCount" xml:space="preserve">
-    <value>Locals count</value>
+    <value>Contagem de variáveis locais</value>
   </data>
   <data name="Editor_ArgumentsCount" xml:space="preserve">
-    <value>Arguments count</value>
+    <value>Contagem de argumentos</value>
   </data>
   <data name="Editor_Offset" xml:space="preserve">
     <value>Offset</value>
   </data>
   <data name="Editor_ParentEntry" xml:space="preserve">
-    <value>Parent entry</value>
+    <value>Entrada pai</value>
   </data>
   <data name="Editor_Decompiled" xml:space="preserve">
-    <value>Decompiled</value>
+    <value>Decompilado</value>
   </data>
   <data name="Editor_Disassembly" xml:space="preserve">
     <value>Disassembly</value>
@@ -3780,43 +3780,43 @@ Persiste quando o editor de tiles é fechado, mas não quando o arquivo é salvo
     <value>Visible</value>
   </data>
   <data name="Editor_Solid" xml:space="preserve">
-    <value>Solid</value>
+    <value>Sólido</value>
   </data>
   <data name="Editor_Persistent" xml:space="preserve">
-    <value>Persistent</value>
+    <value>Persistente</value>
   </data>
   <data name="Editor_Parent" xml:space="preserve">
-    <value>Parent</value>
+    <value>Pai</value>
   </data>
   <data name="Editor_TextureMaskId" xml:space="preserve">
-    <value>Texture mask id</value>
+    <value>ID da máscara de textura</value>
   </data>
   <data name="Editor_UsesPhysics" xml:space="preserve">
-    <value>Uses physics</value>
+    <value>Usa física</value>
   </data>
   <data name="Editor_IsSensor" xml:space="preserve">
-    <value>Is sensor</value>
+    <value>É sensor</value>
   </data>
   <data name="Editor_CollisionShape" xml:space="preserve">
-    <value>Collision shape</value>
+    <value>Forma de colisão</value>
   </data>
   <data name="Editor_Physics" xml:space="preserve">
-    <value>Physics</value>
+    <value>Física</value>
   </data>
   <data name="Editor_Density" xml:space="preserve">
-    <value>Density</value>
+    <value>Densidade</value>
   </data>
   <data name="Editor_Restitution" xml:space="preserve">
-    <value>Restitution</value>
+    <value>Restituição</value>
   </data>
   <data name="Editor_Group" xml:space="preserve">
-    <value>Group</value>
+    <value>Grupo</value>
   </data>
   <data name="Editor_LinearDamping" xml:space="preserve">
-    <value>Linear damping</value>
+    <value>Amortecimento linear</value>
   </data>
   <data name="Editor_AngularDamping" xml:space="preserve">
-    <value>Angular damping</value>
+    <value>Amortecimento angular</value>
   </data>
   <data name="Editor_Friction" xml:space="preserve">
     <value>Friction</value>
@@ -4405,7 +4405,7 @@ Está destacado em azul na textura acima.</value>
     <value>About</value>
   </data>
   <data name="Main_BackgroundsTileSets" xml:space="preserve">
-    <value>Planos de fundo e tilesets</value>
+    <value>Backgrounds e tilesets</value>
   </data>
   <data name="Main_Downloading" xml:space="preserve">
     <value>Downloading</value>
@@ -4596,7 +4596,7 @@ Ele não pode ser exibido.</value>
     <value>This game contains texture(s) with unknown or unsupported image formats. These will save/load, but will not display in editors, and many operations will fail regarding them. Proceed with caution.</value>
   </data>
   <data name="Msg_YYCWarning" xml:space="preserve">
-    <value>This game uses YYC (YoYo Compiler), which means the code is embedded into the game executable. This configuration is currently not fully supported; continue at your own risk.</value>
+    <value>Este jogo usa YYC (YoYo Compiler), o que significa que o código está incorporado ao executável do jogo. Essa configuração atualmente não é totalmente suportada; continue por sua conta e risco.</value>
   </data>
   <data name="Room_Color" xml:space="preserve">
     <value>Color</value>
@@ -4668,10 +4668,10 @@ Ele não pode ser exibido.</value>
     <value>Code Locals</value>
   </data>
   <data name="TabTitle_EmbeddedImage" xml:space="preserve">
-    <value>Embedded Image</value>
+    <value>Imagem incorporada</value>
   </data>
   <data name="TabTitle_EmbeddedTexture" xml:space="preserve">
-    <value>Embedded Texture</value>
+    <value>Textura incorporada</value>
   </data>
   <data name="TabTitle_Extension" xml:space="preserve">
     <value>Extension</value>
@@ -4801,7 +4801,7 @@ It's highlighed in green on the texture above.</value>
     <value>Warning: Texture failed to load!</value>
   </data>
   <data name="Editor_TextureMouseInteractableHint" xml:space="preserve">
-    <value>Hint: This image is mouse interactable. You can click on it to select the corresponding texture page item.</value>
+    <value>Dica: Esta imagem é interativa com o mouse. Você pode clicar nela para selecionar o texture page item correspondente.</value>
   </data>
   <data name="Editor_TexturePages" xml:space="preserve">
     <value>Texture Pages</value>
@@ -5126,7 +5126,7 @@ It's highly recommended to restart the application.</value>
     <value>Background</value>
   </data>
   <data name="TabTitle_EmbeddedAudio" xml:space="preserve">
-    <value>Embedded Audio</value>
+    <value>Áudio incorporado</value>
   </data>
   <data name="TabTitle_ParticleSystem" xml:space="preserve">
     <value>Particle System</value>
@@ -5135,7 +5135,7 @@ It's highly recommended to restart the application.</value>
     <value>Path</value>
   </data>
   <data name="TabTitle_TextureGroupInfo" xml:space="preserve">
-    <value>Texture Group Info</value>
+    <value>Informações do Texture Group</value>
   </data>
   <data name="TabTitle_TexturePageItem" xml:space="preserve">
     <value>Texture Page Item</value>
@@ -5282,13 +5282,13 @@ It's highly recommended to restart the application.</value>
     <value>Replace in-place</value>
   </data>
   <data name="ImportGraphics_NewTexturePages" xml:space="preserve">
-    <value>New texture pages</value>
+    <value>Novo texture pages</value>
   </data>
   <data name="ImportGraphics_ReplaceInPlaceTip" xml:space="preserve">
-    <value>Replaces existing texture page items directly. Requires replacement images to match the exact dimensions of the originals. Only works with existing sprites.</value>
+    <value>Substitui os texture page items existentes diretamente. Requer que as imagens de substituição correspondam exatamente às dimensões das originais. Funciona apenas com sprites existentes.</value>
   </data>
   <data name="ImportGraphics_NewTexturePagesTip" xml:space="preserve">
-    <value>Creates new texture pages using a texture packer. Supports arbitrary dimensions, new sprites, backgrounds, GIF, and sprite strips.</value>
+    <value>Cria novos texture pages usando um empacotador de texturas. Suporta dimensões arbitrárias, novos sprites, backgrounds, GIF e sprite strips.</value>
   </data>
   <data name="ImportGraphics_ImportUnknownAsSprite" xml:space="preserve">
     <value>Import unknown type images as sprites</value>
@@ -5312,7 +5312,7 @@ It's highly recommended to restart the application.</value>
     <value>Special version:</value>
   </data>
   <data name="ImportGraphics_TexturePageSize" xml:space="preserve">
-    <value>Texture page size:</value>
+    <value>Tamanho do texture page:</value>
   </data>
   <data name="ImportGraphics_OK" xml:space="preserve">
     <value>OK</value>
@@ -5333,7 +5333,7 @@ It's highly recommended to restart the application.</value>
     <value>Please enter a valid number for special version.</value>
   </data>
   <data name="ImportGraphics_InvalidTexturePageSize" xml:space="preserve">
-    <value>Please select a valid texture page size.</value>
+    <value>Selecione um tamanho válido de texture page.</value>
   </data>
   <data name="ImportGraphics_Importing" xml:space="preserve">
     <value>Importing graphics...</value>
@@ -5408,22 +5408,22 @@ It's highly recommended to restart the application.</value>
     <value>Unknown</value>
   </data>
   <data name="ImportGraphics_KeepOriginalTexturePage" xml:space="preserve">
-    <value>Keep original texture page</value>
+    <value>Manter texture page original</value>
   </data>
   <data name="ImportGraphics_KeepOriginalTexturePageTip" xml:space="preserve">
-    <value>Keeps images on their original texture pages. If dimensions match, replaces in-place. If the new image is smaller, other items stay in place. If larger, the entire texture page is repacked. Only works with existing sprites.</value>
+    <value>Mantém as imagens em seus texture pages originais. Se as dimensões corresponderem, substitui no local. Se a nova imagem for menor, os outros itens permanecem no lugar. Se for maior, todo o texture page é reempacotado. Funciona apenas com sprites existentes.</value>
   </data>
   <data name="ImportGraphics_ColumnTexturePage" xml:space="preserve">
     <value>Texture Page</value>
   </data>
   <data name="MergeTP_Title" xml:space="preserve">
-    <value>Merge to Other Texture Page</value>
+    <value>Mesclar com Outro Texture Page</value>
   </data>
   <data name="MergeTP_Step1Title" xml:space="preserve">
     <value>Step 1: Select entries to merge</value>
   </data>
   <data name="MergeTP_Step2Title" xml:space="preserve">
-    <value>Step 2: Choose target texture page</value>
+    <value>Etapa 2: Escolha o texture page de destino</value>
   </data>
   <data name="MergeTP_SelectAll" xml:space="preserve">
     <value>Select All</value>
@@ -5438,10 +5438,10 @@ It's highly recommended to restart the application.</value>
     <value>{0} of {1} selected</value>
   </data>
   <data name="MergeTP_TargetPage" xml:space="preserve">
-    <value>Target texture page:</value>
+    <value>Texture page de destino:</value>
   </data>
   <data name="MergeTP_NewPage" xml:space="preserve">
-    <value>&lt;New texture page&gt;</value>
+    <value>&lt;Novo texture page&gt;</value>
   </data>
   <data name="MergeTP_Preview" xml:space="preserve">
     <value>Merge preview:</value>
@@ -5459,7 +5459,7 @@ It's highly recommended to restart the application.</value>
     <value>Please select at least one entry.</value>
   </data>
   <data name="MergeTP_SamePage" xml:space="preserve">
-    <value>Cannot merge to the same texture page.</value>
+    <value>Não é possível mesclar com o mesmo texture page.</value>
   </data>
   <data name="MergeTP_PackFailed" xml:space="preserve">
     <value>Failed to pack selected entries into the target page.</value>
@@ -5468,7 +5468,7 @@ It's highly recommended to restart the application.</value>
     <value>Successfully merged {0} entries to '{1}'.</value>
   </data>
   <data name="MergeTP_Button" xml:space="preserve">
-    <value>Move to other texture page</value>
+    <value>Mover para outro texture page</value>
   </data>
   <data name="MergeTP_PreviewSize" xml:space="preserve">
     <value>Preview size: {0}x{1}</value>
@@ -5627,7 +5627,7 @@ It's highly recommended to restart the application.</value>
     <value>_Adicionar bloco</value>
   </data>
   <data name="Room_AddBackgroundLayer" xml:space="preserve">
-    <value>_Adicionar camada de fundo</value>
+    <value>_Adicionar camada de background</value>
   </data>
   <data name="Room_AddInstancesLayer" xml:space="preserve">
     <value>_Adicionar camada de instâncias</value>
@@ -5654,16 +5654,16 @@ It's highly recommended to restart the application.</value>
     <value>_Adicionar instância de sprite</value>
   </data>
   <data name="Room_AddSequenceInstance" xml:space="preserve">
-    <value>_Adicionar instância de sequência</value>
+    <value>_Adicionar instância de Sequence</value>
   </data>
   <data name="Room_AddParticleSystemInstance" xml:space="preserve">
-    <value>_Add particle system instance</value>
+    <value>_Adicionar instância do Particle System</value>
   </data>
   <data name="Room_AddTextItemInstance" xml:space="preserve">
     <value>_Add text item instance</value>
   </data>
   <data name="Room_DeleteSequenceInstance" xml:space="preserve">
-    <value>_Remove sequence instance</value>
+    <value>_Remover instância de Sequence</value>
   </data>
   <data name="Room_DeleteTextItemInstance" xml:space="preserve">
     <value>_Remove text item instance</value>
@@ -5873,16 +5873,16 @@ It's highly recommended to restart the application.</value>
     <value>Export image as PNG</value>
   </data>
   <data name="Editor_EmbeddedTextures" xml:space="preserve">
-    <value>Embedded textures</value>
+    <value>Texturas incorporadas</value>
   </data>
   <data name="Editor_TextureGroupInfo_Directory" xml:space="preserve">
-    <value>Directory</value>
+    <value>Diretório</value>
   </data>
   <data name="Editor_TextureGroupInfo_Extension" xml:space="preserve">
-    <value>Extension</value>
+    <value>Extensão</value>
   </data>
   <data name="Editor_TextureGroupInfo_LoadType" xml:space="preserve">
-    <value>Load type</value>
+    <value>Tipo de carregamento</value>
   </data>
   <data name="Editor_TexPageItem_LoadImageWithoutPadding" xml:space="preserve">
     <value>Load image (without padding)</value>
@@ -6020,10 +6020,10 @@ It's highly recommended to restart the application.</value>
     <value>Origin</value>
   </data>
   <data name="Room_BackgroundNotSet" xml:space="preserve">
-    <value>(Background not set)</value>
+    <value>(Background não definido)</value>
   </data>
   <data name="Editor_EmbeddedAudioIDOnAudioGroup" xml:space="preserve">
-    <value>Embedded audio ID on audio group file</value>
+    <value>ID de áudio incorporado no arquivo do grupo de áudio</value>
   </data>
   <data name="Editor_AudioLength" xml:space="preserve">
     <value>Audio length</value>
@@ -6384,7 +6384,7 @@ It's highly recommended to restart the application.</value>
     <value>Apply basic graphics mod...</value>
   </data>
   <data name="Menu_Import_AllEmbeddedTextures" xml:space="preserve">
-    <value>Import all embedded textures...</value>
+    <value>Importar todas as texturas incorporadas...</value>
   </data>
   <data name="Menu_Import_AllTilesets" xml:space="preserve">
     <value>Importar todos os tilesets...</value>
@@ -6423,7 +6423,7 @@ It's highly recommended to restart the application.</value>
     <value>New texture repacker...</value>
   </data>
   <data name="Menu_Import_ReduceEmbeddedTexturePages" xml:space="preserve">
-    <value>Reduce embedded texture pages...</value>
+    <value>Reduzir texture pages incorporados...</value>
   </data>
   <data name="Menu_Export_AllSprites" xml:space="preserve">
     <value>Export all sprites...</value>
@@ -6432,7 +6432,7 @@ It's highly recommended to restart the application.</value>
     <value>Export all textures...</value>
   </data>
   <data name="Menu_Export_AllTexturesGrouped" xml:space="preserve">
-    <value>Export all textures (grouped)...</value>
+    <value>Exportar todas as texturas (agrupadas)...</value>
   </data>
   <data name="Menu_Export_AllTilesets" xml:space="preserve">
     <value>Exportar todos os tilesets...</value>
@@ -6441,7 +6441,7 @@ It's highly recommended to restart the application.</value>
     <value>Export all collision masks...</value>
   </data>
   <data name="Menu_Export_AllEmbeddedTextures" xml:space="preserve">
-    <value>Export all embedded textures...</value>
+    <value>Exportar todas as texturas incorporadas...</value>
   </data>
   <data name="Menu_Export_AllFonts" xml:space="preserve">
     <value>Export all fonts...</value>
@@ -6474,30 +6474,30 @@ It's highly recommended to restart the application.</value>
     <value>Export sprites as GIF...</value>
   </data>
   <data name="Menu_Export_TextureGroups" xml:space="preserve">
-    <value>Export texture groups...</value>
+    <value>Exportar texture groups...</value>
   </data>
   <data name="Menu_Export_AllRoomsToPNG" xml:space="preserve">
     <value>Export all rooms to PNG...</value>
   </data>
   <data name="Settings_BackgroundBrowse" xml:space="preserve">
-    <value>Browse</value>
+    <value>Procurar</value>
   </data>
   <data name="Settings_BackgroundClear" xml:space="preserve">
-    <value>Clear</value>
+    <value>Limpar</value>
   </data>
   <data name="Settings_BackgroundImage" xml:space="preserve">
-    <value>Custom background image: </value>
+    <value>Imagem de background personalizada: </value>
   </data>
   <data name="Settings_BackgroundImageFilter" xml:space="preserve">
-    <value>Image File (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff|Any File (*.*)|*.*</value>
+    <value>Arquivo de imagem (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff|Qualquer arquivo (*.*)|*.*</value>
   </data>
   <data name="Settings_BackgroundOpacity" xml:space="preserve">
-    <value>Background opacity: </value>
+    <value>Opacidade do background: </value>
   </data>
   <data name="Settings_BackgroundSelectTitle" xml:space="preserve">
-    <value>Select a background image</value>
+    <value>Selecionar uma imagem de background</value>
   </data>
   <data name="Settings_BackgroundStretchMode" xml:space="preserve">
-    <value>Background  image stretch mode: </value>
+    <value>Modo de esticamento da imagem de  Background: </value>
   </data>
 </root>
