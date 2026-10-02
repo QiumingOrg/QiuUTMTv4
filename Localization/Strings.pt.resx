@@ -4726,58 +4726,58 @@ Ele não pode ser exibido.</value>
     <value>Linha do tempo</value>
   </data>
   <data name="TabTitle_VariablesOverview" xml:space="preserve">
-    <value>Variables Overview</value>
+    <value>Visão geral das variáveis</value>
   </data>
   <data name="Common_True" xml:space="preserve">
     <value>True</value>
   </data>
   <data name="Common_Untitled" xml:space="preserve">
-    <value>Untitled</value>
+    <value>Sem título</value>
   </data>
   <data name="Common_Version" xml:space="preserve">
     <value>Version</value>
   </data>
   <data name="Dialog_CompilerError" xml:space="preserve">
-    <value>Compiler error</value>
+    <value>Erro do compilador</value>
   </data>
   <data name="Dialog_ReferencesOfAsset" xml:space="preserve">
     <value>As referências do objeto de jogo</value>
   </data>
   <data name="Dialog_Searching" xml:space="preserve">
-    <value>Searching</value>
+    <value>Pesquisando</value>
   </data>
   <data name="Dialog_UnreferencedGameAssets" xml:space="preserve">
     <value>Assets de jogo não referenciados</value>
   </data>
   <data name="Editor_AddNewExtensionOption" xml:space="preserve">
-    <value>Add new extension option</value>
+    <value>Adicionar nova opção de extensão</value>
   </data>
   <data name="Editor_Closed" xml:space="preserve">
-    <value>Closed</value>
+    <value>Fechado</value>
   </data>
   <data name="Editor_EmUnit" xml:space="preserve">
     <value> em</value>
   </data>
   <data name="Editor_ExportedSpriteGM2023" xml:space="preserve">
-    <value>Exported Sprite (GM 2023.8+)</value>
+    <value>Sprite exportado (GM 2023.8+)</value>
   </data>
   <data name="Editor_ExtensionNote1" xml:space="preserve">
-    <value>- Keep in mind that .gml files are either not present, or will be empty. (e.g. no functions)</value>
+    <value>- Tenha em mente que os arquivos .gml não estarão presentes ou estarão vazios. (ex.: sem funções)</value>
   </data>
   <data name="Editor_ExtensionNote2" xml:space="preserve">
-    <value>Because they are prebaked into GML scripts. That is completely normal.</value>
+    <value>Porque eles já estão incorporados aos scripts GML. Isso é completamente normal.</value>
   </data>
   <data name="Editor_ExtensionNoteTitle" xml:space="preserve">
     <value>THINGS TO NOTE:</value>
   </data>
   <data name="Editor_GeneratedMips" xml:space="preserve">
-    <value>Generated mips</value>
+    <value>Mips gerados</value>
   </data>
   <data name="Editor_GlyphSortNote1" xml:space="preserve">
-    <value>Note that the glyphs need to be specified in ascending order.</value>
+    <value>Observe que os glifos precisam ser especificados em ordem crescente.</value>
   </data>
   <data name="Editor_GlyphSortNote2" xml:space="preserve">
-    <value>Sort glyphs</value>
+    <value>Classificar glifos</value>
   </data>
   <data name="Editor_PathPreviewNote" xml:space="preserve">
     <value>TODO: A pré-visualização não atualiza em tempo real, mas atualizará ao trocar de aba e voltar.</value>
@@ -4786,17 +4786,17 @@ Ele não pode ser exibido.</value>
     <value>Points</value>
   </data>
   <data name="Editor_Precision" xml:space="preserve">
-    <value>Precision</value>
+    <value>Precisão</value>
   </data>
   <data name="Editor_SelectRegionEmptyGlyph" xml:space="preserve">
-    <value>Select a region of an empty glyph</value>
+    <value>Selecionar uma região de um glifo vazio</value>
   </data>
   <data name="Editor_ShiftTooltip" xml:space="preserve">
-    <value>The number of pixels to shift right when advancing to the next character.
-It's highlighed in green on the texture above.</value>
+    <value>O número de pixels a deslocar para a direita ao avançar para o próximo caractere.
+ Está destacado em verde na textura acima.</value>
   </data>
   <data name="Editor_TextureFailedToLoad" xml:space="preserve">
-    <value>Warning: Texture failed to load!</value>
+    <value>Aviso: Falha ao carregar a textura!</value>
   </data>
   <data name="Editor_TextureMouseInteractableHint" xml:space="preserve">
     <value>Dica: Esta imagem é interativa com o mouse. Você pode clicar nela para selecionar o texture page item correspondente.</value>
@@ -4814,7 +4814,7 @@ It's highlighed in green on the texture above.</value>
     <value>Nota: os glifos precisam ser especificados em ordem crescente para que isso funcione corretamente.</value>
   </data>
   <data name="Editor_Value" xml:space="preserve">
-    <value>Value</value>
+    <value>Valor</value>
   </data>
   <data name="Editor_VertexShaderAttributes" xml:space="preserve">
     <value>Atributos de vertex shader</value>
@@ -4823,171 +4823,170 @@ It's highlighed in green on the texture above.</value>
     <value>x</value>
   </data>
   <data name="Main_DownloadingNewVersion" xml:space="preserve">
-    <value>Downloading new version...</value>
+    <value>Baixando nova versão...</value>
   </data>
   <data name="Main_ExpandListToEdit" xml:space="preserve">
-    <value>Expand the list on the left to edit items</value>
+    <value>Expanda a lista à esquerda para editar os itens</value>
   </data>
   <data name="Main_IDLabelFormat" xml:space="preserve">
     <value>ID: {0}</value>
   </data>
   <data name="Main_LoadingEllipsis" xml:space="preserve">
-    <value>Loading...</value>
+    <value>Carregando...</value>
   </data>
   <data name="Main_LoadingPleaseWait" xml:space="preserve">
-    <value>Loading, please wait...</value>
+    <value>Carregando, aguarde...</value>
   </data>
   <data name="Main_NewFileDescription" xml:space="preserve">
-    <value>New file created, have fun making a game out of nothing
-I TOLD YOU to open a data.win, not create a new file! :P</value>
+    <value>Novo arquivo criado, divirta-se fazendo um jogo do nada
+EU MANDEI VOCÊ abrir um data.win, não criar um novo arquivo! :P</value>
   </data>
   <data name="Main_Saving" xml:space="preserve">
-    <value>Saving</value>
+    <value>Salvando</value>
   </data>
   <data name="Main_SavingPleaseWait" xml:space="preserve">
-    <value>Saving, please wait...</value>
+    <value>Salvando, aguarde...</value>
   </data>
   <data name="Main_ScriptFinished" xml:space="preserve">
-    <value>{0} finished!</value>
+    <value>{0} concluído!</value>
   </data>
   <data name="Menu_FindAllReferences" xml:space="preserve">
-    <value>Find all references</value>
+    <value>Encontrar todas as referências</value>
   </data>
   <data name="Menu_FindAllReferencesOfTile" xml:space="preserve">
-    <value>Find all references of this tile</value>
+    <value>Encontrar todas as referências deste tile</value>
   </data>
   <data name="Menu_FindAllReferencesToPageItem" xml:space="preserve">
-    <value>Find all references to this page item</value>
+    <value>Encontrar todas as referências a este item da página</value>
   </data>
   <data name="Menu_OpenInNewTab" xml:space="preserve">
-    <value>Open in new tab</value>
+    <value>Abrir em uma nova aba</value>
   </data>
   <data name="Msg_32BitProcessOn64BitOS" xml:space="preserve">
-    <value>Detected 32-bit (x86) version of UndertaleModTool on an 64-bit operating system.
-It's highly recommended to use the 64-bit version instead.
-Do you wish to download it?</value>
+    <value>Foi detectada a versão de 32 bits (x86) do UndertaleModTool em um sistema operacional de 64 bits.
+É altamente recomendável usar a versão de 64 bits. Deseja baixá-la?</value>
   </data>
   <data name="Msg_AudioFailure" xml:space="preserve">
-    <value>Audio failure</value>
+    <value>Falha de áudio</value>
   </data>
   <data name="Msg_CantOpenResultsWhileInProgress" xml:space="preserve">
-    <value>Can't open the results while the search is still in progress.</value>
+    <value>Não é possível abrir os resultados enquanto a busca ainda está em andamento.</value>
   </data>
   <data name="Msg_CantSearchWhileInProgress" xml:space="preserve">
-    <value>Can't start a new search while one is still in progress.</value>
+    <value>Não é possível iniciar uma nova busca enquanto outra ainda está em andamento.</value>
   </data>
   <data name="Msg_CantSearchYYC" xml:space="preserve">
-    <value>Cannot search in YYC compiled games.</value>
+    <value>Não é possível pesquisar em jogos compilados com YYC.</value>
   </data>
   <data name="Msg_ChildFileEscaped" xml:space="preserve">
-    <value>Failed to open child data file; escaped directory.</value>
+    <value>Falha ao abrir o arquivo de dados secundário; diretório fora do permitido.</value>
   </data>
   <data name="Msg_ChooseNewProjectName" xml:space="preserve">
-    <value>Choose a name for the new project</value>
+    <value>Escolha um nome para o novo projeto</value>
   </data>
   <data name="Msg_CodeEntries" xml:space="preserve">
-    <value>Code entries</value>
+    <value>Entradas de código</value>
   </data>
   <data name="Msg_DeleteItemConfirmWithWarning" xml:space="preserve">
-    <value>Delete {0}?
-Note that the code often references objects by ID, so this operation is likely to break stuff because other items will shift up!</value>
+    <value>Excluir {0}?
+Observe que o código frequentemente faz referência a objetos por ID, então é provável que essa operação cause problemas, pois outros itens terão seus IDs alterados!</value>
   </data>
   <data name="Msg_DisableDebuggerQuestion" xml:space="preserve">
-    <value>The game has the debugger enabled. Would you like to disable it so the game will run?</value>
+    <value>O jogo está com o depurador ativado. Deseja desativá-lo para que o jogo seja executado?</value>
   </data>
   <data name="Msg_DragDropAType" xml:space="preserve">
-    <value>(drag &amp; drop a {0})</value>
+    <value>(arraste e solte um {0})</value>
   </data>
   <data name="Msg_ErrorWhileParsingLine" xml:space="preserve">
-    <value>Error while parsing line {0} - "{1}".</value>
+    <value>Erro ao analisar a linha {0} - "{1}".</value>
   </data>
   <data name="Msg_ErrorWhileSavingFile" xml:space="preserve">
-    <value>Error while saving the file - "{0}".</value>
+    <value>Erro ao salvar o arquivo - "{0}".</value>
   </data>
   <data name="Msg_FailedPlayAudio" xml:space="preserve">
-    <value>Failed to play audio!
+    <value>Falha ao reproduzir o áudio!
 {0}</value>
   </data>
   <data name="Msg_FailedToChooseOutputFileName" xml:space="preserve">
-    <value>Failed to choose the output file name.</value>
+    <value>Falha ao escolher o nome do arquivo de saída.</value>
   </data>
   <data name="Msg_FailedToCreateProject" xml:space="preserve">
-    <value>Failed to create new project</value>
+    <value>Falha ao criar um novo projeto</value>
   </data>
   <data name="Msg_FailedToFetchBuild" xml:space="preserve">
-    <value>Failed to fetch latest build!
+    <value>Falha ao obter a compilação mais recente!
 {0}</value>
   </data>
   <data name="Msg_FailedToFindBuild" xml:space="preserve">
-    <value>Failed to find latest build!
-Detected action name - {0}</value>
+    <value>Falha ao encontrar a compilação mais recente!
+Nome da ação detectada - {0}</value>
   </data>
   <data name="Msg_GeneratingResultList" xml:space="preserve">
-    <value>Generating the result list...</value>
+    <value>Gerando a lista de resultados...</value>
   </data>
   <data name="Msg_GMSDebuggerSaveWarning" xml:space="preserve">
     <value>Você está salvando o jogo no modo de depuração do GameMaker Studio. A menos que o depurador esteja em execução, o runtime normal simplesmente travará após o carregamento. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
   </data>
   <data name="Msg_GMSDebuggerTitle" xml:space="preserve">
-    <value>GMS Debugger</value>
+    <value>Depurador GMS</value>
   </data>
   <data name="Msg_GMSDebuggerWarning" xml:space="preserve">
     <value>Este jogo está configurado para ser executado com o depurador do GameMaker Studio e o runtime normal simplesmente travará após o carregamento se o depurador não estiver em execução. Você pode desativar isso em Informações Gerais marcando a caixa "Desativar Depurador" e salvando.</value>
   </data>
   <data name="Msg_InvalidColorString" xml:space="preserve">
-    <value>Invalid color string</value>
+    <value>String de cor inválida</value>
   </data>
   <data name="Msg_InvalidRegex" xml:space="preserve">
-    <value>Invalid regex</value>
+    <value>Regex inválido</value>
   </data>
   <data name="Msg_Line" xml:space="preserve">
     <value>Line </value>
   </data>
   <data name="Msg_MultipleCodeEntriesError" xml:space="preserve">
-    <value>Multiple code entries matched the filter.</value>
+    <value>Várias entradas de código corresponderam ao filtro.</value>
   </data>
   <data name="Msg_NoCodeEntriesMatchFilter" xml:space="preserve">
-    <value>No code entries matched the filter.</value>
+    <value>Nenhuma entrada de código correspondeu ao filtro.</value>
   </data>
   <data name="Msg_NoDataWinLoaded" xml:space="preserve">
-    <value>No data file is currently loaded!</value>
+    <value>Nenhum arquivo de dados está carregado no momento!</value>
   </data>
   <data name="Msg_NoResultsToExport" xml:space="preserve">
-    <value>No results to export.</value>
+    <value>Nenhum resultado para exportar.</value>
   </data>
   <data name="Msg_NoScriptsFound" xml:space="preserve">
-    <value>No scripts found!</value>
+    <value>Nenhum script encontrado!</value>
   </data>
   <data name="Msg_ObjectReferenceIsStale" xml:space="preserve">
-    <value>The reference of game object "{0}" is stale (the referenced object was deleted).</value>
+    <value>A referência do objeto de jogo "{0}" está obsoleta (o objeto referenciado foi excluído).</value>
   </data>
   <data name="Msg_ObjectReferenceNoEditor" xml:space="preserve">
-    <value>The type of this object doesn't have an editor/viewer.</value>
+    <value>O tipo deste objeto não possui um editor/visualizador.</value>
   </data>
   <data name="Msg_ObjectReferencesAreStale" xml:space="preserve">
-    <value>The references of game object "{0}" are stale (some referenced objects were deleted).</value>
+    <value>As referências do objeto de jogo "{0}" estão obsoletas (alguns objetos referenciados foram excluídos).</value>
   </data>
   <data name="Msg_ObjectReferencesWindowError" xml:space="preserve">
-    <value>An error occurred in the object references related window.
-Please report this on GitHub.
+    <value>Ocorreu um erro na janela relacionada às referências de objetos.
+ Informe esse erro no GitHub.
 
 {0}</value>
   </data>
   <data name="Msg_OpenedProject" xml:space="preserve">
-    <value>Opened project "{0}".</value>
+    <value>Projeto "{0}" aberto.</value>
   </data>
   <data name="Msg_OpenProjectFile" xml:space="preserve">
     <value>Open project file</value>
   </data>
   <data name="Msg_ProgressBarUpdaterRunning" xml:space="preserve">
-    <value>Stopping the progress bar updater task is failed.
-It's highly recommended to restart the application.</value>
+    <value>Falha ao interromper a tarefa de atualização da barra de progresso.
+É altamente recomendável reiniciar o aplicativo.</value>
   </data>
   <data name="Msg_ProjectAlreadyOpen" xml:space="preserve">
-    <value>Project already open</value>
+    <value>Projeto já aberto</value>
   </data>
   <data name="Msg_ResultsIn" xml:space="preserve">
-    <value>Results in</value>
+    <value>Resultados em</value>
   </data>
   <data name="Msg_RoomCaptionFormat" xml:space="preserve">
     <value>{0}: {1}x{2}</value>
@@ -4996,81 +4995,81 @@ It's highly recommended to restart the application.</value>
     <value>O runtime selecionado não suporta depuração.</value>
   </data>
   <data name="Msg_RunWithDebuggerQuestion" xml:space="preserve">
-    <value>Are you sure that you want to run the game with GMS debugger?
-If you want to enable a debug mode in some game, then you need to use one of the scripts.</value>
+    <value>Tem certeza de que deseja executar o jogo com o depurador do GMS?
+Se você quiser ativar um modo de depuração em algum jogo, precisará usar um dos scripts.</value>
   </data>
   <data name="Msg_SavedProjectSuccessfully" xml:space="preserve">
-    <value>Saved project successfully.</value>
+    <value>Projeto salvo com sucesso.</value>
   </data>
   <data name="Msg_ScriptError" xml:space="preserve">
     <value>Script error</value>
   </data>
   <data name="Msg_ScriptWarning" xml:space="preserve">
-    <value>Script warning</value>
+    <value>Aviso de script</value>
   </data>
   <data name="Msg_SelectedObjectNotUndertaleResource" xml:space="preserve">
-    <value>The selected object is not an "UndertaleResource".</value>
+    <value>O objeto selecionado não é um "UndertaleResource".</value>
   </data>
   <data name="Msg_StopProgressBarFailed" xml:space="preserve">
-    <value>Stopping the progress bar updater task is failed.
-It's highly recommended to restart the application.</value>
+    <value>Falha ao interromper a tarefa de atualização da barra de progresso.
+É altamente recomendável reiniciar o aplicativo.</value>
   </data>
   <data name="Msg_TabContentStateRestoreFail" xml:space="preserve">
-    <value>The last tab content state can't be restored - "UserControl" is not found.</value>
+    <value>O estado do conteúdo da última aba não pode ser restaurado - "UserControl" não encontrado.</value>
   </data>
   <data name="Msg_TabContentStateRestoreFailScrollViewer" xml:space="preserve">
-    <value>The last tab content state can't be restored - "ScrollViewer" is not found.</value>
+    <value>O estado do conteúdo da última aba não pode ser restaurado - "ScrollViewer" não encontrado.</value>
   </data>
   <data name="Msg_TabContentStateSaveFail" xml:space="preserve">
-    <value>The last tab content state can't be saved - "UserControl" is not found.</value>
+    <value>O estado do conteúdo da última aba não pode ser salvo - "UserControl" não encontrado.</value>
   </data>
   <data name="Msg_TileOfFormat" xml:space="preserve">
-    <value>Tile {0} of {1}</value>
+    <value>Tile {0} de {1}</value>
   </data>
   <data name="Msg_TooManyCodeLines" xml:space="preserve">
-    <value>Too many code lines to display.</value>
+    <value>Linhas de código demais para exibir.</value>
   </data>
   <data name="Msg_UnexportedAssetsNewProject" xml:space="preserve">
     <value>Há assets marcados para exportação no projeto atual - deseja criar um novo projeto e descartar todas as alterações não exportadas?</value>
   </data>
   <data name="Msg_UnsupportedTexturesTitle" xml:space="preserve">
-    <value>Unsupported textures</value>
+    <value>Texturas não suportadas</value>
   </data>
   <data name="Msg_YYCTitle" xml:space="preserve">
     <value>YYC</value>
   </data>
   <data name="Room_AutoSizeTooltip" xml:space="preserve">
-    <value>Automatically set the tilemap size based on the room size</value>
+    <value>Definir automaticamente o tamanho do tilemap com base no tamanho da room</value>
   </data>
   <data name="Room_TileHint2" xml:space="preserve">
-    <value>Invalid mask data!</value>
+    <value>Dados de máscara inválidos!</value>
   </data>
   <data name="Settings_AutoFileAssociationToolTip" xml:space="preserve">
-    <value>Whether to automatically associate GameMaker data file types with UndertaleModTool.</value>
+    <value>Associar automaticamente os tipos de arquivos de dados do GameMaker ao UndertaleModTool.</value>
   </data>
   <data name="Settings_EnableDarkModeToolTip" xml:space="preserve">
-    <value>Whether to enable the dark mode theme.</value>
+    <value>Ativar o tema do modo escuro.</value>
   </data>
   <data name="Settings_CodeEditorTheme" xml:space="preserve">
     <value>Code editor theme:</value>
   </data>
   <data name="Settings_CodeEditorThemeToolTip" xml:space="preserve">
-    <value>Whether the code editor uses a light or dark theme, independently of the main app dark mode setting.</value>
+    <value>Define se o editor de código usa um tema claro ou escuro, independentemente da configuração de modo escuro do aplicativo principal.</value>
   </data>
   <data name="Settings_CodeEditorTheme_FollowApp" xml:space="preserve">
-    <value>Follow app theme</value>
+    <value>Seguir o tema do aplicativo</value>
   </data>
   <data name="Settings_CodeEditorTheme_Light" xml:space="preserve">
-    <value>Light</value>
+    <value>Claro</value>
   </data>
   <data name="Settings_CodeEditorTheme_Dark" xml:space="preserve">
-    <value>Dark</value>
+    <value>Escuro</value>
   </data>
   <data name="Settings_CodeEditorTheme_InverseApp" xml:space="preserve">
-    <value>Opposite of app theme</value>
+    <value>Oposto do tema do aplicativo</value>
   </data>
   <data name="Settings_GMLSettings" xml:space="preserve">
-    <value>GML compiler/decompiler settings</value>
+    <value>Configurações do compilador/decompilador de GML</value>
   </data>
   <data name="Settings_GMS1PathToolTip" xml:space="preserve">
     <value>O caminho para o diretório de instalação do GameMaker: Studio 1.4.</value>
@@ -5079,46 +5078,46 @@ It's highly recommended to restart the application.</value>
     <value>Caminho dos runtimes do GameMaker Studio 2:</value>
   </data>
   <data name="Settings_GridHeightToolTip" xml:space="preserve">
-    <value>Whether to override the global grid height for the room editor.</value>
+    <value>Define se a altura da grade global será substituída para o editor de sala.</value>
   </data>
   <data name="Settings_GridThicknessToolTip" xml:space="preserve">
-    <value>Whether to override the global grid thickness for the room editor.</value>
+    <value>Define se a espessura da grade global será substituída para o editor de sala.</value>
   </data>
   <data name="Settings_GridWidthToolTip" xml:space="preserve">
-    <value>Whether to override the global grid width for the room editor.</value>
+    <value>Define se a largura da grade global será substituída para o editor de sala.</value>
   </data>
   <data name="Settings_Language" xml:space="preserve">
-    <value>Language:</value>
+    <value>Idioma:</value>
   </data>
   <data name="Settings_LanguageToolTip" xml:space="preserve">
-    <value>Select the display language for the application.</value>
+    <value>Selecione o idioma de exibição do aplicativo.</value>
   </data>
   <data name="Settings_RecompileOnSave" xml:space="preserve">
-    <value>Recompile all source GML when saving a project data file</value>
+    <value>Recompilar todo o GML de origem ao salvar um arquivo de dados do projeto</value>
   </data>
   <data name="Settings_RememberWindowPlacementsToolTip" xml:space="preserve">
-    <value>Whether to remember the last window position and size.</value>
+    <value>Define se a última posição e tamanho da janela serão lembrados.</value>
   </data>
   <data name="Settings_CodeEditorShowCutCopyPaste" xml:space="preserve">
-    <value>Show Cut/Copy/Paste in code editor context menu</value>
+    <value>Mostrar Cortar/Copiar/Colar no menu de contexto do editor de código</value>
   </data>
   <data name="Settings_CodeEditorShowCutCopyPasteToolTip" xml:space="preserve">
-    <value>Whether the code editor context menu shows the Cut, Copy and Paste commands.</value>
+    <value>Define se o menu de contexto do editor de código exibe os comandos Cortar, Copiar e Colar.</value>
   </data>
   <data name="Settings_ShowDebuggerOptionToolTip" xml:space="preserve">
-    <value>Whether to show the "Run game under GMS debugger" option in the File menu.</value>
+    <value>Define se a opção "Executar jogo sob o depurador do GMS" será exibida no menu Arquivo.</value>
   </data>
   <data name="Settings_ShowNullEntriesToolTip" xml:space="preserve">
-    <value>Whether to show null entries in the resource tree view.</value>
+    <value>Define se as entradas nulas serão exibidas na árvore de recursos.</value>
   </data>
   <data name="Settings_WarnOnCloseToolTip" xml:space="preserve">
-    <value>Whether to show a warning when closing with unsaved changes.</value>
+    <value>Define se um aviso será exibido ao fechar com alterações não salvas.</value>
   </data>
   <data name="Settings_WarnTempRunToolTip" xml:space="preserve">
-    <value>Whether to show a warning when temporarily running the game.</value>
+    <value>Define se um aviso será exibido ao executar o jogo temporariamente.</value>
   </data>
   <data name="Settings_WindowTitle" xml:space="preserve">
-    <value>Settings</value>
+    <value>Configurações</value>
   </data>
   <data name="TabTitle_Background" xml:space="preserve">
     <value>Background</value>
@@ -5142,124 +5141,124 @@ It's highly recommended to restart the application.</value>
     <value>Variable</value>
   </data>
   <data name="Settings_Language_Note1" xml:space="preserve">
-    <value>The language of open tabs will only take effect after restarting the application.</value>
+    <value>O idioma das abas abertas só terá efeito após reiniciar o aplicativo.</value>
   </data>
   <data name="Menu_File_ImportFromFile" xml:space="preserve">
-    <value>_Import from file...</value>
+    <value>_Importar do arquivo...</value>
   </data>
   <data name="Dialog_ImportFromFile" xml:space="preserve">
-    <value>Import Resources from File</value>
+    <value>Importar recursos do arquivo</value>
   </data>
   <data name="ImportFile_SourceFile" xml:space="preserve">
     <value>Source data file:</value>
   </data>
   <data name="ImportFile_Browse" xml:space="preserve">
-    <value>Browse...</value>
+    <value>Procurar...</value>
   </data>
   <data name="ImportFile_ConflictResolution" xml:space="preserve">
-    <value>Name conflict resolution:</value>
+    <value>Resolução de conflitos de nomes:</value>
   </data>
   <data name="ImportFile_Skip" xml:space="preserve">
-    <value>Skip existing</value>
+    <value>Ignorar existentes</value>
   </data>
   <data name="ImportFile_Overwrite" xml:space="preserve">
-    <value>Overwrite existing</value>
+    <value>Substituir existentes</value>
   </data>
   <data name="ImportFile_Rename" xml:space="preserve">
-    <value>Rename imported</value>
+    <value>Renomear importados</value>
   </data>
   <data name="ImportFile_IncludeDependencies" xml:space="preserve">
-    <value>Automatically include dependencies</value>
+    <value>Incluir dependências automaticamente</value>
   </data>
   <data name="ImportFile_AvailableResources" xml:space="preserve">
-    <value>Available resources:</value>
+    <value>Recursos disponíveis:</value>
   </data>
   <data name="ImportFile_SelectedForImport" xml:space="preserve">
-    <value>Selected for import:</value>
+    <value>Selecionados para importação:</value>
   </data>
   <data name="ImportFile_SelectAll" xml:space="preserve">
-    <value>Select All</value>
+    <value>Selecionar tudo</value>
   </data>
   <data name="ImportFile_DeselectAll" xml:space="preserve">
-    <value>Deselect All</value>
+    <value>Desmarcar tudo</value>
   </data>
   <data name="ImportFile_Import" xml:space="preserve">
     <value>Import</value>
   </data>
   <data name="ImportFile_Loading" xml:space="preserve">
-    <value>Loading</value>
+    <value>Carregando</value>
   </data>
   <data name="ImportFile_LoadingPleaseWait" xml:space="preserve">
-    <value>Loading source data file, please wait...</value>
+    <value>Carregando arquivo de dados de origem, aguarde...</value>
   </data>
   <data name="ImportFile_Importing" xml:space="preserve">
-    <value>Importing</value>
+    <value>Importando</value>
   </data>
   <data name="ImportFile_ImportingPleaseWait" xml:space="preserve">
-    <value>Importing resources, please wait...</value>
+    <value>Importando recursos, aguarde...</value>
   </data>
   <data name="ImportFile_FileFilter" xml:space="preserve">
-    <value>Game data files</value>
+    <value>Arquivos de dados do jogo</value>
   </data>
   <data name="ImportFile_LoadError" xml:space="preserve">
-    <value>Failed to load source data file: {0}</value>
+    <value>Falha ao carregar o arquivo de dados de origem: {0}</value>
   </data>
   <data name="ImportFile_EnumerateError" xml:space="preserve">
-    <value>Failed to enumerate resources: {0}</value>
+    <value>Falha ao enumerar os recursos: {0}</value>
   </data>
   <data name="ImportFile_ImportError" xml:space="preserve">
-    <value>Import failed: {0}</value>
+    <value>Falha na importação: {0}</value>
   </data>
   <data name="ImportFile_Summary" xml:space="preserve">
-    <value>Import complete: {0} imported, {1} skipped, {2} overwritten</value>
+    <value>Importação concluída: {0} importados, {1} ignorados, {2} substituídos</value>
   </data>
   <data name="ImportFile_Warnings" xml:space="preserve">
-    <value>Warnings</value>
+    <value>Avisos</value>
   </data>
   <data name="ImportFile_Errors" xml:space="preserve">
-    <value>Errors</value>
+    <value>Erros</value>
   </data>
   <data name="ImportFile_AndMore" xml:space="preserve">
-    <value>...and {0} more</value>
+    <value>...e mais {0}</value>
   </data>
   <data name="ImportFile_ExistsInTarget" xml:space="preserve">
-    <value>already exists in target</value>
+    <value>já existe no destino</value>
   </data>
   <data name="Msg_ImportFromFileError" xml:space="preserve">
-    <value>Import from file error: {0}</value>
+    <value>Erro ao importar do arquivo: {0}</value>
   </data>
   <data name="Editor_WordWrap" xml:space="preserve">
-    <value>Word Wrap</value>
+    <value>Quebra de linha</value>
   </data>
   <data name="Editor_ShowWhitespace" xml:space="preserve">
-    <value>Show Whitespace</value>
+    <value>Mostrar espaços em branco</value>
   </data>
   <data name="Editor_ShowHoverInfo" xml:space="preserve">
-    <value>Hover Info</value>
+    <value>Informações ao passar o mouse</value>
   </data>
   <data name="Editor_ShowAutoDiagnostics" xml:space="preserve">
-    <value>Auto check errors</value>
+    <value>Verificar erros automaticamente</value>
   </data>
   <data name="Editor_ShowArgumentCountCheck" xml:space="preserve">
-    <value>Check for functions with possibly mismatched argument counts</value>
+    <value>Verificar funções com possível número incorreto de argumentos</value>
   </data>
   <data name="Editor_ArgMismatchTooFew" xml:space="preserve">
-    <value>Possible argument count mismatch: "{0}" requires at least {1}, but {2} were provided</value>
+    <value>Possível número incorreto de argumentos: "{0}" requer pelo menos {1}, mas {2} foram fornecidos</value>
   </data>
   <data name="Editor_ArgMismatchTooMany" xml:space="preserve">
-    <value>Possible argument count mismatch: "{0}" expects {1} argument(s), but {2} were provided</value>
+    <value>Possível número incorreto de argumentos: "{0}" espera {1} argumento(s), mas {2} foram fornecidos</value>
   </data>
   <data name="Editor_WarningsFound" xml:space="preserve">
-    <value>Warnings found: {0}</value>
+    <value>Avisos encontrados: {0}</value>
   </data>
   <data name="Editor_ErrorsAndWarningsFound" xml:space="preserve">
-    <value>Errors found: {0}, Warnings found: {1}</value>
+    <value>Erros encontrados: {0}, Avisos encontrados: {1}</value>
   </data>
   <data name="Editor_BuiltinFunction" xml:space="preserve">
-    <value>Built-in function</value>
+    <value>Função integrada</value>
   </data>
   <data name="Editor_BuiltinVariable" xml:space="preserve">
-    <value>Built-in variable</value>
+    <value>Variável integrada</value>
   </data>
   <data name="Menu_File_ImportGraphics" xml:space="preserve">
     <value>Import _Graphics...</value>
@@ -5268,16 +5267,16 @@ It's highly recommended to restart the application.</value>
     <value>Import Graphics</value>
   </data>
   <data name="ImportGraphics_ImportFolder" xml:space="preserve">
-    <value>Import folder:</value>
+    <value>Pasta de importação:</value>
   </data>
   <data name="ImportGraphics_Browse" xml:space="preserve">
-    <value>Browse...</value>
+    <value>Procurar...</value>
   </data>
   <data name="ImportGraphics_ImportMode" xml:space="preserve">
     <value>Import mode:</value>
   </data>
   <data name="ImportGraphics_ReplaceInPlace" xml:space="preserve">
-    <value>Replace in-place</value>
+    <value>Substituir no local</value>
   </data>
   <data name="ImportGraphics_NewTexturePages" xml:space="preserve">
     <value>Novo texture pages</value>
@@ -5289,19 +5288,19 @@ It's highly recommended to restart the application.</value>
     <value>Cria novos texture pages usando um empacotador de texturas. Suporta dimensões arbitrárias, novos sprites, backgrounds, GIF e sprite strips.</value>
   </data>
   <data name="ImportGraphics_ImportUnknownAsSprite" xml:space="preserve">
-    <value>Import unknown type images as sprites</value>
+    <value>Importar imagens de tipo desconhecido como sprites</value>
   </data>
   <data name="ImportGraphics_SpriteProperties" xml:space="preserve">
-    <value>Sprite Properties</value>
+    <value>Propriedades do sprite</value>
   </data>
   <data name="ImportGraphics_OriginPosition" xml:space="preserve">
-    <value>Origin position:</value>
+    <value>Posição da origem:</value>
   </data>
   <data name="ImportGraphics_AnimationSpeed" xml:space="preserve">
-    <value>Animation speed:</value>
+    <value>Velocidade da animação:</value>
   </data>
   <data name="ImportGraphics_PlaybackType" xml:space="preserve">
-    <value>Playback type:</value>
+    <value>Tipo de reprodução:</value>
   </data>
   <data name="ImportGraphics_IsSpecialType" xml:space="preserve">
     <value>Is special type</value>
@@ -5316,52 +5315,52 @@ It's highly recommended to restart the application.</value>
     <value>OK</value>
   </data>
   <data name="ImportGraphics_Cancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Cancelar</value>
   </data>
   <data name="ImportGraphics_NoFolderSelected" xml:space="preserve">
-    <value>Please select an import folder.</value>
+    <value>Selecione uma pasta de importação.</value>
   </data>
   <data name="ImportGraphics_FolderNotExist" xml:space="preserve">
-    <value>The selected folder does not exist.</value>
+    <value>A pasta selecionada não existe.</value>
   </data>
   <data name="ImportGraphics_InvalidAnimationSpeed" xml:space="preserve">
-    <value>Please enter a valid number for animation speed.</value>
+    <value>Insira um número válido para a velocidade da animação.</value>
   </data>
   <data name="ImportGraphics_InvalidSpecialVersion" xml:space="preserve">
-    <value>Please enter a valid number for special version.</value>
+    <value>Insira um número válido para a versão especial.</value>
   </data>
   <data name="ImportGraphics_InvalidTexturePageSize" xml:space="preserve">
     <value>Selecione um tamanho válido de texture page.</value>
   </data>
   <data name="ImportGraphics_Importing" xml:space="preserve">
-    <value>Importing graphics...</value>
+    <value>Importando gráficos...</value>
   </data>
   <data name="ImportGraphics_ImportComplete" xml:space="preserve">
-    <value>Import complete!</value>
+    <value>Importação concluída!</value>
   </data>
   <data name="ImportGraphics_ImportError" xml:space="preserve">
     <value>Import error: {0}</value>
   </data>
   <data name="ImportGraphics_Scan" xml:space="preserve">
-    <value>Scan</value>
+    <value>Escanear</value>
   </data>
   <data name="ImportGraphics_GlobalSettings" xml:space="preserve">
-    <value>Global Settings (apply to selected images)</value>
+    <value>Configurações globais (aplicar às imagens selecionadas)</value>
   </data>
   <data name="ImportGraphics_DefaultImportMode" xml:space="preserve">
     <value>Default import mode:</value>
   </data>
   <data name="ImportGraphics_ApplyDefaults" xml:space="preserve">
-    <value>Apply to Selected</value>
+    <value>Aplicar às selecionadas</value>
   </data>
   <data name="ImportGraphics_ImageList" xml:space="preserve">
-    <value>Images:</value>
+    <value>Imagens:</value>
   </data>
   <data name="ImportGraphics_SelectAll" xml:space="preserve">
-    <value>Select All</value>
+    <value>Selecionar tudo</value>
   </data>
   <data name="ImportGraphics_DeselectAll" xml:space="preserve">
-    <value>Deselect All</value>
+    <value>Desmarcar tudo</value>
   </data>
   <data name="ImportGraphics_SetSelectedMode" xml:space="preserve">
     <value>Set Mode</value>
@@ -5379,7 +5378,7 @@ It's highly recommended to restart the application.</value>
     <value>Frame</value>
   </data>
   <data name="ImportGraphics_ColumnDimensions" xml:space="preserve">
-    <value>Dimensions</value>
+    <value>Dimensões</value>
   </data>
   <data name="ImportGraphics_ColumnStatus" xml:space="preserve">
     <value>Status</value>
@@ -5388,10 +5387,10 @@ It's highly recommended to restart the application.</value>
     <value>Mode</value>
   </data>
   <data name="ImportGraphics_NoImagesFound" xml:space="preserve">
-    <value>No images found in the selected folder. Click "Scan" after selecting a folder.</value>
+    <value>Nenhuma imagem encontrada na pasta selecionada. Clique em "Escanear" após selecionar uma pasta.</value>
   </data>
   <data name="ImportGraphics_NoImagesSelected" xml:space="preserve">
-    <value>No images selected for import.</value>
+    <value>Nenhuma imagem selecionada para importação.</value>
   </data>
   <data name="ImportGraphics_TypeSprite" xml:space="preserve">
     <value>Sprite</value>
@@ -5403,7 +5402,7 @@ It's highly recommended to restart the application.</value>
     <value>Font</value>
   </data>
   <data name="ImportGraphics_TypeUnknown" xml:space="preserve">
-    <value>Unknown</value>
+    <value>Desconhecido</value>
   </data>
   <data name="ImportGraphics_KeepOriginalTexturePage" xml:space="preserve">
     <value>Manter texture page original</value>
@@ -5418,22 +5417,22 @@ It's highly recommended to restart the application.</value>
     <value>Mesclar com Outro Texture Page</value>
   </data>
   <data name="MergeTP_Step1Title" xml:space="preserve">
-    <value>Step 1: Select entries to merge</value>
+    <value>Etapa 1: Selecione as entradas para mesclar</value>
   </data>
   <data name="MergeTP_Step2Title" xml:space="preserve">
     <value>Etapa 2: Escolha o texture page de destino</value>
   </data>
   <data name="MergeTP_SelectAll" xml:space="preserve">
-    <value>Select All</value>
+    <value>Selecionar tudo</value>
   </data>
   <data name="MergeTP_DeselectAll" xml:space="preserve">
-    <value>Deselect All</value>
+    <value>Desmarcar tudo</value>
   </data>
   <data name="MergeTP_InvertSelection" xml:space="preserve">
-    <value>Invert Selection</value>
+    <value>Inverter seleção</value>
   </data>
   <data name="MergeTP_SelectedCount" xml:space="preserve">
-    <value>{0} of {1} selected</value>
+    <value>{0} de {1} selecionados</value>
   </data>
   <data name="MergeTP_TargetPage" xml:space="preserve">
     <value>Texture page de destino:</value>
@@ -5442,49 +5441,49 @@ It's highly recommended to restart the application.</value>
     <value>&lt;Novo texture page&gt;</value>
   </data>
   <data name="MergeTP_Preview" xml:space="preserve">
-    <value>Merge preview:</value>
+    <value>Prévia da mesclagem:</value>
   </data>
   <data name="MergeTP_Next" xml:space="preserve">
     <value>Next</value>
   </data>
   <data name="MergeTP_Back" xml:space="preserve">
-    <value>Back</value>
+    <value>Voltar</value>
   </data>
   <data name="MergeTP_Confirm" xml:space="preserve">
-    <value>Confirm</value>
+    <value>Confirmar</value>
   </data>
   <data name="MergeTP_NoSelection" xml:space="preserve">
-    <value>Please select at least one entry.</value>
+    <value>Selecione pelo menos uma entrada.</value>
   </data>
   <data name="MergeTP_SamePage" xml:space="preserve">
     <value>Não é possível mesclar com o mesmo texture page.</value>
   </data>
   <data name="MergeTP_PackFailed" xml:space="preserve">
-    <value>Failed to pack selected entries into the target page.</value>
+    <value>Falha ao empacotar as entradas selecionadas na página de destino.</value>
   </data>
   <data name="MergeTP_Success" xml:space="preserve">
-    <value>Successfully merged {0} entries to '{1}'.</value>
+    <value>{0} entradas mescladas com sucesso em "{1}".</value>
   </data>
   <data name="MergeTP_Button" xml:space="preserve">
     <value>Mover para outro texture page</value>
   </data>
   <data name="MergeTP_PreviewSize" xml:space="preserve">
-    <value>Preview size: {0}x{1}</value>
+    <value>Tamanho da prévia: {0}x{1}</value>
   </data>
   <data name="MergeTP_SourcePreview" xml:space="preserve">
-    <value>Source page after merge:</value>
+    <value>Página de origem após a mesclagem:</value>
   </data>
   <data name="MergeTP_Processing" xml:space="preserve">
     <value>Processing...</value>
   </data>
   <data name="MergeTP_PlacingItem" xml:space="preserve">
-    <value>Placing item {0} of {1}...</value>
+    <value>Posicionando item {0} de {1}...</value>
   </data>
   <data name="MergeTP_FullRepacking" xml:space="preserve">
-    <value>Full repacking...</value>
+    <value>Reempacotamento completo...</value>
   </data>
   <data name="ErrorDialog_CopyAll" xml:space="preserve">
-    <value>Copy all</value>
+    <value>Copiar tudo</value>
   </data>
   <data name="Menu_Import" xml:space="preserve">
     <value>_Import</value>
@@ -5493,16 +5492,16 @@ It's highly recommended to restart the application.</value>
     <value>_Export</value>
   </data>
   <data name="Menu_Tools" xml:space="preserve">
-    <value>_Tools</value>
+    <value>_Ferramentas</value>
   </data>
   <data name="Menu_File_Exit" xml:space="preserve">
-    <value>_Exit</value>
+    <value>_Sair</value>
   </data>
   <data name="Menu_Scripts_RunOther" xml:space="preserve">
-    <value>Run _other script</value>
+    <value>Executar _outro script</value>
   </data>
   <data name="Menu_Project_Reload" xml:space="preserve">
-    <value>_Reload project</value>
+    <value>_Recarregar projeto</value>
   </data>
   <data name="Common_Sort" xml:space="preserve">
     <value>Sort</value>
