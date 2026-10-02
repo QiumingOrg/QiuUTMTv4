@@ -5943,25 +5943,25 @@ Underta</value>
     <value>المقياس</value>
   </data>
   <data name="Room_X" xml:space="preserve">
-    <value>س</value>
+    <value>X</value>
   </data>
   <data name="Room_Y" xml:space="preserve">
-    <value>ص</value>
+    <value>Y</value>
   </data>
   <data name="Room_Font" xml:space="preserve">
     <value>الخط</value>
   </data>
   <data name="Room_ScaleX" xml:space="preserve">
-    <value>مقياس س</value>
+    <value>مقياس X</value>
   </data>
   <data name="Room_ScaleY" xml:space="preserve">
-    <value>مقياس ص</value>
+    <value>مقياس Y</value>
   </data>
   <data name="Room_OriginX" xml:space="preserve">
-    <value>الأصل س</value>
+    <value>الأصل X</value>
   </data>
   <data name="Room_OriginY" xml:space="preserve">
-    <value>الأصل ص</value>
+    <value>الأصل Y</value>
   </data>
   <data name="Room_Text" xml:space="preserve">
     <value>نص</value>
