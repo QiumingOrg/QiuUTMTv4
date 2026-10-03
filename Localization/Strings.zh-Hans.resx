@@ -541,6 +541,24 @@
   <data name="Msg_AndroidInstallPermission" xml:space="preserve">
     <value>安装更新需要允许本应用“安装未知应用”。请在打开的系统设置中授权后重试。</value>
   </data>
+  <data name="Msg_Android10StorageSetupTitle" xml:space="preserve">
+    <value>Android 10 存储权限</value>
+  </data>
+  <data name="Msg_Android10StorageSetup" xml:space="preserve">
+    <value>检测到本设备运行 Android 10，但应用还没有取得共享存储的直接访问权限，因此无法正常打开和保存文件。
+
+Android 10 需要额外一步操作（不会丢失应用数据）：
+
+1. 下载并安装“存储权限助手”前置 APK。它的版本号与本应用相同，可以直接覆盖安装（中途请不要卸载）：
+{0}
+2. 打开“QiuUTMTv5 存储权限助手”，允许它申请的存储权限。
+3. 再次安装本应用的正式版 APK，直接覆盖安装（中途请不要卸载）。
+4. 重新打开本应用。
+
+前置 APK 只用于让 Android 10 切回旧版存储模型，重新安装正式版后它会被替换掉。
+
+是否现在打开发布页面下载？</value>
+  </data>
   <data name="Msg_UpdatePackageMissing" xml:space="preserve">
     <value>在下载的更新中未找到可安装的安装包，即将打开发布页面。</value>
   </data>
