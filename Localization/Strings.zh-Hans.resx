@@ -5810,6 +5810,18 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Settings_Theme" xml:space="preserve">
     <value>主题：</value>
   </data>
+  <data name="Settings_DrawerMode" xml:space="preserve">
+    <value>资源浏览器侧栏：</value>
+  </data>
+  <data name="Settings_DrawerModeAuto" xml:space="preserve">
+    <value>根据屏幕宽度自动判断</value>
+  </data>
+  <data name="Settings_DrawerModeAlwaysExpanded" xml:space="preserve">
+    <value>始终展开（桌面模式）</value>
+  </data>
+  <data name="Settings_DrawerModeAlwaysCollapsed" xml:space="preserve">
+    <value>始终折叠（手机竖屏模式）</value>
+  </data>
   <data name="Settings_ThemeSystemDefault" xml:space="preserve">
     <value>系统默认</value>
   </data>

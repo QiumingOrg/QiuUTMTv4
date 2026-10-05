@@ -5870,6 +5870,18 @@ It's highly recommended to restart the application.</value>
   <data name="Settings_Theme" xml:space="preserve">
     <value>Theme:</value>
   </data>
+  <data name="Settings_DrawerMode" xml:space="preserve">
+    <value>Asset explorer sidebar:</value>
+  </data>
+  <data name="Settings_DrawerModeAuto" xml:space="preserve">
+    <value>Auto (based on screen width)</value>
+  </data>
+  <data name="Settings_DrawerModeAlwaysExpanded" xml:space="preserve">
+    <value>Always expanded (desktop mode)</value>
+  </data>
+  <data name="Settings_DrawerModeAlwaysCollapsed" xml:space="preserve">
+    <value>Always collapsed (phone portrait mode)</value>
+  </data>
   <data name="Settings_ThemeSystemDefault" xml:space="preserve">
     <value>System default</value>
   </data>
