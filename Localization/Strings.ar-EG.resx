@@ -6496,4 +6496,16 @@ The setup APK only exists to switch Android 10 back to the legacy storage model;
 
 Open the download page now?</value>
   </data>
+  <data name="Settings_DrawerMode" xml:space="preserve">
+    <value>Asset explorer sidebar:</value>
+  </data>
+  <data name="Settings_DrawerModeAuto" xml:space="preserve">
+    <value>Auto (based on screen width)</value>
+  </data>
+  <data name="Settings_DrawerModeAlwaysExpanded" xml:space="preserve">
+    <value>Always expanded (desktop mode)</value>
+  </data>
+  <data name="Settings_DrawerModeAlwaysCollapsed" xml:space="preserve">
+    <value>Always collapsed (phone portrait mode)</value>
+  </data>
 </root>
