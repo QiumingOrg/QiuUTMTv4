@@ -6516,15 +6516,15 @@ O APK de configuração existe apenas para fazer o Android 10 voltar ao modelo d
 Abrir a página de download agora?</value>
   </data>
   <data name="Settings_DrawerMode" xml:space="preserve">
-    <value>Asset explorer sidebar:</value>
+    <value>Barra lateral do explorador de assets:</value>
   </data>
   <data name="Settings_DrawerModeAuto" xml:space="preserve">
-    <value>Auto (based on screen width)</value>
+    <value>Automático (com base na largura da tela)</value>
   </data>
   <data name="Settings_DrawerModeAlwaysExpanded" xml:space="preserve">
-    <value>Always expanded (desktop mode)</value>
+    <value>Sempre expandido (modo desktop)</value>
   </data>
   <data name="Settings_DrawerModeAlwaysCollapsed" xml:space="preserve">
-    <value>Always collapsed (phone portrait mode)</value>
+    <value>Sempre recolhido (modo retrato do celular)</value>
   </data>
 </root>
