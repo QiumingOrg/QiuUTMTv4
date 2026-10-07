@@ -209,10 +209,10 @@
     <value>N/A</value>
   </data>
   <data name="Menu_File" xml:space="preserve">
-    <value>_arquivo</value>
+    <value>_Arquivo</value>
   </data>
   <data name="Menu_Edit" xml:space="preserve">
-    <value>_editar</value>
+    <value>_Editar</value>
   </data>
   <data name="Menu_Edit_GoToDefinition" xml:space="preserve">
     <value>_Ir para definição</value>
@@ -281,7 +281,7 @@
     <value>Encontre _assets não referenciados</value>
   </data>
   <data name="Menu_Project" xml:space="preserve">
-    <value>_projeto</value>
+    <value>_Projeto</value>
   </data>
   <data name="Menu_Project_New" xml:space="preserve">
     <value>_Novo projeto</value>
@@ -290,16 +290,16 @@
     <value>_Abrir projeto</value>
   </data>
   <data name="Menu_Project_Save" xml:space="preserve">
-    <value>_salvar projeto</value>
+    <value>_Salvar projeto</value>
   </data>
   <data name="Menu_Project_ViewUnexportedAssets" xml:space="preserve">
     <value>_Visualizar asset não exportado</value>
   </data>
   <data name="Menu_Project_Close" xml:space="preserve">
-    <value>_fechar projeto</value>
+    <value>_Fechar projeto</value>
   </data>
   <data name="Menu_Help" xml:space="preserve">
-    <value>_ajuda</value>
+    <value>_Ajuda</value>
   </data>
   <data name="Menu_Help_GitHub" xml:space="preserve">
     <value>_Github</value>
@@ -329,7 +329,7 @@
     <value>Sons</value>
   </data>
   <data name="Tree_Sprites" xml:space="preserve">
-    <value>sprites</value>
+    <value>Sprites</value>
   </data>
   <data name="Tree_BackgroundsTilesets" xml:space="preserve">
     <value>Backgrounds e Tile sets</value>
@@ -1273,7 +1273,7 @@
     <value>ID</value>
   </data>
   <data name="Editor_ExtFunc_ReturnType" xml:space="preserve">
-    <value>Return Type</value>
+    <value>Tipo de retorno</value>
   </data>
   <data name="Editor_ExtFunc_ArgumentTypes" xml:space="preserve">
     <value>Tipos de argumentos</value>
@@ -6496,5 +6496,35 @@ Se você quiser ativar um modo de depuração em algum jogo, precisará usar um 
   </data>
   <data name="Settings_BackgroundStretchMode" xml:space="preserve">
     <value>Modo de esticamento da imagem de  Background: </value>
+  </data>
+  <data name="Msg_Android10StorageSetupTitle" xml:space="preserve">
+    <value>Acesso ao armazenamento do Android 10</value>
+  </data>
+  <data name="Msg_Android10StorageSetup" xml:space="preserve">
+    <value>Este dispositivo executa o Android 10, mas o aplicativo ainda não tem acesso direto ao armazenamento compartilhado, então abrir e salvar arquivos não vai funcionar.
+
+O Android 10 precisa de uma etapa extra para isso (nenhum dado do aplicativo será perdido):
+
+1. Baixe e instale o pequeno APK de "configuração de armazenamento". Ele tem a mesma versão deste aplicativo, então pode ser instalado diretamente por cima dele (NÃO desinstale nada):
+{0}
+2. Abra "QiuUTMTv5 Storage Setup" e permita a permissão de armazenamento que ele solicitar.
+3. Instale novamente o APK normal deste aplicativo, diretamente por cima, sem desinstalar nada no meio do processo.
+4. Inicie este aplicativo novamente.
+
+O APK de configuração existe apenas para fazer o Android 10 voltar ao modelo de armazenamento legado; ao instalar este aplicativo novamente, ele é substituído.
+
+Abrir a página de download agora?</value>
+  </data>
+  <data name="Settings_DrawerMode" xml:space="preserve">
+    <value>Barra lateral do explorador de assets:</value>
+  </data>
+  <data name="Settings_DrawerModeAuto" xml:space="preserve">
+    <value>Automático (com base na largura da tela)</value>
+  </data>
+  <data name="Settings_DrawerModeAlwaysExpanded" xml:space="preserve">
+    <value>Sempre expandido (modo desktop)</value>
+  </data>
+  <data name="Settings_DrawerModeAlwaysCollapsed" xml:space="preserve">
+    <value>Sempre recolhido (modo retrato do celular)</value>
   </data>
 </root>

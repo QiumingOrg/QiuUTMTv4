@@ -6478,4 +6478,34 @@ Underta</value>
   <data name="Settings_BackgroundStretchMode" xml:space="preserve">
     <value>وضع تمديد صورة الخلفية: </value>
   </data>
+  <data name="Msg_Android10StorageSetupTitle" xml:space="preserve">
+    <value>Android 10 storage access</value>
+  </data>
+  <data name="Msg_Android10StorageSetup" xml:space="preserve">
+    <value>This device runs Android 10, but the app does not have direct access to shared storage yet, so opening and saving files will not work.
+
+Android 10 needs one extra step for that (no app data is lost):
+
+1. Download and install the small "storage setup" APK. It carries the same version as this app, so it can be installed straight on top of it (do NOT uninstall anything):
+{0}
+2. Open "QiuUTMTv5 Storage Setup" and allow the storage permission it asks for.
+3. Install this app's normal APK again, straight on top - do NOT uninstall anything in between.
+4. Start this app again.
+
+The setup APK only exists to switch Android 10 back to the legacy storage model; installing this app again replaces it.
+
+Open the download page now?</value>
+  </data>
+  <data name="Settings_DrawerMode" xml:space="preserve">
+    <value>Asset explorer sidebar:</value>
+  </data>
+  <data name="Settings_DrawerModeAuto" xml:space="preserve">
+    <value>Auto (based on screen width)</value>
+  </data>
+  <data name="Settings_DrawerModeAlwaysExpanded" xml:space="preserve">
+    <value>Always expanded (desktop mode)</value>
+  </data>
+  <data name="Settings_DrawerModeAlwaysCollapsed" xml:space="preserve">
+    <value>Always collapsed (phone portrait mode)</value>
+  </data>
 </root>
