@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,94 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Common_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Common_Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Common_Open" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="Common_Export" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="Common_Import" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="Common_Play" xml:space="preserve">
+    <value>Играть</value>
+  </data>
+  <data name="Common_Stop" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="Common_None" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Common_Done" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Common_OK" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="Common_Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Common_No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Common_Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Common_Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="Common_DoubleClickToAdd" xml:space="preserve">
+    <value>Двойной клик чтобы добавить</value>
+  </data>
+  <data name="Common_FilterByName" xml:space="preserve">
+    <value>Фильтр по имени</value>
+  </data>
+  <data name="Common_Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="Common_Copy" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="Common_Undo" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="Common_Redo" xml:space="preserve">
+    <value>Вернуть</value>
+  </data>
+  <data name="Common_Cut" xml:space="preserve">
+    <value>Обрезать</value>
+  </data>
+  <data name="Common_SelectAll" xml:space="preserve">
+    <value>Выбрать всё</value>
+  </data>
+  <data name="Common_CopyAll" xml:space="preserve">
+    <value>Копировать всё</value>
+  </data>
+  <data name="Common_OpenInNewTab" xml:space="preserve">
+    <value>Открыть в новой вкладке</value>
+  </data>
+  <data name="Common_Transparent" xml:space="preserve">
+    <value>Прозрачность</value>
+  </data>
+  <data name="Common_Smooth" xml:space="preserve">
+    <value>Гладкость</value>
+  </data>
 </root>
