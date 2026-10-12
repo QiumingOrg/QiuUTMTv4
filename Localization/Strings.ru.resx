@@ -148,4 +148,283 @@
   <data name="Common_Smooth" xml:space="preserve">
     <value>Гладкость</value>
   </data>
+  <data name="Common_Preload" xml:space="preserve">
+    <value>Предварительная загрузка</value>
+  </data>
+  <data name="Common_Texture" xml:space="preserve">
+    <value>Текстура</value>
+  </data>
+  <data name="Common_Scale" xml:space="preserve">
+    <value>Масштаб</value>
+  </data>
+  <data name="Common_List" xml:space="preserve">
+    <value>Лист</value>
+  </data>
+  <data name="Common_Code" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="Common_Flags" xml:space="preserve">
+    <value>Флаги</value>
+  </data>
+  <data name="Common_Type" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="Common_Size" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="Common_Position" xml:space="preserve">
+    <value>Позиция</value>
+  </data>
+  <data name="Common_Definition" xml:space="preserve">
+    <value>Определение</value>
+  </data>
+  <data name="Common_Enabled" xml:space="preserve">
+    <value>Включено</value>
+  </data>
+  <data name="Common_Visible" xml:space="preserve">
+    <value>Видимость</value>
+  </data>
+  <data name="Common_Color" xml:space="preserve">
+    <value>Цвет</value>
+  </data>
+  <data name="Common_Speed" xml:space="preserve">
+    <value>Скорость</value>
+  </data>
+  <data name="Common_Depth" xml:space="preserve">
+    <value>Глубина</value>
+  </data>
+  <data name="Common_Rotation" xml:space="preserve">
+    <value>Поворот</value>
+  </data>
+  <data name="Common_Kind" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Правка</value>
+  </data>
+  <data name="Common_Auto" xml:space="preserve">
+    <value>Авто</value>
+  </data>
+  <data name="Common_NA" xml:space="preserve">
+    <value>н/д</value>
+  </data>
+  <data name="Menu_File" xml:space="preserve">
+    <value>_Файл</value>
+  </data>
+  <data name="Menu_Edit" xml:space="preserve">
+    <value>_Правка</value>
+  </data>
+  <data name="Menu_Edit_GoToDefinition" xml:space="preserve">
+    <value>_Перейти к определению</value>
+  </data>
+  <data name="Menu_Edit_FindReferences" xml:space="preserve">
+    <value>Найти _Все ссылки</value>
+  </data>
+  <data name="Menu_Edit_FindSymbol" xml:space="preserve">
+    <value>_Найти символ</value>
+  </data>
+  <data name="Menu_Edit_Find" xml:space="preserve">
+    <value>_Найти</value>
+  </data>
+  <data name="Menu_Edit_Replace" xml:space="preserve">
+    <value>_Заменить</value>
+  </data>
+  <data name="Menu_File_New" xml:space="preserve">
+    <value>_Новый</value>
+  </data>
+  <data name="Menu_File_Open" xml:space="preserve">
+    <value>_Открыть</value>
+  </data>
+  <data name="Menu_File_RecentFiles" xml:space="preserve">
+    <value>Недавние_файлы</value>
+  </data>
+  <data name="Menu_File_RecentFiles_None" xml:space="preserve">
+    <value>Нет недавних файлов</value>
+  </data>
+  <data name="Menu_File_RecentFiles_Clear" xml:space="preserve">
+    <value>Очистить список недавних файлов</value>
+  </data>
+  <data name="Menu_File_Save" xml:space="preserve">
+    <value>_Сохранить</value>
+  </data>
+  <data name="Menu_File_TempRun" xml:space="preserve">
+    <value>_Временно запустить игру</value>
+  </data>
+  <data name="Menu_File_RunGMSDebugger" xml:space="preserve">
+    <value>Запустить игру под GMS_debugger</value>
+  </data>
+  <data name="Menu_File_RunOtherRunner" xml:space="preserve">
+    <value>Запустить игру с другим движком</value>
+  </data>
+  <data name="Menu_File_GenerateOffsetMap" xml:space="preserve">
+    <value>Создать карту смещения</value>
+  </data>
+  <data name="Menu_File_Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Menu_File_Close" xml:space="preserve">
+    <value>_Закрыть</value>
+  </data>
+  <data name="Menu_Scripts" xml:space="preserve">
+    <value>_Скрипты</value>
+  </data>
+  <data name="Menu_Scripts_Loading" xml:space="preserve">
+    <value>(...загрузка...)</value>
+  </data>
+  <data name="Menu_Find" xml:space="preserve">
+    <value>_Найти</value>
+  </data>
+  <data name="Menu_Find_SearchInCode" xml:space="preserve">
+    <value>_Поиск в коде</value>
+  </data>
+  <data name="Menu_Find_UnreferencedAssets" xml:space="preserve">
+    <value>Найти ассеты без ссылок</value>
+  </data>
+  <data name="Menu_Project" xml:space="preserve">
+    <value>_Проект</value>
+  </data>
+  <data name="Menu_Project_New" xml:space="preserve">
+    <value>_Новый проект</value>
+  </data>
+  <data name="Menu_Project_Open" xml:space="preserve">
+    <value>_Открыть проект</value>
+  </data>
+  <data name="Menu_Project_Save" xml:space="preserve">
+    <value>_Сохранить проект</value>
+  </data>
+  <data name="Menu_Project_ViewUnexportedAssets" xml:space="preserve">
+    <value>_Неэкспортированные ассеты</value>
+  </data>
+  <data name="Menu_Project_Close" xml:space="preserve">
+    <value>_Закрыть проект</value>
+  </data>
+  <data name="Menu_Help" xml:space="preserve">
+    <value>_Помощь</value>
+  </data>
+  <data name="Menu_Help_GitHub" xml:space="preserve">
+    <value>_GitHub</value>
+  </data>
+  <data name="Menu_Help_CheckForUpdates" xml:space="preserve">
+    <value>Проверить обновления</value>
+  </data>
+  <data name="Menu_Help_About" xml:space="preserve">
+    <value>_О программе</value>
+  </data>
+  <data name="Tree_Data" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="Tree_GeneralInfo" xml:space="preserve">
+    <value>Главная информация</value>
+  </data>
+  <data name="Tree_GlobalInit" xml:space="preserve">
+    <value>Глобальная инициатива</value>
+  </data>
+  <data name="Tree_GameEndScripts" xml:space="preserve">
+    <value>Скрипты завершения игры</value>
+  </data>
+  <data name="Tree_AudioGroups" xml:space="preserve">
+    <value>Аудиогруппы</value>
+  </data>
+  <data name="Tree_Sounds" xml:space="preserve">
+    <value>Звуки</value>
+  </data>
+  <data name="Tree_Sprites" xml:space="preserve">
+    <value>Спрайты</value>
+  </data>
+  <data name="Tree_BackgroundsTilesets" xml:space="preserve">
+    <value>Фоны и тайлсеты</value>
+  </data>
+  <data name="Tree_Tilesets" xml:space="preserve">
+    <value>Тайлсеты</value>
+  </data>
+  <data name="Tree_Paths" xml:space="preserve">
+    <value>Пути</value>
+  </data>
+  <data name="Tree_Scripts" xml:space="preserve">
+    <value>Скрипты</value>
+  </data>
+  <data name="Tree_Shaders" xml:space="preserve">
+    <value>Шейдеры</value>
+  </data>
+  <data name="Tree_Fonts" xml:space="preserve">
+    <value>Шрифты</value>
+  </data>
+  <data name="Tree_Timelines" xml:space="preserve">
+    <value>Таймлайны</value>
+  </data>
+  <data name="Tree_GameObjects" xml:space="preserve">
+    <value>Обьекты</value>
+  </data>
+  <data name="Tree_Rooms" xml:space="preserve">
+    <value>Комнаты</value>
+  </data>
+  <data name="Tree_Extensions" xml:space="preserve">
+    <value>Расширения</value>
+  </data>
+  <data name="Tree_TexturePageItems" xml:space="preserve">
+    <value>Элементы страницы текстур</value>
+  </data>
+  <data name="Tree_Code" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="Tree_Variables" xml:space="preserve">
+    <value>Переменные</value>
+  </data>
+  <data name="Tree_Functions" xml:space="preserve">
+    <value>Функции</value>
+  </data>
+  <data name="Tree_CodeLocals" xml:space="preserve">
+    <value>Локальные кода</value>
+  </data>
+  <data name="Tree_Strings" xml:space="preserve">
+    <value>Строки</value>
+  </data>
+  <data name="Tree_EmbeddedTextures" xml:space="preserve">
+    <value>Встроенные текстуры</value>
+  </data>
+  <data name="Tree_EmbeddedAudio" xml:space="preserve">
+    <value>Встроенное аудио</value>
+  </data>
+  <data name="Tree_TextureGroupInfo" xml:space="preserve">
+    <value>Информация о группе текстур</value>
+  </data>
+  <data name="Tree_EmbeddedImages" xml:space="preserve">
+    <value>Встроенные изображения</value>
+  </data>
+  <data name="Tree_ParticleSystems" xml:space="preserve">
+    <value>Системы частиц</value>
+  </data>
+  <data name="Tree_ParticleSystemEmitters" xml:space="preserve">
+    <value>Эмиттеры системы частиц</value>
+  </data>
+  <data name="Tab_Welcome" xml:space="preserve">
+    <value>Добро пожаловать!</value>
+  </data>
+  <data name="Tab_Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="Tab_CloseOtherTabs" xml:space="preserve">
+    <value>Закрыть другие вкладки</value>
+  </data>
+  <data name="Tab_CloseAllTabs" xml:space="preserve">
+    <value>Закрыть все вкладки</value>
+  </data>
+  <data name="Tab_DetachToNewWindow" xml:space="preserve">
+    <value>Открепить в новом окне</value>
+  </data>
+  <data name="Settings_Title" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Settings_GMS14Path" xml:space="preserve">
+    <value>Путь GameMaker: Studio 1.4:</value>
+  </data>
+  <data name="Settings_GMS14Path_Tooltip" xml:space="preserve">
+    <value>Требуется только, если вы хотите использовать программу запуска Studio, а не .exe, или запустить игру в режиме отладки.</value>
+  </data>
+  <data name="Settings_GMS2RuntimesPath" xml:space="preserve">
+    <value>Путь к исполняемым файлам GameMaker Studio 2:</value>
+  </data>
+  <data name="Settings_GMS2RuntimesPath_Tooltip" xml:space="preserve">
+    <value>Требуется только, если вы хотите запускать игры GMS 2 с помощью Studio runner, а не .exe</value>
+  </data>
 </root>
