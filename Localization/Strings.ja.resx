@@ -6503,33 +6503,33 @@ GitHub で報告してください。
     <value>背景画像ストレッチモード: </value>
   </data>
   <data name="Msg_Android10StorageSetupTitle" xml:space="preserve">
-    <value>Android 10 storage access</value>
+    <value>Android 10 のストレージアクセス</value>
   </data>
   <data name="Msg_Android10StorageSetup" xml:space="preserve">
-    <value>This device runs Android 10, but the app does not have direct access to shared storage yet, so opening and saving files will not work.
+    <value>この端末はAndroid 10を搭載していますが、本アプリはまだ共有ストレージに直接アクセスできないため、ファイルの開いたり保存したりすることはできません。
 
-Android 10 needs one extra step for that (no app data is lost):
+Android 10では、そのために1つ追加の手順が必要です（アプリデータが失われることはありません）：
 
-1. Download and install the small "storage setup" APK. It carries the same version as this app, so it can be installed straight on top of it (do NOT uninstall anything):
+1. 小さな「ストレージ設定」APKをダウンロードしてインストールしてください。このAPKは本アプリと同じバージョンですので、その上に直接インストールできます（何もアンインストールしないでください）：
 {0}
-2. Open "QiuUTMTv5 Storage Setup" and allow the storage permission it asks for.
-3. Install this app's normal APK again, straight on top - do NOT uninstall anything in between.
-4. Start this app again.
+2. 「QiuUTMTv5 Storage Setup」を開き、要求されるストレージ権限を許可してください。
+3. このアプリの通常のAPKを、その上に直接再度インストールしてください。その間に何もアンインストールしないでください。
+4. このアプリを再度起動してください。
 
-The setup APK only exists to switch Android 10 back to the legacy storage model; installing this app again replaces it.
+セットアップ用APKは、Android 10を従来のストレージモデルに戻すためだけに存在します。このアプリを再度インストールすると、セットアップ用APKは置き換えられます。
 
-Open the download page now?</value>
+今すぐダウンロードページを開きますか？</value>
   </data>
   <data name="Settings_DrawerMode" xml:space="preserve">
-    <value>Asset explorer sidebar:</value>
+    <value>アセットエクスプローラーのサイドバー：</value>
   </data>
   <data name="Settings_DrawerModeAuto" xml:space="preserve">
-    <value>Auto (based on screen width)</value>
+    <value>自動（画面の幅に基づいて）</value>
   </data>
   <data name="Settings_DrawerModeAlwaysExpanded" xml:space="preserve">
-    <value>Always expanded (desktop mode)</value>
+    <value>常に拡大(デスクトップモード)</value>
   </data>
   <data name="Settings_DrawerModeAlwaysCollapsed" xml:space="preserve">
-    <value>Always collapsed (phone portrait mode)</value>
+    <value>常に折りたたまれた状態（スマートフォンの縦向きモード）</value>
   </data>
 </root>
