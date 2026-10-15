@@ -6502,4 +6502,34 @@ GitHub で報告してください。
   <data name="Settings_BackgroundStretchMode" xml:space="preserve">
     <value>背景画像ストレッチモード: </value>
   </data>
+  <data name="Msg_Android10StorageSetupTitle" xml:space="preserve">
+    <value>Android 10 のストレージアクセス</value>
+  </data>
+  <data name="Msg_Android10StorageSetup" xml:space="preserve">
+    <value>この端末はAndroid 10を搭載していますが、本アプリはまだ共有ストレージに直接アクセスできないため、ファイルの開いたり保存したりすることはできません。
+
+Android 10では、そのために1つ追加の手順が必要です（アプリデータが失われることはありません）：
+
+1. 小さな「ストレージ設定」APKをダウンロードしてインストールしてください。このAPKは本アプリと同じバージョンですので、その上に直接インストールできます（何もアンインストールしないでください）：
+{0}
+2. 「QiuUTMTv5 Storage Setup」を開き、要求されるストレージ権限を許可してください。
+3. このアプリの通常のAPKを、その上に直接再度インストールしてください。その間に何もアンインストールしないでください。
+4. このアプリを再度起動してください。
+
+セットアップ用APKは、Android 10を従来のストレージモデルに戻すためだけに存在します。このアプリを再度インストールすると、セットアップ用APKは置き換えられます。
+
+今すぐダウンロードページを開きますか？</value>
+  </data>
+  <data name="Settings_DrawerMode" xml:space="preserve">
+    <value>アセットエクスプローラーのサイドバー：</value>
+  </data>
+  <data name="Settings_DrawerModeAuto" xml:space="preserve">
+    <value>自動（画面の幅に基づいて）</value>
+  </data>
+  <data name="Settings_DrawerModeAlwaysExpanded" xml:space="preserve">
+    <value>常に拡大(デスクトップモード)</value>
+  </data>
+  <data name="Settings_DrawerModeAlwaysCollapsed" xml:space="preserve">
+    <value>常に折りたたまれた状態（スマートフォンの縦向きモード）</value>
+  </data>
 </root>
