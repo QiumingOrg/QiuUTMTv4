@@ -1289,4 +1289,742 @@
   <data name="Editor_ExtFunc_ArgumentTypes" xml:space="preserve">
     <value>Типы аргументов</value>
   </data>
+  <data name="Editor_Timeline_ActionsCodeEntries" xml:space="preserve">
+    <value>Действия (ввод кода)</value>
+  </data>
+  <data name="Editor_ExtFunc_KindRunnerNote" xml:space="preserve">
+    <value>Движку буквально все равно, какое значение у параметра Kind. 
+ А вот ID имеет значение, поэтому убедитесь, что у вас нет пересечений.</value>
+  </data>
+  <data name="Editor_AudioGroup_Path" xml:space="preserve">
+    <value>Путь (GM 2024.14+)</value>
+  </data>
+  <data name="Editor_TexGroup_TextureGroup" xml:space="preserve">
+    <value>Группа текстуры</value>
+  </data>
+  <data name="Editor_TexGroup_GroupName" xml:space="preserve">
+    <value>Имя группы</value>
+  </data>
+  <data name="Editor_TexGroup_TexturePages" xml:space="preserve">
+    <value>Страницы текстуры</value>
+  </data>
+  <data name="Editor_TexGroup_Sprites" xml:space="preserve">
+    <value>Спрайты</value>
+  </data>
+  <data name="Editor_TexGroup_SpineSprites" xml:space="preserve">
+    <value>Spine спрайты</value>
+  </data>
+  <data name="Editor_TexGroup_Fonts" xml:space="preserve">
+    <value>Шрифты</value>
+  </data>
+  <data name="Editor_TexGroup_Tilesets" xml:space="preserve">
+    <value>Наборы плиток</value>
+  </data>
+  <data name="Room_Backgrounds" xml:space="preserve">
+    <value>Фоны</value>
+  </data>
+  <data name="Room_Views" xml:space="preserve">
+    <value>Виды</value>
+  </data>
+  <data name="Room_GameObjects" xml:space="preserve">
+    <value>Игровые объекты</value>
+  </data>
+  <data name="Room_Tiles" xml:space="preserve">
+    <value>Плитки</value>
+  </data>
+  <data name="Room_Layers" xml:space="preserve">
+    <value>Слои</value>
+  </data>
+  <data name="Room_Caption" xml:space="preserve">
+    <value>Подпись</value>
+  </data>
+  <data name="Room_Persistent" xml:space="preserve">
+    <value>Стойкий</value>
+  </data>
+  <data name="Room_BackgroundColor" xml:space="preserve">
+    <value>Цвет фона</value>
+  </data>
+  <data name="Room_DrawBackgroundColor" xml:space="preserve">
+    <value>Цвет фона рисунка</value>
+  </data>
+  <data name="Room_CreationCode" xml:space="preserve">
+    <value>Код создания</value>
+  </data>
+  <data name="Room_World" xml:space="preserve">
+    <value>Мир</value>
+  </data>
+  <data name="Room_TopLeftRightBottom" xml:space="preserve">
+    <value>Сверху/Слева/Справа/Снизу</value>
+  </data>
+  <data name="Room_Gravity" xml:space="preserve">
+    <value>Гравитация</value>
+  </data>
+  <data name="Room_GridWidth" xml:space="preserve">
+    <value>Ширина сетки</value>
+  </data>
+  <data name="Room_GridHeight" xml:space="preserve">
+    <value>Высота сетки</value>
+  </data>
+  <data name="Room_GridThickness" xml:space="preserve">
+    <value>Толщина сетки</value>
+  </data>
+  <data name="Room_Foreground" xml:space="preserve">
+    <value>Передний план</value>
+  </data>
+  <data name="Room_Tiling" xml:space="preserve">
+    <value>Укладка плитки</value>
+  </data>
+  <data name="Room_Stretch" xml:space="preserve">
+    <value>Протяжение</value>
+  </data>
+  <data name="Room_View" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="Room_PosSize" xml:space="preserve">
+    <value>Позиция/размер</value>
+  </data>
+  <data name="Room_PortPosSize" xml:space="preserve">
+    <value>Позиция/размер порта</value>
+  </data>
+  <data name="Room_Border" xml:space="preserve">
+    <value>Граница</value>
+  </data>
+  <data name="Room_FollowsObject" xml:space="preserve">
+    <value>Следует за объектом</value>
+  </data>
+  <data name="Room_InstanceID" xml:space="preserve">
+    <value>ID экземпляра</value>
+  </data>
+  <data name="Room_CreationCodeObj" xml:space="preserve">
+    <value>Код создания</value>
+  </data>
+  <data name="Room_PreCreateCode" xml:space="preserve">
+    <value>Код предварительного создания</value>
+  </data>
+  <data name="Room_FrameIndex" xml:space="preserve">
+    <value>Индекс кадра</value>
+  </data>
+  <data name="Room_ImageSpeed" xml:space="preserve">
+    <value>Скорость изображения</value>
+  </data>
+  <data name="Room_Source" xml:space="preserve">
+    <value>Источник</value>
+  </data>
+  <data name="Room_TileSelectHint" xml:space="preserve">
+    <value>Подсказка: вы можете выбрать плитку, нажав на нее. 
+Чтобы выделить часть плитки, удерживайте клавишу ALT.</value>
+  </data>
+  <data name="Room_LayerName" xml:space="preserve">
+    <value>Имя слоя</value>
+  </data>
+  <data name="Room_LayerID" xml:space="preserve">
+    <value>ID слоя</value>
+  </data>
+  <data name="Room_LayerType" xml:space="preserve">
+    <value>Тип слоя</value>
+  </data>
+  <data name="Room_LayerDepth" xml:space="preserve">
+    <value>Глубина</value>
+  </data>
+  <data name="Room_Offset" xml:space="preserve">
+    <value>Смещение</value>
+  </data>
+  <data name="Room_EmptyLayerData" xml:space="preserve">
+    <value>Пустые данные слоя.</value>
+  </data>
+  <data name="Room_ContainsGameObjects" xml:space="preserve">
+    <value>Содержит экземпляры объектов игры, перечисленные в дереве слева</value>
+  </data>
+  <data name="Room_ContainsLegacyTiles" xml:space="preserve">
+    <value>Содержит устаревшие тайлы и спрайты, перечисленные в дереве слева</value>
+  </data>
+  <data name="Room_TileSet" xml:space="preserve">
+    <value>Наборы плиток</value>
+  </data>
+  <data name="Room_TileData" xml:space="preserve">
+    <value>Данные плиток</value>
+  </data>
+  <data name="Room_FirstFrame" xml:space="preserve">
+    <value>Первый кадр</value>
+  </data>
+  <data name="Room_AnimationSpeed" xml:space="preserve">
+    <value>Скорость анимации</value>
+  </data>
+  <data name="Room_SaveAsPNG" xml:space="preserve">
+    <value>Сохр. как PNG</value>
+  </data>
+  <data name="Room_CopyObject" xml:space="preserve">
+    <value>Копировать объект</value>
+  </data>
+  <data name="Room_DeleteObject" xml:space="preserve">
+    <value>Удалить объект</value>
+  </data>
+  <data name="Room_CopyTile" xml:space="preserve">
+    <value>Копировать плитку</value>
+  </data>
+  <data name="Room_DeleteTile" xml:space="preserve">
+    <value>Удалить плитку</value>
+  </data>
+  <data name="Room_CopySpriteInstance" xml:space="preserve">
+    <value>Копировать экземпляр спрайта</value>
+  </data>
+  <data name="Room_DeleteSpriteInstance" xml:space="preserve">
+    <value>Удалить экземпляр спрайта</value>
+  </data>
+  <data name="Room_CopyParticleSystemInstance" xml:space="preserve">
+    <value>Копировать экземпляр системы частиц</value>
+  </data>
+  <data name="Room_DeleteParticleSystemInstance" xml:space="preserve">
+    <value>Удалить экземпляр системы частиц</value>
+  </data>
+  <data name="Room_DeleteBackground" xml:space="preserve">
+    <value>Удалить фон</value>
+  </data>
+  <data name="Room_DisableView" xml:space="preserve">
+    <value>Отключить вид</value>
+  </data>
+  <data name="Room_NewObjectInstance" xml:space="preserve">
+    <value>Новый экземпляр объекта</value>
+  </data>
+  <data name="Room_PasteObjectInstance" xml:space="preserve">
+    <value>Вставить экземпляр объекта</value>
+  </data>
+  <data name="Room_NewTile" xml:space="preserve">
+    <value>Новая плитка</value>
+  </data>
+  <data name="Room_PasteTile" xml:space="preserve">
+    <value>Вставить плитку</value>
+  </data>
+  <data name="Room_NewGMS1Tile" xml:space="preserve">
+    <value>Новая плитка</value>
+  </data>
+  <data name="Room_NewInstancesLayer" xml:space="preserve">
+    <value>Новый слой экземпляров</value>
+  </data>
+  <data name="Room_NewTilesLayer" xml:space="preserve">
+    <value>Новый слой плиток</value>
+  </data>
+  <data name="Room_NewBackgroundLayer" xml:space="preserve">
+    <value>Новый слой фона</value>
+  </data>
+  <data name="Room_NewAssetsLayer" xml:space="preserve">
+    <value>Новый слой ассетов</value>
+  </data>
+  <data name="Room_NewGMS2ObjectInstance" xml:space="preserve">
+    <value>Новый объект экземпляра</value>
+  </data>
+  <data name="Room_DeleteLayer" xml:space="preserve">
+    <value>Удалить слой</value>
+  </data>
+  <data name="Room_NewLegacyTile" xml:space="preserve">
+    <value>Новая устаревшая плитка</value>
+  </data>
+  <data name="Room_NewSpriteInstance" xml:space="preserve">
+    <value>Новый экземпляр спрайта</value>
+  </data>
+  <data name="Room_PasteAsset" xml:space="preserve">
+    <value>Вставить ассет</value>
+  </data>
+  <data name="Room_MoveItemUp" xml:space="preserve">
+    <value>Переместить элемент вверх (-)</value>
+  </data>
+  <data name="Room_MoveItemDown" xml:space="preserve">
+    <value>Переместить элемент вниз (+)</value>
+  </data>
+  <data name="Room_TileFormat" xml:space="preserve">
+    <value>Плитка {0} из {1}</value>
+  </data>
+  <data name="Room_SpriteFormat" xml:space="preserve">
+    <value>Спрайт {0} из {1}</value>
+  </data>
+  <data name="Room_ParticleSystemFormat" xml:space="preserve">
+    <value>Система частиц {0} из {1}</value>
+  </data>
+  <data name="Room_TileGMS1Format" xml:space="preserve">
+    <value>Плитка {0} из {1} (UndertaleRoom+Tile)</value>
+  </data>
+  <data name="Msg_WelcomeTitle" xml:space="preserve">
+    <value>Добро пожаловать в UndertaleModTool!</value>
+  </data>
+  <data name="Msg_WelcomeDescription" xml:space="preserve">
+    <value>Для начала откройте файл data.win, затем дважды щелкните по элементам слева, чтобы их просмотреть.</value>
+  </data>
+  <data name="Msg_WelcomeDescriptionLoaded" xml:space="preserve">
+    <value>Дважды щелкните по элементам слева, чтобы их просмотреть!</value>
+  </data>
+  <data name="Msg_WelcomeDescriptionNoData" xml:space="preserve">
+    <value>Для начала откройте файл data.win, затем дважды щелкните по элементам слева, чтобы их просмотреть</value>
+  </data>
+  <data name="Msg_NewFileDescription" xml:space="preserve">
+    <value>Файл создан, наслаждайтесь процессом создания игры из ничего
+Я ЖЕ СКАЗАЛ ВАМ открыть data.win, а не создавать новый файл! :P</value>
+  </data>
+  <data name="Msg_ExpandListToEdit" xml:space="preserve">
+    <value>Разверните список слева, чтобы редактировать элементы</value>
+  </data>
+  <data name="Msg_LoadDataFirst" xml:space="preserve">
+    <value>Сначала загрузите файл data.win</value>
+  </data>
+  <data name="Msg_NoGameLoaded" xml:space="preserve">
+    <value>Игра не загружена</value>
+  </data>
+  <data name="Msg_MarkedForExport" xml:space="preserve">
+    <value>Отмечено для экспорта:</value>
+  </data>
+  <data name="Msg_MarkedForExportTooltip" xml:space="preserve">
+    <value>Будет ли текущий открытый актив помечен для экспорта в текущий открытый проект при следующем сохранении.</value>
+  </data>
+  <data name="Msg_ObjectIDTooltip" xml:space="preserve">
+    <value>Это идентификатор (индекс) текущего открытого актива, элемента или объекта. Отсчет начинается с 0.</value>
+  </data>
+  <data name="Msg_FirstTimeSetup" xml:space="preserve">
+    <value>Первоначальная настройка: хотите ли вы связать файлы данных GameMaker (например, .win) с UndertaleModTool?</value>
+  </data>
+  <data name="Msg_FileAssociations" xml:space="preserve">
+    <value>Сопоставление файлов</value>
+  </data>
+  <data name="Msg_Loading" xml:space="preserve">
+    <value>Загрузка</value>
+  </data>
+  <data name="Msg_LoadingPleaseWait" xml:space="preserve">
+    <value>Загрузка, пожалуйста, подождите...</value>
+  </data>
+  <data name="Msg_Saving" xml:space="preserve">
+    <value>Сохранение</value>
+  </data>
+  <data name="Msg_SavingPleaseWait" xml:space="preserve">
+    <value>Идёт сохранение, пожалуйста, подождите...</value>
+  </data>
+  <data name="Msg_DecompileWait" xml:space="preserve">
+    <value>Декомпиляция, пожалуйста, подождите... На сложных скриптах это может занять некоторое время.</value>
+  </data>
+  <data name="Msg_CompilingWait" xml:space="preserve">
+    <value>Компиляция, пожалуйста, подождите...</value>
+  </data>
+  <data name="Msg_GeneratingDebuggerData" xml:space="preserve">
+    <value>Генерация данных отладчика...</value>
+  </data>
+  <data name="Msg_RecompilingGMLWait" xml:space="preserve">
+    <value>Идет рекомпилирование кода GML, пожалуйста, подождите...</value>
+  </data>
+  <data name="Msg_SavingDataFileWait" xml:space="preserve">
+    <value>Сохранение файла данных, пожалуйста, подождите...</value>
+  </data>
+  <data name="Msg_ScriptInProgress" xml:space="preserve">
+    <value>Скрипт в процессе...</value>
+  </data>
+  <data name="Msg_ScriptPleaseWait" xml:space="preserve">
+    <value>Пожалуйста, подождите...</value>
+  </data>
+  <data name="Msg_LoadError" xml:space="preserve">
+    <value>Произошла ошибка при попытке загрузить:
+{0}</value>
+  </data>
+  <data name="Msg_RecentFileNotFound" xml:space="preserve">
+    <value>Недавний файл не найден:
+{0}
+Он будет удален из списка недавних файлов.</value>
+  </data>
+  <data name="Msg_SaveError" xml:space="preserve">
+    <value>Произошла ошибка при попытке сохранить:
+{0}</value>
+  </data>
+  <data name="Msg_RecompileError" xml:space="preserve">
+    <value>Произошла ошибка при попытке перекомпилировать исходные коды:
+{0}</value>
+  </data>
+  <data name="Msg_CodeEditorSaveError" xml:space="preserve">
+    <value>Изменения в редакторе кода не были сохранены из-за ошибки в функции SaveCodeChanges().</value>
+  </data>
+  <data name="Msg_ErrorsDuringLoading" xml:space="preserve">
+    <value>При загрузке возникли ошибки. Высока вероятность потери данных! Действуйте на свой страх и риск.</value>
+  </data>
+  <data name="Msg_FailedLoadSettings" xml:space="preserve">
+    <value>Не удалось загрузить settings.json! Используются значения по умолчанию.
+{0}</value>
+  </data>
+  <data name="Msg_FailedSaveSettings" xml:space="preserve">
+    <value>Не удалось сохранить settings.json!
+{0}</value>
+  </data>
+  <data name="Msg_LoadingWarning" xml:space="preserve">
+    <value>Предупреждение о загрузке</value>
+  </data>
+  <data name="Msg_LoadingProblems" xml:space="preserve">
+    <value>Проблемы с загрузкой</value>
+  </data>
+  <data name="Msg_WarningsDuringLoading" xml:space="preserve">
+    <value>При загрузке возникли предупреждения. При попытке сохранить данные возможна их потеря!</value>
+  </data>
+  <data name="Msg_UnsupportedBytecodeVersion" xml:space="preserve">
+    <value>На данный момент поддерживаются только версии байт-кода с 13 по 17. Вы пытаетесь загрузить {0}. Большая часть кода отключена и, скорее всего, что-то сломает. Сохранение и экспорт отключены.</value>
+  </data>
+  <data name="Msg_YYC" xml:space="preserve">
+    <value>В этой игре используется YYC (YoYo Compiler), то есть код встроен в исполняемый файл игры. В настоящее время такая конфигурация поддерживается не полностью; используйте ее на свой страх и риск.</value>
+  </data>
+  <data name="Msg_GMSDebugger" xml:space="preserve">
+    <value>Эта игра предназначена для запуска с помощью отладчика GameMaker Studio, и без него обычная среда выполнения просто зависнет после загрузки.  Вы можете отключить отладчик в разделе «Общая информация», установив флажок «Отключить отладчик» и сохранив изменения.</value>
+  </data>
+  <data name="Msg_UnsupportedTextures" xml:space="preserve">
+    <value>Эта игра содержит текстуры с неизвестными или неподдерживаемыми форматами изображений. Они будут сохранены / загружены, но не будут отображаться в редакторах, и многие операции с ними завершатся ошибкой. Действуйте осторожно.</value>
+  </data>
+  <data name="Msg_SavingInDebugMode" xml:space="preserve">
+    <value>Вы сохраняете игру в режиме отладки GameMaker Studio. Если отладчик не запущен, обычная среда выполнения просто зависнет после загрузки. Это можно отключить в разделе «Общая информация», установив флажок «Отключить отладчик» и сохранив изменения.</value>
+  </data>
+  <data name="Msg_UpdaterDidntExit" xml:space="preserve">
+    <value>Приложение UndertaleModToolUpdater не закрылось.
+Не удается удалить его временную папку.</value>
+  </data>
+  <data name="Msg_UpdaterTempFolderError" xml:space="preserve">
+    <value>Временную папку обновления не удается удалить.
+Ошибка — {0}.</value>
+  </data>
+  <data name="Msg_ItemNameNull" xml:space="preserve">
+    <value>Имя элемента равно null.</value>
+  </data>
+  <data name="Msg_SaveFailedCannotRun" xml:space="preserve">
+    <value>Не удалось сохранить, не запускается.</value>
+  </data>
+  <data name="Msg_FileMustBeSavedToRun" xml:space="preserve">
+    <value>Для запуска файл должен быть сохранен.</value>
+  </data>
+  <data name="Msg_YouMustSaveToRun" xml:space="preserve">
+    <value>Для запуска необходимо сохранить изменения.</value>
+  </data>
+  <data name="Msg_UseDebuggerOption" xml:space="preserve">
+    <value>Для запуска игры используйте опцию «Запустить игру с помощью отладчика».</value>
+  </data>
+  <data name="Msg_NothingToRun" xml:space="preserve">
+    <value>Нечего запускать!</value>
+  </data>
+  <data name="Msg_NullGameExeName" xml:space="preserve">
+    <value>Имя или расположение исполняемого файла игры Null</value>
+  </data>
+  <data name="Msg_FailedFindGameExePath" xml:space="preserve">
+    <value>Не удалось найти допустимый путь к исполняемому файлу игры; каталог экранирован</value>
+  </data>
+  <data name="Msg_CannotFindGameExePath" xml:space="preserve">
+    <value>Не удается найти путь к исполняемому файлу игры, ожидается: {0}</value>
+  </data>
+  <data name="Msg_CannotFindDataFilePath" xml:space="preserve">
+    <value>Не удается найти путь к файлу данных, ожидается: {0}</value>
+  </data>
+  <data name="Msg_CannotFindGamePath" xml:space="preserve">
+    <value>Не удается найти путь к игре, ожидалось найти его по адресу: {0}</value>
+  </data>
+  <data name="Msg_FailedOpenChildFile" xml:space="preserve">
+    <value>Не удалось открыть дочерний файл данных; каталог экранирован.</value>
+  </data>
+  <data name="Msg_SelectedRuntimeNoDebug" xml:space="preserve">
+    <value>Выбранная среда выполнения не поддерживает отладку.</value>
+  </data>
+  <data name="Msg_FailedOpenBrowser" xml:space="preserve">
+    <value>Не удалось открыть браузер!
+{0}</value>
+  </data>
+  <data name="Msg_FailedOpenFolder" xml:space="preserve">
+    <value>Не удалось открыть папку!
+{0}</value>
+  </data>
+  <data name="Msg_32BitOS" xml:space="preserve">
+    <value>Ваша операционная система 32-разрядная.
+</value>
+  </data>
+  <data name="Msg_NotEnoughSpace" xml:space="preserve">
+    <value>Недостаточно места на системном диске {0} — требуется не менее 500 МБ.</value>
+  </data>
+  <data name="Msg_FailedFetchLatestBuild" xml:space="preserve">
+    <value>Не удалось загрузить последнюю сборку!
+{0}</value>
+  </data>
+  <data name="Msg_FailedFindLatestBuild" xml:space="preserve">
+    <value>Не удалось найти последнюю сборку!
+Обнаружено имя действия — {0}</value>
+  </data>
+  <data name="Msg_AlreadyUpToDate" xml:space="preserve">
+    <value>UndertaleModTool уже обновлен.
+Все равно обновить?</value>
+  </data>
+  <data name="Msg_32BitOn64Bit" xml:space="preserve">
+    <value>Обнаружена 32-битная (x86) версия UndertaleModTool в 64-битной операционной системе.
+</value>
+  </data>
+  <data name="Msg_FailedFindArtifact" xml:space="preserve">
+    <value>Не удалось найти заготовку!</value>
+  </data>
+  <data name="Msg_UpdaterNotFound" xml:space="preserve">
+    <value>Программа обновления не найдена! Прерываем обновление, сообщите об этом разработчикам!
+Проверено местоположение: {0}</value>
+  </data>
+  <data name="Msg_CantCopyUpdater" xml:space="preserve">
+    <value>Не удается скопировать приложение updater во временную папку.
+{0}</value>
+  </data>
+  <data name="Msg_FailedDownloadNewVersion" xml:space="preserve">
+    <value>Не удалось загрузить новую версию UndertaleModTool.
+Ошибка — {0}.</value>
+  </data>
+  <data name="Msg_CantCopyItemName" xml:space="preserve">
+    <value>Не удалось скопировать название предмета в буфер обмена из-за следующей ошибки:
+{0}</value>
+  </data>
+  <data name="Msg_ErrorInObjectReferencesWindow" xml:space="preserve">
+    <value>Произошла ошибка в связанном с объектными ссылками окне.
+</value>
+  </data>
+  <data name="Msg_ErrorAddingMenuItem" xml:space="preserve">
+    <value>Произошла ошибка при попытке добавить пункт меню. Никаких действий предпринято не было.
+
+Ошибка:
+
+{0}</value>
+  </data>
+  <data name="Msg_ScriptFileDoesntExist" xml:space="preserve">
+    <value>Файл скрипта не существует.</value>
+  </data>
+  <data name="Msg_CantFindCodeEntry" xml:space="preserve">
+    <value>Не удается найти запись кода "{0}".
+ (вероятно, были загружены другие игровые данные)</value>
+  </data>
+  <data name="Msg_StoppingProgressBarFailed" xml:space="preserve">
+    <value>Не удалось остановить задачу обновления индикатора выполнения. 
+ Настоятельно рекомендуется перезапустить приложение.</value>
+  </data>
+  <data name="Msg_ProjectOpenMakeNew" xml:space="preserve">
+    <value>Предупреждение: в данный момент у вас открыт проект. 
+ Вы уверены, что хотите создать новый проект?</value>
+  </data>
+  <data name="Msg_RunAsScript" xml:space="preserve">
+    <value>Запустить {0} как скрипт?</value>
+  </data>
+  <data name="Msg_OpenAsDataFile" xml:space="preserve">
+    <value>Открыть {0} как файл данных?</value>
+  </data>
+  <data name="Msg_SaveToProjectDataFile" xml:space="preserve">
+    <value>Сохранить в указанный файл данных проекта для сохранения?</value>
+  </data>
+  <data name="Msg_ProjectOpenOpenAnother" xml:space="preserve">
+    <value>В данный момент открыт проект. Открыть другой файл данных и отменить все несохраненные изменения?</value>
+  </data>
+  <data name="Msg_AssetsMarkedForExportQuit" xml:space="preserve">
+    <value>В текущем проекте есть активы, помеченные для экспорта. 
+ Действительно хотите выйти?</value>
+  </data>
+  <data name="Msg_SaveBeforeQuitting" xml:space="preserve">
+    <value>Сохранить изменения перед выходом?</value>
+  </data>
+  <data name="Msg_ScriptStillRunSaveAnyway" xml:space="preserve">
+    <value>Скрипт все еще выполняется. Все равно сохранить?
+ Это может привести к повреждению сохраняемого файла данных.</value>
+  </data>
+  <data name="Msg_DeleteObject" xml:space="preserve">
+    <value>Удалить {0}?</value>
+  </data>
+  <data name="Msg_DeleteObjectShiftNote" xml:space="preserve">
+    <value>Удалить {0}?
+
+ Обратите внимание, что в коде объекты часто ссылаются по идентификатору, поэтому эта операция может привести к сбоям, так как другие элементы сместятся вверх!</value>
+  </data>
+  <data name="Msg_InvalidIdentifierAddAutoName" xml:space="preserve">
+    <value>Имя ресурса "{0}" не является допустимым идентификатором. Добавить новый ресурс с автоматически сгенерированным именем?</value>
+  </data>
+  <data name="Msg_AddToRoomOrderList" xml:space="preserve">
+    <value>Добавить новую комнату в конец списка комнат для заказа?</value>
+  </data>
+  <data name="Msg_DebuggerEnabledDisableToRun" xml:space="preserve">
+    <value>В игре включен отладчик. Хотите отключить его, чтобы игра запустилась?</value>
+  </data>
+  <data name="Msg_SaveChangesFirst" xml:space="preserve">
+    <value>Сначала сохранить изменения?</value>
+  </data>
+  <data name="Msg_RunGMSDebuggerConfirm" xml:space="preserve">
+    <value>Вы уверены, что хотите запустить игру с отладчиком GMS?
+</value>
+  </data>
+  <data name="Dialog_Confirmation" xml:space="preserve">
+    <value>Подтверждение</value>
+  </data>
+  <data name="Dialog_LoadError" xml:space="preserve">
+    <value>Ошибка загрузки</value>
+  </data>
+  <data name="Dialog_SaveError" xml:space="preserve">
+    <value>Ошибка сохранения</value>
+  </data>
+  <data name="Dialog_RecompileError" xml:space="preserve">
+    <value>Ошибка перекомпиляции</value>
+  </data>
+  <data name="Dialog_ScriptCompileError" xml:space="preserve">
+    <value>Ошибка компиляции скрипта</value>
+  </data>
+  <data name="Dialog_ScriptError" xml:space="preserve">
+    <value>Ошибка скрипта</value>
+  </data>
+  <data name="Dialog_ScriptWarning" xml:space="preserve">
+    <value>Предупреждение скрипта</value>
+  </data>
+  <data name="Dialog_ScriptQuestion" xml:space="preserve">
+    <value>Вопрос скрипта</value>
+  </data>
+  <data name="Dialog_RunError" xml:space="preserve">
+    <value>Ошибка выполнения</value>
+  </data>
+  <data name="Dialog_UnsupportedBytecodeVersion" xml:space="preserve">
+    <value>Неподдерживаемая версия байт-кода</value>
+  </data>
+  <data name="Dialog_GMSDebugger" xml:space="preserve">
+    <value>GMS отладчик</value>
+  </data>
+  <data name="Dialog_UnsupportedTextures" xml:space="preserve">
+    <value>Неподдерживаемые текстуры</value>
+  </data>
+  <data name="Dialog_ProjectCurrentlyOpen" xml:space="preserve">
+    <value>Проект в данный момент открыт</value>
+  </data>
+  <data name="Dialog_Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Dialog_DebugData" xml:space="preserve">
+    <value>Данные отладки</value>
+  </data>
+  <data name="Dialog_StringReferenceChanged" xml:space="preserve">
+    <value>Изменена ссылка на строку</value>
+  </data>
+  <data name="Dialog_RuntimePicker" xml:space="preserve">
+    <value>Выбор времени выполнения</value>
+  </data>
+  <data name="Dialog_SearchInCode" xml:space="preserve">
+    <value>Поиск в коде</value>
+  </data>
+  <data name="Dialog_UnexportedProjectAssets" xml:space="preserve">
+    <value>Неэкспортированные ресурсы проекта</value>
+  </data>
+  <data name="Dialog_FindReferencesTypes" xml:space="preserve">
+    <value>Типы ссылок</value>
+  </data>
+  <data name="Dialog_FindReferencesResults" xml:space="preserve">
+    <value>Ссылки на игровой объект ""</value>
+  </data>
+  <data name="Filter_DataFiles" xml:space="preserve">
+    <value>Файлы данных GameMaker (.win, .unx, .ios, .droid, audiogroup*.dat)</value>
+  </data>
+  <data name="Filter_MainDataFiles" xml:space="preserve">
+    <value>Основные файлы данных GameMaker (.win, .unx, .ios, .droid)</value>
+  </data>
+  <data name="Cmd_CloseCurrentTab" xml:space="preserve">
+    <value>Закрыть текущую вкладку</value>
+  </data>
+  <data name="Cmd_CloseAllTabs" xml:space="preserve">
+    <value>Закрыть все вкладки</value>
+  </data>
+  <data name="Cmd_RestoreLastClosedTab" xml:space="preserve">
+    <value>Восстановить последнюю закрытую вкладку</value>
+  </data>
+  <data name="Cmd_SwitchToNextTab" xml:space="preserve">
+    <value>Перейти на следующую вкладку</value>
+  </data>
+  <data name="Cmd_SwitchToPrevTab" xml:space="preserve">
+    <value>Перейти на предыдущую вкладку</value>
+  </data>
+  <data name="Cmd_SearchInCode" xml:space="preserve">
+    <value>Поиск в коде</value>
+  </data>
+  <data name="Cmd_NewProject" xml:space="preserve">
+    <value>Новый проект</value>
+  </data>
+  <data name="Cmd_OpenProject" xml:space="preserve">
+    <value>Открыть проект</value>
+  </data>
+  <data name="Cmd_SaveProject" xml:space="preserve">
+    <value>Сохранить проект</value>
+  </data>
+  <data name="Cmd_ViewProjectAssets" xml:space="preserve">
+    <value>Просмотреть ресурсы проекта</value>
+  </data>
+  <data name="Cmd_CloseProject" xml:space="preserve">
+    <value>Закрыть проект</value>
+  </data>
+  <data name="Cmd_CompileCode" xml:space="preserve">
+    <value>Компилировать код</value>
+  </data>
+  <data name="Cmd_AlternatePaste" xml:space="preserve">
+    <value>Альтернативная команда вставки</value>
+  </data>
+  <data name="Cmd_MirrorBrush" xml:space="preserve">
+    <value>Отполировать кисть</value>
+  </data>
+  <data name="Cmd_FlipBrush" xml:space="preserve">
+    <value>Перевернуть кисть</value>
+  </data>
+  <data name="Cmd_RotateBrushCW" xml:space="preserve">
+    <value>Повернуть кисть на 90 градусов по часовой</value>
+  </data>
+  <data name="Cmd_RotateBrushCCW" xml:space="preserve">
+    <value>Повернуть кисть на 90 градусов против часовой</value>
+  </data>
+  <data name="Cmd_ToggleTileGrid" xml:space="preserve">
+    <value>Переключить сетку плиток</value>
+  </data>
+  <data name="Cmd_ToggleBrushTiling" xml:space="preserve">
+    <value>Включить/отключить поведение «тайлинг» для кистей с несколькими тайлами</value>
+  </data>
+  <data name="Cmd_ToggleRoomPreview" xml:space="preserve">
+    <value>Переключить предварительный просмотр комнаты</value>
+  </data>
+  <data name="Cmd_Undo" xml:space="preserve">
+    <value>Отменяет действия</value>
+  </data>
+  <data name="Cmd_Redo" xml:space="preserve">
+    <value>Повторяет действия</value>
+  </data>
+  <data name="Status_Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="Status_Forward" xml:space="preserve">
+    <value>Вперед</value>
+  </data>
+  <data name="Ctrl_Remove" xml:space="preserve">
+    <value>Убрать</value>
+  </data>
+  <data name="DebugData_Question" xml:space="preserve">
+    <value>Отладчик включен. Хотите сгенерировать данные отладчика?</value>
+  </data>
+  <data name="DebugData_Decompile" xml:space="preserve">
+    <value>Декомпилировано</value>
+  </data>
+  <data name="DebugData_DecompileDesc" xml:space="preserve">
+    <value>Декомпилировать весь исходный код при сохранении для отображения в отладчике</value>
+  </data>
+  <data name="DebugData_NoBreakpointNote" xml:space="preserve">
+    <value>ПРИМЕЧАНИЕ: поддержка точек останова пока не реализована! За исключением точки входа в скрипт</value>
+  </data>
+  <data name="DebugData_DisassemblyPartial" xml:space="preserve">
+    <value>Разборка, частичные точки останова</value>
+  </data>
+  <data name="DebugData_DisassemblyPartialDesc" xml:space="preserve">
+    <value>Полная дизассемблированная версия, но точки останова можно устанавливать только на B, BR, BT, POP, POPZ, RET и EXIT. Это все равно гораздо больше того, что мог обработать бедный отладчик GM:S, так что подождите минут пять, пока он загрузит файл данных (да, серьезно).</value>
+  </data>
+  <data name="DebugData_DisassemblyFull" xml:space="preserve">
+    <value>Разборка, полные точки останова</value>
+  </data>
+  <data name="DebugData_DisassemblyFullDesc" xml:space="preserve">
+    <value>Сдался после 15 минут ожидания, даже не пытайтесь</value>
+  </data>
+  <data name="DebugData_NoDebugData" xml:space="preserve">
+    <value>Нет данных для отладки</value>
+  </data>
+  <data name="StringUpdate_Question" xml:space="preserve">
+    <value>Вы отредактировали ссылку на строку! Что вы хотите сделать?</value>
+  </data>
+  <data name="StringUpdate_ChangeOnlyThisValue" xml:space="preserve">
+    <value>Измените только это значение</value>
+  </data>
+  <data name="StringUpdate_ChangeAllOccurrences" xml:space="preserve">
+    <value>Изменить все вхождения этого значения</value>
+  </data>
+  <data name="StringUpdate_AbortChange" xml:space="preserve">
+    <value>Отменить изменение</value>
+  </data>
+  <data name="RuntimePicker_SelectRuntime" xml:space="preserve">
+    <value>Выберите среду выполнения, которую хотите использовать</value>
+  </data>
 </root>
