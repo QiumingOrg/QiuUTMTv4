@@ -209,34 +209,34 @@
     <value>н/д</value>
   </data>
   <data name="Menu_File" xml:space="preserve">
-    <value>_Файл</value>
+    <value>Файл(_F)</value>
   </data>
   <data name="Menu_Edit" xml:space="preserve">
-    <value>_Правка</value>
+    <value>Правка(_E)</value>
   </data>
   <data name="Menu_Edit_GoToDefinition" xml:space="preserve">
-    <value>_Перейти к определению</value>
+    <value>Перейти к определению(_G)</value>
   </data>
   <data name="Menu_Edit_FindReferences" xml:space="preserve">
-    <value>Найти _Все ссылки</value>
+    <value>Найти все ссылки(_A)</value>
   </data>
   <data name="Menu_Edit_FindSymbol" xml:space="preserve">
-    <value>_Найти символ</value>
+    <value>Найти символ(_F)</value>
   </data>
   <data name="Menu_Edit_Find" xml:space="preserve">
-    <value>_Найти</value>
+    <value>Найти(_F)</value>
   </data>
   <data name="Menu_Edit_Replace" xml:space="preserve">
-    <value>_Заменить</value>
+    <value>Заменить(_R)</value>
   </data>
   <data name="Menu_File_New" xml:space="preserve">
-    <value>_Новый</value>
+    <value>Новый(_N)</value>
   </data>
   <data name="Menu_File_Open" xml:space="preserve">
-    <value>_Открыть</value>
+    <value>Открыть(_O)</value>
   </data>
   <data name="Menu_File_RecentFiles" xml:space="preserve">
-    <value>Недавние_файлы</value>
+    <value>Недавние файлы(_F)</value>
   </data>
   <data name="Menu_File_RecentFiles_None" xml:space="preserve">
     <value>Нет недавних файлов</value>
@@ -245,70 +245,70 @@
     <value>Очистить список недавних файлов</value>
   </data>
   <data name="Menu_File_Save" xml:space="preserve">
-    <value>_Сохранить</value>
+    <value>Сохранить(_S)</value>
   </data>
   <data name="Menu_File_TempRun" xml:space="preserve">
-    <value>_Временно запустить игру</value>
+    <value>Временно запустить игру(_T)</value>
   </data>
   <data name="Menu_File_RunGMSDebugger" xml:space="preserve">
-    <value>Запустить игру под GMS_debugger</value>
+    <value>Запустить игру через отладку GMS(_D)</value>
   </data>
   <data name="Menu_File_RunOtherRunner" xml:space="preserve">
     <value>Запустить игру с другим движком</value>
   </data>
   <data name="Menu_File_GenerateOffsetMap" xml:space="preserve">
-    <value>Создать карту смещения</value>
+    <value>Создать карту смещения(_O)</value>
   </data>
   <data name="Menu_File_Settings" xml:space="preserve">
-    <value>Настройки</value>
+    <value>Настройки(_E)</value>
   </data>
   <data name="Menu_File_Close" xml:space="preserve">
-    <value>_Закрыть</value>
+    <value>Закрыть(_C)</value>
   </data>
   <data name="Menu_Scripts" xml:space="preserve">
-    <value>_Скрипты</value>
+    <value>Скрипты(_S)</value>
   </data>
   <data name="Menu_Scripts_Loading" xml:space="preserve">
     <value>(...загрузка...)</value>
   </data>
   <data name="Menu_Find" xml:space="preserve">
-    <value>_Найти</value>
+    <value>Найти(_F)</value>
   </data>
   <data name="Menu_Find_SearchInCode" xml:space="preserve">
-    <value>_Поиск в коде</value>
+    <value>Поиск в коде(_S)</value>
   </data>
   <data name="Menu_Find_UnreferencedAssets" xml:space="preserve">
-    <value>Найти ассеты без ссылок</value>
+    <value>Найти ассеты без ссылок(_A)</value>
   </data>
   <data name="Menu_Project" xml:space="preserve">
-    <value>_Проект</value>
+    <value>Проект(_P)</value>
   </data>
   <data name="Menu_Project_New" xml:space="preserve">
-    <value>_Новый проект</value>
+    <value>Новый проект(_N)</value>
   </data>
   <data name="Menu_Project_Open" xml:space="preserve">
-    <value>_Открыть проект</value>
+    <value>Открыть проект(_O)</value>
   </data>
   <data name="Menu_Project_Save" xml:space="preserve">
-    <value>_Сохранить проект</value>
+    <value>Сохранить проект(_S)</value>
   </data>
   <data name="Menu_Project_ViewUnexportedAssets" xml:space="preserve">
-    <value>_Неэкспортированные ассеты</value>
+    <value>Неэкспортированные ассеты(_V)</value>
   </data>
   <data name="Menu_Project_Close" xml:space="preserve">
-    <value>_Закрыть проект</value>
+    <value>Закрыть проект(_C)</value>
   </data>
   <data name="Menu_Help" xml:space="preserve">
-    <value>_Помощь</value>
+    <value>Помощь(_H)</value>
   </data>
   <data name="Menu_Help_GitHub" xml:space="preserve">
-    <value>_GitHub</value>
+    <value>GitHub(_G)</value>
   </data>
   <data name="Menu_Help_CheckForUpdates" xml:space="preserve">
-    <value>Проверить обновления</value>
+    <value>Проверить обновления(_U)</value>
   </data>
   <data name="Menu_Help_About" xml:space="preserve">
-    <value>_О программе</value>
+    <value>О программе(_A)</value>
   </data>
   <data name="Tree_Data" xml:space="preserve">
     <value>Данные</value>
@@ -350,7 +350,7 @@
     <value>Шрифты</value>
   </data>
   <data name="Tree_Timelines" xml:space="preserve">
-    <value>Таймлайны</value>
+    <value>Временные шкалы</value>
   </data>
   <data name="Tree_GameObjects" xml:space="preserve">
     <value>Обьекты</value>
@@ -426,5 +426,867 @@
   </data>
   <data name="Settings_GMS2RuntimesPath_Tooltip" xml:space="preserve">
     <value>Требуется только, если вы хотите запускать игры GMS 2 с помощью Studio runner, а не .exe</value>
+  </data>
+  <data name="Settings_AssetOrderSwapping" xml:space="preserve">
+    <value>Включить обмен ассетами</value>
+  </data>
+  <data name="Settings_AssetOrderSwapping_Tooltip" xml:space="preserve">
+    <value>Позволяет перемещать объекты на вкладках ресурсов в разные позиции списка. По умолчанию отключено.</value>
+  </data>
+  <data name="Settings_AutoFileAssociation" xml:space="preserve">
+    <value>Автоматически связывать файлы данных GameMaker</value>
+  </data>
+  <data name="Settings_AutoFileAssociation_Tooltip" xml:space="preserve">
+    <value>Связывает файлы автоматически. По умолчанию включено.</value>
+  </data>
+  <data name="Settings_ShowDebuggerOption" xml:space="preserve">
+    <value>Показать опцию "Запустить игру под GMS debugger".</value>
+  </data>
+  <data name="Settings_ShowDebuggerOption_Tooltip" xml:space="preserve">
+    <value>Показывать ли этот параметр в меню "Файл". По умолчанию отключено.</value>
+  </data>
+  <data name="Settings_RememberWindowPlacements" xml:space="preserve">
+    <value>Запомнить последнее положение и размер окна</value>
+  </data>
+  <data name="Settings_RememberWindowPlacements_Tooltip" xml:space="preserve">
+    <value>Следует ли восстанавливать положение и размер окна при запуске нового экземпляра инструмента. По умолчанию отключено.</value>
+  </data>
+  <data name="Settings_WarnOnClose" xml:space="preserve">
+    <value>Перед закрытием спрашивать о сохранении</value>
+  </data>
+  <data name="Settings_WarnOnClose_Tooltip" xml:space="preserve">
+    <value>Спрашивает о сохранении перед закрытием. По умолчанию включено.</value>
+  </data>
+  <data name="Settings_TempRunMessage" xml:space="preserve">
+    <value>Спрашивать о временном запуске</value>
+  </data>
+  <data name="Settings_TempRunMessage_Tooltip" xml:space="preserve">
+    <value>Спрашивает о временном запуске. По умолчанию включено.</value>
+  </data>
+  <data name="Settings_ShowNullEntries" xml:space="preserve">
+    <value>Показывать пустые записи в дереве ресурсов</value>
+  </data>
+  <data name="Settings_ShowNullEntries_Tooltip" xml:space="preserve">
+    <value>Показывать ли пустые записи в дереве ресурсов, которые в играх GM 2024.11+ обычно были неиспользуемыми ресурсами, удаляемыми компилятором. По умолчанию отключено из-за ограниченной поддержки в графическом интерфейсе.</value>
+  </data>
+  <data name="Settings_RecompileAllCodeSources" xml:space="preserve">
+    <value>Перекомпилировать весь исходный код GML при сохранении файла данных проекта</value>
+  </data>
+  <data name="Settings_RecompileAllCodeSources_Tooltip" xml:space="preserve">
+    <value>Следует ли перекомпилировать весь исходный код GML, включенный в загруженный в данный момент проект, если он загружен, при сохранении файла данных (включая временные запуски). По умолчанию отключено.</value>
+  </data>
+  <data name="Settings_EnableDarkMode" xml:space="preserve">
+    <value>Включить тёмный режим</value>
+  </data>
+  <data name="Settings_EnableDarkMode_Tooltip" xml:space="preserve">
+    <value>Делает интерфейс программы тёмной. По умолчанию отключено.</value>
+  </data>
+  <data name="Settings_TransparencyGridColors" xml:space="preserve">
+    <value>Цвета сетки прозрачности:</value>
+  </data>
+  <data name="Settings_GMLCompilerSettings" xml:space="preserve">
+    <value>Настройки компилятора/декомпилятора GML</value>
+  </data>
+  <data name="Settings_GlobalGridWidth" xml:space="preserve">
+    <value>Ширина глобальной сетки</value>
+  </data>
+  <data name="Settings_GlobalGridWidth_Tooltip" xml:space="preserve">
+    <value>Этот параметр глобально переопределяет автоматическое назначение ширины сетки для комнаты на основе ширины наиболее часто используемой плитки в этой комнате.</value>
+  </data>
+  <data name="Settings_GlobalGridHeight" xml:space="preserve">
+    <value>Высота глобальной сетки</value>
+  </data>
+  <data name="Settings_GlobalGridHeight_Tooltip" xml:space="preserve">
+    <value>Этот параметр глобально переопределяет автоматическое назначение высоты сетки для комнаты на основе высоты наиболее часто используемой плитки в этой комнате.</value>
+  </data>
+  <data name="Settings_GlobalGridThickness" xml:space="preserve">
+    <value>Толщина глобальной сетки</value>
+  </data>
+  <data name="Settings_GlobalGridThickness_Tooltip" xml:space="preserve">
+    <value>Этот параметр глобально переопределяет автоматическое назначение толщины сетки для помещения.</value>
+  </data>
+  <data name="Settings_OpenAppDataFolder" xml:space="preserve">
+    <value>Открыть папку с данными приложения</value>
+  </data>
+  <data name="Settings_ClearRecentFiles" xml:space="preserve">
+    <value>Очистить недавние файлы</value>
+  </data>
+  <data name="Settings_ClearRecentFiles_None" xml:space="preserve">
+    <value>Нет недавних файлов для очистки.</value>
+  </data>
+  <data name="Settings_ClearRecentFiles_Confirm" xml:space="preserve">
+    <value>Вы уверены, что хотите очистить список недавних файлов?</value>
+  </data>
+  <data name="Settings_UpdateApp" xml:space="preserve">
+    <value>Обновить приложение до последней фиксации</value>
+  </data>
+  <data name="Settings_CheckForUpdates" xml:space="preserve">
+    <value>Проверять автоматически наличия обновлений при запуске</value>
+  </data>
+  <data name="Settings_CheckForUpdatesToolTip" xml:space="preserve">
+    <value>Автоматически проверяет наличие новой версии UndertaleModTool при запуске приложения.</value>
+  </data>
+  <data name="Msg_UpdateAvailable" xml:space="preserve">
+    <value>Доступна новая версия UndertaleModTool. Вы хотите обновить ее прямо сейчас?</value>
+  </data>
+  <data name="Msg_UpToDate" xml:space="preserve">
+    <value>Вы в курсе последних событий.</value>
+  </data>
+  <data name="Msg_ExtractingUpdate" xml:space="preserve">
+    <value>Извлечение обновления...</value>
+  </data>
+  <data name="Msg_UpdateNotSupported" xml:space="preserve">
+    <value>Автоматические обновления на этой платформе не поддерживаются.</value>
+  </data>
+  <data name="Msg_AndroidInstallPermission" xml:space="preserve">
+    <value>Для установки обновлений требуется разрешение "установка из неизвестных источников" для этого приложения. Пожалуйста, предоставьте его в открывшихся системных настройках и повторите попытку.</value>
+  </data>
+  <data name="Msg_Android10StorageSetupTitle" xml:space="preserve">
+    <value>Доступ к хранилищу Android 10</value>
+  </data>
+  <data name="Msg_Android10StorageSetup" xml:space="preserve">
+    <value>Это устройство работает под управлением Android 10, но приложение пока не имеет прямого доступа к общему хранилищу, поэтому открывать и сохранять файлы не будет работать.
+
+Для Android 10 требуется выполнить один дополнительный шаг (данные приложения не будут потеряны):
+
+1. Загрузите и установите небольшой APK-файл "Настройка хранилища". Он имеет ту же версию, что и это приложение, поэтому его можно установить прямо поверх него (ничего не удаляя).:
+{0}
+2. Откройте "Настройка хранилища QiuUTMTv5" и предоставьте запрашиваемое разрешение на хранение.
+3. Установите обычный APK-файл этого приложения снова, прямо поверх него, не удаляйте ничего промежуточного.
+4. Запустите это приложение снова.
+
+Установочный APK-файл существует только для возврата Android 10 к устаревшей модели хранения; повторная установка этого приложения заменяет его.
+
+Откройте страницу загрузки сейчас?</value>
+  </data>
+  <data name="Msg_UpdatePackageMissing" xml:space="preserve">
+    <value>В загруженной сборке не был найден пакет для установки. Вместо этого будет открыта страница релизов.</value>
+  </data>
+  <data name="GML_Title" xml:space="preserve">
+    <value>Настройки - компилятор/декомпилятор GML</value>
+  </data>
+  <data name="GML_GeneralSettings" xml:space="preserve">
+    <value>Общие настройки (компилятор и декомпилятор)</value>
+  </data>
+  <data name="GML_GeneralSettings_Tooltip" xml:space="preserve">
+    <value>Настройки, которые применяются как к компилятору, так и к декомпилятору, упрощают редактирование кода GML.</value>
+  </data>
+  <data name="GML_UseCSSHexColors" xml:space="preserve">
+    <value>Использовать шестнадцатеричные цветовые литералы CSS</value>
+  </data>
+  <data name="GML_UseCSSHexColors_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, цветовые константы могут быть отформатированы в шестнадцатеричном формате #RRGGBB.</value>
+  </data>
+  <data name="GML_InstanceIdPrefix" xml:space="preserve">
+    <value>Префикс именованного идентификатора экземпляра:</value>
+  </data>
+  <data name="GML_InstanceIdPrefix_Tooltip" xml:space="preserve">
+    <value>Префикс, используемый для именованных идентификаторов экземпляров, найденных декомпилятором, и для компиляции. Измените это значение, если оно противоречит именам переменных.</value>
+  </data>
+  <data name="GML_DecompilerSettings" xml:space="preserve">
+    <value>Настройки декомпилятора</value>
+  </data>
+  <data name="GML_DecompilerSettings_Tooltip" xml:space="preserve">
+    <value>Настройки, которые применяются исключительно к декомпилятору GML и не влияют на компиляцию GML. Они применимы не ко всем скриптам.</value>
+  </data>
+  <data name="GML_AlwaysUseSemicolons" xml:space="preserve">
+    <value>Всегда использовать точку с запятой</value>
+  </data>
+  <data name="GML_AlwaysUseSemicolons_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, то все операторы, после которых может быть точка с запятой, будут работать.</value>
+  </data>
+  <data name="GML_IndentationStyle" xml:space="preserve">
+    <value>Стиль отступа:</value>
+  </data>
+  <data name="GML_IndentationStyle_Tooltip" xml:space="preserve">
+    <value>Стиль отступов, который будет использоваться при печати декомпилированного кода.</value>
+  </data>
+  <data name="GML_OpenBlockBraceOnSameLine" xml:space="preserve">
+    <value>Раскрывать фигурные скобки блока на одной и той же строке</value>
+  </data>
+  <data name="GML_OpenBlockBraceOnSameLine_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, фигурные скобки, используемые для открытия блока, будут помещаться в ту же строку, что и оператор, к которому он принадлежит, вместо того, чтобы помещать фигурную скобку в отдельную строку.</value>
+  </data>
+  <data name="GML_RemoveSingleLineBlockBraces" xml:space="preserve">
+    <value>Удалить блокирующие фигурные скобки, если одна строка</value>
+  </data>
+  <data name="GML_RemoveSingleLineBlockBraces_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, фигурные скобки в блоках, содержащих одну строку, будут удалены, где это возможно. Для цепочек if/else все блоки должны состоять из одной строки.</value>
+  </data>
+  <data name="GML_CreateEnumDeclarations" xml:space="preserve">
+    <value>Создание объявлений перечислений</value>
+  </data>
+  <data name="GML_CreateEnumDeclarations_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, объявления перечислений, идентифицированные во время декомпиляции, всегда будут выводиться в выходные данные декомпиляции.</value>
+  </data>
+  <data name="GML_EnumMacroDeclarationsAtTop" xml:space="preserve">
+    <value>Объявления перечислений/макросов в верхней части кода</value>
+  </data>
+  <data name="GML_EnumMacroDeclarationsAtTop_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, перечисления и макросы будут отображаться в начале (вверху) декомпилированного вывода, а не в конце (внизу).</value>
+  </data>
+  <data name="GML_PrintWarnings" xml:space="preserve">
+    <value>Предупреждения о печати</value>
+  </data>
+  <data name="GML_PrintWarnings_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, предупреждения, генерируемые во время декомпиляции, будут выводиться в виде комментариев.</value>
+  </data>
+  <data name="GML_AllowLeftoverDataOnStack" xml:space="preserve">
+    <value>Разрешить хранение оставшихся данных в стеке виртуальной машины</value>
+  </data>
+  <data name="GML_AllowLeftoverDataOnStack_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, данные, оставшиеся в стеке виртуальной машины, будут обрабатываться как предупреждение, а не как ошибка.</value>
+  </data>
+  <data name="GML_AddEmptyLines" xml:space="preserve">
+    <value>Добавление пустых строк:</value>
+  </data>
+  <data name="GML_AddEmptyLines_Tooltip" xml:space="preserve">
+    <value>Выбирать определенный синтаксис, чтобы добавить пустые строки до, после или вокруг.</value>
+  </data>
+  <data name="GML_EmptyLineAroundBranchStatements" xml:space="preserve">
+    <value>Вокруг заявлений о ветвлениях</value>
+  </data>
+  <data name="GML_EmptyLineAroundBranchStatements_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, добавляется пустая строка до и после операторов перехода.</value>
+  </data>
+  <data name="GML_EmptyLineAfterBlockLocals" xml:space="preserve">
+    <value>После объявления локальных переменных</value>
+  </data>
+  <data name="GML_EmptyLineAfterBlockLocals_Tooltip" xml:space="preserve">
+    <value>Если включено, добавляет пустую строку после объявления локальных переменных в области блоков.</value>
+  </data>
+  <data name="GML_EmptyLineBeforeSwitchCases" xml:space="preserve">
+    <value>Перед переключением корпусов</value>
+  </data>
+  <data name="GML_EmptyLineBeforeSwitchCases_Tooltip" xml:space="preserve">
+    <value>Если включено, добавляет пустую строку перед (цепочкой) записей "case" в операторе switch.</value>
+  </data>
+  <data name="GML_EmptyLineAfterSwitchCases" xml:space="preserve">
+    <value>После переключения корпусов</value>
+  </data>
+  <data name="GML_EmptyLineAfterSwitchCases_Tooltip" xml:space="preserve">
+    <value>Если включено, добавляет пустую строку после (цепочки) записей "case" в операторе switch.</value>
+  </data>
+  <data name="GML_EmptyLineAroundFunctionDeclarations" xml:space="preserve">
+    <value>Вокруг объявлений функций</value>
+  </data>
+  <data name="GML_EmptyLineAroundFunctionDeclarations_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, добавляется пустая строка до и после объявления функции, даже если оно анонимно.</value>
+  </data>
+  <data name="GML_EmptyLineAroundStaticInitialization" xml:space="preserve">
+    <value>Вокруг статической инициализации</value>
+  </data>
+  <data name="GML_EmptyLineAroundStaticInitialization_Tooltip" xml:space="preserve">
+    <value>Если включено, добавляет пустую строку до и после статической инициализации, группируя, по возможности, последовательные статические данные.</value>
+  </data>
+  <data name="GML_PerformCleanups" xml:space="preserve">
+    <value>Выполнить очистку:</value>
+  </data>
+  <data name="GML_PerformCleanups_Tooltip" xml:space="preserve">
+    <value>Выберите конкретные операции очистки, которые должен выполнить декомпилятор. Их отключение может сделать код более уродливым или "некорректным", но может показать лежащую в его основе логику.</value>
+  </data>
+  <data name="GML_CleanupTryCatchFinally" xml:space="preserve">
+    <value>Try/catch/finally переписывание</value>
+  </data>
+  <data name="GML_CleanupTryCatchFinally_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, сгенерированный компилятором код и логика для операторов try/catch/finally переписываются, чтобы (попытаться) выглядеть как исходный код.</value>
+  </data>
+  <data name="GML_CleanupElseToContinue" xml:space="preserve">
+    <value>Преобразовать else в continue</value>
+  </data>
+  <data name="GML_CleanupElseToContinue_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, некоторые варианты использования "else" внутри цикла могут быть преобразованы в инструкции "continue", что может облегчить чтение кода. Это происходит только в том случае, если можно обеспечить точность.</value>
+  </data>
+  <data name="GML_CleanupDefaultArgumentValues" xml:space="preserve">
+    <value>Значения аргументов по умолчанию</value>
+  </data>
+  <data name="GML_CleanupDefaultArgumentValues_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, будет использоваться синтаксис для именованных аргументов функции по умолчанию. Для этого генерируемые компилятором инструкции if преобразуются с сохранением точности.</value>
+  </data>
+  <data name="GML_CleanupBuiltinArrayVariables" xml:space="preserve">
+    <value>Синтаксис встроенных переменных массива</value>
+  </data>
+  <data name="GML_CleanupBuiltinArrayVariables_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, некоторые встроенные глобальные параметры (такие как "view_xview"), при обнаружении использования без средства доступа к массиву, будут выводиться как таковые, а не с использованием синтаксиса, сгенерированного компилятором.</value>
+  </data>
+  <data name="GML_CleanupLocalVarDeclarations" xml:space="preserve">
+    <value>Объявления локальных переменных области видимости</value>
+  </data>
+  <data name="GML_CleanupLocalVarDeclarations_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, объявления локальных переменных будут размещаться в соответствии с их областями действия, которые определяются на основе использования в коде.</value>
+  </data>
+  <data name="GML_InferFunctionArgumentTypes" xml:space="preserve">
+    <value>Вывод типов аргументов скрипта</value>
+  </data>
+  <data name="GML_InferFunctionArgumentTypes_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, декомпилятор попытается определить типы аргументов пользовательского скрипта, проанализировав, как такие аргументы, как argument0, проходят через каждый скрипт, преобразуя целочисленные литералы в именованные константы (перечисления, активы, цвета и т.д.) на сайтах вызовов.</value>
+  </data>
+  <data name="GML_ReverseInferVariableTypes" xml:space="preserve">
+    <value>Типы переменных с обратным выводом</value>
+  </data>
+  <data name="GML_ReverseInferVariableTypes_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, выводимые типы аргументов распространяются обратно на переменные, которые были назначены на основе этих аргументов, так что литералы, назначенные этим переменным (например, цвета), также расширяются.</value>
+  </data>
+  <data name="GML_InlinePropagateVariableTypes" xml:space="preserve">
+    <value>Встроенное распространение типов переменных</value>
+  </data>
+  <data name="GML_InlinePropagateVariableTypes_Tooltip" xml:space="preserve">
+    <value>Если этот параметр включен, то при присвоении переменной аргумента с известным типом тип переменной регистрируется на месте, расширяя литералы, назначенные ей позже (например, цвета).</value>
+  </data>
+  <data name="GML_RestoreToDefaults" xml:space="preserve">
+    <value>Восстановить по умолчанию</value>
+  </data>
+  <data name="Editor_GeneralInfo" xml:space="preserve">
+    <value>Главная информация</value>
+  </data>
+  <data name="Editor_Options" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Editor_Language" xml:space="preserve">
+    <value>Язык (?)</value>
+  </data>
+  <data name="Editor_DisableGMSDebugger" xml:space="preserve">
+    <value>Отключить отладку GMS</value>
+  </data>
+  <data name="Editor_BytecodeVersion" xml:space="preserve">
+    <value>Версия байт-кода</value>
+  </data>
+  <data name="Editor_FileName" xml:space="preserve">
+    <value>Название файла</value>
+  </data>
+  <data name="Editor_Config" xml:space="preserve">
+    <value>Конфигурация</value>
+  </data>
+  <data name="Editor_LastObjectID" xml:space="preserve">
+    <value>Последний ID объекта</value>
+  </data>
+  <data name="Editor_LastTileID" xml:space="preserve">
+    <value>Последний ID плитки</value>
+  </data>
+  <data name="Editor_GameID" xml:space="preserve">
+    <value>ID игры</value>
+  </data>
+  <data name="Editor_DirectPlayGUID" xml:space="preserve">
+    <value>DirectPlay GUID</value>
+  </data>
+  <data name="Editor_Version" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="Editor_DefaultWindowSize" xml:space="preserve">
+    <value>Размер окна по умолчанию</value>
+  </data>
+  <data name="Editor_LicenseMD5" xml:space="preserve">
+    <value>Лицензия MD5</value>
+  </data>
+  <data name="Editor_LicenseCRC32" xml:space="preserve">
+    <value>Лицензия CRC32</value>
+  </data>
+  <data name="Editor_Timestamp" xml:space="preserve">
+    <value>Отметка времени</value>
+  </data>
+  <data name="Editor_TimestampTooltip" xml:space="preserve">
+    <value>(местное время, наведите курсор, чтобы увидеть GMT+0)</value>
+  </data>
+  <data name="Editor_DisplayName" xml:space="preserve">
+    <value>Отображаемое имя</value>
+  </data>
+  <data name="Editor_ActiveTargets" xml:space="preserve">
+    <value>Активные цели</value>
+  </data>
+  <data name="Editor_FunctionClassifications" xml:space="preserve">
+    <value>Классификация функций</value>
+  </data>
+  <data name="Editor_DebuggerPort" xml:space="preserve">
+    <value>Порт отладчика</value>
+  </data>
+  <data name="Editor_RoomOrder" xml:space="preserve">
+    <value>Границы комнаты</value>
+  </data>
+  <data name="Editor_SyncWithRoomList" xml:space="preserve">
+    <value>Синхронизация со списком комнат</value>
+  </data>
+  <data name="Editor_FPS" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="Editor_AllowStatistics" xml:space="preserve">
+    <value>Разрешить статистику</value>
+  </data>
+  <data name="Editor_GameGUID" xml:space="preserve">
+    <value>GUID игры</value>
+  </data>
+  <data name="Editor_ShaderExtensionFlag" xml:space="preserve">
+    <value>Флаг расширения шейдера</value>
+  </data>
+  <data name="Editor_ShaderExtensionVersion" xml:space="preserve">
+    <value>Версия расширения шейдера</value>
+  </data>
+  <data name="Editor_WindowColor" xml:space="preserve">
+    <value>Цвет окна</value>
+  </data>
+  <data name="Editor_ColorDepth" xml:space="preserve">
+    <value>Глубина цвета</value>
+  </data>
+  <data name="Editor_Resolution" xml:space="preserve">
+    <value>Разрешение</value>
+  </data>
+  <data name="Editor_Frequency" xml:space="preserve">
+    <value>Частота</value>
+  </data>
+  <data name="Editor_VertexSync" xml:space="preserve">
+    <value>Синхронизация вершин</value>
+  </data>
+  <data name="Editor_Priority" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="Editor_BackImage" xml:space="preserve">
+    <value>Обратное изображение</value>
+  </data>
+  <data name="Editor_FrontImage" xml:space="preserve">
+    <value>Изображение спереди</value>
+  </data>
+  <data name="Editor_LoadImage" xml:space="preserve">
+    <value>Загрузить изображение</value>
+  </data>
+  <data name="Editor_LoadAlpha" xml:space="preserve">
+    <value>Загрузить альфа</value>
+  </data>
+  <data name="Editor_Constants" xml:space="preserve">
+    <value>Константы</value>
+  </data>
+  <data name="Editor_Unknown" xml:space="preserve">
+    <value>Неизвестный</value>
+  </data>
+  <data name="Editor_LanguageCount" xml:space="preserve">
+    <value>Количество языков</value>
+  </data>
+  <data name="Editor_EntryCount" xml:space="preserve">
+    <value>Количество записей</value>
+  </data>
+  <data name="Editor_LanguageNote" xml:space="preserve">
+    <value>Примечание: эти языки в настоящее время практически не используются, поэтому редактор для них еще не создан.</value>
+  </data>
+  <data name="Editor_Sprite_Width" xml:space="preserve">
+    <value>Ширина:</value>
+  </data>
+  <data name="Editor_Sprite_Height" xml:space="preserve">
+    <value>Рост:</value>
+  </data>
+  <data name="Editor_Sprite_Margin" xml:space="preserve">
+    <value>Прибыль</value>
+  </data>
+  <data name="Editor_Sprite_Left" xml:space="preserve">
+    <value>Слева:</value>
+  </data>
+  <data name="Editor_Sprite_Right" xml:space="preserve">
+    <value>Справа:</value>
+  </data>
+  <data name="Editor_Sprite_Bottom" xml:space="preserve">
+    <value>Низ:</value>
+  </data>
+  <data name="Editor_Sprite_Top" xml:space="preserve">
+    <value>Сверху:</value>
+  </data>
+  <data name="Editor_Sprite_BoundingBoxMode" xml:space="preserve">
+    <value>Режим ограничительной рамки</value>
+  </data>
+  <data name="Editor_Sprite_SepMasks" xml:space="preserve">
+    <value>Специальные маски</value>
+  </data>
+  <data name="Editor_Sprite_Origin" xml:space="preserve">
+    <value>Начало</value>
+  </data>
+  <data name="Editor_Sprite_Textures" xml:space="preserve">
+    <value>Текстуры</value>
+  </data>
+  <data name="Editor_Sprite_ExportAllFrames" xml:space="preserve">
+    <value>Экспортировать все кадры (или данные Spine, если это спрайт Spine)</value>
+  </data>
+  <data name="Editor_Sprite_CollisionMasks" xml:space="preserve">
+    <value>Маски столкновений</value>
+  </data>
+  <data name="Editor_Sprite_InvalidMaskData" xml:space="preserve">
+    <value>Неверные данные маски!</value>
+  </data>
+  <data name="Editor_Sprite_ImportMask" xml:space="preserve">
+    <value>Импортировать маску</value>
+  </data>
+  <data name="Editor_Sprite_ExportMask" xml:space="preserve">
+    <value>Экспортировать маску</value>
+  </data>
+  <data name="Editor_Sprite_IsSpecialType" xml:space="preserve">
+    <value>Это особый тип?</value>
+  </data>
+  <data name="Editor_Sprite_Version" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="Editor_Sprite_PlaybackSpeed" xml:space="preserve">
+    <value>Скорость воспроизведения</value>
+  </data>
+  <data name="Editor_Sprite_PlaybackSpeedType" xml:space="preserve">
+    <value>Тип скорости воспроизведения</value>
+  </data>
+  <data name="Editor_Sound_File" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="Editor_Sound_Effects" xml:space="preserve">
+    <value>Эффекты</value>
+  </data>
+  <data name="Editor_Sound_Volume" xml:space="preserve">
+    <value>Громкость</value>
+  </data>
+  <data name="Editor_Sound_Pitch" xml:space="preserve">
+    <value>Тон</value>
+  </data>
+  <data name="Editor_Sound_AudioGroup" xml:space="preserve">
+    <value>Аудиогруппы</value>
+  </data>
+  <data name="Editor_Sound_AudioFile" xml:space="preserve">
+    <value>Аудиофайлы</value>
+  </data>
+  <data name="Editor_Sound_PreloadOld" xml:space="preserve">
+    <value>Предварительная загрузка (старая аудиосистема)</value>
+  </data>
+  <data name="Editor_BG_TileWidth" xml:space="preserve">
+    <value>Ширина плитки</value>
+  </data>
+  <data name="Editor_BG_TileHeight" xml:space="preserve">
+    <value>Высота плитки</value>
+  </data>
+  <data name="Editor_BG_TileSeparationX" xml:space="preserve">
+    <value>Разделение плиток X</value>
+  </data>
+  <data name="Editor_BG_TileSeparationY" xml:space="preserve">
+    <value>Разделение плиток Y</value>
+  </data>
+  <data name="Editor_BG_OutputBorderX" xml:space="preserve">
+    <value>Выходная граница X</value>
+  </data>
+  <data name="Editor_BG_OutputBorderY" xml:space="preserve">
+    <value>Выходная граница Y</value>
+  </data>
+  <data name="Editor_BG_TileColumns" xml:space="preserve">
+    <value>Колонны из плитки</value>
+  </data>
+  <data name="Editor_BG_ItemsPerTile" xml:space="preserve">
+    <value>Предметы/кадры за каждую плитку</value>
+  </data>
+  <data name="Editor_BG_TileCount" xml:space="preserve">
+    <value>Кол-во плиток</value>
+  </data>
+  <data name="Editor_BG_ExportedSprite" xml:space="preserve">
+    <value>Экспортированный Sprite (GM 2023.8+)</value>
+  </data>
+  <data name="Editor_BG_FrameTime" xml:space="preserve">
+    <value>Время кадра (микросекунды)</value>
+  </data>
+  <data name="Editor_BG_TileIDs" xml:space="preserve">
+    <value>ID плиток</value>
+  </data>
+  <data name="Editor_BG_GMTilesetVersion" xml:space="preserve">
+    <value>Версия набора плиток GM</value>
+  </data>
+  <data name="Editor_BG_ClickTileHint" xml:space="preserve">
+    <value>Подсказка: вы можете нажать на любую область плитки ниже, чтобы выделить ее идентификатор вверху.</value>
+  </data>
+  <data name="Editor_Code_LocalsCount" xml:space="preserve">
+    <value>Кол-во локальных</value>
+  </data>
+  <data name="Editor_Code_ArgumentsCount" xml:space="preserve">
+    <value>Кол-во аргументов</value>
+  </data>
+  <data name="Editor_Code_Offset" xml:space="preserve">
+    <value>Смещение</value>
+  </data>
+  <data name="Editor_Code_ParentEntry" xml:space="preserve">
+    <value>Исходная запись</value>
+  </data>
+  <data name="Editor_Code_DecompileTab" xml:space="preserve">
+    <value>Декомпилированный</value>
+  </data>
+  <data name="Editor_Code_DisassemblyTab" xml:space="preserve">
+    <value>Разборка</value>
+  </data>
+  <data name="Editor_GameObj_Sprite" xml:space="preserve">
+    <value>Спрайт</value>
+  </data>
+  <data name="Editor_GameObj_Visible" xml:space="preserve">
+    <value>Видимость</value>
+  </data>
+  <data name="Editor_GameObj_Solid" xml:space="preserve">
+    <value>Твердый</value>
+  </data>
+  <data name="Editor_GameObj_Depth" xml:space="preserve">
+    <value>Глубина</value>
+  </data>
+  <data name="Editor_GameObj_Persistent" xml:space="preserve">
+    <value>Стойкость</value>
+  </data>
+  <data name="Editor_GameObj_Parent" xml:space="preserve">
+    <value>Исходный</value>
+  </data>
+  <data name="Editor_GameObj_TextureMaskId" xml:space="preserve">
+    <value>ID маски текстуры</value>
+  </data>
+  <data name="Editor_GameObj_UsesPhysics" xml:space="preserve">
+    <value>Использует физику</value>
+  </data>
+  <data name="Editor_GameObj_IsSensor" xml:space="preserve">
+    <value>Это датчик</value>
+  </data>
+  <data name="Editor_GameObj_CollisionShape" xml:space="preserve">
+    <value>Форма столкновения</value>
+  </data>
+  <data name="Editor_GameObj_Physics" xml:space="preserve">
+    <value>Физика</value>
+  </data>
+  <data name="Editor_GameObj_Density" xml:space="preserve">
+    <value>Плотность</value>
+  </data>
+  <data name="Editor_GameObj_Restitution" xml:space="preserve">
+    <value>Реституция</value>
+  </data>
+  <data name="Editor_GameObj_Group" xml:space="preserve">
+    <value>Группа</value>
+  </data>
+  <data name="Editor_GameObj_LinearDamping" xml:space="preserve">
+    <value>Линейное демпфирование</value>
+  </data>
+  <data name="Editor_GameObj_AngularDamping" xml:space="preserve">
+    <value>Угловое демпфирование</value>
+  </data>
+  <data name="Editor_GameObj_Friction" xml:space="preserve">
+    <value>Разногласие</value>
+  </data>
+  <data name="Editor_GameObj_IsAwake" xml:space="preserve">
+    <value>Не спит</value>
+  </data>
+  <data name="Editor_GameObj_IsKinematic" xml:space="preserve">
+    <value>Является кинематическим</value>
+  </data>
+  <data name="Editor_GameObj_PhysicsShapeVertices" xml:space="preserve">
+    <value>Вершины физических форм</value>
+  </data>
+  <data name="Editor_GameObj_Events" xml:space="preserve">
+    <value>События</value>
+  </data>
+  <data name="Editor_GameObj_SubtypeID" xml:space="preserve">
+    <value>ID подтипа</value>
+  </data>
+  <data name="Editor_GameObj_Actions" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="Editor_Font_DisplayName" xml:space="preserve">
+    <value>Отображаемое имя</value>
+  </data>
+  <data name="Editor_Font_FontSize" xml:space="preserve">
+    <value>Размер шрифта</value>
+  </data>
+  <data name="Editor_Font_Bold" xml:space="preserve">
+    <value>Жирный</value>
+  </data>
+  <data name="Editor_Font_Italic" xml:space="preserve">
+    <value>Курсивный</value>
+  </data>
+  <data name="Editor_Font_Range" xml:space="preserve">
+    <value>Диапазон</value>
+  </data>
+  <data name="Editor_Font_Charset" xml:space="preserve">
+    <value>Кодировка</value>
+  </data>
+  <data name="Editor_Font_AntiAliasing" xml:space="preserve">
+    <value>Сглаживание</value>
+  </data>
+  <data name="Editor_Font_Ascender" xml:space="preserve">
+    <value>Восходящий</value>
+  </data>
+  <data name="Editor_Font_AscenderOffset" xml:space="preserve">
+    <value>Смещение восходящего</value>
+  </data>
+  <data name="Editor_Font_SDFSpread" xml:space="preserve">
+    <value>Значение спреда SDF</value>
+  </data>
+  <data name="Editor_Font_LineHeight" xml:space="preserve">
+    <value>Высота строки</value>
+  </data>
+  <data name="Editor_Font_ClickGlyphHint" xml:space="preserve">
+    <value>Подсказка: вы можете нажать на любой глиф, чтобы выделить его в разделе «Глифы».</value>
+  </data>
+  <data name="Editor_Font_EditSelectedGlyphRectangle" xml:space="preserve">
+    <value>Изменить выделенный прямоугольник глифа</value>
+  </data>
+  <data name="Editor_Font_SelectRegionEmptyGlyph" xml:space="preserve">
+    <value>Выбрать область пустого глифа</value>
+  </data>
+  <data name="Editor_Font_CreateEmptyGlyph" xml:space="preserve">
+    <value>Создать пустой глиф</value>
+  </data>
+  <data name="Editor_Font_Glyphs" xml:space="preserve">
+    <value>Глифы:</value>
+  </data>
+  <data name="Editor_Font_Char" xml:space="preserve">
+    <value>Символ</value>
+  </data>
+  <data name="Editor_Font_SourcePositionSize" xml:space="preserve">
+    <value>Исходная позиция/размер</value>
+  </data>
+  <data name="Editor_Font_Shift" xml:space="preserve">
+    <value>Сдвиг</value>
+  </data>
+  <data name="Editor_Font_Offset" xml:space="preserve">
+    <value>Смещение</value>
+  </data>
+  <data name="Editor_Font_Kerning" xml:space="preserve">
+    <value>Кернинг</value>
+  </data>
+  <data name="Editor_Font_PreceedingChar" xml:space="preserve">
+    <value>Предыдущий символ</value>
+  </data>
+  <data name="Editor_Font_AddShift" xml:space="preserve">
+    <value>Добавить. Сдвиг</value>
+  </data>
+  <data name="Editor_Font_GlyphSortNote" xml:space="preserve">
+    <value>Обратите внимание, что глифы должны быть указаны в порядке возрастания. 
+ Нажмите кнопку ниже, чтобы отсортировать их соответствующим образом.</value>
+  </data>
+  <data name="Editor_Font_SortGlyphs" xml:space="preserve">
+    <value>Сортировать глифы</value>
+  </data>
+  <data name="Editor_Font_UpdateRangeNote" xml:space="preserve">
+    <value>Кроме того, если вы добавили новые символы или изменили существующий глиф, вам следует обновить диапазон символов шрифта. 
+ Для этого нажмите кнопку ниже.</value>
+  </data>
+  <data name="Editor_Font_UpdateRange" xml:space="preserve">
+    <value>Обновить диапазон</value>
+  </data>
+  <data name="Editor_Font_GoBack" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="Editor_Path_Smooth" xml:space="preserve">
+    <value>Сглаживание</value>
+  </data>
+  <data name="Editor_Path_Closed" xml:space="preserve">
+    <value>Закрытый</value>
+  </data>
+  <data name="Editor_Path_Precision" xml:space="preserve">
+    <value>Точность</value>
+  </data>
+  <data name="Editor_Path_Points" xml:space="preserve">
+    <value>Точки</value>
+  </data>
+  <data name="Editor_Path_TodoPreview" xml:space="preserve">
+    <value>ЗАДАЧА: Я знаю, что предварительный просмотр не обновляется в реальном времени, просто закройте и снова откройте объект</value>
+  </data>
+  <data name="Editor_Script_Code" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="Editor_Shader_GLSLESVertex" xml:space="preserve">
+    <value>Исходный код вершин GLSL ES</value>
+  </data>
+  <data name="Editor_Shader_GLSLESFragment" xml:space="preserve">
+    <value>Исходный код фрагмента GLSL ES</value>
+  </data>
+  <data name="Editor_Shader_GLSLVertex" xml:space="preserve">
+    <value>Исходный код вершин GLSL</value>
+  </data>
+  <data name="Editor_Shader_GLSLFragment" xml:space="preserve">
+    <value>Исходный код фрагмента GLSL</value>
+  </data>
+  <data name="Editor_Shader_HLSL9Vertex" xml:space="preserve">
+    <value>Исходный код вершин HLSL9</value>
+  </data>
+  <data name="Editor_Shader_HLSL9Fragment" xml:space="preserve">
+    <value>Исходный код фрагмента HLSL9</value>
+  </data>
+  <data name="Editor_Shader_VertexShaderAttributes" xml:space="preserve">
+    <value>Атрибуты вершинного шейдера</value>
+  </data>
+  <data name="Editor_Timeline_Moments" xml:space="preserve">
+    <value>Моменты</value>
+  </data>
+  <data name="Editor_Timeline_Step" xml:space="preserve">
+    <value>Шаг</value>
+  </data>
+  <data name="Editor_Variable_InstanceType" xml:space="preserve">
+    <value>Тип экземпляра</value>
+  </data>
+  <data name="Editor_Variable_VarID" xml:space="preserve">
+    <value>ID переменной</value>
+  </data>
+  <data name="Editor_Variable_NameStringID" xml:space="preserve">
+    <value>Имя строки ID</value>
+  </data>
+  <data name="Editor_Function_NameStringID" xml:space="preserve">
+    <value>Имя строки ID</value>
+  </data>
+  <data name="Editor_String_Content" xml:space="preserve">
+    <value>Содержание</value>
+  </data>
+  <data name="Editor_TexPageItem_SourcePositionSize" xml:space="preserve">
+    <value>Исходная позиция/размер</value>
+  </data>
+  <data name="Editor_TexPageItem_TargetPositionSize" xml:space="preserve">
+    <value>Целевая позиция/размер</value>
+  </data>
+  <data name="Editor_TexPageItem_BoundingSize" xml:space="preserve">
+    <value>Размер ограничивающей рамки</value>
+  </data>
+  <data name="Editor_TexPageItem_FindAllReferences" xml:space="preserve">
+    <value>Найти все ссылки на этот элемент страницы</value>
+  </data>
+  <data name="Editor_EmbeddedTex_Scaled" xml:space="preserve">
+    <value>Масштабный</value>
+  </data>
+  <data name="Editor_EmbeddedTex_GeneratedMips" xml:space="preserve">
+    <value>Сгенерированные mips</value>
+  </data>
+  <data name="Editor_EmbeddedTex_TextureFailedToLoad" xml:space="preserve">
+    <value>Предупреждение: не удалось загрузить текстуру!</value>
+  </data>
+  <data name="Editor_EmbeddedTex_MouseHint" xml:space="preserve">
+    <value>Подсказка: с этим изображением можно взаимодействовать с помощью мыши (3 кнопки мыши и колесико).</value>
+  </data>
+  <data name="Editor_EmbeddedAudio_DataBytes" xml:space="preserve">
+    <value>{0} данных, {1} байт</value>
+  </data>
+  <data name="Editor_EmbeddedImage_Texture" xml:space="preserve">
+    <value>Текстура</value>
+  </data>
+  <data name="Editor_Extension_ClassName" xml:space="preserve">
+    <value>Название класса</value>
+  </data>
+  <data name="Editor_Extension_Files" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="Editor_Extension_AddNewFile" xml:space="preserve">
+    <value>Добавить новый файл расширения</value>
+  </data>
+  <data name="Editor_Extension_ProductID" xml:space="preserve">
+    <value>ID продукта</value>
+  </data>
+  <data name="Editor_Extension_ThingsToNote" xml:space="preserve">
+    <value>НА ЧТО СЛЕДУЕТ ОБРАТИТЬ ВНИМАНИЕ:
+- Имейте в виду, что файлы .gml либо отсутствуют, либо пусты (например, в них нет функций). 
+ Потому что они предварительно скомпилированы в скрипты GML. Это совершенно нормально.</value>
+  </data>
+  <data name="Editor_Extension_AddNewOption" xml:space="preserve">
+    <value>Добавить новый вариант расширения</value>
+  </data>
+  <data name="Editor_ExtFile_CleanupFunction" xml:space="preserve">
+    <value>Имя функции очистки</value>
+  </data>
+  <data name="Editor_ExtFile_InitFunction" xml:space="preserve">
+    <value>Имя функции Init</value>
+  </data>
+  <data name="Editor_ExtFile_Functions" xml:space="preserve">
+    <value>Функции</value>
+  </data>
+  <data name="Editor_ExtFunc_ExternalName" xml:space="preserve">
+    <value>Внешнее имя</value>
+  </data>
+  <data name="Editor_ExtFunc_ReturnType" xml:space="preserve">
+    <value>Тип возвращаемого значения</value>
+  </data>
+  <data name="Editor_ExtFunc_ArgumentTypes" xml:space="preserve">
+    <value>Типы аргументов</value>
   </data>
 </root>
