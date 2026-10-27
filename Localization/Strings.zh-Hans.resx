@@ -562,6 +562,54 @@ Android 10 需要额外一步操作（不会丢失应用数据）：
   <data name="Msg_UpdatePackageMissing" xml:space="preserve">
     <value>在下载的更新中未找到可安装的安装包，即将打开发布页面。</value>
   </data>
+  <data name="Settings_UpdateChannel" xml:space="preserve">
+    <value>更新通道</value>
+  </data>
+  <data name="Settings_UpdateChannelToolTip" xml:space="preserve">
+    <value>稳定版为正式发布的版本；夜间版为 master 分支最新的 CI 成功构建，可能不稳定。</value>
+  </data>
+  <data name="Settings_UpdateChannelStable" xml:space="preserve">
+    <value>稳定版</value>
+  </data>
+  <data name="Settings_UpdateChannelNightly" xml:space="preserve">
+    <value>夜间版</value>
+  </data>
+  <data name="Settings_UpdateSource" xml:space="preserve">
+    <value>下载源</value>
+  </data>
+  <data name="Settings_UpdateSourceToolTip" xml:space="preserve">
+    <value>GitHub 直连下载；Mirror 酱通过 CDN 镜像稳定版，需要填写 CDK 才能下载。夜间版始终从 GitHub 下载。</value>
+  </data>
+  <data name="Settings_UpdateSourceGitHub" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="Settings_UpdateSourceMirrorChyan" xml:space="preserve">
+    <value>Mirror酱</value>
+  </data>
+  <data name="Settings_MirrorChyanCdk" xml:space="preserve">
+    <value>Mirror酱 CDK</value>
+  </data>
+  <data name="Settings_MirrorChyanCdkToolTip" xml:space="preserve">
+    <value>从 Mirror 酱下载稳定版所需的激活码。仅保存在本地设置文件中，除 Mirror 酱 API 外不会发送到其他位置。</value>
+  </data>
+  <data name="Settings_MirrorChyanGetCdk" xml:space="preserve">
+    <value>获取 CDK</value>
+  </data>
+  <data name="Msg_UpdateAvailableWithVersion" xml:space="preserve">
+    <value>发现新版本：{0}
+当前版本：{1}
+
+是否现在更新？</value>
+  </data>
+  <data name="Msg_UpdateNoAsset" xml:space="preserve">
+    <value>最新发行版中没有找到匹配当前平台的下载文件。</value>
+  </data>
+  <data name="Msg_MirrorChyanError" xml:space="preserve">
+    <value>Mirror 酱请求失败（{0}）：{1}</value>
+  </data>
+  <data name="Msg_MirrorChyanCdkRequired" xml:space="preserve">
+    <value>从 Mirror 酱下载需要填写 CDK，将改用 GitHub 下载。是否继续？</value>
+  </data>
   <data name="GML_Title" xml:space="preserve">
     <value>设置 - GML 编译器/反编译器</value>
   </data>
