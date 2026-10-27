@@ -6536,4 +6536,52 @@ Open the download page now?</value>
   <data name="Settings_DrawerModeAlwaysCollapsed" xml:space="preserve">
     <value>Always collapsed (phone portrait mode)</value>
   </data>
+  <data name="Settings_UpdateChannel" xml:space="preserve">
+    <value>Update channel</value>
+  </data>
+  <data name="Settings_UpdateChannelToolTip" xml:space="preserve">
+    <value>Stable releases are the published versions. Nightly builds are the latest successful CI build of the master branch and can be unstable.</value>
+  </data>
+  <data name="Settings_UpdateChannelStable" xml:space="preserve">
+    <value>Stable release</value>
+  </data>
+  <data name="Settings_UpdateChannelNightly" xml:space="preserve">
+    <value>Nightly build</value>
+  </data>
+  <data name="Settings_UpdateSource" xml:space="preserve">
+    <value>Download source</value>
+  </data>
+  <data name="Settings_UpdateSourceToolTip" xml:space="preserve">
+    <value>GitHub downloads updates directly. MirrorChyan mirrors stable releases on a CDN and needs a CDK to download. Nightly builds are always downloaded from GitHub.</value>
+  </data>
+  <data name="Settings_UpdateSourceGitHub" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="Settings_UpdateSourceMirrorChyan" xml:space="preserve">
+    <value>MirrorChyan (Mirror酱)</value>
+  </data>
+  <data name="Settings_MirrorChyanCdk" xml:space="preserve">
+    <value>MirrorChyan CDK</value>
+  </data>
+  <data name="Settings_MirrorChyanCdkToolTip" xml:space="preserve">
+    <value>Activation key used to download stable releases from MirrorChyan. It is stored only in the local settings file and is never sent anywhere except the MirrorChyan API.</value>
+  </data>
+  <data name="Settings_MirrorChyanGetCdk" xml:space="preserve">
+    <value>Get a CDK</value>
+  </data>
+  <data name="Msg_UpdateAvailableWithVersion" xml:space="preserve">
+    <value>A new version is available: {0}
+Currently installed: {1}
+
+Do you want to update now?</value>
+  </data>
+  <data name="Msg_UpdateNoAsset" xml:space="preserve">
+    <value>No matching download was found in the latest release.</value>
+  </data>
+  <data name="Msg_MirrorChyanError" xml:space="preserve">
+    <value>MirrorChyan request failed ({0}): {1}</value>
+  </data>
+  <data name="Msg_MirrorChyanCdkRequired" xml:space="preserve">
+    <value>Downloading from MirrorChyan requires a CDK. GitHub will be used instead. Continue?</value>
+  </data>
 </root>
