@@ -2915,6 +2915,12 @@ UndertaleModTool可能会导致工作丢失。</value>
   <data name="Msg_ProjectFailedToSave" xml:space="preserve">
     <value>项目保存失败。</value>
   </data>
+  <data name="Msg_ProjectFolderNotEmptyUseSubfolder" xml:space="preserve">
+    <value>所选文件夹不为空。
+是否改为在其下的新子文件夹中创建项目？
+
+{0}</value>
+  </data>
   <data name="Msg_ProjectClosed" xml:space="preserve">
     <value>项目已关闭。</value>
   </data>

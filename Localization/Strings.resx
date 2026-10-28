@@ -2973,6 +2973,12 @@ Error - {0}.</value>
   <data name="Msg_ProjectFailedToSave" xml:space="preserve">
     <value>Project failed to save.</value>
   </data>
+  <data name="Msg_ProjectFolderNotEmptyUseSubfolder" xml:space="preserve">
+    <value>The selected folder is not empty.
+Create the project in a new subfolder instead?
+
+{0}</value>
+  </data>
   <data name="Msg_ProjectClosed" xml:space="preserve">
     <value>Project closed.</value>
   </data>

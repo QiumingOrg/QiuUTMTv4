@@ -12809,6 +12809,16 @@ namespace UndertaleModTool.Localization {
                 return ResourceManager.GetString("Msg_ProjectFailedToSave", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to The selected folder is not empty.
+        ///Create the project in a new subfolder instead?.
+        /// </summary>
+        public static string Msg_ProjectFolderNotEmptyUseSubfolder {
+            get {
+                return ResourceManager.GetString("Msg_ProjectFolderNotEmptyUseSubfolder", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Project name:.
