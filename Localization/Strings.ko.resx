@@ -6584,4 +6584,10 @@ Do you want to update now?</value>
   <data name="Msg_MirrorChyanCdkRequired" xml:space="preserve">
     <value>Downloading from MirrorChyan requires a CDK. GitHub will be used instead. Continue?</value>
   </data>
+  <data name="Msg_ProjectFolderNotEmptyUseSubfolder" xml:space="preserve">
+    <value>The selected folder is not empty.
+Create the project in a new subfolder instead?
+
+{0}</value>
+  </data>
 </root>
