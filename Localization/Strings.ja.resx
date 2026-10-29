@@ -6454,9 +6454,6 @@ GitHub で報告してください。
   <data name="Editor_PointerInfoToolTip" xml:space="preserve">
     <value>このオブジェクトの正確なファイルのオフセットは、16進数で示されます。</value>
   </data>
-  <data name="Settings_CodeEditorTheme" xml:space="preserve">
-    <value>Code editor theme:</value>
-  </data>
   <data name="Settings_CodeEditorThemeToolTip" xml:space="preserve">
     <value>コードエディタがライトテーマを使用するかダークテーマを使用するかは、メインアプリのダークモード設定とは無関係です。</value>
   </data>
@@ -6550,14 +6547,8 @@ Android 10では、そのために1つ追加の手順が必要です（アプリ
   <data name="Settings_UpdateSourceToolTip" xml:space="preserve">
     <value>GitHubは、直接アップデートをダウンロードします。 MirrorChyanはCDNで安定したリリースをミラーリングし、CDKをダウンロードする必要があります。 Nightlyビルドは、GitHubから常にダウンロードされます.</value>
   </data>
-  <data name="Settings_UpdateSourceGitHub" xml:space="preserve">
-    <value>GitHub</value>
-  </data>
   <data name="Settings_UpdateSourceMirrorChyan" xml:space="preserve">
     <value>MirrorChyan (Mirrorちゃん)</value>
-  </data>
-  <data name="Settings_MirrorChyanCdk" xml:space="preserve">
-    <value>MirrorChyan CDK</value>
   </data>
   <data name="Settings_MirrorChyanCdkToolTip" xml:space="preserve">
     <value>MirrorChyanから安定したリリースをダウンロードするのに使用されるアクティベーションキー。 ローカル設定ファイルに保存され、MirrorChyan API以外の場所で送信されることはありません.</value>

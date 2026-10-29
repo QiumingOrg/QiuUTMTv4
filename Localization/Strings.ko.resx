@@ -748,9 +748,6 @@
   <data name="Editor_GameID" xml:space="preserve">
     <value>게임 ID</value>
   </data>
-  <data name="Editor_DirectPlayGUID" xml:space="preserve">
-    <value>DirectPlay GUID</value>
-  </data>
   <data name="Editor_Version" xml:space="preserve">
     <value>버전</value>
   </data>
@@ -789,9 +786,6 @@
   </data>
   <data name="Editor_SyncWithRoomList" xml:space="preserve">
     <value>룸 목록과 동기화</value>
-  </data>
-  <data name="Editor_FPS" xml:space="preserve">
-    <value>FPS</value>
   </data>
   <data name="Editor_AllowStatistics" xml:space="preserve">
     <value>통계 허용</value>
@@ -1271,9 +1265,6 @@
   </data>
   <data name="Editor_ExtFunc_ExternalName" xml:space="preserve">
     <value>외부 이름</value>
-  </data>
-  <data name="Editor_ExtFunc_ID" xml:space="preserve">
-    <value>ID</value>
   </data>
   <data name="Editor_ExtFunc_ReturnType" xml:space="preserve">
     <value>반환형</value>
@@ -1860,9 +1851,6 @@
   <data name="Dialog_UnsupportedBytecodeVersion" xml:space="preserve">
     <value>지원되지 않는 바이트코드 버전</value>
   </data>
-  <data name="Dialog_YYC" xml:space="preserve">
-    <value>YYC</value>
-  </data>
   <data name="Dialog_GMSDebugger" xml:space="preserve">
     <value>GMS 디버거</value>
   </data>
@@ -2177,17 +2165,8 @@
   <data name="Common_Height" xml:space="preserve">
     <value>높이</value>
   </data>
-  <data name="Common_X" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="Common_Y" xml:space="preserve">
-    <value>Y</value>
-  </data>
   <data name="Common_Unknown" xml:space="preserve">
     <value>알 수 없음</value>
-  </data>
-  <data name="Common_UndertaleModTool" xml:space="preserve">
-    <value>UndertaleModTool</value>
   </data>
   <data name="Common_Create" xml:space="preserve">
     <value>생성</value>
@@ -2207,20 +2186,11 @@
   <data name="Common_CopyNameToClipboard" xml:space="preserve">
     <value>클립보드에 이름 복사</value>
   </data>
-  <data name="Common_Null" xml:space="preserve">
-    <value>(null)</value>
-  </data>
   <data name="Common_Empty" xml:space="preserve">
     <value>(비어 있음)</value>
   </data>
   <data name="Common_EmptyString" xml:space="preserve">
     <value>(빈 문자열)</value>
-  </data>
-  <data name="Common_ColorFormatAABBGGRR" xml:space="preserve">
-    <value>#AABBGGRR</value>
-  </data>
-  <data name="Common_ColorFormatBBGGRR" xml:space="preserve">
-    <value>#BBGGRR</value>
   </data>
   <data name="Common_InvalidColorString" xml:space="preserve">
     <value>유효하지 않은 색상 문자열</value>
@@ -2243,12 +2213,6 @@
   <data name="Editor_NewAssetsLayer" xml:space="preserve">
     <value>새 에셋 레이어</value>
   </data>
-  <data name="Editor_NewExtensionFile" xml:space="preserve">
-    <value>NewExtensionFile{0}.dll</value>
-  </data>
-  <data name="Editor_NewExtensionOption" xml:space="preserve">
-    <value>extensionOption{0}</value>
-  </data>
   <data name="Editor_RemoveTextureEntry" xml:space="preserve">
     <value>텍스처 항목 제거</value>
   </data>
@@ -2260,9 +2224,6 @@
   </data>
   <data name="Editor_Number" xml:space="preserve">
     <value>숫자</value>
-  </data>
-  <data name="Editor_GMT0" xml:space="preserve">
-    <value>GMT+0: {0}</value>
   </data>
   <data name="Editor_KerningOfGlyph" xml:space="preserve">
     <value>글리프 '{0}'의 커닝 (코드 - {1}):</value>
@@ -2284,9 +2245,6 @@
   </data>
   <data name="Editor_InferredTypeLabel" xml:space="preserve">
     <value>{0} (추론된 타입)</value>
-  </data>
-  <data name="Editor_ArgValueLabel" xml:space="preserve">
-    <value>{0} → {1}</value>
   </data>
   <data name="Editor_ArgTypesLabel" xml:space="preserve">
     <value>인수 타입: {0}</value>
@@ -2935,9 +2893,6 @@ UndertaleModTool을 "저장" 옵션 없이 닫을 시
   <data name="Msg_DownloadingNewVersion" xml:space="preserve">
     <value>새 버전 다운로드 중...</value>
   </data>
-  <data name="Msg_LinePrefix" xml:space="preserve">
-    <value>Line </value>
-  </data>
   <data name="Setup_FileAssociationQuestion" xml:space="preserve">
     <value>초기 설정: GameMaker 데이터 파일(.win 등)을 UndertaleModTool과 연결하시겠습니까?</value>
   </data>
@@ -2983,9 +2938,6 @@ UndertaleModTool을 "저장" 옵션 없이 닫을 시
   </data>
   <data name="Ctrl_StringRefToolTip" xml:space="preserve">
     <value>문자열 참조입니다. 여기서 값을 변경하여 이 참조의 값만 편집하거나, 왼쪽 트리에서 다른 문자열 인스턴스를 드래그 앤 드롭하여 참조 자체를 변경할 수 있습니다.</value>
-  </data>
-  <data name="Ctrl_Null" xml:space="preserve">
-    <value>(null)</value>
   </data>
   <data name="Ctrl_Empty" xml:space="preserve">
     <value>(비어 있음)</value>
@@ -3056,9 +3008,6 @@ UndertaleModTool을 "저장" 옵션 없이 닫을 시
   </data>
   <data name="Status_DefaultNewName" xml:space="preserve">
     <value>새로 만들기</value>
-  </data>
-  <data name="Status_DefaultModSuffix" xml:space="preserve">
-    <value> Mod</value>
   </data>
   <data name="Editor_EmitterName" xml:space="preserve">
     <value>이름</value>
@@ -3208,9 +3157,6 @@ UndertaleModTool은 이 값들의 평균을 내어 표시합니다.
   </data>
   <data name="Editor_ExtFuncExternalName" xml:space="preserve">
     <value>외부 이름</value>
-  </data>
-  <data name="Editor_ID" xml:space="preserve">
-    <value>ID</value>
   </data>
   <data name="Editor_ReturnType" xml:space="preserve">
     <value>반환형</value>
@@ -3505,17 +3451,8 @@ UndertaleModTool은 이 값들의 평균을 내어 표시합니다.
   <data name="RuntimePicker_GameEXE" xml:space="preserve">
     <value>게임 EXE</value>
   </data>
-  <data name="RuntimePicker_GMS14Version" xml:space="preserve">
-    <value>1.4.xxx</value>
-  </data>
   <data name="RuntimePicker_UnableToFindRuntime" xml:space="preserve">
     <value>게임 EXE 또는 설치된 Studio 런타임을 찾을 수 없습니다.</value>
-  </data>
-  <data name="LoaderDialog_ProgressFormat" xml:space="preserve">
-    <value>{0}/{1}</value>
-  </data>
-  <data name="LoaderDialog_ProgressFormatWithStatus" xml:space="preserve">
-    <value>{0}/{1}: {2}</value>
   </data>
   <data name="ProjectAssets_NoEditorForType" xml:space="preserve">
     <value>이 유형의 오브젝트에는 편집기/뷰어가 없습니다.</value>
@@ -3645,9 +3582,6 @@ UndertaleModTool은 이 값들의 평균을 내어 표시합니다.
   </data>
   <data name="Settings_EnableAssetOrderSwapping" xml:space="preserve">
     <value>에셋 순서 변경 활성화</value>
-  </data>
-  <data name="Settings_EnableAssetOrderSwapping_Tooltip" xml:space="preserve">
-    <value>Toggles dragging &amp; dropping assets in the asset tabs to different positions in the list. Disabled by default.   </value>
   </data>
   <data name="Settings_WarnTempRun" xml:space="preserve">
     <value>임시 실행 경고 표시</value>
@@ -3898,12 +3832,6 @@ UndertaleModTool은 이 값들의 평균을 내어 표시합니다.
   <data name="Editor_Origin" xml:space="preserve">
     <value>원점</value>
   </data>
-  <data name="Editor_X" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="Editor_Y" xml:space="preserve">
-    <value>Y</value>
-  </data>
   <data name="Editor_Textures" xml:space="preserve">
     <value>텍스처</value>
   </data>
@@ -4130,9 +4058,6 @@ UndertaleModTool은 이 값들의 평균을 내어 표시합니다.
   <data name="Msg_Error" xml:space="preserve">
     <value>오류</value>
   </data>
-  <data name="Msg_UndertaleModTool" xml:space="preserve">
-    <value>UndertaleModTool</value>
-  </data>
   <data name="Dialog_GMLSettings" xml:space="preserve">
     <value>설정 - GML 컴파일러/디컴파일러</value>
   </data>
@@ -4262,9 +4187,6 @@ UndertaleModTool은 이 값들의 평균을 내어 표시합니다.
   <data name="GlyphRect_EditTitle" xml:space="preserve">
     <value>글리프 사각형 편집</value>
   </data>
-  <data name="Common_False" xml:space="preserve">
-    <value>False</value>
-  </data>
   <data name="Common_Welcome" xml:space="preserve">
     <value>환영합니다!</value>
   </data>
@@ -4352,12 +4274,6 @@ UndertaleModTool은 이 값들의 평균을 내어 표시합니다.
   <data name="Editor_Moments" xml:space="preserve">
     <value>모멘트</value>
   </data>
-  <data name="Editor_NewExtensionFunction" xml:space="preserve">
-    <value>new_extension_function_{0}</value>
-  </data>
-  <data name="Editor_NewExtensionFunctionExt" xml:space="preserve">
-    <value>new_extension_function_{0}_ext</value>
-  </data>
   <data name="Editor_OffsetTooltip" xml:space="preserve">
     <value>글리프 렌더링을 수평으로 오프셋할 픽셀 수입니다.&#13;
 위 텍스처에서 파란색으로 강조 표시됩니다.</value>
@@ -4367,12 +4283,6 @@ UndertaleModTool은 이 값들의 평균을 내어 표시합니다.
   </data>
   <data name="Editor_ProductID" xml:space="preserve">
     <value>제품 ID</value>
-  </data>
-  <data name="Editor_QuestionMark" xml:space="preserve">
-    <value>(?)</value>
-  </data>
-  <data name="Editor_RangeSeparator" xml:space="preserve">
-    <value> - </value>
   </data>
   <data name="Editor_Scaled" xml:space="preserve">
     <value>스케일됨</value>
@@ -4456,9 +4366,6 @@ UndertaleModTool은 이 값들의 평균을 내어 표시합니다.
   </data>
   <data name="Msg_ChooseSourceDataFile" xml:space="preserve">
     <value>소스 데이터 파일 선택</value>
-  </data>
-  <data name="Msg_ColorFormatHint" xml:space="preserve">
-    <value>#{0}</value>
   </data>
   <data name="Msg_Confirmation" xml:space="preserve">
     <value>확인</value>
@@ -4736,9 +4643,6 @@ UndertaleModTool은 이 값들의 평균을 내어 표시합니다.
   <data name="TabTitle_VariablesOverview" xml:space="preserve">
     <value>변수 개요</value>
   </data>
-  <data name="Common_True" xml:space="preserve">
-    <value>True</value>
-  </data>
   <data name="Common_Untitled" xml:space="preserve">
     <value>제목 없음</value>
   </data>
@@ -4763,14 +4667,8 @@ UndertaleModTool은 이 값들의 평균을 내어 표시합니다.
   <data name="Editor_Closed" xml:space="preserve">
     <value>닫힘</value>
   </data>
-  <data name="Editor_EmUnit" xml:space="preserve">
-    <value> em</value>
-  </data>
   <data name="Editor_ExportedSpriteGM2023" xml:space="preserve">
     <value>내보낸 스프라이트 (GM 2023.8+)</value>
-  </data>
-  <data name="Editor_ExtensionNote1" xml:space="preserve">
-    <value>- Keep in mind that .gml files are either not present, or will be empty. (e.g. no functions)</value>
   </data>
   <data name="Editor_ExtensionNote2" xml:space="preserve">
     <value>이는 GML 스크립트에 미리 빌드되어 있기 때문이며, 정상적인 현상입니다.</value>
@@ -4827,17 +4725,11 @@ UndertaleModTool은 이 값들의 평균을 내어 표시합니다.
   <data name="Editor_VertexShaderAttributes" xml:space="preserve">
     <value>버텍스 셰이더 속성</value>
   </data>
-  <data name="Editor_WindowSizeSeparator" xml:space="preserve">
-    <value>x</value>
-  </data>
   <data name="Main_DownloadingNewVersion" xml:space="preserve">
     <value>새 버전 다운로드 중...</value>
   </data>
   <data name="Main_ExpandListToEdit" xml:space="preserve">
     <value>항목을 편집하려면 왼쪽 목록을 확장하세요</value>
-  </data>
-  <data name="Main_IDLabelFormat" xml:space="preserve">
-    <value>ID: {0}</value>
   </data>
   <data name="Main_LoadingEllipsis" xml:space="preserve">
     <value>로딩 중...</value>
@@ -4948,9 +4840,6 @@ UndertaleModTool은 이 값들의 평균을 내어 표시합니다.
   <data name="Msg_InvalidRegex" xml:space="preserve">
     <value>유효하지 않은 정규식</value>
   </data>
-  <data name="Msg_Line" xml:space="preserve">
-    <value>Line </value>
-  </data>
   <data name="Msg_MultipleCodeEntriesError" xml:space="preserve">
     <value>여러 코드 항목이 필터와 일치합니다.</value>
   </data>
@@ -4997,9 +4886,6 @@ GitHub에 이 문제를 보고해 주세요.&#13;
   <data name="Msg_ResultsIn" xml:space="preserve">
     <value>다음 내 결과:</value>
   </data>
-  <data name="Msg_RoomCaptionFormat" xml:space="preserve">
-    <value>{0}: {1}x{2}</value>
-  </data>
   <data name="Msg_RuntimeNoDebugging" xml:space="preserve">
     <value>선택한 런타임은 디버깅을 지원하지 않습니다.</value>
   </data>
@@ -5043,9 +4929,6 @@ GitHub에 이 문제를 보고해 주세요.&#13;
   </data>
   <data name="Msg_UnsupportedTexturesTitle" xml:space="preserve">
     <value>지원되지 않는 텍스처</value>
-  </data>
-  <data name="Msg_YYCTitle" xml:space="preserve">
-    <value>YYC</value>
   </data>
   <data name="Room_AutoSizeTooltip" xml:space="preserve">
     <value>룸 크기를 기반으로 타일맵 크기를 자동으로 설정합니다.</value>
@@ -5569,12 +5452,6 @@ GitHub에 이 문제를 보고해 주세요.&#13;
   <data name="Common_EmbeddedTexture" xml:space="preserve">
     <value>내장 텍스처</value>
   </data>
-  <data name="Common_W" xml:space="preserve">
-    <value>W</value>
-  </data>
-  <data name="Common_H" xml:space="preserve">
-    <value>H</value>
-  </data>
   <data name="Common_New" xml:space="preserve">
     <value>새로 만들기</value>
   </data>
@@ -5592,12 +5469,6 @@ GitHub에 이 문제를 보고해 주세요.&#13;
   </data>
   <data name="Common_SwapToPosition" xml:space="preserve">
     <value>위치 교체(_S)</value>
-  </data>
-  <data name="Common_GML" xml:space="preserve">
-    <value>GML</value>
-  </data>
-  <data name="Common_ASM" xml:space="preserve">
-    <value>ASM</value>
   </data>
   <data name="Common_CompileAndDecompile" xml:space="preserve">
     <value>컴파일 및 디컴파일</value>
@@ -5740,9 +5611,6 @@ GitHub에 이 문제를 보고해 주세요.&#13;
   <data name="Search_FoundResults" xml:space="preserve">
     <value>{2}개의 코드 항목{3}에서 {0}개의 결과{1}를 찾았습니다.</value>
   </data>
-  <data name="Search_FailedResults" xml:space="preserve">
-    <value> {0} code entr{1} with an error.</value>
-  </data>
   <data name="Search_NullName" xml:space="preserve">
     <value>&lt;이름 없음&gt;</value>
   </data>
@@ -5827,14 +5695,8 @@ GitHub에 이 문제를 보고해 주세요.&#13;
   <data name="GML_IndentString" xml:space="preserve">
     <value>들여쓰기 문자열:</value>
   </data>
-  <data name="GML_GML" xml:space="preserve">
-    <value>GML</value>
-  </data>
   <data name="Tree_AnimationCurves" xml:space="preserve">
     <value>애니메이션 커브</value>
-  </data>
-  <data name="Common_V" xml:space="preserve">
-    <value>V</value>
   </data>
   <data name="AnimCurve_GraphType" xml:space="preserve">
     <value>그래프 타입</value>
@@ -5974,12 +5836,6 @@ GitHub에 이 문제를 보고해 주세요.&#13;
   <data name="Room_Scale" xml:space="preserve">
     <value>스케일</value>
   </data>
-  <data name="Room_X" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="Room_Y" xml:space="preserve">
-    <value>Y</value>
-  </data>
   <data name="Room_Font" xml:space="preserve">
     <value>글꼴</value>
   </data>
@@ -6061,9 +5917,6 @@ GitHub에 이 문제를 보고해 주세요.&#13;
   <data name="Editor_Script" xml:space="preserve">
     <value>스크립트</value>
   </data>
-  <data name="Editor_Code_AnonymousFunctionBefore" xml:space="preserve">
-    <value>This code entry is a reference to an anonymous function within </value>
-  </data>
   <data name="Editor_Code_AnonymousFunctionAfter" xml:space="preserve">
     <value>해당 위치에서 확인하세요.</value>
   </data>
@@ -6102,9 +5955,6 @@ GitHub에 이 문제를 보고해 주세요.&#13;
   </data>
   <data name="Msg_SaveBeforeRun" xml:space="preserve">
     <value>실행하기 전에 데이터 파일을 저장하시겠습니까?</value>
-  </data>
-  <data name="Msg_ItMustBeSavedBeforeRunning" xml:space="preserve">
-    <value> It must be saved before running.</value>
   </data>
   <data name="Msg_DataFileAtLastLocation" xml:space="preserve">
     <value>저장하지 않으면, 마지막 위치에 있던 데이터 파일이 사용됩니다("{0}").</value>
@@ -6205,9 +6055,6 @@ GitHub에 이 문제를 보고해 주세요.&#13;
   <data name="Msg_OutOfRange" xml:space="preserve">
     <value>{0}이(가) 목록의 범위를 벗어났습니다.</value>
   </data>
-  <data name="Msg_Null" xml:space="preserve">
-    <value>(null)</value>
-  </data>
   <data name="Msg_DecompilingGML" xml:space="preserve">
     <value>GML로 디컴파일 중...</value>
   </data>
@@ -6264,10 +6111,6 @@ GitHub에 이 문제를 보고해 주세요.&#13;
   </data>
   <data name="Msg_SaveToProjectDataFileQuestion" xml:space="preserve">
     <value>저장을 위해 지정된 프로젝트 데이터 파일에 저장하시겠습니까?</value>
-  </data>
-  <data name="Msg_AboutUndertaleModTool" xml:space="preserve">
-    <value>QiuUTMTv5 v{0} </value>
-    <comment>Only used in Avalonia</comment>
   </data>
   <data name="Msg_NewMod" xml:space="preserve">
     <value>새 모드</value>
@@ -6491,103 +6334,10 @@ GitHub에 이 문제를 보고해 주세요.&#13;
   <data name="Settings_BackgroundClear" xml:space="preserve">
     <value>지우기</value>
   </data>
-  <data name="Settings_BackgroundImage" xml:space="preserve">
-    <value>Custom background image: </value>
-  </data>
   <data name="Settings_BackgroundImageFilter" xml:space="preserve">
     <value>이미지 파일 (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff|모든 파일 (*.*)|*.*</value>
   </data>
-  <data name="Settings_BackgroundOpacity" xml:space="preserve">
-    <value>Background opacity: </value>
-  </data>
   <data name="Settings_BackgroundSelectTitle" xml:space="preserve">
     <value>배경 이미지 선택</value>
-  </data>
-  <data name="Settings_BackgroundStretchMode" xml:space="preserve">
-    <value>Background  image stretch mode: </value>
-  </data>
-  <data name="Msg_Android10StorageSetupTitle" xml:space="preserve">
-    <value>Android 10 storage access</value>
-  </data>
-  <data name="Msg_Android10StorageSetup" xml:space="preserve">
-    <value>This device runs Android 10, but the app does not have direct access to shared storage yet, so opening and saving files will not work.
-
-Android 10 needs one extra step for that (no app data is lost):
-
-1. Download and install the small "storage setup" APK. It carries the same version as this app, so it can be installed straight on top of it (do NOT uninstall anything):
-{0}
-2. Open "QiuUTMTv5 Storage Setup" and allow the storage permission it asks for.
-3. Install this app's normal APK again, straight on top - do NOT uninstall anything in between.
-4. Start this app again.
-
-The setup APK only exists to switch Android 10 back to the legacy storage model; installing this app again replaces it.
-
-Open the download page now?</value>
-  </data>
-  <data name="Settings_DrawerMode" xml:space="preserve">
-    <value>Asset explorer sidebar:</value>
-  </data>
-  <data name="Settings_DrawerModeAuto" xml:space="preserve">
-    <value>Auto (based on screen width)</value>
-  </data>
-  <data name="Settings_DrawerModeAlwaysExpanded" xml:space="preserve">
-    <value>Always expanded (desktop mode)</value>
-  </data>
-  <data name="Settings_DrawerModeAlwaysCollapsed" xml:space="preserve">
-    <value>Always collapsed (phone portrait mode)</value>
-  </data>
-  <data name="Settings_UpdateChannel" xml:space="preserve">
-    <value>Update channel</value>
-  </data>
-  <data name="Settings_UpdateChannelToolTip" xml:space="preserve">
-    <value>Stable releases are the published versions. Nightly builds are the latest successful CI build of the master branch and can be unstable.</value>
-  </data>
-  <data name="Settings_UpdateChannelStable" xml:space="preserve">
-    <value>Stable release</value>
-  </data>
-  <data name="Settings_UpdateChannelNightly" xml:space="preserve">
-    <value>Nightly build</value>
-  </data>
-  <data name="Settings_UpdateSource" xml:space="preserve">
-    <value>Download source</value>
-  </data>
-  <data name="Settings_UpdateSourceToolTip" xml:space="preserve">
-    <value>GitHub downloads updates directly. MirrorChyan mirrors stable releases on a CDN and needs a CDK to download. Nightly builds are always downloaded from GitHub.</value>
-  </data>
-  <data name="Settings_UpdateSourceGitHub" xml:space="preserve">
-    <value>GitHub</value>
-  </data>
-  <data name="Settings_UpdateSourceMirrorChyan" xml:space="preserve">
-    <value>MirrorChyan (Mirror酱)</value>
-  </data>
-  <data name="Settings_MirrorChyanCdk" xml:space="preserve">
-    <value>MirrorChyan CDK</value>
-  </data>
-  <data name="Settings_MirrorChyanCdkToolTip" xml:space="preserve">
-    <value>Activation key used to download stable releases from MirrorChyan. It is stored only in the local settings file and is never sent anywhere except the MirrorChyan API.</value>
-  </data>
-  <data name="Settings_MirrorChyanGetCdk" xml:space="preserve">
-    <value>Get a CDK</value>
-  </data>
-  <data name="Msg_UpdateAvailableWithVersion" xml:space="preserve">
-    <value>A new version is available: {0}
-Currently installed: {1}
-
-Do you want to update now?</value>
-  </data>
-  <data name="Msg_UpdateNoAsset" xml:space="preserve">
-    <value>No matching download was found in the latest release.</value>
-  </data>
-  <data name="Msg_MirrorChyanError" xml:space="preserve">
-    <value>MirrorChyan request failed ({0}): {1}</value>
-  </data>
-  <data name="Msg_MirrorChyanCdkRequired" xml:space="preserve">
-    <value>Downloading from MirrorChyan requires a CDK. GitHub will be used instead. Continue?</value>
-  </data>
-  <data name="Msg_ProjectFolderNotEmptyUseSubfolder" xml:space="preserve">
-    <value>The selected folder is not empty.
-Create the project in a new subfolder instead?
-
-{0}</value>
   </data>
 </root>
