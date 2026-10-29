@@ -6502,4 +6502,88 @@ GitHub で報告してください。
   <data name="Settings_BackgroundStretchMode" xml:space="preserve">
     <value>背景画像ストレッチモード: </value>
   </data>
+  <data name="Msg_Android10StorageSetupTitle" xml:space="preserve">
+    <value>Android 10 のストレージアクセス</value>
+  </data>
+  <data name="Msg_Android10StorageSetup" xml:space="preserve">
+    <value>この端末はAndroid 10を搭載していますが、本アプリはまだ共有ストレージに直接アクセスできないため、ファイルの開いたり保存したりすることはできません。
+
+Android 10では、そのために1つ追加の手順が必要です（アプリデータが失われることはありません）：
+
+1. 小さな「ストレージ設定」APKをダウンロードしてインストールしてください。このAPKは本アプリと同じバージョンですので、その上に直接インストールできます（何もアンインストールしないでください）：
+{0}
+2. 「QiuUTMTv5 Storage Setup」を開き、要求されるストレージ権限を許可してください。
+3. このアプリの通常のAPKを、その上に直接再度インストールしてください。その間に何もアンインストールしないでください。
+4. このアプリを再度起動してください。
+
+セットアップ用APKは、Android 10を従来のストレージモデルに戻すためだけに存在します。このアプリを再度インストールすると、セットアップ用APKは置き換えられます。
+
+今すぐダウンロードページを開きますか？</value>
+  </data>
+  <data name="Settings_DrawerMode" xml:space="preserve">
+    <value>アセットエクスプローラーのサイドバー：</value>
+  </data>
+  <data name="Settings_DrawerModeAuto" xml:space="preserve">
+    <value>自動（画面の幅に基づいて）</value>
+  </data>
+  <data name="Settings_DrawerModeAlwaysExpanded" xml:space="preserve">
+    <value>常に拡大(デスクトップモード)</value>
+  </data>
+  <data name="Settings_DrawerModeAlwaysCollapsed" xml:space="preserve">
+    <value>常に折りたたまれた状態（スマートフォンの縦向きモード）</value>
+  </data>
+  <data name="Settings_UpdateChannel" xml:space="preserve">
+    <value>チャンネルの更新</value>
+  </data>
+  <data name="Settings_UpdateChannelToolTip" xml:space="preserve">
+    <value>安定版は公開済みのバージョンです。ナイトリービルドは、マスターブランチの最新の正常に完了したCIビルドであり、不安定な場合があります。</value>
+  </data>
+  <data name="Settings_UpdateChannelStable" xml:space="preserve">
+    <value>安定的なリリース</value>
+  </data>
+  <data name="Settings_UpdateChannelNightly" xml:space="preserve">
+    <value>ナイトリービルド</value>
+  </data>
+  <data name="Settings_UpdateSource" xml:space="preserve">
+    <value>ソースをダウンロード</value>
+  </data>
+  <data name="Settings_UpdateSourceToolTip" xml:space="preserve">
+    <value>GitHubは、直接アップデートをダウンロードします。 MirrorChyanはCDNで安定したリリースをミラーリングし、CDKをダウンロードする必要があります。 Nightlyビルドは、GitHubから常にダウンロードされます.</value>
+  </data>
+  <data name="Settings_UpdateSourceGitHub" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="Settings_UpdateSourceMirrorChyan" xml:space="preserve">
+    <value>MirrorChyan (Mirrorちゃん)</value>
+  </data>
+  <data name="Settings_MirrorChyanCdk" xml:space="preserve">
+    <value>MirrorChyan CDK</value>
+  </data>
+  <data name="Settings_MirrorChyanCdkToolTip" xml:space="preserve">
+    <value>MirrorChyanから安定したリリースをダウンロードするのに使用されるアクティベーションキー。 ローカル設定ファイルに保存され、MirrorChyan API以外の場所で送信されることはありません.</value>
+  </data>
+  <data name="Settings_MirrorChyanGetCdk" xml:space="preserve">
+    <value>CDKを入手</value>
+  </data>
+  <data name="Msg_UpdateAvailableWithVersion" xml:space="preserve">
+    <value>新しいバージョンが利用可能です: {0}
+現在インストールされている: {1}
+
+更新しますか?</value>
+  </data>
+  <data name="Msg_UpdateNoAsset" xml:space="preserve">
+    <value>最新のリリースでは、マッチングダウンロードが見つかりませんでした.</value>
+  </data>
+  <data name="Msg_MirrorChyanError" xml:space="preserve">
+    <value>MirrorChyanリクエストが失敗しました({0}): {1}</value>
+  </data>
+  <data name="Msg_MirrorChyanCdkRequired" xml:space="preserve">
+    <value>MirrorChyanからダウンロードするには、CDKが必要です。 GitHub は代わりに使用されます。 お問い合わせ?</value>
+  </data>
+  <data name="Msg_ProjectFolderNotEmptyUseSubfolder" xml:space="preserve">
+    <value>選択したフォルダが空はありません。
+代わりに新しいサブフォルダにプロジェクトを作成しますか?
+
+{0}</value>
+  </data>
 </root>
