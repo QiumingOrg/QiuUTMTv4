@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -2740,7 +2740,7 @@ You probably should change the depth of the new layer.</value>
   </data>
   <data name="Msg_TempRunWarning" xml:space="preserve">
     <value>WARNING:
-Temp running the game does not permanently 
+Temp running the game does not permanently
 save your changes. Please "Save" the game
 to save your changes. Closing UndertaleModTool
 without using the "Save" option can
@@ -6647,5 +6647,352 @@ It's highly recommended to restart the application.</value>
   </data>
   <data name="Settings_BackgroundStretchMode" xml:space="preserve">
     <value>Background  image stretch mode: </value>
+  </data>
+  <data name="Contributors_Title" xml:space="preserve">
+    <value>Contributors &amp; translators</value>
+  </data>
+  <data name="Contributors_Description" xml:space="preserve">
+    <value>UndertaleModTool is maintained by volunteers. The live pages below list everyone who contributed code, reported bugs, translated the tool, or reviewed changes.</value>
+  </data>
+  <data name="Contributors_Fork" xml:space="preserve">
+    <value>Code contributors (this fork)</value>
+  </data>
+  <data name="Contributors_Upstream" xml:space="preserve">
+    <value>Code contributors (QiuUTMTv4 upstream)</value>
+  </data>
+  <data name="Contributors_Translators" xml:space="preserve">
+    <value>Translators (Weblate)</value>
+  </data>
+  <data name="Tab_ShowAllOpenTabs" xml:space="preserve">
+    <value>Show all open tabs</value>
+  </data>
+  <data name="ImportGraphics_OriginTopLeft" xml:space="preserve">
+    <value>Top Left</value>
+  </data>
+  <data name="ImportGraphics_OriginTopCenter" xml:space="preserve">
+    <value>Top Center</value>
+  </data>
+  <data name="ImportGraphics_OriginTopRight" xml:space="preserve">
+    <value>Top Right</value>
+  </data>
+  <data name="ImportGraphics_OriginCenterLeft" xml:space="preserve">
+    <value>Center Left</value>
+  </data>
+  <data name="ImportGraphics_OriginCenter" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="ImportGraphics_OriginCenterRight" xml:space="preserve">
+    <value>Center Right</value>
+  </data>
+  <data name="ImportGraphics_OriginBottomLeft" xml:space="preserve">
+    <value>Bottom Left</value>
+  </data>
+  <data name="ImportGraphics_OriginBottomCenter" xml:space="preserve">
+    <value>Bottom Center</value>
+  </data>
+  <data name="ImportGraphics_OriginBottomRight" xml:space="preserve">
+    <value>Bottom Right</value>
+  </data>
+  <data name="ImportGraphics_FramesPerSecond" xml:space="preserve">
+    <value>Frames Per Second</value>
+  </data>
+  <data name="ImportGraphics_FramesPerGameFrame" xml:space="preserve">
+    <value>Frames Per Game Frame</value>
+  </data>
+  <data name="Editor_ShowChildrenGameObjects" xml:space="preserve">
+    <value>Show children game objects</value>
+  </data>
+  <data name="Editor_RemoveAction" xml:space="preserve">
+    <value>Remove action</value>
+  </data>
+  <data name="Editor_NoChildrenFound" xml:space="preserve">
+    <value>(no children were found)</value>
+  </data>
+  <data name="Editor_RemoveScript" xml:space="preserve">
+    <value>Remove script</value>
+  </data>
+  <data name="Editor_ShaderEditingWarning" xml:space="preserve">
+    <value>WARNING: Editing shader data directly in the above fields is not recommended, as some of the data is compiled in binary form. Instead, use the shader import/export scripts to move shaders between existing games (including any of your own), or use the project system to do the same.</value>
+  </data>
+  <data name="Msg_ShaderEditorNotFoundLoad" xml:space="preserve">
+    <value>Cannot load the code of one of the shader properties - the editor is not found?</value>
+  </data>
+  <data name="Msg_ShaderSourceNullLoad" xml:space="preserve">
+    <value>Cannot load the code of one of the shader properties - the source string object is null.</value>
+  </data>
+  <data name="Msg_ShaderEditorNotFoundSave" xml:space="preserve">
+    <value>The changes weren't saved - the editor is not found?</value>
+  </data>
+  <data name="Msg_ShaderSourceNullSave" xml:space="preserve">
+    <value>The changes weren't saved - the source string object is null.</value>
+  </data>
+  <data name="Msg_CancelTilemapChanges" xml:space="preserve">
+    <value>Cancel changes to the tilemap?</value>
+  </data>
+  <data name="Msg_UnknownAudioFileType" xml:space="preserve">
+    <value>Unknown file type.</value>
+  </data>
+  <data name="Msg_CannotFindSelectedGlyph" xml:space="preserve">
+    <value>Cannot find the selected glyph.</value>
+  </data>
+  <data name="Glyph_EditHelp" xml:space="preserve">
+    <value>1) Double-click an inactive rectangle to select it.
+2) You can move the selected rectangle with the arrow keys (held Shift - resize).
+3) Drag mouse on desired region if it's an empty glyph.</value>
+  </data>
+  <data name="UI_AddFlexPanel" xml:space="preserve">
+    <value>Add flex panel</value>
+  </data>
+  <data name="UI_AddGameObject" xml:space="preserve">
+    <value>Add game object</value>
+  </data>
+  <data name="UI_AddSequenceInstance" xml:space="preserve">
+    <value>Add sequence instance</value>
+  </data>
+  <data name="UI_AddSpriteInstance" xml:space="preserve">
+    <value>Add sprite instance</value>
+  </data>
+  <data name="UI_AddTextItemInstance" xml:space="preserve">
+    <value>Add text item instance</value>
+  </data>
+  <data name="UI_AddEffectLayer" xml:space="preserve">
+    <value>Add effect layer</value>
+  </data>
+  <data name="Editor_Font_FontSizeEm" xml:space="preserve">
+    <value>Font size (em)</value>
+  </data>
+  <data name="Editor_Font_CodePoint" xml:space="preserve">
+    <value>Code point</value>
+  </data>
+  <data name="Editor_Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Editor_Extension_ProductIdData" xml:space="preserve">
+    <value>Product ID data</value>
+  </data>
+  <data name="Common_Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Editor_SelectedFileProperties" xml:space="preserve">
+    <value>Selected file properties</value>
+  </data>
+  <data name="Editor_SelectedFunctionProperties" xml:space="preserve">
+    <value>Selected function properties</value>
+  </data>
+  <data name="Menu_File_RunWithDataProjectRunner" xml:space="preserve">
+    <value>_Run with data/project runner</value>
+  </data>
+  <data name="Menu_File_ClearAudioGroupCache" xml:space="preserve">
+    <value>Clear audio group cache</value>
+  </data>
+  <data name="Menu_Help_Contributors" xml:space="preserve">
+    <value>Contributors &amp; translators</value>
+  </data>
+  <data name="UI_DrawSpace" xml:space="preserve">
+    <value>Draw space</value>
+  </data>
+  <data name="UI_MinimumWidth" xml:space="preserve">
+    <value>Minimum width</value>
+  </data>
+  <data name="UI_MinimumHeight" xml:space="preserve">
+    <value>Minimum height</value>
+  </data>
+  <data name="UI_MaximumWidth" xml:space="preserve">
+    <value>Maximum width</value>
+  </data>
+  <data name="UI_MaximumHeight" xml:space="preserve">
+    <value>Maximum height</value>
+  </data>
+  <data name="UI_OffsetLeft" xml:space="preserve">
+    <value>Offset left</value>
+  </data>
+  <data name="UI_OffsetRight" xml:space="preserve">
+    <value>Offset right</value>
+  </data>
+  <data name="UI_OffsetTop" xml:space="preserve">
+    <value>Offset top</value>
+  </data>
+  <data name="UI_OffsetBottom" xml:space="preserve">
+    <value>Offset bottom</value>
+  </data>
+  <data name="UI_ClipsContents" xml:space="preserve">
+    <value>Clips contents</value>
+  </data>
+  <data name="UI_PositionType" xml:space="preserve">
+    <value>Position type</value>
+  </data>
+  <data name="UI_AlignSelf" xml:space="preserve">
+    <value>Align self</value>
+  </data>
+  <data name="UI_MarginLeft" xml:space="preserve">
+    <value>Margin left</value>
+  </data>
+  <data name="UI_MarginRight" xml:space="preserve">
+    <value>Margin right</value>
+  </data>
+  <data name="UI_MarginTop" xml:space="preserve">
+    <value>Margin top</value>
+  </data>
+  <data name="UI_MarginBottom" xml:space="preserve">
+    <value>Margin bottom</value>
+  </data>
+  <data name="UI_FlexGrow" xml:space="preserve">
+    <value>Flex grow</value>
+  </data>
+  <data name="UI_FlexShrink" xml:space="preserve">
+    <value>Flex shrink</value>
+  </data>
+  <data name="UI_Anchor" xml:space="preserve">
+    <value>Anchor</value>
+  </data>
+  <data name="UI_StretchWidth" xml:space="preserve">
+    <value>Stretch width</value>
+  </data>
+  <data name="UI_StretchHeight" xml:space="preserve">
+    <value>Stretch height</value>
+  </data>
+  <data name="UI_TileH" xml:space="preserve">
+    <value>Tile H</value>
+  </data>
+  <data name="UI_TileV" xml:space="preserve">
+    <value>Tile V</value>
+  </data>
+  <data name="UI_KeepAspect" xml:space="preserve">
+    <value>Keep aspect</value>
+  </data>
+  <data name="UI_PositionXY" xml:space="preserve">
+    <value>Position X/Y</value>
+  </data>
+  <data name="UI_ScaleXY" xml:space="preserve">
+    <value>Scale X/Y</value>
+  </data>
+  <data name="UI_AlignItems" xml:space="preserve">
+    <value>Align items</value>
+  </data>
+  <data name="UI_FlexDirection" xml:space="preserve">
+    <value>Flex direction</value>
+  </data>
+  <data name="UI_FlexWrap" xml:space="preserve">
+    <value>Flex wrap</value>
+  </data>
+  <data name="UI_AlignContent" xml:space="preserve">
+    <value>Align content</value>
+  </data>
+  <data name="UI_GapRow" xml:space="preserve">
+    <value>Gap row</value>
+  </data>
+  <data name="UI_GapColumn" xml:space="preserve">
+    <value>Gap column</value>
+  </data>
+  <data name="UI_PaddingLeft" xml:space="preserve">
+    <value>Padding left</value>
+  </data>
+  <data name="UI_PaddingRight" xml:space="preserve">
+    <value>Padding right</value>
+  </data>
+  <data name="UI_PaddingTop" xml:space="preserve">
+    <value>Padding top</value>
+  </data>
+  <data name="UI_PaddingBottom" xml:space="preserve">
+    <value>Padding bottom</value>
+  </data>
+  <data name="UI_JustifyContent" xml:space="preserve">
+    <value>Justify content</value>
+  </data>
+  <data name="UI_LayoutDirection" xml:space="preserve">
+    <value>Layout direction</value>
+  </data>
+  <data name="Room_MirrorX" xml:space="preserve">
+    <value>Mirror (X)</value>
+  </data>
+  <data name="Room_FlipY" xml:space="preserve">
+    <value>Flip (Y)</value>
+  </data>
+  <data name="Room_RotateZ" xml:space="preserve">
+    <value>Rotate (Z)</value>
+  </data>
+  <data name="Settings_ConfirmBeforeRunningScripts" xml:space="preserve">
+    <value>Confirm before running scripts</value>
+  </data>
+  <data name="Settings_ConfirmBeforeRunningScriptsToolTip" xml:space="preserve">
+    <value>Show a confirmation dialog before executing a script selected from the Scripts menu. Enabled by default on Android.</value>
+  </data>
+  <data name="Settings_AlwaysSaveProjectData" xml:space="preserve">
+    <value>Always save to the project's designated data file for saving</value>
+  </data>
+  <data name="Settings_EnableLocalizationStringPreview" xml:space="preserve">
+    <value>Enable localization strings preview</value>
+  </data>
+  <data name="Settings_EnableLocalizationStringPreviewToolTip" xml:space="preserve">
+    <value>If enabled, decompiled code of Undertale and Deltarune Chapter 1 will show previews of localized strings as comments.</value>
+  </data>
+  <data name="Common_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Contributors_CodeFork" xml:space="preserve">
+    <value>Code contributors (this fork)</value>
+  </data>
+  <data name="Contributors_CodeUpstream" xml:space="preserve">
+    <value>Code contributors (QiuUTMTv4 upstream)</value>
+  </data>
+  <data name="ImportGraphics_CanReplace" xml:space="preserve">
+    <value>Can replace</value>
+  </data>
+  <data name="ImportGraphics_DimensionMismatch" xml:space="preserve">
+    <value>Dimension mismatch</value>
+  </data>
+  <data name="ImportGraphics_FrameOutOfRange" xml:space="preserve">
+    <value>Frame out of range</value>
+  </data>
+  <data name="ImportGraphics_NewBackground" xml:space="preserve">
+    <value>New background</value>
+  </data>
+  <data name="ImportGraphics_NewSprite" xml:space="preserve">
+    <value>New sprite</value>
+  </data>
+  <data name="Room_ToggleTreeView" xml:space="preserve">
+    <value>Toggle tree view</value>
+  </data>
+  <data name="Room_ToggleProperties" xml:space="preserve">
+    <value>Toggle properties</value>
+  </data>
+  <data name="Room_SaveAsImage" xml:space="preserve">
+    <value>Save as image</value>
+  </data>
+  <data name="Room_Lock" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="Room_SelectAnyLayer" xml:space="preserve">
+    <value>Select any layer</value>
+  </data>
+  <data name="Room_Grid" xml:space="preserve">
+    <value>Grid</value>
+  </data>
+  <data name="Room_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Settings_UnknownEnumName" xml:space="preserve">
+    <value>Name of unknown enums:</value>
+  </data>
+  <data name="Settings_UnknownEnumNameToolTip" xml:space="preserve">
+    <value>The name used for auto-generated enum declarations when integer constants are detected as enums without known types (default: &quot;UnknownEnum&quot;).</value>
+  </data>
+  <data name="Settings_UnknownEnumValuePattern" xml:space="preserve">
+    <value>Pattern of unknown enum value names:</value>
+  </data>
+  <data name="Settings_UnknownEnumValuePatternToolTip" xml:space="preserve">
+    <value>Formatting pattern for values inside generated unknown enums. '{0}' is replaced with the underlying number (e.g. 'Value_{0}' produces 'Value_0', 'Value_1'...).</value>
+  </data>
+  <data name="Settings_UnknownArgumentNamePattern" xml:space="preserve">
+    <value>Pattern of unknown argument names:</value>
+  </data>
+  <data name="Settings_UnknownArgumentNamePatternToolTip" xml:space="preserve">
+    <value>Formatting pattern for unnamed arguments. '{0}' is replaced with the argument index (e.g. 'arg{0}' produces 'arg0', 'arg1'...).</value>
+  </data>
+  <data name="GML_AroundEnums" xml:space="preserve">
+    <value>Around enums</value>
+  </data>
+  <data name="GML_AroundEnums_Tooltip" xml:space="preserve">
+    <value>If enabled, adds an empty line before and after enums.</value>
   </data>
 </root>

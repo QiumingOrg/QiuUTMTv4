@@ -6587,4 +6587,351 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Settings_BackgroundImageFilter" xml:space="preserve">
     <value>图片文件 (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tiff|所有文件 (*.*)|*.*</value>
   </data>
+  <data name="Contributors_Title" xml:space="preserve">
+    <value>贡献者和翻译者</value>
+  </data>
+  <data name="Contributors_Description" xml:space="preserve">
+    <value>UndertaleModTool 由志愿者维护。以下实时页面列出了所有参与代码贡献、报告错误、翻译工具或审查更改的人员。</value>
+  </data>
+  <data name="Contributors_Fork" xml:space="preserve">
+    <value>本分支代码贡献者</value>
+  </data>
+  <data name="Contributors_Upstream" xml:space="preserve">
+    <value>QiuUTMTv4 上游代码贡献者</value>
+  </data>
+  <data name="Contributors_Translators" xml:space="preserve">
+    <value>翻译者（Weblate）</value>
+  </data>
+  <data name="Tab_ShowAllOpenTabs" xml:space="preserve">
+    <value>显示所有打开的标签页</value>
+  </data>
+  <data name="ImportGraphics_OriginTopLeft" xml:space="preserve">
+    <value>左上</value>
+  </data>
+  <data name="ImportGraphics_OriginTopCenter" xml:space="preserve">
+    <value>上方居中</value>
+  </data>
+  <data name="ImportGraphics_OriginTopRight" xml:space="preserve">
+    <value>右上</value>
+  </data>
+  <data name="ImportGraphics_OriginCenterLeft" xml:space="preserve">
+    <value>左侧居中</value>
+  </data>
+  <data name="ImportGraphics_OriginCenter" xml:space="preserve">
+    <value>居中</value>
+  </data>
+  <data name="ImportGraphics_OriginCenterRight" xml:space="preserve">
+    <value>右侧居中</value>
+  </data>
+  <data name="ImportGraphics_OriginBottomLeft" xml:space="preserve">
+    <value>左下</value>
+  </data>
+  <data name="ImportGraphics_OriginBottomCenter" xml:space="preserve">
+    <value>下方居中</value>
+  </data>
+  <data name="ImportGraphics_OriginBottomRight" xml:space="preserve">
+    <value>右下</value>
+  </data>
+  <data name="ImportGraphics_FramesPerSecond" xml:space="preserve">
+    <value>每秒帧数</value>
+  </data>
+  <data name="ImportGraphics_FramesPerGameFrame" xml:space="preserve">
+    <value>每游戏帧数</value>
+  </data>
+  <data name="Editor_ShowChildrenGameObjects" xml:space="preserve">
+    <value>显示子对象</value>
+  </data>
+  <data name="Editor_RemoveAction" xml:space="preserve">
+    <value>移除此动作</value>
+  </data>
+  <data name="Editor_NoChildrenFound" xml:space="preserve">
+    <value>（未找到子对象）</value>
+  </data>
+  <data name="Editor_RemoveScript" xml:space="preserve">
+    <value>移除此脚本</value>
+  </data>
+  <data name="Editor_ShaderEditingWarning" xml:space="preserve">
+    <value>警告：不建议直接编辑上述字段中的着色器数据，因为其中部分数据以二进制形式编译。请改用着色器导入/导出脚本在不同游戏之间（包括您自己的游戏）迁移着色器，或使用项目系统完成此操作。</value>
+  </data>
+  <data name="Msg_ShaderEditorNotFoundLoad" xml:space="preserve">
+    <value>无法加载其中一个着色器属性的代码：未找到编辑器？</value>
+  </data>
+  <data name="Msg_ShaderSourceNullLoad" xml:space="preserve">
+    <value>无法加载其中一个着色器属性的代码：源字符串对象为空。</value>
+  </data>
+  <data name="Msg_ShaderEditorNotFoundSave" xml:space="preserve">
+    <value>更改未保存：未找到编辑器？</value>
+  </data>
+  <data name="Msg_ShaderSourceNullSave" xml:space="preserve">
+    <value>更改未保存：源字符串对象为空。</value>
+  </data>
+  <data name="Msg_CancelTilemapChanges" xml:space="preserve">
+    <value>取消对图块地图的更改？</value>
+  </data>
+  <data name="Msg_UnknownAudioFileType" xml:space="preserve">
+    <value>未知文件类型。</value>
+  </data>
+  <data name="Msg_CannotFindSelectedGlyph" xml:space="preserve">
+    <value>找不到所选字形。</value>
+  </data>
+  <data name="Glyph_EditHelp" xml:space="preserve">
+    <value>1）双击未激活的矩形以选中它。
+2）使用方向键移动所选矩形（按住 Shift 可调整大小）。
+3）如果是空字形，可在所需区域拖动鼠标。</value>
+  </data>
+  <data name="UI_AddFlexPanel" xml:space="preserve">
+    <value>添加弹性面板</value>
+  </data>
+  <data name="UI_AddGameObject" xml:space="preserve">
+    <value>添加游戏对象</value>
+  </data>
+  <data name="UI_AddSequenceInstance" xml:space="preserve">
+    <value>添加序列实例</value>
+  </data>
+  <data name="UI_AddSpriteInstance" xml:space="preserve">
+    <value>添加精灵实例</value>
+  </data>
+  <data name="UI_AddTextItemInstance" xml:space="preserve">
+    <value>添加文本项实例</value>
+  </data>
+  <data name="UI_AddEffectLayer" xml:space="preserve">
+    <value>添加效果层</value>
+  </data>
+  <data name="Editor_Font_FontSizeEm" xml:space="preserve">
+    <value>字体大小（em）</value>
+  </data>
+  <data name="Editor_Font_CodePoint" xml:space="preserve">
+    <value>代码点</value>
+  </data>
+  <data name="Editor_Image" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Editor_Extension_ProductIdData" xml:space="preserve">
+    <value>产品 ID 数据</value>
+  </data>
+  <data name="Common_Options" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="Editor_SelectedFileProperties" xml:space="preserve">
+    <value>选中文件属性</value>
+  </data>
+  <data name="Editor_SelectedFunctionProperties" xml:space="preserve">
+    <value>选中函数属性</value>
+  </data>
+  <data name="Menu_File_RunWithDataProjectRunner" xml:space="preserve">
+    <value>使用数据/项目运行器运行</value>
+  </data>
+  <data name="Menu_File_ClearAudioGroupCache" xml:space="preserve">
+    <value>清除音频组缓存</value>
+  </data>
+  <data name="Menu_Help_Contributors" xml:space="preserve">
+    <value>贡献者和翻译者</value>
+  </data>
+  <data name="UI_DrawSpace" xml:space="preserve">
+    <value>绘制空间</value>
+  </data>
+  <data name="UI_MinimumWidth" xml:space="preserve">
+    <value>最小宽度</value>
+  </data>
+  <data name="UI_MinimumHeight" xml:space="preserve">
+    <value>最小高度</value>
+  </data>
+  <data name="UI_MaximumWidth" xml:space="preserve">
+    <value>最大宽度</value>
+  </data>
+  <data name="UI_MaximumHeight" xml:space="preserve">
+    <value>最大高度</value>
+  </data>
+  <data name="UI_OffsetLeft" xml:space="preserve">
+    <value>左偏移</value>
+  </data>
+  <data name="UI_OffsetRight" xml:space="preserve">
+    <value>右偏移</value>
+  </data>
+  <data name="UI_OffsetTop" xml:space="preserve">
+    <value>上偏移</value>
+  </data>
+  <data name="UI_OffsetBottom" xml:space="preserve">
+    <value>下偏移</value>
+  </data>
+  <data name="UI_ClipsContents" xml:space="preserve">
+    <value>裁剪内容</value>
+  </data>
+  <data name="UI_PositionType" xml:space="preserve">
+    <value>位置类型</value>
+  </data>
+  <data name="UI_AlignSelf" xml:space="preserve">
+    <value>自身对齐</value>
+  </data>
+  <data name="UI_MarginLeft" xml:space="preserve">
+    <value>左边距</value>
+  </data>
+  <data name="UI_MarginRight" xml:space="preserve">
+    <value>右边距</value>
+  </data>
+  <data name="UI_MarginTop" xml:space="preserve">
+    <value>上边距</value>
+  </data>
+  <data name="UI_MarginBottom" xml:space="preserve">
+    <value>下边距</value>
+  </data>
+  <data name="UI_FlexGrow" xml:space="preserve">
+    <value>弹性增长</value>
+  </data>
+  <data name="UI_FlexShrink" xml:space="preserve">
+    <value>弹性收缩</value>
+  </data>
+  <data name="UI_Anchor" xml:space="preserve">
+    <value>锚点</value>
+  </data>
+  <data name="UI_StretchWidth" xml:space="preserve">
+    <value>拉伸宽度</value>
+  </data>
+  <data name="UI_StretchHeight" xml:space="preserve">
+    <value>拉伸高度</value>
+  </data>
+  <data name="UI_TileH" xml:space="preserve">
+    <value>水平平铺</value>
+  </data>
+  <data name="UI_TileV" xml:space="preserve">
+    <value>垂直平铺</value>
+  </data>
+  <data name="UI_KeepAspect" xml:space="preserve">
+    <value>保持宽高比</value>
+  </data>
+  <data name="UI_PositionXY" xml:space="preserve">
+    <value>位置 X/Y</value>
+  </data>
+  <data name="UI_ScaleXY" xml:space="preserve">
+    <value>缩放 X/Y</value>
+  </data>
+  <data name="UI_AlignItems" xml:space="preserve">
+    <value>项目对齐</value>
+  </data>
+  <data name="UI_FlexDirection" xml:space="preserve">
+    <value>弹性方向</value>
+  </data>
+  <data name="UI_FlexWrap" xml:space="preserve">
+    <value>弹性换行</value>
+  </data>
+  <data name="UI_AlignContent" xml:space="preserve">
+    <value>内容对齐</value>
+  </data>
+  <data name="UI_GapRow" xml:space="preserve">
+    <value>行间距</value>
+  </data>
+  <data name="UI_GapColumn" xml:space="preserve">
+    <value>列间距</value>
+  </data>
+  <data name="UI_PaddingLeft" xml:space="preserve">
+    <value>左内边距</value>
+  </data>
+  <data name="UI_PaddingRight" xml:space="preserve">
+    <value>右内边距</value>
+  </data>
+  <data name="UI_PaddingTop" xml:space="preserve">
+    <value>上内边距</value>
+  </data>
+  <data name="UI_PaddingBottom" xml:space="preserve">
+    <value>下内边距</value>
+  </data>
+  <data name="UI_JustifyContent" xml:space="preserve">
+    <value>内容分布</value>
+  </data>
+  <data name="UI_LayoutDirection" xml:space="preserve">
+    <value>布局方向</value>
+  </data>
+  <data name="Room_MirrorX" xml:space="preserve">
+    <value>镜像（X）</value>
+  </data>
+  <data name="Room_FlipY" xml:space="preserve">
+    <value>翻转（Y）</value>
+  </data>
+  <data name="Room_RotateZ" xml:space="preserve">
+    <value>旋转（Z）</value>
+  </data>
+  <data name="Settings_ConfirmBeforeRunningScripts" xml:space="preserve">
+    <value>运行脚本前确认</value>
+  </data>
+  <data name="Settings_ConfirmBeforeRunningScriptsToolTip" xml:space="preserve">
+    <value>执行从脚本菜单选择的脚本前显示确认对话框。在 Android 上默认启用。</value>
+  </data>
+  <data name="Settings_AlwaysSaveProjectData" xml:space="preserve">
+    <value>始终保存到项目指定的数据文件</value>
+  </data>
+  <data name="Settings_EnableLocalizationStringPreview" xml:space="preserve">
+    <value>启用本地化字符串预览</value>
+  </data>
+  <data name="Settings_EnableLocalizationStringPreviewToolTip" xml:space="preserve">
+    <value>启用后，Undertale 和《Deltarune》第一章的反编译代码将以注释形式显示本地化字符串预览。</value>
+  </data>
+  <data name="Common_Help" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="Contributors_CodeFork" xml:space="preserve">
+    <value>代码贡献者（此分支）</value>
+  </data>
+  <data name="Contributors_CodeUpstream" xml:space="preserve">
+    <value>代码贡献者（QiuUTMTv4 上游）</value>
+  </data>
+  <data name="ImportGraphics_CanReplace" xml:space="preserve">
+    <value>可以替换</value>
+  </data>
+  <data name="ImportGraphics_DimensionMismatch" xml:space="preserve">
+    <value>尺寸不匹配</value>
+  </data>
+  <data name="ImportGraphics_FrameOutOfRange" xml:space="preserve">
+    <value>帧超出范围</value>
+  </data>
+  <data name="ImportGraphics_NewBackground" xml:space="preserve">
+    <value>新背景</value>
+  </data>
+  <data name="ImportGraphics_NewSprite" xml:space="preserve">
+    <value>新精灵</value>
+  </data>
+  <data name="Room_ToggleTreeView" xml:space="preserve">
+    <value>切换树视图</value>
+  </data>
+  <data name="Room_ToggleProperties" xml:space="preserve">
+    <value>切换属性</value>
+  </data>
+  <data name="Room_SaveAsImage" xml:space="preserve">
+    <value>另存为图像</value>
+  </data>
+  <data name="Room_Lock" xml:space="preserve">
+    <value>锁定</value>
+  </data>
+  <data name="Room_SelectAnyLayer" xml:space="preserve">
+    <value>选择任意图层</value>
+  </data>
+  <data name="Room_Grid" xml:space="preserve">
+    <value>网格</value>
+  </data>
+  <data name="Room_Zoom" xml:space="preserve">
+    <value>缩放</value>
+  </data>
+  <data name="Settings_UnknownEnumName" xml:space="preserve">
+    <value>未知枚举名称：</value>
+  </data>
+  <data name="Settings_UnknownEnumNameToolTip" xml:space="preserve">
+    <value>检测到整数常量为未知类型的枚举时，用于自动生成枚举声明的名称（默认：“UnknownEnum”）。</value>
+  </data>
+  <data name="Settings_UnknownEnumValuePattern" xml:space="preserve">
+    <value>未知枚举值名称模式：</value>
+  </data>
+  <data name="Settings_UnknownEnumValuePatternToolTip" xml:space="preserve">
+    <value>生成的未知枚举中值的格式模式。'{0}' 会替换为基础数字（例如，'Value_{0}' 会生成 'Value_0'、'Value_1'……）。</value>
+  </data>
+  <data name="Settings_UnknownArgumentNamePattern" xml:space="preserve">
+    <value>未知参数名称模式：</value>
+  </data>
+  <data name="Settings_UnknownArgumentNamePatternToolTip" xml:space="preserve">
+    <value>未命名参数的格式模式。'{0}' 会替换为参数索引（例如，'arg{0}' 会生成 'arg0'、'arg1'……）。</value>
+  </data>
+  <data name="GML_AroundEnums" xml:space="preserve">
+    <value>枚举前后</value>
+  </data>
+  <data name="GML_AroundEnums_Tooltip" xml:space="preserve">
+    <value>启用后，会在枚举前后添加空行。</value>
+  </data>
 </root>
