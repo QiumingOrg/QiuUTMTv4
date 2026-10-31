@@ -6577,4 +6577,40 @@ Android 10では、そのために1つ追加の手順が必要です（アプリ
 
 {0}</value>
   </data>
+  <data name="Settings_UpdateSourceGitHub" xml:space="preserve">
+    <value>Github</value>
+  </data>
+  <data name="Settings_MirrorChyanCdk" xml:space="preserve">
+    <value>ミラーサイアンCDK</value>
+  </data>
+  <data name="Settings_CodeEditorTheme" xml:space="preserve">
+    <value>コードエディターテーマ:</value>
+  </data>
+  <data name="Contributors_Title" xml:space="preserve">
+    <value>寄稿者および翻訳者</value>
+  </data>
+  <data name="Contributors_Description" xml:space="preserve">
+    <value>UndertaleModToolはボランティアによって運営されています。以下の公開ページには、コードの提供、バグの報告、ツールの翻訳、または変更点のレビューを行ったすべての方が掲載されています。</value>
+  </data>
+  <data name="Contributors_Fork" xml:space="preserve">
+    <value>コードの貢献者（このフォーク）</value>
+  </data>
+  <data name="Contributors_Upstream" xml:space="preserve">
+    <value>コードの貢献者（QiuUTMTv4 アップストリーム）</value>
+  </data>
+  <data name="Contributors_Translators" xml:space="preserve">
+    <value>翻訳者（Weblate）</value>
+  </data>
+  <data name="Tab_ShowAllOpenTabs" xml:space="preserve">
+    <value>開いているタブをすべて表示する</value>
+  </data>
+  <data name="ImportGraphics_OriginTopLeft" xml:space="preserve">
+    <value>左上</value>
+  </data>
+  <data name="ImportGraphics_OriginTopCenter" xml:space="preserve">
+    <value>中央上部</value>
+  </data>
+  <data name="ImportGraphics_OriginTopRight" xml:space="preserve">
+    <value>右上</value>
+  </data>
 </root>
