@@ -6684,4 +6684,31 @@ Android 10では、そのために1つ追加の手順が必要です（アプリ
   <data name="UI_AddGameObject" xml:space="preserve">
     <value>ゲームオブジェクトの追加</value>
   </data>
+  <data name="UI_AddSequenceInstance" xml:space="preserve">
+    <value>シーケンスインスタンスを追加する</value>
+  </data>
+  <data name="UI_AddSpriteInstance" xml:space="preserve">
+    <value>スプライトインスタンスを追加する</value>
+  </data>
+  <data name="UI_AddTextItemInstance" xml:space="preserve">
+    <value>テキスト項目のインスタンスを追加する</value>
+  </data>
+  <data name="UI_AddEffectLayer" xml:space="preserve">
+    <value>エフェクトレイヤーを追加する</value>
+  </data>
+  <data name="Editor_Font_FontSizeEm" xml:space="preserve">
+    <value>フォントサイズ（em）</value>
+  </data>
+  <data name="Editor_Font_CodePoint" xml:space="preserve">
+    <value>コードポイント</value>
+  </data>
+  <data name="Editor_Image" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="Editor_Extension_ProductIdData" xml:space="preserve">
+    <value>製品IDデータ</value>
+  </data>
+  <data name="Common_Options" xml:space="preserve">
+    <value>オプション</value>
+  </data>
 </root>
