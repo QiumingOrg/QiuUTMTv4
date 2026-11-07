@@ -6934,4 +6934,130 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="GML_AroundEnums_Tooltip" xml:space="preserve">
     <value>启用后，会在枚举前后添加空行。</value>
   </data>
+  <data name="Editor_Refactor" xml:space="preserve">
+    <value>重构</value>
+  </data>
+  <data name="Editor_Refactor_Rename" xml:space="preserve">
+    <value>重命名...</value>
+  </data>
+  <data name="Editor_Refactor_RenameTitle" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="Editor_Refactor_RenamePrompt" xml:space="preserve">
+    <value>将“{0}”重命名为：</value>
+  </data>
+  <data name="Editor_Refactor_EncapsulateAsScript" xml:space="preserve">
+    <value>封装为脚本...</value>
+  </data>
+  <data name="Editor_Refactor_ConvertSwitchToIfElse" xml:space="preserve">
+    <value>转换为 if-else 链</value>
+  </data>
+  <data name="Editor_Refactor_ConvertIfElseToSwitch" xml:space="preserve">
+    <value>转换为 switch-case 链</value>
+  </data>
+  <data name="Editor_SurroundWith" xml:space="preserve">
+    <value>用...包围</value>
+  </data>
+  <data name="Editor_Surround_For" xml:space="preserve">
+    <value>for</value>
+  </data>
+  <data name="Editor_Surround_While" xml:space="preserve">
+    <value>while</value>
+  </data>
+  <data name="Editor_Surround_Repeat" xml:space="preserve">
+    <value>repeat</value>
+  </data>
+  <data name="Editor_Surround_With" xml:space="preserve">
+    <value>with</value>
+  </data>
+  <data name="Editor_Surround_Until" xml:space="preserve">
+    <value>do ... until</value>
+  </data>
+  <data name="Editor_Surround_If" xml:space="preserve">
+    <value>if</value>
+  </data>
+  <data name="Editor_Surround_Block" xml:space="preserve">
+    <value>{ } 代码块</value>
+  </data>
+  <data name="Editor_Refactor_NoSymbol" xml:space="preserve">
+    <value>光标处没有可重命名的符号。</value>
+  </data>
+  <data name="Editor_Refactor_UnsupportedSymbol" xml:space="preserve">
+    <value>该符号无法通过修改 UndertaleString 重命名。</value>
+  </data>
+  <data name="Editor_Refactor_InvalidName" xml:space="preserve">
+    <value>“{0}”不是有效的标识符。</value>
+  </data>
+  <data name="Editor_Refactor_NameExists" xml:space="preserve">
+    <value>已存在名为“{0}”的脚本。</value>
+  </data>
+  <data name="Editor_Script_NoSelection" xml:space="preserve">
+    <value>请先选中要封装的代码。</value>
+  </data>
+  <data name="Editor_Script_NameTitle" xml:space="preserve">
+    <value>封装为脚本</value>
+  </data>
+  <data name="Editor_Script_NameLabel" xml:space="preserve">
+    <value>新脚本名称：</value>
+  </data>
+  <data name="Editor_Convert_Error" xml:space="preserve">
+    <value>无法转换代码：{0}</value>
+  </data>
+  <data name="Editor_Snippets" xml:space="preserve">
+    <value>代码片段</value>
+  </data>
+  <data name="Editor_Snippets_Manage" xml:space="preserve">
+    <value>管理代码片段...</value>
+  </data>
+  <data name="Sn_Title" xml:space="preserve">
+    <value>代码片段</value>
+  </data>
+  <data name="Sn_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Sn_Shortcut" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+  <data name="Sn_ShortcutHint" xml:space="preserve">
+    <value>点击输入框并按下组合键（例如 Ctrl+Alt+S）。按 Backspace 清除。</value>
+  </data>
+  <data name="Sn_Body" xml:space="preserve">
+    <value>片段代码（GML）</value>
+  </data>
+  <data name="Sn_New" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="Sn_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Sn_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Sn_Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Sn_DefaultName" xml:space="preserve">
+    <value>代码片段</value>
+  </data>
+  <data name="Sn_Saved" xml:space="preserve">
+    <value>代码片段已保存。</value>
+  </data>
+  <data name="Sn_Error_NameRequired" xml:space="preserve">
+    <value>片段名称不能为空。</value>
+  </data>
+  <data name="Sn_Error_DuplicateName" xml:space="preserve">
+    <value>已存在名为“{0}”的代码片段。</value>
+  </data>
+  <data name="Sn_Error_InvalidShortcut" xml:space="preserve">
+    <value>“{0}”不是有效的快捷键。</value>
+  </data>
+  <data name="Sn_Error_DuplicateShortcut" xml:space="preserve">
+    <value>快捷键 {0} 已被另一个代码片段使用。</value>
+  </data>
+  <data name="Sn_Error_ModifierRequired" xml:space="preserve">
+    <value>快捷键必须包含 Ctrl 或 Alt（功能键除外）。</value>
+  </data>
+  <data name="Sn_Error_Conflict" xml:space="preserve">
+    <value>快捷键 {0} 与编辑器已有快捷键冲突。</value>
+  </data>
 </root>

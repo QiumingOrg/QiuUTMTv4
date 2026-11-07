@@ -6995,4 +6995,130 @@ It's highly recommended to restart the application.</value>
   <data name="GML_AroundEnums_Tooltip" xml:space="preserve">
     <value>If enabled, adds an empty line before and after enums.</value>
   </data>
+  <data name="Editor_Refactor" xml:space="preserve">
+    <value>Refactor</value>
+  </data>
+  <data name="Editor_Refactor_Rename" xml:space="preserve">
+    <value>Rename...</value>
+  </data>
+  <data name="Editor_Refactor_RenameTitle" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="Editor_Refactor_RenamePrompt" xml:space="preserve">
+    <value>New name for "{0}":</value>
+  </data>
+  <data name="Editor_Refactor_EncapsulateAsScript" xml:space="preserve">
+    <value>Encapsulate as Script...</value>
+  </data>
+  <data name="Editor_Refactor_ConvertSwitchToIfElse" xml:space="preserve">
+    <value>Convert to if-else chain</value>
+  </data>
+  <data name="Editor_Refactor_ConvertIfElseToSwitch" xml:space="preserve">
+    <value>Convert to switch-case chain</value>
+  </data>
+  <data name="Editor_SurroundWith" xml:space="preserve">
+    <value>Surround With...</value>
+  </data>
+  <data name="Editor_Surround_For" xml:space="preserve">
+    <value>for</value>
+  </data>
+  <data name="Editor_Surround_While" xml:space="preserve">
+    <value>while</value>
+  </data>
+  <data name="Editor_Surround_Repeat" xml:space="preserve">
+    <value>repeat</value>
+  </data>
+  <data name="Editor_Surround_With" xml:space="preserve">
+    <value>with</value>
+  </data>
+  <data name="Editor_Surround_Until" xml:space="preserve">
+    <value>do ... until</value>
+  </data>
+  <data name="Editor_Surround_If" xml:space="preserve">
+    <value>if</value>
+  </data>
+  <data name="Editor_Surround_Block" xml:space="preserve">
+    <value>{ } block</value>
+  </data>
+  <data name="Editor_Refactor_NoSymbol" xml:space="preserve">
+    <value>No renameable symbol was found at the cursor.</value>
+  </data>
+  <data name="Editor_Refactor_UnsupportedSymbol" xml:space="preserve">
+    <value>This symbol cannot be renamed by changing an UndertaleString.</value>
+  </data>
+  <data name="Editor_Refactor_InvalidName" xml:space="preserve">
+    <value>"{0}" is not a valid identifier.</value>
+  </data>
+  <data name="Editor_Refactor_NameExists" xml:space="preserve">
+    <value>A script with the name "{0}" already exists.</value>
+  </data>
+  <data name="Editor_Script_NoSelection" xml:space="preserve">
+    <value>Select the code to encapsulate first.</value>
+  </data>
+  <data name="Editor_Script_NameTitle" xml:space="preserve">
+    <value>Encapsulate as Script</value>
+  </data>
+  <data name="Editor_Script_NameLabel" xml:space="preserve">
+    <value>New script name:</value>
+  </data>
+  <data name="Editor_Convert_Error" xml:space="preserve">
+    <value>Cannot convert the code: {0}</value>
+  </data>
+  <data name="Editor_Snippets" xml:space="preserve">
+    <value>Snippets</value>
+  </data>
+  <data name="Editor_Snippets_Manage" xml:space="preserve">
+    <value>Manage snippets...</value>
+  </data>
+  <data name="Sn_Title" xml:space="preserve">
+    <value>Snippets</value>
+  </data>
+  <data name="Sn_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Sn_Shortcut" xml:space="preserve">
+    <value>Shortcut</value>
+  </data>
+  <data name="Sn_ShortcutHint" xml:space="preserve">
+    <value>Click the box and press a key combination (for example Ctrl+Alt+S). Backspace clears it.</value>
+  </data>
+  <data name="Sn_Body" xml:space="preserve">
+    <value>Snippet code (GML)</value>
+  </data>
+  <data name="Sn_New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Sn_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Sn_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Sn_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Sn_DefaultName" xml:space="preserve">
+    <value>snippet</value>
+  </data>
+  <data name="Sn_Saved" xml:space="preserve">
+    <value>Snippets saved.</value>
+  </data>
+  <data name="Sn_Error_NameRequired" xml:space="preserve">
+    <value>Snippet name cannot be empty.</value>
+  </data>
+  <data name="Sn_Error_DuplicateName" xml:space="preserve">
+    <value>A snippet with the name "{0}" already exists.</value>
+  </data>
+  <data name="Sn_Error_InvalidShortcut" xml:space="preserve">
+    <value>"{0}" is not a valid shortcut.</value>
+  </data>
+  <data name="Sn_Error_DuplicateShortcut" xml:space="preserve">
+    <value>The shortcut {0} is already used by another snippet.</value>
+  </data>
+  <data name="Sn_Error_ModifierRequired" xml:space="preserve">
+    <value>Shortcuts must include Ctrl or Alt, unless the key is a function key.</value>
+  </data>
+  <data name="Sn_Error_Conflict" xml:space="preserve">
+    <value>The shortcut {0} conflicts with an existing editor shortcut.</value>
+  </data>
 </root>
