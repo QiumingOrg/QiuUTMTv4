@@ -486,6 +486,129 @@
   <data name="Settings_GMS2RuntimesPath_Tooltip" xml:space="preserve">
     <value>Required only if you want to run GMS2 games using the Studio runner rather than the .exe</value>
   </data>
+  <data name="Menu_File_RunButterscotch" xml:space="preserve">
+    <value>Run with Butterscotch</value>
+  </data>
+  <data name="Menu_File_DebugButterscotch" xml:space="preserve">
+    <value>Debug with Butterscotch</value>
+  </data>
+  <data name="Settings_ShowButterscotchDebug" xml:space="preserve">
+    <value>Show Butterscotch debug options</value>
+  </data>
+  <data name="Settings_ShowButterscotchDebug_Tooltip" xml:space="preserve">
+    <value>Show the Butterscotch embedded runner and debugger menu entries (requires bsdbg.dll next to UndertaleModTool.exe).</value>
+  </data>
+  <data name="Debug_Panel_Title" xml:space="preserve">
+    <value>Butterscotch Debug</value>
+  </data>
+  <data name="Debug_Panel_Status_NoSession" xml:space="preserve">
+    <value>No Butterscotch session</value>
+  </data>
+  <data name="Debug_Panel_Status_Running" xml:space="preserve">
+    <value>Running - frame {0}</value>
+  </data>
+  <data name="Debug_Panel_Status_Paused" xml:space="preserve">
+    <value>Paused at frame {0} ({1})</value>
+  </data>
+  <data name="Debug_Panel_Status_FrameBoundary" xml:space="preserve">
+    <value>frame boundary</value>
+  </data>
+  <data name="Debug_Panel_Execution" xml:space="preserve">
+    <value>Execution</value>
+  </data>
+  <data name="Debug_Panel_Tools" xml:space="preserve">
+    <value>Diagnostics</value>
+  </data>
+  <data name="Debug_Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="Debug_Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="Debug_StepInto" xml:space="preserve">
+    <value>Step Into</value>
+  </data>
+  <data name="Debug_StepOver" xml:space="preserve">
+    <value>Step Over</value>
+  </data>
+  <data name="Debug_StepOut" xml:space="preserve">
+    <value>Step Out</value>
+  </data>
+  <data name="Debug_StepFrame" xml:space="preserve">
+    <value>Step Frame</value>
+  </data>
+  <data name="Debug_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Debug_HotReload" xml:space="preserve">
+    <value>Hot Reload</value>
+  </data>
+  <data name="Debug_Breakpoints" xml:space="preserve">
+    <value>Breakpoints</value>
+  </data>
+  <data name="Debug_Variables" xml:space="preserve">
+    <value>Variables</value>
+  </data>
+  <data name="Debug_Instances" xml:space="preserve">
+    <value>Instances</value>
+  </data>
+  <data name="Debug_CallStack" xml:space="preserve">
+    <value>Call Stack</value>
+  </data>
+  <data name="Debug_Output" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="Debug_Output_Title" xml:space="preserve">
+    <value>Debug Output</value>
+  </data>
+  <data name="Debug_Breakpoints_Title" xml:space="preserve">
+    <value>Breakpoints</value>
+  </data>
+  <data name="Debug_Variables_Title" xml:space="preserve">
+    <value>Debug Variables</value>
+  </data>
+  <data name="Debug_Instances_Title" xml:space="preserve">
+    <value>Instances</value>
+  </data>
+  <data name="Debug_CallStack_Title" xml:space="preserve">
+    <value>Call Stack</value>
+  </data>
+  <data name="Debug_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Debug_ClearAll" xml:space="preserve">
+    <value>Clear All</value>
+  </data>
+  <data name="Debug_Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Debug_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="Debug_Variables_Scope" xml:space="preserve">
+    <value>Scope</value>
+  </data>
+  <data name="Debug_Variables_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Debug_Variables_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Debug_Instances_Id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Debug_Instances_Object" xml:space="preserve">
+    <value>Object</value>
+  </data>
+  <data name="Debug_Instances_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Debug_Instances_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Debug_Instances_Depth" xml:space="preserve">
+    <value>Depth</value>
+  </data>
   <data name="Settings_AssetOrderSwapping" xml:space="preserve">
     <value>Enable asset order swapping</value>
   </data>

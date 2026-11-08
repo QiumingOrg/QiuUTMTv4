@@ -445,6 +445,129 @@
   <data name="Settings_ShowDebuggerOption_Tooltip" xml:space="preserve">
     <value>是否在"文件"菜单中显示该选项。默认禁用。</value>
   </data>
+  <data name="Menu_File_RunButterscotch" xml:space="preserve">
+    <value>使用 Butterscotch 运行(_B)</value>
+  </data>
+  <data name="Menu_File_DebugButterscotch" xml:space="preserve">
+    <value>使用 Butterscotch 调试(_G)</value>
+  </data>
+  <data name="Settings_ShowButterscotchDebug" xml:space="preserve">
+    <value>显示 Butterscotch 调试选项</value>
+  </data>
+  <data name="Settings_ShowButterscotchDebug_Tooltip" xml:space="preserve">
+    <value>在"文件"菜单中显示 Butterscotch 内置运行器和调试器入口（需要 UndertaleModTool.exe 旁存在 bsdbg.dll）。</value>
+  </data>
+  <data name="Debug_Panel_Title" xml:space="preserve">
+    <value>Butterscotch 调试面板</value>
+  </data>
+  <data name="Debug_Panel_Status_NoSession" xml:space="preserve">
+    <value>没有 Butterscotch 调试会话</value>
+  </data>
+  <data name="Debug_Panel_Status_Running" xml:space="preserve">
+    <value>运行中 - 第 {0} 帧</value>
+  </data>
+  <data name="Debug_Panel_Status_Paused" xml:space="preserve">
+    <value>已暂停 - 第 {0} 帧（{1}）</value>
+  </data>
+  <data name="Debug_Panel_Status_FrameBoundary" xml:space="preserve">
+    <value>帧边界</value>
+  </data>
+  <data name="Debug_Panel_Execution" xml:space="preserve">
+    <value>执行控制</value>
+  </data>
+  <data name="Debug_Panel_Tools" xml:space="preserve">
+    <value>诊断窗口</value>
+  </data>
+  <data name="Debug_Continue" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="Debug_Pause" xml:space="preserve">
+    <value>暂停</value>
+  </data>
+  <data name="Debug_StepInto" xml:space="preserve">
+    <value>逐语句</value>
+  </data>
+  <data name="Debug_StepOver" xml:space="preserve">
+    <value>逐过程</value>
+  </data>
+  <data name="Debug_StepOut" xml:space="preserve">
+    <value>跳出</value>
+  </data>
+  <data name="Debug_StepFrame" xml:space="preserve">
+    <value>单帧</value>
+  </data>
+  <data name="Debug_Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="Debug_HotReload" xml:space="preserve">
+    <value>热重载</value>
+  </data>
+  <data name="Debug_Breakpoints" xml:space="preserve">
+    <value>断点</value>
+  </data>
+  <data name="Debug_Variables" xml:space="preserve">
+    <value>变量</value>
+  </data>
+  <data name="Debug_Instances" xml:space="preserve">
+    <value>实例</value>
+  </data>
+  <data name="Debug_CallStack" xml:space="preserve">
+    <value>调用堆栈</value>
+  </data>
+  <data name="Debug_Output" xml:space="preserve">
+    <value>输出</value>
+  </data>
+  <data name="Debug_Output_Title" xml:space="preserve">
+    <value>调试输出</value>
+  </data>
+  <data name="Debug_Breakpoints_Title" xml:space="preserve">
+    <value>断点</value>
+  </data>
+  <data name="Debug_Variables_Title" xml:space="preserve">
+    <value>调试变量</value>
+  </data>
+  <data name="Debug_Instances_Title" xml:space="preserve">
+    <value>实例</value>
+  </data>
+  <data name="Debug_CallStack_Title" xml:space="preserve">
+    <value>调用堆栈</value>
+  </data>
+  <data name="Debug_Clear" xml:space="preserve">
+    <value>清空</value>
+  </data>
+  <data name="Debug_ClearAll" xml:space="preserve">
+    <value>全部清空</value>
+  </data>
+  <data name="Debug_Remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="Debug_Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="Debug_Variables_Scope" xml:space="preserve">
+    <value>作用域</value>
+  </data>
+  <data name="Debug_Variables_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Debug_Variables_Value" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Debug_Instances_Id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Debug_Instances_Object" xml:space="preserve">
+    <value>对象</value>
+  </data>
+  <data name="Debug_Instances_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Debug_Instances_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Debug_Instances_Depth" xml:space="preserve">
+    <value>深度</value>
+  </data>
   <data name="Settings_RememberWindowPlacements" xml:space="preserve">
     <value>记住上次窗口位置和大小</value>
   </data>
