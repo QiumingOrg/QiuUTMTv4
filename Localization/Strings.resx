@@ -5408,6 +5408,18 @@ It's highly recommended to restart the application.</value>
   <data name="Menu_File_ImportFromFile" xml:space="preserve">
     <value>_Import from file...</value>
   </data>
+  <data name="Menu_File_ImportFromYYMPS" xml:space="preserve">
+    <value>Import from YYMPs...</value>
+  </data>
+  <data name="Dialog_ImportFromYYMPS" xml:space="preserve">
+    <value>Import Resources from YYMPs Package</value>
+  </data>
+  <data name="YYMPS_FileFilter" xml:space="preserve">
+    <value>GameMaker packages (*.yymps)|*.yymps|All files|*.*</value>
+  </data>
+  <data name="Msg_ImportFromYYMPSError" xml:space="preserve">
+    <value>Import from YYMPs error: {0}</value>
+  </data>
   <data name="Dialog_ImportFromFile" xml:space="preserve">
     <value>Import Resources from File</value>
   </data>

@@ -5348,6 +5348,18 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Menu_File_ImportFromFile" xml:space="preserve">
     <value>从文件导入(_I)...</value>
   </data>
+  <data name="Menu_File_ImportFromYYMPS" xml:space="preserve">
+    <value>从 YYMPs 包导入(_I)...</value>
+  </data>
+  <data name="Dialog_ImportFromYYMPS" xml:space="preserve">
+    <value>从 YYMPs 包导入资源</value>
+  </data>
+  <data name="YYMPS_FileFilter" xml:space="preserve">
+    <value>GameMaker 资源包 (*.yymps)|*.yymps|所有文件|*.*</value>
+  </data>
+  <data name="Msg_ImportFromYYMPSError" xml:space="preserve">
+    <value>从 YYMPs 包导入出错：{0}</value>
+  </data>
   <data name="Dialog_ImportFromFile" xml:space="preserve">
     <value>从文件导入资源</value>
   </data>
