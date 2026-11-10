@@ -498,6 +498,42 @@
   <data name="Settings_ShowButterscotchDebug_Tooltip" xml:space="preserve">
     <value>Show the Butterscotch embedded runner and debugger menu entries (requires bsdbg.dll next to UndertaleModTool.exe).</value>
   </data>
+  <data name="Settings_ButterscotchArchitecture" xml:space="preserve">
+    <value>Butterscotch runtime</value>
+  </data>
+  <data name="Settings_ButterscotchArchitecture_Tooltip" xml:space="preserve">
+    <value>Embedded runs inside UndertaleModTool using the native engine matching the process architecture (x64 or x86) and supports debugging. External launches a standalone executable of the selected architecture (run only).</value>
+  </data>
+  <data name="Settings_ButterscotchArch_InProcess" xml:space="preserve">
+    <value>Embedded debugger (current process)</value>
+  </data>
+  <data name="Settings_ButterscotchArch_X64" xml:space="preserve">
+    <value>x64 (external process)</value>
+  </data>
+  <data name="Settings_ButterscotchArch_X86" xml:space="preserve">
+    <value>x86 (external process)</value>
+  </data>
+  <data name="Settings_ButterscotchArch_Arm64" xml:space="preserve">
+    <value>ARM64 (external process)</value>
+  </data>
+  <data name="Settings_ButterscotchExecutablePath" xml:space="preserve">
+    <value>Butterscotch executable</value>
+  </data>
+  <data name="Settings_ButterscotchExecutablePath_Tooltip" xml:space="preserve">
+    <value>Optional. Leave empty to search next to UndertaleModTool.exe and in native/win-x64, native/win-x86 or native/win-arm64.</value>
+  </data>
+  <data name="Msg_ButterscotchExternalDebugUnsupported" xml:space="preserve">
+    <value>Debugging is only available with the embedded Butterscotch debugger. Select "Embedded debugger (current process)" in Settings, or use Run instead.</value>
+  </data>
+  <data name="Msg_ButterscotchExternalAlreadyRunning" xml:space="preserve">
+    <value>An external Butterscotch instance is already running. Close it before starting another one.</value>
+  </data>
+  <data name="Msg_ButterscotchSaveBeforeRun" xml:space="preserve">
+    <value>Save the data file before running Butterscotch.</value>
+  </data>
+  <data name="Msg_ButterscotchEmbeddedUnsupported" xml:space="preserve">
+    <value>The embedded Butterscotch debugger requires a native bsdbg.dll matching the UndertaleModTool process architecture (x64 or x86). Build it with tools/build-bsdbg.ps1 or select an external architecture in Settings.</value>
+  </data>
   <data name="Debug_Panel_Title" xml:space="preserve">
     <value>Butterscotch Debug</value>
   </data>

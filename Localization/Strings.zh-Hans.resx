@@ -457,6 +457,42 @@
   <data name="Settings_ShowButterscotchDebug_Tooltip" xml:space="preserve">
     <value>在"文件"菜单中显示 Butterscotch 内置运行器和调试器入口（需要 UndertaleModTool.exe 旁存在 bsdbg.dll）。</value>
   </data>
+  <data name="Settings_ButterscotchArchitecture" xml:space="preserve">
+    <value>Butterscotch 运行器</value>
+  </data>
+  <data name="Settings_ButterscotchArchitecture_Tooltip" xml:space="preserve">
+    <value>“内置”在 UndertaleModTool 进程内运行，使用与进程架构匹配的引擎（x64 或 x86），支持调试。“外部”会启动所选架构的独立可执行文件（仅运行）。</value>
+  </data>
+  <data name="Settings_ButterscotchArch_InProcess" xml:space="preserve">
+    <value>内置调试器（当前进程）</value>
+  </data>
+  <data name="Settings_ButterscotchArch_X64" xml:space="preserve">
+    <value>x64（外部进程）</value>
+  </data>
+  <data name="Settings_ButterscotchArch_X86" xml:space="preserve">
+    <value>x86（外部进程）</value>
+  </data>
+  <data name="Settings_ButterscotchArch_Arm64" xml:space="preserve">
+    <value>ARM64（外部进程）</value>
+  </data>
+  <data name="Settings_ButterscotchExecutablePath" xml:space="preserve">
+    <value>Butterscotch 可执行文件</value>
+  </data>
+  <data name="Settings_ButterscotchExecutablePath_Tooltip" xml:space="preserve">
+    <value>可选。留空时会在 UndertaleModTool.exe 所在目录以及 native/win-x64、native/win-x86、native/win-arm64 中查找。</value>
+  </data>
+  <data name="Msg_ButterscotchExternalDebugUnsupported" xml:space="preserve">
+    <value>只有内置 Butterscotch 调试器支持调试。请在设置中选择“内置调试器（当前进程）”，或改用“运行”。</value>
+  </data>
+  <data name="Msg_ButterscotchExternalAlreadyRunning" xml:space="preserve">
+    <value>已有一个外部 Butterscotch 实例在运行，请先关闭它。</value>
+  </data>
+  <data name="Msg_ButterscotchSaveBeforeRun" xml:space="preserve">
+    <value>运行 Butterscotch 前请先保存数据文件。</value>
+  </data>
+  <data name="Msg_ButterscotchEmbeddedUnsupported" xml:space="preserve">
+    <value>内置 Butterscotch 调试器需要与 UndertaleModTool 进程架构匹配的 bsdbg.dll（x64 或 x86）。请用 tools/build-bsdbg.ps1 构建，或在设置中选择外部架构。</value>
+  </data>
   <data name="Debug_Panel_Title" xml:space="preserve">
     <value>Butterscotch 调试面板</value>
   </data>
