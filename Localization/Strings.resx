@@ -7292,4 +7292,187 @@ It's highly recommended to restart the application.</value>
   <data name="Sn_Error_Conflict" xml:space="preserve">
     <value>The shortcut {0} conflicts with an existing editor shortcut.</value>
   </data>
+  <data name="Menu_Tools_CompareDataFiles" xml:space="preserve">
+    <value>Compare Data Files...</value>
+  </data>
+  <data name="Compare_Title" xml:space="preserve">
+    <value>Compare Data Files</value>
+  </data>
+  <data name="Compare_Base" xml:space="preserve">
+    <value>Base: {0}</value>
+  </data>
+  <data name="Compare_Compare" xml:space="preserve">
+    <value>Compare: {0}</value>
+  </data>
+  <data name="Compare_BaseCurrent" xml:space="preserve">
+    <value>current data (unsaved)</value>
+  </data>
+  <data name="Compare_Browse" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="Compare_SelectFile" xml:space="preserve">
+    <value>Select a data file to compare</value>
+  </data>
+  <data name="Compare_Warnings" xml:space="preserve">
+    <value>Warnings</value>
+  </data>
+  <data name="Compare_FilterByName" xml:space="preserve">
+    <value>Filter by name</value>
+  </data>
+  <data name="Compare_StatusDifferences" xml:space="preserve">
+    <value>Differences</value>
+  </data>
+  <data name="Compare_StatusAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Compare_StatusAdded" xml:space="preserve">
+    <value>Added</value>
+  </data>
+  <data name="Compare_StatusRemoved" xml:space="preserve">
+    <value>Removed</value>
+  </data>
+  <data name="Compare_StatusChanged" xml:space="preserve">
+    <value>Changed</value>
+  </data>
+  <data name="Compare_StatusUnchanged" xml:space="preserve">
+    <value>Unchanged</value>
+  </data>
+  <data name="Compare_StatusHeader" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Compare_ResourcesCount" xml:space="preserve">
+    <value>{0} resources</value>
+  </data>
+  <data name="Compare_SelectedCount" xml:space="preserve">
+    <value>{0} selected</value>
+  </data>
+  <data name="Compare_ClearSelection" xml:space="preserve">
+    <value>Clear selection</value>
+  </data>
+  <data name="Compare_ExportStructuredDiff" xml:space="preserve">
+    <value>Export structured diff...</value>
+  </data>
+  <data name="Compare_MergeSelected" xml:space="preserve">
+    <value>Merge selected...</value>
+  </data>
+  <data name="Compare_DeleteRemoved" xml:space="preserve">
+    <value>Delete removed resources</value>
+  </data>
+  <data name="Compare_PropertiesTab" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="Compare_GmlDiffTab" xml:space="preserve">
+    <value>GML diff</value>
+  </data>
+  <data name="Compare_BaseValue" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="Compare_CompareValue" xml:space="preserve">
+    <value>Compare</value>
+  </data>
+  <data name="Compare_DetailsHint" xml:space="preserve">
+    <value>Select a resource to see details</value>
+  </data>
+  <data name="Compare_Loading" xml:space="preserve">
+    <value>Loading {0}...</value>
+  </data>
+  <data name="Compare_Comparing" xml:space="preserve">
+    <value>Comparing {0}...</value>
+  </data>
+  <data name="Compare_Finishing" xml:space="preserve">
+    <value>Finishing...</value>
+  </data>
+  <data name="Compare_Done" xml:space="preserve">
+    <value>Done: {0} added, {1} removed, {2} changed, {3} unchanged.</value>
+  </data>
+  <data name="Compare_Cancelled" xml:space="preserve">
+    <value>Comparison cancelled.</value>
+  </data>
+  <data name="Compare_ComparisonFailed" xml:space="preserve">
+    <value>Comparison failed: {0}</value>
+  </data>
+  <data name="Compare_PropertyComparisonFailed" xml:space="preserve">
+    <value>Failed to compare properties: {0}</value>
+  </data>
+  <data name="Compare_CodeComparisonFailed" xml:space="preserve">
+    <value>Failed to compare code: {0}</value>
+  </data>
+  <data name="Compare_OnlyInCompare" xml:space="preserve">
+    <value>This resource only exists in the compared file.</value>
+  </data>
+  <data name="Compare_OnlyInBase" xml:space="preserve">
+    <value>This resource only exists in the base file.</value>
+  </data>
+  <data name="Compare_NoPropertyDifferences" xml:space="preserve">
+    <value>No property differences.</value>
+  </data>
+  <data name="Compare_Truncated" xml:space="preserve">
+    <value>Only the first {0} differences are shown.</value>
+  </data>
+  <data name="Compare_DecompileFailed" xml:space="preserve">
+    <value>Decompilation failed; showing disassembly.</value>
+  </data>
+  <data name="Compare_NoTextDifference" xml:space="preserve">
+    <value>No textual differences after decompilation (bytecode layout may differ).</value>
+  </data>
+  <data name="Compare_CodeMetadataInProperties" xml:space="preserve">
+    <value>Code metadata differences are listed in the Properties tab.</value>
+  </data>
+  <data name="Compare_NoDifferences" xml:space="preserve">
+    <value>no differences</value>
+  </data>
+  <data name="Compare_NothingToExport" xml:space="preserve">
+    <value>There are no differences to export.</value>
+  </data>
+  <data name="Compare_ExportDialogTitle" xml:space="preserve">
+    <value>Save structured diff</value>
+  </data>
+  <data name="Compare_Exporting" xml:space="preserve">
+    <value>Exporting structured diff...</value>
+  </data>
+  <data name="Compare_ExportDone" xml:space="preserve">
+    <value>Structured diff saved.</value>
+  </data>
+  <data name="Compare_ExportFailed" xml:space="preserve">
+    <value>Failed to export the structured diff: {0}</value>
+  </data>
+  <data name="Compare_MergeConfirmTitle" xml:space="preserve">
+    <value>Merge differences</value>
+  </data>
+  <data name="Compare_MergeConfirm" xml:space="preserve">
+    <value>Merge {0} resources into the current data file? This modifies the open data; save it afterwards to keep the changes.</value>
+  </data>
+  <data name="Compare_MergeNothing" xml:space="preserve">
+    <value>Select at least one added, changed or removed resource to merge.</value>
+  </data>
+  <data name="Compare_MergeUnsupported" xml:space="preserve">
+    <value>{0} selected resources do not support merging and were skipped.</value>
+  </data>
+  <data name="Compare_MergeResult" xml:space="preserve">
+    <value>Merge finished: {0} imported, {1} overwritten, {2} deleted, {3} warnings, {4} errors.</value>
+  </data>
+  <data name="Compare_MergeFailed" xml:space="preserve">
+    <value>Merge failed: {0}</value>
+  </data>
+  <data name="Compare_Merging" xml:space="preserve">
+    <value>Merging selected resources...</value>
+  </data>
+  <data name="Compare_DeleteRemovedWarning" xml:space="preserve">
+    <value>Removed resources will be deleted from the current data and may leave dangling references.</value>
+  </data>
+  <data name="Compare_OpenDataFirst" xml:space="preserve">
+    <value>Open a data file before comparing data files.</value>
+  </data>
+  <data name="Compare_AllResources" xml:space="preserve">
+    <value>All resources</value>
+  </data>
+  <data name="Compare_Cat_Sequences" xml:space="preserve">
+    <value>Sequences</value>
+  </data>
+  <data name="Compare_Cat_FilterEffects" xml:space="preserve">
+    <value>Filter Effects</value>
+  </data>
+  <data name="Compare_Cat_UINodes" xml:space="preserve">
+    <value>UI Nodes</value>
+  </data>
 </root>

@@ -7231,4 +7231,187 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Sn_Error_Conflict" xml:space="preserve">
     <value>快捷键 {0} 与编辑器已有快捷键冲突。</value>
   </data>
+  <data name="Menu_Tools_CompareDataFiles" xml:space="preserve">
+    <value>对比数据文件...</value>
+  </data>
+  <data name="Compare_Title" xml:space="preserve">
+    <value>对比数据文件</value>
+  </data>
+  <data name="Compare_Base" xml:space="preserve">
+    <value>基准：{0}</value>
+  </data>
+  <data name="Compare_Compare" xml:space="preserve">
+    <value>对比：{0}</value>
+  </data>
+  <data name="Compare_BaseCurrent" xml:space="preserve">
+    <value>当前数据（未保存）</value>
+  </data>
+  <data name="Compare_Browse" xml:space="preserve">
+    <value>浏览...</value>
+  </data>
+  <data name="Compare_SelectFile" xml:space="preserve">
+    <value>选择要对比的数据文件</value>
+  </data>
+  <data name="Compare_Warnings" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Compare_FilterByName" xml:space="preserve">
+    <value>按名称过滤</value>
+  </data>
+  <data name="Compare_StatusDifferences" xml:space="preserve">
+    <value>差异</value>
+  </data>
+  <data name="Compare_StatusAll" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="Compare_StatusAdded" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="Compare_StatusRemoved" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="Compare_StatusChanged" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="Compare_StatusUnchanged" xml:space="preserve">
+    <value>未修改</value>
+  </data>
+  <data name="Compare_StatusHeader" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Compare_ResourcesCount" xml:space="preserve">
+    <value>{0} 个资源</value>
+  </data>
+  <data name="Compare_SelectedCount" xml:space="preserve">
+    <value>已选 {0} 项</value>
+  </data>
+  <data name="Compare_ClearSelection" xml:space="preserve">
+    <value>清除选择</value>
+  </data>
+  <data name="Compare_ExportStructuredDiff" xml:space="preserve">
+    <value>导出结构化差异...</value>
+  </data>
+  <data name="Compare_MergeSelected" xml:space="preserve">
+    <value>合并所选...</value>
+  </data>
+  <data name="Compare_DeleteRemoved" xml:space="preserve">
+    <value>删除对比文件中不存在的资源</value>
+  </data>
+  <data name="Compare_PropertiesTab" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="Compare_GmlDiffTab" xml:space="preserve">
+    <value>GML 差异</value>
+  </data>
+  <data name="Compare_BaseValue" xml:space="preserve">
+    <value>基准值</value>
+  </data>
+  <data name="Compare_CompareValue" xml:space="preserve">
+    <value>对比值</value>
+  </data>
+  <data name="Compare_DetailsHint" xml:space="preserve">
+    <value>选择资源以查看详情</value>
+  </data>
+  <data name="Compare_Loading" xml:space="preserve">
+    <value>正在加载 {0}...</value>
+  </data>
+  <data name="Compare_Comparing" xml:space="preserve">
+    <value>正在对比 {0}...</value>
+  </data>
+  <data name="Compare_Finishing" xml:space="preserve">
+    <value>正在收尾...</value>
+  </data>
+  <data name="Compare_Done" xml:space="preserve">
+    <value>完成：新增 {0}，移除 {1}，修改 {2}，未修改 {3}。</value>
+  </data>
+  <data name="Compare_Cancelled" xml:space="preserve">
+    <value>对比已取消。</value>
+  </data>
+  <data name="Compare_ComparisonFailed" xml:space="preserve">
+    <value>对比失败：{0}</value>
+  </data>
+  <data name="Compare_PropertyComparisonFailed" xml:space="preserve">
+    <value>属性对比失败：{0}</value>
+  </data>
+  <data name="Compare_CodeComparisonFailed" xml:space="preserve">
+    <value>代码对比失败：{0}</value>
+  </data>
+  <data name="Compare_OnlyInCompare" xml:space="preserve">
+    <value>该资源只存在于对比文件中。</value>
+  </data>
+  <data name="Compare_OnlyInBase" xml:space="preserve">
+    <value>该资源只存在于基准文件中。</value>
+  </data>
+  <data name="Compare_NoPropertyDifferences" xml:space="preserve">
+    <value>无属性差异。</value>
+  </data>
+  <data name="Compare_Truncated" xml:space="preserve">
+    <value>仅显示前 {0} 个差异。</value>
+  </data>
+  <data name="Compare_DecompileFailed" xml:space="preserve">
+    <value>反编译失败，已显示反汇编。</value>
+  </data>
+  <data name="Compare_NoTextDifference" xml:space="preserve">
+    <value>反编译后没有文本差异（字节码布局可能不同）。</value>
+  </data>
+  <data name="Compare_CodeMetadataInProperties" xml:space="preserve">
+    <value>代码元数据差异已列在“属性”页。</value>
+  </data>
+  <data name="Compare_NoDifferences" xml:space="preserve">
+    <value>无差异</value>
+  </data>
+  <data name="Compare_NothingToExport" xml:space="preserve">
+    <value>没有可导出的差异。</value>
+  </data>
+  <data name="Compare_ExportDialogTitle" xml:space="preserve">
+    <value>保存结构化差异</value>
+  </data>
+  <data name="Compare_Exporting" xml:space="preserve">
+    <value>正在导出结构化差异...</value>
+  </data>
+  <data name="Compare_ExportDone" xml:space="preserve">
+    <value>结构化差异已保存。</value>
+  </data>
+  <data name="Compare_ExportFailed" xml:space="preserve">
+    <value>导出结构化差异失败：{0}</value>
+  </data>
+  <data name="Compare_MergeConfirmTitle" xml:space="preserve">
+    <value>合并差异</value>
+  </data>
+  <data name="Compare_MergeConfirm" xml:space="preserve">
+    <value>确定要将 {0} 个资源合并到当前数据文件吗？这会修改当前数据，请随后保存。</value>
+  </data>
+  <data name="Compare_MergeNothing" xml:space="preserve">
+    <value>请选择至少一个新增、修改或移除的资源进行合并。</value>
+  </data>
+  <data name="Compare_MergeUnsupported" xml:space="preserve">
+    <value>{0} 个所选资源不支持合并，已跳过。</value>
+  </data>
+  <data name="Compare_MergeResult" xml:space="preserve">
+    <value>合并完成：导入 {0}，覆盖 {1}，删除 {2}，警告 {3}，错误 {4}。</value>
+  </data>
+  <data name="Compare_MergeFailed" xml:space="preserve">
+    <value>合并失败：{0}</value>
+  </data>
+  <data name="Compare_Merging" xml:space="preserve">
+    <value>正在合并所选资源...</value>
+  </data>
+  <data name="Compare_DeleteRemovedWarning" xml:space="preserve">
+    <value>移除的资源将从当前数据中删除，可能留下悬空引用。</value>
+  </data>
+  <data name="Compare_OpenDataFirst" xml:space="preserve">
+    <value>请先打开一个数据文件，再进行对比。</value>
+  </data>
+  <data name="Compare_AllResources" xml:space="preserve">
+    <value>全部资源</value>
+  </data>
+  <data name="Compare_Cat_Sequences" xml:space="preserve">
+    <value>序列</value>
+  </data>
+  <data name="Compare_Cat_FilterEffects" xml:space="preserve">
+    <value>滤镜效果</value>
+  </data>
+  <data name="Compare_Cat_UINodes" xml:space="preserve">
+    <value>UI 节点</value>
+  </data>
 </root>
