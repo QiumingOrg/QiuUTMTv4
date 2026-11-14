@@ -3306,11 +3306,17 @@ UndertaleModTool可能会导致工作丢失。</value>
   <data name="Patch_ApplyFailed" xml:space="preserve">
     <value>应用补丁失败：{0}</value>
   </data>
+  <data name="Patch_OutputMd5" xml:space="preserve">
+    <value>输出文件 MD5：{0}</value>
+  </data>
+  <data name="Patch_OutputMd5Expected" xml:space="preserve">
+    <value>输出文件 MD5：{0}（补丁期望 {1}）</value>
+  </data>
   <data name="Filter_PatchFiles" xml:space="preserve">
-    <value>数据文件补丁 (.utmt-patch)</value>
+    <value>QiuUMT 差异补丁 (*.qiuumtdiff)</value>
   </data>
   <data name="RefType_PatchFiles" xml:space="preserve">
-    <value>数据文件补丁 (.utmt-patch)</value>
+    <value>QiuUMT 差异补丁 (*.qiuumtdiff)</value>
   </data>
   <data name="DefaultName_PageItem" xml:space="preserve">
     <value>页面项 {0}</value>

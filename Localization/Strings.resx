@@ -3362,11 +3362,17 @@ I TOLD YOU to open a data.win, not create a new file! :P</value>
   <data name="Patch_ApplyFailed" xml:space="preserve">
     <value>Failed to apply patch: {0}</value>
   </data>
+  <data name="Patch_OutputMd5" xml:space="preserve">
+    <value>Output MD5: {0}</value>
+  </data>
+  <data name="Patch_OutputMd5Expected" xml:space="preserve">
+    <value>Output MD5: {0} (the patch expects {1})</value>
+  </data>
   <data name="Filter_PatchFiles" xml:space="preserve">
-    <value>Data file patches (.utmt-patch)</value>
+    <value>QiuUMT diffs (*.qiuumtdiff)</value>
   </data>
   <data name="RefType_PatchFiles" xml:space="preserve">
-    <value>Data file patches (.utmt-patch)</value>
+    <value>QiuUMT diffs (*.qiuumtdiff)</value>
   </data>
   <data name="DefaultName_PageItem" xml:space="preserve">
     <value>PageItem {0}</value>
