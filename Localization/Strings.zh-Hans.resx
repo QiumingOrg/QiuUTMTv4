@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -3287,6 +3287,30 @@ UndertaleModTool可能会导致工作丢失。</value>
   </data>
   <data name="Patch_SelectOutputFile" xml:space="preserve">
     <value>将修补后的数据文件另存为</value>
+  </data>
+  <data name="Patch_SelectFiles" xml:space="preserve">
+    <value>选择要应用的差异补丁文件</value>
+  </data>
+  <data name="Patch_OrderTitle" xml:space="preserve">
+    <value>差异补丁应用顺序</value>
+  </data>
+  <data name="Patch_OrderHint" xml:space="preserve">
+    <value>补丁将从上到下依次应用于数据文件。使用按钮调整优先级。</value>
+  </data>
+  <data name="Patch_OrderAuto" xml:space="preserve">
+    <value>自动（MD5 链）</value>
+  </data>
+  <data name="Patch_OrderUp" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="Patch_OrderDown" xml:space="preserve">
+    <value>下移</value>
+  </data>
+  <data name="Patch_ApplyButton" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="Patch_ChainItem" xml:space="preserve">
+    <value>{0}：{1}</value>
   </data>
   <data name="Patch_Loading" xml:space="preserve">
     <value>正在加载基础数据文件...</value>

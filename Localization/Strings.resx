@@ -3344,6 +3344,30 @@ I TOLD YOU to open a data.win, not create a new file! :P</value>
   <data name="Patch_SelectOutputFile" xml:space="preserve">
     <value>Save the patched data file as</value>
   </data>
+  <data name="Patch_SelectFiles" xml:space="preserve">
+    <value>Select the diff files to apply</value>
+  </data>
+  <data name="Patch_OrderTitle" xml:space="preserve">
+    <value>Diff apply order</value>
+  </data>
+  <data name="Patch_OrderHint" xml:space="preserve">
+    <value>Diffs are applied from top to bottom. Adjust the priority with the buttons.</value>
+  </data>
+  <data name="Patch_OrderAuto" xml:space="preserve">
+    <value>Auto (MD5 chain)</value>
+  </data>
+  <data name="Patch_OrderUp" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="Patch_OrderDown" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="Patch_ApplyButton" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="Patch_ChainItem" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
   <data name="Patch_Loading" xml:space="preserve">
     <value>Loading base data file...</value>
   </data>
