@@ -3332,6 +3332,42 @@ I TOLD YOU to open a data.win, not create a new file! :P</value>
   <data name="Filter_ProjectFiles" xml:space="preserve">
     <value>UndertaleModTool project files (.json)</value>
   </data>
+  <data name="Patch_Title" xml:space="preserve">
+    <value>Apply Data File Patch</value>
+  </data>
+  <data name="Patch_SelectFile" xml:space="preserve">
+    <value>Select a data file patch</value>
+  </data>
+  <data name="Patch_SelectBaseFile" xml:space="preserve">
+    <value>Select the base data file to apply the patch to</value>
+  </data>
+  <data name="Patch_SelectOutputFile" xml:space="preserve">
+    <value>Save the patched data file as</value>
+  </data>
+  <data name="Patch_Loading" xml:space="preserve">
+    <value>Loading base data file...</value>
+  </data>
+  <data name="Patch_Applying" xml:space="preserve">
+    <value>Applying patch...</value>
+  </data>
+  <data name="Patch_SavingOutput" xml:space="preserve">
+    <value>Saving patched data file...</value>
+  </data>
+  <data name="Patch_DeleteRemovedQuestion" xml:space="preserve">
+    <value>Remove resources that only exist in the base file? This can leave dangling references.</value>
+  </data>
+  <data name="Patch_ApplyDone" xml:space="preserve">
+    <value>Patch applied ({0} imported, {1} overwritten, {2} deleted, {3} verified, {4} mismatched, {5} unsupported).</value>
+  </data>
+  <data name="Patch_ApplyFailed" xml:space="preserve">
+    <value>Failed to apply patch: {0}</value>
+  </data>
+  <data name="Filter_PatchFiles" xml:space="preserve">
+    <value>Data file patches (.utmt-patch)</value>
+  </data>
+  <data name="RefType_PatchFiles" xml:space="preserve">
+    <value>Data file patches (.utmt-patch)</value>
+  </data>
   <data name="DefaultName_PageItem" xml:space="preserve">
     <value>PageItem {0}</value>
   </data>
@@ -7295,6 +7331,9 @@ It's highly recommended to restart the application.</value>
   <data name="Menu_Tools_CompareDataFiles" xml:space="preserve">
     <value>Compare Data Files...</value>
   </data>
+  <data name="Menu_Tools_ApplyDataFilePatch" xml:space="preserve">
+    <value>_Apply Data File Patch...</value>
+  </data>
   <data name="Compare_Title" xml:space="preserve">
     <value>Compare Data Files</value>
   </data>
@@ -7315,6 +7354,21 @@ It's highly recommended to restart the application.</value>
   </data>
   <data name="Compare_Warnings" xml:space="preserve">
     <value>Warnings</value>
+  </data>
+  <data name="Compare_SavePatch" xml:space="preserve">
+    <value>Save patch...</value>
+  </data>
+  <data name="Compare_SavePatchDialogTitle" xml:space="preserve">
+    <value>Save data file patch</value>
+  </data>
+  <data name="Compare_SavingPatch" xml:space="preserve">
+    <value>Saving patch...</value>
+  </data>
+  <data name="Compare_PatchSaved" xml:space="preserve">
+    <value>Patch saved ({0} added, {1} removed, {2} changed).</value>
+  </data>
+  <data name="Compare_PatchSaveFailed" xml:space="preserve">
+    <value>Failed to save patch: {0}</value>
   </data>
   <data name="Compare_FilterByName" xml:space="preserve">
     <value>Filter by name</value>

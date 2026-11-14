@@ -3276,6 +3276,42 @@ UndertaleModTool可能会导致工作丢失。</value>
   <data name="Filter_ProjectFiles" xml:space="preserve">
     <value>UndertaleModTool 项目文件 (.json)</value>
   </data>
+  <data name="Patch_Title" xml:space="preserve">
+    <value>应用数据文件补丁</value>
+  </data>
+  <data name="Patch_SelectFile" xml:space="preserve">
+    <value>选择数据文件补丁</value>
+  </data>
+  <data name="Patch_SelectBaseFile" xml:space="preserve">
+    <value>选择要应用补丁的基础数据文件</value>
+  </data>
+  <data name="Patch_SelectOutputFile" xml:space="preserve">
+    <value>将修补后的数据文件另存为</value>
+  </data>
+  <data name="Patch_Loading" xml:space="preserve">
+    <value>正在加载基础数据文件...</value>
+  </data>
+  <data name="Patch_Applying" xml:space="preserve">
+    <value>正在应用补丁...</value>
+  </data>
+  <data name="Patch_SavingOutput" xml:space="preserve">
+    <value>正在保存修补后的数据文件...</value>
+  </data>
+  <data name="Patch_DeleteRemovedQuestion" xml:space="preserve">
+    <value>删除仅存在于基础文件中的资源吗？这可能留下悬空引用。</value>
+  </data>
+  <data name="Patch_ApplyDone" xml:space="preserve">
+    <value>补丁已应用（导入 {0}，覆盖 {1}，删除 {2}，验证 {3}，不匹配 {4}，不支持 {5}）。</value>
+  </data>
+  <data name="Patch_ApplyFailed" xml:space="preserve">
+    <value>应用补丁失败：{0}</value>
+  </data>
+  <data name="Filter_PatchFiles" xml:space="preserve">
+    <value>数据文件补丁 (.utmt-patch)</value>
+  </data>
+  <data name="RefType_PatchFiles" xml:space="preserve">
+    <value>数据文件补丁 (.utmt-patch)</value>
+  </data>
   <data name="DefaultName_PageItem" xml:space="preserve">
     <value>页面项 {0}</value>
   </data>
@@ -7234,6 +7270,9 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Menu_Tools_CompareDataFiles" xml:space="preserve">
     <value>对比数据文件...</value>
   </data>
+  <data name="Menu_Tools_ApplyDataFilePatch" xml:space="preserve">
+    <value>应用数据文件补丁...</value>
+  </data>
   <data name="Compare_Title" xml:space="preserve">
     <value>对比数据文件</value>
   </data>
@@ -7254,6 +7293,21 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   </data>
   <data name="Compare_Warnings" xml:space="preserve">
     <value>警告</value>
+  </data>
+  <data name="Compare_SavePatch" xml:space="preserve">
+    <value>保存补丁...</value>
+  </data>
+  <data name="Compare_SavePatchDialogTitle" xml:space="preserve">
+    <value>保存数据文件补丁</value>
+  </data>
+  <data name="Compare_SavingPatch" xml:space="preserve">
+    <value>正在保存补丁...</value>
+  </data>
+  <data name="Compare_PatchSaved" xml:space="preserve">
+    <value>补丁已保存（新增 {0}，移除 {1}，更改 {2}）。</value>
+  </data>
+  <data name="Compare_PatchSaveFailed" xml:space="preserve">
+    <value>保存补丁失败：{0}</value>
   </data>
   <data name="Compare_FilterByName" xml:space="preserve">
     <value>按名称过滤</value>
