@@ -7463,6 +7463,9 @@ It's highly recommended to restart the application.</value>
   <data name="Compare_Truncated" xml:space="preserve">
     <value>Only the first {0} differences are shown.</value>
   </data>
+  <data name="Compare_SubCodeParentDiff" xml:space="preserve">
+    <value>Anonymous function entries are patched through their parent code entry; the diff below shows the parent.</value>
+  </data>
   <data name="Compare_DecompileFailed" xml:space="preserve">
     <value>Decompilation failed; showing disassembly.</value>
   </data>

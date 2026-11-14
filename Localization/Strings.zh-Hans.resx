@@ -7402,6 +7402,9 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Compare_Truncated" xml:space="preserve">
     <value>仅显示前 {0} 个差异。</value>
   </data>
+  <data name="Compare_SubCodeParentDiff" xml:space="preserve">
+    <value>匿名函数条目通过其父代码条目进行修补；下方显示父条目的差异。</value>
+  </data>
   <data name="Compare_DecompileFailed" xml:space="preserve">
     <value>反编译失败，已显示反汇编。</value>
   </data>
