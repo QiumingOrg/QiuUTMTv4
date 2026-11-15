@@ -813,6 +813,48 @@ Open the download page now?</value>
   <data name="Settings_MirrorChyanGetCdk" xml:space="preserve">
     <value>Get a CDK</value>
   </data>
+  <data name="Settings_MirrorChyanPromoTitle" xml:space="preserve">
+    <value>MirrorChyan accelerated downloads</value>
+  </data>
+  <data name="Settings_MirrorChyanPromoDescription" xml:space="preserve">
+    <value>Downloads stable releases through the MirrorChyan CDN, which is faster and more reliable in mainland China. Select MirrorChyan above and enter a CDK to use it.</value>
+  </data>
+  <data name="Settings_MirrorChyanPromoButton" xml:space="preserve">
+    <value>Learn more</value>
+  </data>
+  <data name="Msg_UpdateDialogTitle" xml:space="preserve">
+    <value>Update available</value>
+  </data>
+  <data name="Msg_UpdateDialogTitleLatest" xml:space="preserve">
+    <value>You're up to date</value>
+  </data>
+  <data name="Msg_UpdateDialogSubtitle" xml:space="preserve">
+    <value>A new version of UndertaleModTool is ready. Update now?</value>
+  </data>
+  <data name="Msg_UpdateDialogSubtitleLatest" xml:space="preserve">
+    <value>You're already using the latest version. You can still reinstall it.</value>
+  </data>
+  <data name="Msg_UpdateDialogCurrentVersion" xml:space="preserve">
+    <value>Current version</value>
+  </data>
+  <data name="Msg_UpdateDialogLatestVersion" xml:space="preserve">
+    <value>Latest version</value>
+  </data>
+  <data name="Msg_UpdateDialogChangelog" xml:space="preserve">
+    <value>What's changed</value>
+  </data>
+  <data name="Msg_UpdateDialogNoChangelog" xml:space="preserve">
+    <value>No changelog was provided for this version.</value>
+  </data>
+  <data name="Msg_UpdateDialogLater" xml:space="preserve">
+    <value>Later</value>
+  </data>
+  <data name="Msg_UpdateDialogUpdateNow" xml:space="preserve">
+    <value>Update now</value>
+  </data>
+  <data name="Msg_UpdateDialogReinstall" xml:space="preserve">
+    <value>Reinstall</value>
+  </data>
   <data name="Msg_UpdateAvailableWithVersion" xml:space="preserve">
     <value>A new version is available: {0}
 Currently installed: {1}
