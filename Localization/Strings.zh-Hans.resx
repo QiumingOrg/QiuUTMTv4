@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -3317,6 +3317,72 @@ UndertaleModTool可能会导致工作丢失。</value>
   </data>
   <data name="Filter_ProjectFiles" xml:space="preserve">
     <value>UndertaleModTool 项目文件 (.json)</value>
+  </data>
+  <data name="Patch_Title" xml:space="preserve">
+    <value>应用数据文件补丁</value>
+  </data>
+  <data name="Patch_SelectFile" xml:space="preserve">
+    <value>选择数据文件补丁</value>
+  </data>
+  <data name="Patch_SelectBaseFile" xml:space="preserve">
+    <value>选择要应用补丁的基础数据文件</value>
+  </data>
+  <data name="Patch_SelectOutputFile" xml:space="preserve">
+    <value>将修补后的数据文件另存为</value>
+  </data>
+  <data name="Patch_SelectFiles" xml:space="preserve">
+    <value>选择要应用的差异补丁文件</value>
+  </data>
+  <data name="Patch_OrderTitle" xml:space="preserve">
+    <value>差异补丁应用顺序</value>
+  </data>
+  <data name="Patch_OrderHint" xml:space="preserve">
+    <value>补丁将从上到下依次应用于数据文件。使用按钮调整优先级。</value>
+  </data>
+  <data name="Patch_OrderAuto" xml:space="preserve">
+    <value>自动（MD5 链）</value>
+  </data>
+  <data name="Patch_OrderUp" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="Patch_OrderDown" xml:space="preserve">
+    <value>下移</value>
+  </data>
+  <data name="Patch_ApplyButton" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="Patch_ChainItem" xml:space="preserve">
+    <value>{0}：{1}</value>
+  </data>
+  <data name="Patch_Loading" xml:space="preserve">
+    <value>正在加载基础数据文件...</value>
+  </data>
+  <data name="Patch_Applying" xml:space="preserve">
+    <value>正在应用补丁...</value>
+  </data>
+  <data name="Patch_SavingOutput" xml:space="preserve">
+    <value>正在保存修补后的数据文件...</value>
+  </data>
+  <data name="Patch_DeleteRemovedQuestion" xml:space="preserve">
+    <value>删除仅存在于基础文件中的资源吗？这可能留下悬空引用。</value>
+  </data>
+  <data name="Patch_ApplyDone" xml:space="preserve">
+    <value>补丁已应用（导入 {0}，覆盖 {1}，删除 {2}，验证 {3}，不匹配 {4}，不支持 {5}）。</value>
+  </data>
+  <data name="Patch_ApplyFailed" xml:space="preserve">
+    <value>应用补丁失败：{0}</value>
+  </data>
+  <data name="Patch_OutputMd5" xml:space="preserve">
+    <value>输出文件 MD5：{0}</value>
+  </data>
+  <data name="Patch_OutputMd5Expected" xml:space="preserve">
+    <value>输出文件 MD5：{0}（补丁期望 {1}）</value>
+  </data>
+  <data name="Filter_PatchFiles" xml:space="preserve">
+    <value>QiuUMT 差异补丁 (*.qiuumtdiff)</value>
+  </data>
+  <data name="RefType_PatchFiles" xml:space="preserve">
+    <value>QiuUMT 差异补丁 (*.qiuumtdiff)</value>
   </data>
   <data name="DefaultName_PageItem" xml:space="preserve">
     <value>页面项 {0}</value>
@@ -7287,5 +7353,209 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   </data>
   <data name="Sn_Error_Conflict" xml:space="preserve">
     <value>快捷键 {0} 与编辑器已有快捷键冲突。</value>
+  </data>
+  <data name="Menu_Tools_CompareDataFiles" xml:space="preserve">
+    <value>对比数据文件...</value>
+  </data>
+  <data name="Menu_Tools_ApplyDataFilePatch" xml:space="preserve">
+    <value>应用数据文件补丁...</value>
+  </data>
+  <data name="Compare_Title" xml:space="preserve">
+    <value>对比数据文件</value>
+  </data>
+  <data name="Compare_Base" xml:space="preserve">
+    <value>基准：{0}</value>
+  </data>
+  <data name="Compare_Compare" xml:space="preserve">
+    <value>对比：{0}</value>
+  </data>
+  <data name="Compare_BaseCurrent" xml:space="preserve">
+    <value>当前数据（未保存）</value>
+  </data>
+  <data name="Compare_Browse" xml:space="preserve">
+    <value>浏览...</value>
+  </data>
+  <data name="Compare_SelectFile" xml:space="preserve">
+    <value>选择要对比的数据文件</value>
+  </data>
+  <data name="Compare_Warnings" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Compare_SavePatch" xml:space="preserve">
+    <value>保存补丁...</value>
+  </data>
+  <data name="Compare_SavePatchDialogTitle" xml:space="preserve">
+    <value>保存数据文件补丁</value>
+  </data>
+  <data name="Compare_SavingPatch" xml:space="preserve">
+    <value>正在保存补丁...</value>
+  </data>
+  <data name="Compare_PatchSaved" xml:space="preserve">
+    <value>补丁已保存（新增 {0}，移除 {1}，更改 {2}）。</value>
+  </data>
+  <data name="Compare_PatchSaveFailed" xml:space="preserve">
+    <value>保存补丁失败：{0}</value>
+  </data>
+  <data name="Compare_FilterByName" xml:space="preserve">
+    <value>按名称过滤</value>
+  </data>
+  <data name="Compare_StatusDifferences" xml:space="preserve">
+    <value>差异</value>
+  </data>
+  <data name="Compare_StatusAll" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="Compare_StatusAdded" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="Compare_StatusRemoved" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="Compare_StatusChanged" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="Compare_StatusUnchanged" xml:space="preserve">
+    <value>未修改</value>
+  </data>
+  <data name="Compare_StatusHeader" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Compare_ResourcesCount" xml:space="preserve">
+    <value>{0} 个资源</value>
+  </data>
+  <data name="Compare_SelectedCount" xml:space="preserve">
+    <value>已选 {0} 项</value>
+  </data>
+  <data name="Compare_ClearSelection" xml:space="preserve">
+    <value>清除选择</value>
+  </data>
+  <data name="Compare_ExportStructuredDiff" xml:space="preserve">
+    <value>导出结构化差异...</value>
+  </data>
+  <data name="Compare_MergeSelected" xml:space="preserve">
+    <value>合并所选...</value>
+  </data>
+  <data name="Compare_DeleteRemoved" xml:space="preserve">
+    <value>删除对比文件中不存在的资源</value>
+  </data>
+  <data name="Compare_PropertiesTab" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="Compare_GmlDiffTab" xml:space="preserve">
+    <value>GML 差异</value>
+  </data>
+  <data name="Compare_BaseValue" xml:space="preserve">
+    <value>基准值</value>
+  </data>
+  <data name="Compare_CompareValue" xml:space="preserve">
+    <value>对比值</value>
+  </data>
+  <data name="Compare_DetailsHint" xml:space="preserve">
+    <value>选择资源以查看详情</value>
+  </data>
+  <data name="Compare_Loading" xml:space="preserve">
+    <value>正在加载 {0}...</value>
+  </data>
+  <data name="Compare_Comparing" xml:space="preserve">
+    <value>正在对比 {0}...</value>
+  </data>
+  <data name="Compare_Finishing" xml:space="preserve">
+    <value>正在收尾...</value>
+  </data>
+  <data name="Compare_Done" xml:space="preserve">
+    <value>完成：新增 {0}，移除 {1}，修改 {2}，未修改 {3}。</value>
+  </data>
+  <data name="Compare_Cancelled" xml:space="preserve">
+    <value>对比已取消。</value>
+  </data>
+  <data name="Compare_ComparisonFailed" xml:space="preserve">
+    <value>对比失败：{0}</value>
+  </data>
+  <data name="Compare_PropertyComparisonFailed" xml:space="preserve">
+    <value>属性对比失败：{0}</value>
+  </data>
+  <data name="Compare_CodeComparisonFailed" xml:space="preserve">
+    <value>代码对比失败：{0}</value>
+  </data>
+  <data name="Compare_OnlyInCompare" xml:space="preserve">
+    <value>该资源只存在于对比文件中。</value>
+  </data>
+  <data name="Compare_OnlyInBase" xml:space="preserve">
+    <value>该资源只存在于基准文件中。</value>
+  </data>
+  <data name="Compare_NoPropertyDifferences" xml:space="preserve">
+    <value>无属性差异。</value>
+  </data>
+  <data name="Compare_Truncated" xml:space="preserve">
+    <value>仅显示前 {0} 个差异。</value>
+  </data>
+  <data name="Compare_SubCodeDisassembly" xml:space="preserve">
+    <value>匿名函数条目以其字节码反汇编显示差异。</value>
+  </data>
+  <data name="Compare_DecompileFailed" xml:space="preserve">
+    <value>反编译失败，已显示反汇编。</value>
+  </data>
+  <data name="Compare_NoTextDifference" xml:space="preserve">
+    <value>反编译后没有文本差异（字节码布局可能不同）。</value>
+  </data>
+  <data name="Compare_CodeMetadataInProperties" xml:space="preserve">
+    <value>代码元数据差异已列在“属性”页。</value>
+  </data>
+  <data name="Compare_NoDifferences" xml:space="preserve">
+    <value>无差异</value>
+  </data>
+  <data name="Compare_NothingToExport" xml:space="preserve">
+    <value>没有可导出的差异。</value>
+  </data>
+  <data name="Compare_ExportDialogTitle" xml:space="preserve">
+    <value>保存结构化差异</value>
+  </data>
+  <data name="Compare_Exporting" xml:space="preserve">
+    <value>正在导出结构化差异...</value>
+  </data>
+  <data name="Compare_ExportDone" xml:space="preserve">
+    <value>结构化差异已保存。</value>
+  </data>
+  <data name="Compare_ExportFailed" xml:space="preserve">
+    <value>导出结构化差异失败：{0}</value>
+  </data>
+  <data name="Compare_MergeConfirmTitle" xml:space="preserve">
+    <value>合并差异</value>
+  </data>
+  <data name="Compare_MergeConfirm" xml:space="preserve">
+    <value>确定要将 {0} 个资源合并到当前数据文件吗？这会修改当前数据，请随后保存。</value>
+  </data>
+  <data name="Compare_MergeNothing" xml:space="preserve">
+    <value>请选择至少一个新增、修改或移除的资源进行合并。</value>
+  </data>
+  <data name="Compare_MergeUnsupported" xml:space="preserve">
+    <value>{0} 个所选资源不支持合并，已跳过。</value>
+  </data>
+  <data name="Compare_MergeResult" xml:space="preserve">
+    <value>合并完成：导入 {0}，覆盖 {1}，删除 {2}，警告 {3}，错误 {4}。</value>
+  </data>
+  <data name="Compare_MergeFailed" xml:space="preserve">
+    <value>合并失败：{0}</value>
+  </data>
+  <data name="Compare_Merging" xml:space="preserve">
+    <value>正在合并所选资源...</value>
+  </data>
+  <data name="Compare_DeleteRemovedWarning" xml:space="preserve">
+    <value>移除的资源将从当前数据中删除，可能留下悬空引用。</value>
+  </data>
+  <data name="Compare_OpenDataFirst" xml:space="preserve">
+    <value>请先打开一个数据文件，再进行对比。</value>
+  </data>
+  <data name="Compare_AllResources" xml:space="preserve">
+    <value>全部资源</value>
+  </data>
+  <data name="Compare_Cat_Sequences" xml:space="preserve">
+    <value>序列</value>
+  </data>
+  <data name="Compare_Cat_FilterEffects" xml:space="preserve">
+    <value>滤镜效果</value>
+  </data>
+  <data name="Compare_Cat_UINodes" xml:space="preserve">
+    <value>UI 节点</value>
   </data>
 </root>
