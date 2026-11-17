@@ -6548,7 +6548,7 @@ Android 10では、そのために1つ追加の手順が必要です（アプリ
     <value>GitHubは、直接アップデートをダウンロードします。 MirrorChyanはCDNで安定したリリースをミラーリングし、CDKをダウンロードする必要があります。 Nightlyビルドは、GitHubから常にダウンロードされます.</value>
   </data>
   <data name="Settings_UpdateSourceMirrorChyan" xml:space="preserve">
-    <value>MirrorChyan (Mirrorちゃん)</value>
+    <value>(Mirror酱)</value>
   </data>
   <data name="Settings_MirrorChyanCdkToolTip" xml:space="preserve">
     <value>MirrorChyanから安定したリリースをダウンロードするのに使用されるアクティベーションキー。 ローカル設定ファイルに保存され、MirrorChyan API以外の場所で送信されることはありません.</value>
@@ -6581,7 +6581,7 @@ Android 10では、そのために1つ追加の手順が必要です（アプリ
     <value>Github</value>
   </data>
   <data name="Settings_MirrorChyanCdk" xml:space="preserve">
-    <value>ミラーサイアンCDK</value>
+    <value>MirrorChyanCDK</value>
   </data>
   <data name="Settings_CodeEditorTheme" xml:space="preserve">
     <value>コードエディターテーマ:</value>
@@ -6710,5 +6710,68 @@ Android 10では、そのために1つ追加の手順が必要です（アプリ
   </data>
   <data name="Common_Options" xml:space="preserve">
     <value>オプション</value>
+  </data>
+  <data name="Menu_File_RunButterscotch" xml:space="preserve">
+    <value>Butterscotchと実行</value>
+  </data>
+  <data name="Menu_File_DebugButterscotch" xml:space="preserve">
+    <value>Butterscotchとデバッグ</value>
+  </data>
+  <data name="Settings_ShowButterscotchDebug" xml:space="preserve">
+    <value>Butterscotchのデバッグオプションを表示する</value>
+  </data>
+  <data name="Settings_ShowButterscotchDebug_Tooltip" xml:space="preserve">
+    <value>Butterscotch 埋め込まれたランナーとデバッガメニューエントリ ( UndertaleModTool.exe の横にある bsdbg.dll が必要です) を表示します。</value>
+  </data>
+  <data name="Settings_ButterscotchArchitecture" xml:space="preserve">
+    <value>Butterscotch ランタイム</value>
+  </data>
+  <data name="Settings_ButterscotchArchitecture_Tooltip" xml:space="preserve">
+    <value>組み込みは、プロセスアーキテクチャ (x64 または x86) に一致するネイティブエンジンを使用して UndertaleModTool 内で実行し、デバッグをサポートしています。 外部は、選択したアーキテクチャ(実行のみ)のスタンドアローン実行可能を起動します.</value>
+  </data>
+  <data name="Settings_ButterscotchArch_InProcess" xml:space="preserve">
+    <value>組み込みデバッガ(現在のプロセス)</value>
+  </data>
+  <data name="Settings_ButterscotchArch_X64" xml:space="preserve">
+    <value>x64(外部プロセス)</value>
+  </data>
+  <data name="Settings_ButterscotchArch_X86" xml:space="preserve">
+    <value>x86 (外部プロセス)</value>
+  </data>
+  <data name="Settings_ButterscotchArch_Arm64" xml:space="preserve">
+    <value>ARM64(外部プロセス)</value>
+  </data>
+  <data name="Settings_ButterscotchExecutablePath" xml:space="preserve">
+    <value>Butterscotch 実行可能</value>
+  </data>
+  <data name="Settings_ButterscotchExecutablePath_Tooltip" xml:space="preserve">
+    <value>オプション UndertaleModTool.exe の横と、ネイティブ/win-x64、ネイティブ/win-x86、またはネイティブ/win-arm64 の横にある検索に空のままにします.</value>
+  </data>
+  <data name="Msg_ButterscotchExternalDebugUnsupported" xml:space="preserve">
+    <value>デバッグは、埋め込まれたバタースコッチデバッガでのみ利用できます。 [設定] で「埋め込みデバッガ(現在のプロセス)」を選択するか、代わりに [実行] を使用します.</value>
+  </data>
+  <data name="Msg_ButterscotchExternalAlreadyRunning" xml:space="preserve">
+    <value>外部の Butterscotch インスタンスは既に実行中です。 別のものを始める前に閉じます.</value>
+  </data>
+  <data name="Msg_ButterscotchSaveBeforeRun" xml:space="preserve">
+    <value>Butterscotchを実行する前にデータを保存します.</value>
+  </data>
+  <data name="Msg_ButterscotchEmbeddedUnsupported" xml:space="preserve">
+    <value>埋め込まれた Butterscotch デバッガは、 UndertaleModTool プロセスアーキテクチャ (x64 または x86) に一致するネイティブ bsdbg.dll が必要です。 ツール/ビルド-bsdbg.ps1 でビルドするか、設定の外部アーキテクチャを選択します.</value>
+  </data>
+  <data name="Debug_Panel_Title" xml:space="preserve">
+    <value>Butterscotchデバッグ</value>
+  </data>
+  <data name="Debug_Panel_Status_NoSession" xml:space="preserve">
+    <value>Butterscotch セッションなし</value>
+  </data>
+  <data name="Debug_Panel_Status_Running" xml:space="preserve">
+    <value>ランニング - フレーム {0}</value>
+  </data>
+  <data name="Debug_Panel_Status_Paused" xml:space="preserve">
+    <value>フレーム {0} ({1}) で一時停止しました</value>
+  </data>
+  <data name="Debug_Panel_Status_FrameBoundary" xml:space="preserve">
+    <value>フレーム境界</value>
   </data>
 </root>
