@@ -5432,6 +5432,21 @@ It's highly recommended to restart the application.</value>
   <data name="Settings_LanguageToolTip" xml:space="preserve">
     <value>Select the display language for the application.</value>
   </data>
+  <data name="Settings_ScriptNameDisplay" xml:space="preserve">
+    <value>Script name display:</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayToolTip" xml:space="preserve">
+    <value>How script names are shown in the Scripts menu. Scripts can provide names via metadata comments at the top of the file (@name and @name:&lt;locale&gt;, like userscripts).</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayFileName" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayEnglish" xml:space="preserve">
+    <value>English name</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayLocalized" xml:space="preserve">
+    <value>Localized name</value>
+  </data>
   <data name="Settings_RecompileOnSave" xml:space="preserve">
     <value>Recompile all source GML when saving a project data file</value>
   </data>

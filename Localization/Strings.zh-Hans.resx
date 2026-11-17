@@ -5372,6 +5372,21 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Settings_LanguageToolTip" xml:space="preserve">
     <value>选择应用程序的显示语言。</value>
   </data>
+  <data name="Settings_ScriptNameDisplay" xml:space="preserve">
+    <value>脚本名称显示：</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayToolTip" xml:space="preserve">
+    <value>“脚本”菜单中脚本名称的显示方式。脚本可在文件开头的元数据注释中提供名称（@name 与 @name:&lt;locale&gt;，类似油猴脚本）。</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayFileName" xml:space="preserve">
+    <value>文件名</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayEnglish" xml:space="preserve">
+    <value>英文名</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayLocalized" xml:space="preserve">
+    <value>本地化名称</value>
+  </data>
   <data name="Settings_RecompileOnSave" xml:space="preserve">
     <value>保存项目数据文件时重新编译所有源 GML</value>
   </data>
