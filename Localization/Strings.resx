@@ -492,6 +492,9 @@
   <data name="Menu_File_DebugButterscotch" xml:space="preserve">
     <value>Debug with Butterscotch</value>
   </data>
+  <data name="Menu_File_ShowDebugLog" xml:space="preserve">
+    <value>Show debug log</value>
+  </data>
   <data name="Settings_ShowButterscotchDebug" xml:space="preserve">
     <value>Show Butterscotch debug options</value>
   </data>
@@ -596,6 +599,9 @@
   </data>
   <data name="Debug_Output_Title" xml:space="preserve">
     <value>Debug Output</value>
+  </data>
+  <data name="Debug_Log_Title" xml:space="preserve">
+    <value>Debug Log</value>
   </data>
   <data name="Debug_Breakpoints_Title" xml:space="preserve">
     <value>Breakpoints</value>
