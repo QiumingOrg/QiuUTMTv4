@@ -6548,7 +6548,7 @@ Android 10では、そのために1つ追加の手順が必要です（アプリ
     <value>GitHubは、直接アップデートをダウンロードします。 MirrorChyanはCDNで安定したリリースをミラーリングし、CDKをダウンロードする必要があります。 Nightlyビルドは、GitHubから常にダウンロードされます.</value>
   </data>
   <data name="Settings_UpdateSourceMirrorChyan" xml:space="preserve">
-    <value>MirrorChyan (Mirrorちゃん)</value>
+    <value>(Mirror酱)</value>
   </data>
   <data name="Settings_MirrorChyanCdkToolTip" xml:space="preserve">
     <value>MirrorChyanから安定したリリースをダウンロードするのに使用されるアクティベーションキー。 ローカル設定ファイルに保存され、MirrorChyan API以外の場所で送信されることはありません.</value>
@@ -6576,5 +6576,202 @@ Android 10では、そのために1つ追加の手順が必要です（アプリ
 代わりに新しいサブフォルダにプロジェクトを作成しますか?
 
 {0}</value>
+  </data>
+  <data name="Settings_UpdateSourceGitHub" xml:space="preserve">
+    <value>Github</value>
+  </data>
+  <data name="Settings_MirrorChyanCdk" xml:space="preserve">
+    <value>MirrorChyanCDK</value>
+  </data>
+  <data name="Settings_CodeEditorTheme" xml:space="preserve">
+    <value>コードエディターテーマ:</value>
+  </data>
+  <data name="Contributors_Title" xml:space="preserve">
+    <value>寄稿者および翻訳者</value>
+  </data>
+  <data name="Contributors_Description" xml:space="preserve">
+    <value>UndertaleModToolはボランティアによって運営されています。以下の公開ページには、コードの提供、バグの報告、ツールの翻訳、または変更点のレビューを行ったすべての方が掲載されています。</value>
+  </data>
+  <data name="Contributors_Fork" xml:space="preserve">
+    <value>コードの貢献者（このフォーク）</value>
+  </data>
+  <data name="Contributors_Upstream" xml:space="preserve">
+    <value>コードの貢献者（QiuUTMTv4 アップストリーム）</value>
+  </data>
+  <data name="Contributors_Translators" xml:space="preserve">
+    <value>翻訳者（Weblate）</value>
+  </data>
+  <data name="Tab_ShowAllOpenTabs" xml:space="preserve">
+    <value>開いているタブをすべて表示する</value>
+  </data>
+  <data name="ImportGraphics_OriginTopLeft" xml:space="preserve">
+    <value>左上</value>
+  </data>
+  <data name="ImportGraphics_OriginTopCenter" xml:space="preserve">
+    <value>中央上部</value>
+  </data>
+  <data name="ImportGraphics_OriginTopRight" xml:space="preserve">
+    <value>右上</value>
+  </data>
+  <data name="ImportGraphics_OriginCenterLeft" xml:space="preserve">
+    <value>中央の左</value>
+  </data>
+  <data name="ImportGraphics_OriginCenter" xml:space="preserve">
+    <value>中央</value>
+  </data>
+  <data name="ImportGraphics_OriginCenterRight" xml:space="preserve">
+    <value>中央の右</value>
+  </data>
+  <data name="ImportGraphics_OriginBottomLeft" xml:space="preserve">
+    <value>左下</value>
+  </data>
+  <data name="ImportGraphics_OriginBottomCenter" xml:space="preserve">
+    <value>下部中央</value>
+  </data>
+  <data name="ImportGraphics_OriginBottomRight" xml:space="preserve">
+    <value>右下</value>
+  </data>
+  <data name="ImportGraphics_FramesPerSecond" xml:space="preserve">
+    <value>秒あたりのフレーム</value>
+  </data>
+  <data name="ImportGraphics_FramesPerGameFrame" xml:space="preserve">
+    <value>ゲームフレームごとのフレーム</value>
+  </data>
+  <data name="Editor_ShowChildrenGameObjects" xml:space="preserve">
+    <value>子のゲームオブジェクトを表示する</value>
+  </data>
+  <data name="Editor_RemoveAction" xml:space="preserve">
+    <value>アクションを削除</value>
+  </data>
+  <data name="Editor_NoChildrenFound" xml:space="preserve">
+    <value>(子が見つかりませんでした)</value>
+  </data>
+  <data name="Editor_RemoveScript" xml:space="preserve">
+    <value>スクリプトを削除</value>
+  </data>
+  <data name="Editor_ShaderEditingWarning" xml:space="preserve">
+    <value>警告: 上記のフィールドでシェーダーデータを直接編集することは推奨されません。バイナリ形式でデータをコンパイルします。 代わりに、シェーダーのインポート/エクスポートスクリプトを使用して、既存のゲーム間でシェーダーを移動するか、プロジェクトシステムを使用して同じようにします.</value>
+  </data>
+  <data name="Msg_ShaderEditorNotFoundLoad" xml:space="preserve">
+    <value>シェーダープロパティの1つのコードをロードできません - エディタが見つかりません?</value>
+  </data>
+  <data name="Msg_ShaderSourceNullLoad" xml:space="preserve">
+    <value>シェーダープロパティの1つのコードをロードできません - ソース文字列オブジェクトはnullです.</value>
+  </data>
+  <data name="Msg_ShaderEditorNotFoundSave" xml:space="preserve">
+    <value>変更が保存されていない - エディタが見つかりませんでしたか?</value>
+  </data>
+  <data name="Msg_ShaderSourceNullSave" xml:space="preserve">
+    <value>変更は保存されなかった - ソース文字列オブジェクトはnullです.</value>
+  </data>
+  <data name="Msg_CancelTilemapChanges" xml:space="preserve">
+    <value>タイルマップの変更をキャンセルしますか?</value>
+  </data>
+  <data name="Msg_UnknownAudioFileType" xml:space="preserve">
+    <value>不明なファイルタイプ.</value>
+  </data>
+  <data name="Msg_CannotFindSelectedGlyph" xml:space="preserve">
+    <value>選択したグリフが見つかりません.</value>
+  </data>
+  <data name="Glyph_EditHelp" xml:space="preserve">
+    <value>1) 選択する非アクティブな矩形をダブルクリックします。
+2) 選択した矩形を矢印キー(ヘリドシフト - サイズ)で移動できます。
+3) 空のグリフなら、目的の領域にマウスをドラッグします.</value>
+  </data>
+  <data name="UI_AddFlexPanel" xml:space="preserve">
+    <value>フレックスパネルの追加</value>
+  </data>
+  <data name="UI_AddGameObject" xml:space="preserve">
+    <value>ゲームオブジェクトの追加</value>
+  </data>
+  <data name="UI_AddSequenceInstance" xml:space="preserve">
+    <value>シーケンスインスタンスを追加する</value>
+  </data>
+  <data name="UI_AddSpriteInstance" xml:space="preserve">
+    <value>スプライトインスタンスを追加する</value>
+  </data>
+  <data name="UI_AddTextItemInstance" xml:space="preserve">
+    <value>テキスト項目のインスタンスを追加する</value>
+  </data>
+  <data name="UI_AddEffectLayer" xml:space="preserve">
+    <value>エフェクトレイヤーを追加する</value>
+  </data>
+  <data name="Editor_Font_FontSizeEm" xml:space="preserve">
+    <value>フォントサイズ（em）</value>
+  </data>
+  <data name="Editor_Font_CodePoint" xml:space="preserve">
+    <value>コードポイント</value>
+  </data>
+  <data name="Editor_Image" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="Editor_Extension_ProductIdData" xml:space="preserve">
+    <value>製品IDデータ</value>
+  </data>
+  <data name="Common_Options" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="Menu_File_RunButterscotch" xml:space="preserve">
+    <value>Butterscotchと実行</value>
+  </data>
+  <data name="Menu_File_DebugButterscotch" xml:space="preserve">
+    <value>Butterscotchとデバッグ</value>
+  </data>
+  <data name="Settings_ShowButterscotchDebug" xml:space="preserve">
+    <value>Butterscotchのデバッグオプションを表示する</value>
+  </data>
+  <data name="Settings_ShowButterscotchDebug_Tooltip" xml:space="preserve">
+    <value>Butterscotch 埋め込まれたランナーとデバッガメニューエントリ ( UndertaleModTool.exe の横にある bsdbg.dll が必要です) を表示します。</value>
+  </data>
+  <data name="Settings_ButterscotchArchitecture" xml:space="preserve">
+    <value>Butterscotch ランタイム</value>
+  </data>
+  <data name="Settings_ButterscotchArchitecture_Tooltip" xml:space="preserve">
+    <value>組み込みは、プロセスアーキテクチャ (x64 または x86) に一致するネイティブエンジンを使用して UndertaleModTool 内で実行し、デバッグをサポートしています。 外部は、選択したアーキテクチャ(実行のみ)のスタンドアローン実行可能を起動します.</value>
+  </data>
+  <data name="Settings_ButterscotchArch_InProcess" xml:space="preserve">
+    <value>組み込みデバッガ(現在のプロセス)</value>
+  </data>
+  <data name="Settings_ButterscotchArch_X64" xml:space="preserve">
+    <value>x64(外部プロセス)</value>
+  </data>
+  <data name="Settings_ButterscotchArch_X86" xml:space="preserve">
+    <value>x86 (外部プロセス)</value>
+  </data>
+  <data name="Settings_ButterscotchArch_Arm64" xml:space="preserve">
+    <value>ARM64(外部プロセス)</value>
+  </data>
+  <data name="Settings_ButterscotchExecutablePath" xml:space="preserve">
+    <value>Butterscotch 実行可能</value>
+  </data>
+  <data name="Settings_ButterscotchExecutablePath_Tooltip" xml:space="preserve">
+    <value>オプション UndertaleModTool.exe の横と、ネイティブ/win-x64、ネイティブ/win-x86、またはネイティブ/win-arm64 の横にある検索に空のままにします.</value>
+  </data>
+  <data name="Msg_ButterscotchExternalDebugUnsupported" xml:space="preserve">
+    <value>デバッグは、埋め込まれたバタースコッチデバッガでのみ利用できます。 [設定] で「埋め込みデバッガ(現在のプロセス)」を選択するか、代わりに [実行] を使用します.</value>
+  </data>
+  <data name="Msg_ButterscotchExternalAlreadyRunning" xml:space="preserve">
+    <value>外部の Butterscotch インスタンスは既に実行中です。 別のものを始める前に閉じます.</value>
+  </data>
+  <data name="Msg_ButterscotchSaveBeforeRun" xml:space="preserve">
+    <value>Butterscotchを実行する前にデータを保存します.</value>
+  </data>
+  <data name="Msg_ButterscotchEmbeddedUnsupported" xml:space="preserve">
+    <value>埋め込まれた Butterscotch デバッガは、 UndertaleModTool プロセスアーキテクチャ (x64 または x86) に一致するネイティブ bsdbg.dll が必要です。 ツール/ビルド-bsdbg.ps1 でビルドするか、設定の外部アーキテクチャを選択します.</value>
+  </data>
+  <data name="Debug_Panel_Title" xml:space="preserve">
+    <value>Butterscotchデバッグ</value>
+  </data>
+  <data name="Debug_Panel_Status_NoSession" xml:space="preserve">
+    <value>Butterscotch セッションなし</value>
+  </data>
+  <data name="Debug_Panel_Status_Running" xml:space="preserve">
+    <value>ランニング - フレーム {0}</value>
+  </data>
+  <data name="Debug_Panel_Status_Paused" xml:space="preserve">
+    <value>フレーム {0} ({1}) で一時停止しました</value>
+  </data>
+  <data name="Debug_Panel_Status_FrameBoundary" xml:space="preserve">
+    <value>フレーム境界</value>
   </data>
 </root>
