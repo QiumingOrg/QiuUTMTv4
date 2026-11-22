@@ -464,28 +464,31 @@
     <value>Butterscotch 运行器</value>
   </data>
   <data name="Settings_ButterscotchArchitecture_Tooltip" xml:space="preserve">
-    <value>“内置”在 UndertaleModTool 进程内运行，使用与进程架构匹配的引擎（x64 或 x86），支持调试。“外部”会启动所选架构的独立可执行文件（仅运行）。</value>
+    <value>“自动”会根据游戏目录中的原生 DLL 选择隔离调试宿主，再回退到 UndertaleModTool 进程架构。宿主在独立进程中运行游戏和调试器，支持 32 位游戏和崩溃隔离。“内置”保留当前进程模式（Android/排障）。</value>
+  </data>
+  <data name="Settings_ButterscotchArch_Auto" xml:space="preserve">
+    <value>自动（隔离宿主）</value>
   </data>
   <data name="Settings_ButterscotchArch_InProcess" xml:space="preserve">
     <value>内置调试器（当前进程）</value>
   </data>
   <data name="Settings_ButterscotchArch_X64" xml:space="preserve">
-    <value>x64（外部进程）</value>
+    <value>x64 隔离宿主</value>
   </data>
   <data name="Settings_ButterscotchArch_X86" xml:space="preserve">
-    <value>x86（外部进程）</value>
+    <value>x86 隔离宿主（32 位游戏）</value>
   </data>
   <data name="Settings_ButterscotchArch_Arm64" xml:space="preserve">
-    <value>ARM64（外部进程）</value>
+    <value>ARM64 隔离宿主</value>
   </data>
   <data name="Settings_ButterscotchExecutablePath" xml:space="preserve">
-    <value>Butterscotch 可执行文件</value>
+    <value>调试宿主程序</value>
   </data>
   <data name="Settings_ButterscotchExecutablePath_Tooltip" xml:space="preserve">
-    <value>可选。留空时会在 UndertaleModTool.exe 所在目录以及 native/win-x64、native/win-x86、native/win-arm64 中查找。</value>
+    <value>可选。留空时会在 UndertaleModTool.exe 所在目录以及 native/win-x64、native/win-x86、native/win-arm64 中查找 bsdbg-host.exe。</value>
   </data>
   <data name="Msg_ButterscotchExternalDebugUnsupported" xml:space="preserve">
-    <value>只有内置 Butterscotch 调试器支持调试。请在设置中选择“内置调试器（当前进程）”，或改用“运行”。</value>
+    <value>当前运行器不支持调试。</value>
   </data>
   <data name="Msg_ButterscotchExternalAlreadyRunning" xml:space="preserve">
     <value>已有一个外部 Butterscotch 实例在运行，请先关闭它。</value>

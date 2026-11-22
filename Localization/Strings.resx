@@ -505,28 +505,31 @@
     <value>Butterscotch runtime</value>
   </data>
   <data name="Settings_ButterscotchArchitecture_Tooltip" xml:space="preserve">
-    <value>Embedded runs inside UndertaleModTool using the native engine matching the process architecture (x64 or x86) and supports debugging. External launches a standalone executable of the selected architecture (run only).</value>
+    <value>Auto chooses an isolated debug host from the game's native DLLs, then from the UndertaleModTool process architecture. The host runs the game and debugger in a separate process. InProcess keeps the embedded runtime (Android / troubleshooting).</value>
+  </data>
+  <data name="Settings_ButterscotchArch_Auto" xml:space="preserve">
+    <value>Auto (isolated host)</value>
   </data>
   <data name="Settings_ButterscotchArch_InProcess" xml:space="preserve">
     <value>Embedded debugger (current process)</value>
   </data>
   <data name="Settings_ButterscotchArch_X64" xml:space="preserve">
-    <value>x64 (external process)</value>
+    <value>x64 isolated host</value>
   </data>
   <data name="Settings_ButterscotchArch_X86" xml:space="preserve">
-    <value>x86 (external process)</value>
+    <value>x86 isolated host (32-bit games)</value>
   </data>
   <data name="Settings_ButterscotchArch_Arm64" xml:space="preserve">
-    <value>ARM64 (external process)</value>
+    <value>ARM64 isolated host</value>
   </data>
   <data name="Settings_ButterscotchExecutablePath" xml:space="preserve">
-    <value>Butterscotch executable</value>
+    <value>Debug host executable</value>
   </data>
   <data name="Settings_ButterscotchExecutablePath_Tooltip" xml:space="preserve">
-    <value>Optional. Leave empty to search next to UndertaleModTool.exe and in native/win-x64, native/win-x86 or native/win-arm64.</value>
+    <value>Optional. Leave empty to search next to UndertaleModTool.exe and in native/win-x64, native/win-x86 or native/win-arm64 for bsdbg-host.exe.</value>
   </data>
   <data name="Msg_ButterscotchExternalDebugUnsupported" xml:space="preserve">
-    <value>Debugging is only available with the embedded Butterscotch debugger. Select "Embedded debugger (current process)" in Settings, or use Run instead.</value>
+    <value>This runtime does not support debugging.</value>
   </data>
   <data name="Msg_ButterscotchExternalAlreadyRunning" xml:space="preserve">
     <value>An external Butterscotch instance is already running. Close it before starting another one.</value>
