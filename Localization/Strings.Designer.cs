@@ -7719,6 +7719,43 @@ namespace UndertaleModTool.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Infer object IDs from member access.
+        /// </summary>
+        public static string GML_InferObjectIdFromMemberAccess {
+            get {
+                return ResourceManager.GetString("GML_InferObjectIdFromMemberAccess", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to If enabled, variables used before a member access (e.g. &quot;enemy&quot; in &quot;enemy.hp&quot;) are treated as object asset references, expanding integer literals assigned to them into object names. Structs and instance IDs can also appear before a member access, so this can be disabled if it expands the wrong literals..
+        /// </summary>
+        public static string GML_InferObjectIdFromMemberAccess_Tooltip {
+            get {
+                return ResourceManager.GetString("GML_InferObjectIdFromMemberAccess_Tooltip", resourceCulture);
+            }
+        }
+
+
+        /// <summary>
+        ///   Looks up a localized string similar to Pre-scan all code for variable types.
+        /// </summary>
+        public static string GML_PreScanAllCodeForTypes {
+            get {
+                return ResourceManager.GetString("GML_PreScanAllCodeForTypes", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to If enabled, all code entries are analyzed once when the data file is opened, so inferred variable types are available regardless of which code entry is decompiled first. This makes resource-name expansion independent of opening order, at the cost of extra work at startup..
+        /// </summary>
+        public static string GML_PreScanAllCodeForTypes_Tooltip {
+            get {
+                return ResourceManager.GetString("GML_PreScanAllCodeForTypes_Tooltip", resourceCulture);
+            }
+        }
+
+        /// <summary>
         ///   Looks up a localized string similar to Named instance ID prefix:.
         /// </summary>
         public static string GML_InstanceIdPrefix {

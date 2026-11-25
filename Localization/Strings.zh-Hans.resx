@@ -991,6 +991,18 @@ Android 10 需要额外一步操作（不会丢失应用数据）：
   <data name="GML_InlinePropagateVariableTypes_Tooltip" xml:space="preserve">
     <value>如果启用，当已知类型的参数被赋值给变量时，会即时注册该变量的类型，使其后赋给该变量的字面量（如颜色）得以展开。</value>
   </data>
+  <data name="GML_InferObjectIdFromMemberAccess" xml:space="preserve">
+    <value>从成员访问推断对象 ID</value>
+  </data>
+  <data name="GML_InferObjectIdFromMemberAccess_Tooltip" xml:space="preserve">
+    <value>启用后，成员访问前的变量（例如 "enemy.hp" 中的 "enemy"）会被视为对象资源引用，从而将赋给它的整数字面量展开为对象名称。结构体和实例 ID 也可能出现在成员访问之前，若展开结果有误可关闭此选项。</value>
+  </data>
+  <data name="GML_PreScanAllCodeForTypes" xml:space="preserve">
+    <value>预扫描所有代码以推断变量类型</value>
+  </data>
+  <data name="GML_PreScanAllCodeForTypes_Tooltip" xml:space="preserve">
+    <value>启用后，打开数据文件时会一次性分析所有代码条目，使变量类型不依赖反编译顺序。资源名展开因此与打开顺序无关，但启动时需要额外分析时间。</value>
+  </data>
   <data name="GML_RestoreToDefaults" xml:space="preserve">
     <value>恢复默认值</value>
   </data>
