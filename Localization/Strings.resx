@@ -7658,4 +7658,19 @@ It's highly recommended to restart the application.</value>
   <data name="Settings_AutoSaveProjectIntervalToolTip" xml:space="preserve">
     <value>Seconds between automatic project saves. Values outside 30-3600 are clamped.</value>
   </data>
+  <data name="Menu_Tools_OpenInExternalEditor" xml:space="preserve">
+    <value>Open Selected Asset in External Editor</value>
+  </data>
+  <data name="Msg_ExternalEditorFailed" xml:space="preserve">
+    <value>Failed to open the external editor: {0}</value>
+  </data>
+  <data name="Msg_ExternalEditorNotSaved" xml:space="preserve">
+    <value>This asset is not stored as a file yet. Save the project first.</value>
+  </data>
+  <data name="Settings_UiTouchMode" xml:space="preserve">
+    <value>Touch-friendly UI</value>
+  </data>
+  <data name="Settings_UiTouchMode_ToolTip" xml:space="preserve">
+    <value>Enlarge buttons, tabs and input fields so touch input is accurate.</value>
+  </data>
 </root>

@@ -7597,4 +7597,19 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Settings_AutoSaveProjectIntervalToolTip" xml:space="preserve">
     <value>两次自动保存项目之间的秒数。超出 30-3600 的值会被限制到该范围内。</value>
   </data>
+  <data name="Menu_Tools_OpenInExternalEditor" xml:space="preserve">
+    <value>在外部编辑器中打开所选资源</value>
+  </data>
+  <data name="Msg_ExternalEditorFailed" xml:space="preserve">
+    <value>无法打开外部编辑器：{0}</value>
+  </data>
+  <data name="Msg_ExternalEditorNotSaved" xml:space="preserve">
+    <value>该资源尚未保存为文件，请先保存项目。</value>
+  </data>
+  <data name="Settings_UiTouchMode" xml:space="preserve">
+    <value>触屏友好界面</value>
+  </data>
+  <data name="Settings_UiTouchMode_ToolTip" xml:space="preserve">
+    <value>增大按钮、标签页和输入框的点击区域，方便触屏操作。</value>
+  </data>
 </root>

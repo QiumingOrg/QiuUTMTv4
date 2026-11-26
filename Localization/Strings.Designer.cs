@@ -9738,6 +9738,15 @@ namespace UndertaleModTool.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open Selected Asset in External Editor.
+        /// </summary>
+        public static string Menu_Tools_OpenInExternalEditor {
+            get {
+                return ResourceManager.GetString("Menu_Tools_OpenInExternalEditor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Back.
         /// </summary>
         public static string MergeTP_Back {
@@ -11282,6 +11291,24 @@ namespace UndertaleModTool.Localization {
         public static string Msg_ExportShader {
             get {
                 return ResourceManager.GetString("Msg_ExportShader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to open the external editor: {0}.
+        /// </summary>
+        public static string Msg_ExternalEditorFailed {
+            get {
+                return ResourceManager.GetString("Msg_ExternalEditorFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This asset is not stored as a file yet. Save the project first..
+        /// </summary>
+        public static string Msg_ExternalEditorNotSaved {
+            get {
+                return ResourceManager.GetString("Msg_ExternalEditorNotSaved", resourceCulture);
             }
         }
         
@@ -17841,6 +17868,24 @@ namespace UndertaleModTool.Localization {
         public static string Settings_TransparencyGridColors {
             get {
                 return ResourceManager.GetString("Settings_TransparencyGridColors", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Touch-friendly UI.
+        /// </summary>
+        public static string Settings_UiTouchMode {
+            get {
+                return ResourceManager.GetString("Settings_UiTouchMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enlarge buttons, tabs and input fields so touch input is accurate.
+        /// </summary>
+        public static string Settings_UiTouchMode_ToolTip {
+            get {
+                return ResourceManager.GetString("Settings_UiTouchMode_ToolTip", resourceCulture);
             }
         }
         
