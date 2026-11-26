@@ -7640,4 +7640,22 @@ It's highly recommended to restart the application.</value>
   <data name="Compare_Cat_UINodes" xml:space="preserve">
     <value>UI Nodes</value>
   </data>
+  <data name="Msg_AutoSaveFailed" xml:space="preserve">
+    <value>Auto-save failed: {0}</value>
+  </data>
+  <data name="Msg_AutoSaved" xml:space="preserve">
+    <value>Auto-saved {0}</value>
+  </data>
+  <data name="Settings_AutoSaveProject" xml:space="preserve">
+    <value>Auto-save project changes</value>
+  </data>
+  <data name="Settings_AutoSaveProjectToolTip" xml:space="preserve">
+    <value>Whether edits to project assets are written to the project folder automatically, so a crash or a forced process kill cannot lose unsaved work. Only changed assets are written, and saving happens in the background.</value>
+  </data>
+  <data name="Settings_AutoSaveProjectInterval" xml:space="preserve">
+    <value>Auto-save interval (seconds)</value>
+  </data>
+  <data name="Settings_AutoSaveProjectIntervalToolTip" xml:space="preserve">
+    <value>Seconds between automatic project saves. Values outside 30-3600 are clamped.</value>
+  </data>
 </root>

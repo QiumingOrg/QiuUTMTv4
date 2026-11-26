@@ -7579,4 +7579,22 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Compare_Cat_UINodes" xml:space="preserve">
     <value>UI 节点</value>
   </data>
+  <data name="Msg_AutoSaveFailed" xml:space="preserve">
+    <value>自动保存失败：{0}</value>
+  </data>
+  <data name="Msg_AutoSaved" xml:space="preserve">
+    <value>已于 {0} 自动保存</value>
+  </data>
+  <data name="Settings_AutoSaveProject" xml:space="preserve">
+    <value>自动保存项目更改</value>
+  </data>
+  <data name="Settings_AutoSaveProjectToolTip" xml:space="preserve">
+    <value>启用后，对项目资源的编辑会自动写入项目文件夹，因此程序崩溃或进程被强制结束也不会丢失未保存的工作。只会写入已更改的资源，且保存在后台进行。</value>
+  </data>
+  <data name="Settings_AutoSaveProjectInterval" xml:space="preserve">
+    <value>自动保存间隔（秒）</value>
+  </data>
+  <data name="Settings_AutoSaveProjectIntervalToolTip" xml:space="preserve">
+    <value>两次自动保存项目之间的秒数。超出 30-3600 的值会被限制到该范围内。</value>
+  </data>
 </root>

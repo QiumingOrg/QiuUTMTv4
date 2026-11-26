@@ -10154,6 +10154,24 @@ namespace UndertaleModTool.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Auto-save failed: {0}.
+        /// </summary>
+        public static string Msg_AutoSaveFailed {
+            get {
+                return ResourceManager.GetString("Msg_AutoSaveFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Auto-saved {0}.
+        /// </summary>
+        public static string Msg_AutoSaved {
+            get {
+                return ResourceManager.GetString("Msg_AutoSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Backgrounds don&apos;t support this feature..
         /// </summary>
         public static string Msg_BackgroundsDontSupportFeature {
@@ -17003,6 +17021,42 @@ namespace UndertaleModTool.Localization {
         public static string Settings_AutoFileAssociationToolTip {
             get {
                 return ResourceManager.GetString("Settings_AutoFileAssociationToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Auto-save project changes.
+        /// </summary>
+        public static string Settings_AutoSaveProject {
+            get {
+                return ResourceManager.GetString("Settings_AutoSaveProject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Whether edits to project assets are written to the project folder automatically, so a crash or a forced process kill cannot lose unsaved work. Only changed assets are written, and saving happens in the background..
+        /// </summary>
+        public static string Settings_AutoSaveProjectToolTip {
+            get {
+                return ResourceManager.GetString("Settings_AutoSaveProjectToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Auto-save interval (seconds).
+        /// </summary>
+        public static string Settings_AutoSaveProjectInterval {
+            get {
+                return ResourceManager.GetString("Settings_AutoSaveProjectInterval", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Seconds between automatic project saves. Values outside 30-3600 are clamped..
+        /// </summary>
+        public static string Settings_AutoSaveProjectIntervalToolTip {
+            get {
+                return ResourceManager.GetString("Settings_AutoSaveProjectIntervalToolTip", resourceCulture);
             }
         }
         
