@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
@@ -451,6 +451,9 @@
   <data name="Menu_File_DebugButterscotch" xml:space="preserve">
     <value>使用 Butterscotch 调试(_G)</value>
   </data>
+  <data name="Menu_File_ShowDebugLog" xml:space="preserve">
+    <value>显示调试日志</value>
+  </data>
   <data name="Settings_ShowButterscotchDebug" xml:space="preserve">
     <value>显示 Butterscotch 调试选项</value>
   </data>
@@ -461,28 +464,31 @@
     <value>Butterscotch 运行器</value>
   </data>
   <data name="Settings_ButterscotchArchitecture_Tooltip" xml:space="preserve">
-    <value>“内置”在 UndertaleModTool 进程内运行，使用与进程架构匹配的引擎（x64 或 x86），支持调试。“外部”会启动所选架构的独立可执行文件（仅运行）。</value>
+    <value>“自动”会根据游戏目录中的原生 DLL 选择隔离调试宿主，再回退到 UndertaleModTool 进程架构。宿主在独立进程中运行游戏和调试器，支持 32 位游戏和崩溃隔离。“内置”保留当前进程模式（Android/排障）。</value>
+  </data>
+  <data name="Settings_ButterscotchArch_Auto" xml:space="preserve">
+    <value>自动（隔离宿主）</value>
   </data>
   <data name="Settings_ButterscotchArch_InProcess" xml:space="preserve">
     <value>内置调试器（当前进程）</value>
   </data>
   <data name="Settings_ButterscotchArch_X64" xml:space="preserve">
-    <value>x64（外部进程）</value>
+    <value>x64 隔离宿主</value>
   </data>
   <data name="Settings_ButterscotchArch_X86" xml:space="preserve">
-    <value>x86（外部进程）</value>
+    <value>x86 隔离宿主（32 位游戏）</value>
   </data>
   <data name="Settings_ButterscotchArch_Arm64" xml:space="preserve">
-    <value>ARM64（外部进程）</value>
+    <value>ARM64 隔离宿主</value>
   </data>
   <data name="Settings_ButterscotchExecutablePath" xml:space="preserve">
-    <value>Butterscotch 可执行文件</value>
+    <value>调试宿主程序</value>
   </data>
   <data name="Settings_ButterscotchExecutablePath_Tooltip" xml:space="preserve">
-    <value>可选。留空时会在 UndertaleModTool.exe 所在目录以及 native/win-x64、native/win-x86、native/win-arm64 中查找。</value>
+    <value>可选。留空时会在 UndertaleModTool.exe 所在目录以及 native/win-x64、native/win-x86、native/win-arm64 中查找 bsdbg-host.exe。</value>
   </data>
   <data name="Msg_ButterscotchExternalDebugUnsupported" xml:space="preserve">
-    <value>只有内置 Butterscotch 调试器支持调试。请在设置中选择“内置调试器（当前进程）”，或改用“运行”。</value>
+    <value>当前运行器不支持调试。</value>
   </data>
   <data name="Msg_ButterscotchExternalAlreadyRunning" xml:space="preserve">
     <value>已有一个外部 Butterscotch 实例在运行，请先关闭它。</value>
@@ -555,6 +561,9 @@
   </data>
   <data name="Debug_Output_Title" xml:space="preserve">
     <value>调试输出</value>
+  </data>
+  <data name="Debug_Log_Title" xml:space="preserve">
+    <value>调试日志</value>
   </data>
   <data name="Debug_Breakpoints_Title" xml:space="preserve">
     <value>断点</value>
@@ -754,6 +763,48 @@ Android 10 需要额外一步操作（不会丢失应用数据）：
   <data name="Settings_MirrorChyanGetCdk" xml:space="preserve">
     <value>获取 CDK</value>
   </data>
+  <data name="Settings_MirrorChyanPromoTitle" xml:space="preserve">
+    <value>Mirror 酱加速下载</value>
+  </data>
+  <data name="Settings_MirrorChyanPromoDescription" xml:space="preserve">
+    <value>通过 Mirror 酱 CDN 下载稳定版，国内下载更快更稳定。在上方选择“Mirror酱”下载源并填写 CDK 即可使用。</value>
+  </data>
+  <data name="Settings_MirrorChyanPromoButton" xml:space="preserve">
+    <value>了解更多</value>
+  </data>
+  <data name="Msg_UpdateDialogTitle" xml:space="preserve">
+    <value>发现新版本</value>
+  </data>
+  <data name="Msg_UpdateDialogTitleLatest" xml:space="preserve">
+    <value>已是最新版本</value>
+  </data>
+  <data name="Msg_UpdateDialogSubtitle" xml:space="preserve">
+    <value>发现 UndertaleModTool 的新版本，是否立即更新？</value>
+  </data>
+  <data name="Msg_UpdateDialogSubtitleLatest" xml:space="preserve">
+    <value>你正在使用最新版本，仍可重新下载并覆盖安装。</value>
+  </data>
+  <data name="Msg_UpdateDialogCurrentVersion" xml:space="preserve">
+    <value>当前版本</value>
+  </data>
+  <data name="Msg_UpdateDialogLatestVersion" xml:space="preserve">
+    <value>最新版本</value>
+  </data>
+  <data name="Msg_UpdateDialogChangelog" xml:space="preserve">
+    <value>更新日志</value>
+  </data>
+  <data name="Msg_UpdateDialogNoChangelog" xml:space="preserve">
+    <value>此版本未提供更新日志。</value>
+  </data>
+  <data name="Msg_UpdateDialogLater" xml:space="preserve">
+    <value>稍后</value>
+  </data>
+  <data name="Msg_UpdateDialogUpdateNow" xml:space="preserve">
+    <value>立即更新</value>
+  </data>
+  <data name="Msg_UpdateDialogReinstall" xml:space="preserve">
+    <value>重新安装</value>
+  </data>
   <data name="Msg_UpdateAvailableWithVersion" xml:space="preserve">
     <value>发现新版本：{0}
 当前版本：{1}
@@ -939,6 +990,18 @@ Android 10 需要额外一步操作（不会丢失应用数据）：
   </data>
   <data name="GML_InlinePropagateVariableTypes_Tooltip" xml:space="preserve">
     <value>如果启用，当已知类型的参数被赋值给变量时，会即时注册该变量的类型，使其后赋给该变量的字面量（如颜色）得以展开。</value>
+  </data>
+  <data name="GML_InferObjectIdFromMemberAccess" xml:space="preserve">
+    <value>从成员访问推断对象 ID</value>
+  </data>
+  <data name="GML_InferObjectIdFromMemberAccess_Tooltip" xml:space="preserve">
+    <value>启用后，成员访问前的变量（例如 "enemy.hp" 中的 "enemy"）会被视为对象资源引用，从而将赋给它的整数字面量展开为对象名称。结构体和实例 ID 也可能出现在成员访问之前，若展开结果有误可关闭此选项。</value>
+  </data>
+  <data name="GML_PreScanAllCodeForTypes" xml:space="preserve">
+    <value>预扫描所有代码以推断变量类型</value>
+  </data>
+  <data name="GML_PreScanAllCodeForTypes_Tooltip" xml:space="preserve">
+    <value>启用后，打开数据文件时会一次性分析所有代码条目，使变量类型不依赖反编译顺序。资源名展开因此与打开顺序无关，但启动时需要额外分析时间。</value>
   </data>
   <data name="GML_RestoreToDefaults" xml:space="preserve">
     <value>恢复默认值</value>
@@ -3276,6 +3339,72 @@ UndertaleModTool可能会导致工作丢失。</value>
   <data name="Filter_ProjectFiles" xml:space="preserve">
     <value>UndertaleModTool 项目文件 (.json)</value>
   </data>
+  <data name="Patch_Title" xml:space="preserve">
+    <value>应用数据文件补丁</value>
+  </data>
+  <data name="Patch_SelectFile" xml:space="preserve">
+    <value>选择数据文件补丁</value>
+  </data>
+  <data name="Patch_SelectBaseFile" xml:space="preserve">
+    <value>选择要应用补丁的基础数据文件</value>
+  </data>
+  <data name="Patch_SelectOutputFile" xml:space="preserve">
+    <value>将修补后的数据文件另存为</value>
+  </data>
+  <data name="Patch_SelectFiles" xml:space="preserve">
+    <value>选择要应用的差异补丁文件</value>
+  </data>
+  <data name="Patch_OrderTitle" xml:space="preserve">
+    <value>差异补丁应用顺序</value>
+  </data>
+  <data name="Patch_OrderHint" xml:space="preserve">
+    <value>补丁将从上到下依次应用于数据文件。使用按钮调整优先级。</value>
+  </data>
+  <data name="Patch_OrderAuto" xml:space="preserve">
+    <value>自动（MD5 链）</value>
+  </data>
+  <data name="Patch_OrderUp" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="Patch_OrderDown" xml:space="preserve">
+    <value>下移</value>
+  </data>
+  <data name="Patch_ApplyButton" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="Patch_ChainItem" xml:space="preserve">
+    <value>{0}：{1}</value>
+  </data>
+  <data name="Patch_Loading" xml:space="preserve">
+    <value>正在加载基础数据文件...</value>
+  </data>
+  <data name="Patch_Applying" xml:space="preserve">
+    <value>正在应用补丁...</value>
+  </data>
+  <data name="Patch_SavingOutput" xml:space="preserve">
+    <value>正在保存修补后的数据文件...</value>
+  </data>
+  <data name="Patch_DeleteRemovedQuestion" xml:space="preserve">
+    <value>删除仅存在于基础文件中的资源吗？这可能留下悬空引用。</value>
+  </data>
+  <data name="Patch_ApplyDone" xml:space="preserve">
+    <value>补丁已应用（导入 {0}，覆盖 {1}，删除 {2}，验证 {3}，不匹配 {4}，不支持 {5}）。</value>
+  </data>
+  <data name="Patch_ApplyFailed" xml:space="preserve">
+    <value>应用补丁失败：{0}</value>
+  </data>
+  <data name="Patch_OutputMd5" xml:space="preserve">
+    <value>输出文件 MD5：{0}</value>
+  </data>
+  <data name="Patch_OutputMd5Expected" xml:space="preserve">
+    <value>输出文件 MD5：{0}（补丁期望 {1}）</value>
+  </data>
+  <data name="Filter_PatchFiles" xml:space="preserve">
+    <value>QiuUMT 差异补丁 (*.qiuumtdiff)</value>
+  </data>
+  <data name="RefType_PatchFiles" xml:space="preserve">
+    <value>QiuUMT 差异补丁 (*.qiuumtdiff)</value>
+  </data>
   <data name="DefaultName_PageItem" xml:space="preserve">
     <value>页面项 {0}</value>
   </data>
@@ -5330,6 +5459,21 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   <data name="Settings_LanguageToolTip" xml:space="preserve">
     <value>选择应用程序的显示语言。</value>
   </data>
+  <data name="Settings_ScriptNameDisplay" xml:space="preserve">
+    <value>脚本名称显示：</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayToolTip" xml:space="preserve">
+    <value>“脚本”菜单中脚本名称的显示方式。脚本可在文件开头的元数据注释中提供名称（@name 与 @name:&lt;locale&gt;，类似油猴脚本）。</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayFileName" xml:space="preserve">
+    <value>文件名</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayEnglish" xml:space="preserve">
+    <value>英文名</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayLocalized" xml:space="preserve">
+    <value>本地化名称</value>
+  </data>
   <data name="Settings_RecompileOnSave" xml:space="preserve">
     <value>保存项目数据文件时重新编译所有源 GML</value>
   </data>
@@ -5383,6 +5527,18 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   </data>
   <data name="Menu_File_ImportFromFile" xml:space="preserve">
     <value>从文件导入(_I)...</value>
+  </data>
+  <data name="Menu_File_ImportFromYYMPS" xml:space="preserve">
+    <value>从 YYMPs 包导入(_I)...</value>
+  </data>
+  <data name="Dialog_ImportFromYYMPS" xml:space="preserve">
+    <value>从 YYMPs 包导入资源</value>
+  </data>
+  <data name="YYMPS_FileFilter" xml:space="preserve">
+    <value>GameMaker 资源包 (*.yymps)|*.yymps|所有文件|*.*</value>
+  </data>
+  <data name="Msg_ImportFromYYMPSError" xml:space="preserve">
+    <value>从 YYMPs 包导入出错：{0}</value>
   </data>
   <data name="Dialog_ImportFromFile" xml:space="preserve">
     <value>从文件导入资源</value>
@@ -7218,5 +7374,242 @@ UndertaleModTool的32位（x86）版本已过时。</value>
   </data>
   <data name="Sn_Error_Conflict" xml:space="preserve">
     <value>快捷键 {0} 与编辑器已有快捷键冲突。</value>
+  </data>
+  <data name="Menu_Tools_CompareDataFiles" xml:space="preserve">
+    <value>对比数据文件...</value>
+  </data>
+  <data name="Menu_Tools_ApplyDataFilePatch" xml:space="preserve">
+    <value>应用数据文件补丁...</value>
+  </data>
+  <data name="Compare_Title" xml:space="preserve">
+    <value>对比数据文件</value>
+  </data>
+  <data name="Compare_Base" xml:space="preserve">
+    <value>基准：{0}</value>
+  </data>
+  <data name="Compare_Compare" xml:space="preserve">
+    <value>对比：{0}</value>
+  </data>
+  <data name="Compare_BaseCurrent" xml:space="preserve">
+    <value>当前数据（未保存）</value>
+  </data>
+  <data name="Compare_Browse" xml:space="preserve">
+    <value>浏览...</value>
+  </data>
+  <data name="Compare_SelectFile" xml:space="preserve">
+    <value>选择要对比的数据文件</value>
+  </data>
+  <data name="Compare_Warnings" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Compare_SavePatch" xml:space="preserve">
+    <value>保存补丁...</value>
+  </data>
+  <data name="Compare_SavePatchDialogTitle" xml:space="preserve">
+    <value>保存数据文件补丁</value>
+  </data>
+  <data name="Compare_SavingPatch" xml:space="preserve">
+    <value>正在保存补丁...</value>
+  </data>
+  <data name="Compare_PatchSaved" xml:space="preserve">
+    <value>补丁已保存（新增 {0}，移除 {1}，更改 {2}）。</value>
+  </data>
+  <data name="Compare_PatchSaveFailed" xml:space="preserve">
+    <value>保存补丁失败：{0}</value>
+  </data>
+  <data name="Compare_FilterByName" xml:space="preserve">
+    <value>按名称过滤</value>
+  </data>
+  <data name="Compare_StatusDifferences" xml:space="preserve">
+    <value>差异</value>
+  </data>
+  <data name="Compare_StatusAll" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="Compare_StatusAdded" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="Compare_StatusRemoved" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="Compare_StatusChanged" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="Compare_StatusUnchanged" xml:space="preserve">
+    <value>未修改</value>
+  </data>
+  <data name="Compare_StatusHeader" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Compare_ResourcesCount" xml:space="preserve">
+    <value>{0} 个资源</value>
+  </data>
+  <data name="Compare_SelectedCount" xml:space="preserve">
+    <value>已选 {0} 项</value>
+  </data>
+  <data name="Compare_ClearSelection" xml:space="preserve">
+    <value>清除选择</value>
+  </data>
+  <data name="Compare_ExportStructuredDiff" xml:space="preserve">
+    <value>导出结构化差异...</value>
+  </data>
+  <data name="Compare_MergeSelected" xml:space="preserve">
+    <value>合并所选...</value>
+  </data>
+  <data name="Compare_DeleteRemoved" xml:space="preserve">
+    <value>删除对比文件中不存在的资源</value>
+  </data>
+  <data name="Compare_PropertiesTab" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="Compare_GmlDiffTab" xml:space="preserve">
+    <value>GML 差异</value>
+  </data>
+  <data name="Compare_BaseValue" xml:space="preserve">
+    <value>基准值</value>
+  </data>
+  <data name="Compare_CompareValue" xml:space="preserve">
+    <value>对比值</value>
+  </data>
+  <data name="Compare_DetailsHint" xml:space="preserve">
+    <value>选择资源以查看详情</value>
+  </data>
+  <data name="Compare_Loading" xml:space="preserve">
+    <value>正在加载 {0}...</value>
+  </data>
+  <data name="Compare_Comparing" xml:space="preserve">
+    <value>正在对比 {0}...</value>
+  </data>
+  <data name="Compare_Finishing" xml:space="preserve">
+    <value>正在收尾...</value>
+  </data>
+  <data name="Compare_Done" xml:space="preserve">
+    <value>完成：新增 {0}，移除 {1}，修改 {2}，未修改 {3}。</value>
+  </data>
+  <data name="Compare_Cancelled" xml:space="preserve">
+    <value>对比已取消。</value>
+  </data>
+  <data name="Compare_ComparisonFailed" xml:space="preserve">
+    <value>对比失败：{0}</value>
+  </data>
+  <data name="Compare_PropertyComparisonFailed" xml:space="preserve">
+    <value>属性对比失败：{0}</value>
+  </data>
+  <data name="Compare_CodeComparisonFailed" xml:space="preserve">
+    <value>代码对比失败：{0}</value>
+  </data>
+  <data name="Compare_OnlyInCompare" xml:space="preserve">
+    <value>该资源只存在于对比文件中。</value>
+  </data>
+  <data name="Compare_OnlyInBase" xml:space="preserve">
+    <value>该资源只存在于基准文件中。</value>
+  </data>
+  <data name="Compare_NoPropertyDifferences" xml:space="preserve">
+    <value>无属性差异。</value>
+  </data>
+  <data name="Compare_Truncated" xml:space="preserve">
+    <value>仅显示前 {0} 个差异。</value>
+  </data>
+  <data name="Compare_SubCodeDisassembly" xml:space="preserve">
+    <value>匿名函数条目以其字节码反汇编显示差异。</value>
+  </data>
+  <data name="Compare_DecompileFailed" xml:space="preserve">
+    <value>反编译失败，已显示反汇编。</value>
+  </data>
+  <data name="Compare_NoTextDifference" xml:space="preserve">
+    <value>反编译后没有文本差异（字节码布局可能不同）。</value>
+  </data>
+  <data name="Compare_CodeMetadataInProperties" xml:space="preserve">
+    <value>代码元数据差异已列在“属性”页。</value>
+  </data>
+  <data name="Compare_NoDifferences" xml:space="preserve">
+    <value>无差异</value>
+  </data>
+  <data name="Compare_NothingToExport" xml:space="preserve">
+    <value>没有可导出的差异。</value>
+  </data>
+  <data name="Compare_ExportDialogTitle" xml:space="preserve">
+    <value>保存结构化差异</value>
+  </data>
+  <data name="Compare_Exporting" xml:space="preserve">
+    <value>正在导出结构化差异...</value>
+  </data>
+  <data name="Compare_ExportDone" xml:space="preserve">
+    <value>结构化差异已保存。</value>
+  </data>
+  <data name="Compare_ExportFailed" xml:space="preserve">
+    <value>导出结构化差异失败：{0}</value>
+  </data>
+  <data name="Compare_MergeConfirmTitle" xml:space="preserve">
+    <value>合并差异</value>
+  </data>
+  <data name="Compare_MergeConfirm" xml:space="preserve">
+    <value>确定要将 {0} 个资源合并到当前数据文件吗？这会修改当前数据，请随后保存。</value>
+  </data>
+  <data name="Compare_MergeNothing" xml:space="preserve">
+    <value>请选择至少一个新增、修改或移除的资源进行合并。</value>
+  </data>
+  <data name="Compare_MergeUnsupported" xml:space="preserve">
+    <value>{0} 个所选资源不支持合并，已跳过。</value>
+  </data>
+  <data name="Compare_MergeResult" xml:space="preserve">
+    <value>合并完成：导入 {0}，覆盖 {1}，删除 {2}，警告 {3}，错误 {4}。</value>
+  </data>
+  <data name="Compare_MergeFailed" xml:space="preserve">
+    <value>合并失败：{0}</value>
+  </data>
+  <data name="Compare_Merging" xml:space="preserve">
+    <value>正在合并所选资源...</value>
+  </data>
+  <data name="Compare_DeleteRemovedWarning" xml:space="preserve">
+    <value>移除的资源将从当前数据中删除，可能留下悬空引用。</value>
+  </data>
+  <data name="Compare_OpenDataFirst" xml:space="preserve">
+    <value>请先打开一个数据文件，再进行对比。</value>
+  </data>
+  <data name="Compare_AllResources" xml:space="preserve">
+    <value>全部资源</value>
+  </data>
+  <data name="Compare_Cat_Sequences" xml:space="preserve">
+    <value>序列</value>
+  </data>
+  <data name="Compare_Cat_FilterEffects" xml:space="preserve">
+    <value>滤镜效果</value>
+  </data>
+  <data name="Compare_Cat_UINodes" xml:space="preserve">
+    <value>UI 节点</value>
+  </data>
+  <data name="Msg_AutoSaveFailed" xml:space="preserve">
+    <value>自动保存失败：{0}</value>
+  </data>
+  <data name="Msg_AutoSaved" xml:space="preserve">
+    <value>已于 {0} 自动保存</value>
+  </data>
+  <data name="Settings_AutoSaveProject" xml:space="preserve">
+    <value>自动保存项目更改</value>
+  </data>
+  <data name="Settings_AutoSaveProjectToolTip" xml:space="preserve">
+    <value>启用后，对项目资源的编辑会自动写入项目文件夹，因此程序崩溃或进程被强制结束也不会丢失未保存的工作。只会写入已更改的资源，且保存在后台进行。</value>
+  </data>
+  <data name="Settings_AutoSaveProjectInterval" xml:space="preserve">
+    <value>自动保存间隔（秒）</value>
+  </data>
+  <data name="Settings_AutoSaveProjectIntervalToolTip" xml:space="preserve">
+    <value>两次自动保存项目之间的秒数。超出 30-3600 的值会被限制到该范围内。</value>
+  </data>
+  <data name="Menu_Tools_OpenInExternalEditor" xml:space="preserve">
+    <value>在外部编辑器中打开所选资源</value>
+  </data>
+  <data name="Msg_ExternalEditorFailed" xml:space="preserve">
+    <value>无法打开外部编辑器：{0}</value>
+  </data>
+  <data name="Msg_ExternalEditorNotSaved" xml:space="preserve">
+    <value>该资源尚未保存为文件，请先保存项目。</value>
+  </data>
+  <data name="Settings_UiTouchMode" xml:space="preserve">
+    <value>触屏友好界面</value>
+  </data>
+  <data name="Settings_UiTouchMode_ToolTip" xml:space="preserve">
+    <value>增大按钮、标签页和输入框的点击区域，方便触屏操作。</value>
   </data>
 </root>

@@ -492,6 +492,9 @@
   <data name="Menu_File_DebugButterscotch" xml:space="preserve">
     <value>Debug with Butterscotch</value>
   </data>
+  <data name="Menu_File_ShowDebugLog" xml:space="preserve">
+    <value>Show debug log</value>
+  </data>
   <data name="Settings_ShowButterscotchDebug" xml:space="preserve">
     <value>Show Butterscotch debug options</value>
   </data>
@@ -502,28 +505,31 @@
     <value>Butterscotch runtime</value>
   </data>
   <data name="Settings_ButterscotchArchitecture_Tooltip" xml:space="preserve">
-    <value>Embedded runs inside UndertaleModTool using the native engine matching the process architecture (x64 or x86) and supports debugging. External launches a standalone executable of the selected architecture (run only).</value>
+    <value>Auto chooses an isolated debug host from the game's native DLLs, then from the UndertaleModTool process architecture. The host runs the game and debugger in a separate process. InProcess keeps the embedded runtime (Android / troubleshooting).</value>
+  </data>
+  <data name="Settings_ButterscotchArch_Auto" xml:space="preserve">
+    <value>Auto (isolated host)</value>
   </data>
   <data name="Settings_ButterscotchArch_InProcess" xml:space="preserve">
     <value>Embedded debugger (current process)</value>
   </data>
   <data name="Settings_ButterscotchArch_X64" xml:space="preserve">
-    <value>x64 (external process)</value>
+    <value>x64 isolated host</value>
   </data>
   <data name="Settings_ButterscotchArch_X86" xml:space="preserve">
-    <value>x86 (external process)</value>
+    <value>x86 isolated host (32-bit games)</value>
   </data>
   <data name="Settings_ButterscotchArch_Arm64" xml:space="preserve">
-    <value>ARM64 (external process)</value>
+    <value>ARM64 isolated host</value>
   </data>
   <data name="Settings_ButterscotchExecutablePath" xml:space="preserve">
-    <value>Butterscotch executable</value>
+    <value>Debug host executable</value>
   </data>
   <data name="Settings_ButterscotchExecutablePath_Tooltip" xml:space="preserve">
-    <value>Optional. Leave empty to search next to UndertaleModTool.exe and in native/win-x64, native/win-x86 or native/win-arm64.</value>
+    <value>Optional. Leave empty to search next to UndertaleModTool.exe and in native/win-x64, native/win-x86 or native/win-arm64 for bsdbg-host.exe.</value>
   </data>
   <data name="Msg_ButterscotchExternalDebugUnsupported" xml:space="preserve">
-    <value>Debugging is only available with the embedded Butterscotch debugger. Select "Embedded debugger (current process)" in Settings, or use Run instead.</value>
+    <value>This runtime does not support debugging.</value>
   </data>
   <data name="Msg_ButterscotchExternalAlreadyRunning" xml:space="preserve">
     <value>An external Butterscotch instance is already running. Close it before starting another one.</value>
@@ -596,6 +602,9 @@
   </data>
   <data name="Debug_Output_Title" xml:space="preserve">
     <value>Debug Output</value>
+  </data>
+  <data name="Debug_Log_Title" xml:space="preserve">
+    <value>Debug Log</value>
   </data>
   <data name="Debug_Breakpoints_Title" xml:space="preserve">
     <value>Breakpoints</value>
@@ -813,6 +822,48 @@ Open the download page now?</value>
   <data name="Settings_MirrorChyanGetCdk" xml:space="preserve">
     <value>Get a CDK</value>
   </data>
+  <data name="Settings_MirrorChyanPromoTitle" xml:space="preserve">
+    <value>MirrorChyan accelerated downloads</value>
+  </data>
+  <data name="Settings_MirrorChyanPromoDescription" xml:space="preserve">
+    <value>Downloads stable releases through the MirrorChyan CDN, which is faster and more reliable in mainland China. Select MirrorChyan above and enter a CDK to use it.</value>
+  </data>
+  <data name="Settings_MirrorChyanPromoButton" xml:space="preserve">
+    <value>Learn more</value>
+  </data>
+  <data name="Msg_UpdateDialogTitle" xml:space="preserve">
+    <value>Update available</value>
+  </data>
+  <data name="Msg_UpdateDialogTitleLatest" xml:space="preserve">
+    <value>You're up to date</value>
+  </data>
+  <data name="Msg_UpdateDialogSubtitle" xml:space="preserve">
+    <value>A new version of UndertaleModTool is ready. Update now?</value>
+  </data>
+  <data name="Msg_UpdateDialogSubtitleLatest" xml:space="preserve">
+    <value>You're already using the latest version. You can still reinstall it.</value>
+  </data>
+  <data name="Msg_UpdateDialogCurrentVersion" xml:space="preserve">
+    <value>Current version</value>
+  </data>
+  <data name="Msg_UpdateDialogLatestVersion" xml:space="preserve">
+    <value>Latest version</value>
+  </data>
+  <data name="Msg_UpdateDialogChangelog" xml:space="preserve">
+    <value>What's changed</value>
+  </data>
+  <data name="Msg_UpdateDialogNoChangelog" xml:space="preserve">
+    <value>No changelog was provided for this version.</value>
+  </data>
+  <data name="Msg_UpdateDialogLater" xml:space="preserve">
+    <value>Later</value>
+  </data>
+  <data name="Msg_UpdateDialogUpdateNow" xml:space="preserve">
+    <value>Update now</value>
+  </data>
+  <data name="Msg_UpdateDialogReinstall" xml:space="preserve">
+    <value>Reinstall</value>
+  </data>
   <data name="Msg_UpdateAvailableWithVersion" xml:space="preserve">
     <value>A new version is available: {0}
 Currently installed: {1}
@@ -998,6 +1049,18 @@ Do you want to update now?</value>
   </data>
   <data name="GML_InlinePropagateVariableTypes_Tooltip" xml:space="preserve">
     <value>If enabled, when an argument with a known type is assigned to a variable, the variable's type is registered on the spot, expanding literals assigned to it later (e.g. colors).</value>
+  </data>
+  <data name="GML_InferObjectIdFromMemberAccess" xml:space="preserve">
+    <value>Infer object IDs from member access</value>
+  </data>
+  <data name="GML_InferObjectIdFromMemberAccess_Tooltip" xml:space="preserve">
+    <value>If enabled, variables used before a member access (e.g. "enemy" in "enemy.hp") are treated as object asset references, expanding integer literals assigned to them into object names. Structs and instance IDs can also appear before a member access, so this can be disabled if it expands the wrong literals.</value>
+  </data>
+  <data name="GML_PreScanAllCodeForTypes" xml:space="preserve">
+    <value>Pre-scan all code for variable types</value>
+  </data>
+  <data name="GML_PreScanAllCodeForTypes_Tooltip" xml:space="preserve">
+    <value>If enabled, all code entries are analyzed once when the data file is opened, so inferred variable types are available regardless of which code entry is decompiled first. This makes resource-name expansion independent of opening order, at the cost of extra work at startup.</value>
   </data>
   <data name="GML_RestoreToDefaults" xml:space="preserve">
     <value>Restore to defaults</value>
@@ -3332,6 +3395,72 @@ I TOLD YOU to open a data.win, not create a new file! :P</value>
   <data name="Filter_ProjectFiles" xml:space="preserve">
     <value>UndertaleModTool project files (.json)</value>
   </data>
+  <data name="Patch_Title" xml:space="preserve">
+    <value>Apply Data File Patch</value>
+  </data>
+  <data name="Patch_SelectFile" xml:space="preserve">
+    <value>Select a data file patch</value>
+  </data>
+  <data name="Patch_SelectBaseFile" xml:space="preserve">
+    <value>Select the base data file to apply the patch to</value>
+  </data>
+  <data name="Patch_SelectOutputFile" xml:space="preserve">
+    <value>Save the patched data file as</value>
+  </data>
+  <data name="Patch_SelectFiles" xml:space="preserve">
+    <value>Select the diff files to apply</value>
+  </data>
+  <data name="Patch_OrderTitle" xml:space="preserve">
+    <value>Diff apply order</value>
+  </data>
+  <data name="Patch_OrderHint" xml:space="preserve">
+    <value>Diffs are applied from top to bottom. Adjust the priority with the buttons.</value>
+  </data>
+  <data name="Patch_OrderAuto" xml:space="preserve">
+    <value>Auto (MD5 chain)</value>
+  </data>
+  <data name="Patch_OrderUp" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="Patch_OrderDown" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="Patch_ApplyButton" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="Patch_ChainItem" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Patch_Loading" xml:space="preserve">
+    <value>Loading base data file...</value>
+  </data>
+  <data name="Patch_Applying" xml:space="preserve">
+    <value>Applying patch...</value>
+  </data>
+  <data name="Patch_SavingOutput" xml:space="preserve">
+    <value>Saving patched data file...</value>
+  </data>
+  <data name="Patch_DeleteRemovedQuestion" xml:space="preserve">
+    <value>Remove resources that only exist in the base file? This can leave dangling references.</value>
+  </data>
+  <data name="Patch_ApplyDone" xml:space="preserve">
+    <value>Patch applied ({0} imported, {1} overwritten, {2} deleted, {3} verified, {4} mismatched, {5} unsupported).</value>
+  </data>
+  <data name="Patch_ApplyFailed" xml:space="preserve">
+    <value>Failed to apply patch: {0}</value>
+  </data>
+  <data name="Patch_OutputMd5" xml:space="preserve">
+    <value>Output MD5: {0}</value>
+  </data>
+  <data name="Patch_OutputMd5Expected" xml:space="preserve">
+    <value>Output MD5: {0} (the patch expects {1})</value>
+  </data>
+  <data name="Filter_PatchFiles" xml:space="preserve">
+    <value>QiuUMT diffs (*.qiuumtdiff)</value>
+  </data>
+  <data name="RefType_PatchFiles" xml:space="preserve">
+    <value>QiuUMT diffs (*.qiuumtdiff)</value>
+  </data>
   <data name="DefaultName_PageItem" xml:space="preserve">
     <value>PageItem {0}</value>
   </data>
@@ -5390,6 +5519,21 @@ It's highly recommended to restart the application.</value>
   <data name="Settings_LanguageToolTip" xml:space="preserve">
     <value>Select the display language for the application.</value>
   </data>
+  <data name="Settings_ScriptNameDisplay" xml:space="preserve">
+    <value>Script name display:</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayToolTip" xml:space="preserve">
+    <value>How script names are shown in the Scripts menu. Scripts can provide names via metadata comments at the top of the file (@name and @name:&lt;locale&gt;, like userscripts).</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayFileName" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayEnglish" xml:space="preserve">
+    <value>English name</value>
+  </data>
+  <data name="Settings_ScriptNameDisplayLocalized" xml:space="preserve">
+    <value>Localized name</value>
+  </data>
   <data name="Settings_RecompileOnSave" xml:space="preserve">
     <value>Recompile all source GML when saving a project data file</value>
   </data>
@@ -5443,6 +5587,18 @@ It's highly recommended to restart the application.</value>
   </data>
   <data name="Menu_File_ImportFromFile" xml:space="preserve">
     <value>_Import from file...</value>
+  </data>
+  <data name="Menu_File_ImportFromYYMPS" xml:space="preserve">
+    <value>Import from YYMPs...</value>
+  </data>
+  <data name="Dialog_ImportFromYYMPS" xml:space="preserve">
+    <value>Import Resources from YYMPs Package</value>
+  </data>
+  <data name="YYMPS_FileFilter" xml:space="preserve">
+    <value>GameMaker packages (*.yymps)|*.yymps|All files|*.*</value>
+  </data>
+  <data name="Msg_ImportFromYYMPSError" xml:space="preserve">
+    <value>Import from YYMPs error: {0}</value>
   </data>
   <data name="Dialog_ImportFromFile" xml:space="preserve">
     <value>Import Resources from File</value>
@@ -7279,5 +7435,242 @@ It's highly recommended to restart the application.</value>
   </data>
   <data name="Sn_Error_Conflict" xml:space="preserve">
     <value>The shortcut {0} conflicts with an existing editor shortcut.</value>
+  </data>
+  <data name="Menu_Tools_CompareDataFiles" xml:space="preserve">
+    <value>Compare Data Files...</value>
+  </data>
+  <data name="Menu_Tools_ApplyDataFilePatch" xml:space="preserve">
+    <value>_Apply Data File Patch...</value>
+  </data>
+  <data name="Compare_Title" xml:space="preserve">
+    <value>Compare Data Files</value>
+  </data>
+  <data name="Compare_Base" xml:space="preserve">
+    <value>Base: {0}</value>
+  </data>
+  <data name="Compare_Compare" xml:space="preserve">
+    <value>Compare: {0}</value>
+  </data>
+  <data name="Compare_BaseCurrent" xml:space="preserve">
+    <value>current data (unsaved)</value>
+  </data>
+  <data name="Compare_Browse" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="Compare_SelectFile" xml:space="preserve">
+    <value>Select a data file to compare</value>
+  </data>
+  <data name="Compare_Warnings" xml:space="preserve">
+    <value>Warnings</value>
+  </data>
+  <data name="Compare_SavePatch" xml:space="preserve">
+    <value>Save patch...</value>
+  </data>
+  <data name="Compare_SavePatchDialogTitle" xml:space="preserve">
+    <value>Save data file patch</value>
+  </data>
+  <data name="Compare_SavingPatch" xml:space="preserve">
+    <value>Saving patch...</value>
+  </data>
+  <data name="Compare_PatchSaved" xml:space="preserve">
+    <value>Patch saved ({0} added, {1} removed, {2} changed).</value>
+  </data>
+  <data name="Compare_PatchSaveFailed" xml:space="preserve">
+    <value>Failed to save patch: {0}</value>
+  </data>
+  <data name="Compare_FilterByName" xml:space="preserve">
+    <value>Filter by name</value>
+  </data>
+  <data name="Compare_StatusDifferences" xml:space="preserve">
+    <value>Differences</value>
+  </data>
+  <data name="Compare_StatusAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Compare_StatusAdded" xml:space="preserve">
+    <value>Added</value>
+  </data>
+  <data name="Compare_StatusRemoved" xml:space="preserve">
+    <value>Removed</value>
+  </data>
+  <data name="Compare_StatusChanged" xml:space="preserve">
+    <value>Changed</value>
+  </data>
+  <data name="Compare_StatusUnchanged" xml:space="preserve">
+    <value>Unchanged</value>
+  </data>
+  <data name="Compare_StatusHeader" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Compare_ResourcesCount" xml:space="preserve">
+    <value>{0} resources</value>
+  </data>
+  <data name="Compare_SelectedCount" xml:space="preserve">
+    <value>{0} selected</value>
+  </data>
+  <data name="Compare_ClearSelection" xml:space="preserve">
+    <value>Clear selection</value>
+  </data>
+  <data name="Compare_ExportStructuredDiff" xml:space="preserve">
+    <value>Export structured diff...</value>
+  </data>
+  <data name="Compare_MergeSelected" xml:space="preserve">
+    <value>Merge selected...</value>
+  </data>
+  <data name="Compare_DeleteRemoved" xml:space="preserve">
+    <value>Delete removed resources</value>
+  </data>
+  <data name="Compare_PropertiesTab" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="Compare_GmlDiffTab" xml:space="preserve">
+    <value>GML diff</value>
+  </data>
+  <data name="Compare_BaseValue" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="Compare_CompareValue" xml:space="preserve">
+    <value>Compare</value>
+  </data>
+  <data name="Compare_DetailsHint" xml:space="preserve">
+    <value>Select a resource to see details</value>
+  </data>
+  <data name="Compare_Loading" xml:space="preserve">
+    <value>Loading {0}...</value>
+  </data>
+  <data name="Compare_Comparing" xml:space="preserve">
+    <value>Comparing {0}...</value>
+  </data>
+  <data name="Compare_Finishing" xml:space="preserve">
+    <value>Finishing...</value>
+  </data>
+  <data name="Compare_Done" xml:space="preserve">
+    <value>Done: {0} added, {1} removed, {2} changed, {3} unchanged.</value>
+  </data>
+  <data name="Compare_Cancelled" xml:space="preserve">
+    <value>Comparison cancelled.</value>
+  </data>
+  <data name="Compare_ComparisonFailed" xml:space="preserve">
+    <value>Comparison failed: {0}</value>
+  </data>
+  <data name="Compare_PropertyComparisonFailed" xml:space="preserve">
+    <value>Failed to compare properties: {0}</value>
+  </data>
+  <data name="Compare_CodeComparisonFailed" xml:space="preserve">
+    <value>Failed to compare code: {0}</value>
+  </data>
+  <data name="Compare_OnlyInCompare" xml:space="preserve">
+    <value>This resource only exists in the compared file.</value>
+  </data>
+  <data name="Compare_OnlyInBase" xml:space="preserve">
+    <value>This resource only exists in the base file.</value>
+  </data>
+  <data name="Compare_NoPropertyDifferences" xml:space="preserve">
+    <value>No property differences.</value>
+  </data>
+  <data name="Compare_Truncated" xml:space="preserve">
+    <value>Only the first {0} differences are shown.</value>
+  </data>
+  <data name="Compare_SubCodeDisassembly" xml:space="preserve">
+    <value>Anonymous function entries are compared as bytecode disassembly.</value>
+  </data>
+  <data name="Compare_DecompileFailed" xml:space="preserve">
+    <value>Decompilation failed; showing disassembly.</value>
+  </data>
+  <data name="Compare_NoTextDifference" xml:space="preserve">
+    <value>No textual differences after decompilation (bytecode layout may differ).</value>
+  </data>
+  <data name="Compare_CodeMetadataInProperties" xml:space="preserve">
+    <value>Code metadata differences are listed in the Properties tab.</value>
+  </data>
+  <data name="Compare_NoDifferences" xml:space="preserve">
+    <value>no differences</value>
+  </data>
+  <data name="Compare_NothingToExport" xml:space="preserve">
+    <value>There are no differences to export.</value>
+  </data>
+  <data name="Compare_ExportDialogTitle" xml:space="preserve">
+    <value>Save structured diff</value>
+  </data>
+  <data name="Compare_Exporting" xml:space="preserve">
+    <value>Exporting structured diff...</value>
+  </data>
+  <data name="Compare_ExportDone" xml:space="preserve">
+    <value>Structured diff saved.</value>
+  </data>
+  <data name="Compare_ExportFailed" xml:space="preserve">
+    <value>Failed to export the structured diff: {0}</value>
+  </data>
+  <data name="Compare_MergeConfirmTitle" xml:space="preserve">
+    <value>Merge differences</value>
+  </data>
+  <data name="Compare_MergeConfirm" xml:space="preserve">
+    <value>Merge {0} resources into the current data file? This modifies the open data; save it afterwards to keep the changes.</value>
+  </data>
+  <data name="Compare_MergeNothing" xml:space="preserve">
+    <value>Select at least one added, changed or removed resource to merge.</value>
+  </data>
+  <data name="Compare_MergeUnsupported" xml:space="preserve">
+    <value>{0} selected resources do not support merging and were skipped.</value>
+  </data>
+  <data name="Compare_MergeResult" xml:space="preserve">
+    <value>Merge finished: {0} imported, {1} overwritten, {2} deleted, {3} warnings, {4} errors.</value>
+  </data>
+  <data name="Compare_MergeFailed" xml:space="preserve">
+    <value>Merge failed: {0}</value>
+  </data>
+  <data name="Compare_Merging" xml:space="preserve">
+    <value>Merging selected resources...</value>
+  </data>
+  <data name="Compare_DeleteRemovedWarning" xml:space="preserve">
+    <value>Removed resources will be deleted from the current data and may leave dangling references.</value>
+  </data>
+  <data name="Compare_OpenDataFirst" xml:space="preserve">
+    <value>Open a data file before comparing data files.</value>
+  </data>
+  <data name="Compare_AllResources" xml:space="preserve">
+    <value>All resources</value>
+  </data>
+  <data name="Compare_Cat_Sequences" xml:space="preserve">
+    <value>Sequences</value>
+  </data>
+  <data name="Compare_Cat_FilterEffects" xml:space="preserve">
+    <value>Filter Effects</value>
+  </data>
+  <data name="Compare_Cat_UINodes" xml:space="preserve">
+    <value>UI Nodes</value>
+  </data>
+  <data name="Msg_AutoSaveFailed" xml:space="preserve">
+    <value>Auto-save failed: {0}</value>
+  </data>
+  <data name="Msg_AutoSaved" xml:space="preserve">
+    <value>Auto-saved {0}</value>
+  </data>
+  <data name="Settings_AutoSaveProject" xml:space="preserve">
+    <value>Auto-save project changes</value>
+  </data>
+  <data name="Settings_AutoSaveProjectToolTip" xml:space="preserve">
+    <value>Whether edits to project assets are written to the project folder automatically, so a crash or a forced process kill cannot lose unsaved work. Only changed assets are written, and saving happens in the background.</value>
+  </data>
+  <data name="Settings_AutoSaveProjectInterval" xml:space="preserve">
+    <value>Auto-save interval (seconds)</value>
+  </data>
+  <data name="Settings_AutoSaveProjectIntervalToolTip" xml:space="preserve">
+    <value>Seconds between automatic project saves. Values outside 30-3600 are clamped.</value>
+  </data>
+  <data name="Menu_Tools_OpenInExternalEditor" xml:space="preserve">
+    <value>Open Selected Asset in External Editor</value>
+  </data>
+  <data name="Msg_ExternalEditorFailed" xml:space="preserve">
+    <value>Failed to open the external editor: {0}</value>
+  </data>
+  <data name="Msg_ExternalEditorNotSaved" xml:space="preserve">
+    <value>This asset is not stored as a file yet. Save the project first.</value>
+  </data>
+  <data name="Settings_UiTouchMode" xml:space="preserve">
+    <value>Touch-friendly UI</value>
+  </data>
+  <data name="Settings_UiTouchMode_ToolTip" xml:space="preserve">
+    <value>Enlarge buttons, tabs and input fields so touch input is accurate.</value>
   </data>
 </root>

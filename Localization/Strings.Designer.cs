@@ -7719,6 +7719,43 @@ namespace UndertaleModTool.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Infer object IDs from member access.
+        /// </summary>
+        public static string GML_InferObjectIdFromMemberAccess {
+            get {
+                return ResourceManager.GetString("GML_InferObjectIdFromMemberAccess", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to If enabled, variables used before a member access (e.g. &quot;enemy&quot; in &quot;enemy.hp&quot;) are treated as object asset references, expanding integer literals assigned to them into object names. Structs and instance IDs can also appear before a member access, so this can be disabled if it expands the wrong literals..
+        /// </summary>
+        public static string GML_InferObjectIdFromMemberAccess_Tooltip {
+            get {
+                return ResourceManager.GetString("GML_InferObjectIdFromMemberAccess_Tooltip", resourceCulture);
+            }
+        }
+
+
+        /// <summary>
+        ///   Looks up a localized string similar to Pre-scan all code for variable types.
+        /// </summary>
+        public static string GML_PreScanAllCodeForTypes {
+            get {
+                return ResourceManager.GetString("GML_PreScanAllCodeForTypes", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to If enabled, all code entries are analyzed once when the data file is opened, so inferred variable types are available regardless of which code entry is decompiled first. This makes resource-name expansion independent of opening order, at the cost of extra work at startup..
+        /// </summary>
+        public static string GML_PreScanAllCodeForTypes_Tooltip {
+            get {
+                return ResourceManager.GetString("GML_PreScanAllCodeForTypes_Tooltip", resourceCulture);
+            }
+        }
+
+        /// <summary>
         ///   Looks up a localized string similar to Named instance ID prefix:.
         /// </summary>
         public static string GML_InstanceIdPrefix {
@@ -9701,6 +9738,15 @@ namespace UndertaleModTool.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open Selected Asset in External Editor.
+        /// </summary>
+        public static string Menu_Tools_OpenInExternalEditor {
+            get {
+                return ResourceManager.GetString("Menu_Tools_OpenInExternalEditor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Back.
         /// </summary>
         public static string MergeTP_Back {
@@ -10113,6 +10159,24 @@ namespace UndertaleModTool.Localization {
         public static string Msg_AudioFailure {
             get {
                 return ResourceManager.GetString("Msg_AudioFailure", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Auto-save failed: {0}.
+        /// </summary>
+        public static string Msg_AutoSaveFailed {
+            get {
+                return ResourceManager.GetString("Msg_AutoSaveFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Auto-saved {0}.
+        /// </summary>
+        public static string Msg_AutoSaved {
+            get {
+                return ResourceManager.GetString("Msg_AutoSaved", resourceCulture);
             }
         }
         
@@ -11227,6 +11291,24 @@ namespace UndertaleModTool.Localization {
         public static string Msg_ExportShader {
             get {
                 return ResourceManager.GetString("Msg_ExportShader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to open the external editor: {0}.
+        /// </summary>
+        public static string Msg_ExternalEditorFailed {
+            get {
+                return ResourceManager.GetString("Msg_ExternalEditorFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This asset is not stored as a file yet. Save the project first..
+        /// </summary>
+        public static string Msg_ExternalEditorNotSaved {
+            get {
+                return ResourceManager.GetString("Msg_ExternalEditorNotSaved", resourceCulture);
             }
         }
         
@@ -16970,6 +17052,42 @@ namespace UndertaleModTool.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Auto-save project changes.
+        /// </summary>
+        public static string Settings_AutoSaveProject {
+            get {
+                return ResourceManager.GetString("Settings_AutoSaveProject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Whether edits to project assets are written to the project folder automatically, so a crash or a forced process kill cannot lose unsaved work. Only changed assets are written, and saving happens in the background..
+        /// </summary>
+        public static string Settings_AutoSaveProjectToolTip {
+            get {
+                return ResourceManager.GetString("Settings_AutoSaveProjectToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Auto-save interval (seconds).
+        /// </summary>
+        public static string Settings_AutoSaveProjectInterval {
+            get {
+                return ResourceManager.GetString("Settings_AutoSaveProjectInterval", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Seconds between automatic project saves. Values outside 30-3600 are clamped..
+        /// </summary>
+        public static string Settings_AutoSaveProjectIntervalToolTip {
+            get {
+                return ResourceManager.GetString("Settings_AutoSaveProjectIntervalToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Browse.
         /// </summary>
         public static string Settings_BackgroundBrowse {
@@ -17750,6 +17868,24 @@ namespace UndertaleModTool.Localization {
         public static string Settings_TransparencyGridColors {
             get {
                 return ResourceManager.GetString("Settings_TransparencyGridColors", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Touch-friendly UI.
+        /// </summary>
+        public static string Settings_UiTouchMode {
+            get {
+                return ResourceManager.GetString("Settings_UiTouchMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enlarge buttons, tabs and input fields so touch input is accurate.
+        /// </summary>
+        public static string Settings_UiTouchMode_ToolTip {
+            get {
+                return ResourceManager.GetString("Settings_UiTouchMode_ToolTip", resourceCulture);
             }
         }
         
